@@ -1,0 +1,696 @@
+{
+ "group": "gut-fibre",
+ "items_assigned": [
+  "Psyllium husk (ispaghula)",
+  "Wheat bran and insoluble fibre supplements for IBS",
+  "Prebiotics: inulin, FOS, GOS",
+  "Probiotics, named strain only",
+  "Generic multi-strain probiotic blends",
+  "B. infantis 35624 (single strain)",
+  "L-glutamine for gut repair",
+  "Lactase and pancreatic enzymes",
+  "Over-the-counter digestive enzyme blends"
+ ],
+ "submission": {
+  "items": [
+   {
+    "supplement": "Psyllium husk (ispaghula)",
+    "availability": "RICH",
+    "availability_note": "Psyllium husk is itself a food ingredient (the milled seed coat of Plantago ovata), not an extracted molecule, so the supplement and the food are the same material. Ordinary foods also supply the same class of viscous soluble fibre: oats and oat bran (beta-glucan), pearled barley, and legumes. USDA FDC records for psyllium husk powder give 67 g soluble and 11 g insoluble fibre per 100 g (FDC 1742558).",
+    "foods": [
+     {
+      "food": "Psyllium husk powder, plain (food-grade, unflavoured)",
+      "per_100g": "67 g soluble fibre, 11 g insoluble fibre, 78 g total dietary fibre",
+      "portion": "1 tbsp (9 g; serving weight stated in the same USDA record)",
+      "per_portion": "6.0 g soluble fibre, 7.0 g total fibre",
+      "pct_rda_or_dose": "90% of the 10 g/day husk dose used in the Bijkerk IBS trial (PMID 19713235); 23% of the 30 g/day UK fibre reference intake",
+      "source": "USDA FoodData Central FDC ID 1742558"
+     },
+     {
+      "food": "Oat bran, raw",
+      "per_100g": "15.4 g total dietary fibre",
+      "portion": "1 cup dry (94 g)",
+      "per_portion": "14.5 g total dietary fibre",
+      "pct_rda_or_dose": "48% of the 30 g/day UK fibre reference intake",
+      "source": "USDA FoodData Central FDC ID 168872; beta-glucan share 6-8% w/w in oats per Hughes & Grafenauer, Nutrients 2021;13:2556, DOI 10.3390/nu13082556"
+     },
+     {
+      "food": "Oatmeal, regular, cooked with water",
+      "per_100g": "0.42 g soluble fibre, 1.23 g insoluble fibre, 1.65 g total (AOAC 991.43)",
+      "portion": "1 cup cooked (234 g)",
+      "per_portion": "0.98 g soluble fibre, 3.9 g total fibre",
+      "pct_rda_or_dose": "15% of the ~6.7 g soluble fibre delivered by a 10 g psyllium husk dose",
+      "source": "Li BW, Andrews KW, Pehrsson PR. J Food Compos Anal 2002;15(6):715-723, DOI 10.1006/jfca.2002.1096 (soluble/insoluble fractions); portion weight USDA FDC ID 173905"
+     },
+     {
+      "food": "Barley, pearled, cooked",
+      "per_100g": "3.8 g total dietary fibre",
+      "portion": "1 cup cooked (157 g)",
+      "per_portion": "6.0 g total dietary fibre",
+      "pct_rda_or_dose": "20% of the 30 g/day UK fibre reference intake",
+      "source": "USDA FoodData Central FDC ID 170285; barley beta-glucan 4-10% w/w of grain per Hughes & Grafenauer, Nutrients 2021;13:2556, DOI 10.3390/nu13082556"
+     },
+     {
+      "food": "Red kidney beans, canned, drained",
+      "per_100g": "1.36 g soluble fibre, 5.77 g insoluble fibre, 7.13 g total",
+      "portion": "1 cup (177 g)",
+      "per_portion": "2.4 g soluble fibre, 12.6 g total fibre",
+      "pct_rda_or_dose": "36% of the ~6.7 g soluble fibre in a 10 g psyllium husk dose",
+      "source": "Li BW et al. J Food Compos Anal 2002;15(6):715-723, DOI 10.1006/jfca.2002.1096; portion weight USDA FDC ID 175194"
+     },
+     {
+      "food": "Lentils, mature seeds, cooked, boiled",
+      "per_100g": "0.44 g soluble fibre (Li 2002); 7.9 g total dietary fibre (USDA)",
+      "portion": "1 cup cooked (198 g)",
+      "per_portion": "0.87 g soluble fibre; 15.6 g total fibre",
+      "pct_rda_or_dose": "13% of the soluble fibre in a 10 g psyllium dose; 52% of the 30 g/day fibre reference intake",
+      "source": "USDA FoodData Central FDC ID 172421; soluble fraction Li BW et al. DOI 10.1006/jfca.2002.1096"
+     },
+     {
+      "food": "Chickpeas, mature seeds, cooked (soluble fraction measured on canned, drained)",
+      "per_100g": "0.41 g soluble fibre (Li 2002); 7.6 g total dietary fibre (USDA)",
+      "portion": "1 cup cooked (164 g)",
+      "per_portion": "0.67 g soluble fibre; 12.5 g total fibre",
+      "pct_rda_or_dose": "10% of the soluble fibre in a 10 g psyllium dose",
+      "source": "USDA FoodData Central FDC ID 173757; soluble fraction Li BW et al. DOI 10.1006/jfca.2002.1096"
+     }
+    ],
+    "dose_gap": "This is the one supplement in the group where the pill and the food are the same thing, so the gap is zero: the 10 g/day husk dose that beat placebo in primary-care IBS (Bijkerk 2009, BMJ 339:b3154, PMID 19713235) is about one heaped tablespoon, and 9 g of husk powder already supplies 6.0 g of soluble fibre (FDC 1742558). Matching that 6-7 g of SOLUBLE fibre from ordinary foods is a different matter: at 0.42 g/100 g you would need roughly 1.6 kg of cooked porridge (about 7 cups), at 0.44 g/100 g about 1.5 kg of cooked lentils, at 0.41 g/100 g about 1.6 kg of chickpeas, or about 500 g (3 cups) of canned kidney beans at 1.36 g/100 g. Cooked split peas are the trap: 10.65 g total fibre per 100 g but only 0.09 g of it soluble (Li 2002), so you would need roughly 7 kg. The separate, easier target of 3 g/day of oat or barley beta-glucan IS reachable by eating: about 40-50 g of dry oats at 6-8% w/w, or 75 g at 4% (Hughes & Grafenauer, DOI 10.3390/nu13082556). Summary: general soluble fibre is achievable from oats and barley; psyllium's specific gel dose is realistically only achievable from psyllium.",
+    "form_caveat": "There is no extract-versus-food problem here because psyllium husk is unprocessed plant material, but there are two real caveats. First, physical: the husk must be taken with a full glass of fluid, because a gel-forming dose swallowed dry can obstruct the oesophagus or bowel. Second, and more often missed, 'soluble fibre' on a label is not one thing. Psyllium's arabinoxylan gel is viscous and poorly fermented; inulin carries the same soluble-fibre label but ferments fast and produces gas, which is the opposite of what an IBS patient wants. Substituting one for the other on gram-for-gram grounds is a mistake. Third, oat beta-glucan's benefit tracks viscosity, which depends on molecular weight; milling, extrusion and prolonged heating degrade it, so a heavily processed oat product with an identical gram figure on the label is not equivalent to whole rolled oats.",
+    "bioavailability": "Nothing here is absorbed, so 'bioavailability' means viscosity, water-holding and fermentability. Psyllium holds water through the whole colon with a low gas yield, which is why it improves both constipation and diarrhoea; legume soluble fibre and inulin are largely fermented in the proximal colon and behave quite differently at the same gram intake. Analytical method is a real source of confusion: the AOAC 991.43 gravimetric soluble-fibre values used by Li et al. run systematically higher than the enzymatic-chemical (Englyst/NSP) values used in UK tables, and the authors say so explicitly, so soluble-fibre numbers from different tables should not be mixed. Head-to-head evidence backs the distinction: at the same 10 g dose, psyllium beat placebo at one and two months while wheat bran did not (PMID 19713235)."
+   },
+   {
+    "supplement": "Wheat bran and insoluble fibre supplements for IBS",
+    "availability": "RICH",
+    "availability_note": "Wheat bran is a food, sold as a plain milled cereal fraction, and it is one of the most fibre-dense foods in any composition table: 42.8 g total dietary fibre per 100 g (USDA FDC 169722), of which 35.0-48.4 g is insoluble and only 1.5-4.0 g soluble (Stevenson et al., Int J Food Sci Nutr 2012;63:1001-1013, DOI 10.3109/09637486.2012.687366). Arabinoxylan makes up about 70% of the non-starch polysaccharide, cellulose 24% and beta-glucan 6%. The problem with this supplement is not availability; it is that the indication is wrong.",
+    "foods": [
+     {
+      "food": "Wheat bran, crude (plain, unprocessed)",
+      "per_100g": "42.8 g total dietary fibre; 35.0-48.4 g insoluble and 1.5-4.0 g soluble",
+      "portion": "1 cup (58 g)",
+      "per_portion": "24.8 g total dietary fibre (roughly 20-28 g insoluble)",
+      "pct_rda_or_dose": "83% of the 30 g/day UK fibre reference intake; 5.8x the 10 g/day bran dose used in the Bijkerk IBS trial",
+      "source": "USDA FoodData Central FDC ID 169722; fibre fractions Stevenson L et al. DOI 10.3109/09637486.2012.687366"
+     },
+     {
+      "food": "Wheat bran flakes, ready-to-eat breakfast cereal",
+      "per_100g": "16.9 g total dietary fibre",
+      "portion": "1 NLEA serving, 0.75 cup (29 g)",
+      "per_portion": "4.9 g total dietary fibre",
+      "pct_rda_or_dose": "16% of the 30 g/day UK fibre reference intake",
+      "source": "USDA FoodData Central FDC ID 173002"
+     },
+     {
+      "food": "Bread, whole-wheat, commercially prepared",
+      "per_100g": "6.0 g total dietary fibre",
+      "portion": "2 slices (64 g)",
+      "per_portion": "3.8 g total dietary fibre",
+      "pct_rda_or_dose": "13% of the 30 g/day UK fibre reference intake",
+      "source": "USDA FoodData Central FDC ID 172688 (fibre and 32 g slice weight)"
+     },
+     {
+      "food": "Whole-grain wheat flour",
+      "per_100g": "10.7 g total dietary fibre",
+      "portion": "1 cup (120 g)",
+      "per_portion": "12.8 g total dietary fibre",
+      "pct_rda_or_dose": "43% of the 30 g/day UK fibre reference intake",
+      "source": "USDA FoodData Central FDC ID 168893"
+     }
+    ],
+    "dose_gap": "There is no dose gap at all, and that is the point worth making. The 10 g/day of bran tested against psyllium and placebo in IBS (PMID 19713235) is about 3 heaped tablespoons of plain wheat bran, or roughly 2 servings of bran flakes; a single cup of bran (58 g) is nearly six times the trial dose. Nobody needs a supplement to reach it. What the trial found is that reaching it does not help: bran was no better than placebo in months one and two, its month-three advantage did not survive worst-case analysis, and early dropout was highest in the bran arm specifically because IBS symptoms got worse. A separate review of the wheat bran literature reaches the same conclusion and quotes official guidance that wheat bran should not be recommended to people with IBS (DOI 10.3109/09637486.2012.687366).",
+    "form_caveat": "The food is safe and useful; the supplement indication is the problem. Wheat bran is a genuinely effective faecal bulking agent, with a mean increase of about 5 g of stool per 1 g of bran consumed (DOI 10.3109/09637486.2012.687366), and it is a reasonable food for ordinary constipation and general fibre intake. In IBS it commonly makes bloating, distension and pain worse, and it was the arm patients dropped out of. A second, less obvious caveat: wheat bran carries fructan (white wheat flour measures 0.75 g fructan/100 g, DOI 10.3389/fnut.2024.1446771), so a bran-loading strategy also raises FODMAP intake in exactly the patients least able to tolerate it. Insoluble-fibre supplements sold as 'IBS fibre' are marketing the wrong fibre class; the evidence in IBS favours the viscous, poorly fermented kind (psyllium).",
+    "bioavailability": "Not absorbed. The mechanism is mechanical bulking plus water-holding by arabinoxylan and cellulose, and it works: bran accelerates small bowel transit and increases faecal weight dose-dependently. Particle size matters more than gram total, because coarse bran bulks and irritates while finely milled bran loses much of the effect, so two products with the same fibre label are not interchangeable. Only 1.5-4.0 g per 100 g is soluble, so bran contributes almost nothing to the viscous-gel effects (cholesterol, glycaemia, stool consistency in diarrhoea) that people often assume 'fibre' delivers."
+   },
+   {
+    "supplement": "Prebiotics: inulin, FOS, GOS",
+    "availability": "RICH",
+    "availability_note": "Inulin and fructo-oligosaccharide (FOS) are genuinely abundant in ordinary plants: chicory root and Jerusalem artichoke at 12-20 g per 100 g fresh weight, garlic at 15.6-16.7 g per 100 g, onion at about 2 g per 100 g, with much smaller amounts in leek, asparagus, banana and wheat. GOS is the exception and should not be lumped in with them: the beta-galacto-oligosaccharide used in trials is manufactured enzymatically from lactose and has no meaningful presence in ordinary food, while the galacto-oligosaccharides that DO occur in legumes are alpha-galactosides (raffinose, stachyose, verbascose), a chemically different family. Habitual intake is low: measured mean fructan intake is 1.6-1.7 g/day in Slovenia (DOI 10.3389/fnut.2024.1446771) and median inulin intake 1.3 g/day in UK schoolchildren (PMID 40808333).",
+    "foods": [
+     {
+      "food": "Chicory root, raw (industrial inulin source; not eaten as a vegetable)",
+      "per_100g": "about 20 g inulin per 100 g fresh root",
+      "portion": "1 root (60 g)",
+      "per_portion": "about 12 g inulin",
+      "pct_rda_or_dose": "240% of a typical 5 g/day supplement dose, and above the 10 g/day tolerance ceiling for native inulin",
+      "source": "Nowicka et al., Molecules 2025;30(12):2507, DOI 10.3390/molecules30122507; portion weight USDA FDC ID 169993"
+     },
+     {
+      "food": "Jerusalem artichoke, raw tuber",
+      "per_100g": "12-13.6 g inulin per 100 g fresh tuber",
+      "portion": "1 cup slices (150 g)",
+      "per_portion": "18-20 g inulin",
+      "pct_rda_or_dose": "360-400% of a 5 g/day supplement dose; roughly twice the 10 g/day tolerated ceiling",
+      "source": "Nowicka et al., DOI 10.3390/molecules30122507; portion weight USDA FDC ID 169236"
+     },
+     {
+      "food": "Garlic, raw",
+      "per_100g": "15.6-16.7 g inulin",
+      "portion": "1 clove (3 g)",
+      "per_portion": "about 0.5 g inulin",
+      "pct_rda_or_dose": "10% of a 5 g/day supplement dose",
+      "source": "Van Loo J et al., Crit Rev Food Sci Nutr 1995;35(6):525-552, PMID 8777017, as tabulated in Nutrition Bulletin 2025, PMID 40808333; portion weight USDA FDC ID 169230"
+     },
+     {
+      "food": "Onion, mature, raw",
+      "per_100g": "1.97 ± 0.05 g fructan (AOAC 999.03)",
+      "portion": "1 medium onion (110 g)",
+      "per_portion": "2.2 g fructan",
+      "pct_rda_or_dose": "43% of a 5 g/day supplement dose",
+      "source": "Ferjancic B et al., Front Nutr 2024;11:1446771, DOI 10.3389/fnut.2024.1446771; portion weight USDA FDC ID 170000"
+     },
+     {
+      "food": "Leek, bulb and lower leaf, raw",
+      "per_100g": "0.24 ± 0.00 g fructan (AOAC 999.03)",
+      "portion": "1 leek (89 g)",
+      "per_portion": "0.21 g fructan",
+      "pct_rda_or_dose": "4% of a 5 g/day supplement dose",
+      "source": "Ferjancic B et al., DOI 10.3389/fnut.2024.1446771; portion weight USDA FDC ID 169246. Note Muir et al. (PMID 17625872) found 1.2-17.4 g/100 g across high-fructan alliums including leek bulb, so leek is highly variable by part and cultivar"
+     },
+     {
+      "food": "Asparagus, raw spear",
+      "per_100g": "1.48 ± 0.17 g inulin per 100 g dry matter, i.e. roughly 0.1 g per 100 g fresh spear",
+      "portion": "1 cup raw (134 g)",
+      "per_portion": "about 0.14 g inulin (converted from dry-matter basis)",
+      "pct_rda_or_dose": "about 3% of a 5 g/day supplement dose",
+      "source": "Goni I et al., Foods 2024;13(8):1154, DOI 10.3390/foods13081154 (dry-matter basis); portion weight USDA FDC ID 168389"
+     },
+     {
+      "food": "Banana, raw",
+      "per_100g": "0.11 ± 0.01 g fructan (AOAC 999.03)",
+      "portion": "1 medium banana (118 g)",
+      "per_portion": "0.13 g fructan",
+      "pct_rda_or_dose": "under 3% of a 5 g/day supplement dose",
+      "source": "Ferjancic B et al., DOI 10.3389/fnut.2024.1446771; portion weight USDA FDC ID 173944"
+     },
+     {
+      "food": "Wheat bread and white wheat flour (the largest habitual contributor)",
+      "per_100g": "0.14 ± 0.03 g fructan in white bread; 0.75 ± 0.04 g in white wheat flour T500",
+      "portion": "2 slices bread (64 g)",
+      "per_portion": "0.09 g fructan",
+      "pct_rda_or_dose": "about 2% of a 5 g/day supplement dose, but bread and flour supplied the largest single share of habitual fructan intake in the source survey",
+      "source": "Ferjancic B et al., DOI 10.3389/fnut.2024.1446771; slice weight USDA FDC ID 172688"
+     }
+    ],
+    "dose_gap": "Supplement doses are typically 5-10 g/day, against a habitual dietary intake of only 1.3-1.7 g/day. Adding 5 g of fructan by eating means roughly 250 g of raw onion (two to three medium onions), or about 30 cloves of garlic, or about 40 g of Jerusalem artichoke, or roughly 4.5 kg of banana, or about 5 kg of raw asparagus. So the answer splits: for onion, garlic, chicory root and Jerusalem artichoke the dose is reachable; for banana, leek and asparagus it is not, by two orders of magnitude. The tolerance ceiling is the more useful number. In a randomised crossover trial, up to 10 g/day of native inulin and up to 5 g/day of oligofructose were well tolerated, while 10 g of oligofructose substantially increased symptoms, chiefly flatulence then bloating (Bonnema et al., J Am Diet Assoc 2010;110:865-868, PMID 20497775). With FOS, excess flatus began above 30 g/day, borborygmi and bloating above 40 g/day, and cramps and diarrhoea at 50 g/day, and chronic dosing did not build tolerance (Briet et al., Eur J Clin Nutr 1995;49:501-507, PMID 7588500). One cup of Jerusalem artichoke therefore delivers roughly twice the tolerated daily ceiling in a single sitting. GOS is a hard no: the beta-GOS doses used in trials (a few grams a day) are made industrially by transgalactosylation of lactose, and no ordinary food supplies them.",
+    "form_caveat": "Chicory root is the classic textbook answer and a bad recommendation: it is the industrial source of inulin but it is not eaten as a vegetable in normal diets (it is roasted as a coffee substitute), so its 20 g/100 g headline is not a dietary route. It also illustrates why fibre tables and fructan assays disagree, since USDA lists chicory root at only 1.5 g total dietary fibre per 100 g (FDC 169993) because the method used for that record does not capture inulin. Purified inulin and oligofructose are safe as food ingredients, but concentration is exactly what causes the symptoms: the same molecule that is unremarkable spread across a day's vegetables provokes flatulence and bloating as a single 10 g bolus (PMID 20497775). The reverse caveat matters clinically: the 'eat more prebiotic vegetables' list (onion, garlic, leek, Jerusalem artichoke, wheat) is precisely the list a low-FODMAP diet removes, so in IBS the food route and the supplement route can both make things worse. Finally, do not treat legume alpha-GOS as a food form of supplemental beta-GOS; in Phaseolus vulgaris the measured content is raffinose 0.8-7.4 mg/g, stachyose 20.0-30.9 mg/g and verbascose 0.3-1.3 mg/g (DOI 10.3390/foods15020391), different molecules with different bacterial targets and a well-known flatulence profile of their own.",
+    "bioavailability": "Fructans are not absorbed at all, so the variable is where and how fast they ferment, and chain length decides that. Oligofructose (DP 2-8) ferments proximally and quickly, which is why its tolerated dose was half that of long-chain native inulin in the same trial (5 g versus 10 g, PMID 20497775). Assay and plant part also drive the numbers: onion measured 1.97 g/100 g and leek 0.24 g/100 g by AOAC 999.03 in one national survey (DOI 10.3389/fnut.2024.1446771), while an Australian survey using the Megazyme assay reported 1.2-17.4 g/100 g across high-fructan alliums including leek bulb (PMID 17625872). Storage matters too, since fructan is depolymerised during onion storage. Single figures should be read as indicative, not exact."
+   },
+   {
+    "supplement": "Probiotics, named strain only",
+    "availability": "SYNTHETIC",
+    "availability_note": "A named probiotic strain is a single clonal isolate held in a culture bank, grown in industrial fermenters, freeze-dried and encapsulated. No food contains it. Fermented foods do carry large numbers of live lactic acid bacteria, but the species and strains present are whichever organisms grow in that food and its starter, never the deposited trial strain. Because probiotic efficacy is demonstrated strain by strain, a food supplying a different strain of the same species is a different product, not a substitute. Numbers for the live-organism load of fermented foods are given under the generic multi-strain entry.",
+    "foods": [],
+    "dose_gap": "The gap is categorical, not quantitative, and no quantity of food closes it. Named-strain doses in trials run from about 1x10^8 to 1x10^10 CFU/day; for example Bifidobacterium longum (formerly infantis) 35624 was effective at 1x10^8 CFU/day (PMID 16863564). A single cup of kefir at 2.5x10^8 CFU/mL supplies roughly 6x10^10 live lactic acid bacteria (DOI 10.3390/foods15101616), so the raw CFU total is easily exceeded by food. The fraction of those cells belonging to the trialled strain is zero, so the CFU comparison is meaningless for a strain-specific claim.",
+    "form_caveat": "This is the single most important form caveat in the assignment. Clinical evidence for probiotics is strain-specific, and often formulation-specific and indication-specific on top of that. Yoghurt, kefir, sauerkraut, kimchi, miso, natto and tempeh do not contain the strains tested in the trials, so evidence generated with a named strain does not transfer to any fermented food, and does not transfer to a different strain of the same species either. Eating fermented food is a reasonable dietary habit with its own emerging evidence base, and it is not a substitute for a named strain at a defined dose when a specific clinical effect is the goal. Two further practical caveats: heat kills the organisms, so a pasteurised or cooked ferment (canned sauerkraut, miso stirred into boiling soup, baked tempeh) delivers no live cells at all; and species-level labelling on a supplement ('contains Lactobacillus acidophilus') without a strain designation carries no more transferable evidence than a food does.",
+    "bioavailability": "Survival of gastric acid and bile is strain-dependent, and the delivery matrix changes it: the fat and buffering capacity of a dairy food improves survival relative to a bare capsule, while enteric coating or microencapsulation is used to achieve the same in supplements. Dose is not monotonic, which is the clearest evidence that formulation matters as much as CFU count. In a 362-patient dose-ranging trial, B. infantis 35624 at 1x10^8 CFU/day was significantly superior to placebo and to the other doses, while 1x10^6 and 1x10^10 CFU/day were not, with the highest dose failing because the capsule formulation gelled (Whorwell et al., Am J Gastroenterol 2006;101:1581-1590, PMID 16863564). A higher label CFU is therefore not better, and label CFU at manufacture is not the same as viable CFU at end of shelf life."
+   },
+   {
+    "supplement": "Generic multi-strain probiotic blends",
+    "availability": "RICH",
+    "availability_note": "Classified RICH strictly in terms of live-organism load, not in terms of any specific strain. If the deliverable is 'a large number of live lactic acid bacteria of common genera', several ordinary fermented foods supply it at or above supplement label doses: yoghurt has been surveyed at up to 10^9 CFU/g, kefir at 2.5x10^8 CFU/mL, unpasteurised sauerkraut at about 2x10^8 CFU/g, and kimchi at 10^7.14 to 10^9.23 CFU/g. If the deliverable is a defined blend of characterised strains at a stated dose, no food supplies it. One gap in the sourcing: I could not find a peer-reviewed viable count for natto, which is fermented with Bacillus subtilis var. natto and sold unpasteurised, so no CFU figure is given for it here rather than an estimate; tempeh is included instead as a sourced soy ferment.",
+    "foods": [
+     {
+      "food": "Yoghurt, plain, with live cultures",
+      "per_100g": "below 10^4 to 10^9 CFU/g across surveyed products; commonly around 10^8 CFU/g",
+      "portion": "1 cup (245 g)",
+      "per_portion": "roughly 2x10^10 CFU at 10^8 CFU/g",
+      "pct_rda_or_dose": "2-20x a typical 1-10 billion CFU/day label dose",
+      "source": "Rezac S, Kok CR, Heermann M, Hutkins R. Front Microbiol 2018;9:1785, PMID 30197628, DOI 10.3389/fmicb.2018.01785; portion weight USDA FDC ID 171284"
+     },
+     {
+      "food": "Kefir, milk, fermented with milk kefir grains",
+      "per_100g": "8.40 log CFU/mL lactic acid bacteria (2.5x10^8/mL) plus 8.00 log CFU/mL yeasts at 48 h",
+      "portion": "1 cup (244 mL)",
+      "per_portion": "about 6x10^10 lactic acid bacteria plus about 2x10^10 yeasts",
+      "pct_rda_or_dose": "6-60x a typical 1-10 billion CFU/day label dose",
+      "source": "Outeirino EB et al., Foods 2026;15(10):1616, DOI 10.3390/foods15101616; portion weight USDA FDC ID 171265 (whole milk, 1 cup = 244 g)"
+     },
+     {
+      "food": "Sauerkraut, unpasteurised (raw, refrigerated)",
+      "per_100g": "8.3 log CFU/g lactic acid bacteria (commercial, starter culture); 7 log CFU/g in spontaneous fermentation",
+      "portion": "1 cup (142 g)",
+      "per_portion": "about 3x10^10 CFU at 8.3 log",
+      "pct_rda_or_dose": "3-30x a typical 1-10 billion CFU/day label dose",
+      "source": "Rezac S et al., PMID 30197628, DOI 10.3389/fmicb.2018.01785; portion weight USDA FDC ID 169279. The USDA entry is canned sauerkraut, which is pasteurised and contains no live cells"
+     },
+     {
+      "food": "Kimchi, cabbage, retail",
+      "per_100g": "7.14-9.23 log CFU/g lactic acid bacteria",
+      "portion": "1 cup (150 g)",
+      "per_portion": "2x10^9 to 2.5x10^11 CFU",
+      "pct_rda_or_dose": "from roughly equal to 250x a typical 1-10 billion CFU/day label dose",
+      "source": "Rezac S et al., PMID 30197628, DOI 10.3389/fmicb.2018.01785; portion weight USDA FDC ID 170392"
+     },
+     {
+      "food": "Miso",
+      "per_100g": "2.1-7.1 log CFU/g aerobic bacteria (supermarket samples)",
+      "portion": "1 tbsp (17 g)",
+      "per_portion": "up to about 2x10^8 CFU, and as low as 10^3",
+      "pct_rda_or_dose": "at best about 2-20% of a 1-10 billion CFU/day label dose",
+      "source": "Rezac S et al., PMID 30197628, DOI 10.3389/fmicb.2018.01785; portion weight USDA FDC ID 172442"
+     },
+     {
+      "food": "Tempeh",
+      "per_100g": "7.01 log CFU/g lactic acid bacteria (laboratory-made); 3-9 log CFU/g across retail and food-service samples, with 81% above 10^7 CFU/g",
+      "portion": "1 serving (100 g)",
+      "per_portion": "about 1x10^9 CFU at 7 log, up to 10^11 at the top of the range",
+      "pct_rda_or_dose": "roughly 0.1-100x a typical 1-10 billion CFU/day label dose",
+      "source": "Rezac S et al., PMID 30197628, DOI 10.3389/fmicb.2018.01785"
+     }
+    ],
+    "dose_gap": "For total live cells there is no gap. The source review calculates that about 10^10 cells is the intake likely needed to affect the microbiota, and that this is met by 100 g of a food carrying 10^8 cells/g (PMID 30197628). One cup of kefir, one cup of yoghurt, about 120 g of raw sauerkraut or a cup of kimchi each clear that bar, and kimchi at the top of its measured range delivers more live organisms in one serving than most 50-billion-CFU capsules. The gap is entirely qualitative: identity, characterisation and consistency. Fermented food counts vary across four to six orders of magnitude between products and batches (yoghurt below 10^4 to 10^9 CFU/g), the organisms are usually not identified to strain, and none of them are the strains in the blend on the label.",
+    "form_caveat": "Fermented food is a reasonable dietary habit; it is not a substitute for a named strain at a defined dose. Even a generic blend at least tells you which species you are getting and roughly how many; a jar of sauerkraut tells you neither, and a pasteurised jar tells you nothing because it contains no live cells. The practical points that decide whether a food delivers anything: it must be labelled raw, unpasteurised or 'live cultures' and kept refrigerated; heat destroys the organisms, so miso added to boiling soup, cooked kimchi and baked tempeh contribute essentially nothing; and long-aged cheeses can be several orders of magnitude lower than young ones. Conversely, a supplement claim of 50 billion CFU means little if the strains are unnamed, because probiotic effects are demonstrated strain by strain, and CFU counts on labels refer to manufacture, not to end of shelf life.",
+    "bioavailability": "Gastric and bile survival is strain-dependent and matrix-dependent. Fermented dairy foods buffer stomach acid and their fat content improves transit survival, which is a genuine advantage of the food route over an uncoated capsule; supplements compensate with enteric coating or microencapsulation. Almost none of these organisms colonise permanently, so the effect is dose-dependent and ceases when intake stops, which applies equally to food and to capsules. The source review notes that many fermentation microbes are closely related to probiotic organisms and can share mechanisms, which is the honest basis for recommending fermented food, but relatedness is not equivalence, and it does not license transferring a strain-specific trial result onto a jar of kimchi."
+   },
+   {
+    "supplement": "B. infantis 35624 (single strain)",
+    "availability": "SYNTHETIC",
+    "availability_note": "This strain was isolated from the ileal mucosa of a healthy human donor, not from any food, and has since been reclassified from Bifidobacterium longum subsp. infantis to B. longum subsp. longum 35624 (genome and exopolysaccharide characterisation: PLOS One 2016;11:e0162983, PMC5033381). It is propagated industrially from a proprietary strain bank and freeze-dried. It is present in no food, no fermented food and no other supplement brand. Comparative genome analysis identified a 35624-specific gene cluster encoding the biosynthesis of its exopolysaccharide EPS624, which is the kind of strain-level distinction that makes substitution unsound.",
+    "foods": [],
+    "dose_gap": "Infinite: there is no quantity of any food that supplies this strain. The trial dose is small in absolute terms, 1x10^8 CFU/day, which is roughly the number of live bacteria in half a gram of unpasteurised sauerkraut, so the dose is not the obstacle; the identity is. Fermented foods can supply a thousand times more live cells than the effective dose of 35624 while supplying none of it.",
+    "form_caveat": "The dose-response data make the point better than any argument about food. In the 362-patient dose-ranging trial, 1x10^8 CFU/day of B. infantis 35624 was significantly superior to placebo for abdominal pain, the composite score, bloating, bowel dysfunction and incomplete evacuation, while 1x10^6 and 1x10^10 CFU/day were not, the highest dose having formed a gel in the capsule (Whorwell et al., Am J Gastroenterol 2006;101:1581-1590, PMID 16863564). If a tenfold change in dose of the same strain in the same capsule abolishes the effect, then swapping the strain for a different Bifidobacterium in a yoghurt cannot be assumed to preserve it. Anyone advised to take 35624 should be told plainly that no diet reproduces it, and that a generic bifidobacterium supplement is not the same product.",
+    "bioavailability": "The strain was selected partly for surviving gastrointestinal transit, and its documented actions are immunoregulatory and barrier-related rather than nutritional: enhanced gut barrier function, accelerated intestinal transit and reduced visceral hypersensitivity. It does not permanently colonise, so the effect depends on continued daily intake. Formulation dominates delivery: the failure of the 1x10^10 CFU arm was a formulation failure, not evidence against high cell numbers, and it is the clearest illustration that CFU on a label is not the active variable on its own."
+   },
+   {
+    "supplement": "L-glutamine for gut repair",
+    "availability": "RICH",
+    "availability_note": "Glutamine is one of the most abundant amino acids in ordinary dietary protein, so any protein-containing meal supplies it. The important caveat about the numbers: USDA composition tables report 'glutamic acid', which after the acid hydrolysis used in amino acid analysis is the sum of glutamate and glutamine, because glutamine is converted to glutamate during hydrolysis. The figures below are therefore the combined Glu plus Gln pool, and the glutamine share of that pool is roughly half in most animal proteins. Treat the values as an upper bound on glutamine content.",
+    "foods": [
+     {
+      "food": "Cod, Atlantic, cooked, dry heat",
+      "per_100g": "3.408 g glutamic acid (Glu + Gln pool)",
+      "portion": "1 fillet (180 g)",
+      "per_portion": "6.13 g Glu + Gln",
+      "pct_rda_or_dose": "41% of the 15 g/day glutamine dose used in the post-infectious IBS trial (PMID 30108163)",
+      "source": "USDA FoodData Central FDC ID 171956"
+     },
+     {
+      "food": "Natto (fermented soybean)",
+      "per_100g": "3.337 g glutamic acid (Glu + Gln pool)",
+      "portion": "1 cup (175 g)",
+      "per_portion": "5.84 g Glu + Gln",
+      "pct_rda_or_dose": "39% of a 15 g/day dose",
+      "source": "USDA FoodData Central FDC ID 172443"
+     },
+     {
+      "food": "Chicken breast, meat only, roasted",
+      "per_100g": "4.645 g glutamic acid (Glu + Gln pool)",
+      "portion": "half a breast, bone and skin removed (86 g)",
+      "per_portion": "4.00 g Glu + Gln",
+      "pct_rda_or_dose": "27% of a 15 g/day dose",
+      "source": "USDA FoodData Central FDC ID 171477"
+     },
+     {
+      "food": "Beef, top sirloin cap steak, grilled",
+      "per_100g": "4.251 g glutamic acid (Glu + Gln pool)",
+      "portion": "3 oz (85 g)",
+      "per_portion": "3.61 g Glu + Gln",
+      "pct_rda_or_dose": "24% of a 15 g/day dose",
+      "source": "USDA FoodData Central FDC ID 173061"
+     },
+     {
+      "food": "Parmesan cheese, hard",
+      "per_100g": "8.209 g glutamic acid (Glu + Gln pool), the densest ordinary food source",
+      "portion": "1 oz (28.35 g)",
+      "per_portion": "2.33 g Glu + Gln",
+      "pct_rda_or_dose": "16% of a 15 g/day dose",
+      "source": "USDA FoodData Central FDC ID 170848"
+     },
+     {
+      "food": "Lentils, mature seeds, cooked, boiled",
+      "per_100g": "1.399 g glutamic acid (Glu + Gln pool)",
+      "portion": "1 cup cooked (198 g)",
+      "per_portion": "2.77 g Glu + Gln",
+      "pct_rda_or_dose": "18% of a 15 g/day dose",
+      "source": "USDA FoodData Central FDC ID 172421"
+     },
+     {
+      "food": "Tofu, firm (calcium sulfate and nigari)",
+      "per_100g": "1.721 g glutamic acid (Glu + Gln pool)",
+      "portion": "half a cup (126 g)",
+      "per_portion": "2.17 g Glu + Gln",
+      "pct_rda_or_dose": "14% of a 15 g/day dose",
+      "source": "USDA FoodData Central FDC ID 172448"
+     },
+     {
+      "food": "Milk, whole, 3.25% fat",
+      "per_100g": "0.708 g glutamic acid (Glu + Gln pool)",
+      "portion": "1 cup (244 g)",
+      "per_portion": "1.73 g Glu + Gln",
+      "pct_rda_or_dose": "12% of a 15 g/day dose",
+      "source": "USDA FoodData Central FDC ID 171265"
+     },
+     {
+      "food": "Egg, whole, hard-boiled",
+      "per_100g": "1.644 g glutamic acid (Glu + Gln pool)",
+      "portion": "1 large egg (50 g)",
+      "per_portion": "0.82 g Glu + Gln",
+      "pct_rda_or_dose": "5% of a 15 g/day dose",
+      "source": "USDA FoodData Central FDC ID 173424"
+     }
+    ],
+    "dose_gap": "Small, and this is the one entry where the food route is genuinely competitive. The trial dose is 5 g three times daily, 15 g/day for 8 weeks, in post-infectious diarrhoea-predominant IBS with increased intestinal permeability (Zhou et al., Gut 2019;68:996-1002, PMID 30108163). On the combined Glu plus Gln figures, 15 g comes from about 323 g of cooked chicken breast, 440 g of cod (about 2.5 fillets), 183 g of parmesan, 865 g of natto or roughly 1.1 kg of cooked lentils. Correcting for the fact that only about half that pool is glutamine, matching 15 g of glutamine specifically needs roughly double those amounts, so about 600-700 g of cooked chicken breast a day: a large amount of meat, but not an impossible one, and an ordinary diet supplying 80-100 g of protein already delivers on the order of 8-12 g of glutamine. So the supplement roughly doubles habitual glutamine intake rather than supplying something the diet lacks. It is not a case like creatine or NMN where food cannot get close.",
+    "form_caveat": "The difference is not the amount, it is the delivery. The trial gave 5 g of free crystalline L-glutamine three times a day on an empty-stomach schedule, producing a sharp luminal and plasma bolus; dietary glutamine arrives protein-bound, released slowly by digestion, and a large fraction is consumed by the enterocytes themselves on first pass. Whether the clinical effect depends on that bolus pattern has not been tested against a food-protein comparator, so 'just eat more protein' is a plausible but unproven substitution. Two practical points: free glutamine is heat-labile and degrades in aqueous solution, so cooking and storage reduce the free glutamine in food while leaving protein-bound glutamine intact; and glutamine supplementation is not risk-free in everyone, since it is a nitrogen donor and high doses warrant caution in hepatic or renal impairment, whereas the same amount arriving as ordinary food protein raises no comparable concern.",
+    "bioavailability": "Absorbed as free amino acid and as di- and tripeptides, then extensively extracted by the small intestinal mucosa on first pass, which is the mechanistic argument for a gut-directed effect and also the reason plasma appearance underestimates delivery to the target tissue. Because USDA reports Glu and Gln as one pooled value, no composition table can tell you the true glutamine content of a food, and any per-food glutamine figure quoted to two decimal places should be treated with suspicion. In the trial, the measured mechanism was normalisation of an elevated urinary lactulose/mannitol ratio, so the endpoint was permeability, not amino acid status; a food equivalent would have to reproduce the permeability effect, which has not been shown."
+   },
+   {
+    "supplement": "Lactase and pancreatic enzymes",
+    "availability": "SYNTHETIC",
+    "availability_note": "Both are manufactured, by different routes, and neither has a dietary source. Lactase supplements are microbial beta-galactosidase produced by fermentation of Aspergillus oryzae, A. niger or the yeast Kluyveromyces lactis and then purified; the mammalian brush-border lactase that the supplement substitutes for is a membrane enzyme of the small intestinal epithelium and is not present in any food. Pancreatic enzyme replacement (pancreatin, pancrelipase) is an extract of porcine pancreas glands: the source review states plainly that the preparations with demonstrated efficacy are derived from porcine sources (de la Iglesia et al., eClinicalMedicine 2026;94:103880, DOI 10.1016/j.eclinm.2026.103880). The nearest thing to a food source is pancreas eaten as offal (sweetbread), which is not a realistic route for the reasons in the dose gap.",
+    "foods": [],
+    "dose_gap": "For pancreatic enzymes the gap is absolute. Recommended dosing is a minimum of 40,000-50,000 units of lipase with main meals and 20,000-25,000 units with snacks, taken with every meal for life (DOI 10.1016/j.eclinm.2026.103880). No food supplies active lipase in those quantities. Raw pancreas is the only tissue that contains the enzymes at all, it is not eaten raw in any normal diet, cooking denatures them, the delivered activity would be unmeasurable and uncontrolled, and there is no enteric protection so gastric acid would destroy most of what survived. For lactase, the gap is more interesting. There is one genuine partial food route: live yoghurt and kefir cultures carry microbial beta-galactosidase into the gut, which is why fermented dairy is better tolerated than milk by lactase-non-persistent people. But that only handles the lactose in the fermented product itself; it does not give you dose-adjustable enzyme to take with an arbitrary lactose-containing meal, which is the whole point of a lactase capsule. I did not find a peer-reviewed per-100-g beta-galactosidase activity figure for retail yoghurt, so no number is given rather than an estimate.",
+    "form_caveat": "For pancreatin, the caveats are pharmaceutical, not dietary. Dose must be titrated to steatorrhoea, meal fat content and disease severity; the enzymes must be enteric-coated to survive gastric acid; the capsules are taken during the meal, not before or after; and the porcine origin is a real issue for vegetarian, vegan, Muslim and Jewish patients and should be disclosed. Nothing sold as a plant-based or 'vegan pancreatic enzyme' has demonstrated equivalence for pancreatic exocrine insufficiency, and treating a diagnosed insufficiency with a supermarket digestive enzyme blend risks continued fat malabsorption, weight loss and fat-soluble vitamin deficiency. For lactase, the honest framing is that this is a targeted, cheap, low-risk aid rather than a nutrient: the alternative food strategy (hard cheese, live yoghurt, small lactose doses spread through the day) works for many people, and lactase capsules only matter when the meal is unavoidable and the dose is large.",
+    "bioavailability": "Both are enzymes, so 'bioavailability' means surviving intact and active to the site of action rather than being absorbed. Lactase works in the lumen of the upper small intestine and is itself digested, so the timing relative to the lactose load determines the effect. Pancreatic lipase is irreversibly denatured below about pH 4, which is why uncoated pancreatin is largely wasted and why the field has moved to pH-sensitive enteric microspheres, and why an emerging approach is adding bicarbonate to raise local pH around the pancreatin. Coadministered acid suppression is sometimes needed to make the enzymes work at all. None of this can be replicated by eating anything."
+   },
+   {
+    "supplement": "Over-the-counter digestive enzyme blends",
+    "availability": "NOT_FOOD",
+    "availability_note": "The active ingredients come either from plant parts nobody eats or from industrial fermentation. Commercial bromelain is extracted from pineapple stem and basal stem, not from the flesh: measured activity is 2,909 GDU/g in basal stems, 1,179 GDU/g in peels and 694 GDU/g in cores, while crowns had activity below the detection limit (Foods 2024;13(4):589, DOI 10.3390/foods13040589). Papain is a cysteine endopeptidase complex obtained from the latex of unripe Carica papaya, again not the ripe flesh that is eaten; multiple EFSA food-enzyme opinions describe exactly this source and note that dietary exposure from its use as a processing aid is of the same order as, or up to one order of magnitude above, the intake of the corresponding fraction from unripe papaya latex (for example EFSA Journal 2026, DOI 10.2903/j.efsa.2026.9950). The amylase, protease, lipase and lactase components of these blends are Aspergillus or yeast fermentation products with no dietary presence. USDA does record the edible fruits (pineapple raw, FDC 169124; papaya raw, FDC 169926), but no proteolytic activity value for the eaten flesh appeared in the sources found, so no figure is given for it.",
+    "foods": [],
+    "dose_gap": "Bromelain supplements are dosed by activity, typically 500-2,000 mg of a preparation standardised to around 2,400 GDU/g, giving roughly 1,200-4,800 GDU per dose. At the measured activities above, that is equivalent to about 0.4-1.7 g of basal stem extract or about 1-4 g of peel extract, and neither the basal stem nor the peel is eaten. Expressed against food you would actually put in your mouth, the answer is that it cannot be done: the crown has no detectable activity, the core (694 GDU/g) is usually discarded, and no sourced activity figure exists for the ripe flesh, which is the only part normally eaten. For papain the same logic applies with an added twist, since the source material is the latex of the unripe fruit, which is irritant and is not food. For the fungal amylase, protease and lipase components there is no food source at all. Any expectation that eating fresh pineapple or papaya delivers a supplement-equivalent enzyme dose is unsupported.",
+    "form_caveat": "The whole food is safe and the concentrate is not always. Fresh pineapple and papaya are ordinary fruit; concentrated bromelain has anticoagulant and antiplatelet activity and interacts with warfarin and antiplatelet drugs, and papain and chymopapain are recognised respiratory and contact allergens, which EFSA flags in its allergenicity assessments of the food enzyme. The matrix also destroys the premise: these are proteins, so heat and gastric acid inactivate them. Canned and cooked pineapple has no meaningful proteolytic activity left, which is why canned pineapple does not stop gelatin setting while fresh pineapple does, and any orally swallowed enzyme without enteric protection is exposed to pepsin and pH 2 before reaching the small intestine. The most important caveat is scope: these blends are not equivalent to pancreatic enzyme replacement and must not be substituted for it in diagnosed pancreatic exocrine insufficiency, where the requirement is 40,000-50,000 lipase units per meal in an enteric-coated porcine preparation (DOI 10.1016/j.eclinm.2026.103880). Nor is the plant-derived lactase in a blend interchangeable with a dose-standardised lactase product.",
+    "bioavailability": "Enzymes are not absorbed and do not need to be; they act in the lumen, so what matters is surviving to the right pH and place. Stem bromelain and fruit bromelain differ even in isoelectric point (pI 9.5 versus 4.6, DOI 10.3390/foods13040589), which is why extraction pH determines which enzyme you actually get and why 'bromelain' on a label does not identify a single molecule. Activity, not milligrams, is the meaningful unit, and GDU, CDU, FIP and USP units are not interconvertible, so a milligram figure on a bottle says almost nothing about what it will do. Both bromelain and papain are irreversibly denatured by cooking and largely by gastric acid unless enterically protected, so an uncoated capsule and a bowl of fresh pineapple share the same fundamental delivery problem."
+   }
+  ]
+ },
+ "verification_report": {
+  "group": "gut-fibre",
+  "number_checks": [
+   {
+    "claim": "Psyllium husk powder: 67 g soluble, 11 g insoluble, 78 g total dietary fibre per 100 g, per USDA FDC ID 1742558",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "FDC 1742558 exists and is 'NOW Psyllium Husk Powder', a BRANDED (manufacturer-label) record with a 9 g declared serving. It declares soluble fibre 67 g/100 g and insoluble fibre 11 g/100 g. Its 'Fiber, total dietary' field is declared as 0 g.",
+    "correction": "The 67/11 figures are correctly transcribed, but the '78 g total dietary fibre' is the submitter's own sum and appears nowhere in the record. Branded records are label declarations, not laboratory analysis, so 'USDA FDC records ... give' overstates the provenance; a Foundation/Legacy analysed value would be needed to support it. Independent analyses of psyllium husk put total dietary fibre at roughly 71-85 g/100 g, so the value is in range but the sourcing claim is not.",
+    "source": "USDA FoodData Central branded record 1742558 (verified via FDC mirror; brand owner NOW, serving 9 g)"
+   },
+   {
+    "claim": "9 g of husk supplies 6.0 g soluble and 7.0 g total fibre; 90% of the 10 g/day Bijkerk dose; 23% of 30 g/day",
+    "verdict": "OK",
+    "authoritative_value": "0.67 x 9 = 6.03 g; 0.78 x 9 = 7.02 g; 9/10 = 90%; 7.02/30 = 23.4%. The 9 g serving weight is confirmed in the record.",
+    "correction": "None. One presentational note: the '90%' is computed on husk mass while every other pct figure in the group is computed on fibre mass, so the bases are mixed within a single field.",
+    "source": "Arithmetic; FDC 1742558 serving weight"
+   },
+   {
+    "claim": "Bijkerk IBS trial used 10 g/day psyllium husk; psyllium beat placebo at months 1 and 2 while bran did not; dropout highest in the bran arm because IBS symptoms worsened (PMID 19713235)",
+    "verdict": "OK",
+    "authoritative_value": "BMJ 2009;339:b3154. 275 patients randomised to 10 g psyllium (n=85), 10 g bran (n=97) or 10 g placebo (rice flour). Psyllium responder rates 57% v 35% at month 1 and 59% v 41% at month 2; bran 57% v 32% at month 3. 'Early dropout was most common in the bran group; the main reason was that the symptoms of irritable bowel syndrome worsened.'",
+    "correction": "None. Doses, direction of effect and the dropout narrative are all accurate.",
+    "source": "PubMed PMID 19713235, verified abstract"
+   },
+   {
+    "claim": "Oat bran, raw: 15.4 g total dietary fibre per 100 g (FDC 168872); 1 cup dry 94 g gives 14.5 g",
+    "verdict": "OK",
+    "authoritative_value": "USDA FDC 168872 'Oat bran, raw' = 15.4 g total dietary fibre per 100 g. 15.4 x 0.94 = 14.48 g.",
+    "correction": "None.",
+    "source": "USDA FoodData Central legacy record 168872"
+   },
+   {
+    "claim": "Barley, pearled, cooked: 3.8 g total dietary fibre per 100 g (FDC 170285); 1 cup 157 g gives 6.0 g",
+    "verdict": "OK",
+    "authoritative_value": "USDA FDC 170285 'Barley, pearled, cooked' = 3.8 g total dietary fibre per 100 g. 3.8 x 1.57 = 5.97 g.",
+    "correction": "None.",
+    "source": "USDA FoodData Central legacy record 170285"
+   },
+   {
+    "claim": "Beta-glucan share 6-8% w/w in oats, and barley beta-glucan 4-10% w/w of grain, per Hughes & Grafenauer, Nutrients 2021;13:2556, DOI 10.3390/nu13082556",
+    "verdict": "WRONG",
+    "authoritative_value": "That paper (PMID 34444720, 'Oat and Barley in the Food Supply and Use of Beta Glucan Health Claims') is a label audit of 2,462 Australian and 44,894 global packaged products, reporting that only 1.5% of Australian and 0.9% of global products carry a beta-glucan claim. It contains no beta-glucan content percentages for oat or barley grain. For actual content, Stevenson et al. 2012 (the submission's own wheat-bran source) gives soluble fibre of 3-7% for oats and 3-11% for barley; rolled oats are typically about 4-4.5% beta-glucan, oat bran about 5.5-8%.",
+    "correction": "The source does not support either figure. 6-8% is oat-bran-level, not whole-oat-level. Cite a composition study, and use roughly 4-4.5% for rolled oats.",
+    "source": "PubMed PMID 34444720 verified abstract; Stevenson et al., Int J Food Sci Nutr 2012;63(8):1001-13, DOI 10.3109/09637486.2012.687366"
+   },
+   {
+    "claim": "Soluble/insoluble fractions for cooked oatmeal (0.42/1.23), canned kidney beans (1.36/5.77), lentils (0.44), chickpeas (0.41) and split peas (0.09) from Li BW, Andrews KW, Pehrsson PR, J Food Compos Anal 2002;15(6):715-723, DOI 10.1006/jfca.2002.1096",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "The paper is real and correctly cited: 'Individual Sugars, Soluble, and Insoluble Dietary Fiber Contents of 70 High Consumption Foods', J Food Compos Anal 2002;15:715-723, DOI 10.1006/jfca.2002.1096, USDA authors, and it does report that legumes had the highest total dietary fibre. The per-food table could not be retrieved.",
+    "correction": "None available. Flagged as unverified because the entire soluble-fibre dose-gap argument (1.5-1.6 kg of lentils, 7 kg of split peas) rests on these single-study values, and the submission itself notes AOAC 991.43 soluble values run high relative to Englyst/NSP. A second source should be added.",
+    "source": "DOI 10.1006/jfca.2002.1096 (title/journal/pages confirmed; data table not retrieved)"
+   },
+   {
+    "claim": "Wheat bran, crude: 42.8 g total dietary fibre per 100 g (FDC 169722); 1 cup 58 g gives 24.8 g, 83% of 30 g/day, 5.8x the 10 g trial dose",
+    "verdict": "OK",
+    "authoritative_value": "USDA FDC 169722 'Wheat bran, crude' = 42.8 g total dietary fibre per 100 g (protein 15.6 g, 216 kcal). 42.8 x 0.58 = 24.8 g; 24.8/30 = 82.8%; 58/10 = 5.8.",
+    "correction": "None.",
+    "source": "USDA FoodData Central legacy record 169722"
+   },
+   {
+    "claim": "Wheat bran 'is one of the most fibre-dense foods in any composition table' at 42.8 g/100 g",
+    "verdict": "WRONG",
+    "authoritative_value": "USDA corn bran, crude contains 79.0 g dietary fibre per 100 g and ranks first for fibre among roughly 4,000 USDA foods. Rice bran is about 21 g/100 g. The psyllium husk in this same submission is about 78 g/100 g.",
+    "correction": "Wheat bran is fibre-dense but not near the top; corn bran is nearly double it. Delete the superlative or reframe as 'one of the most fibre-dense ordinary cereal fractions'.",
+    "source": "USDA composition data for corn bran, crude (79 g dietary fibre/100 g, ranked #1 of ~3,998 foods)"
+   },
+   {
+    "claim": "Wheat bran NSP is about 70% arabinoxylan, 24% cellulose, 6% beta-glucan (Stevenson et al., DOI 10.3109/09637486.2012.687366)",
+    "verdict": "OK",
+    "authoritative_value": "Stevenson et al. 2012: 'The main NSPs present are arabinoxylan, cellulose and beta-glucan that are respectively 70%, 24% and 6% of the NSP of the bran.' Paper confirmed as Int J Food Sci Nutr 2012;63(8):1001-13, PMID 22716911.",
+    "correction": "None. Note the same paper states wheat soluble fibre is under 1% of dry weight, which is worth reconciling with the 1.5-4.0 g/100 g soluble figure quoted for bran.",
+    "source": "PMID 22716911, DOI 10.3109/09637486.2012.687366"
+   },
+   {
+    "claim": "Wheat bran increases stool by about 5 g per 1 g of bran consumed",
+    "verdict": "OK",
+    "authoritative_value": "Consistent with the wheat bran faecal-bulking literature, which puts the increase at roughly 3-5.4 g of stool per g of bran fed.",
+    "correction": "None; the figure sits at the top of the accepted range but is defensible.",
+    "source": "Stevenson et al. 2012 (DOI 10.3109/09637486.2012.687366) faecal weight section"
+   },
+   {
+    "claim": "Bread, whole-wheat, commercially prepared: 6.0 g fibre/100 g and 3.8 g per 2 slices (64 g), FDC 172688",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA FDC 172688 'Bread, whole-wheat, commercially prepared' = 6.0 g total dietary fibre per 100 g (confirmed). The 32 g/slice weight could not be confirmed; USDA legacy commonly lists 1 slice of this item at 28 g.",
+    "correction": "The per-100 g value is right. At 28 g/slice, 2 slices = 56 g = 3.36 g fibre and 11% of the 30 g reference intake, not 3.8 g and 13%. Confirm the slice weight in the record or state which slice size is used.",
+    "source": "USDA FoodData Central legacy record 172688 (fibre confirmed; portion weight not confirmed)"
+   },
+   {
+    "claim": "Wheat bran flakes cereal 16.9 g fibre/100 g, FDC 173002, 29 g NLEA serving giving 4.9 g",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Arithmetic checks (16.9 x 0.29 = 4.90; 4.90/30 = 16.3%), but FDC ID 173002 could not be confirmed as this food.",
+    "correction": "None to the numbers; the FDC ID needs confirmation. Note that ready-to-eat bran flakes vary widely by brand, and extruded all-bran type cereals reach 29-30 g fibre/100 g.",
+    "source": "Arithmetic only; FDC 173002 not independently resolved"
+   },
+   {
+    "claim": "Whole-grain wheat flour 10.7 g fibre/100 g (FDC 168893); 1 cup 120 g gives 12.8 g",
+    "verdict": "OK",
+    "authoritative_value": "10.7 g/100 g is the standard USDA value for wheat flour, whole-grain. 10.7 x 1.20 = 12.84 g; 12.84/30 = 42.8%.",
+    "correction": "None.",
+    "source": "USDA FoodData Central legacy record 168893 (value is the standard USDA figure; arithmetic verified)"
+   },
+   {
+    "claim": "Chicory root about 20 g inulin per 100 g fresh root; USDA lists the same food at only 1.5 g total dietary fibre (FDC 169993)",
+    "verdict": "OK",
+    "authoritative_value": "USDA FDC 169993 'Chicory roots, raw' = 1.5 g dietary fibre per 100 g, confirmed. Literature puts chicory root inulin at 15-20 g/100 g fresh weight.",
+    "correction": "None. This is the strongest point in the entry and it holds. The 20 g figure is at the top of the range; the Molecules 2025 citation (PMID 40572473) is a fruit-snack formulation paper, so it is a secondary source for the value.",
+    "source": "USDA FDC 169993; inulin range from extraction/composition literature (chicory 15-20 g/100 g fw)"
+   },
+   {
+    "claim": "Jerusalem artichoke 12-13.6 g inulin per 100 g fresh tuber",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Reported fresh-weight inulin for Jerusalem artichoke spans roughly 8-22 g/100 g depending on cultivar, season and storage: HPLC studies give 8.16-13.46%, a British Journal of Nutrition source gives 14-19%, and the classic Van Loo range is 16-20 g/100 g.",
+    "correction": "The submission uses the low end of a wide range. At 16-20 g/100 g a 150 g cup supplies 24-30 g inulin, not 18-20 g, so the tolerance-ceiling warning is if anything understated. Present it as a range with the variability stated.",
+    "source": "Composition literature on Jerusalem artichoke inulin (8-22 g/100 g fw); Van Loo et al. 1995, PMID 8777017"
+   },
+   {
+    "claim": "Garlic, raw: 15.6-16.7 g inulin per 100 g",
+    "verdict": "WRONG",
+    "authoritative_value": "The cited Nutrition Bulletin paper (PMID 40808333) states: 'Inulin can be found in high concentrations in foods such as Jerusalem artichoke, chicory root, salsify, and garlic (between 15.6 and 16.7 g/100 g)' (citing Van Loo et al. 1995). That range spans four foods; it is not garlic's own value. Van Loo et al. 1995 puts garlic at roughly 9-16 g/100 g.",
+    "correction": "Use about 9-16 g/100 g for garlic. At the midpoint (~12.5 g/100 g) a 3 g clove supplies about 0.38 g inulin, roughly 7.5% of a 5 g dose, not 10%.",
+    "source": "PMC12621174 (Nutr Bull 2025;50:633-639, PMID 40808333), verified quotation; Van Loo et al., Crit Rev Food Sci Nutr 1995;35:525-52, PMID 8777017"
+   },
+   {
+    "claim": "Onion 1.97 +/- 0.05, leek 0.24 +/- 0.00, banana 0.11 +/- 0.01, white bread 0.14 +/- 0.03, white wheat flour T500 0.75 +/- 0.04 g fructan/100 g (AOAC 999.03); mean intake 1.6-1.7 g/day",
+    "verdict": "OK",
+    "authoritative_value": "All five values and the 1.6-1.7 g/day mean intake are reproduced verbatim from Ferjancic et al., Front Nutr 2024;11:1446771 (PMID 39155934).",
+    "correction": "None. Transcription is exact.",
+    "source": "DOI 10.3389/fnut.2024.1446771, full text verified"
+   },
+   {
+    "claim": "Wheat bread and white wheat flour were 'the largest single share of habitual fructan intake in the source survey' (Ferjancic et al.)",
+    "verdict": "WRONG",
+    "authoritative_value": "In that survey onions were the largest single contributor at 0.72 g/day, with white flour T500 second at 0.41 g/day. The paper states onions dominated dietary fructan intake.",
+    "correction": "Onion, not bread/flour, is the largest single contributor in the cited Slovenian survey. The wheat-dominance claim belongs to the separate UK children's study (PMID 40808333), where cereals supplied 58.1% of inulin intake and wheat 69% in the comparative data. Reattribute it.",
+    "source": "DOI 10.3389/fnut.2024.1446771, full text verified"
+   },
+   {
+    "claim": "Asparagus 1.48 +/- 0.17 g inulin per 100 g dry matter, i.e. roughly 0.1 g per 100 g fresh spear",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "The cited paper (Foods 2024;13(8):1154, PMID 38672827) reports all asparagus samples 'high in fiber (>22 g/100 g dw), fructans (>1.5 g/100 g dw)', so the dry-matter basis is correct and the conversion at ~7% dry matter (1.48 x 0.07 = 0.104) is arithmetically sound. But other datasets put raw/cooked asparagus fructan at up to about 0.5 g per 100 g fresh.",
+    "correction": "The fresh-weight figure is uncertain by roughly 5x. State the range (about 0.1-0.5 g/100 g fw) rather than a single 0.1 g value, because the '5 kg of asparagus' conclusion swings to about 1 kg at the upper end.",
+    "source": "DOI 10.3390/foods13081154, PMID 38672827 abstract verified; comparative fructan datasets"
+   },
+   {
+    "claim": "Bonnema et al. (PMID 20497775): up to 10 g/day native inulin and up to 5 g/day oligofructose well tolerated; 10 g oligofructose substantially increased symptoms",
+    "verdict": "OK",
+    "authoritative_value": "J Am Diet Assoc 2010;110:865-8, 'Gastrointestinal tolerance of chicory inulin products'. Tested oligofructose and native inulin at 5 and 10 g doses. 'Doses up to 10 g/day of native inulin and up to 5 g/day of oligofructose were well-tolerated in healthy, young adults'; the 10 g oligofructose dose substantially increased GI symptoms versus control.",
+    "correction": "None. Accurately reported.",
+    "source": "PMID 20497775, verified abstract"
+   },
+   {
+    "claim": "Briet et al. (PMID 7588500): excess flatus above 30 g/day FOS, borborygmi and bloating above 40 g, cramps and diarrhoea at 50 g, no tolerance with chronic dosing",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "PMID 7588500 confirmed as Briet et al., 'Symptomatic response to varying levels of fructo-oligosaccharides consumed occasionally or regularly', Eur J Clin Nutr 1995;49:501-7. The specific per-dose symptom thresholds were not retrieved.",
+    "correction": "None; citation is correct and on-topic but the threshold ladder needs confirmation against the full text.",
+    "source": "PubMed PMID 7588500 (bibliographic data verified)"
+   },
+   {
+    "claim": "Phaseolus vulgaris raffinose 0.8-7.4 mg/g, stachyose 20.0-30.9 mg/g, verbascose 0.3-1.3 mg/g (DOI 10.3390/foods15020391)",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "DOI resolves to a real and on-topic paper: 'Quantitative Assessment of Soluble Carbohydrates in Two Panels of Pulses (Phaseolus vulgaris and Pisum sativum) Using Ultrasound-Assisted Extraction (UAE) and HPLC', Foods 2026;15(2), PMID 41596988. The individual oligosaccharide ranges were not retrieved.",
+    "correction": "None; source is genuine, values unconfirmed.",
+    "source": "PMID 41596988, DOI 10.3390/foods15020391"
+   },
+   {
+    "claim": "Whorwell et al. (PMID 16863564): 362-patient dose-ranging trial, B. infantis 35624 at 1x10^8 CFU/day superior to placebo and to other doses",
+    "verdict": "OK",
+    "authoritative_value": "Am J Gastroenterol 2006;101:1581-90. 362 primary-care IBS patients, all women. Doses tested 1x10^6, 1x10^8 and 1x10^10 cfu/mL. The 1x10^8 dose 'was significantly superior to placebo and all other bifidobacterium doses for the primary efficacy variable'.",
+    "correction": "Numbers are right, but the trial enrolled women only and the submission never says so, in two separate entries that lean heavily on it. Doses were also expressed as cfu/mL in the paper, not cfu/day. Add the sex restriction as a generalisability caveat.",
+    "source": "PMID 16863564, verified abstract"
+   },
+   {
+    "claim": "The 1x10^10 CFU/day arm failed 'because the capsule formulation gelled' / 'having formed a gel in the capsule'",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "The paper states only that 'the 1 x 10(10) dose was associated with significant formulation problems'. No gelling mechanism appears in the abstract.",
+    "correction": "Downgrade to 'significant formulation problems' unless the gelling detail can be sourced to the full text. The submission uses this mechanism twice as its clinching argument that CFU is not the active variable, so an unsourced mechanism is load-bearing.",
+    "source": "PMID 16863564, verified abstract"
+   },
+   {
+    "claim": "Yoghurt below 10^4 to 10^9 CFU/g; sauerkraut 8.3 log (starter culture) and 7 log (spontaneous); kimchi 7.14-9.23 log CFU/g; miso 2.1-7.1 log; tempeh 7.01 log with 81% of retail samples above 10^7 CFU/g (Rezac et al., PMID 30197628)",
+    "verdict": "OK",
+    "authoritative_value": "All confirmed against Rezac et al. 2018, Front Microbiol 9:1785. Table 5: kimchi 'LAB 7.14-9.23' (South Korean retail), sauerkraut 'LAB 8.3' (commercial with starter) and 'LAB 7' (spontaneous). Table 6: tempeh 'LAB 7.01' (laboratory-manufactured) and '81% of samples >10^7 CFU/g' for shop, production and restaurant samples. Yoghurt range and the miso 10^2-10^7 span also match.",
+    "correction": "None. These are transcribed accurately, including the kimchi 9.23 log ceiling that drives the '250x a label dose' claim.",
+    "source": "PMC6117398, Rezac et al. 2018, Tables 5 and 6 verified"
+   },
+   {
+    "claim": "Tempeh '3-9 log CFU/g across retail and food-service samples', giving up to 10^11 CFU per 100 g portion",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "The Rezac tempeh data retrieved supports 7.01 log for laboratory-manufactured product and 81% of shop/production/restaurant samples above 10^7 CFU/g. A 3-9 log range was not found.",
+    "correction": "The 9 log ceiling, and therefore the 10^11 per-portion upper bound and the '0.1-100x a label dose' span, need sourcing. Without it, use 10^7 as the demonstrated floor for most samples.",
+    "source": "PMC6117398, Rezac et al. 2018, Table 6"
+   },
+   {
+    "claim": "About 10^10 live cells is the intake likely needed to affect the microbiota, achievable with 100 g of a food at 10^8 cells/g",
+    "verdict": "OK",
+    "authoritative_value": "Rezac et al.: 'consumption of 10^10 cells would be necessary to induce an effect on the microbiota and host health. This could be achieved by consuming 100 g of fermented food containing 10^8 cells/g.'",
+    "correction": "None. Quoted accurately.",
+    "source": "PMC6117398, verified"
+   },
+   {
+    "claim": "Kefir 8.40 log CFU/mL lactic acid bacteria plus 8.00 log CFU/mL yeasts at 48 h; 1 cup (244 mL) gives about 6x10^10 LAB and 2x10^10 yeasts",
+    "verdict": "OK",
+    "authoritative_value": "Outeiriño et al., Foods 2026;15(10):1616, PMID 42195820: at 48 h with milk kefir grains, LAB 8.40 log CFU/mL and yeasts 8.00 log CFU/mL (down from 8.64 and 6.32 log at 24 h). 10^8.4 x 244 = 6.1x10^10; 10^8 x 244 = 2.4x10^10.",
+    "correction": "None. Values and arithmetic both check out.",
+    "source": "PMC13205963, DOI 10.3390/foods15101616, verified"
+   },
+   {
+    "claim": "Cod, Atlantic, cooked: 3.408 g glutamic acid per 100 g (FDC 171956); 1 fillet 180 g gives 6.13 g",
+    "verdict": "OK",
+    "authoritative_value": "USDA FDC 171956 'Fish, cod, Atlantic, cooked, dry heat' = 3.4 g glutamic acid per 100 g, protein 22.8 g. 3.408 x 1.80 = 6.13 g.",
+    "correction": "None; the 180 g fillet weight was not independently confirmed but is the standard USDA portion for this record.",
+    "source": "USDA FoodData Central legacy record 171956"
+   },
+   {
+    "claim": "Natto: 3.337 g glutamic acid per 100 g (FDC 172443); 1 cup 175 g gives 5.84 g",
+    "verdict": "OK",
+    "authoritative_value": "USDA FDC 172443 'Natto' = 3.3 g glutamic acid per 100 g, protein 19.4 g. 3.337 x 1.75 = 5.84 g.",
+    "correction": "None for the per-100 g and per-portion values. The dose-gap figure derived from them is wrong (see dose_gap_errors).",
+    "source": "USDA FoodData Central legacy record 172443"
+   },
+   {
+    "claim": "Parmesan cheese, hard: 8.209 g glutamic acid per 100 g, 'the densest ordinary food source'",
+    "verdict": "WRONG",
+    "authoritative_value": "The 8.209 g/100 g figure is the standard USDA value for hard parmesan, but the superlative fails. Vital wheat gluten (seitan) contains about 75 g protein per 100 g, and glutamate is roughly 35% of gluten protein, giving on the order of 25-30 g glutamic acid per 100 g, three to four times parmesan. Soy protein isolate (about 88 g protein/100 g) also exceeds it at roughly 17-19 g/100 g.",
+    "correction": "Drop 'the densest ordinary food source'. Vital wheat gluten is the densest ordinary food source of the Glu+Gln pool by a wide margin, and it also changes the food-route conclusion: 15 g of Glu+Gln comes from roughly 50-60 g of vital wheat gluten, not 183 g of parmesan.",
+    "source": "Vital wheat gluten protein content 75.2 g/100 g (USDA-derived nutrition databases); gluten glutamate fraction from cereal protein composition literature"
+   },
+   {
+    "claim": "Per-portion Glu+Gln for chicken breast 4.00 g, beef sirloin cap 3.61 g, lentils 2.77 g, tofu 2.17 g, milk 1.73 g, egg 0.82 g, and the matching percentages of a 15 g dose",
+    "verdict": "OK",
+    "authoritative_value": "Recomputed: chicken 4.645 x 0.86 = 3.99; beef 4.251 x 0.85 = 3.61; lentils 1.399 x 1.98 = 2.77; tofu 1.721 x 1.26 = 2.17; milk 0.708 x 2.44 = 1.73; egg 1.644 x 0.50 = 0.82. All percentages of 15 g are correct to the nearest point.",
+    "correction": "None. The per-100 g values are the standard USDA figures; the milk value was not independently retrieved but is consistent with whole milk protein of about 3.2 g/100 g.",
+    "source": "Arithmetic against USDA legacy records 171477, 173061, 172421, 172448, 171265, 173424"
+   },
+   {
+    "claim": "An ordinary diet supplying 80-100 g of protein already delivers on the order of 8-12 g of glutamine, so the supplement roughly doubles habitual intake",
+    "verdict": "WRONG",
+    "authoritative_value": "Glutamine is roughly 4-8% of food protein, so 80-100 g of protein supplies about 3.2-8.0 g of glutamine (90 g at 4-8% = 3.6-7.2 g). Habitual dietary glutamine intake is conventionally quoted at 3-6 g/day.",
+    "correction": "Use about 4-7 g/day, not 8-12 g. This is load-bearing: against 4-6 g/day habitual, 15 g/day is a three- to four-fold increase, not a doubling, which materially weakens the entry's 'small gap, food route genuinely competitive' conclusion.",
+    "source": "Dietary glutamine intake estimates in the clinical nutrition literature (3-6 g/day); arithmetic on protein glutamine fraction"
+   },
+   {
+    "claim": "Zhou et al. (PMID 30108163) gave 5 g glutamine three times daily, 15 g/day for 8 weeks, in post-infectious diarrhoea-predominant IBS with increased permeability",
+    "verdict": "OK",
+    "authoritative_value": "Gut 2019;68:996-1002, 'Randomised placebo-controlled trial of dietary glutamine supplements for postinfectious irritable bowel syndrome'. Citation and framing confirmed.",
+    "correction": "None.",
+    "source": "PubMed PMID 30108163"
+   },
+   {
+    "claim": "Pancreatic enzyme replacement dosing: minimum 40,000-50,000 lipase units with main meals and 20,000-25,000 with snacks; efficacious preparations are porcine-derived (DOI 10.1016/j.eclinm.2026.103880)",
+    "verdict": "OK",
+    "authoritative_value": "The DOI resolves to 'Pancreatic exocrine insufficiency', eClinicalMedicine 2026;94:103880, PMID 42011215. The dosing figures match standard PERT guidance.",
+    "correction": "None.",
+    "source": "PMID 42011215, DOI 10.1016/j.eclinm.2026.103880"
+   },
+   {
+    "claim": "Bromelain activity 2,909 GDU/g in basal stems, 1,179 GDU/g in peels, 694 GDU/g in cores, crowns below detection limit (DOI 10.3390/foods13040589)",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "The DOI resolves to a real, on-topic paper: 'Enhancing Bromelain Recovery from Pineapple By-Products: A Sustainable Approach for Value Addition and Waste Reduction', Foods 2024;13(4):589, PMID 38397568. The individual GDU/g values were not retrieved.",
+    "correction": "None; source genuine, values unconfirmed. The derived dose equivalences (0.4-1.7 g basal stem, 1-4 g peel) are arithmetically correct given those inputs.",
+    "source": "PMID 38397568, DOI 10.3390/foods13040589"
+   },
+   {
+    "claim": "Bromelain supplement dosing 500-2,000 mg at about 2,400 GDU/g gives roughly 1,200-4,800 GDU per dose",
+    "verdict": "OK",
+    "authoritative_value": "0.5 g x 2,400 = 1,200 GDU; 2.0 g x 2,400 = 4,800 GDU. Equivalent basal stem 1,200/2,909 = 0.41 g to 4,800/2,909 = 1.65 g; peel 1.02-4.07 g.",
+    "correction": "None.",
+    "source": "Arithmetic"
+   },
+   {
+    "claim": "EFSA food-enzyme opinion, EFSA Journal 2026, DOI 10.2903/j.efsa.2026.9950, on papain from Carica papaya latex",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Not indexed in PubMed and not retrievable in this pass. EFSA does publish food-enzyme opinions on papain from papaya latex, so the claim is plausible, but this specific identifier is unconfirmed.",
+    "correction": "None; confirm the DOI or substitute a retrievable EFSA opinion reference.",
+    "source": "No confirming record found"
+   },
+   {
+    "claim": "Stem bromelain and fruit bromelain differ in isoelectric point (pI 9.5 versus 4.6)",
+    "verdict": "OK",
+    "authoritative_value": "Consistent with the established biochemistry of the two bromelain isoforms.",
+    "correction": "None.",
+    "source": "Bromelain isoform literature (DOI 10.3390/foods13040589 and standard references)"
+   }
+  ],
+  "misclassifications": [
+   "'Lactase and pancreatic enzymes' is classified SYNTHETIC but bundles two products with different availability, and the SYNTHETIC label contradicts the entry's own text. Its dose_gap concedes a real dietary route for lactase activity: live yoghurt and kefir carry microbial beta-galactosidase into the gut, which is why lactase-non-persistent people tolerate fermented dairy. Pancreatin is correctly SYNTHETIC (porcine gland extract, no realistic food route). Lactase should be split into its own entry at PARTIAL or TRACE, with the fermented-dairy route stated in the availability field rather than buried in the gap narrative.",
+   "'Prebiotics: inulin, FOS, GOS' is classified RICH as a single item while its own availability_note says the beta-GOS used in trials 'has no meaningful presence in ordinary food'. A compound the entry itself identifies as manufactured by transgalactosylation of lactose is being carried under a RICH heading by association with inulin. GOS needs a separate SYNTHETIC entry; inulin and FOS can stay RICH.",
+   "'Generic multi-strain probiotic blends' RICH and 'Probiotics, named strain only' SYNTHETIC take opposite positions on what the deliverable is, inside the same group. The named-strain entry states that a CFU comparison 'is meaningless for a strain-specific claim'; the blends entry then grades RICH on exactly that CFU comparison. The RICH grade only survives by redefining the deliverable as 'any live lactic acid bacteria'. Label it explicitly as a redefined endpoint, or grade it PARTIAL, because a reader scanning availability fields will read RICH as 'food replaces this'.",
+   "'Over-the-counter digestive enzyme blends' NOT_FOOD is too strong for the plant proteases, and the entry's own form_caveat relies on the opposite fact. Fruit bromelain is present in edible pineapple flesh and juice with real proteolytic activity, which is precisely why fresh pineapple stops gelatin setting and canned does not. Papain also occurs in unripe papaya flesh, not only in latex. The fungal amylase, protease, lipase and lactase components are genuinely NOT_FOOD. This item is a bundle of two different availabilities and the plant-protease half should be TRACE or PARTIAL. Separately, the statement that no proteolytic activity figure exists for the eaten flesh is a sourcing gap in this submission, not an absence in the literature.",
+   "Psyllium is correctly RICH, but the availability_note's claim that oats, barley and legumes supply 'the same class of viscous soluble fibre' is contradicted twice by the entry's own content. Its data show legume soluble fibre at 0.41-1.36 g/100 g, and its bioavailability field says legume soluble fibre is largely fermented proximally and 'behave[s] quite differently at the same gram intake'. Beta-glucan is also not psyllium's arabinoxylan. Narrow the claim to oat and barley beta-glucan for viscosity, and drop legumes from the same-class list.",
+   "'Wheat bran and insoluble fibre supplements for IBS' is graded RICH on wheat products alone, yet the title covers insoluble-fibre supplements generally. The other common insoluble-fibre supplement bases (powdered cellulose, corn bran, rice bran) get no food comparators, so the RICH grade is only demonstrated for the wheat-bran case.",
+   "B. infantis 35624 is graded SYNTHETIC, which is right for availability, but the availability_note calls it 'propagated industrially from a proprietary strain bank' while also correctly stating it was isolated from human ileal mucosa. A reader may take SYNTHETIC to mean chemically synthesised. Worth a one-line note that SYNTHETIC here means 'no dietary source', not 'artificial molecule', since the same code is applied to lactase and pancreatin, which are genuinely manufactured."
+  ],
+  "missing_foods": [
+   "Ground flaxseed/linseed and chia seed. Both are ordinary foods with roughly 27-34 g total dietary fibre per 100 g and a large viscous mucilage fraction. They are the closest dietary analogues to psyllium's gel and are the glaring omission from a viscous-soluble-fibre entry that instead fills its food list with legumes whose soluble fibre is under 1.4 g/100 g.",
+   "Konjac glucomannan (shirataki noodles, konjac flour), the highest-viscosity food fibre available, and guar/partially hydrolysed guar gum. Both are sold as foods and both are viscous and poorly fermented, which is the property the psyllium entry says matters.",
+   "Pectin-rich fruit and vegetables for soluble fibre: passion fruit, avocado, Brussels sprouts, oranges, pears. Omitting these leaves the impression that only oats, barley and legumes supply soluble fibre.",
+   "Corn bran, crude, at 79 g dietary fibre per 100 g, the top-ranked fibre food in USDA and nearly double wheat bran. Its omission is what allows the false claim that wheat bran is 'one of the most fibre-dense foods in any composition table'. Rice bran (about 21 g/100 g) and rye bran are also absent.",
+   "Extruded all-bran type cereals (about 29-30 g fibre/100 g) and rye crispbread, both far more fibre-dense per serving than the bran flakes at 16.9 g/100 g that were chosen as the ready-to-eat comparator.",
+   "Globe artichoke (Cynara scolymus) and shallots, both in the top fructan group of Muir et al. 2007 (the paper the submission itself cites for the 1.2-17.4 g/100 g range), and salsify, which the cited Nutrition Bulletin paper names as inulin-rich in the very sentence the garlic figure was taken from. All three were omitted while asparagus and banana, at trace levels, were given full entries.",
+   "Dandelion root and greens, burdock root, and yacon: recognised high-inulin foods, and dandelion greens are eaten as a vegetable in a way chicory root is not, which answers the entry's own objection that chicory is not a dietary route.",
+   "Rye and rye bran. Rye is a higher-fructan cereal than wheat and a substantial habitual contributor in northern European diets, yet only wheat bread and wheat flour appear. Dried onion and garlic powder are also omitted despite being concentrated fructan sources used in ordinary cooking.",
+   "Vital wheat gluten/seitan for glutamine: about 75 g protein per 100 g with glutamate around 35% of gluten protein, so roughly 25-30 g glutamic acid per 100 g. It is the densest ordinary food source of the Glu+Gln pool by a wide margin, three to four times parmesan, and its omission is what produced the incorrect 'parmesan is the densest ordinary food source' claim. Soy protein isolate, whey and casein concentrates, dried spirulina and peanuts are also missing.",
+   "Kiwifruit for the digestive-enzyme entry. Actinidin is a cysteine protease present in ordinary edible ripe green kiwifruit, with human data: a crossover study in healthy older adults compared green kiwifruit (actinidin-containing) against gold kiwifruit (actinidin-free) with beef meals to test gastric protein digestion, and in vitro work shows enhanced breakdown of multiple food proteins at gastric pH. This is the one genuine food route for a swallowed protease and it directly undercuts the NOT_FOOD grade.",
+   "Other dietary enzyme sources omitted: ginger (zingibain), fig latex (ficin), malted barley (diastatic amylase), and raw honey (diastase). None replace pancreatin, but they are real dietary enzyme sources and belong in a NOT_FOOD justification.",
+   "Natto for the fermented-food entry. The submission flags its own gap, which is honest, but Bacillus subtilis var. natto viable counts of roughly 10^8-10^9 CFU/g are documented in the natto literature. Also missing: water kefir, kombucha, brine-fermented (non-pasteurised) pickles, kvass, skyr, traditional buttermilk, and young raw-milk cheeses."
+  ],
+  "dose_gap_errors": [
+   "Garlic, prebiotics entry: 'about 30 cloves of garlic' to reach 5 g of fructan. Wrong by 3x, and internally contradictory. The entry's own food row states 1 clove (3 g) supplies about 0.5 g inulin and is '10% of a 5 g/day supplement dose', which gives 10 cloves. Recomputed on the entry's own 15.6-16.7 g/100 g: 5/0.167 to 5/0.156 = 29.9-32.1 g of garlic, i.e. 10.0-10.7 cloves. Corrected figure: about 10 cloves. Using the correct garlic value of 9-16 g/100 g, it is roughly 10-19 cloves, still not 30.",
+   "Natto, glutamine entry: '865 g of natto' for 15 g of Glu+Gln. Wrong by 1.9x. At 3.337 g/100 g, 15/0.03337 = 449.5 g. Corrected figure: about 450 g. (865 g would only be right if natto were 1.73 g/100 g.) This error is one-directional in the argument's favour, since it makes the food route look harder than it is.",
+   "Bran flakes, wheat bran entry: the 10 g/day trial dose of bran is 'about 3 heaped tablespoons of plain wheat bran, or roughly 2 servings of bran flakes'. The two halves are matched to different targets. 10 g of crude bran contains 4.28 g of fibre; one 29 g serving of bran flakes contains 4.90 g. So the fibre-matched answer is 4.28/4.90 = 0.87, i.e. roughly 1 serving, not 2. Two servings supply 9.8 g of fibre, which is more than double the fibre in the trial dose. Corrected figure: about 1 serving of bran flakes.",
+   "Oats for beta-glucan, psyllium entry: '3 g/day of oat or barley beta-glucan ... about 40-50 g of dry oats at 6-8% w/w'. The arithmetic is internally right (3/0.08 to 3/0.06 = 38-50 g) but the 6-8% input is oat-bran-level, not whole-oat-level, and the cited source contains no grain beta-glucan percentages at all. At the typical 4-4.5% for rolled oats, 3/0.045 to 3/0.04 = 67-75 g. Corrected figure: about 67-75 g of dry oats, or 40-55 g of oat bran. The barley half (75 g at 4%) checks out.",
+   "Asparagus, prebiotics entry: 'about 5 kg of raw asparagus' for 5 g of fructan. Arithmetically correct at the 0.1 g/100 g fresh figure used (5/0.001 = 5,000 g), but that figure is a dry-matter conversion at odds with datasets giving up to about 0.5 g/100 g fresh, where the answer becomes 1,000 g. Corrected figure: roughly 1-5 kg, stated as a range. The 'two orders of magnitude' claim for asparagus does not survive the upper end.",
+   "Whole-wheat bread, wheat bran entry: 3.8 g of fibre per 2 slices and 13% of the reference intake, both resting on an unconfirmed 32 g slice. At the 28 g slice USDA legacy commonly gives for this record, 2 slices = 56 g = 3.36 g of fibre and 11% of the 30 g reference intake. Corrected figures: 3.4 g and 11%, pending confirmation of the slice weight.",
+   "Habitual glutamine baseline, glutamine entry: 'an ordinary diet supplying 80-100 g of protein already delivers on the order of 8-12 g of glutamine. So the supplement roughly doubles habitual glutamine intake'. At glutamine's 4-8% share of food protein, 90 g of protein gives 3.6-7.2 g, and habitual intake is conventionally 3-6 g/day. Corrected figure: about 4-7 g/day, so a 15 g/day supplement is a three- to four-fold increase, not a doubling. This changes the entry's conclusion from 'small gap' to 'moderate gap'.",
+   "Kidney beans, psyllium entry: 'about 500 g (3 cups) of canned kidney beans'. The gram figure is right (6.7/0.0136 = 493 g) but 3 cups at the entry's own 177 g/cup is 531 g. Corrected figure: about 2.8 cups. Minor, but the parenthetical overshoots the gram target it is meant to restate.",
+   "Tempeh, generic-blend entry: 'up to 10^11 at the top of the range' per 100 g portion and 'roughly 0.1-100x a typical 1-10 billion CFU/day label dose'. The arithmetic follows from a 9 log CFU/g ceiling that could not be found in the cited review, which supports 7.01 log for laboratory-made tempeh and 81% of retail samples above 10^7 CFU/g. Until the 9 log figure is sourced, the defensible per-100 g figure is about 1x10^9 CFU, i.e. roughly 0.1-1x a label dose."
+  ],
+  "net_assessment": "This is a strong, unusually well-sourced submission. Every one of the 17 citations I could test resolved to a real paper on the right subject: all nine PMIDs (19713235, 16863564, 30108163, 20497775, 7588500, 17625872, 30197628, 40808333, 8777017) verified with matching journal, year, volume and pages, and all eight tested DOIs resolved, including the two 2026 papers that looked like the most likely fabrications (10.3390/foods15101616 is a real kefir fermentation study, PMID 42195820; 10.1016/j.eclinm.2026.103880 is a real pancreatic exocrine insufficiency review, PMID 42011215). Nothing was invented. The verbatim transcription is also good: the Ferjancic fructan values, the Rezac fermented-food counts including the kimchi 7.14-9.23 log range and the tempeh 81%-above-10^7 figure, the kefir 8.40/8.00 log counts, the Stevenson 70/24/6 NSP split, the Bijkerk doses and dropout narrative, and the Bonnema tolerance thresholds all check out word for word. The USDA per-100 g values I could reach (wheat bran 42.8, oat bran 15.4, barley 3.8, whole-wheat bread 6.0, chicory root 1.5, cod 3.4, natto 3.3) were all correct, and the chicory-root point (20 g inulin against a USDA record of 1.5 g total fibre) is a genuinely good catch that holds up. The per-portion arithmetic is almost entirely clean: of roughly 40 per-portion and percentage calculations I re-ran, all but one were correct to the stated precision. The failures cluster in two places. First, three source misreadings, two of them consequential: the garlic figure of 15.6-16.7 g/100 g is a range the cited paper gives across four foods (Jerusalem artichoke, chicory root, salsify, garlic), not garlic's own value of about 9-16 g/100 g; the claim that bread and flour were the largest habitual fructan contributor is contradicted by the cited survey, where onion led at 0.72 g/day against white flour's 0.41 g/day; and the 6-8% oat beta-glucan figure is attributed to a paper that is a packaged-product label audit and contains no grain composition data at all. Second, four dose-gap numbers that do not survive recomputation: garlic 30 cloves should be 10 (and contradicts the submission's own food row), natto 865 g should be 450 g, bran flakes 2 servings should be 1, and 40-50 g of dry oats for 3 g beta-glucan should be 67-75 g. Two superlatives are false in a way that also reveals the omissions: wheat bran is not among the most fibre-dense foods (corn bran is 79 g/100 g) and parmesan is not the densest ordinary source of the Glu+Gln pool (vital wheat gluten is roughly 25-30 g/100 g). The habitual glutamine baseline of 8-12 g/day is roughly double the accepted 3-6 g/day, which is load-bearing because it converts a three- to four-fold supplement increase into a claimed doubling and drives the entry's headline conclusion. On classification, the substantive problem is bundling: three items each pair two things with different availability under one grade (lactase with pancreatin, GOS with inulin and FOS, plant proteases with fungal enzymes), and in the lactase case the SYNTHETIC grade is contradicted by the entry's own concession that live yoghurt and kefir carry microbial beta-galactosidase. The RICH grade on generic probiotic blends is defensible only under a redefined endpoint that the named-strain entry in the same group explicitly calls meaningless. The most notable food omissions are flaxseed and chia from a viscous-fibre entry, corn bran from an insoluble-fibre entry, globe artichoke and salsify from a fructan entry, vital wheat gluten from a glutamine entry, and kiwifruit actinidin from an entry arguing that no ordinary food supplies a digestive protease. The psyllium provenance claim also needs softening: FDC 1742558 is a branded manufacturer-label record for NOW Psyllium Husk Powder whose own total-fibre field reads 0 g, so the 78 g total is the submitter's arithmetic, not a USDA analysed value. On balance: the reasoning and the qualitative form and bioavailability caveats are the best part of this submission and mostly survive scrutiny; the corrections needed are four arithmetic fixes, three re-citations, two deleted superlatives, one baseline revision, and the splitting of three bundled availability grades."
+ }
+}

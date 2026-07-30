@@ -1,3 +1,8 @@
+# OS noise
 .DS_Store
 Thumbs.db
 *.tmp
+
+# Python build artefacts
+__pycache__/
+*.py[cod]

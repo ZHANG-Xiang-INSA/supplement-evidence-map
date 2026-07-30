@@ -1,0 +1,854 @@
+{
+ "group": "fat-soluble-vitamins",
+ "items_assigned": [
+  "Vitamin D3 (cholecalciferol)",
+  "Vitamin E at or above 400 IU/d",
+  "Preformed vitamin A at or above 10,000 IU",
+  "Beta-carotene supplements",
+  "Vitamin K2 (MK-7 and MK-4)"
+ ],
+ "submission": {
+  "items": [
+   {
+    "supplement": "Vitamin D3 (cholecalciferol)",
+    "availability": "RICH",
+    "availability_note": "Oily fish, egg yolk and UV-exposed mushrooms all supply measurable vitamin D, and fortified milk, spreads, juices and cereals add small amounts, so this is a genuine dietary nutrient rather than a manufactured one. The catch is scale: the richest ordinary foods deliver a few hundred IU per portion, while typical supplement doses run 1,000 to 4,000 IU/day and treatment doses go far higher.",
+    "foods": [
+     {
+      "food": "Salmon, sockeye, cooked, dry heat",
+      "per_100g": "16.7 µg vitamin D (668 IU)",
+      "portion": "half fillet (155 g)",
+      "per_portion": "25.9 µg (1,035 IU)",
+      "pct_rda_or_dose": "259% of the 10 µg/400 IU UK RNI; 26% of a 4,000 IU supplement",
+      "source": "USDA FoodData Central FDC ID 173692 (SR Legacy), retrieved via FDC API"
+     },
+     {
+      "food": "Herring, flesh only, grilled",
+      "per_100g": "16.1 µg (644 IU)",
+      "portion": "1 fillet (110 g)",
+      "per_portion": "17.7 µg (708 IU)",
+      "pct_rda_or_dose": "177% of the 10 µg RNI; 18% of 4,000 IU",
+      "source": "McCance and Widdowson CoFID 2021, food code 16-176"
+     },
+     {
+      "food": "Salmon, pink, canned in brine, drained",
+      "per_100g": "13.6 µg total (12.1 µg cholecalciferol + 0.30 µg 25-OH-D3)",
+      "portion": "half a 213 g can, drained (105 g)",
+      "per_portion": "14.3 µg (571 IU)",
+      "pct_rda_or_dose": "143% of the 10 µg RNI",
+      "source": "McCance and Widdowson CoFID 2021, food code 16-420 (vitamin fractions sheet)"
+     },
+     {
+      "food": "Egg yolk, chicken, raw",
+      "per_100g": "12.8 µg total (11.0 µg cholecalciferol + 0.36 µg 25-OH-D3)",
+      "portion": "1 large yolk (17 g)",
+      "per_portion": "2.2 µg (87 IU)",
+      "pct_rda_or_dose": "22% of the 10 µg RNI; 2% of 4,000 IU",
+      "source": "McCance and Widdowson CoFID 2021, food code 12-939"
+     },
+     {
+      "food": "Mushrooms, portabella, exposed to UV light, raw",
+      "per_100g": "11.2 µg vitamin D2 mean (446 IU); measured range 3.1 to 25.6 µg across two producers",
+      "portion": "1 cup sliced (86 g)",
+      "per_portion": "9.6 µg (385 IU) at the mean; 2.7 to 22.0 µg across the measured range",
+      "pct_rda_or_dose": "96% of the 10 µg RNI at the mean value",
+      "source": "USDA ARS Nutrient Data Laboratory, Haytowitz DB, Vitamin D in Mushrooms (NFNAP data incorporated into SR22), Tables 1 and 2; method per Roberts et al. 2008 J Agric Food Chem 56:4541-4544"
+     },
+     {
+      "food": "Trout, rainbow, flesh only, baked",
+      "per_100g": "8.2 µg total (7.19 µg cholecalciferol)",
+      "portion": "1 fillet (130 g)",
+      "per_portion": "10.7 µg (426 IU)",
+      "pct_rda_or_dose": "107% of the 10 µg RNI",
+      "source": "McCance and Widdowson CoFID 2021, food code 16-396"
+     },
+     {
+      "food": "Mackerel, flesh only, grilled",
+      "per_100g": "8.5 µg (340 IU), all as cholecalciferol",
+      "portion": "1 fillet (110 g)",
+      "per_portion": "9.4 µg (374 IU)",
+      "pct_rda_or_dose": "94% of the 10 µg RNI",
+      "source": "McCance and Widdowson CoFID 2021, food code 16-394"
+     },
+     {
+      "food": "Sardines, canned in brine, drained",
+      "per_100g": "3.3 µg (132 IU)",
+      "portion": "1 small can, drained (90 g)",
+      "per_portion": "3.0 µg (119 IU)",
+      "pct_rda_or_dose": "30% of the 10 µg RNI",
+      "source": "McCance and Widdowson CoFID 2021, food code 16-424"
+     },
+     {
+      "food": "Egg, whole, chicken, boiled",
+      "per_100g": "3.2 µg total (2.30 µg cholecalciferol)",
+      "portion": "1 large egg (50 g)",
+      "per_portion": "1.6 µg (64 IU)",
+      "pct_rda_or_dose": "16% of the 10 µg RNI",
+      "source": "McCance and Widdowson CoFID 2021, food code 12-940; USDA SR Legacy gives a lower 41 IU per large raw egg"
+     },
+     {
+      "food": "Cod liver oil",
+      "per_100g": "210 µg (8,400 IU)",
+      "portion": "1 teaspoon (4.6 g)",
+      "per_portion": "9.7 µg (386 IU)",
+      "pct_rda_or_dose": "97% of the 10 µg RNI",
+      "source": "McCance and Widdowson CoFID 2021, food code 17-488 (mean of 20 samples)"
+     },
+     {
+      "food": "Orange juice, chilled, with added calcium and vitamin D (fortified)",
+      "per_100g": "about 1.0 µg (40 IU)",
+      "portion": "1 cup (248 g)",
+      "per_portion": "2.5 µg (100 IU)",
+      "pct_rda_or_dose": "25% of the 10 µg RNI",
+      "source": "USDA SR Legacy 2018, abridged nutrient list Vitamin D (IU) per household measure, nal.usda.gov"
+     },
+     {
+      "food": "Mushrooms, white, raw, not UV-treated",
+      "per_100g": "0.1 µg (4 IU) per USDA; 0.0 µg in UK samples",
+      "portion": "large handful, sliced (80 g)",
+      "per_portion": "0.08 µg (3 IU)",
+      "pct_rda_or_dose": "under 1% of the 10 µg RNI",
+      "source": "USDA ARS, Vitamin D in Mushrooms (untreated white, 0.1 µg/100 g); McCance and Widdowson CoFID 2021 food code 13-505 (0.0 µg)"
+     }
+    ],
+    "dose_gap": "A 1,000 IU (25 µg) daily capsule needs about 150 g of cooked sockeye salmon or 155 g of grilled herring every single day. A 4,000 IU (100 µg) capsule needs roughly 600 g of sockeye salmon, 620 g of grilled herring, 46 large egg yolks, or about 1 kg of UV-treated portabella mushrooms daily. A 50,000 IU (1,250 µg) weekly loading dose, standard for correcting deficiency, has no food equivalent at all: it is about 7.8 kg of grilled herring. Real intakes are nowhere near this. UK NDNS figures cited by SACN put mean vitamin D intake from food at 2.8 µg/day in adults aged 19 to 65 and 3.3 µg/day in over-65s, which is 28% and 33% of the 10 µg RNI, and mean intakes have stayed below the RNI in every age group. Above roughly 50 degrees north, cutaneous synthesis is effectively zero from October to March, so there is no sunlight to make up the shortfall in winter. SACN's own conclusion was that the 10 µg RNI is difficult to achieve from natural food sources, which is why year-round or autumn/winter supplementation is advised for the whole UK population. Anyone with a diagnosed deficiency will not eat their way out of it at a northern latitude.",
+    "form_caveat": "Mushroom vitamin D is D2 (ergocalciferol), a different molecule from the D3 in fish, egg yolk and almost all supplements, and D3 raises serum 25(OH)D more effectively than D2, with the gap widest for intermittent bolus dosing (Tripkovic et al., Am J Clin Nutr 2012;95:1357-64, PMID 22552031, DOI 10.3945/ajcn.111.031070). UV mushroom content is also wildly variable and usually unlabelled: USDA measured UV-treated portabella at 3.4 µg/100 g from one producer and 25.6 µg/100 g from another, and maitake from 0.1 to 56.1 µg/100 g depending on the growing method, while untreated white mushrooms sit at 0.1 µg/100 g. Buying ordinary mushrooms because 'mushrooms have vitamin D' gets you essentially nothing. Cod liver oil is nominally a food but behaves as a supplement and carries 18,000 µg retinol per 100 g (CoFID 17-488), so a tablespoon delivers about 8,160 IU of preformed vitamin A alongside the D3, which rules it out in pregnancy. Oily fish delivers D3 inside a fat matrix with EPA/DHA, protein, iodine and selenium; a capsule delivers D3 alone.",
+    "bioavailability": "Vitamin D from both food and capsules is fat-soluble and absorbed better with a meal containing fat, which oily fish and egg yolk supply themselves. The form matters more than the source: D2 from mushrooms is less effective per microgram than D3 (PMID 22552031). Egg yolk additionally contains 25-hydroxycholecalciferol (0.36 µg/100 g, CoFID 12-939), an already-hydroxylated metabolite that supplements normally do not provide. Total vitamin D figures in composition tables often bundle 25-OH-D3 with cholecalciferol, so a headline 'vitamin D' number for eggs or canned salmon is not strictly comparable to the D3 in a capsule."
+   },
+   {
+    "supplement": "Vitamin E at or above 400 IU/d",
+    "availability": "RICH",
+    "availability_note": "Alpha-tocopherol is abundant in ordinary foods: seed oils, sunflower seeds, almonds, hazelnuts and wheatgerm all supply meaningful amounts, and a normal diet covers the 15 mg/day RDA without effort. What food cannot do is reach 400 IU, which is 268 mg of RRR-alpha-tocopherol (natural form) or 180 mg of all-rac-alpha-tocopherol (synthetic), roughly 12 to 18 times the RDA.",
+    "foods": [
+     {
+      "food": "Wheatgerm oil",
+      "per_100g": "133.0 mg alpha-tocopherol (136.65 mg total vitamin E)",
+      "portion": "1 tablespoon (13.6 g)",
+      "per_portion": "18.1 mg",
+      "pct_rda_or_dose": "121% of the 15 mg RDA; 6.8% of a 268 mg (400 IU) dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 17-048 (mean of 35 samples)"
+     },
+     {
+      "food": "Sunflower oil",
+      "per_100g": "48.7 mg alpha-tocopherol (49.22 mg total E, plus 5.1 mg gamma-tocopherol)",
+      "portion": "1 tablespoon (13.6 g)",
+      "per_portion": "6.6 mg",
+      "pct_rda_or_dose": "44% of the 15 mg RDA; 2.5% of 268 mg",
+      "source": "McCance and Widdowson CoFID 2021, food code 17-045 (mean of 46 samples)"
+     },
+     {
+      "food": "Sunflower seeds, kernels",
+      "per_100g": "37.2 mg alpha-tocopherol (37.77 mg total E)",
+      "portion": "small handful (25 g)",
+      "per_portion": "9.3 mg",
+      "pct_rda_or_dose": "62% of the 15 mg RDA; 3.5% of 268 mg",
+      "source": "McCance and Widdowson CoFID 2021, food code 14-845"
+     },
+     {
+      "food": "Almonds, whole kernels",
+      "per_100g": "25.47 mg alpha-tocopherol (25.63 mg total E)",
+      "portion": "1 oz, about 23 almonds (28 g)",
+      "per_portion": "7.1 mg",
+      "pct_rda_or_dose": "48% of the 15 mg RDA; 2.7% of 268 mg",
+      "source": "McCance and Widdowson CoFID 2021, food code 14-896"
+     },
+     {
+      "food": "Hazelnuts, kernel only",
+      "per_100g": "24.2 mg alpha-tocopherol (24.98 mg total E, plus 4.33 mg gamma)",
+      "portion": "1 oz (28 g)",
+      "per_portion": "6.8 mg",
+      "pct_rda_or_dose": "45% of the 15 mg RDA; 2.5% of 268 mg",
+      "source": "McCance and Widdowson CoFID 2021, food code 14-874"
+     },
+     {
+      "food": "Rapeseed (canola) oil",
+      "per_100g": "18.4 mg alpha-tocopherol, with 38.0 mg gamma-tocopherol",
+      "portion": "1 tablespoon (13.6 g)",
+      "per_portion": "2.5 mg alpha (5.2 mg gamma)",
+      "pct_rda_or_dose": "17% of the 15 mg RDA; 0.9% of 268 mg",
+      "source": "McCance and Widdowson CoFID 2021, food code 17-041 (mean of 100 samples)"
+     },
+     {
+      "food": "Wheatgerm",
+      "per_100g": "13.42 mg alpha-tocopherol (16.20 mg total E)",
+      "portion": "1 heaped tablespoon (10 g)",
+      "per_portion": "1.3 mg",
+      "pct_rda_or_dose": "9% of the 15 mg RDA; 0.5% of 268 mg",
+      "source": "McCance and Widdowson CoFID 2021, food code 11-907"
+     },
+     {
+      "food": "Avocado, Hass, flesh only",
+      "per_100g": "1.74 mg alpha-tocopherol (2.19 mg total E)",
+      "portion": "half an avocado, flesh (68 g)",
+      "per_portion": "1.2 mg",
+      "pct_rda_or_dose": "8% of the 15 mg RDA; 0.4% of 268 mg",
+      "source": "McCance and Widdowson CoFID 2021, food code 14-386"
+     },
+     {
+      "food": "Olive oil",
+      "per_100g": "5.10 mg alpha-tocopherol",
+      "portion": "1 tablespoon (13.6 g)",
+      "per_portion": "0.69 mg",
+      "pct_rda_or_dose": "5% of the 15 mg RDA; 0.26% of 268 mg",
+      "source": "McCance and Widdowson CoFID 2021, food code 17-038 (mean of 35 samples, including virgin)"
+     }
+    ],
+    "dose_gap": "400 IU of natural vitamin E is 268 mg of RRR-alpha-tocopherol. Reaching that from food, every day, means about 720 g of sunflower seeds (roughly 4,200 kcal), or 1.05 kg of almonds, or 201 g of wheatgerm oil (about 15 tablespoons of neat oil), or 550 g of sunflower oil. If the capsule is synthetic all-rac (180 mg for 400 IU), it is still 484 g of sunflower seeds or 10 tablespoons of wheatgerm oil daily. No dietary pattern gets there: habitual intakes cluster around 5 to 20 mg/day, so 400 IU sits one to two orders of magnitude above anything eating produces. This is a pharmacological dose with no dietary analogue, and it cannot be reached by eating.",
+    "form_caveat": "Most 400 IU capsules contain all-rac-alpha-tocopheryl acetate, a synthetic mixture of eight stereoisomers of which only one eighth is the RRR form that human alpha-tocopherol transfer protein preferentially retains. Food contains only RRR. That difference is precisely why the label conversions differ (1 IU = 0.67 mg natural versus 0.45 mg synthetic). Food also never delivers alpha-tocopherol in isolation: sunflower oil carries 48.7 mg alpha with 5.1 mg gamma per 100 g, while rapeseed oil carries 18.4 mg alpha with 38.0 mg gamma (CoFID 17-045, 17-041), and nuts add tocotrienols. High-dose alpha-tocopherol actively removes part of what food supplies: 400 IU/day of RRR-alpha-tocopheryl acetate cut serum gamma-tocopherol by a median 58% and reduced detectable delta-tocopherol in a randomised placebo-controlled trial of 184 adults (Huang et al., J Nutr 2003;133:3137-40, PMID 14519797). A 400 IU capsule is therefore not a concentrated version of a handful of sunflower seeds; it changes the balance of vitamin E forms in blood in a direction food never does.",
+    "bioavailability": "Alpha-tocopherol needs dietary fat and bile for absorption, which nuts and oils supply intrinsically, so food forms are absorbed efficiently in ordinary meals. Fractional absorption falls as the single dose rises, and hepatic alpha-TTP selectively retains only the 2R stereoisomers, so the 2S half of a synthetic all-rac dose is largely excreted. The practical consequence is that the useful fraction of a 400 IU synthetic capsule is well below its stated IU, and the plasma alpha-tocopherol achieved does not scale linearly with dose, while the displacement of gamma- and delta-tocopherol documented by Huang et al. (PMID 14519797) does."
+   },
+   {
+    "supplement": "Preformed vitamin A at or above 10,000 IU",
+    "availability": "RICH",
+    "availability_note": "Liver is far more concentrated in preformed retinol than the supplement: 10,000 IU is 3,000 µg retinol, and every common liver measured in the UK tables contains 10,500 to 25,200 µg per 100 g. This is the one item in this set where the food beats the pill, which is exactly why liver carries a public-health warning rather than a recommendation.",
+    "foods": [
+     {
+      "food": "Liver, calf, fried in corn oil",
+      "per_100g": "25,200 µg retinol (84,000 IU)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "25,200 µg (84,000 IU)",
+      "pct_rda_or_dose": "840% of a 10,000 IU dose; 3,600% of the 700 µg UK RNI",
+      "source": "McCance and Widdowson CoFID 2021, food code 18-410 (10 samples)"
+     },
+     {
+      "food": "Liver, pig, stewed",
+      "per_100g": "22,600 µg retinol (75,300 IU)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "22,600 µg (75,300 IU)",
+      "pct_rda_or_dose": "753% of a 10,000 IU dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 18-418 (18 samples)"
+     },
+     {
+      "food": "Liver, lamb, fried in corn oil",
+      "per_100g": "19,700 µg retinol (65,700 IU)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "19,700 µg (65,700 IU)",
+      "pct_rda_or_dose": "657% of a 10,000 IU dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 18-494 (10 samples)"
+     },
+     {
+      "food": "Liver, ox, stewed",
+      "per_100g": "17,300 µg retinol (57,700 IU)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "17,300 µg (57,700 IU)",
+      "pct_rda_or_dose": "577% of a 10,000 IU dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 18-416 (18 samples)"
+     },
+     {
+      "food": "Liver, chicken, fried in corn oil",
+      "per_100g": "10,500 µg retinol (35,000 IU)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "10,500 µg (35,000 IU)",
+      "pct_rda_or_dose": "350% of a 10,000 IU dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 18-412 (10 samples)"
+     },
+     {
+      "food": "Cod liver oil",
+      "per_100g": "18,000 µg retinol (60,000 IU)",
+      "portion": "1 teaspoon (4.6 g)",
+      "per_portion": "828 µg (2,760 IU)",
+      "pct_rda_or_dose": "28% of a 10,000 IU dose per teaspoon; a tablespoon (13.6 g) gives 2,448 µg (8,160 IU), 82%",
+      "source": "McCance and Widdowson CoFID 2021, food code 17-488 (mean of 20 samples)"
+     },
+     {
+      "food": "Pate, liver",
+      "per_100g": "7,300 µg retinol (24,300 IU)",
+      "portion": "1 serving on toast (40 g)",
+      "per_portion": "2,920 µg (9,730 IU)",
+      "pct_rda_or_dose": "97% of a 10,000 IU dose from one portion of pate",
+      "source": "McCance and Widdowson CoFID 2021, food code 19-317 (20 samples including canned)"
+     },
+     {
+      "food": "Butter, salted",
+      "per_100g": "958 µg retinol (3,190 IU)",
+      "portion": "1 pat (10 g)",
+      "per_portion": "96 µg (319 IU)",
+      "pct_rda_or_dose": "3.2% of a 10,000 IU dose; 14% of the 700 µg RNI",
+      "source": "McCance and Widdowson CoFID 2021, food code 17-685"
+     },
+     {
+      "food": "Egg yolk, chicken, raw",
+      "per_100g": "447 µg retinol (1,490 IU)",
+      "portion": "1 large yolk (17 g)",
+      "per_portion": "76 µg (253 IU)",
+      "pct_rda_or_dose": "2.5% of a 10,000 IU dose; 11% of the 700 µg RNI",
+      "source": "McCance and Widdowson CoFID 2021, food code 12-939"
+     }
+    ],
+    "dose_gap": "There is no gap to close. Twelve grams of fried calf liver supplies the full 3,000 µg (10,000 IU) of a high-dose retinol capsule, and a normal 100 g portion of any liver delivers 3.5 to 8.4 times that dose in a single sitting. A 40 g serving of liver pate is functionally a 10,000 IU tablet. A tablespoon of cod liver oil is 8,160 IU. Anyone eating liver weekly is already taking supraphysiological preformed vitamin A intermittently, and adding a 10,000 IU supplement on top compounds a load the body stores rather than clears. For context, the US tolerable upper intake level for preformed vitamin A is 3,000 µg/day, which is the supplement dose itself, and the UK RNI is 700 µg for men and 600 µg for women.",
+    "form_caveat": "The retinol in liver is the same molecule as the retinyl palmitate or acetate in capsules, absorbed by the same route and stored in the liver in the same way, so the usual reassurance that 'food forms are safer' does not apply here. Pregnancy is the sharp edge: UK advice is that people who are pregnant or who might become pregnant should avoid liver and liver products including pate, and should avoid supplements containing vitamin A including fish liver oils, because excess retinol is teratogenic (NHS pregnancy vitamins guidance; UK Committee on Toxicity statement on vitamin A in the maternal diet, TOX-2021-57). Cod liver oil is the common trap because it is bought for omega-3 or vitamin D and delivers 60,000 IU of retinol per 100 g. Outside pregnancy, chronic preformed retinol above the 3,000 µg/day UL is associated with reduced bone mineral density and fracture risk, which is why UK advice is to eat liver no more than once a week rather than to eat more of it. Beta-carotene-rich foods are the safe substitute precisely because their conversion is regulated (see the beta-carotene entry).",
+    "bioavailability": "Retinyl esters from liver and from supplements are absorbed at high efficiency and, critically, absorption is not down-regulated when stores are full, so intake accumulates in hepatic stellate cells over weeks and months. This is the opposite of carotenoid absorption, which is feedback-limited through retinoic-acid induction of the intestinal transcription factor ISX and consequent repression of SR-B1 and BCO1 (reviewed in Nutrients 2019;11(4):838, DOI 10.3390/nu11040838). Cooking concentrates liver retinol rather than destroying it: CoFID shows raw lamb liver at 17,300 µg/100 g rising to 19,700 µg/100 g fried, and raw ox liver at 14,200 rising to 17,300 stewed, through water loss (codes 18-413, 18-494, 18-415, 18-416)."
+   },
+   {
+    "supplement": "Beta-carotene supplements",
+    "availability": "RICH",
+    "availability_note": "Carrots, sweet potato and dark leafy greens are dense, ordinary sources: raw old carrot carries 9,149 µg beta-carotene per 100 g and boiled sweet potato 5,560 µg. By mass, the 20 to 30 mg doses used in the intervention trials are within reach of a few large portions, which makes this the one case where the food and the supplement look superficially comparable and behave completely differently.",
+    "foods": [
+     {
+      "food": "Carrots, old, boiled in unsalted water",
+      "per_100g": "9,616 µg beta-carotene (plus 2,962 µg alpha-carotene)",
+      "portion": "1 serving (80 g)",
+      "per_portion": "7,693 µg",
+      "pct_rda_or_dose": "38% of a 20 mg ATBC-style dose; 26% of a 30 mg CARET-style dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 13-497 (vitamin fractions sheet)"
+     },
+     {
+      "food": "Carrots, old, raw",
+      "per_100g": "9,149 µg beta-carotene (plus 5,230 µg alpha-carotene)",
+      "portion": "1 medium carrot (60 g)",
+      "per_portion": "5,489 µg",
+      "pct_rda_or_dose": "27% of a 20 mg dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 13-496 (22 samples, UK grown)"
+     },
+     {
+      "food": "Sweet potato, flesh only, boiled in unsalted water",
+      "per_100g": "5,560 µg beta-carotene",
+      "portion": "1 medium serving (130 g)",
+      "per_portion": "7,228 µg",
+      "pct_rda_or_dose": "36% of a 20 mg dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 13-646 (11 samples)"
+     },
+     {
+      "food": "Sweet potato, baked",
+      "per_100g": "5,140 µg beta-carotene",
+      "portion": "1 medium sweet potato, flesh (130 g)",
+      "per_portion": "6,682 µg",
+      "pct_rda_or_dose": "33% of a 20 mg dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 13-672"
+     },
+     {
+      "food": "Curly kale, raw",
+      "per_100g": "3,130 µg beta-carotene",
+      "portion": "large handful, shredded (80 g)",
+      "per_portion": "2,504 µg",
+      "pct_rda_or_dose": "13% of a 20 mg dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 13-234"
+     },
+     {
+      "food": "Spinach, baby, boiled in unsalted water",
+      "per_100g": "2,172 µg beta-carotene",
+      "portion": "1 serving, cooked (90 g)",
+      "per_portion": "1,955 µg",
+      "pct_rda_or_dose": "10% of a 20 mg dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 13-550"
+     },
+     {
+      "food": "Curly kale, boiled in unsalted water",
+      "per_100g": "2,097 µg beta-carotene",
+      "portion": "1 serving, cooked (95 g)",
+      "per_portion": "1,992 µg",
+      "pct_rda_or_dose": "10% of a 20 mg dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 13-649 (11 UK samples)"
+     },
+     {
+      "food": "Spinach, baby, raw",
+      "per_100g": "1,559 µg beta-carotene",
+      "portion": "large salad bowl (80 g)",
+      "per_portion": "1,247 µg",
+      "pct_rda_or_dose": "6% of a 20 mg dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 13-521 (16 samples, UK grown)"
+     },
+     {
+      "food": "Mangoes, ripe, flesh only, raw",
+      "per_100g": "682 µg beta-carotene",
+      "portion": "1 large cheek (100 g)",
+      "per_portion": "682 µg",
+      "pct_rda_or_dose": "3.4% of a 20 mg dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 14-378"
+     },
+     {
+      "food": "Apricots, dried",
+      "per_100g": "640 µg beta-carotene",
+      "portion": "6 halves (40 g)",
+      "per_portion": "256 µg",
+      "pct_rda_or_dose": "1.3% of a 20 mg dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 14-031"
+     },
+     {
+      "food": "Butter, salted",
+      "per_100g": "614 µg beta-carotene",
+      "portion": "1 pat (10 g)",
+      "per_portion": "61 µg",
+      "pct_rda_or_dose": "0.3% of a 20 mg dose",
+      "source": "McCance and Widdowson CoFID 2021, food code 17-685"
+     }
+    ],
+    "dose_gap": "By raw mass the trial doses are reachable: 20 mg/day is about 219 g of raw carrot (roughly three and a half medium carrots) or 360 g of boiled sweet potato, and 30 mg/day is about 312 g of carrot. By absorbed dose it is a different story. The Dietary Reference Intake conversion factors treat 12 µg of food beta-carotene as equivalent to 1 µg retinol activity, against 2 µg for supplemental beta-carotene in oil, implying the supplement form is about six times more available (Institute of Medicine, DRIs for Vitamin A and related micronutrients, 2001, DOI 10.17226/10026). Matching the absorbed exposure of a 20 mg capsule therefore takes on the order of 120 mg of food beta-carotene, roughly 1.3 kg of raw carrots every day, which nobody eats and which the gut would not absorb anyway. So the honest answer is that food matches the label number and does not match the plasma exposure that produced the trial results.",
+    "form_caveat": "This is the clearest food-versus-extract case in the set. Supplement beta-carotene is synthetic all-trans-beta-carotene or algal/fungal beta-carotene, formulated in oil or water-dispersible beadlets specifically to defeat the poor bioavailability of the food form, so it is engineered to do what a carrot cannot. Food never delivers beta-carotene alone: the same carrot supplies 5,230 µg/100 g of alpha-carotene (CoFID 13-496), and dark greens supply lutein with far less beta-carotene. Dietary carotenoids carry none of the supplement harm for three reasons. First, uptake and cleavage are feedback-regulated: absorbed beta-carotene raises intracellular retinoic acid, which induces ISX, which represses SR-B1 and BCO1 in the enterocyte, so absorption falls as vitamin A status rises (Nutrients 2019;11(4):838, DOI 10.3390/nu11040838). A capsule of purified beta-carotene in oil pushes plasma concentrations well past anything food produces. Second, the harm signals came from isolated high doses in high-risk groups: 20 mg/day raised lung cancer incidence by 18% in male smokers (ATBC, N Engl J Med 1994;330:1029-35, PMID 8127329, DOI 10.1056/nejm199404143301501) and 30 mg/day plus 25,000 IU retinyl palmitate produced 28% more lung cancers, RR 1.36, in smokers and asbestos-exposed workers (CARET, J Natl Cancer Inst 1996;88:1550, PMID 8901853, DOI 10.1093/jnci/88.21.1550). CARET cannot even be attributed to beta-carotene alone, since it co-administered a large preformed retinol dose. Third, overloading on carrots produces carotenodermia, a harmless orange discolouration of the skin, rather than hypervitaminosis A, because the conversion step is regulated. 'Eat carrots' and 'take 20 mg of beta-carotene' are not the same intervention.",
+    "bioavailability": "Beta-carotene in raw carrot and raw spinach is locked in chromoplasts behind intact plant cell walls, so absorption from raw vegetables is low; chopping, pureeing, cooking and eating with fat all raise it, and cooking does not destroy it (CoFID shows boiled old carrot at 9,616 µg/100 g against 9,149 raw, codes 13-497 and 13-496, reflecting water loss and retention). The formal expression of this is the 12:1 food versus 2:1 supplement-in-oil conversion factor (IOM 2001, DOI 10.17226/10026). Conversion efficiency also varies substantially between individuals through BCO1 genotype and vitamin A status, which is why plasma responses to the same carrot intake differ several-fold between people (DOI 10.3390/nu11040838). Spinach deserves a specific caution: it is the textbook carotenoid green, but baby spinach carries only 1,559 µg/100 g raw, well under a fifth of carrot, and its oxalate load makes it a poor recommendation for people managing kidney stones."
+   },
+   {
+    "supplement": "Vitamin K2 (MK-7 and MK-4)",
+    "availability": "RICH",
+    "availability_note": "Both menaquinones occur in ordinary food, but in completely separate places: MK-7 is concentrated in natto at 939 µg/100 g, while MK-4 is spread thinly through chicken, egg yolk, full-fat dairy and meat at 1 to 22 µg/100 g. One pack of natto exceeds any commercial MK-7 dose, and no food comes within three orders of magnitude of the 45 mg MK-4 dose used clinically in Japan.",
+    "foods": [
+     {
+      "food": "Natto (fermented soybeans), MK-7",
+      "per_100g": "939 µg MK-7",
+      "portion": "1 standard pack (50 g)",
+      "per_portion": "470 µg MK-7",
+      "pct_rda_or_dose": "261% of a 180 µg MK-7 capsule; 522% of a 90 µg capsule",
+      "source": "Kamao M et al., J Nutr Sci Vitaminol 2007;53:464-70, PMID 18202532, DOI 10.3177/jnsv.53.464"
+     },
+     {
+      "food": "Chicken, barbecue (raw and cooked), MK-4",
+      "per_100g": "22.1 µg MK-4 (range 13.6 to 31.6, n=10)",
+      "portion": "1 thigh/leg portion (120 g)",
+      "per_portion": "26.5 µg MK-4",
+      "pct_rda_or_dose": "0.06% of the 45 mg MK-4 dose; 1.8% of a 1.5 mg low-dose MK-4 pill",
+      "source": "Elder SJ, Haytowitz DB, Howe J, Peterson JW, Booth SL, J Agric Food Chem 2006;54:463-7, PMID 16417305, DOI 10.1021/jf052400h, Table 1"
+     },
+     {
+      "food": "Egg yolk, fresh, raw, MK-4",
+      "per_100g": "15.5 µg MK-4",
+      "portion": "1 large yolk (17 g)",
+      "per_portion": "2.6 µg MK-4",
+      "pct_rda_or_dose": "0.006% of the 45 mg MK-4 dose; 0.18% of a 1.5 mg pill",
+      "source": "Elder et al. 2006, PMID 16417305, Table 2"
+     },
+     {
+      "food": "Chicken liver, raw, MK-4",
+      "per_100g": "14.1 µg MK-4 (12.6 µg pan-fried)",
+      "portion": "1 serving, pan-fried (100 g)",
+      "per_portion": "12.6 µg MK-4",
+      "pct_rda_or_dose": "0.03% of the 45 mg MK-4 dose",
+      "source": "Elder et al. 2006, PMID 16417305, Table 1"
+     },
+     {
+      "food": "Cheddar cheese, full fat, MK-4",
+      "per_100g": "9.5 ± 0.4 µg MK-4 (10.2 µg in Elder et al.); total vitamin K of hard cheese 282 ± 5.0 µg, dominated by MK-9 to MK-11",
+      "portion": "1 matchbox piece (30 g)",
+      "per_portion": "2.9 µg MK-4",
+      "pct_rda_or_dose": "0.006% of the 45 mg MK-4 dose",
+      "source": "Fu X et al., Curr Dev Nutr 2017;1(6):e000638, PMID 29955705, DOI 10.3945/cdn.117.000638; Elder et al. 2006, PMID 16417305"
+     },
+     {
+      "food": "Heavy cream, MK-4",
+      "per_100g": "9.3 ± 0.8 µg MK-4",
+      "portion": "2 tablespoons (30 g)",
+      "per_portion": "2.8 µg MK-4",
+      "pct_rda_or_dose": "0.006% of the 45 mg MK-4 dose",
+      "source": "Fu X et al., Curr Dev Nutr 2017;1(6):e000638, PMID 29955705, DOI 10.3945/cdn.117.000638"
+     },
+     {
+      "food": "Butter, MK-4 and MK-7",
+      "per_100g": "10.0 µg MK-4 and 4.2 µg MK-7 (100.25 and 41.64 ng/g)",
+      "portion": "1 pat (10 g)",
+      "per_portion": "1.0 µg MK-4 and 0.4 µg MK-7",
+      "pct_rda_or_dose": "0.002% of the 45 mg MK-4 dose; 0.2% of a 180 µg MK-7 capsule",
+      "source": "Determination of Vitamin K2 Content of Dairy Products Produced in Hatay Region, Natural and Engineering Sciences 2022, DOI 10.28978/nesciences.1036844, Table 2. Treat as indicative: the same paper's cow-milk MK-4 (27.5 µg/100 g) is about 25 times the US analytical values, so its absolute calibration is questionable"
+     },
+     {
+      "food": "Ground beef, raw, medium fat, MK-4",
+      "per_100g": "8.1 µg MK-4 (5.1 to 7.2 µg broiled)",
+      "portion": "1 burger (100 g)",
+      "per_portion": "8.1 µg raw basis",
+      "pct_rda_or_dose": "0.018% of the 45 mg MK-4 dose",
+      "source": "Elder et al. 2006, PMID 16417305, Table 1"
+     },
+     {
+      "food": "Egg, whole, fried, MK-4",
+      "per_100g": "9.0 µg MK-4 (5.6 µg fresh raw, 7.0 µg hard-cooked)",
+      "portion": "1 large egg (50 g)",
+      "per_portion": "4.5 µg MK-4",
+      "pct_rda_or_dose": "0.01% of the 45 mg MK-4 dose",
+      "source": "Elder et al. 2006, PMID 16417305, Table 2"
+     },
+     {
+      "food": "Cheddar cheese, MK-7",
+      "per_100g": "2.7 µg MK-7 (26.78 ng/g)",
+      "portion": "1 matchbox piece (30 g)",
+      "per_portion": "0.8 µg MK-7",
+      "pct_rda_or_dose": "0.4% of a 180 µg MK-7 capsule",
+      "source": "Natural and Engineering Sciences 2022, DOI 10.28978/nesciences.1036844, Table 2"
+     },
+     {
+      "food": "Whole milk, MK-4",
+      "per_100g": "1.0 µg MK-4 (0.7 to 1.3 µg in later analyses)",
+      "portion": "1 glass (200 ml)",
+      "per_portion": "2.0 µg MK-4",
+      "pct_rda_or_dose": "0.004% of the 45 mg MK-4 dose",
+      "source": "Elder et al. 2006, PMID 16417305, Table 2"
+     },
+     {
+      "food": "Salmon, raw, Alaska wild, MK-4",
+      "per_100g": "0.3 µg MK-4",
+      "portion": "1 fillet (130 g)",
+      "per_portion": "0.4 µg MK-4",
+      "pct_rda_or_dose": "under 0.001% of the 45 mg MK-4 dose",
+      "source": "Elder et al. 2006, PMID 16417305, Table 1. Included because fish is often wrongly listed as a K2 source"
+     }
+    ],
+    "dose_gap": "The two forms give opposite answers, which is why they must not be merged. MK-7 at the doses used in supplements and trials, 90 to 180 µg/day, is fully covered by food: one 50 g pack of natto is 470 µg of MK-7, so a pack every second or third day matches a 180 µg capsule. Nothing else does. Matching 180 µg/day from cheddar at 2.7 µg/100 g would take 6.7 kg of cheese a day, and from butter about 4.3 kg. MK-4 is the reverse. The clinical dose in Japan, menatetrenone for osteoporosis, is 45 mg/day (45,000 µg), typically 15 mg three times daily. At the richest measured food value, barbecue chicken at 22.1 µg/100 g, that is about 204 kg of chicken per day. Even a modest 1.5 mg consumer MK-4 pill needs 6.8 kg of chicken or 58 kg of whole milk. Measured whole-diet MK-4 intake sits around 17 µg/day (7.3% of a mean total vitamin K intake of about 230 µg/day in Japanese women, Kamao 2007), which is roughly one 2,600th of the pharmacological dose. MK-4 at supplement strength is unreachable by eating, and no amount of butter, egg yolk or chicken changes that.",
+    "form_caveat": "MK-7 supplements are made by Bacillus subtilis natto fermentation, the same organism that makes natto, or synthesised; the active species is all-trans MK-7 and cis-isomer contamination is a documented quality problem in commercial products that the fermented food does not have. MK-4 supplements are wholly synthetic, derived from menadione, because no food is or could be concentrated to 45 mg per dose. Natto also brings the fermentation matrix, fibre and nattokinase, and circulating K2 after eating natto is around ten times the circulating K1 after eating spinach (Schurgers LJ, Vermeer C, Haemostasis 2000;30:298-307, PMID 11356998). The common 'cheese is a K2 food' claim needs unpicking: cheese total vitamin K is genuinely high, 282 µg/100 g for hard cheese and up to 506 µg/100 g for soft cheese, but roughly 90% of it is MK-9, MK-10 and MK-11 from starter bacteria (Fu et al. 2017, PMID 29955705), forms that no clinical trial has tested, while the MK-7 fraction is only a few µg/100 g. Animal MK-4 also tracks the animal's feed: menadione is a routine poultry feed additive and Elder et al. attribute poultry MK-4 to alkylation of that menadione, so brand, country and production system shift the numbers, and the two chicken hot dog and chicken broth samples in the same study contained no detectable MK-4 at all.",
+    "bioavailability": "MK-4 and MK-7 behave so differently that microgram-for-microgram comparison is meaningless. A single 420 µg dose of MK-7 was well absorbed and remained detectable in serum for 48 hours, whereas the identical 420 µg dose of MK-4 was undetectable in serum, and over seven days of 60 µg/day only MK-7 raised serum concentrations (Sato T et al., Nutr J 2012;11:93, PMID 23140417, DOI 10.1186/1475-2891-11-93). MK-7's long half-life comes from its extended isoprenoid side chain and tight lipoprotein binding. This is the mechanistic reason MK-4 must be dosed in milligrams while MK-7 works in micrograms, and it means the 1 to 22 µg/100 g of MK-4 in butter, egg yolk, cheese and chicken contributes almost nothing to circulating vitamin K2 even though it is real and measurable. All menaquinones need dietary fat for absorption, which is why they are found in and absorbed from the fat phase of dairy and eggs; the reduced-fat versions lose most of it, with reduced-fat cheddar at 1.8 µg MK-4 per 100 g against 9.5 µg for full fat (PMID 29955705)."
+   }
+  ]
+ },
+ "verification_report": {
+  "group": "fat-soluble-vitamins",
+  "number_checks": [
+   {
+    "claim": "Salmon, sockeye, cooked, dry heat: 16.7 µg vitamin D per 100 g (668 IU)",
+    "verdict": "OK",
+    "authoritative_value": "USDA: 14.20 µg per 85 g (3 oz) serving = 16.71 µg/100 g = 668 IU/100 g",
+    "correction": "None. Also confirms the 155 g half-fillet portion and the 25.9 µg (1,035 IU) per-portion figure.",
+    "source": "USDA SR Legacy record for cooked sockeye salmon, retrieved via FDC mirror nutritionvalue.org"
+   },
+   {
+    "claim": "Source attribution 'USDA FoodData Central FDC ID 173692 (SR Legacy), retrieved via FDC API'",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Could not be resolved",
+    "correction": "Mark the ID unconfirmed. fdc.nal.usda.gov returned HTTP 404 for every food-detail route tried (including 173692 and a control ID), and the FDC API on DEMO_KEY returned HTTP 429 with Retry-After 3550 s. The nutrient value is correct; the identifier is not corroborated.",
+    "source": "Direct fetch attempts against fdc.nal.usda.gov and api.nal.usda.gov"
+   },
+   {
+    "claim": "Herring, flesh only, grilled: 16.1 µg vitamin D per 100 g (644 IU)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA cooked Atlantic herring: 7.72 µg per 143 g fillet = 5.40 µg/100 g (216 IU)",
+    "correction": "USDA is about 3x lower. Herring vitamin D is genuinely variable by stock, season and fat content, so the honest form is a range (roughly 5 to 16 µg/100 g), not a single figure. Every herring-anchored dose-gap number inherits this uncertainty.",
+    "source": "USDA record for cooked Atlantic herring via nutritionvalue.org"
+   },
+   {
+    "claim": "Egg yolk, chicken, raw: 12.8 µg total vitamin D per 100 g; 2.2 µg (87 IU) per 17 g yolk",
+    "verdict": "WRONG",
+    "authoritative_value": "USDA raw egg yolk: 0.92 µg vitamin D per 17 g yolk = 5.41 µg/100 g (216 IU/100 g)",
+    "correction": "Roughly 5.4 µg/100 g and about 0.9 µg (37 IU) per large yolk, not 2.2 µg (87 IU). The submission's figure is 2.4x the USDA value. Knock-on: 9% of the 10 µg RNI per yolk, not 22%.",
+    "source": "USDA record for raw egg yolk via nutritionvalue.org"
+   },
+   {
+    "claim": "Parenthetical: 'USDA SR Legacy gives a lower 41 IU per large raw egg' (whole egg)",
+    "verdict": "OK",
+    "authoritative_value": "USDA whole raw egg: 2.0 µg/100 g = 1.0 µg per 50 g egg = 41 IU",
+    "correction": "None. This aside is accurate and is the one place the entry correctly flags the USDA/CoFID egg divergence, which makes the uncorrected yolk figure above harder to excuse.",
+    "source": "USDA SR Legacy whole raw egg vitamin D"
+   },
+   {
+    "claim": "Mushrooms, portabella, exposed to UV light, raw: 11.2 µg vitamin D2 per 100 g (446 IU)",
+    "verdict": "OK",
+    "authoritative_value": "Matches the long-standing USDA SR value of 446 IU/100 g for UV-exposed raw portabella",
+    "correction": "None, but treat with caution: an FDC mirror reads 24.42 µg per 86 g cup (about 28 µg/100 g) for the same descriptor, so the reference value itself is unstable. That reinforces rather than undermines the entry's own variability caveat.",
+    "source": "USDA SR value; cross-read against nutritionvalue.org UV portabella record"
+   },
+   {
+    "claim": "Mushrooms, white, raw, not UV-treated: 0.1 µg/100 g (4 IU) per USDA",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Record not retrievable; USDA commonly publishes 0.2 µg/100 g (7 IU) for raw white mushrooms",
+    "correction": "Possibly understated by 2x, but the conclusion (under 1% of the RNI) survives either value.",
+    "source": "Fetch of the USDA raw white mushroom record returned only a search index page"
+   },
+   {
+    "claim": "Salmon, pink, canned: '13.6 µg total (12.1 µg cholecalciferol + 0.30 µg 25-OH-D3)'",
+    "verdict": "OK",
+    "authoritative_value": "Internally consistent under the CoFID convention total vitamin D = cholecalciferol + (5 x 25-OH-D3): 12.1 + 1.5 = 13.6",
+    "correction": "None. This looks like an addition error but is not one. The same convention makes the trout (7.19 + 5x0.20 = 8.19) and whole egg (2.30 + 5x0.18 = 3.20) totals check out too. The underlying CoFID values remain unverified.",
+    "source": "McCance and Widdowson CoFID total-vitamin-D convention; arithmetic recomputed"
+   },
+   {
+    "claim": "Cod liver oil: 210 µg vitamin D/100 g (8,400 IU) and 18,000 µg retinol/100 g (60,000 IU)",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "CoFID dataset not retrievable",
+    "correction": "Both are the standard McCance values and all derived per-portion figures (9.7 µg D per teaspoon; 828 µg / 2,448 µg retinol per teaspoon / tablespoon) recompute exactly, so no correction is proposed. Provenance unconfirmed.",
+    "source": "Arithmetic recomputation; CoFID spreadsheet inaccessible via WebFetch"
+   },
+   {
+    "claim": "Fortified orange juice: about 1.0 µg/100 g (40 IU); 2.5 µg (100 IU) per 248 g cup",
+    "verdict": "OK",
+    "authoritative_value": "100 IU per 8 oz cup is the standard US fortification level and the value carried in the NIH ODS food table",
+    "correction": "None on the number. The citation string ('SR Legacy 2018, abridged nutrient list ... nal.usda.gov') is not a resolvable identifier and should be replaced with a record ID.",
+    "source": "Standard US OJ fortification level; NIH ODS vitamin D food table (page returned HTTP 403 on direct fetch)"
+   },
+   {
+    "claim": "Olive oil: 5.10 mg alpha-tocopherol per 100 g; 0.69 mg per tablespoon; 5% of the 15 mg RDA",
+    "verdict": "WRONG",
+    "authoritative_value": "USDA olive oil: 1.94 mg alpha-tocopherol per 13.5 g = 14.35 mg/100 g (gamma-tocopherol 0.81 mg/100 g)",
+    "correction": "USDA is 2.8x higher. A tablespoon supplies about 1.95 mg alpha-tocopherol, 13% of the 15 mg RDA and 0.73% of a 268 mg dose, not 0.69 mg / 5% / 0.26%. Olive oil is materially understated.",
+    "source": "USDA record for olive oil, salad or cooking, via nutritionvalue.org"
+   },
+   {
+    "claim": "Hazelnuts, kernel only: 24.2 mg alpha-tocopherol per 100 g, plus 4.33 mg gamma",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA hazelnuts: 17.28 mg alpha-tocopherol per 115 g = 15.03 mg/100 g; gamma-tocopherol 0.00 mg",
+    "correction": "USDA is 38% lower on alpha (15.0 vs 24.2 mg/100 g) and records no gamma at all against the claimed 4.33 mg. Hazelnut alpha-tocopherol varies widely by cultivar; state a range and drop the gamma figure or source it properly.",
+    "source": "USDA record for hazelnuts/filberts via nutritionvalue.org"
+   },
+   {
+    "claim": "Wheatgerm oil: 133.0 mg alpha-tocopherol per 100 g",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA wheat germ oil: 6.72 mg alpha-tocopherol per 4.5 g = 149.3 mg/100 g",
+    "correction": "USDA is 12% higher. At 149.4 mg/100 g, 268 mg takes 179 g (about 13 tablespoons), not 201 g / 15 tablespoons.",
+    "source": "USDA record for wheat germ oil via nutritionvalue.org"
+   },
+   {
+    "claim": "Almonds: '25.47 mg alpha-tocopherol (25.63 mg total vitamin E)'",
+    "verdict": "OK",
+    "authoritative_value": "USDA almonds: 36.65 mg alpha-tocopherol per 143 g = 25.63 mg/100 g; gamma-tocopherol 0.64 mg/100 g",
+    "correction": "Value is right but the labels are swapped: 25.63 mg/100 g IS the alpha-tocopherol figure in USDA, not total vitamin E. Cosmetic, but it undercuts the entry's own careful alpha-versus-total distinction.",
+    "source": "USDA record for almonds via nutritionvalue.org"
+   },
+   {
+    "claim": "Sunflower seeds, kernels: 37.2 mg alpha-tocopherol per 100 g",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA dried sunflower seed kernels: 16.18 mg alpha-tocopherol per 46 g = 35.17 mg/100 g; gamma 0.37 mg/100 g",
+    "correction": "6% high. Minor: the 720 g dose-gap figure becomes 762 g at the USDA value, so the conclusion is unaffected.",
+    "source": "USDA record for dried sunflower seed kernels via nutritionvalue.org"
+   },
+   {
+    "claim": "Sunflower oil: '48.7 mg alpha-tocopherol (49.22 mg total E, plus 5.1 mg gamma-tocopherol)'",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "USDA linoleic sunflower oil is about 41 mg alpha-tocopherol/100 g; the specific record could not be retrieved",
+    "correction": "No correction proposed. Note that '49.22 total with 5.1 gamma' is not an addition error: it follows the alpha-tocopherol-equivalents convention (48.7 + 0.1 x 5.1 = 49.21), same as the 133.0/136.65 wheatgerm-oil pair.",
+    "source": "Fetch of the USDA sunflower oil record failed; arithmetic recomputed against the alpha-TE convention"
+   },
+   {
+    "claim": "Avocado, Hass, flesh only: 1.74 mg alpha-tocopherol per 100 g",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA raw avocado: 3.10 mg alpha-tocopherol per 150 g = 2.07 mg/100 g; gamma 0.33 mg/100 g",
+    "correction": "USDA is 19% higher. Half an avocado supplies about 1.4 mg, not 1.2 mg.",
+    "source": "USDA record for raw avocado, all commercial varieties, via nutritionvalue.org"
+   },
+   {
+    "claim": "Butter, salted: 958 µg retinol per 100 g (3,190 IU)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA salted butter: 33.55 µg retinol per 5 g = 671 µg/100 g (vitamin A 684 µg RAE/100 g)",
+    "correction": "The submission is 43% above USDA. A 10 g pat gives about 67 µg retinol (224 IU), 10% of the 700 µg RNI, not 96 µg / 319 IU / 14%.",
+    "source": "USDA record for salted butter via nutritionvalue.org"
+   },
+   {
+    "claim": "Butter, salted: 614 µg beta-carotene per 100 g",
+    "verdict": "WRONG",
+    "authoritative_value": "USDA salted butter: 7.90 µg beta-carotene per 5 g = 158 µg/100 g",
+    "correction": "USDA is 3.9x lower. Grass-fed summer butter genuinely carries more carotene than US commodity butter, but 614 µg/100 g cannot be presented as the value without saying so; a 10 g pat gives about 16 µg, not 61 µg.",
+    "source": "USDA record for salted butter via nutritionvalue.org"
+   },
+   {
+    "claim": "Egg yolk, chicken, raw: 447 µg retinol per 100 g (1,490 IU)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA raw egg yolk: 63.07 µg retinol per 17 g = 371 µg/100 g",
+    "correction": "USDA is 17% lower. One yolk gives about 63 µg retinol (210 IU), 9% of the 700 µg RNI, not 76 µg / 253 IU / 11%.",
+    "source": "USDA record for raw egg yolk via nutritionvalue.org"
+   },
+   {
+    "claim": "Liver retinol series: calf fried 25,200; pig stewed 22,600; lamb fried 19,700; ox stewed 17,300; chicken fried 10,500 µg/100 g",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "CoFID dataset not retrievable via WebFetch",
+    "correction": "No correction proposed. All five IU conversions, the 12 g calf-liver equivalence, and the 3.5-to-8.4x range recompute exactly, and the magnitudes are consistent with published liver retinol data, so the entry's central claim (food beats the pill here) stands. But the whole series rests on unconfirmed codes.",
+    "source": "Arithmetic recomputation; gov.uk CoFID spreadsheet not machine-readable via WebFetch"
+   },
+   {
+    "claim": "Carrots, old, raw: 9,149 µg beta-carotene plus 5,230 µg alpha-carotene per 100 g",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA raw carrots: 10,604.8 µg beta-carotene per 128 g = 8,285 µg/100 g; alpha-carotene 4,450.6 per 128 g = 3,477 µg/100 g",
+    "correction": "Beta is 10% high (tolerable); alpha is 50% high (3,477 not 5,230). Because raw carrot anchors the whole beta-carotene dose gap, using USDA moves 20 mg to 241 g and 30 mg to 362 g.",
+    "source": "USDA record for raw carrots via nutritionvalue.org"
+   },
+   {
+    "claim": "Sweet potato, baked: 5,140 µg beta-carotene per 100 g; 6,682 µg per 130 g portion; 33% of a 20 mg dose",
+    "verdict": "WRONG",
+    "authoritative_value": "USDA sweet potato, baked in skin, flesh, without salt: 23,018 µg beta-carotene per 200 g = 11,509 µg/100 g",
+    "correction": "USDA is 2.24x higher. A 130 g portion supplies about 14,962 µg, which is 75% of a 20 mg dose, not 33%. Baked sweet potato is the strongest food in this list after carrot and the entry ranks it fourth.",
+    "source": "USDA record for baked sweet potato flesh via nutritionvalue.org"
+   },
+   {
+    "claim": "Spinach, baby, raw: 1,559 µg beta-carotene per 100 g; 'well under a fifth of carrot'",
+    "verdict": "WRONG",
+    "authoritative_value": "USDA raw spinach: 1,687.8 µg beta-carotene per 30 g = 5,626 µg/100 g",
+    "correction": "USDA is 3.6x higher. The comparative claim fails outright: 5,626 against USDA's 8,285 µg/100 g for carrot is 68% of carrot, not 'well under a fifth'. An 80 g bowl supplies about 4,501 µg (23% of a 20 mg dose), not 1,247 µg (6%). The boiled figure (2,172 vs USDA cooked spinach around 6,288 µg/100 g) is understated on the same scale.",
+    "source": "USDA record for raw spinach via nutritionvalue.org"
+   },
+   {
+    "claim": "Apricots, dried: 640 µg beta-carotene per 100 g; 256 µg per 40 g; 1.3% of a 20 mg dose",
+    "verdict": "WRONG",
+    "authoritative_value": "USDA dried sulfured apricots, uncooked: 2,811.9 µg beta-carotene per 130 g = 2,163 µg/100 g",
+    "correction": "USDA is 3.4x higher. Six halves (40 g) give about 865 µg, which is 4.3% of a 20 mg dose, not 1.3%.",
+    "source": "USDA record for dried sulfured apricots via nutritionvalue.org"
+   },
+   {
+    "claim": "Curly kale, raw: 3,130 µg beta-carotene per 100 g",
+    "verdict": "OK",
+    "authoritative_value": "USDA raw kale: 603.33 µg beta-carotene per 21 g = 2,873 µg/100 g",
+    "correction": "None; 9% apart. Worth noting the older USDA SR Legacy kale figure was 9,226 µg/100 g, so the published range for kale is unusually wide and a single value overstates precision.",
+    "source": "USDA record for raw kale via nutritionvalue.org"
+   },
+   {
+    "claim": "Mangoes, ripe, flesh only, raw: 682 µg beta-carotene per 100 g",
+    "verdict": "OK",
+    "authoritative_value": "USDA raw mango: about 640 µg beta-carotene/100 g",
+    "correction": "None.",
+    "source": "USDA raw mango beta-carotene"
+   },
+   {
+    "claim": "Natto: 939 µg MK-7 per 100 g (Kamao 2007, PMID 18202532)",
+    "verdict": "OK",
+    "authoritative_value": "Kamao et al. abstract: 'MK-7 was observed characteristically in fermented soybean products such as natto (939 microg/100 g)'",
+    "correction": "None. PMID, journal, year, volume and pages (J Nutr Sci Vitaminol 2007;53(6):464-70) all confirmed exactly.",
+    "source": "PubMed record 18202532"
+   },
+   {
+    "claim": "Whole-diet MK-4 intake around 17 µg/day, 7.3% of about 230 µg/day total vitamin K in Japanese women",
+    "verdict": "OK",
+    "authoritative_value": "Kamao et al.: mean total vitamin K intake about 230 µg/d; PK 67.7%, MK-7 24.9%, MK-4 7.3%",
+    "correction": "None. 0.073 x 230 = 16.8 µg/d, and 45,000/17 = 2,647, so 'roughly one 2,600th' checks out.",
+    "source": "PubMed record 18202532"
+   },
+   {
+    "claim": "Cheese total vitamin K: 282 µg/100 g hard, up to 506 µg/100 g soft, roughly 90% as MK-9/10/11 (Fu 2017, PMID 29955705)",
+    "verdict": "OK",
+    "authoritative_value": "Fu et al.: soft cheese 506 ± 63, blue 440 ± 41, semi-soft 289 ± 38, hard 282 ± 5.0, processed 98 ± 11 µg/100 g; vitamin K concentrated in MK-9, MK-10 and MK-11; full-fat much higher than reduced-fat",
+    "correction": "None. Citation and both headline numbers confirmed exactly, including the fat-dependence claim used for the reduced-fat cheddar comparison.",
+    "source": "PubMed record 29955705"
+   },
+   {
+    "claim": "Elder et al. 2006 MK-4 table values: chicken 22.1, egg yolk 15.5, chicken liver 14.1, ground beef 8.1, whole milk 1.0, salmon 0.3 µg/100 g",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Citation itself confirmed exactly (J Agric Food Chem 2006;54(2):463-7, PMID 16417305, 'Vitamin K Contents of Meat, Dairy, and Fast Food in the U.S. Diet'); the abstract carries no numeric table values and full text is paywalled",
+    "correction": "Not correctable from open sources. Six separate food figures and the entire MK-4 dose gap rest on tables I could not open.",
+    "source": "PubMed record 16417305"
+   },
+   {
+    "claim": "'At the richest measured food value, barbecue chicken at 22.1 µg/100 g' is the top MK-4 food",
+    "verdict": "WRONG",
+    "authoritative_value": "Goose liver paste is the standard richest MK-4 food in the food-composition literature at roughly 369 µg/100 g (Schurgers and Vermeer 2000 food table), about 17x barbecue chicken",
+    "correction": "Replace 'richest measured food value' with goose liver paste. This also breaks the form_caveat claim that 'no food comes within three orders of magnitude of the 45 mg MK-4 dose': 100 g of goose liver paste is about 1/122 of 45 mg, roughly 2.1 orders of magnitude. The 45 mg dose becomes 12.2 kg/day of goose liver paste rather than 204 kg of chicken, which is still unreachable, so the conclusion holds and only the framing is wrong. Caveat: I confirmed the Schurgers and Vermeer paper exists but its abstract does not carry the 369 figure, so treat it as a widely cited table value.",
+    "source": "PubMed record 11356998 (paper confirmed); the 369 µg/100 g table value is widely cited but not confirmable from the abstract"
+   },
+   {
+    "claim": "Butter MK-4 100.25 ng/g = 10.0 µg/100 g and MK-7 41.64 ng/g = 4.2 µg/100 g; cheddar MK-7 26.78 ng/g = 2.7 µg/100 g",
+    "verdict": "OK",
+    "authoritative_value": "Unit conversions are exact (100.25 ng/g = 10.025 µg/100 g; 41.64 = 4.164; 26.78 = 2.678)",
+    "correction": "None on the arithmetic. The source (DOI 10.28978/nesciences.1036844) could not be verified. The entry's own warning that this paper's cow-milk MK-4 runs about 25x the US analytical values is good practice and the 27.5 vs 1.0 ratio it cites is 27.5x, close enough to 'about 25 times'.",
+    "source": "Arithmetic recomputation; journal DOI not resolvable via WebFetch"
+   },
+   {
+    "claim": "Huang et al.: 400 IU/day RRR-alpha-tocopheryl acetate cut serum gamma-tocopherol by a median 58% in 184 adults (PMID 14519797)",
+    "verdict": "OK",
+    "authoritative_value": "J Nutr 2003;133(10):3137-40, Huang HY and Appel LJ: 400 IU/d RRR-alpha-tocopheryl acetate, 184 adult nonsmokers, randomised placebo-controlled, 2 months; gamma-tocopherol median reduction 58% (95% CI 51-66%); delta-tocopherol detectable concentrations reduced",
+    "correction": "None. Dose, n, direction and the 58% figure all confirmed. Only refinement: the participants were specifically nonsmokers, worth stating since the vitamin E harm literature is smoker-sensitive.",
+    "source": "PubMed record 14519797"
+   },
+   {
+    "claim": "CARET: 30 mg beta-carotene plus 25,000 IU retinyl palmitate produced 28% more lung cancers, RR 1.36 (PMID 8901853)",
+    "verdict": "OK",
+    "authoritative_value": "Omenn et al., J Natl Cancer Inst 1996;88(21):1550-9: weighted lung cancer incidence RR 1.36 (95% CI 1.07-1.73, P = .01); lung cancer mortality RR 1.59 (95% CI 1.13-2.23); about 28% more lung cancers",
+    "correction": "None. I initially expected this to be wrong because CARET is more commonly quoted at RR 1.28 (the NEJM report). The cited JNCI paper genuinely reports the weighted RR of 1.36, so the 28%/1.36 pairing is correctly sourced to the paper actually cited. Volume/issue/page and DOI all match.",
+    "source": "PubMed record 8901853"
+   },
+   {
+    "claim": "Tripkovic et al.: D3 raises serum 25(OH)D more effectively than D2, gap widest for intermittent bolus dosing (PMID 22552031)",
+    "verdict": "OK",
+    "authoritative_value": "Am J Clin Nutr 2012;95(6):1357-64, DOI 10.3945/ajcn.111.031070: D3 more efficacious; bolus dosing P = 0.0002, mean difference 34.10 nmol/L; advantage lost with daily supplementation, P = 0.10",
+    "correction": "None. Citation, PMID, DOI, journal, volume and pages all exact, and the bolus-versus-daily nuance is stated correctly rather than overclaimed.",
+    "source": "PubMed record 22552031"
+   },
+   {
+    "claim": "Sato et al.: 420 µg MK-7 detectable in serum 48 h while identical 420 µg MK-4 undetectable; 7 days at 60 µg/day raised only MK-7 (PMID 23140417)",
+    "verdict": "OK",
+    "authoritative_value": "Nutr J 2012;11:93: MK-4 not detectable in serum of all subjects at any time point after 420 µg; MK-7 peaked at 6 h and remained detectable 48 h; consecutive 60 µg/d for 7 days did not raise serum MK-4",
+    "correction": "None. Every element confirmed.",
+    "source": "PubMed record 23140417"
+   },
+   {
+    "claim": "Schurgers and Vermeer: circulating K2 after natto about 10x circulating K1 after spinach (PMID 11356998)",
+    "verdict": "OK",
+    "authoritative_value": "Haemostasis 2000;30(6):298-307: circulating K2 after natto 'about 10 times higher than those of K1 after eating spinach'; comparison used 200 g natto against 400 g spinach",
+    "correction": "None on the claim. Worth adding that the comparison was 200 g natto versus 400 g spinach, not gram-for-gram.",
+    "source": "PubMed record 11356998"
+   },
+   {
+    "claim": "Nutrients 2019;11(4):838, DOI 10.3390/nu11040838, cited for retinoic-acid induction of ISX repressing SR-B1 and BCO1",
+    "verdict": "OK",
+    "authoritative_value": "Real paper: Reboul E, 'Mechanisms of Carotenoid Intestinal Absorption: Where Do We Stand?', Nutrients 2019;11(4):838, PMID 31013870",
+    "correction": "Citation is genuine and topically appropriate (carotenoid absorption and membrane transporters). Loose attribution though: the ISX to SR-B1/BCO1 negative-feedback loop originates with Lobo et al. and Widjaja-Adhi et al., so 'reviewed in' is defensible but a primary citation would be better. The same review is also stretched to cover BCO1-genotype variation in plasma response.",
+    "source": "PubMed record for DOI 10.3390/nu11040838"
+   },
+   {
+    "claim": "Roberts et al. 2008 J Agric Food Chem 56:4541-4544, UV-B mushroom method",
+    "verdict": "OK",
+    "authoritative_value": "J Agric Food Chem 2008;56(12):4541-4, PMID 18522400, 'Vitamin D2 formation from post-harvest UV-B treatment of mushrooms (Agaricus bisporus) and retention during storage'",
+    "correction": "None. Journal, year, volume and page range all exact.",
+    "source": "PubMed record 18522400"
+   },
+   {
+    "claim": "SACN 10 µg/day RNI, year-round, for the whole population",
+    "verdict": "OK",
+    "authoritative_value": "SACN vitamin D and health report: RNI of 10 µg/day of vitamin D throughout the year for everyone in the general population aged 4 years and older",
+    "correction": "None.",
+    "source": "gov.uk SACN vitamin D and health report publication page"
+   },
+   {
+    "claim": "NDNS mean vitamin D intake from food 2.8 µg/day in adults 19-65 and 3.3 µg/day in over-65s",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "The SACN publication page confirms the 10 µg RNI but does not carry the age-stratified NDNS intake figures; the 304-page full report was not retrievable",
+    "correction": "None proposed. The 28% and 33% of RNI conversions are arithmetically correct given the stated inputs, and the magnitudes are consistent with published UK intakes, but the two figures themselves are uncorroborated. Note also that NDNS reports these by sex, so a single combined figure per age band needs a stated derivation.",
+    "source": "gov.uk SACN vitamin D and health report page"
+   },
+   {
+    "claim": "UK Committee on Toxicity statement on vitamin A in the maternal diet, reference TOX-2021-57",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Not found",
+    "correction": "Both cot.food.gov.uk paths tried returned HTTP 404 and the reference could not be resolved. The underlying advice (avoid liver, liver products and vitamin A supplements in pregnancy) is standard NHS guidance and is separately cited, so drop or replace the TOX reference rather than relying on it.",
+    "source": "Direct fetch attempts against cot.food.gov.uk"
+   },
+   {
+    "claim": "IOM 2001 DRI conversion factors, 12 µg food beta-carotene = 1 µg RAE versus 2 µg for supplemental beta-carotene in oil, DOI 10.17226/10026",
+    "verdict": "OK",
+    "authoritative_value": "DOI 10.17226/10026 is the 2001 IOM DRI report covering vitamin A; the 12:1 dietary and 2:1 purified-in-oil factors are as stated, giving the 6x ratio",
+    "correction": "None on the factors or the 6x arithmetic. One conceptual caveat the entry should carry: the 2:1 factor applies to purified beta-carotene in oil, so applying it to beadlet formulations is an approximation.",
+    "source": "IOM DRI vitamin A report DOI; not fetched directly"
+   },
+   {
+    "claim": "All 35 McCance and Widdowson CoFID 2021 food codes (16-176, 16-420, 12-939, 12-940, 16-396, 16-394, 16-424, 13-505, 17-488, 17-048, 17-045, 14-845, 14-896, 14-874, 17-041, 11-907, 14-386, 17-038, 18-410 to 18-494, 19-317, 17-685, 13-496, 13-497, 13-646, 13-672, 13-234, 13-550, 13-649, 13-521, 14-378, 14-031)",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "CoFID 2021 is distributed as a spreadsheet that could not be retrieved or parsed via WebFetch",
+    "correction": "Not a single CoFID code or value in this submission could be independently confirmed. That matters because CoFID carries the majority of the numeric load here, and where USDA could be checked against it the two diverged by 2x to 4x on five separate foods (egg yolk vitamin D, olive oil vitamin E, butter beta-carotene, baked sweet potato, raw spinach, dried apricots). Treat the CoFID-sourced figures as provisional pending a direct read of the dataset.",
+    "source": "Failed retrieval of the gov.uk CoFID 2021 dataset"
+   }
+  ],
+  "misclassifications": [
+   "Vitamin E at or above 400 IU/d classified RICH: wrong for the item as scoped. The classification describes the nutrient, but the item is defined by its dose, and the entry's own dose_gap says 'This is a pharmacological dose with no dietary analogue, and it cannot be reached by eating.' A label of RICH sitting above that sentence is self-contradictory. Alpha-tocopherol at RDA level is genuinely rich in food; 400 IU is not obtainable from any diet. This needs a dose-aware class (nutrient rich in food, supplement dose unreachable), not RICH.",
+   "Vitamin K2 '(MK-7 and MK-4)' classified RICH as one merged item: two forms with opposite answers cannot share one availability class. MK-7 at 90 to 180 µg is genuinely food-reachable, but only from natto, so the RICH label rests on exactly one food that most of the target population never eats; every other MK-7 source listed is trace (cheddar 2.7, butter 4.2 µg/100 g). MK-4 at the 45 mg clinical dose is unreachable by a factor of thousands and the entry itself concedes 'MK-4 supplements are wholly synthetic, derived from menadione, because no food is or could be concentrated to 45 mg per dose.' Split into MK-7 = RICH (single-food dependency flagged) and MK-4 = synthetic/unreachable at clinical dose, trace in food.",
+   "Vitamin D3 classified RICH: defensible but borderline, and the entry does not acknowledge the tension. Two of the twelve 'foods' are not natural food sources at all: cod liver oil is conceded in the same entry to 'behave as a supplement', and fortified orange juice is a manufactured delivery vehicle. Strip those and one trace entry (untreated white mushrooms at 0.1 µg/100 g, under 1% of RNI), and the genuine dietary base narrows to oily fish plus egg yolk plus UV-treated mushrooms. Against that, the entry's own evidence is that population intake is 28 to 33% of the RNI and SACN concluded the RNI is 'difficult to achieve from natural food sources'. RICH is not wrong, but it should be qualified as 'rich in a narrow set of foods, and demonstrably not delivering the RNI at population level'.",
+   "Vitamin D3 food list omits the farmed-versus-wild distinction, which functions as a misclassification in practice: the entry anchors on wild sockeye at 16.7 µg/100 g, but farmed Atlantic salmon (what most shoppers actually buy) runs several-fold lower. Presenting sockeye as 'salmon' overstates what the typical purchase delivers.",
+   "Preformed vitamin A at or above 10,000 IU classified RICH: correct, and correctly reasoned. Liver genuinely exceeds the supplement dose and the entry draws the right conclusion (public-health warning, not recommendation). No change.",
+   "Beta-carotene supplements classified RICH: correct on mass, and the entry handles the absorbed-dose distinction unusually well rather than hiding behind the label. No change to the class. The supporting food values are where the problems are (see number_checks)."
+  ],
+  "missing_foods": [
+   "Vitamin D: UV-treated maitake, up to 56.1 µg/100 g. The entry cites this figure in its own form_caveat but leaves it out of the food list, where it would outrank every fish listed by more than 3x. Conspicuous omission.",
+   "Vitamin D: eel (unagi), among the richest natural D3 foods at roughly 18 to 23 µg/100 g, above every fish in the list.",
+   "Vitamin D: fortified margarine and fat spreads. Given the entry's explicit UK framing, omitting the fortified-spread category is a real gap, since it has been a statutory UK vitamin D vehicle for decades and contributes far more to UK intake than the fortified US orange juice that was included.",
+   "Vitamin D: fortified breakfast cereals, a larger real-world UK and US contributor than fortified orange juice.",
+   "Vitamin D: kippers and other smoked/cured herring, a UK staple; also canned red sockeye (higher than the canned pink that was listed), herring and cod roe, swordfish (about 14 µg/100 g), and sun-dried shiitake for D2.",
+   "Vitamin E: paprika and chilli powder at roughly 29 to 38 mg alpha-tocopherol/100 g, the densest common non-oil sources by weight and higher than every nut in the list.",
+   "Vitamin E: hazelnut oil (about 47 mg/100 g) and almond oil (about 39 mg/100 g), both above the sunflower oil that was listed.",
+   "Vitamin E: safflower oil (about 34 mg/100 g) and cottonseed oil (about 35 mg/100 g), both comparable to sunflower seeds and omitted entirely.",
+   "Vitamin E: peanuts and peanut butter (about 8 to 9 mg/100 g). Modest per 100 g but a far bigger real-world intake contributor than the wheatgerm the entry included at 1.3 mg per portion.",
+   "Vitamin E: corn oil (about 14 mg/100 g) and soybean oil (about 8 mg/100 g), the two highest-volume vitamin E vehicles in the Western diet, plus red palm oil (tocotrienol-rich), rice bran oil, pine nuts and Brazil nuts.",
+   "Preformed vitamin A: fortified margarine and fat spreads at roughly 800 to 900 µg retinol/100 g. A serious omission when butter at 671 to 958 µg/100 g was included, since fortified spread matches or beats butter and is eaten in the same way.",
+   "Preformed vitamin A: canned cod liver (Icelandic and Polish tinned cod liver), eaten as an ordinary food and carrying retinol in the same range as the cod liver oil the entry treats as a supplement. This is the sharpest real-world version of the entry's own 'cod liver oil is the common trap' point.",
+   "Preformed vitamin A: goose and duck liver, and foie gras, all in the same range as the livers listed; also liver sausage/liverwurst and haggis, which are how liver is most often eaten unnoticed.",
+   "Preformed vitamin A: hard cheese (Cheddar around 325 µg retinol/100 g), whole milk and cream. Omitting the dairy tier while including butter and egg yolk leaves the everyday retinol baseline understated.",
+   "Preformed vitamin A: halibut liver oil, substantially more concentrated in retinol than cod liver oil and sold in the same aisle.",
+   "Beta-carotene: red palm oil, the densest ordinary source at roughly 20,000 to 40,000 µg total carotenes/100 g, several times carrot. Its absence is the single biggest gap in that list.",
+   "Beta-carotene: carrot juice at roughly 9,300 µg/100 g. Matters more than any solid here because it is the one food that can be consumed in the volume needed to approach a 20 mg dose, which directly tests the entry's dose-gap argument.",
+   "Beta-carotene: butternut squash and pumpkin (roughly 4,000 to 6,900 µg/100 g), both above every green listed.",
+   "Beta-carotene: dried parsley, basil and coriander, plus paprika, all very high per 100 g; and cantaloupe melon (about 2,000 µg/100 g), fresh apricots, persimmon and papaya.",
+   "Beta-carotene: sweet red pepper, spring greens/collards, watercress, Swiss chard and romaine lettuce, all reasonable everyday sources that outrank the baby spinach the entry chose as its green exemplar.",
+   "Vitamin K2: goose liver paste at roughly 369 µg MK-4/100 g, the richest MK-4 food in the standard food-composition literature and about 17x the barbecue chicken the entry calls 'the richest measured food value'. This omission produces an outright false statement in the dose_gap and form_caveat.",
+   "Vitamin K2: Gouda, Edam, Jarlsberg and other long-ripened Dutch and Norwegian cheeses, the canonical MK-9-rich cheeses. The entry builds its whole 'cheese is a K2 food' rebuttal on Cheddar, which is the weaker exemplar; using Gouda would test the claim properly.",
+   "Vitamin K2: curd cheese and quark, listed as K2 sources in the very Schurgers and Vermeer paper the entry cites.",
+   "Vitamin K2: other fermented soy foods, tempeh, fermented soy pastes and Korean cheonggukjang, which would show whether natto is uniquely high or merely the best-measured; plus sauerkraut and fermented salami for modest MK-7."
+  ],
+  "dose_gap_errors": [
+   "Beta-carotene, 30 mg from carrot: stated 'about 312 g of carrot', wrong. The sentence establishes raw carrot at 9,149 µg/100 g and computes 20 mg as 219 g of raw carrot, then silently switches to the boiled value for the 30 mg figure. At raw 9,149 µg/100 g, 30 mg needs 327.9 g. Corrected: about 328 g of raw carrot (312 g is the boiled-carrot answer, 30,000/9,616 x 100 = 312.0 g). Against USDA's raw carrot value of 8,285 µg/100 g it is 362 g.",
+   "Vitamin K2, 1.5 mg MK-4 from whole milk: stated 'or 58 kg of whole milk', wrong by a factor of 2.6. At the entry's own whole-milk value of 1.0 µg MK-4/100 g, 1,500 µg needs 150,000 g. Corrected: 150 kg of whole milk, not 58 kg. Even using the upper variant the entry mentions (1.3 µg/100 g) it is 115 kg. No value in the entry yields 58 kg, which would require 2.59 µg/100 g. The error understates the gap, so fixing it strengthens the entry's conclusion.",
+   "Vitamin D, 4,000 IU from UV-treated portabella: stated 'about 1 kg', loose by 12%. At 11.2 µg/100 g, 100 µg needs 892.9 g. Corrected: about 890 g. Minor, but it is the only rounding in the entry that goes in the direction of exaggerating the gap.",
+   "Beta-carotene, knock-on from the wrong sweet potato value: the entry's '360 g of boiled sweet potato' for 20 mg uses 5,560 µg/100 g. Against USDA baked sweet potato at 11,509 µg/100 g the requirement is 174 g, and the listed 130 g portion covers 75% of a 20 mg dose rather than 33%. The stated arithmetic is internally correct; the input is what fails.",
+   "Vitamin D, knock-on from the wrong egg yolk value: '46 large egg yolks' for 4,000 IU is arithmetically correct on the entry's 12.8 µg/100 g (100/2.176 = 46.0), but at USDA's 5.4 µg/100 g a yolk carries 0.92 µg and the requirement is 109 yolks. Corrected: about 109 large yolks.",
+   "Vitamin D, knock-on from the contested herring value: '155 g of grilled herring' for 1,000 IU and '7.8 kg' for 50,000 IU both recompute correctly on 16.1 µg/100 g, but at USDA's cooked Atlantic herring value of 5.40 µg/100 g they become 463 g and 23.1 kg. Either widen to a range or drop herring as a dose-gap anchor.",
+   "Beta-carotene, knock-on from the dried apricot value: '1.3% of a 20 mg dose' for 40 g is correct on 640 µg/100 g but becomes 4.3% at USDA's 2,163 µg/100 g.",
+   "Vitamin E, knock-on from the wheatgerm oil value: '201 g / about 15 tablespoons' for 268 mg is correct on 133.0 mg/100 g but becomes 179 g / about 13 tablespoons at USDA's 149.4 mg/100 g. Similarly the synthetic '10 tablespoons' becomes 8.9.",
+   "Verified as correct, for the record: all 400 IU vitamin E conversions (268 mg natural, 180 mg synthetic) and every vitamin E food requirement (720 g sunflower seeds at 4,207 kcal, 1.05 kg almonds, 550 g sunflower oil, 484 g synthetic-equivalent); the entire vitamin A series (10,000 IU = 3,000 µg, 11.9 g calf liver, 3.5 to 8.4x range, 9,733 IU pate portion, 8,160 IU cod liver oil tablespoon, every retinol-to-IU conversion); vitamin D 150 g and 600 g sockeye, 7.76 kg herring, 28% and 33% of RNI; beta-carotene 219 g and 1.31 kg raw carrot, 360 g sweet potato, 6x IOM ratio, and all twelve per-portion and percentage figures; K2 6.67 kg cheddar, 4.29 kg butter, 203.6 kg and 6.79 kg chicken, 16.8 µg/day MK-4 intake, 1/2,647 of the clinical dose, and all ng/g conversions."
+  ],
+  "net_assessment": "Process caveat first: the session's WebSearch quota was already fully consumed (200/200) before this task began, so the requested 8-plus searches were impossible. I substituted roughly 24 targeted WebFetch calls against PubMed, gov.uk and USDA FoodData Central mirrors. FDC's own site returned 404 on every food-detail route and the API rate-limited DEMO_KEY, so USDA values were read through an FDC mirror rather than the primary source, and no FDC ID could be resolved.\n\nStrongest part of the submission by a wide margin is the literature. Every one of the ten checkable citations survived: Huang 2003 (400 IU, 184 nonsmokers, median 58% gamma-tocopherol fall), Kamao 2007 (natto 939 µg/100 g, 230 µg/d total K, MK-4 7.3%), Fu 2017 (hard cheese 282, soft 506 µg/100 g, MK-9/10/11 dominance), Sato 2012 (420 µg MK-4 undetectable), Tripkovic 2012 (D3 over D2, bolus-specific), Schurgers 2000, Roberts 2008, ATBC/CARET, and the Nutrients 2019 DOI, which resolves to a genuine Reboul review. The CARET figure is the notable case: I expected RR 1.36 to be an error against the commonly quoted 1.28, and the cited JNCI paper genuinely reports 1.36 for weighted incidence. Whoever wrote this read the papers.\n\nArithmetic is also strong. Of roughly 90 recomputable figures, only two are actually wrong: 30 mg beta-carotene from raw carrot is 328 g not 312 g (raw/boiled values silently swapped mid-sentence), and 1.5 mg MK-4 from whole milk is 150 kg not 58 kg, an error by a factor of 2.6 that understates the entry's own case. One rounding is loose (890 g of UV portabella, stated as 1 kg). The CoFID total-vitamin-D convention (cholecalciferol + 5 x 25-OH-D3) and the alpha-tocopherol-equivalents convention both make several figures look like addition errors when they are not, and the submission applies both correctly.\n\nThe real weakness is the food-composition layer, and it is systematic rather than random. CoFID carries most of the numeric load and not one of its 35 food codes could be confirmed. Where USDA was reachable, six foods diverged by 2x to 4x, and five of the six run in the direction that flatters the entry's narrative: egg yolk vitamin D overstated 2.4x, butter beta-carotene overstated 3.9x, butter retinol 43% high, while olive oil vitamin E is understated 2.8x, baked sweet potato beta-carotene 2.24x and dried apricots 3.4x. Raw spinach is understated 3.6x, which falsifies an explicit comparative claim ('well under a fifth of carrot' is really about two-thirds against USDA). Herring vitamin D, an anchor for two dose-gap calculations, is 3x above USDA's Atlantic herring. Two citations could not be found at all: COT TOX-2021-57 and the NDNS 2.8/3.3 µg intake figures.\n\nTwo classification calls need changing. Vitamin E at 400 IU is labelled RICH directly above a dose_gap that says it 'cannot be reached by eating', which is self-contradictory for a dose-defined item. And merging MK-7 and MK-4 under one RICH label buries the fact that MK-4 at 45 mg is synthetic-only by the entry's own admission, while MK-7's RICH status depends entirely on natto. Vitamin D3's RICH is defensible but should be qualified, since three of its twelve entries are a supplement, a fortified vehicle and a trace food.\n\nOne factual error carries real weight: barbecue chicken is not the richest MK-4 food. Goose liver paste at roughly 369 µg/100 g is about 17x higher and also defeats the claim that 'no food comes within three orders of magnitude' of the 45 mg dose (it is about 2.1 orders). The conclusion still holds at 12.2 kg/day, so the argument survives, but the supporting statement is wrong and the food is missing from the list. Alongside it, the omission of UV maitake at 56.1 µg/100 g is odd because the entry cites that number in its own caveat, and the UK-framed vitamin D and vitamin A entries both omit fortified fat spreads, which is where a large share of UK intake actually comes from.\n\nVerdict: the reasoning, the pharmacology and the citation discipline are well above average, and the qualitative conclusions are all sound and would survive every correction above. The numbers are not yet trustworthy at the precision they are quoted to. Before publication I would require a direct read of the CoFID spreadsheet to confirm the 35 codes, replacement of the six USDA-divergent values with sourced ranges, the two arithmetic fixes, the two classification splits, correction of the richest-MK-4-food claim, and removal or replacement of the TOX-2021-57 and NDNS references. Confidence in my own USDA comparisons is moderate rather than high, since they came through a mirror; the citation verifications are high confidence."
+ }
+}

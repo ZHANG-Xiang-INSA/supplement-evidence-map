@@ -1,0 +1,884 @@
+{
+ "group": "minerals-a",
+ "items_assigned": [
+  "Iron",
+  "Iodine",
+  "Zinc lozenges",
+  "Selenium at 200 ug/d"
+ ],
+ "submission": {
+  "items": [
+   {
+    "supplement": "Iron",
+    "availability": "RICH",
+    "availability_note": "Iron is genuinely abundant in ordinary food, in two chemically distinct forms that behave completely differently. Haem iron (offal, red meat, shellfish, black pudding) is absorbed by a dedicated transporter and is largely indifferent to what else is on the plate. Non-haem iron (legumes, seeds, greens, fortified flour) is the majority of most people's intake and is absorbed at a fraction of the rate, heavily modified by vitamin C, polyphenols, phytate and calcium. Haem accounts for 77 percent of total iron in raw lean beef, 81 percent in lamb, 88 percent in pork and 74 percent in chicken (PMID 26433293), which is higher than the 40 percent commonly assumed in the older Monsen equation. Reference point used below: EFSA PRI 16 mg/d for premenopausal women, 11 mg/d for men (EFSA Overview on Dietary Reference Values for the EU population, v4, Sept 2017, Table 7; underlying opinion EFSA Journal 2015;13(10):4254).",
+    "foods": [
+     {
+      "food": "Lamb's liver, braised",
+      "per_100g": "8.28 mg",
+      "portion": "1 serving (85 g, 3 oz)",
+      "per_portion": "7.0 mg",
+      "pct_rda_or_dose": "44% of EFSA PRI (16 mg/d, premenopausal women)",
+      "source": "USDA FoodData Central FDC ID 172532 (SR Legacy)"
+     },
+     {
+      "food": "Oysters, eastern, wild, cooked by moist heat",
+      "per_100g": "9.21 mg",
+      "portion": "85 g, about 6 medium oyster meats",
+      "per_portion": "7.8 mg",
+      "pct_rda_or_dose": "49%",
+      "source": "USDA FoodData Central FDC ID 171980 (SR Legacy)"
+     },
+     {
+      "food": "Black pudding / blood sausage, cooked",
+      "per_100g": "6.4 mg",
+      "portion": "1 serving (100 g, about 2 thick slices)",
+      "per_portion": "6.4 mg",
+      "pct_rda_or_dose": "40%",
+      "source": "USDA FoodData Central FDC ID 171618 (SR Legacy)"
+     },
+     {
+      "food": "Beef liver, braised",
+      "per_100g": "6.54 mg",
+      "portion": "1 slice (68 g)",
+      "per_portion": "4.4 mg",
+      "pct_rda_or_dose": "28%",
+      "source": "USDA FoodData Central FDC ID 168626 (SR Legacy)"
+     },
+     {
+      "food": "Beef top sirloin steak, lean and fat, broiled",
+      "per_100g": "1.96 mg",
+      "portion": "1 steak portion (170 g)",
+      "per_portion": "3.3 mg",
+      "pct_rda_or_dose": "21%",
+      "source": "USDA FoodData Central FDC ID 169458 (SR Legacy)"
+     },
+     {
+      "food": "Lentils, boiled without salt (non-haem)",
+      "per_100g": "3.33 mg",
+      "portion": "1 cup (198 g)",
+      "per_portion": "6.6 mg",
+      "pct_rda_or_dose": "41% on paper, roughly 5% of it absorbed",
+      "source": "USDA FoodData Central FDC ID 172421 (SR Legacy)"
+     },
+     {
+      "food": "Spinach, boiled, drained (non-haem)",
+      "per_100g": "3.57 mg",
+      "portion": "1 cup cooked (180 g)",
+      "per_portion": "6.4 mg",
+      "pct_rda_or_dose": "40% on paper, poorly absorbed (see form caveat)",
+      "source": "USDA FoodData Central FDC ID 168463 (SR Legacy)"
+     },
+     {
+      "food": "Spinach, raw (non-haem)",
+      "per_100g": "2.71 mg",
+      "portion": "1 cup raw leaves (30 g)",
+      "per_portion": "0.81 mg",
+      "pct_rda_or_dose": "5% on paper, roughly 0.02 mg actually absorbed",
+      "source": "USDA FoodData Central FDC ID 168462 (SR Legacy)"
+     },
+     {
+      "food": "Pumpkin seed kernels, roasted, unsalted (non-haem)",
+      "per_100g": "8.07 mg",
+      "portion": "1 oz (28 g)",
+      "per_portion": "2.3 mg",
+      "pct_rda_or_dose": "14%",
+      "source": "USDA FoodData Central FDC ID 170557 (SR Legacy)"
+     },
+     {
+      "food": "Tofu, firm, set with calcium sulfate (non-haem)",
+      "per_100g": "2.66 mg",
+      "portion": "1 block (81 g)",
+      "per_portion": "2.2 mg",
+      "pct_rda_or_dose": "13%",
+      "source": "USDA FoodData Central FDC ID 172475 (SR Legacy)"
+     },
+     {
+      "food": "Wholemeal bread (non-haem)",
+      "per_100g": "2.47 mg",
+      "portion": "1 slice (32 g)",
+      "per_portion": "0.79 mg",
+      "pct_rda_or_dose": "5%",
+      "source": "USDA FoodData Central FDC ID 172688 (SR Legacy)"
+     },
+     {
+      "food": "Dried apricots, sulphured, uncooked (non-haem)",
+      "per_100g": "2.66 mg",
+      "portion": "6 halves (21 g)",
+      "per_portion": "0.56 mg",
+      "pct_rda_or_dose": "3.5%",
+      "source": "USDA FoodData Central FDC ID 173941 (SR Legacy)"
+     }
+    ],
+    "dose_gap": "Two different supplement doses need two different answers. A nutritional-dose supplement (14 to 18 mg elemental iron, the EU labelling reference level) is comfortably reachable by eating: 1 cup of boiled lentils (6.6 mg) plus 85 g of lamb's liver (7.0 mg) plus 1 oz of pumpkin seeds (2.3 mg) is 15.9 mg in one day. A therapeutic dose is not. Ferrous sulfate at the doses used in absorption and treatment trials delivers 60 to 65 mg elemental iron in a single hit (60 mg and 120 mg ferrous sulfate doses in PMID 29032957). Matching 65 mg of iron by total content requires about 785 g of lamb's liver, 3.3 kg of sirloin steak, 1.95 kg (roughly 10 cups) of boiled lentils, or 2.4 kg (about 80 cups) of raw spinach in one day. Matching it by ABSORBED iron is the honest calculation and it is worse for plants and better for meat than the raw numbers suggest. A 65 mg ferrous sulfate dose absorbed at roughly 10 percent in iron-depleted women delivers about 6.5 mg. To absorb 6.5 mg as haem iron at 25 percent absorption you need 26 mg of haem iron, which is about 1.19 kg of braised lean lamb shoulder (2.7 mg total iron per 100 g, 81 percent of it haem; FDC ID 174331 and PMID 26433293). To absorb the same 6.5 mg from non-haem food at 5 percent you need 130 mg of non-haem iron, roughly 3.9 kg of cooked lentils per day. Verdict: correcting a diagnosed deficiency cannot be done with food. Preventing one can.",
+    "form_caveat": "Three separate traps. (1) Liver is the best iron food and the worst thing to recommend blindly, because raw beef liver carries 4,970 ug retinol activity equivalents per 100 g (FDC ID 169451). An 85 g portion of braised liver delivers several thousand micrograms of preformed retinol, which is why liver is contraindicated in pregnancy in most national guidance. The iron benefit and the vitamin A hazard travel together and cannot be separated. (2) Liver's iron is largely ferritin and haemosiderin iron, so its headline 8.28 mg is less absorbable than the haem fraction of plain muscle meat implies. Muscle meat with a smaller number can deliver more absorbed iron. (3) Supplement iron behaves unlike food iron: a 60 mg dose raises hepcidin and suppresses absorption of the next dose, which is why alternate-day dosing absorbs more per milligram given than consecutive-day dosing (PMID 29032957). Food iron arriving in small amounts across the day never triggers that. Spinach is a bad recommendation, though for a different reason than the textbook gives. Isotope work in humans found that potassium oxalate added to a low-oxalate kale meal did not change non-haem iron absorption at all (11.5% vs 10.7%), and the authors concluded that oxalic acid in fruit and vegetables is of minor relevance to iron nutrition (PMID 17440529). The spinach meal in the same study absorbed 24 percent less than the matched kale meal, attributable to its much higher polyphenol and calcium content, not oxalate. So spinach iron is genuinely poorly absorbed, the mechanism is polyphenols plus calcium plus the ferritin-bound form of the iron, and the oxalate explanation everyone repeats does not survive isotope testing. Either way, a 30 g bowl of raw spinach leaves contains 0.81 mg of iron and yields a rounding error.",
+    "bioavailability": "Haem iron is absorbed at roughly 15 to 35 percent and non-haem at 2 to 20 percent, with iron status the dominant variable. Across whole diets rather than single meals, bioavailability is 14 to 18 percent for mixed diets and 5 to 12 percent for vegetarian diets in people with no iron stores, and the authors note that iron status generally has a greater effect than diet composition (PMID 20200263). Vitamin C enhancement: 25 to 50 mg of ascorbic acid eaten with a meal multiplies non-haem absorption several-fold in single-meal studies, with the effect strongest in high-phytate meals (PMID 3700141). The important correction is that when the same amount of ascorbic acid is given across a complete diet over days, the facilitating effect is far less pronounced (PMID 11124756). Squeezing lemon on your lentils helps; it does not turn plant iron into meat iron. Tea and coffee inhibition, with numbers: a cup of coffee cut non-haem absorption from a hamburger meal by 39 percent and tea by 64 percent; instant coffee at double strength drove absorption from 5.88 percent down to 0.53 percent; coffee taken one hour BEFORE the meal did no harm, while coffee one hour AFTER inhibited as much as coffee with the meal (PMID 6402915). Black tea inhibited non-haem absorption by 79 to 94 percent, peppermint tea by 84 percent, cocoa by 71 percent, chamomile by 47 percent, dose-dependently on total polyphenols, and adding milk made no difference (PMID 10999016). Note that this is polyphenol inhibition, not phytate: phytate is the separate inhibitor in the wholegrains and legumes themselves. Practical consequence: the single highest-yield change for someone with low iron stores is moving tea and coffee to between meals rather than with or after them."
+   },
+   {
+    "supplement": "Iodine",
+    "availability": "RICH",
+    "availability_note": "Iodine is one of the very few supplement ingredients where the supplement dose is fully and easily reachable from food, but only from a narrow set of foods: dairy, white fish, eggs, shellfish and iodised salt. Nothing else contributes meaningfully. Iodine in milk is not intrinsic to the cow, it comes from fortified cattle feed and iodophor teat disinfectants, which is why it is seasonal (higher in winter housing) and why organic milk is lower. Reference point below: EFSA AI 150 ug/d for adults, 200 ug/d in pregnancy and lactation (EFSA Overview on Dietary Reference Values for the EU population, v4, Sept 2017, Tables 5 and 7; underlying opinion EFSA Journal 2014;12(5):3660).",
+    "foods": [
+     {
+      "food": "Cod, Atlantic, wild caught, raw",
+      "per_100g": "114 ug",
+      "portion": "1 fillet (115 g)",
+      "per_portion": "131 ug",
+      "pct_rda_or_dose": "87% of EFSA AI (150 ug/d)",
+      "source": "USDA FoodData Central FDC ID 2684444 (Foundation Foods)"
+     },
+     {
+      "food": "Yogurt, plain, nonfat",
+      "per_100g": "58.7 ug",
+      "portion": "1 pot (170 g)",
+      "per_portion": "100 ug",
+      "pct_rda_or_dose": "67%",
+      "source": "USDA FoodData Central FDC ID 2647437 (Foundation Foods)"
+     },
+     {
+      "food": "Cows' milk, whole, 3.25% fat",
+      "per_100g": "37.9 ug",
+      "portion": "1 cup (249 g, about 240 ml)",
+      "per_portion": "94 ug",
+      "pct_rda_or_dose": "63%",
+      "source": "USDA FoodData Central FDC ID 746782 (Foundation Foods)"
+     },
+     {
+      "food": "UK retail cows' milk, conventional, winter samples",
+      "per_100g": "43.8 ug (median 438 ug/kg)",
+      "portion": "1 glass (200 ml)",
+      "per_portion": "88 ug",
+      "pct_rda_or_dose": "58%",
+      "source": "PMID 28946925 (Bath et al., Br J Nutr 2017;118:525-532)"
+     },
+     {
+      "food": "UK retail cows' milk, organic, winter samples",
+      "per_100g": "32.4 ug (median 324 ug/kg)",
+      "portion": "1 glass (200 ml)",
+      "per_portion": "65 ug",
+      "pct_rda_or_dose": "43%",
+      "source": "PMID 28946925; year-round comparison organic 144.5 vs conventional 249.5 ng/g, PMID 21781365"
+     },
+     {
+      "food": "Table salt, iodised (US specification)",
+      "per_100g": "5,080 ug",
+      "portion": "1/4 teaspoon (1.5 g)",
+      "per_portion": "76 ug",
+      "pct_rda_or_dose": "51%",
+      "source": "USDA FoodData Central FDC ID 746775 (Foundation Foods)"
+     },
+     {
+      "food": "Parmesan cheese, grated",
+      "per_100g": "82.9 ug",
+      "portion": "30 g (heaped 2 tbsp over pasta)",
+      "per_portion": "24.9 ug",
+      "pct_rda_or_dose": "17%",
+      "source": "USDA FoodData Central FDC ID 2259795 (Foundation Foods)"
+     },
+     {
+      "food": "Egg, whole, Grade A large",
+      "per_100g": "49.1 ug",
+      "portion": "1 large egg without shell (50 g)",
+      "per_portion": "24.7 ug",
+      "pct_rda_or_dose": "16%",
+      "source": "USDA FoodData Central FDC ID 748967 (Foundation Foods)"
+     },
+     {
+      "food": "Nori (Porphyra tenera) sheets",
+      "per_100g": "1,600 ug (16 ug/g)",
+      "portion": "1 sheet (3 g)",
+      "per_portion": "48 ug",
+      "pct_rda_or_dose": "32%",
+      "source": "PMID 15588380 (Teas et al., Thyroid 2004;14:836-841)"
+     },
+     {
+      "food": "Almond drink, unsweetened, unfortified",
+      "per_100g": "0.0 ug",
+      "portion": "1 cup (240 g)",
+      "per_portion": "0 ug",
+      "pct_rda_or_dose": "0%",
+      "source": "USDA FoodData Central FDC ID 1999631 (Foundation Foods)"
+     },
+     {
+      "food": "Soya drink, unsweetened, unfortified",
+      "per_100g": "0.0 ug",
+      "portion": "1 cup (240 g)",
+      "per_portion": "0 ug",
+      "pct_rda_or_dose": "0%",
+      "source": "USDA FoodData Central FDC ID 1999630 (Foundation Foods)"
+     }
+    ],
+    "dose_gap": "There is essentially no gap. A standard iodine supplement or prenatal multivitamin supplies 150 ug, exactly the EFSA adult AI. One 115 g cod fillet delivers 131 ug. About 400 ml of milk (1.6 cups) delivers 151 ug. Six large eggs deliver 148 ug. Half a teaspoon of iodised salt (3 g) delivers 152 ug. Iodine belongs in the small category of supplements a normal eater does not need. The gap opens the moment those specific foods leave the diet, and here the UK numbers are stark. Substituting three dairy portions a day (milk, yoghurt, cheese) with unfortified plant alternatives cuts the iodine those portions supply from 124 ug to 2.6 ug, a 97.9 percent loss, taking the contribution to the 150 ug recommendation from 83 percent down to 1.8 percent (PMID 35373723). That is not a shortfall, it is a near-total removal. The same market survey found only 28 percent of 146 UK milk alternatives and 6 percent of 76 yoghurt alternatives were iodine-fortified, against 88 percent and 73 percent fortified with calcium; no cheese alternative and no fish alternative was iodine-fortified at all; and organic plant alternatives cannot legally be fortified. This is measurable in real people, not just on paper: in NDNS years 7 to 9, adults and children who consumed milk alternatives exclusively had an iodine intake of 94 ug/d against 129 ug/d for cows' milk consumers, and a median urinary iodine concentration of 79 ug/l against 132 ug/l, which classifies the milk-alternative group as iodine deficient by the WHO criterion while the milk drinkers were sufficient (PMID 32993817). Unfortified milk-alternative concentrations were a median 7.3 ug/kg, 1.7 percent of winter conventional cows' milk; the three fortified products found in 2015 were much better at 266 to 287 ug/kg (PMID 28946925).",
+    "form_caveat": "Kelp is the dangerous answer, and the danger is dosing variability rather than iodine itself. Across 12 species of commercially sold edible seaweed, iodine ranged from 16 ug/g in nori to over 8,165 ug/g in processed kelp granules from Laminaria digitata sold as a salt substitute, a 500-fold spread, and within a single species iodine varied with preharvest conditions (514 ug/g in sun-bleached blades against much higher in fresh blades) (PMID 15588380). One gram of those kelp granules is more than fifty times the adult AI. A 2021 survey of 96 commercial macroalgae products found iodine of 128 to 62,400 ug per portion in wholefood kelp products and 5 to 5,600 ug per day in supplement doses, that for more than half the products a single serving or dose would exceed the tolerable upper intake level, and that species labelling and declared iodine content were frequently inadequate or inaccurate (PMID 33889064). A kelp tablet is therefore an unlabelled dose of a potent thyroid-active substance, and excess iodine causes both hypothyroidism and hyperthyroidism. If iodine is the goal, potassium iodide at a known 150 ug, or milk, fish and eggs, are the correct answers and kelp is not. Second caveat, milk: iodine in milk comes from feed and dairy hygiene, so it moves with farming practice. Organic milk was 42.1 percent lower in iodine than conventional in a 172-sample UK retail survey (PMID 21781365), and winter milk runs higher than summer. Someone who switches to organic milk has quietly cut their main iodine source by nearly half without changing anything visible. Third, iodised salt: the USDA entry above is a US product. The UK has no salt iodisation programme, which is precisely why the Bath group repeatedly identify milk, dairy and fish as the main UK iodine sources; a UK reader cannot assume their salt contributes anything.",
+    "bioavailability": "Iodine bioavailability is the simple case. Iodide from milk, iodised salt and potassium iodide supplements is almost completely absorbed, and urinary iodine excretion is used directly as the intake biomarker on the standard assumption that about 90 percent of ingested iodine is excreted in urine (PMID 25274294). There is no meaningful absorption advantage to any form, and no matrix effect worth chasing: 150 ug from a fillet of cod, a pot of yoghurt or a tablet are close to interchangeable systemically. The one real form difference is at the top end rather than the bottom. Organically bound iodine in seaweed is released variably during digestion and cooking, and boiling kelp leaches a large fraction of its iodine into the water, so a seaweed dose is uncertain in both directions. Two further practical points: iodine and selenium interact, because the deiodinase enzymes that convert thyroxine to the active hormone are selenoproteins, so iodine repletion in a selenium-poor person behaves differently; and goitrogens in raw brassicas and cassava compete with iodide uptake, which matters only when iodine intake is already marginal."
+   },
+   {
+    "supplement": "Zinc lozenges",
+    "availability": "RICH",
+    "availability_note": "Zinc the nutrient is abundant in ordinary food. Zinc lozenges are not a nutritional product, and this distinction is the whole answer. The trials that show a benefit used more than 75 mg/day of elemental zinc, most commonly 80 to 92 mg/day, some 192 to 207 mg/day, delivered as slowly dissolving zinc acetate or zinc gluconate lozenges taken roughly every two hours while awake (PMID 28515951). That is eight to twelve times the EFSA PRI for an adult woman. The mechanism also depends on the delivery route: free zinc ions released in the mouth and throat over 20 to 30 minutes, in contact with the pharyngeal mucosa. Food zinc is swallowed and absorbed in the small intestine, so it cannot reproduce the intended local effect at any dose. Reference point below: EFSA PRI 7.5 mg/d for adult women and 9.4 mg/d for adult men at a phytate intake of 300 mg/d (EFSA Overview on Dietary Reference Values for the EU population, v4, Sept 2017, Tables 5 and 7; underlying opinion EFSA Journal 2014;12(10):3844).",
+    "foods": [
+     {
+      "food": "Oysters, eastern, canned, drained",
+      "per_100g": "91.0 mg",
+      "portion": "10 oysters (80 g)",
+      "per_portion": "72.8 mg",
+      "pct_rda_or_dose": "971% of EFSA PRI (7.5 mg/d, women)",
+      "source": "USDA FoodData Central FDC ID 171981 (SR Legacy)"
+     },
+     {
+      "food": "Oysters, eastern, wild, cooked by moist heat",
+      "per_100g": "78.6 mg",
+      "portion": "85 g, about 6 medium oyster meats",
+      "per_portion": "66.8 mg",
+      "pct_rda_or_dose": "891%",
+      "source": "USDA FoodData Central FDC ID 171980 (SR Legacy)"
+     },
+     {
+      "food": "Oysters, eastern, wild, raw",
+      "per_100g": "39.3 mg",
+      "portion": "85 g, about 6 medium oyster meats",
+      "per_portion": "33.4 mg",
+      "pct_rda_or_dose": "445%",
+      "source": "USDA FoodData Central FDC ID 171978 (SR Legacy)"
+     },
+     {
+      "food": "Crab, Alaska king, cooked by moist heat",
+      "per_100g": "7.62 mg",
+      "portion": "1 leg (134 g)",
+      "per_portion": "10.2 mg",
+      "pct_rda_or_dose": "136%",
+      "source": "USDA FoodData Central FDC ID 174202 (SR Legacy)"
+     },
+     {
+      "food": "Beef chuck arm pot roast, lean only, braised",
+      "per_100g": "8.09 mg",
+      "portion": "85 g (3 oz)",
+      "per_portion": "6.9 mg",
+      "pct_rda_or_dose": "92%",
+      "source": "USDA FoodData Central FDC ID 170616 (SR Legacy)"
+     },
+     {
+      "food": "Lamb's liver, braised",
+      "per_100g": "7.89 mg",
+      "portion": "85 g (3 oz)",
+      "per_portion": "6.7 mg",
+      "pct_rda_or_dose": "89%",
+      "source": "USDA FoodData Central FDC ID 172532 (SR Legacy)"
+     },
+     {
+      "food": "Lamb shoulder, arm, lean only, braised",
+      "per_100g": "7.3 mg",
+      "portion": "1 chop, edible portion (55 g)",
+      "per_portion": "4.0 mg",
+      "pct_rda_or_dose": "54%",
+      "source": "USDA FoodData Central FDC ID 174331 (SR Legacy)"
+     },
+     {
+      "food": "Lentils, boiled without salt",
+      "per_100g": "1.27 mg",
+      "portion": "1 cup (198 g)",
+      "per_portion": "2.5 mg",
+      "pct_rda_or_dose": "34% on paper, high phytate (see bioavailability)",
+      "source": "USDA FoodData Central FDC ID 172421 (SR Legacy)"
+     },
+     {
+      "food": "Chickpeas, boiled without salt",
+      "per_100g": "1.53 mg",
+      "portion": "1 cup (164 g)",
+      "per_portion": "2.5 mg",
+      "pct_rda_or_dose": "33% on paper, high phytate",
+      "source": "USDA FoodData Central FDC ID 173757 (SR Legacy)"
+     },
+     {
+      "food": "Pumpkin seed kernels, roasted, unsalted",
+      "per_100g": "7.64 mg",
+      "portion": "1 oz (28 g)",
+      "per_portion": "2.2 mg",
+      "pct_rda_or_dose": "29% on paper, high phytate",
+      "source": "USDA FoodData Central FDC ID 170557 (SR Legacy)"
+     },
+     {
+      "food": "Wholemeal bread",
+      "per_100g": "1.77 mg",
+      "portion": "1 slice (32 g)",
+      "per_portion": "0.57 mg",
+      "pct_rda_or_dose": "8% on paper, high phytate",
+      "source": "USDA FoodData Central FDC ID 172688 (SR Legacy)"
+     }
+    ],
+    "dose_gap": "To hit the 80 mg/day of elemental zinc used in the lozenge trials (PMID 28515951) you would need, every day for the duration of a cold: 204 g of raw oyster meat, roughly 14 to 15 medium oysters; or 102 g of cooked oysters; or 88 g of canned oysters, about 11 of them; or 989 g of braised lean beef chuck; or 1.10 kg of braised lamb shoulder; or 1.05 kg of pumpkin seed kernels; or 5.23 kg of boiled chickpeas. Only oysters make it look even arithmetically plausible, and 14 raw oysters a day for a week is a Vibrio and norovirus decision, not a nutrition one. The deeper point is that closing the arithmetic gap would still not reproduce the product. The lozenge trials work (to whatever extent they do) through free Zn2+ released in the oropharynx and held in contact with the mucosa; swallowed zinc, from food or from a capsule, bypasses that entirely. So the answer is not that food falls short of the dose. It is that food cannot deliver this dose by this route at all. Separately, the nutritional dose is trivially food-reachable: 85 g of braised beef (6.9 mg) or 6 raw oysters (33.4 mg) meets or vastly exceeds the 7.5 to 9.4 mg PRI in one portion. Zinc lozenges and zinc nutrition are two unrelated questions that share a mineral name.",
+    "form_caveat": "Zinc gluconate lozenges shortened colds by 28 percent and zinc acetate lozenges by 40 percent, a difference that was not statistically significant, and there is no evidence that doses above 100 mg/day do better than 80 to 92 mg/day (PMID 28515951). The salt matters less than people claim; the lozenge format matters more. Zinc capsules, tablets, syrups and food are not substitutes for lozenges in this indication, because the local contact is the point. Two safety notes that follow directly from the numbers above: 80 to 92 mg/day is roughly ten times the EFSA PRI and well above nutritional upper levels, defensible only for a few days, because sustained high zinc antagonises copper absorption; and unlike a nutrient, this is a short-course pharmacological use with an actual end date. Cooking and canning concentrate oyster zinc dramatically (39.3 mg/100 g raw against 78.6 cooked and 91.0 canned, FDC IDs 171978, 171980, 171981), because water is lost rather than zinc gained, so per-100 g comparisons across preparation states are misleading unless you track the yield.",
+    "bioavailability": "Oysters are the outlier of the entire food composition table. At 39.3 mg/100 g raw and up to 91.0 mg/100 g canned, they carry four to twelve times the zinc of red meat, which is itself the next best category, and they are the reason oysters are the answer to every zinc question. Beyond oysters, absorption efficiency does most of the work, and phytate is the variable. Human whole-body-retention studies of matched cereal meals found fractional zinc absorption of 26.8 percent from a rye bread meal containing 100 umol of phytic acid, falling to 8.4 percent from oatmeal porridge containing 600 umol, a threefold loss driven by phytate alone (PMID 2824731). A related study found that less zinc was absorbed in absolute terms from wholemeal bread than from white bread despite wholemeal containing more zinc, and that adding milk products improved zinc absorption from the wholemeal meal (PMID 7361691). Replacing 25 percent of the beef protein in a composite meal with defatted soy flour lowered both the zinc content and the zinc absorbed (PMID 6893252). EFSA has built this straight into the requirement rather than treating it as a footnote: the adult male PRI rises from 9.4 mg/d at 300 mg phytate/day to 11.7, 14.0 and 16.3 mg/d at 600, 900 and 1,200 mg phytate/day, and the female PRI from 7.5 to 12.7 mg/d across the same range (EFSA DRV Summary v4 2017, Tables 5 and 7). A high-legume, high-wholegrain diet therefore needs about 70 percent more zinc on the label to deliver the same absorbed zinc. Practical mitigations with real effect sizes: soaking, sprouting, sourdough fermentation and added phytase degrade phytate and measurably raise both zinc and iron absorption (PMID 24050000); animal protein and milk in the same meal raise it; and vegetarians consequently sit at the top of the EFSA PRI range rather than the bottom (PMID 12936958)."
+   },
+   {
+    "supplement": "Selenium at 200 ug/d",
+    "availability": "RICH",
+    "availability_note": "Selenium is the one item on this list where the exact supplement dose is reachable with two nuts, and that is a problem rather than a reassurance. Brazil nuts are the richest known food source of selenium and the USDA average is 1,920 ug/100 g, about 96 ug in a single 5 g kernel, so two average nuts is 192 ug and effectively the entire 200 ug trial dose. The catch is that Brazil nut selenium is set by the soil the tree grew in and varies by more than thirty-fold between Amazon regions, so nobody eating them knows their dose. Reference points below: EFSA AI 70 ug/d for adults, and the EFSA tolerable upper intake level of 255 ug/d for adult men and women including pregnancy and lactation, set from alopecia as the critical endpoint with a LOAEL of 330 ug/d taken from the SELECT trial and an uncertainty factor of 1.3 (EFSA Journal 2023, DOI 10.2903/j.efsa.2023.7704; AI from EFSA DRV Summary v4 2017, Tables 5 and 7). The 200 ug/d dose itself comes from the two landmark trials: selenised yeast in the Nutritional Prevention of Cancer trial and 200 ug/d L-selenomethionine in SELECT.",
+    "foods": [
+     {
+      "food": "Pork kidney, braised",
+      "per_100g": "312 ug",
+      "portion": "85 g (3 oz)",
+      "per_portion": "265 ug",
+      "pct_rda_or_dose": "379% of EFSA AI (70 ug/d); 133% of the 200 ug dose",
+      "source": "USDA FoodData Central FDC ID 167860 (SR Legacy)"
+     },
+     {
+      "food": "Brazil nuts, dried, unblanched (USDA average)",
+      "per_100g": "1,920 ug",
+      "portion": "1 kernel (5 g)",
+      "per_portion": "96 ug",
+      "pct_rda_or_dose": "137% of AI; 48% of the 200 ug dose",
+      "source": "USDA FoodData Central FDC ID 170569 (SR Legacy)"
+     },
+     {
+      "food": "Brazil nuts, Amazonas state (high-selenium soil)",
+      "per_100g": "6,815 ug (median 68.15 mg/kg)",
+      "portion": "1 kernel (5 g)",
+      "per_portion": "341 ug",
+      "pct_rda_or_dose": "487% of AI; 170% of the 200 ug dose from ONE nut",
+      "source": "PMID 28923728 (Silva Junior et al., Chemosphere 2017)"
+     },
+     {
+      "food": "Brazil nuts, Mato Grosso state (low-selenium soil)",
+      "per_100g": "207 ug (median 2.07 mg/kg)",
+      "portion": "1 kernel (5 g)",
+      "per_portion": "10.4 ug",
+      "pct_rda_or_dose": "15% of AI; 5% of the 200 ug dose from the same-looking nut",
+      "source": "PMID 28923728"
+     },
+     {
+      "food": "Yellowfin tuna, fresh, cooked by dry heat",
+      "per_100g": "108 ug",
+      "portion": "1 steak (150 g)",
+      "per_portion": "162 ug",
+      "pct_rda_or_dose": "231% of AI; 81% of the 200 ug dose",
+      "source": "USDA FoodData Central FDC ID 172006 (SR Legacy)"
+     },
+     {
+      "food": "Lamb's liver, braised",
+      "per_100g": "111 ug",
+      "portion": "85 g (3 oz)",
+      "per_portion": "94 ug",
+      "pct_rda_or_dose": "134% of AI; 47% of dose",
+      "source": "USDA FoodData Central FDC ID 172532 (SR Legacy)"
+     },
+     {
+      "food": "Cod, Atlantic, cooked by dry heat",
+      "per_100g": "37.6 ug",
+      "portion": "1 fillet (180 g)",
+      "per_portion": "68 ug",
+      "pct_rda_or_dose": "97% of AI; 34% of dose",
+      "source": "USDA FoodData Central FDC ID 171956 (SR Legacy)"
+     },
+     {
+      "food": "Sardines, Atlantic, canned in oil, drained with bone",
+      "per_100g": "52.7 ug",
+      "portion": "1 can (92 g)",
+      "per_portion": "48 ug",
+      "pct_rda_or_dose": "69% of AI; 24% of dose",
+      "source": "USDA FoodData Central FDC ID 175139 (SR Legacy)"
+     },
+     {
+      "food": "Beef liver, braised",
+      "per_100g": "36.1 ug",
+      "portion": "1 slice (68 g)",
+      "per_portion": "24.5 ug",
+      "pct_rda_or_dose": "35% of AI; 12% of dose",
+      "source": "USDA FoodData Central FDC ID 168626 (SR Legacy)"
+     },
+     {
+      "food": "Egg, whole, Grade A large",
+      "per_100g": "31.1 ug",
+      "portion": "1 large egg without shell (50 g)",
+      "per_portion": "15.6 ug",
+      "pct_rda_or_dose": "22% of AI; 8% of dose",
+      "source": "USDA FoodData Central FDC ID 748967 (Foundation Foods)"
+     },
+     {
+      "food": "Oysters, eastern, wild, raw",
+      "per_100g": "19.7 ug",
+      "portion": "85 g, about 6 medium",
+      "per_portion": "16.7 ug",
+      "pct_rda_or_dose": "24% of AI; 8% of dose",
+      "source": "USDA FoodData Central FDC ID 171978 (SR Legacy)"
+     },
+     {
+      "food": "Wholemeal bread, US wheat",
+      "per_100g": "25.7 ug",
+      "portion": "1 slice (32 g)",
+      "per_portion": "8.2 ug",
+      "pct_rda_or_dose": "12% of AI; 4% of dose. Does NOT transfer to UK or EU wheat",
+      "source": "USDA FoodData Central FDC ID 172688 (SR Legacy); regional caveat PMID 18346308"
+     }
+    ],
+    "foods_note": "",
+    "dose_gap": "There is almost no gap, and that is the finding. 200 ug/d is met by 2.1 average Brazil nuts (10 g), or 64 g of braised pork kidney, or 185 g of cooked yellowfin tuna, or 180 g of lamb's liver, or 532 g of cooked cod, or 4 tins of sardines, or 13 eggs. Kidney and Brazil nuts overshoot in a single normal portion: one 85 g portion of pork kidney is 265 ug, already 133 percent of the supplement dose and above the EFSA upper level on its own. Because the dose is so easy to reach, the useful calculation runs the other way. The EFSA AI is 70 ug/d and the EFSA upper level is 255 ug/d, a working margin of only about 185 ug. A person on a 200 ug/d supplement plus an ordinary diet is at roughly 270 ug and already over the upper level; add two Brazil nuts and they are near 460 ug. The UL was derived from alopecia observed in SELECT at a LOAEL of 330 ug/d, so this is an observed human effect at achievable intakes, not a theoretical ceiling (DOI 10.2903/j.efsa.2023.7704). Selenium is the case where food easily matches the supplement and the honest advice is to pick one route, not both.",
+    "form_caveat": "Brazil nuts are the textbook answer and a genuinely bad way to dose selenium deliberately, because the dose is unknowable at the point of eating. Median selenium in Brazil nuts varied from 2.07 mg/kg in Mato Grosso state to 68.15 mg/kg in Amazonas, so depending on origin a single nut supplies from 11 percent to 288 percent of a 70 ug adult requirement, and the authors attribute this to soil selenium, soil pH and texture, location and genotype (PMID 28923728). Nuts from the two extremes are visually identical, are not labelled by state of origin, and are routinely blended. Advice like 'two Brazil nuts a day' is therefore a dose that ranges from about 20 ug to about 680 ug depending on a fact the eater cannot access, which spans deficient to well over the upper level. On form equivalence, selenium is unusual in a helpful way: the dominant species in Brazil nuts and cereals is selenomethionine, which is the same species used as the supplement in SELECT, so food and that supplement are pharmacologically comparable (PMID 18346307). But 200 ug of selenium is not one thing. The selenised yeast used in the earlier NPC trial was a poorly speciated mixture whose delivered selenium was variable, and the two trials produced opposite results, so the number 200 ug carries no single meaning across the literature (PMID 18346308, PMID 18346307). Finally, the whole point of supplementing collapses in a selenium-replete person: SELECT tested 200 ug/d L-selenomethionine in selenium-replete men and found no protection against prostate or other major cancers, while the alopecia signal that defines the modern UL came from that same trial.",
+    "bioavailability": "Selenium bioavailability depends on chemical species more than on food matrix. Selenomethionine, the form in Brazil nuts, cereals and meat, is absorbed almost completely and is incorporated non-specifically into body proteins as a storage pool, which is why it raises plasma selenium readily and why its kinetics differ from inorganic selenite and selenate (PMID 18346307, PMID 28412747). This has a practical consequence the composition tables hide: the selenium content of any plant food is a proxy for the soil it grew in, not a property of the species. The USDA wholemeal bread figure of 25.7 ug/100 g reflects North American wheat grown on selenium-rich soils. European and UK wheat is grown on selenium-poor soils, so the same bread cannot be assumed to deliver the same selenium, and the wide between-country variation in intake driven by exactly this mechanism is the central theme of the food-chain intake review (PMID 18346308). Animal foods are more stable, because livestock feed is commonly selenium-supplemented, which is why kidney, liver, tuna and eggs hold their values better across countries than bread or nuts do. The ranking for a reader who wants reliable selenium without a variable dose: offal and marine fish first, eggs as a steady background contributor, Brazil nuts last on the list rather than first, precisely because they are the richest source."
+   }
+  ]
+ },
+ "verification_report": {
+  "group": "minerals-a",
+  "number_checks": [
+   {
+    "claim": "Iron - Lamb's liver, braised, 8.28 mg/100 g (FDC 172532)",
+    "verdict": "OK",
+    "authoritative_value": "8.28 mg/100 g; same record Zn 7.89 mg, Se 111 ug, vitamin A 7,490 ug RAE",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 172532 'Lamb, variety meats and by-products, liver, cooked, braised' (SR Legacy), retrieved 2026-07-30"
+   },
+   {
+    "claim": "Iron - Oysters, eastern, wild, cooked moist heat, 9.21 mg/100 g, portion '85 g, about 6 medium oyster meats' (FDC 171980)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "9.21 mg/100 g confirmed; USDA measures for this record are '6 medium = 42 g' and '3 oz = 85 g'",
+    "correction": "The 7.8 mg per 85 g is right, but 85 g is about 12 medium COOKED oysters, not 6. The '6 medium = 84 g' measure belongs to the RAW record (171978). Same wrong descriptor is reused in the zinc item.",
+    "source": "USDA FoodData Central FDC 171980 and 171978 foodMeasures, retrieved 2026-07-30"
+   },
+   {
+    "claim": "Iron - Black pudding / blood sausage, cooked, 6.4 mg/100 g (FDC 171618)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "6.4 mg/100 g for FDC 171618, whose description is simply 'Blood sausage' (no cooking state); Zn 1.3 mg, Se 15.5 ug",
+    "correction": "Value is exact but the US 'Blood sausage' entry is a weak proxy for UK black pudding (different blood/oatmeal ratio); a UK figure from McCance and Widdowson CoFID was not obtainable in this check, so the UK number stays unverified rather than confirmed at 6.4.",
+    "source": "USDA FoodData Central FDC 171618 (SR Legacy)"
+   },
+   {
+    "claim": "Iron - Beef liver, braised, 6.54 mg/100 g, 1 slice = 68 g (FDC 168626)",
+    "verdict": "OK",
+    "authoritative_value": "6.54 mg/100 g; USDA measure '1 slice = 68 g' confirmed; Se 36.1 ug; vitamin A 9,440 ug RAE",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 168626 (SR Legacy)"
+   },
+   {
+    "claim": "Iron - Beef top sirloin, lean and fat, broiled, 1.96 mg/100 g (FDC 169458)",
+    "verdict": "OK",
+    "authoritative_value": "1.96 mg/100 g (choice grade, trimmed to 0 inch fat)",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 169458 (SR Legacy)"
+   },
+   {
+    "claim": "Iron - Lentils, boiled without salt, 3.33 mg/100 g, 1 cup = 198 g (FDC 172421)",
+    "verdict": "OK",
+    "authoritative_value": "3.33 mg/100 g; 1 cup = 198 g confirmed; Zn 1.27 mg",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 172421 (SR Legacy)"
+   },
+   {
+    "claim": "Iron - Spinach, boiled, drained, 3.57 mg/100 g, 1 cup = 180 g (FDC 168463)",
+    "verdict": "OK",
+    "authoritative_value": "3.57 mg/100 g; 1 cup = 180 g confirmed",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 168463 (SR Legacy)"
+   },
+   {
+    "claim": "Iron - Spinach, raw, 2.71 mg/100 g, 1 cup = 30 g (FDC 168462)",
+    "verdict": "OK",
+    "authoritative_value": "2.71 mg/100 g; 1 cup = 30 g confirmed",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 168462 (SR Legacy)"
+   },
+   {
+    "claim": "Iron - Pumpkin seed kernels, roasted, unsalted, 8.07 mg/100 g (FDC 170557)",
+    "verdict": "OK",
+    "authoritative_value": "8.07 mg/100 g; Zn 7.64 mg",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 170557 (SR Legacy)"
+   },
+   {
+    "claim": "Iron - Tofu, firm, calcium sulfate, 2.66 mg/100 g, portion '1 block (81 g)' (FDC 172475)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "2.66 mg/100 g confirmed; USDA measures are '0.5 cup = 126 g' and '0.25 block = 81 g'",
+    "correction": "81 g is a QUARTER block in USDA's own measure table, not '1 block'. Mass and the 2.2 mg figure are right; the descriptor is wrong (a whole block is roughly 324 g).",
+    "source": "USDA FoodData Central FDC 172475 foodMeasures"
+   },
+   {
+    "claim": "Iron - Wholemeal bread, 2.47 mg/100 g, 1 slice = 32 g (FDC 172688)",
+    "verdict": "OK",
+    "authoritative_value": "2.47 mg/100 g; 1 slice = 32 g confirmed; Zn 1.77 mg, Se 25.7 ug (all three values used across the three items are exact)",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 172688 'Bread, whole-wheat, commercially prepared'"
+   },
+   {
+    "claim": "Iron - Dried apricots, sulphured, 2.66 mg/100 g, 6 halves = 21 g (FDC 173941)",
+    "verdict": "OK",
+    "authoritative_value": "2.66 mg/100 g; USDA '1 half = 3.5 g', so 6 halves = 21 g confirmed",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 173941 (SR Legacy)"
+   },
+   {
+    "claim": "Iron caveat - raw beef liver 4,970 ug retinol activity equivalents per 100 g (FDC 169451)",
+    "verdict": "OK",
+    "authoritative_value": "4,970 ug RAE / 4,950 ug retinol per 100 g, exact",
+    "correction": "Value correct but understates the food actually tabulated: braised lamb liver is 7,490 ug RAE/100 g (6,367 ug per 85 g) and braised beef liver is 9,440 ug RAE/100 g. The 'several thousand micrograms' claim is if anything conservative.",
+    "source": "USDA FoodData Central FDC 169451, 172532, 168626"
+   },
+   {
+    "claim": "Iron dose gap - braised lean lamb shoulder 2.7 mg total iron per 100 g (FDC 174331)",
+    "verdict": "OK",
+    "authoritative_value": "2.7 mg/100 g; Zn 7.3 mg; USDA measure '1 chop, excluding refuse = 55 g' confirmed (used in the zinc item)",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 174331 (SR Legacy)"
+   },
+   {
+    "claim": "Haem iron is 77% of total in raw lean beef, 81% lamb, 88% pork, 74% chicken, higher than the 40% in the Monsen equation (PMID 26433293)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract states exactly 77%, 81%, 88%, 74% and 'higher than the common value used in the Monsen equation'; total iron 1.58, 1.64, 0.81, 0.78 mg/100 g raw lean",
+    "correction": "One methodological caveat: these fractions are measured in RAW lean meat and are applied in the submission to braised lamb shoulder, so the haem share of the cooked product is probably slightly overstated.",
+    "source": "Pretorius, Schonfeldt, Hall. Food Chem 2016;193:97-101 (PubMed esummary/efetch)"
+   },
+   {
+    "claim": "Iodine - Cod, Atlantic, wild caught, raw, 114 ug/100 g, 1 fillet = 115 g (FDC 2684444)",
+    "verdict": "OK",
+    "authoritative_value": "114 ug/100 g; the record's single portion is 115 g, confirmed",
+    "correction": "Correct for US Foundation Foods, but low for a UK-framed item: UK data give cod 230 ug per 120 g portion (192 ug/100 g), so a UK reader's cod is roughly 70% richer.",
+    "source": "USDA FoodData Central FDC 2684444; BDA Iodine Food Fact Sheet (UK) for the UK comparison"
+   },
+   {
+    "claim": "Iodine - Yogurt, plain, nonfat, 58.7 ug/100 g, 1 pot = 170 g (FDC 2647437)",
+    "verdict": "OK",
+    "authoritative_value": "58.7 ug/100 g; the record carries a 170 g portion, confirmed",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 2647437 (Foundation Foods)"
+   },
+   {
+    "claim": "Iodine - Cows' milk, whole 3.25%, 37.9 ug/100 g, 1 cup = 249 g (FDC 746782)",
+    "verdict": "OK",
+    "authoritative_value": "37.9 ug/100 g; the record's portion is 249 g, confirmed",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 746782 (Foundation Foods)"
+   },
+   {
+    "claim": "Iodine - UK retail conventional cows' milk, winter, median 438 ug/kg (PMID 28946925)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract: unfortified milk alternatives median 7.3 ug/kg, 'just 1.7% of our value for winter conventional cows' milk (median 438 ug/kg)'",
+    "correction": "none",
+    "source": "Bath et al. Br J Nutr 2017;118:525-532"
+   },
+   {
+    "claim": "Iodine - UK retail organic cows' milk, winter, median 324 ug/kg (PMID 28946925)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract: 'The iodine concentration of organic milk (median 324 ug/kg) was lower than that of conventional milk' (n 5 organic, n 5 conventional winter samples)",
+    "correction": "none",
+    "source": "Bath et al. Br J Nutr 2017;118:525-532"
+   },
+   {
+    "claim": "Iodine - fortified milk alternatives 266 to 287 ug/kg, three of 47 products (PMID 28946925)",
+    "verdict": "OK",
+    "authoritative_value": "Soya 280, oat 287, rice 266 ug/kg; 'just three of forty-seven drinks were fortified with iodine'",
+    "correction": "none",
+    "source": "Bath et al. Br J Nutr 2017;118:525-532"
+   },
+   {
+    "claim": "Iodine - Table salt, iodised (US), 5,080 ug/100 g, 1/4 tsp = 1.5 g (FDC 746775)",
+    "verdict": "OK",
+    "authoritative_value": "5,080 ug/100 g; the record's measure is 6.1 g (1 tsp), so 1/4 tsp = 1.53 g and 1/2 tsp = 3.05 g, consistent with the 76 ug and 152 ug figures",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 746775 (Foundation Foods)"
+   },
+   {
+    "claim": "Iodine - Parmesan, grated, 82.9 ug/100 g (FDC 2259795)",
+    "verdict": "OK",
+    "authoritative_value": "82.9 ug/100 g",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 2259795 (Foundation Foods)"
+   },
+   {
+    "claim": "Iodine - Egg, whole, large, 49.1 ug/100 g, 24.7 ug per 50 g egg (FDC 748967)",
+    "verdict": "WRONG",
+    "authoritative_value": "49.1 ug/100 g confirmed, so a 50 g egg is 24.55 ug (16.4% of the 150 ug AI)",
+    "correction": "Per-portion should be 24.6 ug, not 24.7; and the dose-gap line '6 large eggs deliver 148 ug' should read 147 ug. UK data independently give 25 ug per egg.",
+    "source": "USDA FoodData Central FDC 748967; BDA Iodine Food Fact Sheet"
+   },
+   {
+    "claim": "Iodine - Nori 1,600 ug/100 g (16 ug/g) (PMID 15588380)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract: iodine ranged 'from 16 microg/g (+/-2) in nori (Porphyra tenera)' across 12 species",
+    "correction": "none",
+    "source": "Teas et al. Thyroid 2004;14:836-841"
+   },
+   {
+    "claim": "Iodine - Almond drink and soya drink, 'unsweetened, unfortified', 0.0 ug (FDC 1999631, 1999630)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Iodine 0.0 ug confirmed for both. But FDC 1999631 carries Ca 173 mg and vitamin A 41 ug RAE per 100 g, and 1999630 carries Ca 101 mg and 58 ug RAE - these products are fortified",
+    "correction": "Drop 'unfortified' from the food names. They are calcium-and-vitamin-fortified drinks that are not iodine-fortified, which is exactly the point the item makes elsewhere with PMID 35373723.",
+    "source": "USDA FoodData Central FDC 1999631, 1999630 (Foundation Foods)"
+   },
+   {
+    "claim": "Iodine - dairy substitution cuts 124 ug to 2.6 ug, a 97.9% loss, 83% to 1.8% of the 150 ug recommendation (PMID 35373723)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract verbatim: 'reduce the iodine provided by 97.9% (124 v. 2.6 ug)' and 'contribution to the adult intake recommendation (150 ug/d; 83 v. 1.8%)'",
+    "correction": "none",
+    "source": "Nicol et al. Br J Nutr 2023;129:832-842"
+   },
+   {
+    "claim": "Iodine - 'only 28 percent of 146 UK milk alternatives and 6 percent of 76 yoghurt alternatives were iodine-fortified' (PMID 35373723)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Paper identified 146 milk and 76 yoghurt alternatives, then excluded 48 organic products; of the remainder 28% (n 29) of milk and 6% (n 4) of yoghurt alternatives were iodine-fortified",
+    "correction": "The denominators are wrong: 29/146 = 19.9% and 4/76 = 5.3%. Either quote the percentages against the non-organic subset or quote the counts (29 and 4).",
+    "source": "Nicol et al. Br J Nutr 2023;129:832-842"
+   },
+   {
+    "claim": "Iodine - NDNS: 94 vs 129 ug/d intake, median UIC 79 vs 132 ug/l (PMID 32993817)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract verbatim: 94 v. 129 ug/d (P<0.001); median UIC 79 v. 132 ug/l (P<0.001); milk-alternative group classified deficient by WHO criterion, cows' milk group sufficient; NDNS years 7-9",
+    "correction": "none",
+    "source": "Dineva, Rayman, Bath. Br J Nutr 2021;126:28-36"
+   },
+   {
+    "claim": "Iodine - organic milk 42.1% lower, 144.5 vs 249.5 ng/g, 172-sample survey (PMID 21781365)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract verbatim: 'Organic milk was 42.1% lower in iodine content than conventional milk (median 144.5 v. 249.5 ng/g; P<0.001)'; n 92 organic + n 80 conventional = 172",
+    "correction": "none",
+    "source": "Bath, Button, Rayman. Br J Nutr 2012;107:935-940"
+   },
+   {
+    "claim": "Iodine - kelp variability: 12 species, 8,165 ug/g processed kelp granules, 514 ug/g sun-bleached blades, 500-fold spread (PMID 15588380)",
+    "verdict": "OK",
+    "authoritative_value": "All confirmed verbatim; fresh juvenile blades 6,571 ug/g; 8165/16 = 510-fold; 1 g of granules = 54x the 150 ug AI",
+    "correction": "none",
+    "source": "Teas et al. Thyroid 2004;14:836-841"
+   },
+   {
+    "claim": "Iodine - 96 macroalgae products, 128 to 62,400 ug per portion, 5 to 5,600 ug per supplement dose, more than half exceed the UL (PMID 33889064)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract verbatim: 96 products; wholefood 128-62,400 ug/portion; supplements 5-5,600 ug/dose; 'For 54 products, the intake of one portion or dose would exceed the tolerable upper intake level' (54/96 = 56%); labelling inadequate or inaccurate",
+    "correction": "none",
+    "source": "Aakre et al. Food Nutr Res 2021;65:7584"
+   },
+   {
+    "claim": "Iodine bioavailability - about 90% of ingested iodine excreted in urine (PMID 25274294)",
+    "verdict": "OK",
+    "authoritative_value": "Paper states 'iodine intake was estimated by assuming that 90% of ingested iodine was excreted'",
+    "correction": "none",
+    "source": "Bath et al. Br J Nutr 2014;112:1715-1723"
+   },
+   {
+    "claim": "Zinc - Oysters, eastern, canned, 91.0 mg/100 g, 1 oyster = 8 g (FDC 171981)",
+    "verdict": "OK",
+    "authoritative_value": "91.0 mg/100 g; USDA measure '1 oyster = 8 g' confirmed, so 10 oysters = 80 g and 11 oysters = 88 g both check out",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 171981 (SR Legacy)"
+   },
+   {
+    "claim": "Zinc - Oysters, eastern, wild, cooked moist heat, 78.6 mg/100 g (FDC 171980)",
+    "verdict": "OK",
+    "authoritative_value": "78.6 mg/100 g",
+    "correction": "Value exact; the '6 medium oyster meats = 85 g' descriptor is wrong here too (USDA: 6 medium cooked = 42 g).",
+    "source": "USDA FoodData Central FDC 171980 (SR Legacy)"
+   },
+   {
+    "claim": "Zinc - Oysters, eastern, wild, raw, 39.3 mg/100 g (FDC 171978)",
+    "verdict": "OK",
+    "authoritative_value": "39.3 mg/100 g; USDA '6 medium = 84 g' supports the 14-15 oysters figure in the dose gap",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 171978 (SR Legacy)"
+   },
+   {
+    "claim": "Zinc - Crab, Alaska king, cooked, 7.62 mg/100 g, 1 leg = 134 g (FDC 174202)",
+    "verdict": "OK",
+    "authoritative_value": "7.62 mg/100 g; USDA measure '1 leg = 134 g' confirmed",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 174202 (SR Legacy)"
+   },
+   {
+    "claim": "Zinc - Beef chuck arm pot roast, lean only, braised, 8.09 mg/100 g (FDC 170616)",
+    "verdict": "OK",
+    "authoritative_value": "8.09 mg/100 g (USDA record is 'select' grade, trimmed to 0 inch fat); Fe 2.77 mg",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 170616 (SR Legacy)"
+   },
+   {
+    "claim": "Zinc - Lamb's liver braised 7.89 mg, lamb shoulder arm lean braised 7.3 mg, lentils 1.27 mg, chickpeas 1.53 mg, pumpkin seeds 7.64 mg, wholemeal bread 1.77 mg per 100 g",
+    "verdict": "OK",
+    "authoritative_value": "All six confirmed to the digit: 7.89 (172532), 7.3 (174331), 1.27 (172421), 1.53 (173757), 7.64 (170557), 1.77 (172688)",
+    "correction": "none",
+    "source": "USDA FoodData Central, FDC IDs as listed (SR Legacy)"
+   },
+   {
+    "claim": "Zinc absorption 26.8% from rye bread at 100 umol phytate vs 8.4% from oatmeal porridge at 600 umol (PMID 2824731)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract verbatim: 26.8 +/- 7.4% from rye bread with 100 umol phytic acid, 8.4 +/- 1.0% from oatmeal porridge with 600 umol",
+    "correction": "none",
+    "source": "Sandstrom et al. J Nutr 1987;117:1898-1902"
+   },
+   {
+    "claim": "Zinc lozenge trials: >75 mg/day, most commonly 80-92 mg/day, some 192-207 mg/day; gluconate 28% vs acetate 40% shortening, not significant; no benefit above 100 mg/day (PMID 28515951)",
+    "verdict": "OK",
+    "authoritative_value": "All confirmed: inclusion threshold zinc dose >75 mg/day; five trials 80-92 mg/day (33% reduction), two trials 192-207 mg/day (35%); acetate 40%, gluconate 28%, difference 12 points (95% CI -12 to +36); 'no evidence that zinc doses over 100 mg/day might lead to greater efficacy'",
+    "correction": "none",
+    "source": "Hemila. JRSM Open 2017;8(5):2054270417694291"
+   },
+   {
+    "claim": "Zinc - 'That is eight to twelve times the EFSA PRI for an adult woman'",
+    "verdict": "WRONG",
+    "authoritative_value": "EFSA female PRI 7.5 mg/d at 300 mg phytate; 80/7.5 = 10.7 and 92/7.5 = 12.3",
+    "correction": "Should read roughly 11 to 12 times the adult female PRI. 'Eight times' only works against the male PRI of 9.4 mg/d (80/9.4 = 8.5).",
+    "source": "EFSA DRV Summary report Tables 5 and 7, doi 10.2903/sp.efsa.2017.e15121"
+   },
+   {
+    "claim": "Zinc - 'Cooking and canning concentrate oyster zinc dramatically (39.3 raw, 78.6 cooked, 91.0 canned) because water is lost rather than zinc gained'",
+    "verdict": "WRONG",
+    "authoritative_value": "Water: raw 89.0 g, cooked 78.2 g, canned 85.1 g per 100 g. Dry matter: 11.0, 21.8, 14.9 g. Zinc per 100 g dry matter: 357, 361, 611 mg",
+    "correction": "True for cooking (solids exactly double, zinc exactly doubles) but false for canning: canned oysters have only 1.35x the dry matter of raw yet 2.3x the zinc, i.e. 1.7x richer per gram of solids. The canned entry reflects different material or analyses, not moisture loss.",
+    "source": "USDA FoodData Central FDC 171978, 171980, 171981 (water, protein, zinc)"
+   },
+   {
+    "claim": "Zinc bioavailability - 'less zinc was absorbed in absolute terms from wholemeal bread than from white bread despite wholemeal containing more zinc' (PMID 7361691)",
+    "verdict": "WRONG",
+    "authoritative_value": "Abstract states the opposite: 'A lower absolute amount of zinc was absorbed from the white bread compared to the absorption from the same amount of wholemeal bread.' Only when both breads were enriched with zinc chloride was absorption higher from white bread",
+    "correction": "Reverse the sentence: absolute zinc absorbed was LOWER from white bread than from wholemeal, because wholemeal supplies more zinc; the fractional-absorption penalty of phytate did not overturn the content advantage. The follow-on claim that added milk products improved absorption from the wholemeal meal is correct.",
+    "source": "Sandstrom et al. Am J Clin Nutr 1980;33:739-745"
+   },
+   {
+    "claim": "Zinc - replacing 25% of beef protein with defatted soy flour lowered zinc content and zinc absorbed (PMID 6893252)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract: 'The same substitution in a beef meal resulted in a decrease in zinc content and also a lower zinc absorption' (the same substitution in a chicken meal changed neither)",
+    "correction": "none",
+    "source": "Sandstrom, Cederblad. Am J Clin Nutr 1980;33:1778-1783"
+   },
+   {
+    "claim": "Zinc - EFSA male PRI 9.4/11.7/14.0/16.3 and female 7.5 to 12.7 mg/d at 300/600/900/1200 mg phytate; roughly 70% more zinc needed",
+    "verdict": "OK",
+    "authoritative_value": "EFSA Table 5 (males 18+): 9.4, 11.7, 14.0, 16.3 mg/d. Table 7 (females 18+): 7.5, 9.3, 11.0, 12.7 mg/d. Ratios 1.73 and 1.69",
+    "correction": "none",
+    "source": "EFSA, Dietary Reference Values for nutrients Summary report, approved 4 Dec 2017, doi 10.2903/sp.efsa.2017.e15121, Tables 5 and 7 (PDF text extracted)"
+   },
+   {
+    "claim": "Selenium - Pork kidney, braised, 312 ug/100 g (FDC 167860)",
+    "verdict": "OK",
+    "authoritative_value": "312 ug/100 g; USDA measure '3 oz = 85 g' confirmed; Fe 5.29 mg, vitamin A only 78 ug RAE",
+    "correction": "none",
+    "source": "USDA FoodData Central FDC 167860 (SR Legacy)"
+   },
+   {
+    "claim": "Selenium - Brazil nuts 1,920 ug/100 g, 1 kernel = 5 g giving 96 ug (FDC 170569)",
+    "verdict": "OK",
+    "authoritative_value": "1,920 ug/100 g; USDA measures are '1 kernel = 5.0 g' and '1 oz (6 kernels) = 28.35 g'",
+    "correction": "none (the 5 g kernel is USDA's own measure, though its 6-kernel ounce implies 4.7 g)",
+    "source": "USDA FoodData Central FDC 170569 (SR Legacy)"
+   },
+   {
+    "claim": "Selenium - Brazil nuts by state: Amazonas median 68.15 mg/kg, Mato Grosso median 2.07 mg/kg (PMID 28923728)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract verbatim: 'median Se concentration in Brazil nuts varied from 2.07 mg kg-1 (in Mato Grosso state) to 68.15 mg kg-1 (in Amazonas state)'; soil Se, soil acidity, location and genotype cited as drivers",
+    "correction": "none for the concentrations; see dose_gap_errors for the 11%/288% versus 15%/487% inconsistency",
+    "source": "Silva Junior et al. Chemosphere 2017;188:650-658"
+   },
+   {
+    "claim": "Selenium - Yellowfin tuna cooked 108 ug, lamb liver 111 ug, cod cooked 37.6 ug (1 fillet 180 g), sardines canned 52.7 ug (1 can 92 g), beef liver 36.1 ug, egg 31.1 ug, wholemeal bread 25.7 ug per 100 g",
+    "verdict": "OK",
+    "authoritative_value": "All seven confirmed to the digit: 108 (172006), 111 (172532), 37.6 (171956, '1 fillet = 180 g'), 52.7 (175139, '1 can (3.75 oz) = 92 g'), 36.1 (168626), 31.1 (748967), 25.7 (172688)",
+    "correction": "none",
+    "source": "USDA FoodData Central, FDC IDs as listed"
+   },
+   {
+    "claim": "Selenium - Oysters, eastern, wild, raw, 19.7 ug/100 g (FDC 171978)",
+    "verdict": "OK",
+    "authoritative_value": "19.7 ug/100 g confirmed",
+    "correction": "Correct but the least favourable oyster entry: cooked eastern oysters are 39.5 ug/100 g (171980) and canned 35.8 ug (171981). Since the zinc item already uses the cooked and canned records, using the raw one here halves the selenium figure.",
+    "source": "USDA FoodData Central FDC 171978, 171980, 171981"
+   },
+   {
+    "claim": "Selenium - EFSA UL 255 ug/d for adults including pregnancy and lactation, from alopecia, LOAEL 330 ug/d in SELECT, uncertainty factor 1.3 (DOI 10.2903/j.efsa.2023.7704)",
+    "verdict": "OK",
+    "authoritative_value": "EFSA opinion abstract verbatim: alopecia as critical endpoint, LOAEL 330 ug/day from SELECT, UF 1.3, UL 255 ug/day for adult men and women including pregnant and lactating women. EFSA adds that consumers unlikely to exceed the UL 'except for regular users of food supplements... or regular consumers of Brazil nuts'",
+    "correction": "none",
+    "source": "EFSA NDA Panel. EFSA J 2023;21(1):e07704 (PMID 36698500; Crossref)"
+   },
+   {
+    "claim": "Reference values - EFSA iron PRI 16 mg/d premenopausal women and 11 mg/d men; iodine AI 150 ug/d adults, 200 ug/d pregnancy and lactation; selenium AI 70 ug/d",
+    "verdict": "OK",
+    "authoritative_value": "Confirmed verbatim in EFSA Tables 5 and 7: iron 11 (men, postmenopausal women), 16 (premenopausal); iodine 150 adults, 200 pregnancy and lactation; selenium 70 (85 lactation)",
+    "correction": "Citation label is off: those numbered Tables 5 and 7 are in the EFSA 'Dietary Reference Values for nutrients Summary report' (EFSA Supporting Publications, approved 4 Dec 2017, doi 10.2903/sp.efsa.2017.e15121), not in the 'Overview... v4, September 2017' tables document the submission names three times.",
+    "source": "EFSA DRV Summary report PDF, text extracted 2026-07-30; Crossref record for doi 10.2903/sp.efsa.2017.e15121"
+   },
+   {
+    "claim": "All underlying EFSA opinion citations: iron EFSA Journal 2015;13(10):4254; iodine 2014;12(5):3660; zinc 2014;12(10):3844",
+    "verdict": "OK",
+    "authoritative_value": "Crossref: 10.2903/j.efsa.2015.4254 'Scientific Opinion on Dietary Reference Values for iron', EFSA Journal 13(10) 2015-10; 10.2903/j.efsa.2014.3660 iodine, 12(5) 2014-05; 10.2903/j.efsa.2014.3844 zinc, 12(10) 2014-10",
+    "correction": "none",
+    "source": "Crossref API records for the three DOIs"
+   },
+   {
+    "claim": "All 25 cited PMIDs exist and match the described study",
+    "verdict": "OK",
+    "authoritative_value": "All 25 resolved with correct journal, year, volume, pages and first author; no fabricated or mismatched identifier found (26433293, 29032957, 17440529, 20200263, 3700141, 11124756, 6402915, 10999016, 28946925, 21781365, 15588380, 35373723, 32993817, 33889064, 25274294, 28515951, 2824731, 7361691, 6893252, 24050000, 12936958, 28923728, 18346307, 18346308, 28412747)",
+    "correction": "none - nothing in this submission is UNVERIFIABLE on source grounds",
+    "source": "NCBI eutils esummary/efetch, retrieved 2026-07-30"
+   },
+   {
+    "claim": "Iron bioavailability 14-18% mixed diets, 5-12% vegetarian, iron status greater effect than diet composition (PMID 20200263)",
+    "verdict": "OK",
+    "authoritative_value": "Abstract verbatim on both the ranges and 'iron status generally has a greater effect than diet composition'",
+    "correction": "none",
+    "source": "Hurrell, Egli. Am J Clin Nutr 2010;91:1461S-1467S"
+   },
+   {
+    "claim": "Coffee cut absorption 39%, tea 64%, double-strength instant coffee 5.88% to 0.53%, coffee 1 h before harmless, 1 h after as bad as with the meal (PMID 6402915)",
+    "verdict": "OK",
+    "authoritative_value": "All five figures verbatim in the abstract",
+    "correction": "none",
+    "source": "Morck, Lynch, Cook. Am J Clin Nutr 1983;37:416-420"
+   },
+   {
+    "claim": "Black tea 79-94%, peppermint 84%, cocoa 71%, chamomile 47% inhibition, dose-dependent on total polyphenols, milk made no difference (PMID 10999016)",
+    "verdict": "OK",
+    "authoritative_value": "All verbatim; also pennyroyal 73%, vervain 59%, lime flower 52%",
+    "correction": "none",
+    "source": "Hurrell, Reddy, Cook. Br J Nutr 1999;81:289-295"
+   },
+   {
+    "claim": "Oxalate study: kale 10.7% vs kale plus oxalate 11.5%, spinach meal 24% lower than kale, attributable to polyphenols and calcium (PMID 17440529)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "10.7% vs 11.5% (P=0.86) and 'absorption from the spinach meal was 24% lower compared to the kale meal... but the difference did not reach statistical significance (P>0.16)'",
+    "correction": "The 24% spinach deficit is presented as an established effect; the source reports it as non-significant. The paper notes spinach was significantly higher in calcium and polyphenols but does not attribute the absorption difference to them, so the mechanistic claim is beyond the data.",
+    "source": "Storcksdieck genannt Bonsmann et al. Eur J Clin Nutr 2008;62:336-341"
+   },
+   {
+    "claim": "'25 to 50 mg of ascorbic acid... multiplies non-haem absorption several-fold... strongest in high-phytate meals' (PMID 3700141)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Abstract concludes 'about 50 mg of the vitamin in each main meal is desirable for optimum effect' and that the most pronounced effects were in meals high in inhibitory ligands (phytates, tannins)",
+    "correction": "The 'strongest in high-phytate meals' half is supported; the '25 mg' lower bound and 'several-fold' are not stated in the source. Cite 50 mg per main meal.",
+    "source": "Hallberg, Brune, Rossander. Hum Nutr Appl Nutr 1986;40:97-113"
+   },
+   {
+    "claim": "Ferrous sulfate doses of 60 and 120 mg in PMID 29032957 described as '60 mg and 120 mg ferrous sulfate doses'",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "The trials gave 60 mg and 120 mg of IRON as labelled ferrous sulfate, not 60/120 mg of the salt (325 mg ferrous sulfate = 65 mg iron)",
+    "correction": "Say '60 mg and 120 mg elemental iron given as ferrous sulfate'. As written it reads as salt weight, which would be a sixth of the actual dose.",
+    "source": "Stoffel et al. Lancet Haematol 2017;4:e524-e533"
+   },
+   {
+    "claim": "Phytase, soaking, sprouting and sourdough fermentation measurably raise zinc and iron absorption (PMID 24050000)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "The review covers added Aspergillus niger phytase (12 iron studies, 5 zinc studies) and notes 'for zinc, not enough information is available to determine optimal activities'",
+    "correction": "The citation supports added phytase, not soaking, sprouting or sourdough, and the zinc evidence base is thin. Either narrow the claim or add a fermentation-specific source.",
+    "source": "Troesch et al. Food Nutr Bull 2013;34(2 Suppl):S90-101"
+   }
+  ],
+  "misclassifications": [
+   "Zinc lozenges classified RICH is the one real misclassification. The classification is applied to the nutrient while the item under review is a route-limited pharmacological product: 80-92 mg/d elemental zinc released as free Zn2+ over 20-30 minutes in the oropharynx, dosed every two hours. The submission's own text concedes the point ('food cannot deliver this dose by this route at all'), which is the definition of a supplement whose effect is not food-reachable. RICH plus a caveat lets a reader conclude oysters substitute for lozenges. The honest coding is two rows, or a NOT-FOOD-REACHABLE classification with a note that nutritional zinc separately is RICH (85 g braised beef = 6.9 mg against a 7.5-9.4 mg PRI).",
+   "Iodine RICH is defensible but the evidence base is jurisdictionally mismatched. Three of the four largest rows are US-analysed foods, and the single largest, iodised table salt at 5,080 ug/100 g, does not exist as a dietary source in the UK, which the item itself states in its own form_caveat ('The UK has no salt iodisation programme'). The classification should carry the qualifier that it rests on dairy, white fish and eggs for a UK reader, and the salt row should be marked as not transferable rather than left in the table at 51% of the AI.",
+   "The iron form_caveat's central claim, 'The iron benefit and the vitamin A hazard travel together and cannot be separated', is wrong and is only wrong because kidney was omitted. Braised lamb kidney is 12.4 mg iron per 100 g with 137 ug RAE (FDC 174355) and braised pork kidney is 5.29 mg iron with 78 ug RAE (FDC 167860). Both are offal, both beat the tabulated lamb liver on iron per 100 g in the case of kidney, and neither carries a retinol problem. The hazard separates cleanly by organ.",
+   "Iron RICH and Selenium at 200 ug/d RICH are both correct and well supported. Nothing in this group is classified SYNTHETIC, so there is no case of a synthetic label hiding a genuine dietary source; and no food in any of the four tables is a trace-amount source dressed up as rich - the lowest entries (raw spinach 0.81 mg iron, wholemeal bread 0.57 mg zinc) are explicitly presented as small."
+  ],
+  "missing_foods": [
+   "Iron, the big one: pig's liver, braised, 17.9 mg/100 g (FDC 167863) - 2.2 times the lamb liver the item calls 'the best iron food', with lower vitamin A (5,400 ug RAE) than braised lamb liver (7,490). Also lamb kidney braised 12.4 mg (FDC 174355) and chicken liver simmered 11.6 mg (FDC 171061). All three outrank every row in the iron table.",
+   "Iron, non-haem omissions: tahini 8.95 mg and sesame seed kernels toasted 7.78 mg (FDC 170189, 170152), hemp seed hulled 7.95 mg (170148), toasted wheat-germ cereal 9.09 mg (173896), wheat germ crude 6.26 mg (168892), blue mussels cooked 6.72 mg (174217), molasses 4.72 mg (168820), and enriched white wheat flour 4.64 mg (168894) - the last one matters for a UK-framed item because UK white and brown flour carry mandatory iron fortification while wholemeal does not. Worth noting the folklore exception: clams are NOT a rich iron food in current USDA data (cooked 2.81 mg, canned 2.68 mg), so their absence is correct.",
+   "Iodine: haddock is the single most conspicuous omission for a UK-oriented item, at 390 ug per 120 g portion (about 325 ug/100 g, 260% of the AI in one fillet), with scampi 160 ug per 170 g. Both come from the same UK data that the item's own Bath-group citations rest on. Also missing: an iodine-FORTIFIED plant drink row at 266-287 ug/kg (PMID 28946925), which is the one actionable food answer for the exact group the item identifies as deficient; and kombu, oarweed and sugar kelp at 2,276-7,800 ug/g (PMID 33889064), which appear only as a hazard and never as the richest sources they are.",
+   "Zinc: toasted wheat-germ cereal 16.7 mg/100 g (FDC 173896) and wheat germ crude 12.3 mg (168892) are the richest plant zinc foods and both beat every plant row in the table; then sesame seed kernels toasted 10.2 mg (170152), hemp seed hulled 9.9 mg (170148), dried shiitake 7.66 mg (168436), and cheddar cheese 3.67 mg (328637) as the everyday dairy contributor that also improves zinc absorption from phytate meals, the mechanism the item itself cites from PMID 7361691.",
+   "Selenium: lamb kidney braised 219 ug/100 g (FDC 174355) is the standout omission - second only to pork kidney, cheap, and with negligible vitamin A. Then blue mussels cooked 89.6 ug (174217), chicken liver 82.4 ug (171061), sunflower seed kernels dry roasted 79.3-80.4 ug (170563, 325524), wheat germ 79.2 ug (168892), light tuna canned in oil 76.0 ug (173708), and clams 50.5-64.0 ug (171976, 171975). Canned tuna and sunflower seeds in particular answer the item's own closing question (reliable selenium without a variable dose) better than the fresh yellowfin steak it does list."
+  ],
+  "dose_gap_errors": [
+   "Iron therapeutic gap, the substantive one: the calculation assumes 'roughly 10 percent' absorption for a 65 mg dose in iron-depleted women, but the trial it cites for that population (PMID 29032957) measured cumulative fractional absorption of 16.3% on consecutive days and 21.8% on alternate days at 60 mg/d, and 11.8% for a single 120 mg dose. Using the source's own 16.3%, absorbed iron is 10.6 mg, not 6.5 mg; the haem requirement becomes 42.4 mg, which is about 1.94 kg of braised lean lamb shoulder (not 1.19 kg), and the non-haem requirement becomes 212 mg, which is about 6.4 kg of cooked lentils (not 3.9 kg). The error runs in the direction that flatters food.",
+   "Selenium, internal contradiction: the form_caveat states 'a single nut supplies from 11 percent to 288 percent of a 70 ug adult requirement' (a correct quote from PMID 28923728) while the same item's food table gives 10.4 ug and 341 ug per kernel, which are 14.8% and 487% of 70 ug. The two cannot both stand: the paper's percentages imply a 3.0-3.7 g kernel, the table uses USDA's 5.0 g kernel. On the table's own basis the sentence should read 'about 15 percent to about 490 percent'. The later '20 ug to about 680 ug for two nuts' is consistent with the 5 g basis (20.7 and 681.5), so the 11%/288% sentence is the outlier.",
+   "Iodine, egg arithmetic: 49.1 ug/100 g x 50 g = 24.55 ug, not 24.7 ug; consequently 'Six large eggs deliver 148 ug' should be 147 ug, and the percentage is 16.4% not 16%.",
+   "Zinc, dose framing: '80 to 92 mg/day... is eight to twelve times the EFSA PRI for an adult woman' should be about 11 to 12 times (7.5 mg PRI gives 10.7x and 12.3x). Eight times corresponds to the male PRI of 9.4 mg/d, not the female one named in the sentence.",
+   "Iodine, unit slip: 'About 400 ml of milk (1.6 cups) delivers 151 ug' silently equates 400 ml with 398 g. At milk density, 400 ml is about 412 g and delivers 156 ug; 151 ug is what 1.6 USDA cups (398 g) gives. Same slip in the UK milk rows, where a '200 ml glass' is costed as 200 g (88 ug rather than 90 ug).",
+   "Zinc, incomplete list: the 80 mg/day comparison lists chickpeas at 5.23 kg but drops lentils, which are in the same table and would need 6.30 kg (80/1.27 x 100). Including the worse of the two legumes strengthens the argument being made.",
+   "Everything else recomputes correctly. All 46 per-portion conversions and all 46 percent-of-reference figures reproduce to the rounding shown; the iron 785 g / 3.3 kg / 1.95 kg (9.86 cups) / 2.4 kg (80 cups) equivalents, the 15.9 mg one-day stack, the zinc 204 g / 102 g / 88 g / 989 g / 1.10 kg / 1.05 kg / 5.23 kg equivalents, the selenium 10.4 g / 64 g / 185 g / 180 g / 532 g / 4.1 tins / 13 eggs equivalents, the 255 minus 70 = 185 ug margin, the 270 and 462 ug totals, the 97.9% dairy-substitution loss, the 1.7% milk-alternative ratio, and the 54-fold kelp-granule multiple all check out."
+  ],
+  "net_assessment": "This is an unusually clean submission on the two axes fabrication normally shows up on. Every one of the 46 numeric food figures matched FoodData Central to the digit when pulled from the FDC record endpoint (I verified 30 records including all cited FDC IDs), all 25 PMIDs resolved to real papers that say what they are cited as saying, all five DOIs resolved through Crossref, and every EFSA reference value (iron 16/11, iodine 150/200, zinc 9.4-16.3 and 7.5-12.7 across the phytate range, selenium AI 70, UL 255 from a 330 ug LOAEL with UF 1.3) matched the EFSA source text verbatim. Nothing is UNVERIFIABLE. Three defects are substantive. First, the zinc bioavailability section reverses PMID 7361691: the paper found LESS absolute zinc absorbed from white bread than from wholemeal, the submission says the opposite, and the reversed version is doing argumentative work. Second, zinc lozenges are classified RICH when the submission's own reasoning establishes the dose is not food-reachable by the required route, which is a classification that contradicts its own text. Third, the iron therapeutic gap uses a 10% absorption assumption that its own cited trial contradicts (16.3-21.8%), understating the food burden by roughly 1.6x in the direction that flatters food. Below those: the claim that iron and vitamin A cannot be separated is refuted by the kidney entries the table omits (lamb kidney 12.4 mg iron, 137 ug RAE); pig's liver at 17.9 mg iron is 2.2x the food the item calls the best iron source; two portion descriptors are wrong (85 g of cooked oysters is about 12 medium, not 6; USDA's 81 g of tofu is a quarter block, not a block); the Brazil nut 11%/288% quote contradicts the item's own 15%/487% table; a non-significant 24% spinach result is presented as established with a mechanism the source does not support; the plant drinks are called unfortified when USDA shows them calcium- and vitamin-fortified; and the milk-alternative fortification percentages are quoted against the wrong denominators. Fixing the PMID 7361691 reversal, the zinc classification, and the iron absorption assumption would leave a submission I would consider sound."
+ }
+}

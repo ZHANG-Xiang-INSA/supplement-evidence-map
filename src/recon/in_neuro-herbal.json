@@ -1,0 +1,529 @@
+{
+ "group": "neuro-herbal",
+ "items_assigned": [
+  "Melatonin",
+  "Berberine",
+  "Ashwagandha",
+  "Rhodiola rosea",
+  "Valerian",
+  "Ginkgo biloba",
+  "Bacopa monnieri",
+  "Lion's mane (Hericium erinaceus)",
+  "St John's wort",
+  "5-HTP"
+ ],
+ "submission": {
+  "items": [
+   {
+    "supplement": "Melatonin",
+    "availability": "TRACE",
+    "availability_note": "Melatonin is genuinely present in many plant and animal foods, but at nanogram-to-low-microgram levels per portion against a supplement dose of 0.5-5 mg, so the gap is three to six orders of magnitude. Commercial melatonin is not extracted from food; it is chemically synthesised (historically from bovine pineal glands, now by synthesis), so a \"natural melatonin\" product is a manufactured molecule. The one food that comes within sight of a low dose is goji berry, and that rests on a single small study. Pistachios are the notable outlier in the literature for a different reason: one 2014 spectrofluorimetric paper reported roughly 233 ug/g dry weight, about 90,000 times the LC-MS/MS value, and that paper carries a published Expression of Concern after the German Federal Institute for Risk Assessment could not replicate it (PMID 24878439; PMID 31027610).",
+    "foods": [
+     {
+      "food": "Goji berries (Lycium barbarum), fresh ripe fruit",
+      "per_100g": "160 ug melatonin (1600.5 ng/g fresh weight)",
+      "portion": "100 g fresh berries (about two thirds of a cup)",
+      "per_portion": "160 ug",
+      "pct_rda_or_dose": "16% of a 1 mg supplement dose; 32% of a 0.5 mg dose",
+      "source": "Ugur Y. J Inonu Univ Vocational School Health Serv 2021;9(3):820-830, DOI 10.33715/inonusaglik.987625 (HPLC-FD, goji highest of six berry fruits; range 123.44-1600.48 ng/g FW)"
+     },
+     {
+      "food": "Montmorency tart cherries, fresh-frozen",
+      "per_100g": "1.35 ug melatonin (13.46 +/- 1.10 ng/g)",
+      "portion": "1 cup pitted cherries (155 g)",
+      "per_portion": "2.09 ug",
+      "pct_rda_or_dose": "0.21% of a 1 mg dose",
+      "source": "Burkhardt S, Tan DX, Manchester LC, Hardeland R, Reiter RJ. J Agric Food Chem 2001;49(10):4898-4902, PMID 11600041"
+     },
+     {
+      "food": "Balaton tart cherries, fresh-frozen (same species, different cultivar)",
+      "per_100g": "0.21 ug melatonin (2.06 +/- 0.17 ng/g)",
+      "portion": "1 cup pitted cherries (155 g)",
+      "per_portion": "0.32 ug",
+      "pct_rda_or_dose": "0.032% of a 1 mg dose",
+      "source": "Burkhardt S et al. J Agric Food Chem 2001;49(10):4898-4902, PMID 11600041"
+     },
+     {
+      "food": "Pistachio kernels, raw (LC-MS/MS value)",
+      "per_100g": "0.26 ug melatonin (2609 +/- 3096 pg/g)",
+      "portion": "30 g, about 49 kernels",
+      "per_portion": "0.078 ug (78 ng)",
+      "pct_rda_or_dose": "0.008% of a 1 mg dose",
+      "source": "Bioactive phytochemicals of tree nuts: melatonin and sphingolipid content in almonds and pistachios. J Food Compos Anal 2019, DOI 10.1016/j.jfca.2019.05.010"
+     },
+     {
+      "food": "Walnut kernels (Juglans regia), raw",
+      "per_100g": "0.35 ug melatonin (3.5 +/- 1.0 ng/g)",
+      "portion": "30 g, about 14 halves",
+      "per_portion": "0.105 ug (105 ng)",
+      "pct_rda_or_dose": "0.011% of a 1 mg dose",
+      "source": "Reiter RJ, Manchester LC, Tan DX. Nutrition 2005;21(9):920-924, DOI 10.1016/j.nut.2005.02.005; independently 1.19-3.30 ng/g across cultivars in Verde et al. J Food Compos Anal 2022;105:104180, DOI 10.1016/j.jfca.2021.104180"
+     },
+     {
+      "food": "Hen egg, boiled",
+      "per_100g": "0.61 ug melatonin (6.1 ng/g)",
+      "portion": "1 large egg (50 g)",
+      "per_portion": "0.31 ug (305 ng)",
+      "pct_rda_or_dose": "0.031% of a 1 mg dose",
+      "source": "CUME+ study, content of dietary melatonin in 119 food items. J Hum Nutr Diet 2026, PMID 41588582, DOI 10.1111/jhn.70193 (older HPLC work reports a lower 1.54 ng/g for egg)"
+     },
+     {
+      "food": "Cow's milk, whole",
+      "per_100g": "0.0015 ug melatonin (0.015 ng/g)",
+      "portion": "1 glass, 200 mL (206 g)",
+      "per_portion": "0.0031 ug (3.1 ng)",
+      "pct_rda_or_dose": "0.0003% of a 1 mg dose",
+      "source": "CUME+ study. J Hum Nutr Diet 2026, PMID 41588582, DOI 10.1111/jhn.70193"
+     }
+    ],
+    "dose_gap": "To match a single 1 mg tablet you would need roughly 625 g of fresh goji berries, 74 kg of Montmorency cherries, 286 kg of walnuts, 383 kg of pistachios (at the LC-MS/MS value), 164 kg of egg (about 3,280 eggs), or 67,000 litres of milk. Halve those for a 0.5 mg dose, multiply by five for a 5 mg dose. Only goji berries land in a quantity a human could theoretically eat, and only for the lowest doses. Pistachios are the interesting case: at the disputed 233 ug/g figure, 4.3 g of pistachios (about seven kernels) would supply 1 mg, which is exactly why that number should be treated as unconfirmed rather than as a food-based melatonin strategy.",
+    "form_caveat": "Food melatonin is not a smaller version of a tablet. Tart cherry juice concentrate does measurably raise urinary 6-sulfatoxymelatonin and improved actigraphy-measured sleep at 2 x 30 mL/day (Howatson et al. Eur J Nutr 2012;51:909-916, DOI 10.1007/s00394-011-0263-7), yet the melatonin delivered is a fraction of a microgram, so most of the effect probably comes from the polyphenol matrix and from tryptophan availability rather than from ingested melatonin. Cultivar swamps everything: Montmorency and Balaton are the same species and differ six-fold. Supplement melatonin has the opposite problem, doses commonly sold at 3-10 mg are ten to thirty times a physiological replacement dose, and independent testing of commercial products has repeatedly found large deviations from label content plus occasional serotonin contamination. Melatonin is also a prescription-only medicine in the UK and much of the EU, sold freely as a supplement in the US.",
+    "bioavailability": "Absolute oral bioavailability of melatonin is low and highly variable, averaging about 15% (reported range roughly 9-33%, with individual values spanning a five-fold spread), because up to 85% is removed on first pass, mainly by hepatic CYP1A2. That means CYP1A2 modifiers matter more than the source: caffeine raises plasma melatonin from a given dose, smoking lowers it. Nothing is known about whether the nanogram quantities in a food matrix follow the same kinetics, and at those quantities the question is close to academic. Anyone comparing 'natural' melatonin in pistachios with a tablet is comparing a sub-microgram intake against a supra-physiological one."
+   },
+   {
+    "supplement": "Berberine",
+    "availability": "NOT_FOOD",
+    "availability_note": "Berberine is an isoquinoline alkaloid from the roots, rhizomes and stem bark of medicinal plants: Berberis vulgaris (common barberry), Berberis aristata, asiatica and lycium, Coptis chinensis (huang lian) rhizome, Hydrastis canadensis (goldenseal), Mahonia aquifolium (Oregon grape) and Phellodendron amurense. None of these is a food. Maximum accumulation is in root tissue, 1.6-4.3% of dry weight across Berberis species, with B. vulgaris bark carrying over 8% total alkaloids of which about 5% is berberine (review, PMC6111450). Barberry fruit is the one part that is genuinely eaten, as zereshk in Iranian rice dishes, and it is the wrong part. A study measuring both alkaloids across every organ of Berberis darwinii found up to 26,482 ug/g berberine in root but no detectable alkaloids in fruit pulp from any of 96 accessions (Molecules 2025;30:1849, PMID 40333914, DOI 10.3390/molecules30081849). A pharmacology group working directly on B. vulgaris fruit states that the flowers, fruit pulp and seeds have little or no significant alkaloid content and describes their fruit extract as nearly devoid of berberine (Iran J Pharm Res 2011;10(1):97-104, PMID 24363687). Culinary zereshk therefore delivers essentially none.",
+    "foods": [],
+    "dose_gap": "Trials use 500 mg two or three times daily, 1000-1500 mg/day. At the 5% berberine content of B. vulgaris root bark that is 20-30 g of dried root bark per day, which is a herbal decoction, not a meal. Via the edible fruit the gap is not a large number, it is undefined: berberine is below the limit of detection in barberry pulp, so no portion size reaches the dose. A generous serving of zereshk polow contains perhaps 30-50 g of dried berries spread across several people and contributes no measurable berberine. Coptis rhizome and goldenseal root are similar, 1-3 g of dried herb would be needed and neither is eaten as food.",
+    "form_caveat": "This is the clearest case in the set where a food and its supplement share only a plant name. Eating zereshk is a source of vitamin C, anthocyanins and organic acids, and it has no pharmacological berberine effect. The isolated alkaloid at 1000-1500 mg/day behaves like a drug: it inhibits CYP3A4 and CYP2D6 and is a P-glycoprotein substrate and inhibitor, so it can raise levels of co-administered medicines; it commonly causes constipation, cramping and diarrhoea; and it is contraindicated in pregnancy and in neonates because berberine displaces bilirubin from albumin and has been linked to kernicterus risk. Whole-plant root extracts also carry berbamine, palmatine and, in goldenseal, hydrastine, so a \"barberry root extract\" and a purified berberine HCl capsule are not the same product. Goldenseal is additionally a conservation concern and a frequent target of species adulteration.",
+    "bioavailability": "Berberine's oral bioavailability is under 1%, measured at 0.36-0.68% in rats, with roughly 99.5% eliminated during gastrointestinal and hepatic first pass through a combination of poor solubility, self-aggregation in gastric acid, P-glycoprotein efflux and CYP-mediated intestinal metabolism (Expert Opin Drug Metab Toxicol 2023;19(3), PMID 37057922). A practical consequence is that much of berberine's metabolic effect is thought to be exerted in the gut lumen and on the microbiome rather than systemically, so \"low bioavailability\" does not mean \"inactive\". It does mean that trace amounts from any food would be pharmacologically irrelevant, and it means comparisons between formulations (plain salt, phytosome, micelle) can change exposure by an order of magnitude at the same labelled dose."
+   },
+   {
+    "supplement": "Ashwagandha",
+    "availability": "NOT_FOOD",
+    "availability_note": "Ashwagandha is the root (sometimes root plus leaf) of Withania somnifera, a small shrub in the Solanaceae. The root is a medicinal drug, not a dietary item: it is bitter, it is taken as a churna or a decoction in milk, and it appears in no cuisine as an ingredient. The active steroidal lactones, withanolides such as withaferin A, withanolide A and withanone, occur in Withania and a few related genera and are absent from the food supply. The nightshades people actually eat, tomato, potato, aubergine, sweet and chilli peppers, contain a different class of steroidal compounds (glycoalkaloids such as tomatine and solanine), not withanolides, so botanical relatedness buys nothing here. A related species, Withania coagulans, has fruit used regionally as a vegetarian milk-clotting agent, which is a processing aid rather than a source of dietary withanolides.",
+    "foods": [],
+    "dose_gap": "Trials use 300-600 mg/day of standardised root extract. KSM-66 is a root-only extract standardised to a minimum 5% withanolides, Sensoril is a root-and-leaf extract at 10%, and Shoden is standardised to 35% withanolide glycosides, so a typical daily dose is roughly 15-60 mg of withanolides. Traditional practice uses 3-6 g/day of dried root powder to reach a comparable place. There is no food quantity that supplies this, at any size, because no food plant contains withanolides. Stating an equivalent weight of an ordinary food would require inventing a content value, so the honest answer is that the dietary route does not exist.",
+    "form_caveat": "The part of the plant matters and so does the regulator's view. Root-only preparations have a better documented safety profile than preparations including leaf and aerial parts, which are richer in withaferin A, the most cytotoxic of the withanolides. Ashwagandha is banned in food supplements in Denmark, the Dutch national institute RIVM published a risk assessment of Withania preparations (RIVM report 2024-0029), French authorities have advised against use in specific groups, the UK Food Standards Agency has logged rising incident reports and its committee reviewed associations with thyroid toxicity, hypoglycaemia and liver toxicity, and Australia's TGA issued a medicine safety update in July 2026 on continuing reports of ashwagandha-associated liver injury judged to be idiosyncratic. KSM-66's milk-based extraction is a marketing distinction rather than a safety one. Note also that withanolide content varies with chemotype, cultivation and plant part, so two products at the same milligram dose can differ several-fold in the compounds that matter.",
+    "bioavailability": "Human pharmacokinetic data are thin and no standard bioavailability figure can be quoted with confidence. Withanolides are lipophilic and poorly water-soluble, which is why traditional preparation uses milk or ghee and why modern products add phospholipid or cyclodextrin carriers; withanolide glycosides (withanosides) are more water-soluble and are the markers Shoden standardises on, so \"percent withanolides\" on two labels may refer to chemically different pools measured by different assays. Because there is no food form, there is no food-versus-supplement absorption comparison to make; the meaningful comparison is between extract types, and it is not standardised."
+   },
+   {
+    "supplement": "Rhodiola rosea",
+    "availability": "NOT_FOOD",
+    "availability_note": "The supplement is the rhizome and root of Rhodiola rosea (roseroot), an arctic-alpine succulent in the Crassulaceae, standardised on rosavins (rosavin, rosin, rosarin) and salidroside. The rhizome is a folk-medicine drug of Scandinavia and Russia and is not eaten as food. The plant is not entirely outside the food record: young leaves and shoots have been eaten raw or cooked like spinach and stems cooked like asparagus in Greenland, Alaska and northern North America, and Inuit use mixed leaves and buds with marine fat. That food use involves the aerial parts, while rosavins are rhizome constituents, and composition data for the edible shoots are sparse, so the culinary history does not translate into a dietary source of the marker compounds. Rosavins are also close to unique to R. rosea, which is why species substitution is such a persistent problem.",
+    "foods": [],
+    "dose_gap": "Typical dosing is 200-600 mg/day of extract standardised to 3% rosavins and 1% salidroside (the SHR-5 pattern), roughly 6-18 mg rosavins and 2-6 mg salidroside per day. Measured rhizome and commercial-product content spans 0.01-3.08% rosavins and 0.07-2.91% salidroside, so on paper 0.5-2 g of good-quality dried rhizome would carry a daily dose. That is a herbal dose of a root, not a food portion, and no food supplies it. The eatable young shoots cannot be given a number here because the cited composition work is on rhizome material.",
+    "form_caveat": "Rhodiola has an unusually bad identity record. An analysis of US-market Rhodiola supplements found rosavin and salidroside contents ranging from 0.01% to 3.08% and 0.07% to 2.91% respectively, with substantial departures from label claims, alongside heavy metal and pesticide residue screening (PMC12810810). Rhodiola crenulata is a common substitute; it contains salidroside but little or no rosavin, so a product standardised only on salidroside can be a different species. Wild R. rosea is under harvesting pressure and CITES-listed in Appendix II. Field material varies enormously by clone and site, with inter-clonal variation of 92.8% reported for salidroside in Norwegian collections, so growing region and harvest season change the product more than the label does.",
+    "bioavailability": "Salidroside is absorbed rapidly and hydrolysed to tyrosol, and rosavins are cinnamyl glycosides subject to gut microbial deglycosylation, so plasma exposure reflects metabolites rather than the labelled markers; controlled human pharmacokinetic data are limited and no reliable percentage figure can be given. Because there is no food form, the practical absorption question is the extraction solvent: hydroalcoholic extracts recover both rosavins and salidroside, while water infusions of the root recover the glycosides preferentially. Chewing raw shoots, the only genuinely food-like route, has never been characterised."
+   },
+   {
+    "supplement": "Valerian",
+    "availability": "NOT_FOOD",
+    "availability_note": "Valerian is the root and rhizome of Valeriana officinalis, a European perennial. It is not a food in any cuisine; it is a bitter, strongly odorous drug taken as a tea, tincture or dried-extract capsule. The constituents credited with the sedative effect, valerenic acid and its relatives, plus the flavonoids 6-methylapigenin, hesperidin and linarin, are found in Valeriana species and nowhere in the food supply. Valerian root has been used at low levels as a flavouring in some beverages, which puts trace amounts into a few products, and those levels are flavour levels, orders below anything sedative. Nothing you would call a food supplies valerenic acid.",
+    "foods": [],
+    "dose_gap": "Typical use is 400-900 mg of dried root extract before bed, or 2-3 g of dried root as an infusion. A quality target of at least 3 mg/g valerenic acid in the dried root has been recommended for commercial material and marketed extracts are sold around 0.8% valerenic acid, so a night's dose is roughly 3-8 mg of valerenic acid. No food, at any portion size, supplies measurable valerenic acid, so there is no achievable eating quantity to compute. The gap is total.",
+    "form_caveat": "Valerian is the textbook example of a herb where the preparation determines the chemistry. Valerenic acid concentrations fall significantly during storage, with the greatest loss at 30 C in low humidity (Food Chemistry 2009, changes in valerenic acids content of valerian root during long-term storage), so an old capsule and a fresh one are different products. Valepotinates present in some preparations are unstable and degrade to baldrinals, and aqueous versus ethanolic extraction recovers quite different fractions, which is one reason valerian trials are so inconsistent. Practical cautions: additive sedation with alcohol, benzodiazepines and antihistamines; occasional paradoxical stimulation; rare hepatotoxicity reports, usually in multi-herb products. A valerian tea and a standardised extract capsule are not interchangeable at the same nominal gram amount.",
+    "bioavailability": "Human data are limited. Valerenic acid is detectable in plasma after oral dosing with a short half-life of roughly one to two hours, which fits its use as a bedtime agent rather than a daytime one, and the flavonoid constituents undergo extensive glucuronidation. Because there is no food form there is no food-matrix comparison; the meaningful variable is extraction, since valerenic acid is lipophilic and is recovered far better by ethanol than by a water infusion, so a tea delivers a small and poorly characterised fraction of what a labelled milligram amount of extract implies."
+   },
+   {
+    "supplement": "Ginkgo biloba",
+    "availability": "NOT_FOOD",
+    "availability_note": "The supplement is a concentrated leaf extract. Ginkgo leaves are not a food; they are processed with acetone-water into a standardised extract, of which EGb 761 is the reference: a drug-to-extract ratio of 35-67:1, containing 22-27% flavone glycosides and 5-7% terpene lactones (2.8-3.4% ginkgolides A, B, C and 2.6-3.2% bilobalide) with ginkgolic acids held below 5 ppm. Ginkgo NUTS are a real food, eaten in Japanese chawanmushi, Chinese congee and Korean dishes, and they are chemically a different proposition from the leaf. Seeds carry ginkgotoxin (4'-O-methylpyridoxine and its 5'-glucoside) at 170-404 ug/g, with mature-stage totals of 187-296 ug/g measured across Chinese samples (PMID 29975518), a vitamin B6 antagonist that is absent from the leaf and that leaf-extract manufacturing is specifically designed to exclude. Seeds do contain flavonoids and terpene trilactones occur in several tissues, but nothing in the seed approaches the 24%/6% standardised profile of a 50:1 leaf extract.",
+    "foods": [],
+    "dose_gap": "Clinical dosing is 120-240 mg/day of EGb 761. At a 35-67:1 drug-extract ratio that is 4.2-16 g of dried ginkgo leaf per day, and dried leaf is not something people eat; leaf tea extracts only part of the terpene lactones and none of the concentration. Via the edible nut the gap cannot be closed at all, because the nut does not carry the leaf profile, and trying would be dangerous rather than merely futile: acute poisoning has been reported after 10-50 cooked seeds at one sitting, Hong Kong's Centre for Food Safety advises no more than 10 kernels a day for adults and three for children, and cooking does not destroy ginkgotoxin because it is heat-stable. Adult intoxication with seizures is documented (PMC7007935).",
+    "form_caveat": "Two separate caveats, and both cut against food substitution. First, the safe food (the nut) and the studied medicine (the leaf extract) share no active profile; a bowl of ginkgo-nut congee is not a low dose of EGb 761. Second, the food itself has a hard ceiling: ginkgotoxin blocks pyridoxal-5'-phosphate-dependent enzymes including glutamate decarboxylase, so excess intake causes vomiting, irritability and convulsions, with children at much higher risk. On the extract side, the concentration step is what makes standardisation possible and also what concentrates the hazards manufacturers must strip out: ginkgolic acids are strongly allergenic and are capped at 5 ppm, and unstandardised or adulterated \"ginkgo\" products (rutin or quercetin spiking to hit a flavonoid assay) are a recurring market problem. Ginkgo extract also inhibits platelet aggregation and interacts with anticoagulants, and lowers efavirenz and some other drug levels through CYP induction.",
+    "bioavailability": "The two marker classes behave completely differently. Terpene lactones (ginkgolides A and B, bilobalide) are small, reasonably lipophilic and well absorbed after oral dosing of the standardised extract. The flavonol glycosides are not absorbed intact: gut microbiota hydrolyse them to quercetin, kaempferol and isorhamnetin aglycones, which are then heavily glucuronidated and sulfated, so plasma concentrations of the labelled compounds are very low and highly variable between people. This is the practical reason a leaf infusion is not a weak extract: hot water recovers a modest and inconsistent share of the terpene lactones, and the flavonoid fraction ends up as conjugated metabolites regardless. For the nut, the compound with real oral kinetics is ginkgotoxin, which is absorbed efficiently and has been measured in the serum of poisoning patients."
+   },
+   {
+    "supplement": "Bacopa monnieri",
+    "availability": "TRACE",
+    "availability_note": "Bacopa monnieri (brahmi, water hyssop) is a real leafy vegetable in parts of India, which makes it the exception among the herbal entries here. Ethnobotanical surveys in West Bengal's Terai-Dooars, Maharashtra, Assam and northeast India record it among wild edible greens gathered and cooked, tender shoots and leaves eaten fresh, cooked as a green, or made into chutneys and raita. So bacosides do enter the food supply, unlike withanolides or valerenic acid. The classification is TRACE rather than RICH because it is one regional green rather than several ordinary foods, and because a culinary portion still falls short of the trial dose, though by roughly one order of magnitude rather than the thousands-fold gaps elsewhere in this list. Note the naming trap: in parts of India \"brahmi\" refers to Centella asiatica, a different plant with different actives (asiaticosides), and market material is frequently mixed.",
+    "foods": [
+     {
+      "food": "Bacopa monnieri (brahmi) dried aerial herb / churna powder, elite cultivar DBM-4",
+      "per_100g": "654 mg of bacoside A3 + bacopaside II (1.57 mg/g bacoside A3 and 4.97 mg/g bacopaside II in dry herbage)",
+      "portion": "1 teaspoon dried powder (2 g)",
+      "per_portion": "13.1 mg bacosides",
+      "pct_rda_or_dose": "about 9% of the roughly 150 mg of bacosides in a standard 300 mg dose of a 50-55% bacoside extract",
+      "source": "ICAR-Directorate of Medicinal and Aromatic Plants Research, Anand, variety release note for Bacopa monnieri DBM-4 (2020), icar.org.in node 13442; accession-level bacoside A survey in Industrial Crops and Products, PII S0926669021011134"
+     }
+    ],
+    "dose_gap": "Trials use 300 mg/day of extract standardised to 50-55% bacosides, roughly 150-165 mg of bacosides. At the measured 6.54 mg/g for the two quantified bacoside A constituents, that is about 23 g of dried brahmi herb per day, roughly eleven teaspoons of churna. Converting to fresh greens requires a fresh-to-dry ratio the cited sources do not give, so the honest figure to quote is the dried one: a realistic culinary serving of the fresh green, the sort of quantity that goes into a thoran or a chutney, corresponds to single-digit grams of dry matter and therefore to a few tens of milligrams of bacosides, a fifth to a half of the trial dose. Eating brahmi as a vegetable is genuinely on the same scale as supplementing it, which is not true of anything else in this list except lion's mane. Total bacoside A also includes bacopasaponin C and a jujubogenin isomer that the cited analysis does not quantify, so the real herb figure is somewhat higher than 6.54 mg/g and the gap correspondingly smaller.",
+    "form_caveat": "Bacoside content in the herb varies several-fold with accession, season and harvest, which is exactly why breeding programmes select elite lines such as DBM-4, so a wild-gathered green is an unpredictable dose. Extraction matters too: bacosides are saponins recovered by hydroalcoholic extraction, and boiling a green in water for a curry leaches an unknown fraction into the cooking liquid that may be discarded. The best-studied products (CDRI-08, BacoMind) are specific standardised extracts and their cognitive trial results should not be read across to eating the plant. Bacopa also has real dose-dependent gastrointestinal effects, cramping, nausea and loose stools, which are more prominent with the concentrated extract than with the vegetable, and it has cholinergic activity that could matter alongside cholinesterase inhibitors. Watch out for Centella asiatica sold as brahmi, and for heavy metal accumulation, since Bacopa is a wetland plant with documented capacity to take up metals from sediment.",
+    "bioavailability": "Bacosides are large triterpenoid saponin glycosides with poor membrane permeability and low oral bioavailability; the pharmacologically relevant species are thought to be the deglycosylated sapogenins (jujubogenin and pseudojujubogenin derivatives) generated by gut hydrolysis, which is why supplement makers push phospholipid-complex and nanoparticle formulations. Eating the whole green delivers the same glycosides embedded in a fibrous matrix with fat from the cooking medium, and it has never been compared head to head with an extract in humans, so the fresh-vegetable route is plausible but uncharacterised. The saponins themselves also have surfactant behaviour in the gut, which is part of why higher doses cause GI upset."
+   },
+   {
+    "supplement": "Lion's mane (Hericium erinaceus)",
+    "availability": "RICH",
+    "availability_note": "This is the one genuine food on the list. Hericium erinaceus is a culinary mushroom, sold fresh in Asian markets and increasingly in Western ones, cooked like scallops or shredded into stir-fries, and it is the same organism used to make the supplement. Better still, the best-known human trial did not use an exotic extract at all: Mori and colleagues gave 3 g/day of dried Hericium powder (four 250 mg tablets containing 96% dry powder, three times daily) to older adults with mild cognitive impairment (Phytother Res 2009;23(3):367-372, PMID 18844328). That is a dose a cook can reach. The caveat, which is large, is that the newer and more mechanistically interesting trials use erinacine-A-enriched MYCELIUM, and no amount of the edible fruiting body supplies erinacines.",
+    "foods": [
+     {
+      "food": "Lion's mane, fresh fruiting body (raw, before cooking)",
+      "per_100g": "about 8.3 g dry mushroom matter (fresh Hericium is roughly 91.7% water), containing about 0.40-0.47 g fungal polysaccharide",
+      "portion": "100 g, a generous side portion or about one third of a medium fruiting body",
+      "per_portion": "about 8.3 g dry matter",
+      "pct_rda_or_dose": "about 275% of the 3 g/day dried-powder dose used in the Mori MCI trial",
+      "source": "Domestication, cultivation and nutritional analysis of Hericium. J Fungi 2025;11:785, PMID 41295165, DOI 10.3390/jof11110785 (fresh moisture 91.68%; H. erinaceus dry-weight composition protein 20.08 g, fat 5.1 g, carbohydrate 61.1 g, ash 6.8 g per 100 g); fruiting-body polysaccharide 4.85-5.68% of dry weight"
+     },
+     {
+      "food": "Lion's mane, dried powder",
+      "per_100g": "100 g dried mushroom material (protein 20.1 g, carbohydrate 61.1 g, fat 5.1 g, ash 6.8 g per 100 g dry weight)",
+      "portion": "1 tablespoon powder (5 g)",
+      "per_portion": "5 g dried material",
+      "pct_rda_or_dose": "167% of the 3 g/day trial dose",
+      "source": "J Fungi 2025;11:785, PMID 41295165, DOI 10.3390/jof11110785; trial dose from Mori et al. Phytother Res 2009;23(3):367-372, PMID 18844328"
+     },
+     {
+      "food": "Lion's mane, dried slices (rehydrated for soup or stir-fry)",
+      "per_100g": "100 g dried mushroom material",
+      "portion": "10 g dried slices, about 100 g rehydrated",
+      "per_portion": "10 g dried material",
+      "pct_rda_or_dose": "333% of the 3 g/day trial dose",
+      "source": "J Fungi 2025;11:785, PMID 41295165, DOI 10.3390/jof11110785"
+     }
+    ],
+    "dose_gap": "There is essentially no gap for the fruiting-body dose. At roughly 8.3% dry matter, the 3 g/day of dried powder used in the Mori trial equals about 36 g of fresh lion's mane, a small portion, or 3 g of dried slices, or a rounded half-tablespoon of powder. Eating 100 g of the fresh mushroom exceeds the trial dose nearly three-fold. The gap reappears if the product is a concentrated extract: 3 g/day of a nominal 8:1 hot-water extract corresponds to about 24 g of dried mushroom, roughly 290 g of fresh mushroom per day, which is a lot of mushroom but still not absurd. The gap becomes absolute for erinacine-A products, since erinacines are mycelial and the fruiting body you can buy and cook does not contain them at meaningful levels.",
+    "form_caveat": "The compound classes split cleanly by tissue and by solvent, and this is where most consumer confusion lives. Hericenones C-H occur in the fruiting body; erinacines A-I occur in the mycelium, with erinacine biosynthesis genes consistently downregulated in fruiting-body tissue and no detectable erinacine production there (PMC11969743). The Taiwanese trials in early Alzheimer's disease and in depression used erinacine-A-enriched mycelium capsules (around 5 mg/g erinacine A; PMC7283924), so their results cannot be transferred to eating the mushroom, and equally the Mori fruiting-body result cannot be transferred to a mycelium product. Solvent matters as much as tissue: hericenones are lipophilic and are recovered by ethanol, while hot-water extraction recovers polysaccharides (a hot-water fruiting-body extract has been reported at 3.62% beta-glucan, against fruiting-body polysaccharide content of 4.85-5.68% of dry weight), so a \"dual extract\" and a hot-water extract deliver different chemistry at the same milligram figure. Many cheap US supplements are mycelium grown on grain and sold with the substrate included, so a large fraction of the capsule weight is starch; a starch assay or a low beta-glucan number relative to labelled polysaccharide is the tell. Safety is good for a food, with occasional contact dermatitis and respiratory allergy reports, and there are scattered case reports of skin reactions with supplement use.",
+    "bioavailability": "The fungal beta-glucans are not absorbed intact; a water-soluble 1-3/1-6 beta-glucan of about 13.3 kDa has been characterised from the fruiting body, and such polymers act on gut and gut-associated immune receptors rather than entering circulation, so \"how much reaches the blood\" is the wrong question for the polysaccharide fraction. The small molecules are the ones with systemic potential: erinacine A is lipophilic, crosses the blood-brain barrier in rodents and is the compound behind the neurotrophic claims, while hericenones are also lipophilic and their human absorption is poorly characterised. Practically, that means fat in the pan helps the hericenone fraction, a water-based soup extracts the polysaccharides, and the raw mushroom is not the right comparator for either since chitinous cell walls need heat to break down. The relevant food-versus-supplement difference here is not absorption efficiency, it is which molecules are present at all."
+   },
+   {
+    "supplement": "St John's wort",
+    "availability": "NOT_FOOD",
+    "availability_note": "St John's wort is the dried flowering aerial parts of Hypericum perforatum, a European meadow plant with no culinary use anywhere. It is consumed only as a medicine: tea, tincture, oil macerate or standardised dry extract. The two constituents that define it, hypericin (a naphthodianthrone) and hyperforin (a prenylated phloroglucinol), are confined to Hypericum species and are absent from the food supply. Dried Hypericum leaf material has been measured at around 5.1 mg/g total hypericins, and pharmacopoeial and commercial standards specify 0.3% hypericin; the well-studied extract WS 5570 is an 80% ethanolic extract at a drug-to-extract ratio of 3:1 to 7:1 containing 0.12-0.28% hypericin and 5-6% hyperforin. Nothing edible contains either compound, so there is no food route at any dose.",
+    "foods": [],
+    "dose_gap": "The standard antidepressant dosing is 300 mg of standardised extract three times daily, 900 mg/day, delivering roughly 0.9-2.7 mg of hypericin and 45-54 mg of hyperforin. At a 3:1 to 7:1 drug-extract ratio that corresponds to about 2.7-6.3 g of dried herb per day. There is no food equivalent to compute, at any portion size, because hypericin and hyperforin do not occur in foods. This is a complete absence rather than a large multiplier.",
+    "form_caveat": "The most consequential caveat in the whole set, and it runs the opposite way from the usual pattern: here the concentrated product is the dangerous one and there is no safe whole-food version to fall back on. Hyperforin is a potent activator of the pregnane X receptor and therefore a strong inducer of CYP3A4, CYP2C19 and P-glycoprotein. It lowers plasma levels of combined oral contraceptives (breakthrough bleeding and contraceptive failure are documented), ciclosporin and tacrolimus (with reported transplant rejection, including graft loss), warfarin, digoxin, HIV protease inhibitors and non-nucleoside reverse transcriptase inhibitors, irinotecan and imatinib, and several anticonvulsants. Combined with SSRIs, SNRIs, triptans or tramadol it can precipitate serotonin syndrome. Hypericin causes dose-dependent photosensitisation. Preparation type changes the risk profile substantially: hyperforin is lipophilic and unstable, so a water infusion delivers far less of it than an ethanolic extract, and low-hyperforin extracts were developed specifically to reduce interactions. A tea, a tincture and a capsule labelled with the same herb weight are therefore not interchangeable, and treating this plant as a gentle food-adjacent botanical is the central error.",
+    "bioavailability": "Hyperforin is well absorbed from oil-containing or ethanolic preparations, has a long elimination half-life on the order of nine hours and accumulates with three-times-daily dosing, which is why enzyme induction builds over one to two weeks and takes a similar period to wash out after stopping. Hypericin absorption is slow, low and variable, with a much longer half-life still. Both are lipophilic, so an aqueous tea extracts a small and inconsistent share, particularly of hyperforin, and hypericin is light-sensitive and degrades in poorly stored material. Since there is no food form, the practical absorption question is again preparation rather than matrix, and the answer is that the interaction risk tracks hyperforin exposure, not the labelled hypericin percentage that most products still advertise."
+   },
+   {
+    "supplement": "5-HTP",
+    "availability": "NOT_FOOD",
+    "availability_note": "5-hydroxytryptophan is not a dietary constituent. In living tissue it exists only as a transient intracellular intermediate between tryptophan and serotonin, immediately decarboxylated by aromatic L-amino acid decarboxylase, so it does not accumulate in any food at measurable levels. Commercial 5-HTP is extracted and purified from the seeds of Griffonia simplicifolia, a West African climbing shrub, whose seeds are an unusual botanical accumulator: 10-18% 5-HTP by dry weight, measured at 156 mg/g (about 16%) in a chemically characterised reference sample, with 111 mg/g in yellow-endosperm seeds and 70 mg/g in discoloured ones (PMC6472197). Griffonia seed is not a food; it is a pharmaceutical raw material, and a growing share of 5-HTP is now made by microbial or enzymatic biosynthesis rather than extraction. The only dietary route to this pathway is the precursor tryptophan, so the foods below are tryptophan sources, listed against the WHO/FAO/UNU 2007 adult requirement of 4 mg tryptophan per kg per day (280 mg/day for a 70 kg adult), not against a 5-HTP dose.",
+    "foods": [
+     {
+      "food": "Chicken breast, meat only, roasted",
+      "per_100g": "362 mg tryptophan",
+      "portion": "1 breast fillet, cooked (120 g)",
+      "per_portion": "434 mg",
+      "pct_rda_or_dose": "155% of the 280 mg/day adult tryptophan requirement",
+      "source": "USDA FoodData Central, SR Legacy, FDC ID 171477"
+     },
+     {
+      "food": "Pumpkin and squash seed kernels, dried",
+      "per_100g": "576 mg tryptophan",
+      "portion": "2 tablespoons (30 g)",
+      "per_portion": "173 mg",
+      "pct_rda_or_dose": "62% of the 280 mg/day requirement",
+      "source": "USDA FoodData Central, SR Legacy, FDC ID 170556"
+     },
+     {
+      "food": "Cheddar cheese",
+      "per_100g": "547 mg tryptophan",
+      "portion": "1 thick slice / small matchbox (40 g)",
+      "per_portion": "219 mg",
+      "pct_rda_or_dose": "78% of the 280 mg/day requirement",
+      "source": "USDA FoodData Central, SR Legacy, FDC ID 173414"
+     },
+     {
+      "food": "Salmon, Atlantic, farmed, cooked (dry heat)",
+      "per_100g": "248 mg tryptophan",
+      "portion": "1 fillet (150 g)",
+      "per_portion": "372 mg",
+      "pct_rda_or_dose": "133% of the 280 mg/day requirement",
+      "source": "USDA FoodData Central, SR Legacy, FDC ID 175168"
+     },
+     {
+      "food": "Egg, whole, raw, fresh",
+      "per_100g": "167 mg tryptophan",
+      "portion": "1 large egg (50 g)",
+      "per_portion": "84 mg",
+      "pct_rda_or_dose": "30% of the 280 mg/day requirement",
+      "source": "USDA FoodData Central, SR Legacy, FDC ID 171287"
+     },
+     {
+      "food": "Milk, whole, 3.25% milkfat",
+      "per_100g": "40 mg tryptophan",
+      "portion": "1 glass, 200 mL (206 g)",
+      "per_portion": "82 mg",
+      "pct_rda_or_dose": "29% of the 280 mg/day requirement",
+      "source": "USDA FoodData Central, SR Legacy, FDC ID 171265"
+     }
+    ],
+    "dose_gap": "For 5-HTP itself the gap is absolute: no food contains it in measurable quantity, so no eating quantity reproduces the 50-300 mg/day used in trials. From the manufacturing raw material, 100 mg of 5-HTP is contained in about 0.64 g of Griffonia seed at 156 mg/g, which is a striking number and irrelevant to eating, since Griffonia seed is not a food and carries other constituents. Via the dietary precursor the arithmetic is deceptive in the other direction: an ordinary mixed diet supplies roughly 900-1000 mg of tryptophan a day, three to twenty times a 5-HTP dose by mass, and a single chicken breast supplies 434 mg. Yet that intake does not act like 5-HTP, for three reasons. Over 95% of tryptophan is degraded down the kynurenine pathway by TDO and IDO, with only about 1-2% passing through tryptophan hydroxylase to serotonin (PMC5398323; PMC9292703). Tryptophan competes with the other large neutral amino acids, leucine, isoleucine, valine, phenylalanine and tyrosine, for the LAT1 transporter at the blood-brain barrier, and every protein food raises tryptophan and its competitors together, so a high-protein meal can leave the brain tryptophan ratio flat or lower. And tryptophan hydroxylase is the regulated rate-limiting step, so raising substrate does little. 5-HTP sidesteps all three: it is past the rate-limiting hydroxylation and is decarboxylated by ubiquitous AADC. Adding 300 mg of tryptophan to a meal is therefore not equivalent to 300 mg of 5-HTP, and no realistic quantity of food makes it so.",
+    "form_caveat": "Bypassing the pathway's regulation is exactly what makes 5-HTP a drug rather than a nutrient. AADC is present throughout peripheral tissues, so much of an oral 5-HTP dose is converted to serotonin outside the central nervous system, which produces the characteristic nausea, and which is why clinical protocols historically paired 5-HTP with a peripheral decarboxylase inhibitor such as carbidopa. Combined with SSRIs, SNRIs, MAOIs, tramadol, triptans or linezolid, 5-HTP carries a genuine serotonin syndrome risk that no amount of dietary tryptophan does. There is also a contamination history worth naming: the 1989 eosinophilia-myalgia syndrome epidemic was traced to a contaminant in bacterially produced L-tryptophan, and a related \"peak X\" impurity has been detected in some 5-HTP preparations, so purity of a purified plant extract or fermentation product is not a given. Griffonia seed itself should not be eaten as a food substitute; the whole seed contains other constituents and is not characterised for dietary safety. Nothing about the tryptophan-rich foods above raises comparable concerns; they are food, and the warm-milk folklore is folklore.",
+    "bioavailability": "The whole point of 5-HTP is that its absorption route differs from its precursor's. 5-HTP is absorbed from the small intestine and crosses the blood-brain barrier without competing significantly for the LAT1 large-neutral-amino-acid carrier, so plasma and brain 5-HTP rise roughly in proportion to dose, unlike tryptophan whose brain entry depends on the tryptophan-to-LNAA ratio rather than on absolute intake. Dietary tryptophan absorption from protein foods is efficient at the gut level, over 90%, and the losses that matter are metabolic, not absorptive: hepatic TDO is induced by cortisol and by tryptophan itself, and IDO is induced by inflammation, so illness, stress and high-protein intake all divert precursor toward kynurenine. This is why the classic dietary manoeuvre for raising brain tryptophan is a carbohydrate load with little protein, using an insulin-driven fall in circulating branched-chain amino acids to improve the ratio, an effect measured in single-digit percentage changes and nothing like a 100 mg 5-HTP capsule."
+   }
+  ]
+ },
+ "verification_report": {
+  "group": "neuro-herbal",
+  "number_checks": [
+   {
+    "claim": "Goji berry (Lycium barbarum) fresh fruit: 1600.5 ng/g FW = 160 ug melatonin per 100 g",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Cited source verified exactly: Ugur Y, J Inonu Univ Vocational School Health Serv 2021;9(3), HPLC-FD, range 123.44-1600.48 ng/g FW with goji highest of the berry fruits. BUT the standard review value for goji/Lycium is 103 ng/g DRY weight (Meng et al., Nutrients 2017, PMC5409706), roughly 15x lower on a dry basis and far lower still on a fresh basis.",
+    "correction": "Faithful to its source, but the source is a ~15-100x outlier and should not be the entry's anchor. Two independent problems: (a) the journal is non-indexed (absent from PubMed/MEDLINE) and its own title reads 'Investigation of Melatonin Content and Antioxidant Capacity in Grape Berries' while the samples are mulberries plus goji; (b) HPLC with fluorescence detection is the same detection class that produced the discredited 233 ug/g pistachio figure, and consistently reads high against LC-MS/MS. Cross-check: the CUME+ database (the entry's own source for egg and milk) spans only 0-169.9 ng/g across 119 foods, i.e. the goji claim exceeds the maximum of the largest food-melatonin compilation by ~10x. Report as 103 ng/g DW with the 1600 ng/g figure flagged as unreplicated.",
+    "source": "dergipark.org.tr/en/doi/10.33715/inonusaglik.987625 ; PMC5409706 ; PMID 41588582"
+   },
+   {
+    "claim": "Montmorency tart cherry: 13.46 +/- 1.10 ng/g, 1.35 ug per 100 g",
+    "verdict": "OK",
+    "authoritative_value": "13.46 +/- 1.10 ng/g",
+    "correction": "None. Exact match to the cited primary source and reproduced in the Nutrients review as 13.46 +/- 1.10 ng/g FW.",
+    "source": "Burkhardt et al., J Agric Food Chem 2001;49(10):4898-902, PMID 11600041 (verified) ; PMC5409706"
+   },
+   {
+    "claim": "Balaton tart cherry: 2.06 +/- 0.17 ng/g, 0.21 ug per 100 g; six-fold cultivar difference",
+    "verdict": "OK",
+    "authoritative_value": "2.06 +/- 0.17 ng/g; 13.46/2.06 = 6.5-fold",
+    "correction": "None. Both values and the six-fold claim verified in the same paper.",
+    "source": "PMID 11600041 (verified)"
+   },
+   {
+    "claim": "Pistachio kernels raw, LC-MS/MS: 2609 +/- 3096 pg/g = 0.26 ug per 100 g",
+    "verdict": "OK",
+    "authoritative_value": "2609 +/- 3096 pg/g (pistachios) vs 1222 +/- 500 pg/g (almonds)",
+    "correction": "Value and DOI confirmed exactly (Paroni et al., J Food Compos Anal 2019). One caveat the entry does not carry: the SD (3096) exceeds the mean (2609), so 2.609 ng/g is not a stable point estimate and the downstream '383 kg' is spuriously precise by roughly an order of magnitude either way.",
+    "source": "DOI 10.1016/j.jfca.2019.05.010, PII S0889157518313413 (verified via Semantic Scholar)"
+   },
+   {
+    "claim": "Disputed pistachio figure ~233 ug/g dry weight, about 90,000x the LC-MS/MS value, with Expression of Concern",
+    "verdict": "OK",
+    "authoritative_value": "233,000 ng/g DW; 233,000/2.609 = 89,300x. Original: Oladi, Mohamadi, Shamspur, Mostafavi, Spectrochim Acta A 2014;132:326-329 (PMID 24878439). Expression of Concern: Spectrochim Acta A 2019;217:322 (PMID 31027610), verified as attached to that article.",
+    "correction": "The numbers, the 90,000x ratio, both PMIDs and the existence of the Expression of Concern all check out. One sourcing overreach: the entry attributes the EoC to the German Federal Institute for Risk Assessment (BfR) failing to replicate. The EoC record lists only the four original authors and gives no replication attribution, so the BfR causal story is unverified from the record and should be dropped or separately sourced.",
+    "source": "PMID 24878439 and PMID 31027610 (both verified) ; PMC5409706"
+   },
+   {
+    "claim": "Walnut kernels: 3.5 +/- 1.0 ng/g = 0.35 ug per 100 g",
+    "verdict": "OK",
+    "authoritative_value": "3.5 +/- 1.0 ng/g of walnut",
+    "correction": "Exact match. PMID is 15979282 (not supplied in the submission but the DOI given is correct). Unstated method caveat: Reiter 2005 used HPLC plus radioimmunoassay, which tends to read high; the entry's own independent bracket (1.19-3.30 ng/g, Verde 2022) is consistent and slightly lower.",
+    "source": "Reiter RJ, Manchester LC, Tan DX, Nutrition 2005;21(9):920-4, PMID 15979282, DOI 10.1016/j.nut.2005.02.005 (verified)"
+   },
+   {
+    "claim": "Hen egg, boiled: 6.1 ng/g = 0.61 ug per 100 g, 0.31 ug per 50 g egg",
+    "verdict": "WRONG",
+    "authoritative_value": "6.1 +/- 0.95 ng/g is the value for EGG DRIED SOLIDS, not whole fresh/boiled egg (Meng et al., Nutrients 2017, PMC5409706). Whole egg is ~75% water, so the fresh-weight equivalent is ~1.5 ng/g.",
+    "correction": "Wrong moisture basis. A dry-solids concentration has been applied to a fresh 50 g egg, overstating melatonin roughly four-fold. Corrected: ~1.5 ng/g fresh, ~0.15 ug per 100 g, ~0.077 ug (77 ng) per 50 g egg, ~0.008% of a 1 mg dose. Tellingly, the entry's own parenthetical ('older HPLC work reports a lower 1.54 ng/g for egg') is the fresh-weight figure and was discarded in favour of the dry-solids one.",
+    "source": "PMC5409706 (Meng et al., Nutrients 2017) ; PMID 41588582 (CUME+, J Hum Nutr Diet 2026;39(1), verified)"
+   },
+   {
+    "claim": "Cow's milk, whole: 0.015 ng/g = 0.0015 ug per 100 g",
+    "verdict": "OK",
+    "authoritative_value": "14.45-18.41 pg/mL for various milks",
+    "correction": "None; 0.015 ng/g = 15 pg/g sits inside the reviewed range and corresponds to daytime-milked milk. Worth adding that night-milked milk runs several-fold higher (a marketed 'night milk' category exists), so a single milk value understates the range.",
+    "source": "PMC5409706 ; PMID 41588582 (verified)"
+   },
+   {
+    "claim": "Bacopa monnieri DBM-4 dry herbage: bacoside A3 1.57 mg/g + bacopaside II 4.97 mg/g = 6.54 mg/g = 654 mg per 100 g",
+    "verdict": "OK",
+    "authoritative_value": "Bacoside-A3 1.57 mg/g and Bacopaside-II 4.97 mg/g in dry herbage, ICAR-DMAPR Anand variety DBM-4",
+    "correction": "None. Both figures and the citation (icar.org.in node 13442) verified exactly, including the DBM-4 designation and the CIM-Jagriti check comparison. This is the best-sourced food figure in the submission.",
+    "source": "https://icar.org.in/node/13442 (verified)"
+   },
+   {
+    "claim": "Lion's mane fresh fruiting body: 91.7% water, about 8.3 g dry matter per 100 g",
+    "verdict": "WRONG",
+    "authoritative_value": "91.68% moisture is a measured value for HERICIUM CORALLOIDES, not H. erinaceus. The cited paper (Li Y et al., J Fungi 2025 Oct 31;11(11):785) is titled 'Domestication Cultivation and Nutritional Analysis of Hericium coralloides' and analysed only one species, a wild Tibetan H. coralloides strain (SH001).",
+    "correction": "Species misattribution at the foundation of the entry. The submission's citation silently truncates the title to 'Hericium', and every dose-gap number in the RICH-classified entry (36 g fresh = 3 g dried, 275%, 290 g for an 8:1 extract) is derived from this H. coralloides moisture value. The directional conclusion survives (published H. erinaceus moisture is broadly 89-92%), but the figure must be re-sourced to H. erinaceus. This is the same species-substitution error the submission criticises in Rhodiola and Bacopa.",
+    "source": "PMID 41295165 / PMC12653868 (verified full text)"
+   },
+   {
+    "claim": "Lion's mane dry-weight composition: protein 20.08 g, fat 5.1 g, carbohydrate 61.1 g, ash 6.8 g per 100 g",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "These four values are H. erinaceus figures but appear in the cited paper only as a literature comparison quoted from its reference [29]; they were not measured. The paper's own measured H. coralloides values are protein 15.4 +/- 1.2, fat 3.5 +/- 0.5, carbohydrate 64.3, ash 6.8 +/- 0.8 g/100 g DW.",
+    "correction": "Right species, wrong provenance: cite the original source (ref [29] of that paper), not the 2025 H. coralloides paper. Note also that the entry's carbohydrate figure (61.1) is the literature H. erinaceus value while its moisture figure (91.68%) is the measured H. coralloides value, so the two are silently mixed from different species.",
+    "source": "PMC12653868 (verified full text)"
+   },
+   {
+    "claim": "Lion's mane fruiting-body polysaccharide 4.85-5.68% of dry weight, giving 0.40-0.47 g per 100 g fresh",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Not present in the cited paper. PMC12653868 characterises polysaccharide bioactivity (antioxidant, anti-HepG2/MDA-MB-468) but reports no total polysaccharide yield as a percentage of dry weight for either species.",
+    "correction": "The 4.85-5.68% range cannot be traced to the source given and must be re-cited or withdrawn. The derived 0.40-0.47 g per 100 g in the food table inherits that failure, as does the '3.62% beta-glucan hot-water extract' comparison in the form_caveat.",
+    "source": "PMC12653868 (verified full text)"
+   },
+   {
+    "claim": "Erinacine-A-enriched mycelium capsules at around 5 mg/g erinacine A",
+    "verdict": "OK",
+    "authoritative_value": "5 mg/g erinacine A; 3 x 350 mg capsules/day = 1,050 mg mycelia/day (~5.25 mg erinacine A), 49-week double-blind placebo-controlled trial",
+    "correction": "None. Confirmed, and the tissue-partition claim (erinacines mycelial, biosynthetic genes downregulated in fruiting body) matches the second cited source.",
+    "source": "PMC7283924 (verified) ; PMC11969743 (Fungal Biol Biotechnol 2025, verified)"
+   },
+   {
+    "claim": "Mori MCI trial dose: 3 g/day dried Hericium powder, four 250 mg tablets at 96% dry powder three times daily",
+    "verdict": "OK",
+    "authoritative_value": "Mori K et al., Phytother Res 2009;23(3):367-72, PMID 18844328, Hericium erinaceus in mild cognitive impairment",
+    "correction": "None. Citation and the 4 x 250 mg x 3 = 3,000 mg arithmetic both check out.",
+    "source": "PMID 18844328 (verified)"
+   },
+   {
+    "claim": "Chicken breast, meat only, roasted: 362 mg tryptophan per 100 g, FDC ID 171477",
+    "verdict": "OK",
+    "authoritative_value": "0.362 g tryptophan per 100 g (protein 30.9 g)",
+    "correction": "None. Matches USDA SR Legacy.",
+    "source": "USDA SR Legacy via nutritionvalue.org (0.507 g per 140 g serving = 0.362 g/100 g)"
+   },
+   {
+    "claim": "Pumpkin and squash seed kernels, dried: 576 mg tryptophan per 100 g, FDC ID 170556",
+    "verdict": "OK",
+    "authoritative_value": "0.576 g tryptophan per 100 g (protein 30.2 g)",
+    "correction": "None. Matches USDA.",
+    "source": "USDA SR Legacy via nutritionvalue.org (0.743 g per 129 g = 0.576 g/100 g)"
+   },
+   {
+    "claim": "Cheddar cheese: 547 mg tryptophan per 100 g, FDC ID 173414",
+    "verdict": "OK",
+    "authoritative_value": "0.547 g tryptophan per 100 g (protein 22.87 g)",
+    "correction": "None. This one looked implausible on inspection (2.4% of protein, well above casein's ~1.3% tryptophan) but it is the actual USDA value, so the submission reports the database faithfully. Flagging only that the USDA figure itself is likely an imputation artefact.",
+    "source": "USDA SR Legacy via nutritionvalue.org (0.722 g per 132 g = 0.547 g/100 g)"
+   },
+   {
+    "claim": "Salmon, Atlantic, farmed, cooked dry heat: 248 mg tryptophan per 100 g, FDC ID 175168",
+    "verdict": "OK",
+    "authoritative_value": "0.248 g tryptophan per 100 g (protein 22.1 g)",
+    "correction": "None. Matches USDA.",
+    "source": "USDA SR Legacy via nutritionvalue.org (0.211 g per 85 g = 0.248 g/100 g)"
+   },
+   {
+    "claim": "Egg, whole, raw, fresh: 167 mg tryptophan per 100 g, 84 mg per 50 g egg, FDC ID 171287",
+    "verdict": "OK",
+    "authoritative_value": "0.167 g per 100 g; 0.083 g per 50 g egg",
+    "correction": "None (the per-portion 84 mg vs USDA's own 83 mg is rounding).",
+    "source": "USDA SR Legacy via nutritionvalue.org"
+   },
+   {
+    "claim": "Milk, whole 3.25% milkfat: 40 mg tryptophan per 100 g, FDC ID 171265",
+    "verdict": "OK",
+    "authoritative_value": "0.040 g tryptophan per 100 g (protein 3.15 g)",
+    "correction": "None. Matches USDA.",
+    "source": "USDA SR Legacy via nutritionvalue.org (0.098 g per 244 g = 0.040 g/100 g)"
+   },
+   {
+    "claim": "Griffonia simplicifolia seed: 156 mg/g 5-HTP (about 16%) in a chemically characterised reference sample",
+    "verdict": "OK",
+    "authoritative_value": "156 mg/g dry weight, about 16% of seed weight, single seed batch from Ivory Coast",
+    "correction": "None. Verified exactly, including the useful side-point that commercial '98% 5-HTP' claims are computed on identified compounds rather than seed weight.",
+    "source": "PMC6472197, Molecules 2019 (verified full text)"
+   },
+   {
+    "claim": "Griffonia: 111 mg/g in yellow-endosperm seeds and 70 mg/g in discoloured ones",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Absent from the cited source. PMC6472197 analysed a single, non-stratified seed batch and reports no comparison by seed appearance or colour; neither 111 mg/g nor 70 mg/g appears anywhere in it (the only other quantified figure is a commercial extract labelled 95% that assayed ~65%).",
+    "correction": "Withdraw both figures or re-source them. Two separate full-text passes over the cited article found no seed-appearance stratification.",
+    "source": "PMC6472197 (verified full text, checked twice)"
+   },
+   {
+    "claim": "Griffonia seeds accumulate 10-18% 5-HTP by dry weight",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "The cited paper reports literature concentrations 'ranging from 10% to 20%'",
+    "correction": "Upper bound should be 20%, not 18%.",
+    "source": "PMC6472197 (verified)"
+   },
+   {
+    "claim": "Berberine 1.6-4.3% of dry weight in Berberis roots; B. vulgaris bark over 8% total alkaloids of which about 5% berberine",
+    "verdict": "OK",
+    "authoritative_value": "'The bark of B. vulgaris contains more than 8% of alkaloids, berberine being the major alkaloid (about 5%)'; roots B. asiatica 4.3%, B. lycium 4.0%, B. aristata 3.8%/2.8%, B. pseudumbellata 2.8%/1.9%",
+    "correction": "None. Both figures verified, and the plant list (Berberis, Coptis, Hydrastis, Mahonia, Phellodendron) matches the source's genera.",
+    "source": "PMC6111450, Neag et al., Front Pharmacol 2018 (verified full text)"
+   },
+   {
+    "claim": "Berberis darwinii: up to 26,482 ug/g berberine in root, no detectable alkaloids in fruit pulp across 96 accessions",
+    "verdict": "OK",
+    "authoritative_value": "Accession C3P26 highest berberine at 26,482.20 ug/g root; 96 accessions; 'The pulp from fruits had no detectable alkaloids'",
+    "correction": "None; verified verbatim. Two refinements: leaves and seeds DID carry detectable (lower) alkaloid levels, so only the pulp is non-detect; and B. darwinii (Chilean michay) is not the zereshk species (B. vulgaris), so the entry leans on a congener, which is why the separate B. vulgaris fruit citation matters.",
+    "source": "PMID 40333914 / PMC12029401, Molecules 2025;30(8):1849 (verified)"
+   },
+   {
+    "claim": "Ginkgo seeds: ginkgotoxin 170-404 ug/g, with mature-stage totals of 187-296 ug/g across Chinese samples",
+    "verdict": "WRONG",
+    "authoritative_value": "'The highest total MPN contents of 249.30, 295.62, and 267.85 ug/g were obtained in the mature stages of three selected G. biloba samples' (Gong H et al., J Agric Food Chem 2018;66(30):7916-7922)",
+    "correction": "The mature-stage range is 249-296 ug/g, not 187-296 ug/g; the lower bound is understated by ~25% and appears to have been taken from a different growth stage. The separate '170-404 ug/g' seed range is not in the cited abstract and is UNVERIFIABLE against this source.",
+    "source": "PMID 29975518 (verified)"
+   },
+   {
+    "claim": "Ginkgotoxin (4'-O-methylpyridoxine) is absent from ginkgo leaf",
+    "verdict": "WRONG",
+    "authoritative_value": "Ginkgotoxin occurs in ginkgo leaves and leaf-derived preparations (Planta Med 2009, PMID 19288402; Toxicon 2021, PMID 34425140 describes it as 'found in Ginkgo biloba seeds and leaves'). In a typical standardised leaf extract it is below the limit of detection, 9 ppm (J Nat Prod 2014, PMID 24432981).",
+    "correction": "Replace 'absent from the leaf' with: present in leaf tissue at far lower levels than in seed, and below ~9 ppm in typical standardised leaf extract. The entry's real point (manufacturing excludes it) is correct and is actually better supported by the 9 ppm LOD figure than by a false absence claim.",
+    "source": "PMID 19288402, PMID 34425140, PMID 24432981 (all verified)"
+   },
+   {
+    "claim": "EGb 761 specification: DER 35-67:1, 22-27% flavone glycosides, 5-7% terpene lactones (2.8-3.4% ginkgolides A/B/C, 2.6-3.2% bilobalide), ginkgolic acids under 5 ppm",
+    "verdict": "OK",
+    "authoritative_value": "Matches the standard published EGb 761 specification",
+    "correction": "None. The derived 4.2-16 g/day dried-leaf equivalent (120 x 35 to 240 x 67) is arithmetically correct.",
+    "source": "Standard EGb 761 monograph specification, consistent across the ginkgo literature reviewed"
+   },
+   {
+    "claim": "St John's wort 900 mg/day delivers roughly 0.9-2.7 mg hypericin and 45-54 mg hyperforin",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Using the entry's own WS 5570 specification of 0.12-0.28% hypericin: 900 mg x 0.0012-0.0028 = 1.08-2.52 mg",
+    "correction": "Hypericin should be 1.1-2.5 mg/day, not 0.9-2.7 mg (the quoted range appears to come from a 0.1-0.3% assumption that contradicts the specification given two sentences earlier). Hyperforin 45-54 mg and the 2.7-6.3 g dried-herb equivalent are both correct.",
+    "source": "Internal recomputation from the submission's own cited WS 5570 specification"
+   },
+   {
+    "claim": "Dried Hypericum leaf material measured at around 5.1 mg/g total hypericins",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "No source cited in the submission and none locatable in this pass",
+    "correction": "Attach a citation or drop. It is the only quantitative composition figure in the St John's wort entry and it carries no reference at all.",
+    "source": "No source given in submission"
+   },
+   {
+    "claim": "Adult tryptophan requirement 4 mg/kg/day = 280 mg/day for 70 kg (WHO/FAO/UNU 2007)",
+    "verdict": "OK",
+    "authoritative_value": "4.0 mg/kg/day; 70 x 4 = 280 mg",
+    "correction": "None. All six percentage-of-requirement figures recompute correctly against this denominator (155%, 62%, 78%, 133%, 30%, 29%).",
+    "source": "WHO/FAO/UNU 2007 Protein and Amino Acid Requirements in Human Nutrition"
+   },
+   {
+    "claim": "Melatonin absolute oral bioavailability about 15% (range 9-33%), up to 85% first-pass, mainly CYP1A2",
+    "verdict": "OK",
+    "authoritative_value": "~15% absolute oral bioavailability, high inter-individual variability, CYP1A2-dominant first-pass metabolism",
+    "correction": "None. Consistent with the established pharmacokinetic literature.",
+    "source": "Established melatonin pharmacokinetic literature (DeMuro-type absolute bioavailability studies)"
+   },
+   {
+    "claim": "Rhodiola: measured rosavin 0.01-3.08% and salidroside 0.07-2.91% in US-market products",
+    "verdict": "OK",
+    "authoritative_value": "Cited source verified as real and on-topic: 'The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues', PLoS One 2026",
+    "correction": "None on the ranges. One framing slip: these are COMMERCIAL PRODUCT contents, and the entry then reuses them as 'measured rhizome and commercial-product content' to justify a raw-material dose (see dose_gap_errors).",
+    "source": "PMC12810810 (verified)"
+   },
+   {
+    "claim": "Portion counts: 30 g pistachios = about 49 kernels; 30 g walnuts = about 14 halves",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA reference portions: 49 pistachio kernels = 1 oz = 28.35 g; 14 walnut halves = 1 oz = 28 g",
+    "correction": "At 30 g the counts are ~52 pistachio kernels and ~15 walnut halves. Trivial for the conclusions but both are the 1 oz counts relabelled as 30 g.",
+    "source": "USDA reference portion sizes for tree nuts"
+   }
+  ],
+  "misclassifications": [
+   "Bacopa monnieri classified TRACE is wrong, and is contradicted by the entry's own arithmetic. TRACE is meant for nutrients present only in trace amounts; the entry itself concludes that a culinary serving of the green delivers 'a few tens of milligrams of bacosides, a fifth to a half of the trial dose', and that eating it 'is genuinely on the same scale as supplementing it'. A food supplying 20-50% of the clinical dose is a genuine source, not a trace one. The entry's stated reason for TRACE (only one regional green rather than several ordinary foods) describes NARROWNESS of availability, not trace CONCENTRATION, and conflates two different axes. Bacopa should carry the same RICH-type classification as lion's mane, with a geographic-availability caveat. Its supporting numbers are, ironically, the best-verified in the submission (ICAR DBM-4 figures confirmed exactly).",
+   "Lion's mane classified RICH is directionally right but the evidence under it fails on species. All three listed 'foods' trace to a paper titled 'Domestication Cultivation and Nutritional Analysis of Hericium CORALLOIDES' (J Fungi 2025;11(11):785), which analysed only H. coralloides; the submission truncates the title to 'Hericium'. The 91.68% moisture that generates every dose-gap number is an H. coralloides measurement, the proximate values are H. erinaceus figures quoted from that paper's reference [29] rather than measured, and the 4.85-5.68% polysaccharide range is not in the paper at all. Separately, the three table rows (fresh, powder, dried slices) are one food in three presentations, which inflates RICH into looking like multiple sources. RICH is also valid only against the Mori fruiting-body dose; it cannot cover the erinacine-A mycelium products that carry most of the neuro claims, a point the entry makes in prose but the top-line label contradicts.",
+   "Melatonin classified TRACE is defensible on the three-to-six-orders-of-magnitude gap, but the ranking inside the class is wrong. The claim that 'the one food that comes within sight of a low dose is goji berry' does not survive the reviewed literature: red wine at ~129.5 ng/mL delivers ~19 ug per 150 mL glass (~2% of a 1 mg dose), more than every food the entry actually lists; roasted coffee beans at ~9,600 ng/g DW are ~700x the tart cherry the entry headlines; and tomato at ~23.9 ng/g FW beats Montmorency cherry at 13.46 ng/g FW. Since the goji anchor is itself a 15x+ outlier, the entry's central 'only goji is edible-scale' conclusion rests on the weakest number in the table.",
+   "Melatonin: the entry's own text meets the SYNTHETIC criterion and the label does not reflect it. It states commercial melatonin 'is not extracted from food; it is chemically synthesised' and that 'a natural melatonin product is a manufactured molecule'. A single TRACE tag hides that the supplement is a synthetic article while the dietary occurrence is real but irrelevant at dose. This needs a dual label (SYNTHETIC supplement / trace genuine dietary presence) rather than TRACE alone.",
+   "5-HTP classified NOT_FOOD is the weakest of the NOT_FOOD calls and should be SYNTHETIC or EXTRACT. By the entry's own account the commercial article is either purified from Griffonia simplicifolia seed (a pharmaceutical raw material, not a food) or, increasingly, made by microbial/enzymatic biosynthesis. NOT_FOOD implies a botanical drug like valerian or ashwagandha; this is a purified or fermented single molecule. The label also sits awkwardly over a six-row table of ordinary foods, which are precursor sources for a different molecule.",
+   "Ginkgo biloba classified NOT_FOOD is right for the supplement and misleading as a flat label. Ginkgo nuts are a genuine, widely eaten food from the same species, sold in Asian markets and used in chawanmushi and congee, and the entry devotes a paragraph plus a quantified toxin ceiling to them. The classification correctly tracks the leaf extract, but a bare NOT_FOOD conceals that the species has a real food form with its own hazard limit. This needs a split label (leaf extract NOT_FOOD / seed is a food with a hard intake ceiling).",
+   "Factual error inside the ginkgo entry: ginkgotoxin is described as 'absent from the leaf'. It is present in ginkgo leaves and leaf-derived remedies (Planta Med 2009; Toxicon 2021), and merely below a 9 ppm limit of detection in typical standardised leaf extract (J Nat Prod 2014). The entry's actual argument is unharmed and is better served by the 9 ppm figure.",
+   "Sourcing overreach in the melatonin availability note: the Expression of Concern on the 233 ug/g pistachio paper is real (PMID 31027610, Spectrochim Acta A 2019;217:322) but the record attributes it to the four original authors and states no replication failure. The claim that it followed the German Federal Institute for Risk Assessment being unable to replicate the result is unverified and should be dropped or independently cited.",
+   "Nomenclature error in the valerian entry: 'Valepotinates' should be VALEPOTRIATES. The chemistry described (unstable, degrading to baldrinals) is correct.",
+   "Confirmed CORRECT classifications, challenged and upheld: Berberine NOT_FOOD is well evidenced (berberine non-detect in fruit pulp across 96 Berberis darwinii accessions, plus the B. vulgaris fruit paper); Ashwagandha NOT_FOOD (withanolides absent from the food supply, and the entry correctly refuses to invent a food content value); Rhodiola NOT_FOOD (correctly notes the edible young shoots are aerial parts while rosavins are rhizome constituents); Valerian NOT_FOOD (correctly notes flavouring-level use is orders below sedative doses); St John's wort NOT_FOOD (hypericin and hyperforin genuinely confined to Hypericum). None of these five is a misclassification."
+  ],
+  "missing_foods": [
+   "Roasted coffee beans, ~9,600 +/- 800 ng/g dry weight melatonin, the richest routinely consumed melatonin source in the reviewed literature and roughly 700x the Montmorency cherry the entry headlines. A 10 g dose of grounds carries ~96 ug, over 60x the entry's 155 g cherry portion. Its omission is the single largest gap in the melatonin food table.",
+   "Red wine, e.g. Tempranillo at ~129.5 +/- 3.5 ng/mL, giving ~19 ug per 150 mL glass, about 2% of a 1 mg dose. This exceeds every food the entry actually lists apart from the disputed goji figure, and directly refutes the claim that goji is the only item 'within sight of a low dose'. Beer (~0.09 ng/mL) is the low-end comparator.",
+   "Germinated/sprouted legumes: germinated lentils ~1,089.8 ng/g DW and germinated kidney beans ~529.1 ng/g DW. Germination raises melatonin by orders of magnitude, these are ordinary foods, and both beat every entry in the submission's table except the outlier goji value.",
+   "Mustard seeds: white mustard ~189 ng/g DW and black mustard ~129 ng/g DW, both ordinary culinary seeds far richer than the walnuts and pistachios listed.",
+   "Tomato, ~23.87 +/- 2.02 ng/g fresh weight, which is nearly twice the Montmorency tart cherry (13.46 ng/g FW) the entry treats as its benchmark fruit, and is eaten in much larger habitual quantities.",
+   "Fenugreek seed ~43 ng/g DW, sunflower seed ~29 ng/g DW, strawberry ~11.26 ng/g FW. All ordinary foods in the same or higher band than the nuts and animal products listed.",
+   "Almonds, 1222 +/- 500 pg/g by the same LC-MS/MS method in the very paper cited for pistachios. The direct comparator was dropped, which removes the reader's only same-method reference point.",
+   "Tart cherry juice concentrate as a product. The entry uses the Howatson trial (verified: Eur J Nutr 2012;51(8):909-916, PMID 22038497, 7-day concentrate, raised urinary 6-sulfatoxymelatonin and improved sleep efficiency) in its form_caveat but never gives the concentrate a row or a melatonin figure, so the one preparation with a positive human sleep outcome is the one left uncosted.",
+   "Melatonin-rich botanicals for context: Scutellaria/huang-qin ~7,110 ng/g DW and, pointedly, St John's wort ~4,490 ng/g DW. The submission classifies St John's wort NOT_FOOD in a separate entry without noting it is among the richest melatonin-bearing botanicals on record.",
+   "Night-milked milk. The entry gives one daytime milk value (0.015 ng/g) and treats milk as a single number, omitting that night-milked milk runs several-fold higher and is sold commercially on exactly that basis.",
+   "Tryptophan table omissions: it contains no legume, no plant-protein concentrate and no cheese richer than cheddar. Notably absent are dried spirulina (the richest common source per 100 g), soybeans and soy protein isolate, Parmesan (higher than the cheddar listed), sesame seeds, turkey (the food the entry's own 'warm-milk folklore' remark invites), tuna, oats and peanuts. Approximate values only, not verified in this pass. The omission matters because the table currently reads as animal-foods-plus-pumpkin-seeds and understates how easily the 280 mg requirement is met.",
+   "Lion's mane: other edible Hericium species are omitted, which is a live issue precisely because the entry's cited composition paper is about one of them (H. coralloides), alongside H. americanum. Naming them would have surfaced the species mismatch."
+  ],
+  "dose_gap_errors": [
+   "Milk, melatonin: '67,000 litres' is wrong; the correct figure is approximately 64,500 litres. The error is a unit conflation, treating kilograms as litres. 1 mg / 0.015 ng/g = 66,666,667 g = 66,667 kg, which at milk's density of ~1.03 kg/L is 64,724 L. Recomputing from the entry's own per-portion figure gives the same answer: 1 mg / 0.0031 ug per 200 mL = 322,580 portions x 0.2 L = 64,516 L. Overstated by ~4%.",
+   "Egg, melatonin: '164 kg of egg (about 3,280 eggs)' is arithmetically correct for 6.1 ng/g but rests on a dry-solids concentration applied to fresh egg. On a fresh-weight basis (~1.5 ng/g) the corrected requirement is approximately 655-670 kg of egg, about 13,100-13,400 eggs, a four-fold understatement of the gap.",
+   "Goji berries, melatonin: '625 g of fresh goji berries' is correct for the cited 1600.48 ng/g but that value is a ~15x outlier. At the standard review value of 103 ng/g dry weight, 1 mg requires roughly 9.7 kg of dried goji. This inverts the entry's headline conclusion: at the authoritative value NO food in the table 'lands in a quantity a human could theoretically eat', so the sentence 'Only goji berries land in a quantity a human could theoretically eat' does not survive correction.",
+   "Pistachios, melatonin: '383 kg' is arithmetically exact for 2609 pg/g but spuriously precise. The source reports 2609 +/- 3096 pg/g, an SD larger than the mean, so the true requirement is uncertain by roughly an order of magnitude in both directions and should be stated as a range, not a single figure.",
+   "Ginkgo seeds: the mature-stage ginkgotoxin range '187-296 ug/g' should be 249-296 ug/g (measured values 249.30, 295.62, 267.85 ug/g). The lower bound is understated by ~25%, which slightly understates the toxin ceiling that the entry's nut-safety argument depends on.",
+   "St John's wort: '0.9-2.7 mg of hypericin' per 900 mg/day should be 1.1-2.5 mg, recomputed from the entry's own WS 5570 specification of 0.12-0.28% hypericin (900 x 0.0012 = 1.08 mg; 900 x 0.0028 = 2.52 mg). The hyperforin figure (45-54 mg) and the dried-herb equivalent (2.7-6.3 g) are both correct.",
+   "Rhodiola: '0.5-2 g of good-quality dried rhizome would carry a daily dose' implicitly assumes ~1-3% rosavin, i.e. the very top of the 0.01-3.08% range the entry cites, and that range is from COMMERCIAL PRODUCTS rather than rhizome material. Across the middle and lower part of the cited range the requirement rises to several grams or tens of grams, so the figure is optimistic by up to two orders of magnitude and should be given as a range with the assumed content stated.",
+   "VERIFIED CORRECT, no change needed: goji 16%/32% of a 1 mg/0.5 mg dose; Montmorency 74 kg and 0.21%; Balaton 0.32 ug and 0.032%; walnut 286 kg and 0.011%; pistachio 0.008% and the 4.3 g / ~7 kernel figure at 233 ug/g; the 90,000x ratio (89,300x); the halve-for-0.5-mg and multiply-by-five-for-5-mg scaling; berberine 20-30 g of root bark at 5%; ashwagandha 15-60 mg withanolides from 300-600 mg at 5-10%; ginkgo 4.2-16 g dried leaf at 35-67:1; valerian 3-8 mg valerenic acid; Bacopa 654 mg/100 g, 13.1 mg per 2 g, ~9% of dose, 23 g and ~11 teaspoons for 150 mg; lion's mane 8.3 g dry matter, 275%/167%/333%, 36 g fresh for 3 g dried, 24 g dried and ~290 g fresh for an 8:1 extract; Griffonia 0.64 g for 100 mg; all six tryptophan per-portion and percent-of-requirement figures (434 mg/155%, 173 mg/62%, 219 mg/78%, 372 mg/133%, 84 mg/30%, 82 mg/29%); and the 3-20x ratio of dietary tryptophan to a 50-300 mg 5-HTP dose."
+  ],
+  "net_assessment": "Unusually strong submission that fails in three specific, fixable places. Verification effort: all six USDA tryptophan values confirmed against SR Legacy (chicken 0.362, pumpkin seed 0.576, cheddar 0.547, salmon 0.248, egg 0.167, milk 0.040 g/100 g) with no errors; every cited PMID and PMC ID resolved to a real, on-topic article (11600041, 24878439, 31027610, 15979282, 41588582, 18844328, 41295165, 40333914, 24363687, 37057922, 29975518, 22038497, PMC6472197, PMC6111450, PMC12810810, PMC7283924, PMC11969743, PMC7007935) with zero invented references. Numerically the work is largely excellent: Burkhardt's cherry values, Reiter's walnut value, Paroni's pistachio value, the Berberis darwinii root and pulp figures, the B. vulgaris 5% berberine content, the ICAR DBM-4 bacoside figures and the erinacine A 5 mg/g figure all match their sources verbatim, and roughly forty derived arithmetic steps recompute correctly.\n\nThree real failures. FIRST, the lion's mane entry, the only one classified RICH, is built on the wrong species: J Fungi 2025;11(11):785 is 'Domestication Cultivation and Nutritional Analysis of Hericium CORALLOIDES' and analysed only that species. The submission truncates the title to 'Hericium', takes the 91.68% moisture (an H. coralloides measurement) as the basis for every dose-gap figure in the entry, presents H. erinaceus proximate values that the paper merely quotes from its own reference [29], and cites a 4.85-5.68% polysaccharide range that is not in the paper at all. The conclusion survives because H. erinaceus moisture is broadly similar, but this is precisely the species-substitution error the submission criticises in Rhodiola and Bacopa. SECOND, two melatonin figures have basis or outlier problems that change conclusions: the egg value applies a dried-solids concentration (6.1 ng/g) to a fresh 50 g egg, a four-fold overstatement that the entry's own discarded parenthetical (1.54 ng/g) would have caught, and the goji anchor is a 15x+ outlier from a non-indexed journal whose title does not match its contents, exceeding the maximum of the 119-food CUME+ compilation the submission itself cites. Correcting goji destroys the entry's headline claim that it is the one food a human could eat to a dose. THIRD, the Bacopa TRACE label contradicts the entry's own finding that a culinary serving reaches a fifth to a half of the trial dose; it confuses narrow geographic availability with trace concentration.\n\nSmaller defects: ginkgotoxin is wrongly said to be absent from the leaf (it is present, merely below a 9 ppm LOD in standardised extract); the mature-stage ginkgotoxin lower bound should be 249 not 187 ug/g; the milk dose gap conflates kilograms with litres (64,500 L, not 67,000); St John's wort hypericin should be 1.1-2.5 mg by the entry's own specification; two Griffonia figures (111 and 70 mg/g) are absent from the source cited for them; the Expression of Concern is real but its attribution to the German BfR is unverified; 'valepotinates' should be valepotriates. Judgement calls are otherwise sound, the four unambiguous NOT_FOOD calls (berberine, ashwagandha, valerian, St John's wort) all withstood challenge, and the refusal to invent a withanolide food content value is exactly right. Verdict: publishable after correcting the lion's mane sourcing, the egg moisture basis, the goji outlier framing and the Bacopa classification; the remaining items are line edits."
+ }
+}

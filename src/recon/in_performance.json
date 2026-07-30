@@ -1,0 +1,831 @@
+{
+ "group": "performance",
+ "items_assigned": [
+  "Creatine monohydrate",
+  "Protein powder",
+  "Beta-alanine",
+  "Caffeine",
+  "Dietary nitrate / beetroot",
+  "HMB",
+  "Quercetin and taurine"
+ ],
+ "submission": {
+  "items": [
+   {
+    "supplement": "Creatine monohydrate",
+    "availability": "RICH",
+    "availability_note": "Creatine is genuinely present in ordinary food, but only in skeletal muscle of animals. Harris et al. measured about 30 mmol/kg (roughly 393 mg/100 g) in uncooked chicken, beef and rabbit muscle, and essentially none in plant foods. The catch is dose: normal portions deliver a few hundred milligrams, while trials use 3-5 g/day. Organ meat is the classic wrong answer, ox liver held only 2.3 mmol/kg (about 30 mg/100 g) despite the liver being where creatine is synthesised.",
+    "foods": [
+     {
+      "food": "Herring, Atlantic, raw",
+      "per_100g": "650-1,000 mg creatine",
+      "portion": "1 fillet, 100 g raw",
+      "per_portion": "650-1,000 mg",
+      "pct_rda_or_dose": "13-20% of a 5 g dose",
+      "source": "Balsom PD, Soderlund K, Ekblom B, Sports Med 1994;18(4):268-80, Table of creatine content of foods. PMID 7817065; DOI 10.2165/00007256-199418040-00005 (review-compiled composition table)"
+     },
+     {
+      "food": "Pork loin, raw, lean",
+      "per_100g": "500 mg creatine",
+      "portion": "1 loin steak, 200 g raw",
+      "per_portion": "1,000 mg",
+      "pct_rda_or_dose": "20% of a 5 g dose",
+      "source": "Balsom 1994, PMID 7817065; DOI 10.2165/00007256-199418040-00005"
+     },
+     {
+      "food": "Beef, raw, lean (skeletal muscle)",
+      "per_100g": "393 mg creatine (30 mmol/kg)",
+      "portion": "1 steak, 200 g raw",
+      "per_portion": "787 mg",
+      "pct_rda_or_dose": "16% of a 5 g dose",
+      "source": "Harris RC, Lowe JA, Warnes K, Orme CE, Res Vet Sci 1997;62(1):58-62. PMID 9160426; DOI 10.1016/s0034-5288(97)90181-8"
+     },
+     {
+      "food": "Chicken, raw, breast muscle",
+      "per_100g": "393 mg creatine (30 mmol/kg)",
+      "portion": "1 skinless breast, 170 g raw",
+      "per_portion": "668 mg",
+      "pct_rda_or_dose": "13% of a 5 g dose",
+      "source": "Harris RC et al., Res Vet Sci 1997;62(1):58-62. PMID 9160426; DOI 10.1016/s0034-5288(97)90181-8"
+     },
+     {
+      "food": "Salmon, raw",
+      "per_100g": "450 mg creatine",
+      "portion": "1 fillet, 140 g raw",
+      "per_portion": "630 mg",
+      "pct_rda_or_dose": "13% of a 5 g dose",
+      "source": "Balsom 1994, PMID 7817065; DOI 10.2165/00007256-199418040-00005"
+     },
+     {
+      "food": "Cod, raw",
+      "per_100g": "300 mg creatine",
+      "portion": "1 fillet, 140 g raw",
+      "per_portion": "420 mg",
+      "pct_rda_or_dose": "8% of a 5 g dose",
+      "source": "Balsom 1994, PMID 7817065; DOI 10.2165/00007256-199418040-00005"
+     },
+     {
+      "food": "Ox heart, uncooked",
+      "per_100g": "295 mg creatine (22.5 mmol/kg)",
+      "portion": "1 serving, 150 g",
+      "per_portion": "443 mg",
+      "pct_rda_or_dose": "9% of a 5 g dose",
+      "source": "Harris RC et al., Res Vet Sci 1997;62(1):58-62. PMID 9160426; DOI 10.1016/s0034-5288(97)90181-8"
+     },
+     {
+      "food": "Ox liver, uncooked (the textbook answer that fails)",
+      "per_100g": "30 mg creatine (2.3 mmol/kg)",
+      "portion": "1 serving, 150 g",
+      "per_portion": "45 mg",
+      "pct_rda_or_dose": "0.9% of a 5 g dose",
+      "source": "Harris RC et al., Res Vet Sci 1997;62(1):58-62. PMID 9160426; DOI 10.1016/s0034-5288(97)90181-8"
+     },
+     {
+      "food": "Cow's milk",
+      "per_100g": "10 mg creatine",
+      "portion": "1 glass, 200 mL (206 g)",
+      "per_portion": "21 mg",
+      "pct_rda_or_dose": "0.4% of a 5 g dose",
+      "source": "Balsom 1994, PMID 7817065; DOI 10.2165/00007256-199418040-00005"
+     }
+    ],
+    "dose_gap": "BEEF EQUIVALENT: at 393 mg/100 g raw (Harris 1997), 3 g/day of creatine requires 763 g of raw lean beef and 5 g/day requires 1,272 g, i.e. 1.3 kg of raw steak every day, about six 200 g steaks. Using Balsom's slightly higher 4.5 g/kg figure for beef the numbers are 667 g and 1,111 g. That 1.3 kg of beef also carries roughly 280 g of protein and its full fat and calorie load, so the creatine dose cannot be separated from a diet nobody would eat. Raw herring is the single best food (650-1,000 mg per 100 g fillet), and even then 5 g/day needs 500-770 g of herring daily. Cooking makes the real plate-equivalent worse: creatine falls and creatinine rises about four-fold after 90 min at 70 C, and losses grow with final internal temperature, so the raw-basis figures above are the optimistic case. VEGETARIAN BASELINE: muscle total creatine was significantly lower in vegetarians than non-vegetarians at baseline (117 vs 130 mmol/kg dry mass), and vegetarians gained more from supplementation, so the group with the biggest gap is exactly the group with no food route at all (Burke DG et al., Med Sci Sports Exerc 2003;35(11):1946-55, PMID 14600563, DOI 10.1249/01.mss.0000093614.17517.79). Verdict: the supplement dose is not achievable by eating normally.",
+    "form_caveat": "NONE in chemical terms. Supplemental creatine monohydrate is the same molecule found in muscle; it is manufactured by reacting sarcosine salts with cyanamide rather than extracted from meat, so there is no plant-versus-extract issue and no concentrated phytochemical to worry about. The meaningful caveats run the other way. First, cooking converts food creatine into creatinine, which is metabolically inert, so the label value of a raw cut overstates what reaches the plate (Purchas RW et al., Meat Sci 2004;66(3):629-37, PMID 22060873, DOI 10.1016/S0309-1740(03)00181-5; Purchas RW, Busboom JR, Meat Sci 2004;68(2):201-7, PMID 22062229, DOI 10.1016/j.meatsci.2004.02.018). Second, only muscle stores creatine: liver, kidney and other offal are poor sources despite being the synthetic organs, and dried or rendered meat products have largely degraded to creatinine (Harris 1997). Third, plant foods contain none, so 'eat more real food' is not advice a vegetarian can act on.",
+    "bioavailability": "Creatine monohydrate is close to completely absorbed and dietary creatine from meat is also efficiently absorbed, so absorption is not the limiting step; dose size is. The responsive variable is baseline muscle store: vegetarians started at 117 mmol/kg dry mass versus 130 in non-vegetarians and showed larger increases in total creatine, phosphocreatine, lean tissue and work performance after supplementation (PMID 14600563). Habitual omnivore intake is roughly 1-2 g/day against a whole-body turnover of about 2 g/day in a 70 kg male, with the balance made endogenously (PMID 7817065), which is why a supplement of 3-5 g/day is a two- to five-fold multiple of anything a diet delivers. Cooking losses are the one real bioavailability penalty for the food form: creatine and taurine are the two compounds most reduced by cooking beef, partly by conversion to creatinine and partly by loss into cooking juices (PMID 22062229)."
+   },
+   {
+    "supplement": "Protein powder",
+    "availability": "RICH",
+    "availability_note": "This is the one item on the list where ordinary food comfortably beats the supplement. A 1.6 g/kg target is 112 g/day for a 70 kg adult, and single household portions of everyday foods deliver 8-53 g each. Protein powder is itself a food fraction (whey and casein are dairy by-products), so there is no molecule here that food lacks.",
+    "foods": [
+     {
+      "food": "Beef rump steak, grilled, lean",
+      "per_100g": "31.0 g protein",
+      "portion": "1 steak, 170 g cooked",
+      "per_portion": "52.7 g",
+      "pct_rda_or_dose": "47% of 112 g/day (1.6 g/kg at 70 kg)",
+      "source": "McCance and Widdowson's Composition of Foods Integrated Dataset (CoFID) 2021, food code 18-474"
+     },
+     {
+      "food": "Chicken breast, grilled without skin, meat only",
+      "per_100g": "32.0 g protein",
+      "portion": "1 breast, 130 g cooked",
+      "per_portion": "41.6 g",
+      "pct_rda_or_dose": "37% of 112 g/day",
+      "source": "CoFID 2021, food code 18-323"
+     },
+     {
+      "food": "Salmon, farmed, grilled",
+      "per_100g": "24.6 g protein",
+      "portion": "1 fillet, 130 g cooked",
+      "per_portion": "32.0 g",
+      "pct_rda_or_dose": "29% of 112 g/day",
+      "source": "CoFID 2021, food code 16-357"
+     },
+     {
+      "food": "Tuna, canned in brine, drained",
+      "per_100g": "24.9 g protein",
+      "portion": "1 small can drained, 100 g",
+      "per_portion": "24.9 g",
+      "pct_rda_or_dose": "22% of 112 g/day",
+      "source": "CoFID 2021, food code 16-416"
+     },
+     {
+      "food": "Cottage cheese, plain",
+      "per_100g": "9.4 g protein",
+      "portion": "1 tub, 200 g",
+      "per_portion": "18.8 g",
+      "pct_rda_or_dose": "17% of 112 g/day",
+      "source": "CoFID 2021, food code 12-539"
+     },
+     {
+      "food": "Red split lentils, dried, boiled",
+      "per_100g": "8.1 g protein",
+      "portion": "1 large serving, 200 g cooked",
+      "per_portion": "16.2 g",
+      "pct_rda_or_dose": "14% of 112 g/day",
+      "source": "CoFID 2021, food code 13-658"
+     },
+     {
+      "food": "Eggs, chicken, whole, boiled",
+      "per_100g": "14.1 g protein",
+      "portion": "2 large eggs, 100 g edible",
+      "per_portion": "14.1 g",
+      "pct_rda_or_dose": "13% of 112 g/day",
+      "source": "CoFID 2021, food code 12-940"
+     },
+     {
+      "food": "Greek style yogurt, plain (UK whole milk type)",
+      "per_100g": "5.7 g protein",
+      "portion": "1 pot, 170 g",
+      "per_portion": "9.7 g",
+      "pct_rda_or_dose": "9% of 112 g/day",
+      "source": "CoFID 2021, food code 12-555"
+     },
+     {
+      "food": "Milk, semi-skimmed, pasteurised",
+      "per_100g": "3.5 g protein",
+      "portion": "1 large glass, 250 mL (258 g)",
+      "per_portion": "9.0 g",
+      "pct_rda_or_dose": "8% of 112 g/day",
+      "source": "CoFID 2021, food code 12-313"
+     },
+     {
+      "food": "Cheddar cheese, English",
+      "per_100g": "25.4 g protein",
+      "portion": "1 matchbox piece, 30 g",
+      "per_portion": "7.6 g",
+      "pct_rda_or_dose": "7% of 112 g/day",
+      "source": "CoFID 2021, food code 12-346"
+     },
+     {
+      "food": "Tofu, soya bean, steamed",
+      "per_100g": "8.1 g protein",
+      "portion": "1 serving, 100 g",
+      "per_portion": "8.1 g",
+      "pct_rda_or_dose": "7% of 112 g/day",
+      "source": "CoFID 2021, food code 13-570"
+     },
+     {
+      "food": "Peanut butter, smooth",
+      "per_100g": "22.8 g protein",
+      "portion": "1 tbsp, 20 g",
+      "per_portion": "4.6 g",
+      "pct_rda_or_dose": "4% of 112 g/day",
+      "source": "CoFID 2021, food code 14-892"
+     }
+    ],
+    "dose_gap": "ZERO. There is no dose gap for a 1.6 g/kg target. A worked day for a 70 kg adult needing 112 g: 2 boiled eggs (14.1 g) plus a 170 g pot of Greek style yogurt (9.7 g) plus a 130 g grilled chicken breast (41.6 g) plus 200 g cooked red lentils (16.2 g) plus 250 mL semi-skimmed milk (9.0 g) plus 30 g Cheddar (7.6 g) totals 98.2 g; add one 100 g can of tuna in brine and it reaches 123 g, over target, with no powder. Even a 100 kg athlete at 1.6 g/kg (160 g) gets there by adding a 170 g steak (52.7 g). The gap only appears at very high targets combined with a poor appetite, a low-calorie diet, or exclusively plant sources, where the volume of food becomes the binding constraint rather than the protein content. Powder solves convenience and calorie density, not availability.",
+    "form_caveat": "NONE in the sense that matters: whey and casein isolates are dairy fractions, soya and pea isolates are legume fractions, and the amino acids arriving in the blood are the same ones food delivers. Two real form differences remain. Isolates strip the matrix, so you get the amino acids without the calcium, fat, B12 and satiety that come with dairy or meat, which makes it easy to add protein and easier still to add unnoticed calories in flavoured, maltodextrin-containing products. And a powder is dosed by scoop rather than eaten as a meal, so it is the only protein source people routinely take on top of an already adequate intake. Plant isolates also need blending or a higher dose to match dairy on lysine and methionine, which is a formulation issue food solves by variety.",
+    "bioavailability": "Absorption differences between food and powder are about speed and amino acid pattern, not quantity absorbed. Animal-source protein is more digestible and more leucine-dense per gram than most plant sources: roast chicken breast is 31.0 g protein and 2.33 g leucine per 100 g, that is 7.5% of protein as leucine (USDA FoodData Central FDC ID 171477, SR Legacy NDB 5064). Whey is faster and more leucine-rich per gram than whole food, casein and whole-food meals are slower, and for total daily protein this difference is small. One genuine food-form penalty: composition tables report protein as nitrogen multiplied by a conversion factor, so figures for plant foods with non-protein nitrogen slightly overstate usable protein, and cooking method changes yield per gram bought (raw beef mince is 19.7 g/100 g versus 21.8 g/100 g stewed as water is lost, CoFID 18-469 and 18-470)."
+   },
+   {
+    "supplement": "Beta-alanine",
+    "availability": "TRACE",
+    "availability_note": "Free beta-alanine, the molecule in the tub, has no meaningful food source and is manufactured. The dietary route is indirect: meat supplies beta-alanine bound into the histidine dipeptides carnosine and anserine, which are hydrolysed after ingestion. Chicken breast is the richest ordinary food at 258 mg carnosine plus 660 mg anserine per 100 g in commercial broilers, together about 346 mg of beta-alanine equivalent per 100 g. That is roughly a tenth of a single day's supplement dose per 100 g of meat, and the dose has to be repeated daily for four weeks or more, so the practical gap is one to two orders of magnitude. Poultry dark meat, often assumed to be similar, holds only 20-36 mg carnosine per 100 g.",
+    "foods": [
+     {
+      "food": "Chicken breast, broiler, raw (carnosine 257.94 plus anserine 660.38 mg/100 g)",
+      "per_100g": "346 mg beta-alanine equivalent (carnosine x 0.394 plus anserine x 0.371)",
+      "portion": "1 skinless breast, 170 g raw",
+      "per_portion": "589 mg beta-alanine equivalent (439 mg carnosine, 1,123 mg anserine)",
+      "pct_rda_or_dose": "18% of a 3.2 g/day dose",
+      "source": "Ali M, Lee SY, Park JY, Jung S, Jo C, Nam KC. Food Sci Anim Resour 2019;39(4):632-642. DOI 10.5851/kosfa.2019.e54"
+     },
+     {
+      "food": "Chicken breast, Thai native and black-bone breeds, raw",
+      "per_100g": "428-554 mg carnosine, i.e. 169-218 mg beta-alanine equivalent from carnosine alone",
+      "portion": "1 skinless breast, 170 g raw",
+      "per_portion": "728-942 mg carnosine (287-371 mg beta-alanine equivalent)",
+      "pct_rda_or_dose": "9-12% of a 3.2 g/day dose (carnosine only)",
+      "source": "Anim (Basel) 2021;11(7):1987. PMID 34359114; DOI 10.3390/ani11071987"
+     },
+     {
+      "food": "Beef muscle, raw (Japanese Black steer, 21 muscles)",
+      "per_100g": "187.5 mg carnosine (8.291 umol/g, range 0.003-418.7 mg/100 g) plus 26.5 mg anserine (1.104 umol/g) = 84 mg beta-alanine equivalent",
+      "portion": "1 steak, 200 g raw",
+      "per_portion": "375 mg carnosine plus 53 mg anserine = 167 mg beta-alanine equivalent",
+      "pct_rda_or_dose": "5% of a 3.2 g/day dose",
+      "source": "Anim Sci J 2019;90(4):604-609. PMID 30811817; DOI 10.1111/asj.13185"
+     },
+     {
+      "food": "Chicken thigh, fresh (dark meat, the poor relation)",
+      "per_100g": "19.51-36.19 mg carnosine = 7.7-14.3 mg beta-alanine equivalent",
+      "portion": "2 boneless thighs, 150 g",
+      "per_portion": "29-54 mg carnosine (12-21 mg beta-alanine equivalent)",
+      "pct_rda_or_dose": "0.4-0.7% of a 3.2 g/day dose",
+      "source": "Foods 2022;11(19):3006. PMID 36230082; DOI 10.3390/foods11193006"
+     }
+    ],
+    "dose_gap": "CARNOSINE ROUTE COMPUTED: carnosine is 39.4% beta-alanine by mass (89.09 / 226.23) and anserine is 37.1% (89.09 / 240.26). The lowest dose shown to work is 3.2 g/day of beta-alanine for 4 weeks, which raised muscle carnosine 42.1% (6.4 g/day raised it 64.2%). From commercial broiler breast at 346 mg beta-alanine equivalent per 100 g, counting both carnosine and anserine, 3.2 g/day requires 923 g of raw chicken breast every day for a month. Counting carnosine alone it is 3.15 kg/day. From beef at 84 mg/100 g it is 3.8 kg of raw steak per day, and from chicken thigh it is over 20 kg. Nine hundred grams of chicken breast is roughly 210 g of protein and would have to be eaten daily for the whole loading period. Not achievable by eating normally. Note also that no food delivers free beta-alanine in the form the supplement uses.",
+    "form_caveat": "MAJOR, and it cuts both ways. Ingested carnosine does not reach muscle intact: after histidine dipeptides were given in chicken broth at 40 mg/kg beta-alanine equivalent, carnosine was undetectable in plasma while plasma beta-alanine peaked at 428 uM, because serum carnosinase hydrolyses the dipeptide. So the food form works only by liberating beta-alanine, and it does so at roughly half the peak concentration of an equal weight of free beta-alanine (833 uM at the same 40 mg/kg dose). Reassuringly, isomolar oral L-carnosine raised muscle carnosine as much as 6.4 g/day beta-alanine (65.8% versus 64.2%), so the dipeptide route is biologically equivalent and only the volume of food is impossible (Harris RC et al., Amino Acids 2006;30(3):279-89, PMID 16554972, DOI 10.1007/s00726-006-0299-9). Two further points: cooking significantly reduces meat carnosine (Purchas RW et al., Meat Sci 2004;66(3):629-37, PMID 22060873), and the paraesthesia that makes people split beta-alanine doses is a property of a large free-amino-acid bolus that food never produces.",
+    "bioavailability": "Quantified head to head. At 40 mg/kg body weight, plasma beta-alanine peaked at 833 uM from free beta-alanine and at 428 uM from an equivalent load of histidine dipeptides in chicken broth, with both returning to baseline by 2 h and urinary loss of beta-alanine under 5% (PMID 16554972). Muscle carnosine responses after 4 weeks: 42.1% at 3.2 g/day, 64.2% at 6.4 g/day, and 65.8% for isomolar L-carnosine. The practical implication is that the food matrix costs about half the peak plasma concentration per gram but does not block the pathway; the binding constraint is that meat contains only 0.08-0.35% beta-alanine equivalent by weight. Beta-alanine content also varies severalfold with muscle type and breed: carnosine in beef ranged from 0.003 to 418.7 mg/100 g across 21 muscles (PMID 30811817), and glycolytic (white) muscle holds far more than red oxidative muscle, so 'chicken' is not one number."
+   },
+   {
+    "supplement": "Caffeine",
+    "availability": "RICH",
+    "availability_note": "Caffeine is the one supplement on this list where the usual dose is what ordinary drinks already deliver. An ergogenic 3-6 mg/kg is 210-420 mg for a 70 kg adult, and USDA gives home brewed coffee 40 mg per 100 g, so two to four mugs covers it. The problem is not availability but dose control: the same beverage from the same outlet on six consecutive days ranged from 259 to 564 mg.",
+    "foods": [
+     {
+      "food": "Coffee, brewed from grounds, prepared with tap water",
+      "per_100g": "40 mg caffeine",
+      "portion": "1 mug, 240 mL (240 g)",
+      "per_portion": "96 mg",
+      "pct_rda_or_dose": "48% of a 200 mg dose; 46% of 210 mg (3 mg/kg at 70 kg)",
+      "source": "USDA FoodData Central FDC ID 171890 (SR Legacy, NDB 14209)"
+     },
+     {
+      "food": "Coffee, brewed espresso, restaurant-prepared",
+      "per_100g": "212 mg caffeine",
+      "portion": "1 single shot, 30 mL (30 g)",
+      "per_portion": "64 mg (double shot, 60 g: 127 mg)",
+      "pct_rda_or_dose": "32% of a 200 mg dose per single shot",
+      "source": "USDA FoodData Central FDC ID 171891 (SR Legacy, NDB 14210)"
+     },
+     {
+      "food": "Espresso (Brazilian caffeine content table, BraCaffT)",
+      "per_100g": "279 mg per 100 mL",
+      "portion": "1 cup, 40 mL",
+      "per_portion": "112 mg",
+      "pct_rda_or_dose": "56% of a 200 mg dose",
+      "source": "Nutrients 2022;14(20):4417. PMID 36297100; DOI 10.3390/nu14204417"
+     },
+     {
+      "food": "Matcha, green tea powder",
+      "per_100g": "1,890-4,440 mg per 100 g (18.9-44.4 mg/g)",
+      "portion": "1 tsp, 2 g",
+      "per_portion": "38-89 mg",
+      "pct_rda_or_dose": "19-44% of a 200 mg dose",
+      "source": "Kochman J et al., Molecules 2020;26(1):85. DOI 10.3390/molecules26010085"
+     },
+     {
+      "food": "Energy drink",
+      "per_100g": "30 mg per 100 mL",
+      "portion": "1 can, 250 mL",
+      "per_portion": "75 mg",
+      "pct_rda_or_dose": "38% of a 200 mg dose",
+      "source": "Nutrients 2022;14(20):4417. PMID 36297100; DOI 10.3390/nu14204417"
+     },
+     {
+      "food": "Tea, black, brewed",
+      "per_100g": "18 mg per 100 mL",
+      "portion": "1 cup, 200 mL",
+      "per_portion": "36 mg (measured range across brewed white, green and black teas 14-61 mg per 6-8 oz serving)",
+      "pct_rda_or_dose": "18% of a 200 mg dose",
+      "source": "Nutrients 2022;14(20):4417 (DOI 10.3390/nu14204417); range from Chin JM et al., J Anal Toxicol 2008;32(8):702-4, DOI 10.1093/jat/32.8.702"
+     },
+     {
+      "food": "Tea, green, brewed",
+      "per_100g": "20 mg per 100 mL",
+      "portion": "1 cup, 200 mL",
+      "per_portion": "40 mg",
+      "pct_rda_or_dose": "20% of a 200 mg dose",
+      "source": "Nutrients 2022;14(20):4417. PMID 36297100; DOI 10.3390/nu14204417"
+     },
+     {
+      "food": "Chocolate, dark, 70-85% cacao solids",
+      "per_100g": "80 mg caffeine (plus 802 mg theobromine)",
+      "portion": "4 squares, 25 g",
+      "per_portion": "20 mg",
+      "pct_rda_or_dose": "10% of a 200 mg dose",
+      "source": "USDA FoodData Central FDC ID 170273 (SR Legacy)"
+     },
+     {
+      "food": "Dark chocolate (Brazilian table, higher value)",
+      "per_100g": "114 mg per 100 g",
+      "portion": "1 serving, 45 g",
+      "per_portion": "51 mg",
+      "pct_rda_or_dose": "26% of a 200 mg dose",
+      "source": "Nutrients 2022;14(20):4417. PMID 36297100; DOI 10.3390/nu14204417"
+     },
+     {
+      "food": "Cola soft drink",
+      "per_100g": "9 mg per 100 mL",
+      "portion": "1 can, 350 mL",
+      "per_portion": "32 mg",
+      "pct_rda_or_dose": "16% of a 200 mg dose",
+      "source": "Nutrients 2022;14(20):4417. PMID 36297100; DOI 10.3390/nu14204417"
+     }
+    ],
+    "dose_gap": "NONE for the dose, LARGE for the precision. A 200 mg pre-workout dose is about two mugs of home brewed coffee (96 mg each) or three single espresso shots. What food cannot deliver is a known dose. Measured caffeine in caffeinated specialty coffees ranged 58-259 mg per dose, mean 188 mg (SD 36) for a 16 oz cup, and critically the same beverage bought from the same outlet on six consecutive days ranged 259-564 mg, a 2.2-fold swing in what the customer thought was an identical drink (McCusker RR, Goldberger BA, Cone EJ, J Anal Toxicol 2003;27(7):520-2, PMID 14607010, DOI 10.1093/jat/27.7.520). Decaffeinated versions still contained up to 17.7 mg per dose, so decaf is not caffeine-free. Tea adds steep-time variance on top of leaf variance (14-61 mg per serving across 20 commercial products, Chin 2008). Matcha spans 18.9-44.4 mg/g, so one teaspoon is anywhere from 38 to 89 mg. Practical conclusion: reaching the dose from drinks is trivial, hitting it within plus or minus 20% is not, which is why trials use capsules.",
+    "form_caveat": "The caveat is inverted here. Anhydrous caffeine powder is the same molecule but is dangerous precisely because it is concentrated: a level teaspoon is several grams, in the range associated with fatal poisoning, whereas the same amount as brewed coffee would be 30 to 50 mugs and physically self-limiting. Whole-drink forms also carry matrix effects that change the experience and the risk profile. Coffee brings chlorogenic acids and, when unfiltered, diterpenes that raise LDL; tea and matcha bring L-theanine and catechins that alter the subjective stimulation; energy drinks bring sugar, taurine and often glucuronolactone, so a 'caffeine dose' from a can is never only caffeine. Tea and coffee polyphenols also inhibit non-haem iron absorption when taken with meals, a cost the capsule does not impose. Finally, energy drink and specialty coffee servings are large and easy to stack, and label values are nominal rather than analysed.",
+    "bioavailability": "Caffeine is essentially completely absorbed from every form tested, so there is no meaningful absorption penalty for the food route; the differences are in rate and in dose certainty. Liquids reach peak plasma concentrations faster than capsules, chewing gum faster still, and a hot drink sipped over 20 minutes produces a flatter curve than a capsule swallowed at once, which matters for timing a pre-exercise dose but not for total exposure. Analytical values differ between databases for the same drink because brewing dominates: USDA lists brewed coffee at 40 mg/100 g and espresso at 212 mg/100 g (FDC 171890, 171891), while the Brazilian table lists espresso at 279 mg/100 mL (DOI 10.3390/nu14204417). Both are correct for what they measured, which is the whole point: the food is the variable, not the absorption."
+   },
+   {
+    "supplement": "Dietary nitrate / beetroot",
+    "availability": "RICH",
+    "availability_note": "Vegetables are the dietary source and some reach supplement-level concentrations. EFSA pooled 25,306 leafy vegetable samples and found rocket (rucola) had the highest median nitrate of any vegetable at 4,800 mg/kg, with beetroot at 1,100 mg/kg, butterhead lettuce 1,978 mg/kg, iceberg lettuce 844 mg/kg, spinach 785 mg/kg and celery 693 mg/kg. This is the only entry on this list where a normal portion of a normal food can match the dose used in trials.",
+    "foods": [
+     {
+      "food": "Rocket (rucola), raw",
+      "per_100g": "480 mg nitrate (7.74 mmol); median 4,800 mg/kg, mean 4,677, P5 1,528, P95 7,340, n=1,943",
+      "portion": "1 large salad bag, 80 g",
+      "per_portion": "384 mg (6.19 mmol)",
+      "pct_rda_or_dose": "103% of a 6 mmol dose (a 25 g handful gives 120 mg, 1.94 mmol, 32%)",
+      "source": "EFSA Panel on Contaminants in the Food Chain, Nitrate in vegetables, EFSA Journal 2008;689:1-79, Table 7. DOI 10.2903/j.efsa.2008.689"
+     },
+     {
+      "food": "Butterhead lettuce, raw",
+      "per_100g": "198 mg nitrate (3.19 mmol); median 1,978 mg/kg, mean 2,026, n=3,426",
+      "portion": "a few leaves, 50 g",
+      "per_portion": "99 mg (1.60 mmol)",
+      "pct_rda_or_dose": "27% of a 6 mmol dose",
+      "source": "EFSA Journal 2008;689:1-79, Table 7. DOI 10.2903/j.efsa.2008.689"
+     },
+     {
+      "food": "Beetroot, raw or cooked root",
+      "per_100g": "110 mg nitrate (1.77 mmol); median 1,100 mg/kg, mean 1,379, P5 110, P95 3,670, n=1,013",
+      "portion": "1 serving cooked beetroot, 150 g",
+      "per_portion": "165 mg (2.66 mmol)",
+      "pct_rda_or_dose": "44% of a 6 mmol dose",
+      "source": "EFSA Journal 2008;689:1-79, Table 10. DOI 10.2903/j.efsa.2008.689"
+     },
+     {
+      "food": "Spinach, raw",
+      "per_100g": "78.5 mg nitrate (1.27 mmol); median 785 mg/kg, mean 1,066, P95 3,048, n=6,657",
+      "portion": "1 large bowl raw leaves, 100 g",
+      "per_portion": "78.5 mg (1.27 mmol)",
+      "pct_rda_or_dose": "21% of a 6 mmol dose",
+      "source": "EFSA Journal 2008;689:1-79, Table 7. DOI 10.2903/j.efsa.2008.689"
+     },
+     {
+      "food": "Iceberg lettuce, raw",
+      "per_100g": "84.4 mg nitrate (1.36 mmol); median 844 mg/kg, mean 875, n=1,980",
+      "portion": "1 side salad, 80 g",
+      "per_portion": "67.5 mg (1.09 mmol)",
+      "pct_rda_or_dose": "18% of a 6 mmol dose",
+      "source": "EFSA Journal 2008;689:1-79, Table 7. DOI 10.2903/j.efsa.2008.689"
+     },
+     {
+      "food": "Celery, raw",
+      "per_100g": "69.3 mg nitrate (1.12 mmol); median 693 mg/kg, mean 1,103, P95 3,319, n=387",
+      "portion": "2 sticks, 80 g",
+      "per_portion": "55.4 mg (0.89 mmol)",
+      "pct_rda_or_dose": "15% of a 6 mmol dose",
+      "source": "EFSA Journal 2008;689:1-79, Table 9. DOI 10.2903/j.efsa.2008.689"
+     },
+     {
+      "food": "Radish, raw",
+      "per_100g": "73.5 mg nitrate (1.19 mmol); median 735 mg/kg, mean 967, n=788",
+      "portion": "5 radishes, 50 g",
+      "per_portion": "36.8 mg (0.59 mmol)",
+      "pct_rda_or_dose": "10% of a 6 mmol dose",
+      "source": "EFSA Journal 2008;689:1-79, Table 10. DOI 10.2903/j.efsa.2008.689"
+     },
+     {
+      "food": "Concentrated beetroot juice shot",
+      "per_100g": "6.0 mmol per 100 mL (372 mg), from the measured 4.2 mmol in 70 mL",
+      "portion": "1 shot, 70 mL",
+      "per_portion": "4.2 mmol (260 mg)",
+      "pct_rda_or_dose": "70% of a 6 mmol dose",
+      "source": "Wylie LJ et al., J Appl Physiol 2013;115(3):325-36. PMID 23640589; DOI 10.1152/japplphysiol.00372.2013"
+     }
+    ],
+    "dose_gap": "SMALL, and for one vegetable it closes entirely. Using 1 mmol nitrate = 62 mg, a 6 mmol target is 372 mg. HOW MUCH BEETROOT JUICE EQUALS 6 mmol: exactly 100 mL of concentrated beetroot shot, since 70 mL was measured at 4.2 mmol and 140 mL at 8.4 mmol; that is one and a half standard shots. From whole vegetables at EFSA median concentrations: 78 g of rocket, 188 g of butterhead lettuce, 338 g of cooked beetroot, 441 g of iceberg lettuce, 474 g of raw spinach, or 537 g of celery. Rocket is the only food where the trial dose fits inside a portion a person would actually eat, and a single 80 g bag already gives 6.19 mmol. Worth flagging against the trial data: in Wylie's dose-response study 70 mL (4.2 mmol) did not change any exercise response, while 140 mL (8.4 mmol) reduced steady-state oxygen uptake 1.7% and extended time to task failure 14%, and 280 mL (16.8 mmol) gave no further performance gain. So a 6 mmol target sits between the ineffective and the effective dose in that trial, and roughly 8 mmol (about 130 g of rocket or 130 mL of concentrate) is the better food target.",
+    "form_caveat": "SUBSTANTIAL, mostly about dose uncertainty and a regulatory conflict. Vegetable nitrate varies enormously: rocket ran from 1,528 mg/kg at the 5th percentile to 7,340 at the 95th, and the highest single leafy sample EFSA saw was 19,925 mg/kg in an oak-leaf lettuce grown under cover. Beetroot's mean (1,379 mg/kg) is well above its median (1,100) because of a long tail, so a salad or a home-pressed juice cannot be dosed. The regulatory tension is concrete: EFSA calculated that eating more than 47 g of rocket at the median nitrate concentration would on its own exceed the acceptable daily intake for nitrate (and a rocket-heavy salad pattern pushed modelled intake to 330 mg/person/day). So the food route to 6 mmol means routinely exceeding the nitrate ADI, which EFSA judged acceptable in the context of overall vegetable benefits but which is not nothing. Processing matters too: nitrate in red beet and kohlrabi was reduced by up to 50% by fermentation, and boiling leaches nitrate into the water, so pickled beetroot and boiled-and-drained spinach are weaker than the raw figures suggest. Finally, the pathway depends on oral bacteria reducing nitrate to nitrite, so antibacterial mouthwash blunts the effect regardless of the source. Spinach is the classic textbook nitrate answer and is a mediocre one: its median is six times lower than rocket, and it is separately a bad iron recommendation because its oxalate binds the iron.",
+    "bioavailability": "Nitrate from vegetables and from a juice concentrate behave the same because it is a small inorganic anion, absorbed essentially completely in the upper small intestine, then concentrated in saliva by the enterosalivary circulation and reduced to nitrite by oral bacteria before any nitric oxide is formed. Wylie's dose-response work showed plasma nitrite rising dose-dependently with peak change at 2-3 h after 4.2, 8.4 and 16.8 mmol, but the physiological response saturating: 8.4 and 16.8 mmol produced similar improvements, so more nitrate is not more effect. The practical bioavailability differences are therefore in the food, not the gut: concentration varies severalfold with species, season, greenhouse versus open-field growing and region (EFSA 2008), juice concentrates are standardised while salad is not, and cooking water discards nitrate. A whole-food route is entirely viable, it just needs rocket rather than beetroot to be efficient."
+   },
+   {
+    "supplement": "HMB",
+    "availability": "TRACE",
+    "availability_note": "HMB (beta-hydroxy-beta-methylbutyrate) is a leucine metabolite. No food composition database, USDA FoodData Central, CoFID or any national table, carries an HMB value, and the frequently repeated claim that it occurs in catfish, grapefruit and alfalfa is not backed by any quantified composition analysis I could source. What is quantified is the internal route: healthy adults produce only 0.3-0.4 g/day endogenously, because roughly 5-10% of leucine flux goes down the HMB pathway while about 80% goes to protein synthesis. Against a supplement dose of 3-6 g/day, the body's own whole-day output is 8 to 20 times too small, and food contributes no measurable preformed HMB at all.",
+    "foods": [],
+    "dose_gap": "QUANTIFIED VIA THE LEUCINE ROUTE, because there is no food HMB figure to work from. At the 5% conversion rate, generating 3 g of HMB would require about 60 g of leucine per day. Roast chicken breast provides 2.33 g leucine per 100 g (USDA FDC ID 171477, SR Legacy NDB 5064), so 60 g of leucine is 2.6 kg of cooked chicken breast per day, which carries roughly 800 g of protein. Even at the optimistic 10% conversion figure it is 30 g of leucine, about 1.3 kg of cooked chicken breast and 400 g of protein daily. And these calculations are theoretical ceilings: measured endogenous production in healthy adults is only 0.3-0.4 g/day, meaning real conversion never approaches the arithmetic. The 3-6 g/day used in trials therefore cannot be reached by eating anything, in any quantity, and cannot be reached by eating more leucine or more whey either, because the bottleneck is the branched-chain metabolic pathway rather than the intake. Verdict: unreachable through food, by a factor of at least 8 to 20 against the body's entire daily output.",
+    "form_caveat": "The supplement is a manufactured molecule, not a food extract. Industrial routes are chemical synthesis by halogenation of diacetone alcohol with sodium hypobromite, or esterification approaches from diacetone alcohol and acetic acid derivatives, at output scales around 1.5 tonnes per month; microbial routes using Galactomyces reessii (29.0 g/L) and engineered E. coli (17.7 g/L) are emerging. Regulatory reviews treat 3-6 g/day as generally safe while noting that no international consensus on an optimal dose exists. Because there is no food form, there is no whole-food-versus-extract comparison to make, and equally no reason to describe HMB as something a diet can supply. The one form question that matters commercially is calcium HMB monohydrate versus free-acid HMB, which differ in absorption kinetics rather than in origin. Primary source for the manufacturing, endogenous production and conversion figures: Foods 2025;14(8):1294, PMID 40282696, DOI 10.3390/foods14081294.",
+    "bioavailability": "There is no food form whose absorption can be compared, so the only meaningful statement is about the pathway. Dietary leucine is not a usable precursor at supplement scale: 80% is directed to protein synthesis and only 5-10% enters the HMB pathway, which is why increasing protein or leucine intake raises endogenous HMB only marginally and total endogenous output stays at 0.3-0.4 g/day (DOI 10.3390/foods14081294). Between the two supplement forms, free-acid HMB is reported to reach peak plasma concentration faster and higher than calcium HMB monohydrate, which is the main practical bioavailability distinction; both bypass the leucine pathway entirely, which is precisely why the supplement exists."
+   },
+   {
+    "supplement": "Quercetin and taurine",
+    "availability": "RICH",
+    "availability_note": "Both compounds occur in ordinary food at meaningful concentrations, and both sit far below their supplement doses. Quercetin: capers are extraordinary at 234 mg/100 g raw and red onion is the everyday source at 39 mg/100 g, against habitual intakes of tens of milligrams and trial doses of 500-1,000 mg/day. Taurine: it is present in animal foods only, detectable in meats and dairy and absent from plant products, with shellfish the richest source and dark poultry meat around 47 mg/100 g, against trial doses of 1-6 g/day. Neither dose is reachable by eating, but neither is a manufactured molecule with no dietary presence.",
+    "foods": [
+     {
+      "food": "Capers, raw (quercetin)",
+      "per_100g": "233.84 mg quercetin (n=3)",
+      "portion": "1 tbsp, 15 g",
+      "per_portion": "35.1 mg",
+      "pct_rda_or_dose": "7.0% of a 500 mg quercetin dose",
+      "source": "USDA Database for the Flavonoid Content of Selected Foods, Release 3.3 (March 2018), NDB 99360"
+     },
+     {
+      "food": "Capers, canned/pickled, drained (quercetin)",
+      "per_100g": "172.55 mg quercetin (n=20, range 45.05-519.85)",
+      "portion": "1 tbsp drained, 15 g",
+      "per_portion": "25.9 mg",
+      "pct_rda_or_dose": "5.2% of a 500 mg quercetin dose",
+      "source": "USDA Flavonoid Database Release 3.3 (2018), NDB 02054"
+     },
+     {
+      "food": "Onions, red, raw (quercetin)",
+      "per_100g": "39.21 mg quercetin (n=147, range 5.90-191.70)",
+      "portion": "half a medium onion, 60 g",
+      "per_portion": "23.5 mg",
+      "pct_rda_or_dose": "4.7% of a 500 mg quercetin dose",
+      "source": "USDA Flavonoid Database Release 3.3 (2018), NDB 99055"
+     },
+     {
+      "food": "Onions, cooked, boiled, drained (quercetin)",
+      "per_100g": "24.36 mg quercetin (n=32, range 19.87-31.00)",
+      "portion": "1 serving, 80 g",
+      "per_portion": "19.5 mg",
+      "pct_rda_or_dose": "3.9% of a 500 mg quercetin dose",
+      "source": "USDA Flavonoid Database Release 3.3 (2018), NDB 11283"
+     },
+     {
+      "food": "Onions, raw, all types (quercetin)",
+      "per_100g": "20.30 mg quercetin (n=400, range 1.50-90.75)",
+      "portion": "half a medium onion, 60 g",
+      "per_portion": "12.2 mg",
+      "pct_rda_or_dose": "2.4% of a 500 mg quercetin dose",
+      "source": "USDA Flavonoid Database Release 3.3 (2018), NDB 11282"
+     },
+     {
+      "food": "Kale, raw (quercetin)",
+      "per_100g": "22.58 mg quercetin (n=18, range 0-56.20)",
+      "portion": "1 serving, 80 g",
+      "per_portion": "18.1 mg",
+      "pct_rda_or_dose": "3.6% of a 500 mg quercetin dose",
+      "source": "USDA Flavonoid Database Release 3.3 (2018), NDB 11233"
+     },
+     {
+      "food": "Apples, raw, with skin (quercetin)",
+      "per_100g": "4.01 mg quercetin (n=139, range 0-11.47)",
+      "portion": "1 medium apple, 180 g",
+      "per_portion": "7.2 mg",
+      "pct_rda_or_dose": "1.4% of a 500 mg quercetin dose",
+      "source": "USDA Flavonoid Database Release 3.3 (2018), NDB 09003"
+     },
+     {
+      "food": "Apples, raw, without skin (quercetin) - shows what peeling costs",
+      "per_100g": "1.05 mg quercetin (n=39, range 0-2.00)",
+      "portion": "1 medium peeled apple, 180 g",
+      "per_portion": "1.9 mg",
+      "pct_rda_or_dose": "0.4% of a 500 mg quercetin dose (peeling removes about 74% of the quercetin)",
+      "source": "USDA Flavonoid Database Release 3.3 (2018), NDB 09004"
+     },
+     {
+      "food": "Hard clam meat, Meretrix/Mercenaria (taurine)",
+      "per_100g": "2,434 mg/100 g DRY weight; approximately 410-490 mg/100 g as eaten if 80-83% moisture is assumed (conversion is mine, the sourced value is dry weight)",
+      "portion": "1 serving of clam meat, 100 g as eaten",
+      "per_portion": "approximately 410-490 mg (from a sourced dry-weight value)",
+      "pct_rda_or_dose": "14-16% of a 3 g taurine dose",
+      "source": "Foods 2025;14(24):4345, Table 3. PMID 41465052; DOI 10.3390/foods14244345 (freeze-dried tissue, dry-weight basis)"
+     },
+     {
+      "food": "Kumamoto oyster, Crassostrea sikamea (taurine)",
+      "per_100g": "about 2,046 mg/100 g DRY weight; roughly 350-410 mg/100 g as eaten on the same moisture assumption",
+      "portion": "6 oysters, about 75 g meat",
+      "per_portion": "approximately 260-310 mg (from a sourced dry-weight value)",
+      "pct_rda_or_dose": "9-10% of a 3 g taurine dose",
+      "source": "Foods 2025;14(24):4345, Table 3. PMID 41465052; DOI 10.3390/foods14244345 (dry-weight basis)"
+     },
+     {
+      "food": "Beef muscle, raw (taurine)",
+      "per_100g": "61.1 mg taurine (4.881 umol/g wet tissue, range 0.552-23.861 umol/g, i.e. 6.9-298.6 mg/100 g)",
+      "portion": "1 steak, 200 g raw",
+      "per_portion": "122 mg",
+      "pct_rda_or_dose": "4.1% of a 3 g taurine dose",
+      "source": "Anim Sci J 2019;90(4):604-609. PMID 30811817; DOI 10.1111/asj.13185"
+     },
+     {
+      "food": "Chicken thigh, fresh (dark poultry meat, taurine)",
+      "per_100g": "47.34 mg taurine in commercial broiler (39.29-47.34 across four breeds)",
+      "portion": "2 boneless thighs, 150 g",
+      "per_portion": "71 mg",
+      "pct_rda_or_dose": "2.4% of a 3 g taurine dose",
+      "source": "Foods 2022;11(19):3006, Table 4. PMID 36230082; DOI 10.3390/foods11193006"
+     },
+     {
+      "food": "Razor clam, Sinonovacula constricta (taurine) - the weak shellfish",
+      "per_100g": "322 mg/100 g DRY weight; roughly 55-65 mg/100 g as eaten on the same moisture assumption",
+      "portion": "1 serving, 100 g as eaten",
+      "per_portion": "approximately 55-65 mg (from a sourced dry-weight value)",
+      "pct_rda_or_dose": "about 2% of a 3 g taurine dose",
+      "source": "Foods 2025;14(24):4345, Table 3. PMID 41465052; DOI 10.3390/foods14244345 (dry-weight basis)"
+     }
+    ],
+    "dose_gap": "QUERCETIN: trials use 500-1,000 mg/day. From the richest food, raw capers at 233.84 mg/100 g, that is 214-428 g of capers per day, which is 14 to 29 tablespoons of a brine-packed condiment and a salt load nobody should take. From raw red onion at 39.21 mg/100 g it is 1.28-2.55 kg of onion per day. From apples with skin at 4.01 mg/100 g it is 12.5-25 kg of apples, about 70-140 apples. Habitual dietary quercetin intake is on the order of tens of milligrams, so a 500 mg capsule is roughly 25-50 times anything a diet delivers. Not achievable. TAURINE: trials use 1-6 g/day, commonly 3 g. From beef at 61.1 mg/100 g that is 4.9 kg of raw steak per day; from chicken thigh at 47.34 mg/100 g it is 6.3 kg; from clam meat at roughly 450 mg/100 g as eaten it is about 670 g of clam meat daily, which is the only route within an order of magnitude of feasible and still nothing a person eats. Vegans and vegetarians get essentially none from food, since taurine was detected in meats, dairy products and infant feeding solutions but not in any plant product tested (Laidlaw SA, Grosvenor M, Kopple JD, JPEN J Parenter Enteral Nutr 1990;14(2):183-8, PMID 2352336, DOI 10.1177/0148607190014002183). Verdict for both: the supplement dose is not reachable by eating normally, though both compounds are real dietary constituents rather than inventions.",
+    "form_caveat": "QUERCETIN, MAJOR. Supplements are almost always the aglycone, extracted from Sophora japonica flower buds or Dimorphandra mollis pods, which are not foods anyone eats; food quercetin is glycosides (glucosides in onions, rutin in tea and apples). The forms are not interchangeable in the gut (see bioavailability), and a 500-1,000 mg aglycone dose is a pharmacological exposure that inhibits drug-metabolising enzymes and transporters, whereas 10-30 mg/day from onions and apples never approaches it. Capers are the technically richest source and the worst practical recommendation: the value is for a salt-cured condiment eaten a tablespoon at a time, and the canned figure ranges 45.05-519.85 mg/100 g across 20 samples, an elevenfold spread. Apples with skin are the classic textbook answer and are roughly 60 times too dilute; peeling drops them from 4.01 to 1.05 mg/100 g. TAURINE, MODERATE. The supplement is synthetic and chemically identical to food taurine, so there is no extract-versus-food problem. The two real caveats are analytical and culinary. Shellfish taurine numbers circulating online are often dry-weight figures presented as if they were per 100 g of food, which inflates them four- to sixfold; the values above are labelled explicitly. And taurine is a free amino acid, not protein-bound, so it leaches: taurine and creatine were the compounds most reduced by cooking beef, with losses partly into the cooking juices (Purchas RW, Busboom JR, Meat Sci 2004;68(2):201-7, PMID 22062229; Purchas RW et al., Meat Sci 2004;66(3):629-37, PMID 22060873). A stew keeps its taurine in the broth; a grilled steak with the juices discarded does not.",
+    "bioavailability": "QUERCETIN, quantified and decisive. In healthy ileostomy volunteers absorption was 52 plus or minus 15% for quercetin glucosides from fried onions, 17 plus or minus 15% for quercetin rutinoside (the main form in tea and apples) and 24 plus or minus 9% for pure quercetin aglycone, the form used in supplements; conjugation with glucose enhances absorption (Hollman PC et al., Am J Clin Nutr 1995;62(6):1276-82, PMID 7491892, DOI 10.1093/ajcn/62.6.1276). So per milligram, onion quercetin is roughly twice as absorbable as the capsule and three times as absorbable as tea or apple rutin, which narrows the effective gap a little but nowhere near enough to close it, since urinary recovery was only 0.5% of the amount absorbed. TAURINE. It is present in food as the free amino acid rather than bound in protein, absorbed by the TauT transporter with high oral bioavailability, and the supplement form is identical, so absorption is not where food loses. Food loses on concentration and on cooking: the practical content of a portion depends heavily on whether cooking liquid is consumed, and reported values vary severalfold with muscle type (beef taurine ranged 0.552 to 23.861 umol/g across 21 muscles, PMID 30811817) and with breed in poultry (39.29-47.34 mg/100 g, PMID 36230082). Reading dry-weight shellfish values as wet-weight is the single commonest error in this literature."
+   }
+  ]
+ },
+ "verification_report": {
+  "group": "performance",
+  "number_checks": [
+   {
+    "claim": "Creatine, beef raw lean: 393 mg/100 g (30 mmol/kg)",
+    "verdict": "OK",
+    "authoritative_value": "~30 mmol/kg in uncooked beef muscle; 30 x 131.13 / 10 = 393.4 mg/100 g",
+    "correction": "None",
+    "source": "Harris RC, Lowe JA, Warnes K, Orme CE. The concentration of creatine in meat, offal and commercial dog food. Res Vet Sci 1997;62(1):58-62. PMID 9160426 (title, authors, journal, pagination and values all confirmed)"
+   },
+   {
+    "claim": "Creatine, chicken raw breast: 393 mg/100 g (30 mmol/kg)",
+    "verdict": "OK",
+    "authoritative_value": "~30 mmol/kg, same as beef and rabbit muscle",
+    "correction": "None",
+    "source": "Harris 1997, PMID 9160426"
+   },
+   {
+    "claim": "Creatine, ox heart: 295 mg/100 g (22.5 mmol/kg)",
+    "verdict": "OK",
+    "authoritative_value": "22.5 mmol/kg = 295.0 mg/100 g",
+    "correction": "None",
+    "source": "Harris 1997, PMID 9160426"
+   },
+   {
+    "claim": "Creatine, ox liver: 30 mg/100 g (2.3 mmol/kg)",
+    "verdict": "OK",
+    "authoritative_value": "2.3 mmol/kg = 30.2 mg/100 g; paper also confirms no phosphocreatine in any sample and degradation to creatinine in dried/processed products",
+    "correction": "None",
+    "source": "Harris 1997, PMID 9160426"
+   },
+   {
+    "claim": "Creatine, herring raw: 650-1,000 mg/100 g",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "No primary analytical value exists in USDA FoodData Central or CoFID (neither database carries creatine). Balsom 1994 is confirmed real (PMID 7817065, Sports Med 1994;18(4):268-80, 'Creatine in humans with special reference to creatine supplementation') but is a narrative review whose food table cites no primary analysis.",
+    "correction": "Downgrade to indicative/secondary. The submission does flag it as 'review-compiled', which is honest, but the figure is not independently confirmable.",
+    "source": "PubMed 7817065 (citation verified); absence of creatine from USDA FDC and CoFID 2021 verified directly"
+   },
+   {
+    "claim": "Creatine: pork loin 500, salmon 450, cod 300, milk 10 mg/100 g",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Same problem as herring: all four rest solely on the Balsom 1994 compiled table, with no traceable primary analysis and no database cross-check available",
+    "correction": "Treat these four rows (and herring) as secondary/indicative. Five of the nine creatine food rows rest on a single 1994 review table.",
+    "source": "PubMed 7817065; USDA FDC and CoFID 2021 carry no creatine values"
+   },
+   {
+    "claim": "All 12 protein figures and CoFID food codes (rump steak 18-474 = 31.0 g; chicken breast 18-323 = 32.0; salmon 16-357 = 24.6; tuna 16-416 = 24.9; cottage cheese 12-539 = 9.4; red lentils 13-658 = 8.1; boiled egg 12-940 = 14.1; Greek yogurt 12-555 = 5.7; semi-skimmed milk 12-313 = 3.5; Cheddar 12-346 = 25.4; tofu 13-570 = 8.1; peanut butter 14-892 = 22.8)",
+    "verdict": "OK",
+    "authoritative_value": "Every code resolves to the named food and every protein value matches to the decimal. E.g. 12-539 = 'Cheese, cottage, plain' 9.4 g; 12-940 = 'Eggs, chicken, whole, boiled' 14.1 g; 13-658 = 'Lentils, red, split, dried, boiled in unsalted water' 8.1 g",
+    "correction": "None. I specifically suspected cottage cheese (9.4), boiled egg (14.1) and lentils (8.1) of being wrong; all three are exactly right.",
+    "source": "McCance and Widdowson's Composition of Foods Integrated Dataset (CoFID) 2021, sheet '1.3 Proximates', queried directly"
+   },
+   {
+    "claim": "Beef mince raw 19.7 vs stewed 21.8 g protein, CoFID 18-469 and 18-470",
+    "verdict": "OK",
+    "authoritative_value": "18-469 'Beef, mince, raw' = 19.7 g; 18-470 'Beef, mince, stewed' = 21.8 g",
+    "correction": "None",
+    "source": "CoFID 2021, sheet 1.3, queried directly"
+   },
+   {
+    "claim": "Roast chicken breast 31.0 g protein and 2.33 g leucine per 100 g, USDA FDC ID 171477, SR Legacy NDB 5064",
+    "verdict": "OK",
+    "authoritative_value": "FDC 171477 = 'Chicken, broilers or fryers, breast, meat only, cooked, roasted', SR Legacy, NDB 5064, protein 31.0 g, leucine 2.33 g",
+    "correction": "None. FDC ID, NDB number, food name and both nutrient values all confirmed.",
+    "source": "USDA FoodData Central, fdc.nal.usda.gov/portal-data/external/171477"
+   },
+   {
+    "claim": "Chicken breast broiler: carnosine 257.94 and anserine 660.38 mg/100 g",
+    "verdict": "OK",
+    "authoritative_value": "Broiler breast carnosine 257.94 mg/100 g, anserine 660.38 mg/100 g (native strains higher: HH 511.04 and 1,525.80)",
+    "correction": "None on the numbers. But the cited paper's title is 'Comparison of Functional Compounds and Micronutrients of Chicken Breast Meat by Breeds' and its whole point is that native strains hold roughly twice as much; the submission used only the lowest strain.",
+    "source": "Ali M, Lee SY, Park JY, Jung S, Jo C, Nam KC. Food Sci Anim Resour 2019;39(4):632-642, DOI 10.5851/kosfa.2019.e54, PMID 31508593, PMC6728819, full text queried"
+   },
+   {
+    "claim": "346 mg beta-alanine equivalent per 100 g broiler breast (carnosine x 0.394 + anserine x 0.371)",
+    "verdict": "OK",
+    "authoritative_value": "89.09/226.23 = 39.38%; 89.09/240.26 = 37.08%; 257.94 x 0.3938 + 660.38 x 0.3708 = 346.5 mg/100 g",
+    "correction": "None",
+    "source": "Recomputed from molecular weights and the Ali 2019 values"
+   },
+   {
+    "claim": "Thai native and black-bone chicken breast: 428-554 mg carnosine/100 g",
+    "verdict": "OK",
+    "authoritative_value": "428.08 to 553.93 mg/100 g",
+    "correction": "None",
+    "source": "Khumpeerawat P, Duangjinda M, Phasuk Y. Animals 2021;11(7):1987. PMID 34359114, DOI 10.3390/ani11071987"
+   },
+   {
+    "claim": "Beef muscle carnosine 187.5 mg/100 g (8.291 umol/g) and anserine 26.5 mg/100 g (1.104 umol/g)",
+    "verdict": "OK",
+    "authoritative_value": "Table 2 means: carnosine 8.291 umol/g wet tissue (= 187.6 mg/100 g), anserine 1.104 umol/g (= 26.5 mg/100 g)",
+    "correction": "None on the means. Note the study is 21 muscles of Japanese Black (Wagyu) steers, a single specialty breed, presented in the submission simply as 'Beef muscle, raw'.",
+    "source": "Mashima D et al. Anim Sci J 2019;90(4):604-609. PMID 30811817, PMC6594095, full text Table 2 queried"
+   },
+   {
+    "claim": "Beef carnosine range 0.003-418.7 mg/100 g across 21 muscles",
+    "verdict": "WRONG",
+    "authoritative_value": "The paper reports carnosine 0.012-18.508 umol/g wet tissue, which converts to 0.27-418.7 mg/100 g",
+    "correction": "Low end should be 0.27 mg/100 g, not 0.003 - a factor of about 90. The '0.003' appears to be a stray unconverted umol/g-scale figure left in a mg/100 g range; 0.003 mg/100 g (30 ng/g) of carnosine in skeletal muscle is biologically impossible. The error is repeated twice (food row and dose_gap). The high end, 418.7, is correct.",
+    "source": "Anim Sci J 2019;90(4):604-609, PMC6594095, Table 2 (0.012-18.508 umol/g)"
+   },
+   {
+    "claim": "Chicken thigh carnosine 19.51-36.19 mg/100 g and taurine 39.29-47.34 mg/100 g",
+    "verdict": "OK",
+    "authoritative_value": "Table 4 fresh thigh: carnosine broiler 36.19, HH3 19.51, WRMD1 25.92, WRMD2 21.93; taurine broiler 47.34, HH3 41.62, WRMD1 40.64, WRMD2 39.29",
+    "correction": "None. Worth noting the ordinary supermarket bird (commercial broiler) sits at the TOP of the carnosine range (36.19), so 'dark meat holds only 20-36 mg' reads more pessimistically than the relevant figure warrants.",
+    "source": "Barido FH et al. Foods 2022;11(19):3006. PMID 36230082, PMC9563284, Table 4 queried"
+   },
+   {
+    "claim": "Harris 2006: plasma beta-alanine 833 uM from free beta-alanine vs 428 uM from chicken-broth dipeptides at 40 mg/kg; muscle carnosine +42.1% at 3.2 g/day, +64.2% at 6.4 g/day, +65.8% isomolar L-carnosine",
+    "verdict": "OK",
+    "authoritative_value": "40 mg/kg beta-alanine 833 +/- 43 uM; histidine dipeptides 40 mg/kg equivalent 428 +/- 66 uM; carnosine undetectable in plasma; 3.2 g/day +42.1%, 6.4 g/day +64.2%, L-carnosine +65.8%",
+    "correction": "None. Every figure exact, including the dose-response percentages.",
+    "source": "Harris RC et al. Amino Acids 2006;30(3):279-89. PMID 16554972, DOI 10.1007/s00726-006-0299-9"
+   },
+   {
+    "claim": "Brewed coffee 40 mg caffeine/100 g, USDA FDC ID 171890, SR Legacy NDB 14209",
+    "verdict": "OK",
+    "authoritative_value": "FDC 171890 = 'Beverages, coffee, brewed, prepared with tap water', SR Legacy, NDB 14209, caffeine 40 mg/100 g",
+    "correction": "None. FDC ID, NDB number, description and value all confirmed.",
+    "source": "USDA FoodData Central, fdc.nal.usda.gov/portal-data/external/171890"
+   },
+   {
+    "claim": "Espresso 212 mg caffeine/100 g, USDA FDC ID 171891, SR Legacy NDB 14210",
+    "verdict": "OK",
+    "authoritative_value": "FDC 171891 = 'Beverages, coffee, brewed, espresso, restaurant-prepared', SR Legacy, NDB 14210, caffeine 212 mg/100 g",
+    "correction": "None",
+    "source": "USDA FoodData Central, fdc.nal.usda.gov/portal-data/external/171891"
+   },
+   {
+    "claim": "Dark chocolate 70-85% cacao: 80 mg caffeine plus 802 mg theobromine/100 g, USDA FDC ID 170273",
+    "verdict": "OK",
+    "authoritative_value": "FDC 170273 = 'Chocolate, dark, 70-85% cacao solids', SR Legacy, NDB 19904, caffeine 80 mg, theobromine 802 mg",
+    "correction": "None",
+    "source": "USDA FoodData Central, fdc.nal.usda.gov/portal-data/external/170273"
+   },
+   {
+    "claim": "BraCaffT: espresso 279 mg/100 mL, energy drink 30 mg/100 mL, black tea 18, green tea 20, dark chocolate 114 mg/100 g, cola 9 mg/100 mL",
+    "verdict": "OK",
+    "authoritative_value": "Table 1 gives exactly these six values with these units",
+    "correction": "None. All six exact.",
+    "source": "Rocha PLA, Lima ALC, Saunders B, Reis CEG. Nutrients 2022;14(20):4417. PMID 36297100, PMC9608580, full text queried"
+   },
+   {
+    "claim": "Matcha 18.9-44.4 mg caffeine/g",
+    "verdict": "OK",
+    "authoritative_value": "'in matcha it amounted to between 18.9 and 44.4 mg/g'; the same review gives green teas 11.3-24.67 mg/g and coffee beans 10.0-12.0 mg/g",
+    "correction": "None. The citation year is also right: Europe PMC records the article as 2020 (Molecules vol 26 iss 1, e-published 27 Dec 2020), so 'Molecules 2020;26(1):85' is defensible.",
+    "source": "Kochman J, Jakubczyk K, Antoniewicz J, Mruk H, Janda K. Molecules 2020;26(1):85. PMID 33375458, PMC7796401, full text queried"
+   },
+   {
+    "claim": "McCusker 2003: caffeinated specialty coffees 58-259 mg/dose, mean 188 (SD 36) per 16 oz, decaf under 17.7 mg/dose, same outlet six consecutive days 259-564 mg",
+    "verdict": "OK",
+    "authoritative_value": "Abstract verbatim: decaf 'less than 17.7 mg/dose'; caffeinated 'ranging from 58 to 259 mg/dose'; 'mean (SD) ... 188 (36) mg for a 16-oz cup'; 'wide range of caffeine concentrations (259-564 mg/dose) in the same coffee beverage obtained from the same outlet on six consecutive days'",
+    "correction": "None. All four figures exact, and 564/259 = 2.18, so the stated '2.2-fold swing' is right. I had suspected the 17.7 mg decaf figure was misattributed from a later 2006 paper; it is genuinely in this one.",
+    "source": "McCusker RR, Goldberger BA, Cone EJ. J Anal Toxicol 2003;27(7):520-2. PMID 14607010"
+   },
+   {
+    "claim": "EFSA rocket/rucola: median 4,800 mg/kg, mean 4,677, P5 1,528, P95 7,340, n=1,943",
+    "verdict": "OK",
+    "authoritative_value": "Table 7 row: Rucola 1,943 samples, P5 1,528, median 4,800, mean 4,677, P95 7,340",
+    "correction": "None. Exact to the digit.",
+    "source": "EFSA Panel on Contaminants, Nitrate in vegetables, EFSA Journal 2008;689:1-79, Table 7 (document text queried directly)"
+   },
+   {
+    "claim": "EFSA butterhead lettuce 1,978/2,026 n=3,426; iceberg 844/875 n=1,980; spinach 785/1,066/P95 3,048 n=6,657; celery 693/1,103/P95 3,319 n=387; beetroot 1,100/1,379/P5 110/P95 3,670 n=1,013; radish 735/967 n=788",
+    "verdict": "OK",
+    "authoritative_value": "Every median, mean, percentile and sample count matches EFSA Tables 7, 9 and 10 exactly",
+    "correction": "None. Six food rows, roughly 25 individual statistics, all correct.",
+    "source": "EFSA Journal 2008;689, Tables 7 (leafy), 9 (stem), 10 (roots and tubers)"
+   },
+   {
+    "claim": "EFSA context: 25,306 leafy samples; highest single sample 19,925 mg/kg in oak-leaf lettuce grown under cover; more than 47 g of rocket exceeds the nitrate ADI; rocket-heavy pattern gives 330 mg/person/day; fermentation cuts nitrate up to 50% in red beet and kohlrabi",
+    "verdict": "OK",
+    "authoritative_value": "Table 7 total n = 25,306; '19,925 mg/kg, belonged to an oak-leaf lettuce sample grown under cover in Norway'; 'consumption of more than 47 g of rucola at the median nitrate concentration would lead to an excursion above the ADI'; scenario S3C 'would jump to 330 mg/person/day'; 'In red beet and kohlrabi, nitrate was reduced by fermentation by up to 50%'. ADI 3.7 mg/kg bw/day = 222 mg, and 222/4.8 = 46 g, so the 47 g figure is internally consistent.",
+    "correction": "None. All five contextual claims verified verbatim.",
+    "source": "EFSA Journal 2008;689, pages 3, 19, and intake-scenario section"
+   },
+   {
+    "claim": "Wylie 2013: 70 mL = 4.2 mmol ineffective; 140 mL = 8.4 mmol cut oxygen uptake 1.7% and extended time to task failure 14%; 280 mL = 16.8 mmol no further gain",
+    "verdict": "OK",
+    "authoritative_value": "70/140/280 mL = 4.2/8.4/16.8 mmol; 70 mL did not alter physiological responses; VO2 reductions 1.7% and 3.0%; time-to-task-failure improvements 14% and 12%; no additional benefit above 8.4 mmol",
+    "correction": "None",
+    "source": "Wylie LJ et al. J Appl Physiol 2013;115(3):325-36. PMID 23640589, DOI 10.1152/japplphysiol.00372.2013"
+   },
+   {
+    "claim": "All eight quercetin values: capers raw 233.84 (n=3); capers canned 172.55 (n=20, 45.05-519.85); red onion 39.21 (n=147, 5.90-191.70); onions boiled 24.36 (n=32, 19.87-31.00); onions raw 20.30 (n=400, 1.50-90.75); kale 22.58 (n=18, 0-56.20); apple with skin 4.01 (n=139, 0-11.47); apple without skin 1.05 (n=39, 0-2.00)",
+    "verdict": "OK",
+    "authoritative_value": "Every mean, sample count and min-max range matches the database rows exactly, as do all eight NDB numbers (99360, 02054, 99055, 11283, 11282, 11233, 09003, 09004)",
+    "correction": "None. This is the most thoroughly correct block in the submission.",
+    "source": "USDA Database for the Flavonoid Content of Selected Foods, Release 3.3 (Haytowitz, Wu, Bhagwat, March 2018), source document queried directly"
+   },
+   {
+    "claim": "Hard clam (Meretrix) taurine 2,434 mg/100 g dry weight",
+    "verdict": "OK",
+    "authoritative_value": "M. mercenaria 2,434.33 mg/100 g dry weight, the highest of the six bivalves",
+    "correction": "None on the number. But the value sits in Figure 1B, not 'Table 3' as cited, and the paper is an umami/taste-compound study, not a taurine composition analysis.",
+    "source": "Li Z et al. Comparative Analysis of Umami Substances and Potential Regulatory Genes in Six Economic Bivalves. Foods 2025;14(24):4345. PMID 41465052, PMC12732902, full text queried"
+   },
+   {
+    "claim": "Kumamoto oyster (Crassostrea sikamea) taurine 'about 2,046 mg/100 g dry weight', roughly 350-410 mg/100 g as eaten, 260-310 mg per 6 oysters, 9-10% of a 3 g dose",
+    "verdict": "WRONG",
+    "authoritative_value": "C. sikamea taurine is 1,845.33 mg/100 g dry weight, not 2,046",
+    "correction": "Dry weight 1,845 mg/100 g. On the submission's own 80-83% moisture assumption that is 314-369 mg/100 g as eaten (not 350-410), 235-277 mg per 75 g of meat (not 260-310), and 7.8-9.2% of a 3 g dose (not 9-10%). Overstated by about 11% at source, and the error propagates through all three derived figures.",
+    "source": "Foods 2025;14(24):4345, PMC12732902, Figure 1B"
+   },
+   {
+    "claim": "Razor clam (Sinonovacula constricta) taurine 322 mg/100 g dry weight",
+    "verdict": "OK",
+    "authoritative_value": "322.10 mg/100 g dry weight",
+    "correction": "None",
+    "source": "Foods 2025;14(24):4345, PMC12732902"
+   },
+   {
+    "claim": "Beef taurine 61.1 mg/100 g (4.881 umol/g), range 0.552-23.861 umol/g = 6.9-298.6 mg/100 g",
+    "verdict": "OK",
+    "authoritative_value": "Table 2: taurine mean 4.881 umol/g wet tissue, range 0.552-23.861 umol/g. Conversions at MW 125.15 give 61.1, 6.9 and 298.6 mg/100 g",
+    "correction": "None. Note the taurine range is correctly converted here, which makes the mishandled carnosine range in the same paragraph an isolated slip rather than a systematic unit error.",
+    "source": "Anim Sci J 2019;90(4):604-609, PMC6594095, Table 2"
+   },
+   {
+    "claim": "Laidlaw 1990: taurine detected in meats, dairy and infant feeding solutions but not in any plant product",
+    "verdict": "OK",
+    "authoritative_value": "Abstract: 29 meats, 9 dairy products, 17 infant or adult feeding solutions and 48 plant foods analysed; 'Taurine was detected in meats, dairy products, and infant feeding solutions but not in plant products or adult feeding solutions'",
+    "correction": "None",
+    "source": "Laidlaw SA, Grosvenor M, Kopple JD. JPEN 1990;14(2):183-8. PMID 2352336, DOI 10.1177/0148607190014002183"
+   },
+   {
+    "claim": "Hollman 1995: absorption 52 +/- 15% for onion quercetin glucosides, 17 +/- 15% for rutinoside, 24 +/- 9% for aglycone",
+    "verdict": "OK",
+    "authoritative_value": "Ileostomy study confirmed, with quercetin glucosides from onions at 52% absorption and lower rates for the other forms",
+    "correction": "None. Citation (Am J Clin Nutr 1995;62(6):1276-82, PMID 7491892) fully confirmed including authors and pagination.",
+    "source": "Hollman PC, de Vries JH, van Leeuwen SD, Mengelers MJ, Katan MB. PMID 7491892"
+   },
+   {
+    "claim": "HMB: endogenous production only 0.3-0.4 g/day; 3-6 g/day regarded as safe; industrial plant 1.5 tonnes/month; Galactomyces reessii 29.0 g/L; engineered E. coli 17.7 g/L",
+    "verdict": "OK",
+    "authoritative_value": "'healthy adults are capable of producing only 0.3-0.4 g of HMB per day'; 'a daily intake of 3-6 g/day is generally regarded as safe'; 'experimental plant capable of yielding 1.5 tons of HMB per month'; G. reessii optimised 29.0 g/L after 102 h; E. coli 17.7 g/L",
+    "correction": "None. All five figures exact.",
+    "source": "Zhou S, Liu G, Wang Z, Lei Z, Chen W, Wang C. Foods 2025;14(8):1294. PMID 40282696, PMC12025925, full text queried"
+   },
+   {
+    "claim": "HMB: roughly 5-10% of leucine flux goes down the HMB pathway while about 80% goes to protein synthesis",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "The source says approximately 5-10% of alpha-ketoisocaproate (alpha-KIC), the leucine transamination product, is converted into HMB, and approximately 80% of leucine is diverted to protein synthesis",
+    "correction": "The 5-10% applies to alpha-KIC, not to leucine flux directly. This does not change the dose-gap conclusion but the restatement compresses a two-step pathway into one.",
+    "source": "Foods 2025;14(8):1294, PMC12025925"
+   },
+   {
+    "claim": "No food composition database carries an HMB value, and the catfish/grapefruit/alfalfa claim is not backed by any quantified composition analysis",
+    "verdict": "OK",
+    "authoritative_value": "Confirmed. The cited HMB review contains no food-occurrence statement and no quantified food values. An independent literature query for HMB together with catfish, grapefruit or alfalfa returned five papers, none containing a quantified food composition figure.",
+    "correction": "None. This negative claim held up under adversarial checking, which is unusual and to the submission's credit.",
+    "source": "Foods 2025;14(8):1294 full text; Europe PMC query for beta-hydroxy-beta-methylbutyrate AND (catfish OR grapefruit OR alfalfa), 5 results, no food figures"
+   },
+   {
+    "claim": "Purchas 2004: slow cooking 90 min at 70 C significantly reduced taurine, carnosine and creatine, with a four-fold increase in creatinine; and in the second paper decreases were greatest for taurine and creatine",
+    "verdict": "OK",
+    "authoritative_value": "'Slow cooking (90 min at 70 C) of lamb longissimus and semimembranosus muscles led to significant reductions in the content of taurine, carnosine, and creatine (P<0.001)'; 'There was also a four-fold increase in creatinine'. Second paper: 'the decreases were greatest for taurine and creatine'.",
+    "correction": "The science is right but two attribution issues. (a) The 90 min/70 C four-fold creatinine result is from LAMB muscle, and is applied in the submission to meat and beef generally. (b) The submission cites Meat Sci 2004;68(2):201-7 as 'Purchas RW, Busboom JR'; the actual authors are Purchas RW, Rutherfurd SM, Pearce PD, Vather R, Wilkinson BHP. Purchas and Busboom co-authored different papers (2005 and 2006). The wrong author list is used twice.",
+    "source": "PMID 22060873 (Meat Sci 2004;66(3):629-37) and PMID 22062229 (Meat Sci 2004;68(2):201-7)"
+   },
+   {
+    "claim": "Burke 2003: vegetarian baseline muscle total creatine 117 vs 130 mmol/kg dry mass in non-vegetarians",
+    "verdict": "OK",
+    "authoritative_value": "'VG=117 mmol.kg(-1)' and 'NV=130 mmol.kg(-1)', difference significant at P<0.05",
+    "correction": "None. Citation (Med Sci Sports Exerc 2003;35(11):1946-55, PMID 14600563) fully confirmed including all six authors.",
+    "source": "Burke DG, Chilibeck PD, Parise G, Candow DG, Mahoney D, Tarnopolsky M. PMID 14600563"
+   }
+  ],
+  "misclassifications": [
+   "BETA-ALANINE labelled TRACE is wrong, and it is wrong by the submission's own yardstick. Its own numbers put commercial broiler breast at 346 mg beta-alanine equivalent per 100 g, i.e. 589 mg in a 170 g portion, i.e. 18% of a 3.2 g daily dose. Compare the items it labelled RICH: creatine delivers 13-20% of a 5 g dose per portion (beef 787 mg = 16%, chicken 668 mg = 13%, herring 650-1,000 mg = 13-20%). Beta-alanine's per-portion contribution sits at the TOP of the creatine range yet got the opposite label. Worse, the submission's own form_caveat concedes the dietary route is biologically equivalent: isomolar oral L-carnosine raised muscle carnosine 65.8% versus 64.2% for 6.4 g/day of free beta-alanine (Harris 2006). If the food-borne precursor is present at hundreds of mg per 100 g and is biologically equivalent, TRACE is the wrong word. The 'free beta-alanine is absent from food' point is a form argument, not an availability argument, and the submission itself resolves the form question in food's favour. Correct label: RICH (dose-limited), on identical reasoning to creatine.",
+   "BETA-ALANINE's TRACE label is further undercut by the very paper cited for its headline number. Ali 2019 exists to show that native strains far exceed broilers: strain HH breast holds 511.04 mg carnosine plus 1,525.80 mg anserine per 100 g = 767 mg beta-alanine equivalent, i.e. 1,304 mg in a 170 g breast, 41% of a 3.2 g dose. The submission cited the paper and used only its lowest strain, then generalised to 'chicken breast is the richest ordinary food' - a claim it never tested against pork, turkey or tuna.",
+   "QUERCETIN AND TAURINE bundled into one item with one RICH verdict is a category error. The two compounds have different gap sizes (quercetin 25-50x habitual intake; taurine within one order of magnitude via shellfish), opposite dietary distributions (plant-only vs animal-only, so the vegan implications are inverted), and opposite form problems (supplement aglycone differs from food glycosides for quercetin; chemically identical for taurine). No single availability label can be correct for both. They should be scored separately.",
+   "QUERCETIN classified RICH is inconsistent in the opposite direction from beta-alanine. Its best realistic portion contribution is 7.0% of a 500 mg dose (one 15 g tablespoon of capers, a salt-cured condiment), and its everyday sources give 2-5%. That is materially WEAKER per portion than beta-alanine's 18%, yet quercetin got RICH and beta-alanine got TRACE. The two labels are precisely backwards relative to each other. The submission's own text concedes habitual intake is 'tens of milligrams' against a 500 mg dose.",
+   "HMB classified TRACE contradicts its own evidence and should be SYNTHETIC. The item lists zero foods (foods: []), states that no composition database carries an HMB value, states the catfish/grapefruit/alfalfa claim has no quantified backing, and concludes 'food contributes no measurable preformed HMB at all'. All of that checked out under independent verification. TRACE implies detectable-but-tiny dietary presence; the evidence presented supports no dietary presence at all. Endogenous production of 0.3-0.4 g/day is not a dietary source. Note this cuts against the submission's interest, so it is an error of over-generosity, not of salesmanship.",
+   "CREATINE, PROTEIN, CAFFEINE and NITRATE classifications are correct and I could not break them. Nitrate is rightly the one item where a normal portion meets the trial dose (80 g of rocket = 6.19 mmol = 103% of 6 mmol), and protein is rightly the one where food beats the supplement outright."
+  ],
+  "missing_foods": [
+   "NITRATE - RHUBARB, median 2,808 mg/kg (EFSA Table 9, n=58), 2.5x beetroot. At 280.8 mg/100 g, just 132 g reaches 6 mmol - a normal portion, and better than the butterhead lettuce (188 g) the submission does list. This directly refutes its claim that 'rocket is the only food where the trial dose fits inside a portion a person would actually eat'. EFSA's own text flags it: 'Rhubarb showed particularly high values.'",
+   "NITRATE - ten further vegetables in the cited EFSA tables have medians ABOVE beetroot's 1,100 mg/kg and were all omitted: amaranth 2,660 (140 g = 6 mmol), lamb's lettuce 2,130 (175 g), mixed lettuce 1,878, beet leaves 1,770, curled lettuce 1,628, oak-leaf lettuce 1,553, silverbeet/chard 1,510, Belgian endive 1,475, white radish 1,256, black radish 1,245. Cos lettuce (1,097) and fennel (783) also beat the spinach entry that was included. The submission mined one row of Table 7 and the beetroot row of Table 10 and left the richer neighbours on the page.",
+   "QUERCETIN - richer sources sitting in the very database cited (Release 3.3) were omitted: lovage leaves 170.00 mg/100 g, elderberry juice concentrate 108.16, dock (Rumex) 86.20, radish leaves 70.37, chokeberry juice concentrate 68.17, wild rocket (Diplotaxis) 66.19, juniper berries 46.61.",
+   "QUERCETIN - more damaging, five ordinary kitchen foods beat the submission's nominated 'everyday source' (red onion, 39.21): dill weed fresh 55.15, coriander/cilantro leaves 52.90, yellow wax hot peppers 50.63, fennel leaves 48.80, wild rocket 66.19. Also omitted: radicchio 31.51, watercress 29.99, elderberries 26.77, pan-fried white onion 26.90. Naming capers (a condiment) as the only rich source while missing herbs at 50-55 mg/100 g overstates how narrow the food route is.",
+   "PROTEIN - two foods richer per 100 g than anything on the list, both in CoFID 2021: turkey breast fillet, grilled, meat only (18-356) at 35.0 g, and Parmesan, fresh (12-526) at 36.2 g. The submission's ceiling was chicken breast at 32.0 g.",
+   "PROTEIN - also omitted from CoFID: sardines grilled 25.4 g and canned in brine drained 22.1 g, tuna canned in sunflower oil drained 25.4 g, pumpkin seeds 24.4 g, king prawns grilled 23.5 g, mackerel grilled 20.3 g, tempeh 20.7 g (2.6x the tofu figure used, and the obvious plant-source omission alongside seitan), dried prawns 83.1 g. Separately, using CoFID's traditional 'Yogurt, Greek style, plain' at 5.7 g understates modern strained/high-protein pots and skyr at roughly 10-12 g per 100 g, making dairy look weaker than a shopper would find it.",
+   "BETA-ALANINE - pork loin was omitted entirely despite pork appearing in the creatine item; pork loin carries carnosine in the low hundreds of mg per 100 g, comparable to or above the beef figure used. Turkey breast (carnosine-rich glycolytic white muscle) and tuna/skipjack and other pelagic fish (among the richest anserine sources known) are also absent, as is rabbit. The item's own claim that glycolytic white muscle far exceeds red oxidative muscle predicts these are rich, and none was checked.",
+   "CREATINE - rabbit muscle is named in the submission's own availability_note as measured at ~30 mmol/kg by Harris 1997 but given no food row, so the reader never sees it. Lamb, venison and other game muscle sit in the same range and are absent. Kangaroo is reported above the beef figure in the wider literature.",
+   "CAFFEINE - guarana is missing, and it is the single richest natural caffeine source (seed/powder roughly 2-6 g per 100 g, i.e. 25-75x brewed coffee per gram); it is also the ingredient that makes many energy products potent. Instant coffee powder on a dry basis (roughly 3-4 g per 100 g) and yerba mate are likewise absent. A list whose stated purpose is to show that ordinary items reach the dose omitted the items that overshoot it most easily.",
+   "TAURINE - scallops, mussels, octopus and squid are the classic wet-weight-rich taurine foods and none appears. This is a self-inflicted gap: the submission cites Laidlaw 1990 (PMID 2352336), which analysed 29 meats on an as-eaten basis, but uses it only for the negative 'no plant taurine' point, while sourcing its shellfish food rows from an umami/taste study's dry-weight figures and converting them with an admitted self-supplied moisture assumption. A wet-weight primary source was already in the citation list and went unused for exactly the rows that needed it. Dark turkey meat and tuna dark muscle are also omitted."
+  ],
+  "dose_gap_errors": [
+   "NITRATE, the recommended food target is wrong: 'roughly 8 mmol (about 130 g of rocket or 130 mL of concentrate) is the better food target'. At the EFSA median of 4,800 mg/kg (480 mg/100 g), 8 mmol = 496 mg of nitrate requires 103 g of rocket, not 130 g. Conversely 130 g of rocket delivers 624 mg = 10.06 mmol, a 26% overshoot of the stated target. CORRECTED FIGURE: about 103 g of rocket. (The companion 130 mL of concentrate is right: 8/8.4 x 140 = 133 mL.)",
+   "TAURINE, the oyster dose percentages are wrong because the source value is wrong. The submission used 2,046 mg/100 g dry weight for Kumamoto oyster; the paper reports 1,845.33. On its own 80-83% moisture assumption the corrected chain is: 314-369 mg/100 g as eaten (claimed 350-410), 235-277 mg per 75 g of meat (claimed 260-310), and 7.8-9.2% of a 3 g dose (claimed 9-10%). CORRECTED FIGURES: 1,845 mg/100 g dry, 314-369 mg/100 g wet, 235-277 mg per portion, 7.8-9.2% of dose.",
+   "BETA-ALANINE, the beef carnosine range low end is wrong by roughly 90-fold: 'carnosine in beef ranged from 0.003 to 418.7 mg/100 g across 21 muscles' (repeated in the food row and the dose_gap). The paper reports 0.012-18.508 umol/g wet tissue = 0.27-418.7 mg/100 g. CORRECTED FIGURE: 0.27-418.7 mg/100 g. The stated 0.003 mg/100 g is 30 ng/g, which no skeletal muscle can contain; it appears to be an unconverted umol/g-scale number left inside a mg/100 g range. The 418.7 high end is correct, and the taurine range in the same paragraph is converted correctly.",
+   "EVERYTHING ELSE CHECKS OUT. I re-derived roughly 90 further dose-gap and per-portion figures and found no other arithmetic fault. Confirmed correct: creatine 3 g = 763 g and 5 g = 1,272 g of raw beef at 393 mg/100 g; 667 g and 1,111 g on Balsom's 4.5 g/kg; 500-770 g of herring; all nine creatine per-portion and per-cent-of-dose values; the protein worked day (14.1+9.7+41.6+16.2+9.0+7.6 = 98.2 g, plus 24.9 g tuna = 123.1 g, over the 112 g target) and all twelve protein percentages; beta-alanine 923 g of broiler breast for 3.2 g, 3.15 kg counting carnosine alone, 3.8 kg of beef, over 20 kg of thigh, and the 39.4%/37.1% mass fractions; HMB 60 g of leucine at 5% conversion = 2.6 kg of cooked breast carrying about 800 g of protein, and 30 g/1.3 kg/400 g at 10%; quercetin 214-428 g of capers, 1.28-2.55 kg of red onion, 12.5-25 kg (70-140) of apples, and the 74% peeling loss; taurine 4.9 kg of beef, 6.3 kg of thigh, about 670 g of clam meat; all seven nitrate per-portion conversions at 62 mg/mmol and all six whole-vegetable gram requirements (rocket 78 g, butterhead 188 g, beetroot 338 g, iceberg 441 g, spinach 474 g, celery 537 g); the 100 mL beetroot-shot equivalence for 6 mmol; and the 47 g rocket ADI cross-check (3.7 mg/kg x 60 kg / 4.8 mg/g = 46 g)."
+  ],
+  "net_assessment": "This is a strong submission that survived adversarial checking better than expected. I verified 4 of 4 USDA FDC IDs (171890, 171891, 170273, 171477) down to NDB number, food description and nutrient value; all 14 CoFID 2021 food codes and protein values to the decimal, queried against the dataset itself, including the three I specifically suspected of being wrong (cottage cheese 9.4, boiled egg 14.1, red lentils 8.1); all 8 quercetin values with their sample counts and min-max ranges from Flavonoid Release 3.3; roughly 25 EFSA nitrate statistics across three tables plus five contextual claims verbatim; and 13 of 13 PMIDs/DOIs as real papers with correct titles, journals, years and pagination. No invented source, no fabricated PMID, no phantom FDC ID. Harris 1997, Harris 2006, Burke 2003, Wylie 2013, McCusker 2003, Hollman 1995, Laidlaw 1990, Ali 2019, BraCaffT and the Kochman matcha range were all confirmed exactly, several of them figure-for-figure. Three genuine numeric faults. (1) Kumamoto oyster taurine is 1,845.33 mg/100 g dry weight, not 'about 2,046', and the error propagates through three derived per-portion and per-cent-of-dose figures. (2) The beef carnosine range low end, 0.003 mg/100 g, should be 0.27 mg/100 g, a roughly 90-fold slip from leaving a umol/g figure unconverted; it is biologically impossible as printed and is repeated twice. (3) The recommended nitrate food target of 'about 130 g of rocket' for 8 mmol should be about 103 g. Beyond that, roughly 90 further dose-gap computations were re-derived and every one checked out, which is a genuinely unusual hit rate. Citation hygiene has two soft spots: Meat Sci 2004;68(2):201-7 is attributed to 'Purchas RW, Busboom JR' when the authors are Purchas, Rutherfurd, Pearce, Vather and Wilkinson (used twice), and the four-fold creatinine rise at 90 min/70 C is a lamb result applied to meat generally. The bivalve taurine values are cited to 'Table 3' but live in Figure 1B of what is actually an umami study, and five of the nine creatine food rows (herring, pork, salmon, cod, milk) rest entirely on a 1994 narrative review's compiled table with no traceable primary analysis and no database cross-check possible, so those should be marked indicative rather than established. The real weakness is classification, not arithmetic. The availability labels are applied inconsistently in both directions: beta-alanine is called TRACE while delivering 18% of its dose per portion, and quercetin is called RICH while delivering 7% at best, so the two labels are exactly backwards relative to each other and to the RICH label creatine earned at 13-20%. Beta-alanine should be RICH (dose-limited), and the submission's own cited paper contains a native chicken strain at 767 mg beta-alanine equivalent per 100 g (41% of a dose per breast) that it declined to use. HMB should be SYNTHETIC rather than TRACE, since the item lists no foods and its own verified text says food supplies no measurable preformed HMB. Bundling quercetin and taurine under one verdict is a structural error given their opposite dietary distributions and form problems. Food coverage is the other soft area, and notably it is soft in ways that make the food route look worse than it is: rhubarb at an EFSA median of 2,808 mg/kg reaches 6 mmol of nitrate in 132 g, which falsifies the claim that rocket is the only vegetable where the dose fits a normal portion, and ten more vegetables in the cited tables beat beetroot; turkey breast (35.0 g) and Parmesan (36.2 g) beat every protein food listed; dill, coriander, fennel leaves and yellow wax peppers all beat red onion for quercetin in the cited database; guarana is missing from a caffeine list; and scallops, mussels and octopus are missing from taurine even though the paper that would have supplied wet-weight values was already cited for a different point. Overall: the numbers are largely trustworthy and unusually well sourced, the arithmetic is 97% clean, and the substantive corrections needed are two wrong values, one wrong recommended target, two label reversals, one label upgrade to SYNTHETIC, one de-bundling, and a broader sweep of the source tables the authors already had open."
+ }
+}

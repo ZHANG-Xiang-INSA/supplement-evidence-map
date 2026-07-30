@@ -1,0 +1,779 @@
+{
+ "group": "minerals-b",
+ "items_assigned": [
+  "Magnesium",
+  "Calcium supplements on top of an adequate diet",
+  "Multivitamin / multimineral"
+ ],
+ "submission": {
+  "items": [
+   {
+    "supplement": "Magnesium",
+    "availability": "RICH",
+    "availability_note": "Magnesium sits in the chlorophyll molecule and in the outer layers of seeds and grains, so every unrefined plant food carries some. Nuts, seeds, cocoa, wholegrains, legumes and dark leafy greens are all meaningful contributors, and a mixed diet built on them reaches the adult RDA (420 mg/day men 31+, 320 mg/day women 31+, Institute of Medicine 1997) with no supplement. Refining is what strips it: wheat bran holds 389 mg/100 g while white bread holds 22 mg/100 g (CoFID 11-906 and 11-1145).",
+    "foods": [
+     {
+      "food": "Pumpkin (pepita) seed kernels, roasted, without salt",
+      "per_100g": "550 mg magnesium",
+      "portion": "1 oz small handful (28.35 g)",
+      "per_portion": "156 mg",
+      "pct_rda_or_dose": "37% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 170557 (SR Legacy)"
+     },
+     {
+      "food": "Chia seeds, dried",
+      "per_100g": "335 mg magnesium",
+      "portion": "1 oz (28.35 g)",
+      "per_portion": "95 mg",
+      "pct_rda_or_dose": "23% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 170554"
+     },
+     {
+      "food": "Brazil nuts, dried, unblanched",
+      "per_100g": "376 mg magnesium",
+      "portion": "1 oz, about 6 kernels (28.35 g)",
+      "per_portion": "107 mg",
+      "pct_rda_or_dose": "25% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 170569"
+     },
+     {
+      "food": "Cashew nuts, raw",
+      "per_100g": "292 mg magnesium",
+      "portion": "1 oz (28.35 g)",
+      "per_portion": "83 mg",
+      "pct_rda_or_dose": "20% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 170162; CoFID 14-811 gives 270 mg/100 g"
+     },
+     {
+      "food": "Almonds, whole raw kernels",
+      "per_100g": "270 mg magnesium",
+      "portion": "1 oz, about 23 kernels (28.35 g)",
+      "per_portion": "77 mg",
+      "pct_rda_or_dose": "18% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 170567; CoFID 14-896 gives the same 270 mg/100 g"
+     },
+     {
+      "food": "Sesame seed kernels, dried (decorticated)",
+      "per_100g": "345 mg magnesium",
+      "portion": "1 tbsp (8 g)",
+      "per_portion": "28 mg",
+      "pct_rda_or_dose": "7% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 169412"
+     },
+     {
+      "food": "Dark chocolate, 70-85% cacao solids",
+      "per_100g": "228 mg magnesium",
+      "portion": "1 oz, about a quarter of a 100 g bar (28.35 g)",
+      "per_portion": "65 mg",
+      "pct_rda_or_dose": "15% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 170273. Milk chocolate is far lower at 57 mg/100 g (CoFID 17-648), and 45-59% cacao is 146 mg/100 g (FDC 170271), so cacao percentage drives the number"
+     },
+     {
+      "food": "Cocoa powder, unsweetened",
+      "per_100g": "520 mg magnesium",
+      "portion": "1 heaped tbsp (5 g)",
+      "per_portion": "26 mg",
+      "pct_rda_or_dose": "6% of the 420 mg RDA",
+      "source": "CoFID 12-545 for composition. The 5 g spoon is a convention rather than a sourced weight, so treat the per-portion figure as indicative"
+     },
+     {
+      "food": "Spinach, boiled, drained, without salt",
+      "per_100g": "87 mg magnesium",
+      "portion": "1 cup cooked (180 g)",
+      "per_portion": "157 mg",
+      "pct_rda_or_dose": "37% of the 420 mg RDA on paper",
+      "source": "USDA FoodData Central FDC ID 168463. Oxalate binds a large share of this, so the absorbed amount is well below the label figure"
+     },
+     {
+      "food": "Black beans, mature seeds, boiled without salt",
+      "per_100g": "70 mg magnesium",
+      "portion": "1 cup (172 g)",
+      "per_portion": "120 mg",
+      "pct_rda_or_dose": "29% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 173735"
+     },
+     {
+      "food": "Quinoa, cooked",
+      "per_100g": "64 mg magnesium",
+      "portion": "1 cup cooked (185 g)",
+      "per_portion": "118 mg",
+      "pct_rda_or_dose": "28% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 168917. Raw quinoa is 210 mg/100 g (CoFID 14-843); the drop is water uptake, not loss"
+     },
+     {
+      "food": "Edamame / green soybeans, boiled, drained",
+      "per_100g": "60 mg magnesium",
+      "portion": "1 cup (180 g)",
+      "per_portion": "108 mg",
+      "pct_rda_or_dose": "26% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 169283; CoFID 13-667 gives 65 mg/100 g"
+     },
+     {
+      "food": "Oats, regular and quick, not fortified, dry",
+      "per_100g": "138 mg magnesium",
+      "portion": "1/3 cup dry, one porridge serving (27 g)",
+      "per_portion": "37 mg",
+      "pct_rda_or_dose": "9% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 173904; CoFID 11-788 porridge oats gives 114 mg/100 g"
+     },
+     {
+      "food": "Bread, wholemeal / whole-wheat, commercially prepared",
+      "per_100g": "75 mg magnesium",
+      "portion": "1 slice (32 g)",
+      "per_portion": "24 mg",
+      "pct_rda_or_dose": "6% of the 420 mg RDA",
+      "source": "USDA FoodData Central FDC ID 172688; CoFID 11-981 gives 66 mg/100 g"
+     }
+    ],
+    "dose_gap": "There is effectively no gap. Supplements are sold at 200 to 400 mg elemental magnesium, which is the whole daily requirement, and food covers that range easily. A worked day: 1 oz pumpkin seeds (156 mg) plus 1 cup cooked black beans (120 mg) plus 1 oz 70-85% dark chocolate (65 mg) is 341 mg before anything else on the plate is counted. Single-food routes are absurd by comparison: 400 mg from dark chocolate alone means 175 g of bar, roughly 1,000 kcal, and 400 mg from wholemeal bread alone means 533 g, about 17 slices. The safety asymmetry matters more than the arithmetic. The Institute of Medicine set the 350 mg/day upper limit for supplemental magnesium only, and it explicitly excludes magnesium naturally present in food and water; the EU Scientific Committee on Food set a comparable 250 mg/day limit for magnesium added through supplements or fortified foods. So 700 mg of magnesium from seeds and beans carries no upper limit, while 400 mg from tablets is already over the supplemental ceiling.",
+    "form_caveat": "The difference is dose kinetics rather than chemistry. Food delivers magnesium in small amounts across a day inside a matrix that slows release, so the unabsorbed fraction stays small and osmotic diarrhoea does not happen. A 400 mg bolus of a soluble magnesium salt leaves a large unabsorbed load in the gut lumen, and that load is the mechanism of the laxative effect that set the upper limit in the first place. Magnesium citrate and magnesium hydroxide are marketed as laxatives at doses close to supplement doses. In anyone with reduced renal clearance (CKD stage 4-5, elderly patients on multiple drugs) supplements can cause symptomatic hypermagnesaemia, while food magnesium is handled by renal excretion across the normal intake range. There is no situation where the food form is the risky one.",
+    "bioavailability": "Net absorption of dietary magnesium from a mixed diet is about 50%, falling to 15-36% at higher intakes (Institute of Medicine DRI report, NCBI Bookshelf NBK109816). Phytate is the main food inhibitor and can cut fractional absorption by up to 60% in a dose-dependent way, so the magnesium in bran, seeds and legumes is not fully realised. Oxalate does the same, which is why cooked spinach at 157 mg per cup delivers materially less than the number implies, and why spinach is the classic textbook answer that should not be the recommendation. Supplement forms differ sharply among themselves: Firoz and Graber (Magnesium Research 2001;14(4):257-262) measured fractional absorption of about 4% for magnesium oxide against 9-11% for the lactate, aspartate and chloride forms, and magnesium oxide is the cheapest and most widely sold form. A 400 mg magnesium oxide tablet can therefore deliver less absorbed magnesium than a handful of pumpkin seeds while producing the loose stools."
+   },
+   {
+    "supplement": "Calcium supplements on top of an adequate diet",
+    "availability": "RICH",
+    "availability_note": "Calcium is among the easiest nutrients to get from ordinary food. Dairy, calcium-set tofu, tinned fish eaten with the bones, fortified plant milks and fortified juice each deliver 200 to 860 mg per normal portion, and low-oxalate brassicas add 150 to 270 mg per cooked cup with better fractional absorption than milk. The adult reference intake of 1,000 mg/day (1,200 mg for women 51+, Institute of Medicine 2011) is reachable in three or four food choices. This entry concerns adding a supplement to a diet that already meets that target, which is a different question from correcting a real deficit.",
+    "foods": [
+     {
+      "food": "Tofu, raw, firm, prepared with calcium sulfate",
+      "per_100g": "683 mg calcium",
+      "portion": "1/2 cup (126 g)",
+      "per_portion": "861 mg",
+      "pct_rda_or_dose": "86% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 172475. Absorption 39-49% at a 200-250 mg load"
+     },
+     {
+      "food": "Tofu, firm, set with nigari (magnesium chloride) rather than calcium sulfate",
+      "per_100g": "201 mg calcium",
+      "portion": "1/2 cup (126 g)",
+      "per_portion": "253 mg",
+      "pct_rda_or_dose": "25% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 172448. Included as a contrast: the coagulant is the calcium source, so the same food ranges from 201 to 683 mg/100 g. Silken tofu can be as low as 31 mg/100 g (FDC 172462). The label must be checked"
+     },
+     {
+      "food": "Sardines, Atlantic, canned in oil, drained solids with bone",
+      "per_100g": "382 mg calcium",
+      "portion": "1 small can (3.75 oz, 92 g)",
+      "per_portion": "351 mg",
+      "pct_rda_or_dose": "35% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 175139; CoFID 16-440 gives 500 mg/100 g for sardines in olive oil. The bones are the calcium, so boneless fillets do not count: CoFID 16-438 sardine flesh only is 63 mg/100 g"
+     },
+     {
+      "food": "Calcium-fortified orange juice",
+      "per_100g": "140 mg calcium",
+      "portion": "1 cup (249 g)",
+      "per_portion": "349 mg",
+      "pct_rda_or_dose": "35% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 169920. Unfortified chilled orange juice is 11 mg/100 g (FDC 169100), so the entire figure is added mineral"
+     },
+     {
+      "food": "Yogurt, plain, low fat",
+      "per_100g": "183 mg calcium",
+      "portion": "1 pot (6 oz, 170 g)",
+      "per_portion": "311 mg",
+      "pct_rda_or_dose": "31% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 170886; CoFID 12-184 whole milk plain yogurt gives 200 mg/100 g. Fractional absorption 24.2% at a 523 mg load"
+     },
+     {
+      "food": "Fortified soy drink (with added calcium, vitamins A and D)",
+      "per_100g": "123 mg calcium",
+      "portion": "1 cup (243 g)",
+      "per_portion": "299 mg",
+      "pct_rda_or_dose": "30% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 172456; CoFID 12-523 gives 130 mg/100 g. Unfortified soy drink is 25 mg/100 g (FDC 172446), so all of it is added"
+     },
+     {
+      "food": "Milk, whole, 3.25% fat, with added vitamin D",
+      "per_100g": "113 mg calcium",
+      "portion": "1 cup / 240 ml (244 g)",
+      "per_portion": "276 mg",
+      "pct_rda_or_dose": "28% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 171265; CoFID 12-596 gives 120 mg/100 g. Fractional absorption reported across studies as 21.7-54.8%, typically around 30-32% at a 250 mg load"
+     },
+     {
+      "food": "Collard greens, boiled, drained",
+      "per_100g": "141 mg calcium",
+      "portion": "1 cup chopped (190 g)",
+      "per_portion": "268 mg",
+      "pct_rda_or_dose": "27% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 170407. Low oxalate, so absorption is in the brassica range of roughly 50%"
+     },
+     {
+      "food": "Salmon, pink, canned, drained solids (bones included)",
+      "per_100g": "283 mg calcium",
+      "portion": "3 oz (85 g)",
+      "per_portion": "241 mg",
+      "pct_rda_or_dose": "24% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 175175. The same fish with skin and bones removed drops to 60 mg/100 g (FDC 173724), a four-fold penalty for picking the bones out"
+     },
+     {
+      "food": "Cheddar cheese",
+      "per_100g": "710 mg calcium",
+      "portion": "1 slice (1 oz, 28 g)",
+      "per_portion": "199 mg",
+      "pct_rda_or_dose": "20% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 173414; CoFID 12-346 English Cheddar gives 739 mg/100 g. Fractional absorption 37.4% at a 498 mg load"
+     },
+     {
+      "food": "Turnip greens, boiled, drained",
+      "per_100g": "137 mg calcium",
+      "portion": "1 cup chopped (144 g)",
+      "per_portion": "197 mg",
+      "pct_rda_or_dose": "20% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 170466"
+     },
+     {
+      "food": "Kale, boiled, drained",
+      "per_100g": "150 mg calcium",
+      "portion": "1 cup cooked (118 g)",
+      "per_portion": "177 mg",
+      "pct_rda_or_dose": "18% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 169238; CoFID 13-649 curly kale boiled gives 231 mg/100 g. Fractional absorption 40.9% at a 288 mg load and 52.7% at an 83 mg load"
+     },
+     {
+      "food": "Bok choy / pak choi, boiled, drained",
+      "per_100g": "93 mg calcium",
+      "portion": "1 cup shredded (170 g)",
+      "per_portion": "158 mg",
+      "pct_rda_or_dose": "16% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 170391. Highest measured fractional absorption of any calcium food at 51.9-52.0% (Heaney et al., J Food Sci 1993;58:1378-1380)"
+     },
+     {
+      "food": "Tahini (sesame paste) from roasted and toasted kernels",
+      "per_100g": "426 mg calcium",
+      "portion": "1 tbsp (15 g)",
+      "per_portion": "64 mg",
+      "pct_rda_or_dose": "6% of the 1,000 mg reference intake",
+      "source": "USDA FoodData Central FDC ID 170189; CoFID 14-847 gives 680 mg/100 g. Whole sesame seeds are 670 mg/100 g (CoFID 14-844), but a tablespoon is only 8-15 g, so the portion does the work"
+     },
+     {
+      "food": "Spinach, boiled, drained (the answer that should not be given)",
+      "per_100g": "136 mg calcium",
+      "portion": "1 cup cooked (180 g)",
+      "per_portion": "245 mg on the label, roughly 12 mg actually absorbed",
+      "pct_rda_or_dose": "25% of the reference intake nominally, about 1% in reality",
+      "source": "USDA FoodData Central FDC ID 168463 for composition; fractional absorption of 5.1% at a 200 mg load from the Heaney and Weaver spinach work, tabulated in the Nutrients 2022 review of calcium absorption and food matrix effects (PMC8746734). Oxalate precipitates the calcium in the gut, so a cup of spinach delivers about the calcium of a tablespoon of milk"
+     }
+    ],
+    "dose_gap": "There is no gap to close, which is the whole point of this entry. Calcium supplements are sold at 500 to 600 mg elemental per tablet, and the trials that generated the safety signals gave 1,000 to 1,200 mg/day on top of whatever participants were already eating. Matching 1,000 mg from food takes: 3.6 cups of milk, or 141 g of Cheddar, or one 1/2-cup serving of calcium-set tofu (861 mg) plus one cup of cooked kale (177 mg), or three pots of yogurt, or two small cans of sardines plus a glass of fortified soy drink. Every one of those is a normal day of eating. So in a person whose diet already provides 1,000 mg, a 1,000 mg supplement does not fill a deficit, it doubles the intake and delivers the added half as a single soluble bolus. The correct framing is that the supplement is additive rather than corrective.",
+    "form_caveat": "The harms recorded in the trials attach to supplements, not to dietary calcium, and the proposed mechanism is the form itself. Food calcium arrives in small amounts inside a matrix across a whole meal and produces no sharp rise in serum calcium; a 500-1,000 mg dose of calcium carbonate or citrate produces a measurable postprandial spike, and that spike is the hypothesised driver of the vascular signal. The specific findings: in the Women's Health Initiative randomised trial, 36,282 postmenopausal women given 1,000 mg calcium carbonate plus 400 IU vitamin D3 daily for a mean 7 years had more clinically diagnosed urinary tract stones, hazard ratio 1.17 (95% CI 1.02-1.34), unrelated to baseline calcium intake (PMID 21525191). Bolland and colleagues' meta-analysis of calcium supplements without co-administered vitamin D reported a 27-31% relative increase in myocardial infarction (BMJ 2010, DOI 10.1136/bmj.c3691). In the 10-year MESA follow-up of 5,448 adults, supplement users had higher incident coronary artery calcification while the highest quintile of dietary calcium was associated with lower risk (Anderson et al., DOI 10.1161/JAHA.116.003815). Observational work in the same populations consistently finds higher dietary calcium associated with fewer kidney stones, the opposite direction to the supplement result. This is contested territory: a 2016 National Osteoporosis Foundation and American Society for Preventive Cardiology review concluded there was no demonstrable cardiovascular harm at total intakes up to 2,000-2,500 mg/day, and the meta-analyses have been criticised for relying on secondary endpoints and self-reported events. The defensible summary is that food calcium has no such signal attached to it in any dataset, so where the diet already reaches the target the supplement carries risk without a corresponding benefit. Two practical form points: calcium carbonate requires gastric acid and must be taken with food, so it is a poor choice for anyone on a proton pump inhibitor or with achlorhydria (calcium citrate does not have this dependency), and doses above about 500 mg saturate absorption, so a single 1,000 mg tablet is worse value than two 500 mg doses.",
+    "bioavailability": "Fractional absorption is where the food ranking is decided, and it inverts the raw milligram ranking. From the tabulated absorption studies (Nutrients 2022 review, PMC8746734; Heaney et al., J Food Sci 1993;58:1378-1380): bok choy 51.9-52.0%, kale 40.9% at a 288 mg load and 52.7% at 83 mg, broccoli 47.8%, calcium-set tofu 39.0-49.3%, cow milk 21.7-54.8% depending on load (about 30-32% at a typical 250 mg load), Cheddar 37.4%, yogurt 24.2%, calcium carbonate supplement roughly 22-24%, calcium citrate roughly 24%, and spinach 5.1%. Two consequences. First, low-oxalate brassicas beat both milk and supplements per milligram consumed, so a cup of bok choy at 158 mg delivers about the same absorbed calcium as 250 ml of milk. Second, spinach, rhubarb, beet greens and Swiss chard should be struck off calcium lists entirely; the oxalate precipitates the calcium in the gut and the food is close to useless for this purpose despite good label numbers. Fortified plant milks carry a specific practical failure: the added calcium salt is insoluble and sediments to the bottom of the carton, and the fortificant itself absorbs less well than dairy calcium (soy drink fortified with calcium carbonate 21.1%, with tricalcium phosphate 18.1%). An unshaken carton delivers a fraction of the label value, and the last glass delivers a dose nobody intended."
+   },
+   {
+    "supplement": "Multivitamin / multimineral",
+    "availability": "RICH",
+    "availability_note": "This is a product category rather than a molecule, and almost every nutrient inside it is abundant in ordinary food. A varied diet plus targeted correction of the two or three things a given person actually lacks covers the same ground, which is why the US Preventive Services Task Force concluded in 2022 that evidence is insufficient to recommend multivitamins for preventing cardiovascular disease or cancer, and recommended against beta-carotene and vitamin E supplements outright. One qualification on the RICH label: the molecules in the tablet are manufactured, and two of them (folic acid and cyanocobalamin) do not occur in food in those forms at all, so the nutrients are food-abundant while the pill is entirely synthetic. The nutrients people genuinely fall short on are a short list. The 2020-2025 Dietary Guidelines for Americans name calcium, potassium, vitamin D and dietary fibre as nutrients of public health concern, with iron and folate added in pregnancy. UK NDNS data adds magnesium (9% of men and 13% of women below the LRNI), selenium (25.8% of males and 50.3% of females below the LRNI) and iron in younger women (about a quarter below the LRNI), with mean vitamin D intakes below the RNI in every age and sex group. The food answers below are given for that handful rather than for all 25 tablet ingredients.",
+    "foods": [
+     {
+      "food": "Salmon, sockeye, cooked, dry heat (vitamin D)",
+      "per_100g": "16.7 ug vitamin D (670 IU)",
+      "portion": "3 oz fillet portion (85 g)",
+      "per_portion": "14.2 ug",
+      "pct_rda_or_dose": "95% of the 15 ug US RDA; 142% of the 10 ug UK RNI",
+      "source": "USDA FoodData Central FDC ID 173692"
+     },
+     {
+      "food": "Portabella mushrooms exposed to ultraviolet light, raw (vitamin D2)",
+      "per_100g": "28.4 ug vitamin D (1,135 IU)",
+      "portion": "1 cup diced (86 g)",
+      "per_portion": "24.4 ug",
+      "pct_rda_or_dose": "163% of the 15 ug RDA",
+      "source": "USDA FoodData Central FDC ID 170143. Only UV-treated mushrooms carry this; ordinary shop mushrooms have almost none, and the pack has to say so"
+     },
+     {
+      "food": "Herring, Atlantic, cooked, dry heat (vitamin D and B12)",
+      "per_100g": "5.4 ug vitamin D; 13.14 ug B12",
+      "portion": "1 fillet (143 g)",
+      "per_portion": "7.7 ug vitamin D; 18.8 ug B12",
+      "pct_rda_or_dose": "51% of the 15 ug vitamin D RDA; 783% of the 2.4 ug B12 RDA",
+      "source": "USDA FoodData Central FDC ID 175117"
+     },
+     {
+      "food": "Milk, whole, 3.25% fat, with added vitamin D (vitamin D and iodine)",
+      "per_100g": "1.3 ug vitamin D; 31 ug iodine",
+      "portion": "1 cup / 240 ml (244 g)",
+      "per_portion": "3.2 ug vitamin D; 76 ug iodine",
+      "pct_rda_or_dose": "21% of the 15 ug vitamin D RDA; 50% of the 150 ug iodine RNI",
+      "source": "Vitamin D from USDA FoodData Central FDC ID 171265; iodine from CoFID 12-596 (whole milk, pasteurised, average) with the portion weight taken from the same USDA entry"
+     },
+     {
+      "food": "Egg, whole, hard-boiled (vitamin D)",
+      "per_100g": "2.2 ug vitamin D",
+      "portion": "1 large egg (50 g)",
+      "per_portion": "1.1 ug",
+      "pct_rda_or_dose": "7% of the 15 ug RDA",
+      "source": "USDA FoodData Central FDC ID 173424"
+     },
+     {
+      "food": "Clams, mixed species, cooked, moist heat (vitamin B12)",
+      "per_100g": "98.89 ug B12",
+      "portion": "3 oz (85 g)",
+      "per_portion": "84.1 ug",
+      "pct_rda_or_dose": "3,504% of the 2.4 ug RDA",
+      "source": "USDA FoodData Central FDC ID 171975"
+     },
+     {
+      "food": "Beef liver, braised (B12, folate, haem iron)",
+      "per_100g": "70.58 ug B12; 253 ug folate; 6.54 mg iron",
+      "portion": "1 slice (68 g)",
+      "per_portion": "48.0 ug B12; 172 ug folate; 4.4 mg iron",
+      "pct_rda_or_dose": "2,000% of the B12 RDA; 43% of the 400 ug folate target; 24% of the 18 mg iron RDA for premenopausal women",
+      "source": "USDA FoodData Central FDC ID 168626. Retinol content is very high, so liver is unsuitable in pregnancy and should not be eaten more than about weekly"
+     },
+     {
+      "food": "Lentils, mature seeds, boiled without salt (folate)",
+      "per_100g": "181 ug folate",
+      "portion": "1 cup cooked (198 g)",
+      "per_portion": "358 ug",
+      "pct_rda_or_dose": "90% of the 400 ug/day target",
+      "source": "USDA FoodData Central FDC ID 172421"
+     },
+     {
+      "food": "Cod, flesh only, baked (iodine)",
+      "per_100g": "161 ug iodine",
+      "portion": "1 fillet (180 g)",
+      "per_portion": "290 ug",
+      "pct_rda_or_dose": "193% of the 150 ug RNI",
+      "source": "Iodine from CoFID 16-373; fillet weight from USDA FoodData Central FDC ID 171956 (1 fillet = 180 g). CoFID cod entries span 110-276 ug/100 g by cooking method, so any single figure is approximate"
+     },
+     {
+      "food": "Oysters, eastern, wild, cooked, moist heat (zinc)",
+      "per_100g": "78.6 mg zinc",
+      "portion": "6 medium (42 g)",
+      "per_portion": "33.0 mg",
+      "pct_rda_or_dose": "300% of the 11 mg RDA",
+      "source": "USDA FoodData Central FDC ID 171980"
+     },
+     {
+      "food": "Brazil nuts, dried, unblanched (selenium)",
+      "per_100g": "1,917 ug selenium",
+      "portion": "1 kernel (5 g)",
+      "per_portion": "96 ug",
+      "pct_rda_or_dose": "174% of the 55 ug RDA",
+      "source": "USDA FoodData Central FDC ID 170569. This is a mean, and it is the most soil-dependent number in food composition: nuts from selenium-poor Amazonian soils run an order of magnitude lower and nuts from selenium-rich soils higher, so no individual nut can be assumed to match it. Six kernels (28.35 g) at the USDA mean give 544 ug, above the 400 ug/day US upper limit, so the sensible instruction is one or two nuts rather than a handful"
+     },
+     {
+      "food": "Spinach, boiled, drained (the iron answer that does not work)",
+      "per_100g": "3.57 mg iron",
+      "portion": "1 cup cooked (180 g)",
+      "per_portion": "6.4 mg on the label",
+      "pct_rda_or_dose": "36% of the 18 mg RDA nominally, of which roughly 1-2% is absorbed",
+      "source": "USDA FoodData Central FDC ID 168463. Included as a warning: non-haem iron complexed with oxalate is among the least absorbable iron in the food supply, and spinach should not be offered as an iron food"
+     },
+     {
+      "food": "Kombu (dried kelp), shown as a hazard rather than a source (iodine)",
+      "per_100g": "440,670 ug iodine",
+      "portion": "1 g of dried kombu",
+      "per_portion": "4,407 ug",
+      "pct_rda_or_dose": "2,938% of the 150 ug RNI from a single gram",
+      "source": "CoFID 13-339. One gram overshoots the adult reference intake roughly thirtyfold and clears the EFSA adult upper level of 600 ug/day several times over. Wakame is 16,830 ug/100 g and nori 1,470 ug/100 g (CoFID 13-341 and 13-340), a 300-fold spread across three seaweeds sold in the same shop, and kelp-induced thyroid dysfunction is documented. Kelp is never a sensible iodine recommendation"
+     }
+    ],
+    "dose_gap": "There is no food equivalent of a multivitamin, because a multivitamin is not a nutrient. One tablet supplies roughly 100% of the reference intake for 20 or more nutrients simultaneously, and the only thing matching that profile is a varied diet, which by definition already supplies them. So the useful arithmetic is per nutrient, for the short list where shortfalls are real. Vitamin D is the one with a genuinely unbridgeable food gap at temperate latitudes in winter: 15 ug/day (US RDA) needs about 90 g of cooked sockeye salmon every day, or 1.15 litres of fortified milk, or 14 large eggs. The UK 10 ug/day RNI needs about 60 g of oily fish daily or 770 ml of fortified milk. UV-treated mushrooms are the only food that reaches it in one normal portion (24.4 ug per cup). This is where a supplement is defensible, and it argues for vitamin D on its own rather than a 25-ingredient tablet. Periconceptional folic acid is the second real case: 400 ug/day is food-achievable in bulk (about 220 g of cooked lentils daily) but the trial evidence that prevents neural tube defects is for supplemental folic acid, and food folate is both less bioavailable and more variable, so food substitution is not supported. B12 on a vegan diet is the third: there is no reliable unfortified plant source, so a supplement or fortified food is mandatory. For the rest of the tablet (vitamin C, vitamin A, thiamine, riboflavin, niacin, B6, vitamin E, vitamin K, zinc, selenium, copper) the food gap for anyone eating a normal mixed diet is zero. Two further mismatches: the potassium in a multivitamin is capped at about 99 mg against a 3,500 mg reference intake, so it cannot address the potassium shortfall the guidelines name, and the calcium is typically 100-200 mg, a fifth of a calcium supplement, so it does not function as one either. Fibre, the fourth named shortfall, is absent from every tablet.",
+    "form_caveat": "This category contains the clearest documented case of a whole food being safe while the isolated concentrate is harmful. Carotenoid-rich vegetables are consistently associated with lower lung cancer risk, while beta-carotene as a supplement increased lung cancer incidence in smokers and asbestos-exposed workers in the ATBC and CARET trials, and the USPSTF now recommends against it with moderate certainty that harms exceed benefits. Vitamin E supplements carry the same recommendation against. Preformed vitamin A as retinol in a tablet counts toward the 3,000 ug/day upper limit and is teratogenic at high intake, while beta-carotene in carrots does not convert quickly enough to reach toxicity. Folic acid in a tablet can partially mask the haematological signs of B12 deficiency while neurological damage continues, an effect food folate has not been shown to produce. Stacking is the underappreciated risk: a multivitamin alongside fortified breakfast cereal and a fortified plant drink can push folic acid, retinol, niacin and iron past their upper limits in someone who believes they are taking one tablet. Within the tablet itself, iron competes with zinc and copper for shared transporters and calcium interferes with iron uptake, so a combined product delivers less of each than the label states. And no tablet carries the fibre, the food-level potassium, or the polyphenols that account for much of the association between diet quality and outcomes, which is the structural reason a pill is not a diet.",
+    "bioavailability": "Form differences run in both directions, so blanket claims fail here. Iron: haem iron from meat and fish absorbs at roughly 15-35% and is largely insensitive to the rest of the meal, while non-haem iron from plants and from the ferrous salts in tablets ranges from about 2% to 20% depending on phytate, polyphenols, calcium and vitamin C eaten at the same time. Spinach iron sits at the bottom of that range because oxalate binds it, so the textbook answer is the wrong answer. Folate: folic acid from a supplement taken with food is roughly 85% bioavailable against about 50% for naturally occurring food folate, so here the synthetic form genuinely outperforms the food. Vitamin B12: food B12 is protein-bound and needs gastric acid and pepsin to release it, so older adults with atrophic gastritis and long-term proton pump inhibitor or metformin users often absorb crystalline B12 from a tablet better than B12 from a chop. Vitamin D: the D2 in UV-treated mushrooms raises and sustains serum 25(OH)D less efficiently than the D3 in oily fish and most supplements, so the 24.4 ug per cup is not fully equivalent to 24.4 ug from salmon. Vitamin K: the K1 in leafy greens is poorly released from the plant matrix and cleared fast, while the long-chain MK-7 in natto reaches higher and far longer-lasting serum concentrations, so a portion of natto and a portion of kale are not interchangeable despite sharing the label term. All four fat-soluble vitamins need fat in the same meal, which is why a multivitamin swallowed with black coffee delivers less than the panel claims."
+   }
+  ]
+ },
+ "verification_report": {
+  "group": "minerals-b",
+  "number_checks": [
+   {
+    "claim": "Pumpkin (pepita) seed kernels, roasted, without salt: 550 mg Mg/100 g; 156 mg per 28.35 g (FDC 170557)",
+    "verdict": "OK",
+    "authoritative_value": "550 mg/100 g; FDC 170557 = 'Seeds, pumpkin and squash seed kernels, roasted, without salt'; USDA's own portion table lists 1 oz = 28.35 g",
+    "correction": "None. 550 x 0.2835 = 155.9 mg; 37.1% of 420 mg.",
+    "source": "USDA SR Legacy April 2018 food_nutrient.csv (nutrient 1090), verified locally"
+   },
+   {
+    "claim": "Chia seeds, dried: 335 mg Mg/100 g; 95 mg per oz (FDC 170554)",
+    "verdict": "OK",
+    "authoritative_value": "335 mg/100 g for FDC 170554",
+    "correction": "None for the ID cited. Caveat worth adding: NIH ODS and newer FDC data list chia at ~111 mg/oz (~392 mg/100 g), so the SR Legacy figure is the low end of the current range.",
+    "source": "USDA SR Legacy April 2018, FDC 170554"
+   },
+   {
+    "claim": "Brazil nuts, dried, unblanched: 376 mg Mg/100 g; 107 mg per oz (FDC 170569)",
+    "verdict": "OK",
+    "authoritative_value": "376 mg/100 g; USDA portion label is literally '1 oz (6 kernels) = 28.35 g', matching the stated 'about 6 kernels'",
+    "correction": "None. 376 x 0.2835 = 106.6 mg.",
+    "source": "USDA SR Legacy April 2018, FDC 170569"
+   },
+   {
+    "claim": "Cashew nuts, raw: 292 mg Mg/100 g (FDC 170162); CoFID 14-811 gives 270 mg",
+    "verdict": "OK",
+    "authoritative_value": "FDC 170162 'Nuts, cashew nuts, raw' = 292 mg/100 g; CoFID 14-811 'Cashew nuts, kernel only, plain' = 270 mg/100 g",
+    "correction": "None. Both figures and both identifiers are exact.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021 sheet 1.4 Inorganics"
+   },
+   {
+    "claim": "Almonds, whole raw kernels: 270 mg Mg/100 g (FDC 170567); CoFID 14-896 gives the same 270",
+    "verdict": "OK",
+    "authoritative_value": "FDC 170567 'Nuts, almonds' = 270 mg/100 g; CoFID 14-896 'Almonds, whole kernels' = 270 mg/100 g; USDA portion label '1 oz (23 whole kernels)'",
+    "correction": "None. Even the '23 kernels' detail matches USDA's own portion descriptor.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Sesame seed kernels, dried (decorticated): 345 mg Mg/100 g; 28 mg per 8 g tbsp (FDC 169412)",
+    "verdict": "OK",
+    "authoritative_value": "345 mg/100 g; USDA portion 1 tbsp = 8 g",
+    "correction": "None. 345 x 0.08 = 27.6 mg.",
+    "source": "USDA SR Legacy April 2018, FDC 169412"
+   },
+   {
+    "claim": "Dark chocolate 70-85% cacao: 228 mg Mg/100 g (FDC 170273); milk chocolate 57 mg (CoFID 17-648); 45-59% cacao 146 mg (FDC 170271)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 170273 = 228 mg; FDC 170271 = 146 mg; CoFID 17-648 'Chocolate, milk' = 57 mg. Energy for 170273 = 598 kcal/100 g",
+    "correction": "None. All three figures exact.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Cocoa powder, unsweetened: 520 mg Mg/100 g (CoFID 12-545)",
+    "verdict": "OK",
+    "authoritative_value": "CoFID 12-545 'Cocoa powder' = 520 mg/100 g",
+    "correction": "None. The submission's own disclosure that the 5 g spoon is a convention rather than a sourced weight is appropriate.",
+    "source": "CoFID 2021 sheet 1.4 Inorganics"
+   },
+   {
+    "claim": "Spinach, boiled, drained: 87 mg Mg/100 g; 157 mg per 180 g cup (FDC 168463)",
+    "verdict": "OK",
+    "authoritative_value": "87 mg/100 g; USDA portion 1 cup = 180 g",
+    "correction": "None on the number. The accompanying oxalate write-down is wrong in direction (see misclassifications).",
+    "source": "USDA SR Legacy April 2018, FDC 168463"
+   },
+   {
+    "claim": "Black beans, boiled: 70 mg Mg/100 g; 120 mg per 172 g cup (FDC 173735)",
+    "verdict": "OK",
+    "authoritative_value": "70 mg/100 g; 1 cup = 172 g",
+    "correction": "None. 70 x 1.72 = 120.4 mg.",
+    "source": "USDA SR Legacy April 2018, FDC 173735"
+   },
+   {
+    "claim": "Quinoa, cooked: 64 mg Mg/100 g; 118 mg per 185 g cup (FDC 168917); raw 210 mg (CoFID 14-843)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 168917 = 64 mg/100 g, 1 cup = 185 g; CoFID 14-843 'Quinoa, raw' = 210 mg/100 g",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Edamame, boiled: 60 mg Mg/100 g; 108 mg per 180 g cup (FDC 169283); CoFID 13-667 gives 65 mg",
+    "verdict": "OK",
+    "authoritative_value": "FDC 169283 'Soybeans, green, cooked, boiled, drained, without salt' = 60 mg/100 g, 1 cup = 180 g; CoFID 13-667 = 65 mg",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Oats, not fortified, dry: 138 mg Mg/100 g; 37 mg per 27 g third-cup (FDC 173904); CoFID 11-788 porridge oats 114 mg",
+    "verdict": "OK",
+    "authoritative_value": "FDC 173904 = 138 mg/100 g, USDA portion 0.33 cup = 27 g; CoFID 11-788 'Porridge oats, unfortified' = 114 mg",
+    "correction": "None. Both the composition and the unusual 27 g portion weight come straight from USDA's portion table.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Wholemeal/whole-wheat bread: 75 mg Mg/100 g; 24 mg per 32 g slice (FDC 172688); CoFID 11-981 gives 66 mg",
+    "verdict": "OK",
+    "authoritative_value": "FDC 172688 = 75 mg/100 g, 1 slice = 32 g; CoFID 11-981 'Bread, wholemeal, average' = 66 mg",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Refining strips magnesium: wheat bran 389 mg/100 g vs white bread 22 mg/100 g (CoFID 11-906 and 11-1145)",
+    "verdict": "OK",
+    "authoritative_value": "CoFID 11-906 'Bran, wheat' = 389 mg; CoFID 11-1145 'Bread, white, average' = 22 mg",
+    "correction": "Both values exact, but the 18-fold framing compares a dry milling fraction against a ~40% water baked good. The like-for-like CoFID comparison is wholemeal bread 66 vs white 22, i.e. 3-fold.",
+    "source": "CoFID 2021 sheet 1.4 Inorganics"
+   },
+   {
+    "claim": "Tofu, raw, firm, prepared with calcium sulfate: 683 mg Ca/100 g; 861 mg per 126 g half-cup (FDC 172475)",
+    "verdict": "OK",
+    "authoritative_value": "683 mg/100 g; USDA portion 0.5 cup = 126 g",
+    "correction": "None. 683 x 1.26 = 860.6 mg.",
+    "source": "USDA SR Legacy April 2018, FDC 172475"
+   },
+   {
+    "claim": "Tofu 'set with nigari (magnesium chloride) rather than calcium sulfate': 201 mg Ca/100 g (FDC 172448)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "201 mg/100 g is exact, but FDC 172448 is described by USDA as 'Tofu, firm, prepared with calcium sulfate AND magnesium chloride (nigari)'",
+    "correction": "The number is right; the food description is wrong. This entry is a dual-coagulant tofu, not a calcium-sulfate-free one, so it cannot carry the 'nigari rather than calcium sulfate' contrast as cleanly as claimed.",
+    "source": "USDA SR Legacy April 2018, food.csv description for FDC 172448"
+   },
+   {
+    "claim": "Silken tofu can be as low as 31 mg Ca/100 g (FDC 172462)",
+    "verdict": "OK",
+    "authoritative_value": "31 mg/100 g; FDC 172462 = 'MORI-NU, Tofu, silken, extra firm'",
+    "correction": "None, though it is a single branded product rather than a generic silken tofu.",
+    "source": "USDA SR Legacy April 2018, FDC 172462"
+   },
+   {
+    "claim": "Sardines, Atlantic, canned in oil, drained solids with bone: 382 mg Ca/100 g, 351 mg per 92 g can (FDC 175139); CoFID 16-440 = 500 mg; CoFID 16-438 flesh only = 63 mg",
+    "verdict": "OK",
+    "authoritative_value": "FDC 175139 = 382 mg, USDA portion '1 can (3.75 oz) = 92 g'; CoFID 16-440 'Sardines, canned in olive oil, drained' = 500 mg; CoFID 16-438 = 63 mg",
+    "correction": "All values exact. Minor: 16-438 is 'Sardines, flesh only, grilled', not canned, so the bone-versus-boneless contrast also spans a change of preparation.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Calcium-fortified orange juice: 140 mg Ca/100 g, 349 mg per 249 g cup (FDC 169920); unfortified 11 mg (FDC 169100)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 169920 = 140 mg, 1 cup = 249 g; FDC 169100 = 11 mg",
+    "correction": "None. (USDA's description for 169920 is 'with added calcium' only, no vitamin D, which the submission correctly does not claim.)",
+    "source": "USDA SR Legacy April 2018"
+   },
+   {
+    "claim": "Yogurt, plain, low fat: 183 mg Ca/100 g, 311 mg per 170 g pot (FDC 170886); CoFID 12-184 whole milk yogurt 200 mg",
+    "verdict": "OK",
+    "authoritative_value": "FDC 170886 = 183 mg, USDA portion '1 container (6 oz) = 170 g'; CoFID 12-184 = 200 mg",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Fortified soy drink: 123 mg Ca/100 g, 299 mg per 243 g cup (FDC 172456); CoFID 12-523 = 130 mg; unfortified 25 mg (FDC 172446)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 172456 'Soymilk, original and vanilla, with added calcium, vitamins A and D' = 123 mg, 1 cup = 243 g; CoFID 12-523 = 130 mg; FDC 172446 = 25 mg",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Milk, whole 3.25%, added vitamin D: 113 mg Ca/100 g, 276 mg per 244 g cup (FDC 171265); CoFID 12-596 = 120 mg",
+    "verdict": "OK",
+    "authoritative_value": "FDC 171265 = 113 mg Ca and 1.3 ug vitamin D (51 IU), 1 cup = 244 g; CoFID 12-596 'Milk, whole, pasteurised, average' = 120 mg Ca, 31 ug iodine",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Collard greens, boiled: 141 mg Ca/100 g, 268 mg per 190 g cup (FDC 170407)",
+    "verdict": "OK",
+    "authoritative_value": "141 mg/100 g; 1 cup chopped = 190 g",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018, FDC 170407"
+   },
+   {
+    "claim": "Salmon, pink, canned, drained solids with bones: 283 mg Ca/100 g, 241 mg per 3 oz (FDC 175175); boneless 60 mg (FDC 173724), 'a four-fold penalty'",
+    "verdict": "OK",
+    "authoritative_value": "FDC 175175 = 283 mg; FDC 173724 'without skin and bones' = 60 mg",
+    "correction": "Values exact. The ratio is 4.7-fold, not four-fold. Note NIH ODS quotes a different entry (solids with bone, 181 mg/3 oz), so 283 mg/100 g is specific to the ID cited.",
+    "source": "USDA SR Legacy April 2018"
+   },
+   {
+    "claim": "Cheddar: 710 mg Ca/100 g, 199 mg per 28 g slice (FDC 173414); CoFID 12-346 English Cheddar 739 mg",
+    "verdict": "OK",
+    "authoritative_value": "FDC 173414 = 710 mg, USDA portion '1 slice (1 oz) = 28 g'; CoFID 12-346 = 739 mg",
+    "correction": "None. 710 x 0.28 = 198.8 mg.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Turnip greens, boiled: 137 mg Ca/100 g, 197 mg per 144 g cup (FDC 170466)",
+    "verdict": "OK",
+    "authoritative_value": "137 mg/100 g; 1 cup chopped = 144 g",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018, FDC 170466"
+   },
+   {
+    "claim": "Kale, boiled, drained: 150 mg Ca/100 g, 177 mg per 118 g cup (FDC 169238); CoFID 13-649 curly kale boiled 231 mg",
+    "verdict": "OK",
+    "authoritative_value": "FDC 169238 'Kale, cooked, boiled, drained, without salt' = 150 mg, 1 cup = 118 g; CoFID 13-649 = 231 mg",
+    "correction": "None for the IDs cited. Caveat: NIH ODS and newer FNDDS-based entries put cooked kale nearer 94 mg per cup, so the SR Legacy figure is the high end of current data.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Bok choy, boiled: 93 mg Ca/100 g, 158 mg per 170 g cup (FDC 170391)",
+    "verdict": "OK",
+    "authoritative_value": "93 mg/100 g; 1 cup shredded = 170 g",
+    "correction": "None on composition. The 'highest fractional absorption of any calcium food' claim attached to it is wrong (see misclassifications).",
+    "source": "USDA SR Legacy April 2018, FDC 170391"
+   },
+   {
+    "claim": "Tahini: 426 mg Ca/100 g, 64 mg per 15 g tbsp (FDC 170189); CoFID 14-847 = 680 mg; whole sesame 670 mg (CoFID 14-844)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 170189 = 426 mg, 1 tbsp = 15 g; CoFID 14-847 'Tahini paste' = 680 mg; CoFID 14-844 'Sesame seeds' = 670 mg",
+    "correction": "None. All three exact.",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Spinach, boiled: 136 mg Ca/100 g, 245 mg per cup, ~12 mg absorbed at 5.1% fractional absorption",
+    "verdict": "OK",
+    "authoritative_value": "FDC 168463 = 136 mg Ca; the Nutrients 2022 review table gives spinach 5.1% at a 200 mg load",
+    "correction": "None. 245 x 0.051 = 12.5 mg. This row is the strongest part of the entry.",
+    "source": "USDA SR Legacy April 2018; Nutrients 2022;14(1):180, PMC8746734 / PMID 35011055"
+   },
+   {
+    "claim": "Salmon, sockeye, cooked: 16.7 ug vitamin D (670 IU)/100 g, 14.2 ug per 3 oz (FDC 173692)",
+    "verdict": "OK",
+    "authoritative_value": "16.7 ug and 670 IU, both tabulated; 3 oz = 85 g",
+    "correction": "None. Note USDA also lists '0.5 fillet = 155 g' for this food, which gives 25.9 ug, relevant to the 'unbridgeable gap' claim.",
+    "source": "USDA SR Legacy April 2018, FDC 173692"
+   },
+   {
+    "claim": "Portabella mushrooms exposed to UV, raw: 28.4 ug vitamin D (1,135 IU)/100 g, 24.4 ug per 86 g cup (FDC 170143)",
+    "verdict": "OK",
+    "authoritative_value": "28.4 ug and 1,135 IU; USDA portion 1 cup diced = 86 g",
+    "correction": "None. But UV-exposed crimini/brown mushrooms (FDC 168557) are higher at 31.9 ug/100 g, and UV white mushrooms (FDC 169376) are 26.2 ug.",
+    "source": "USDA SR Legacy April 2018, FDC 170143"
+   },
+   {
+    "claim": "Herring, Atlantic, cooked: 5.4 ug vitamin D and 13.14 ug B12/100 g; 7.7 ug and 18.8 ug per 143 g fillet (FDC 175117)",
+    "verdict": "OK",
+    "authoritative_value": "5.4 ug vitamin D (214 IU), 13.14 ug B12; USDA portion 1 fillet = 143 g",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018, FDC 175117"
+   },
+   {
+    "claim": "Whole milk: 1.3 ug vitamin D and 31 ug iodine/100 g; 3.2 ug and 76 ug per cup",
+    "verdict": "OK",
+    "authoritative_value": "FDC 171265 vitamin D = 1.3 ug; CoFID 12-596 iodine = 31 ug/100 g",
+    "correction": "Composition exact. The iodine percentage is computed against a wrong reference value (see dose_gap_errors).",
+    "source": "USDA SR Legacy April 2018; CoFID 2021"
+   },
+   {
+    "claim": "Egg, whole, hard-boiled: 2.2 ug vitamin D/100 g, 1.1 ug per 50 g large egg (FDC 173424)",
+    "verdict": "OK",
+    "authoritative_value": "2.2 ug (87 IU); USDA portion 1 large = 50 g",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018, FDC 173424"
+   },
+   {
+    "claim": "Clams, mixed species, cooked: 98.89 ug B12/100 g, 84.1 ug per 3 oz (FDC 171975)",
+    "verdict": "OK",
+    "authoritative_value": "98.89 ug/100 g; 3 oz = 85 g",
+    "correction": "None (98.89 x 0.85 = 84.06 ug; the stated 3,504% follows from the rounded 84.1).",
+    "source": "USDA SR Legacy April 2018, FDC 171975"
+   },
+   {
+    "claim": "Beef liver, braised: 70.58 ug B12, 253 ug folate, 6.54 mg iron/100 g; 48.0/172/4.4 per 68 g slice (FDC 168626)",
+    "verdict": "OK",
+    "authoritative_value": "All three exact: B12 70.58 ug, folate 253 ug, iron 6.54 mg; USDA portion 1 slice = 68 g. Vitamin A = 9,442 ug RAE/100 g",
+    "correction": "None. The 9,442 ug RAE figure independently supports the pregnancy/weekly-limit caveat given.",
+    "source": "USDA SR Legacy April 2018, FDC 168626"
+   },
+   {
+    "claim": "Lentils, boiled: 181 ug folate/100 g, 358 ug per 198 g cup (FDC 172421)",
+    "verdict": "OK",
+    "authoritative_value": "181 ug (total folate and DFE both 181); 1 cup = 198 g",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018, FDC 172421"
+   },
+   {
+    "claim": "Cod, flesh only, baked: 161 ug iodine/100 g (CoFID 16-373); fillet 180 g (FDC 171956); CoFID cod entries span 110-276 ug/100 g",
+    "verdict": "OK",
+    "authoritative_value": "CoFID 16-373 = 161 ug; FDC 171956 portion '1 fillet = 180 g'; across the ten CoFID cod flesh entries the range is 110 ug (salted/smoked raw) to 276 ug (grilled)",
+    "correction": "None. The 110-276 span is exactly reproducible from CoFID.",
+    "source": "CoFID 2021 sheet 1.4 Inorganics; USDA SR Legacy food_portion.csv"
+   },
+   {
+    "claim": "Oysters, eastern, wild, cooked: 78.6 mg zinc/100 g, 33.0 mg per 6 medium (42 g) (FDC 171980)",
+    "verdict": "OK",
+    "authoritative_value": "78.6 mg/100 g; USDA portion '6 medium = 42 g'",
+    "correction": "None.",
+    "source": "USDA SR Legacy April 2018, FDC 171980"
+   },
+   {
+    "claim": "Brazil nuts: 1,917 ug selenium/100 g, 96 ug per 5 g kernel; six kernels (28.35 g) = 544 ug, above the 400 ug UL (FDC 170569)",
+    "verdict": "OK",
+    "authoritative_value": "1,917 ug/100 g; USDA portions '1 kernel = 5 g' and '1 oz (6 kernels) = 28.35 g'; US UL 400 ug/day",
+    "correction": "None (543.5 ug). The soil-variability caveat is appropriate and this is the best-handled row in the submission.",
+    "source": "USDA SR Legacy April 2018, FDC 170569"
+   },
+   {
+    "claim": "Spinach, boiled: 3.57 mg iron/100 g, 6.4 mg per 180 g cup (FDC 168463)",
+    "verdict": "OK",
+    "authoritative_value": "3.57 mg/100 g; 1 cup = 180 g",
+    "correction": "None. Unlike the magnesium case, the oxalate write-down is legitimate for iron.",
+    "source": "USDA SR Legacy April 2018, FDC 168463"
+   },
+   {
+    "claim": "Kombu 440,670 ug iodine/100 g (CoFID 13-339); wakame 16,830 (13-341); nori 1,470 (13-340); 300-fold spread",
+    "verdict": "OK",
+    "authoritative_value": "CoFID 13-339 'Seaweed, kombu, dried, raw' = 440,670 ug; 13-341 wakame = 16,830 ug; 13-340 nori = 1,470 ug. These are the top three iodine values in the whole CoFID dataset",
+    "correction": "None. 440,670/1,470 = 299.8, so '300-fold' is exact.",
+    "source": "CoFID 2021 sheet 1.4 Inorganics"
+   },
+   {
+    "claim": "Milk fractional calcium absorption reported as 21.7-54.8%",
+    "verdict": "WRONG",
+    "authoritative_value": "The cited review tabulates milk at 21.7-66.0% across calcium loads of 14.7-563 mg",
+    "correction": "Replace 54.8% with 66.0%. This matters because the paragraph uses the milk range to argue brassicas beat milk; the cited table's own upper bound for milk exceeds every brassica value listed.",
+    "source": "Nutrients 2022;14(1):180 (PMC8746734), fractional-absorption table"
+   },
+   {
+    "claim": "Bok choy has the 'highest measured fractional absorption of any calcium food at 51.9-52.0% (Heaney et al., J Food Sci 1993;58:1378-1380)'",
+    "verdict": "WRONG",
+    "authoritative_value": "The cited paper reports, at an identical 83 mg load: broccoli 0.478, bok choy stems 0.519, bok choy leaves 0.520, kale 0.527, and states the differences were 'both absolutely small and statistically insignificant'. Milk at the same load was 0.463",
+    "correction": "The 51.9-52.0% numbers are right but the superlative is contradicted by the same experiment: kale absorbed highest (52.7%), and the paper explicitly declines to rank them. Drop the superlative.",
+    "source": "Heaney, Weaver, Hinders, Martin, Packard, J Food Sci 1993;58:1378-1380, DOI 10.1111/j.1365-2621.1993.tb06187.x (abstract confirmed via Europe PMC)"
+   },
+   {
+    "claim": "Fortified plant milk: 'the fortificant itself absorbs less well than dairy calcium (calcium carbonate 21.1%, tricalcium phosphate 18.1%)'",
+    "verdict": "WRONG",
+    "authoritative_value": "Zhao, Martin, Weaver, J Nutr 2005;135(10):2379, PMID 16177199, is titled 'Calcium bioavailability of calcium carbonate fortified soymilk IS EQUIVALENT to cow's milk in young women' (milk 21.7% vs carbonate-fortified soymilk 21.1% at a 250 mg load). The cited Nutrients review says the same",
+    "correction": "Only the tricalcium phosphate form (18.1%) absorbs less well. The carbonate figure is a null result presented as a deficit. Restrict the claim to TCP-fortified products.",
+    "source": "PMID 16177199 (Europe PMC); Nutrients 2022;14(1):180 (PMC8746734)"
+   },
+   {
+    "claim": "Net absorption of dietary magnesium from a mixed diet is about 50%, falling to 15-36% at higher intakes (NCBI Bookshelf NBK109816)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "NBK109816 is confirmed as Chapter 6 (Magnesium) of the 1997 DRI report and states 'net absorption of approximately 40 to 60 percent' at an intake averaging 380 mg/day and '15 to 36 percent at higher daily intakes (550 to 850 mg)'",
+    "correction": "The 15-36% clause is verbatim correct. 'About 50%' is the midpoint of the source's 40-60%, but NIH ODS states 30-40% for public guidance, so the figure sits at the optimistic end; cite the range rather than a point estimate.",
+    "source": "NCBI Bookshelf NBK109816, IOM DRI for Calcium, Phosphorus, Magnesium, Vitamin D and Fluoride (1997), Ch. 6"
+   },
+   {
+    "claim": "UK NDNS: magnesium 9% of men and 13% of women below the LRNI; selenium 25.8% of males and 50.3% of females; iron about a quarter of younger women",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Could not be confirmed. The NDNS publication landing page carries only links; the LRNI tables are in separate downloadable files and the submission names no survey years, age band, or table number",
+    "correction": "Add the NDNS round (e.g. Years 9-11, 2016/17-2018/19), the age group, and the table reference. Figures given to one decimal place with no year attached are not checkable as written.",
+    "source": "gov.uk NDNS Years 9 to 11 statistics page (contains no in-page figures)"
+   },
+   {
+    "claim": "The EU Scientific Committee on Food set a 250 mg/day limit for magnesium added through supplements or fortified foods; EFSA adult iodine upper level 600 ug/day",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Both match the standard SCF/EFSA figures (SCF 2001 for magnesium, SCF 2002 for iodine). The EFSA 'Tolerable Upper Intake Levels for Vitamins and Minerals' compilation was retrieved and confirmed to contain a Magnesium chapter at p.107, but the body text could not be extracted in this session",
+    "correction": "No correction proposed; treat as consistent with the standard figures but cite the specific SCF opinion rather than the compilation.",
+    "source": "EFSA UL compilation PDF (table of contents extracted; body text not machine-readable here)"
+   },
+   {
+    "claim": "Vitamin D: 'UV-treated mushrooms are the only food that reaches it [15 ug] in one normal portion'",
+    "verdict": "WRONG",
+    "authoritative_value": "By USDA SR Legacy: canned sockeye salmon, drained solids (FDC 173693) = 21.0 ug/100 g, so 3 oz = 17.9 ug; rainbow trout, farmed, cooked (FDC 173718) = 19.0 ug/100 g, so 3 oz = 16.2 ug; cod liver oil (FDC 173577) = 250 ug/100 g, so 1 tsp ~ 11 ug; and the submission's own sockeye at USDA's listed 0.5-fillet portion (155 g) = 25.9 ug",
+    "correction": "At least three ordinary fish portions clear 15 ug. Rewrite as 'few foods reach it outside oily fish and UV mushrooms', and drop 'unbridgeable' for vitamin D from oily-fish eaters.",
+    "source": "USDA SR Legacy April 2018, FDC 173693 / 173718 / 173577 / 173692 (nutrient 1114)"
+   },
+   {
+    "claim": "Iodine percentages computed against 'the 150 ug iodine RNI' (milk 50%, cod 193%, kombu 2,938%)",
+    "verdict": "WRONG",
+    "authoritative_value": "The UK RNI for iodine is 140 ug/day for adults (NHS). 150 ug is the US RDA / EFSA adequate intake, neither of which is an 'RNI'",
+    "correction": "Against the 140 ug RNI: milk 54%, cod 207%, kombu 3,148% and a 31.5-fold overshoot. Either relabel the denominator as the US RDA or recompute against 140 ug; the entry mixes CoFID (UK) composition with a non-UK reference value.",
+    "source": "NHS 'Iodine' vitamins and minerals page: 'Adults need 140 micrograms of iodine a day'"
+   }
+  ],
+  "misclassifications": [
+   "Bok choy, calcium entry: labelled as having the 'highest measured fractional absorption of any calcium food at 51.9-52.0%', citing Heaney et al. J Food Sci 1993. That paper measured broccoli 47.8%, bok choy stems 51.9%, bok choy leaves 52.0% and kale 52.7% at an identical 83 mg load, and states the differences were 'absolutely small and statistically insignificant'. Kale ranked highest, and the submission's own bioavailability list contains the contradicting 52.7% figure two lines later. The superlative is unsupported by its own source.",
+   "Spinach as a magnesium source, magnesium entry: classified as a nominal-only contributor ('oxalate binds a large share of this', 'the classic textbook answer that should not be the recommendation'). The primary study behind the oxalate claim (Bohn et al., Br J Nutr 2004;91:601-606, spinach 26.7% vs kale 36.5% fractional Mg absorption) concludes the opposite: 'the lower fractional apparent Mg absorption from the test meal served with spinach can be assumed to be, at least partly, counterbalanced by the higher native Mg content of spinach as compared with kale.' Absorbed magnesium works out at roughly 42 mg per cooked cup of spinach (157 x 0.267) against roughly 11 mg for a cooked cup of kale (29.5 x 0.365). The 5.1%-absorption logic that correctly disqualifies spinach for calcium does not transfer to magnesium, where a 27% relative penalty leaves spinach one of the better absorbed-magnesium portions on the list.",
+   "Fortified plant milks, calcium entry: 'the fortificant itself absorbs less well than dairy calcium' is contradicted by the cited data. Zhao et al. (J Nutr 2005, PMID 16177199) found calcium-carbonate-fortified soymilk equivalent to cow's milk (21.1% vs 21.7% at a 250 mg load) and titled the paper accordingly; the Nutrients 2022 review the submission cites says the same. Only the tricalcium phosphate form (18.1%) is genuinely lower. The sedimentation point about unshaken cartons is separate and stands.",
+   "Vitamin D within the multivitamin entry: presented as a 'genuinely unbridgeable food gap' with UV mushrooms 'the only food that reaches it in one normal portion'. Three ordinary portions clear the 15 ug RDA on USDA data (canned sockeye 3 oz = 17.9 ug; farmed rainbow trout 3 oz = 16.2 ug; a USDA half-fillet of the entry's own sockeye = 25.9 ug), and cod liver oil delivers ~11 ug per teaspoon. The entry's own dose-gap line concedes 90 g of salmon per day, which is a normal portion, so the internal logic already contradicts 'unbridgeable'. The defensible claim is behavioural (few people eat oily fish daily at temperate latitudes in winter), not compositional.",
+   "Nigari tofu row, calcium entry: the food is described as 'set with nigari (magnesium chloride) rather than calcium sulfate', but USDA describes FDC 172448 as 'Tofu, firm, prepared with calcium sulfate AND magnesium chloride (nigari)'. The row is doing the work of showing that the coagulant determines the calcium content, and a dual-coagulant product is the wrong exhibit for that argument even though the 201 mg figure is correct.",
+   "Multivitamin entry classified RICH: defensible as a statement about the nutrients, and the entry is transparent that it is a product category rather than a molecule. But the classification sits alongside an in-entry claim that one constituent has an unbridgeable food gap. Once that claim is corrected (see above), RICH holds; as written the entry argues against its own label.",
+   "Overstated synthetic-form claim: 'folic acid and cyanocobalamin do not occur in food in those forms at all'. Folic acid is fair. Cyanocobalamin is reported in trace amounts in foods, and more directly, both forms are present in fortified foods, which the same entry treats as a legitimate B12 route ('a supplement or fortified food is mandatory'). Soften to 'are not the predominant natural food forms'.",
+   "No item on any of the three lists is a trace-amount food dressed up as a rich source. All 42 composition figures describe genuinely rich sources, and the two deliberate anti-recommendations (spinach for calcium and iron, kelp for iodine) are correctly framed as warnings rather than sources."
+  ],
+  "missing_foods": [
+   "Magnesium: sunflower seed kernels, dried, 325 mg/100 g (FDC 170562) and 390 mg/100 g in CoFID 14-845 (about 92-111 mg per oz) - a commonly eaten seed that would rank third on the list.",
+   "Magnesium: flaxseed/linseed, 392 mg/100 g (FDC 169414), higher than every nut listed and also 255 mg calcium.",
+   "Magnesium: wheat germ, crude, 239 mg/100 g (FDC 168892); and wheat bran itself, quoted at 389 mg/100 g in the availability note but never given a row (USDA crude wheat bran is 611 mg/100 g).",
+   "Magnesium: mineral and hard tap water. The entry's own upper-limit sentence excludes 'magnesium naturally present in food and water', yet no water source appears; some European mineral waters supply over 100 mg/L, which is a material share of a 420 mg target.",
+   "Magnesium: pine nuts 270 mg/100 g (CoFID 14-839) and melon seeds 510 mg/100 g (CoFID 14-826).",
+   "Calcium: hard cheeses, which beat the Cheddar row substantially. Parmesan 1,184 mg/100 g (FDC 170848), CoFID Parmesan 1,025 (12-526), Emmental 1,025 (12-493), Gruyere 950 (12-164). A 30 g piece of Parmesan is about 355 mg, more than the 1 oz Cheddar slice at 199 mg.",
+   "Calcium: UK bread. Because non-wholemeal flour is fortified with calcium carbonate by law, CoFID white bread average is 155 mg/100 g (11-1145) and wholemeal 106 mg/100 g (11-981), i.e. about 50 mg per 32 g slice. Bread is one of the largest contributors to UK calcium intake and is absent from a list that otherwise uses CoFID throughout.",
+   "Calcium: whitebait, in flour, fried, 860 mg/100 g (CoFID 16-231) - the whole-small-fish archetype, richer than either canned fish listed; also canned jack mackerel with bones, 241 mg/100 g (FDC 175121).",
+   "Calcium: fortified dried skimmed milk 1,280 mg/100 g (CoFID 12-521) and fortified instant hot oat cereal 1,336 mg/100 g (CoFID 11-792). Broccoli is discussed in the bioavailability paragraph at 47.8% absorption but never given a row, and almonds (269 mg/100 g) appear only under magnesium.",
+   "Vitamin D: cod liver oil, 250 ug/100 g (FDC 173577), about 11 ug per teaspoon - the most concentrated entry in the entire USDA vitamin D table and the historical answer to winter deficiency. Also canned sockeye salmon 21.0 ug/100 g (FDC 173693), farmed rainbow trout 19.0 ug/100 g (FDC 173718), salted mackerel 25.2 ug/100 g (FDC 168149), and fortified fat spread 17.5 ug/100 g (FDC 171415), the main UK non-fish vehicle. UV-exposed crimini mushrooms (31.9 ug, FDC 168557) outrank the portabella chosen.",
+   "Iodine: iodised salt, the global public-health iodine vehicle, is absent entirely from an entry that names only milk, cod, and kelp-as-hazard. Haddock is also omitted despite being much richer than the cod used - 421 ug/100 g grilled (CoFID 16-376) against 161 ug for baked cod - along with crab brown meat 333 ug (16-391), and the eggs and shellfish that the NHS lists among the four main sources.",
+   "Folate: the entry gives only lentils and liver. Fortified breakfast cereals, chickpeas, asparagus and edamame are omitted, and spinach's own 146 ug/100 g folate goes unmentioned while the spinach row is used solely as an iron warning."
+  ],
+  "dose_gap_errors": [
+   "Calcium, 'three pots of yogurt' as a route to 1,000 mg: 3 x 311 mg = 933 mg, which is 93% of the target, not a match. Corrected figure: 3.2 pots, i.e. about 546 g of low-fat yogurt.",
+   "Multivitamin, iodine denominators throughout the entry: percentages are computed against '150 ug RNI', but the UK RNI is 140 ug/day (NHS). Corrected figures: milk 1 cup 76 ug = 54% (stated 50%); cod fillet 290 ug = 207% (stated 193%); kombu 1 g 4,407 ug = 3,148% (stated 2,938%) and a 31.5-fold overshoot of the reference intake.",
+   "Multivitamin, vitamin D: 'UV-treated mushrooms are the only food that reaches it in one normal portion' is arithmetically false. Corrected figures: 3 oz canned sockeye salmon = 17.9 ug (119% of the 15 ug RDA), 3 oz farmed rainbow trout = 16.2 ug (108%), one USDA half-fillet (155 g) of the entry's own cooked sockeye = 25.9 ug (173%), 1 tsp cod liver oil = 11.3 ug (75%).",
+   "Calcium, bioavailability paragraph: the milk range used in the food-versus-supplement comparison is given as 21.7-54.8% where the cited table reads 21.7-66.0%. This is the number that decides the paragraph's central claim, since the corrected upper bound exceeds every brassica figure quoted.",
+   "Everything else reconciles. All 46 per-portion multiplications reproduce to within rounding, all 46 percentage-of-reference figures reproduce to within 1 percentage point, and the remaining dose-gap arithmetic is exact: magnesium 156+120+65 = 341 mg; 400 mg from dark chocolate = 175.4 g and 1,049 kcal ('roughly 1,000'); 400 mg from wholemeal bread = 533 g and 16.7 slices ('about 17'); 1,000 mg calcium = 3.62 cups of milk, 140.8 g of Cheddar, tofu 861 + kale 177 = 1,038 mg, two sardine cans plus soy drink = 1,001 mg; 15 ug vitamin D = 89.8 g sockeye, 1,154 ml fortified milk, 13.6 eggs; 10 ug = 59.9 g oily fish, 769 ml milk; 400 ug folate = 221 g cooked lentils; six Brazil nuts = 543 ug selenium against the 400 ug upper limit."
+  ],
+  "net_assessment": "Unusually strong on data, weaker on inference. I verified all 41 cited FDC IDs against the SR Legacy April 2018 dataset directly (food.csv, food_nutrient.csv, food_portion.csv) and all 24 cited CoFID codes against the CoFID 2021 dataset: every food description matches, every per-100 g nutrient value matches exactly, and every portion weight matches USDA's own portion table rather than being invented (including awkward ones like the 27 g third-cup of oats, the 92 g sardine can, the 68 g liver slice, the '1 oz = 23 whole kernels' almond portion, and the 110-276 ug iodine span across CoFID's ten cod entries, which reproduces precisely). Not one fabricated identifier and not one wrong composition figure. Arithmetic is equally clean: 46 of 46 per-portion multiplications and all percentage figures reproduce. Citations are real and accurately characterised where I could check them: PMID 21525191 (WHI, 36,282 women, HR 1.17, 95% CI 1.02-1.34, baseline calcium intake unrelated), BMJ 2010 c3691 (MI 1.31 patient-level, 1.27 trial-level, supporting '27-31%'), JAHA 116.003815 (MESA, 5,448 adults), PMC8746734 (Nutrients 2022;14(1):180), Firoz and Graber (PMID 11794633, magnesium oxide 4%), NBK109816 (DRI 1997 Ch. 6, '15 to 36 percent' verbatim), and the 2022 USPSTF statement. The failures are almost all one type: a cited source says something different from, or narrower than, the claim built on it. Three cases are substantive. The bok choy superlative is refuted by the very experiment cited, where kale absorbed highest and the authors declined to rank the vegetables. The soy fortificant claim inverts a study whose title states equivalence with cow's milk. And the spinach-magnesium write-down inverts Bohn 2004, which concluded the oxalate penalty is partly offset by spinach's higher magnesium content, so absorbed magnesium from a cup of spinach (about 42 mg) beats a cup of kale (about 11 mg) roughly fourfold. Alongside these: the vitamin D 'only food' claim is false against USDA's own table, the iodine percentages use a US reference value labelled as a UK RNI, one yogurt dose-gap route lands 7% short, and the NDNS shortfall statistics are given to one decimal place with no survey year, age band, or table, which makes them uncheckable. Recommended disposition: accept the composition tables and the arithmetic essentially as they stand; require correction of the four inference errors and the iodine denominator; require a citation for the NDNS figures; and add the omitted sources, most importantly hard cheeses and UK fortified bread for calcium, sunflower seeds and flaxseed for magnesium, cod liver oil and oily-fish canned forms for vitamin D, and iodised salt and haddock for iodine."
+ }
+}

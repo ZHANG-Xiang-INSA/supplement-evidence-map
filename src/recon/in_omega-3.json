@@ -1,0 +1,506 @@
+{
+ "group": "omega-3",
+ "items_assigned": [
+  "Omega-3 (EPA and DHA)",
+  "Krill oil",
+  "Cod liver oil",
+  "ALA from flaxseed, chia or walnut oil",
+  "Algal oil (vegan DHA and EPA)"
+ ],
+ "submission": {
+  "items": [
+   {
+    "supplement": "Omega-3 (EPA and DHA)",
+    "availability": "RICH",
+    "availability_note": "Oily fish supply EPA and DHA in gram quantities per ordinary portion, so this is one of the few supplement categories where food genuinely competes with capsules at physiological doses. One 130 g portion of salmon or one herring fillet delivers 2.4-2.9 g EPA+DHA, about ten times a single day's EFSA Adequate Intake of 250 mg (EFSA DRVs summary 2017; EFSA Journal 2010;8(3):1461, DOI 10.2903/j.efsa.2010.1461). One caution on the composition data: the USDA farmed-salmon entry reflects older analyses. In 3,000 Scottish farmed salmon, EPA+DHA fell from 2.74 g/100 g in 2006 to 1.36 g/100 g in 2015 as feed shifted from fish oil to vegetable oil (Sprague 2016, DOI 10.1038/srep21892), so treat the farmed-salmon figures below as an upper bound and roughly halve them for current farmed fish.",
+    "foods": [
+     {
+      "food": "Herring, Atlantic, cooked, dry heat",
+      "per_100g": "EPA 909 mg, DHA 1,100 mg (total 2,009 mg)",
+      "portion": "1 fillet (143 g)",
+      "per_portion": "EPA 1,300 mg, DHA 1,573 mg (total 2,873 mg)",
+      "pct_rda_or_dose": "1,149% of one day's 250 mg AI (11.5 days' worth); 72% of a 4 g/day pharmacological dose",
+      "source": "USDA FoodData Central FDC ID 175117 (SR Legacy)"
+     },
+     {
+      "food": "Salmon, Atlantic, farmed, cooked, dry heat",
+      "per_100g": "EPA 690 mg, DHA 1,457 mg (total 2,147 mg)",
+      "portion": "1 portion (130 g cooked, the portion size EFSA uses for oily fish)",
+      "per_portion": "EPA 897 mg, DHA 1,894 mg (total 2,791 mg)",
+      "pct_rda_or_dose": "1,116% of one day's 250 mg AI (11 days' worth); 70% of a 4 g/day dose. Halve these values for salmon farmed on current feeds (Sprague 2016)",
+      "source": "USDA FoodData Central FDC ID 175168 (SR Legacy); portion basis and feed-driven decline: DOI 10.1038/srep21892"
+     },
+     {
+      "food": "Salmon, Atlantic, wild, cooked, dry heat",
+      "per_100g": "EPA 411 mg, DHA 1,430 mg (total 1,841 mg)",
+      "portion": "1 portion (130 g cooked)",
+      "per_portion": "EPA 534 mg, DHA 1,859 mg (total 2,393 mg)",
+      "pct_rda_or_dose": "957% of one day's 250 mg AI (9.6 days' worth); 60% of a 4 g/day dose",
+      "source": "USDA FoodData Central FDC ID 171998 (SR Legacy)"
+     },
+     {
+      "food": "Anchovy, European, canned in oil, drained solids",
+      "per_100g": "EPA 763 mg, DHA 1,290 mg (total 2,053 mg)",
+      "portion": "1 tin, drained (45 g); 5 fillets = 20 g",
+      "per_portion": "Tin: EPA 343 mg, DHA 580 mg (total 924 mg). 5 fillets: EPA 153 mg, DHA 258 mg (total 411 mg)",
+      "pct_rda_or_dose": "Tin = 370% of one day's 250 mg AI (3.7 days' worth); 23% of a 4 g/day dose",
+      "source": "USDA FoodData Central FDC ID 174183 (SR Legacy)"
+     },
+     {
+      "food": "Mackerel, Atlantic, cooked, dry heat",
+      "per_100g": "EPA 504 mg, DHA 699 mg (total 1,203 mg)",
+      "portion": "1 fillet (88 g)",
+      "per_portion": "EPA 444 mg, DHA 615 mg (total 1,059 mg)",
+      "pct_rda_or_dose": "424% of one day's 250 mg AI (4.2 days' worth); 26% of a 4 g/day dose",
+      "source": "USDA FoodData Central FDC ID 175120 (SR Legacy)"
+     },
+     {
+      "food": "Sardine, Atlantic, canned in oil, drained solids with bone",
+      "per_100g": "EPA 473 mg, DHA 509 mg (total 982 mg)",
+      "portion": "1 tin, drained (92 g)",
+      "per_portion": "EPA 435 mg, DHA 468 mg (total 903 mg)",
+      "pct_rda_or_dose": "361% of one day's 250 mg AI (3.6 days' worth); 23% of a 4 g/day dose",
+      "source": "USDA FoodData Central FDC ID 175139 (SR Legacy)"
+     },
+     {
+      "food": "Tuna, white (albacore), canned in water, drained solids",
+      "per_100g": "EPA 233 mg, DHA 629 mg (total 862 mg)",
+      "portion": "1 small tin, drained (112 g)",
+      "per_portion": "EPA 261 mg, DHA 704 mg (total 965 mg)",
+      "pct_rda_or_dose": "386% of one day's 250 mg AI; 24% of a 4 g/day dose. Mercury 0.35 ppm puts it in the FDA/EPA 'Good Choices' band, one serving per week for pregnancy and children",
+      "source": "USDA FoodData Central FDC ID 175158 (SR Legacy); mercury: EPA-FDA fish advice technical information"
+     },
+     {
+      "food": "Trout, rainbow, farmed, cooked, dry heat",
+      "per_100g": "EPA 259 mg, DHA 616 mg (total 875 mg)",
+      "portion": "1 fillet (71 g)",
+      "per_portion": "EPA 184 mg, DHA 437 mg (total 621 mg)",
+      "pct_rda_or_dose": "248% of one day's 250 mg AI (2.5 days' worth); 16% of a 4 g/day dose",
+      "source": "USDA FoodData Central FDC ID 173718 (SR Legacy)"
+     },
+     {
+      "food": "Tuna, light, canned in water, drained solids",
+      "per_100g": "EPA 28 mg, DHA 196 mg (total 224 mg)",
+      "portion": "1 small tin, drained (112 g)",
+      "per_portion": "EPA 31 mg, DHA 220 mg (total 251 mg)",
+      "pct_rda_or_dose": "100% of one day's 250 mg AI; 6% of a 4 g/day dose. Tinned light tuna is a poor omega-3 source despite its reputation, roughly one ninth the content of herring per gram",
+      "source": "USDA FoodData Central FDC ID 173709 (SR Legacy)"
+     }
+    ],
+    "dose_gap": "Two separate gaps. (1) The physiological dose (EFSA AI 250 mg/day EPA+DHA, evidence range 250-500 mg/day) is easily met by food: one 143 g herring fillet per week averages 410 mg/day, one 130 g farmed salmon portion 399 mg/day, one wild salmon portion 342 mg/day. Two mackerel fillets, two 92 g tins of sardines or two 45 g tins of anchovies per week give 258-302 mg/day. Trout needs about 3 fillets/week (266 mg/day) and tinned light tuna needs 7-14 tins/week, which makes it unusable for this purpose. In portion terms: 250-500 mg/day = 0.6-1.3 salmon portions, 0.6-1.2 herring fillets, 1.7-3.3 mackerel fillets, 1.9-3.9 tins of sardines, 1.9-3.8 tins of anchovies, or 2.8-5.6 trout fillets per week. (2) The pharmacological dose of 4 g/day used in trials and in FDA-approved prescription products (AHA Science Advisory, Circulation 2019, DOI 10.1161/CIR.0000000000000709; REDUCE-IT used 4 g icosapent ethyl) cannot be eaten. It requires 199 g/day of herring (1.4 kg/week), 186 g/day of farmed salmon on 2006-era composition or 294 g/day on 2015 composition (1.3-2.1 kg/week), 333 g/day of mackerel (3.8 fillets a day), 407 g/day of sardines (4.4 tins a day), 195 g/day of anchovies (4.3 tins a day, with the sodium load that implies), or 464 g/day of tinned albacore, which would supply about 160 ug of methylmercury a day against FDA/EPA advice of one albacore serving a week for sensitive groups. Above roughly 1 g/day of EPA+DHA, supplements are the only realistic route.",
+    "form_caveat": "Whole fish and fish oil are not interchangeable in the evidence base. VITAL randomised 25,871 adults to 1 g/day of marine n-3 and found no reduction in major cardiovascular events (HR 0.92, 95% CI 0.80-1.06) or cancer (Manson 2019, PMID 30415637), while the benefit at 4 g/day in REDUCE-IT came from purified prescription EPA, not a food-equivalent mixture. High-dose omega-3 also carries an atrial fibrillation signal that eating fish does not. Contaminant tradeoff for large predatory fish: mean mercury is 1.45 ppm for Gulf of Mexico tilefish, 1.00 ppm for swordfish, 0.98 ppm for shark and 0.73 ppm for king mackerel, all above the FDA/EPA 0.46 ug/g 'avoid' cutoff, versus 0.01 ppm for sardine, 0.02 ppm for salmon and anchovy, 0.05 ppm for Atlantic mackerel, 0.07 ppm for trout, 0.08 ppm for herring and 0.13 ppm for canned light tuna, all inside the 0.15 ug/g 'Best Choices' band (EPA-FDA fish advice technical information; independent synthesis in Karimi 2012, PMID 22732656, gives grand means of 0.882 ppm for shark, 0.883 ppm for tilefish and 0.450 ppm for tuna). The tradeoff is unfavourable in a specific way: the high-mercury predators are also mediocre omega-3 sources (cooked swordfish supplies 108 mg EPA per 85 g, USDA SR Legacy abridged EPA table), so choosing small oily fish improves both sides at once. Dioxins are the opposite case, concentrating in the fat of oily fish. EFSA cut the tolerable weekly intake to 2 pg TEQ/kg body weight and reported it exceeded 5 to 15 fold across all European age groups, with fatty fish among the top contributors (EFSA Journal 2018;16(11):5333, DOI 10.2903/j.efsa.2018.5333). Refined fish oils must meet 1.75 pg WHO-TEQ/g fat for dioxins and 6.0 pg/g fat for dioxins plus dioxin-like PCBs (Regulation (EU) 2023/915), so a purified concentrate can carry a lower contaminant load per gram of EPA+DHA than the fish it came from. One processing detail: draining oil-packed tuna pours away omega-3. Canned white tuna in oil retains only about 66 mg EPA/100 g after draining versus 233 mg/100 g for the water-packed product (USDA SR Legacy abridged EPA table).",
+    "bioavailability": "Chemical form changes absorption measurably. Using natural triglyceride fish oil as the 100% reference at matched doses of 3.1-3.6 g/day, the bioavailability index was 124% for re-esterified triglyceride, 91% for free fatty acid and 73% for ethyl ester (Dyerberg 2010, PMID 20638827). Most cheap concentrates are ethyl esters, which also depend more on a fat-containing meal for absorption, so a 1,000 mg ethyl-ester capsule taken on an empty stomach does not deliver what the label implies. Fish is delivered as natural triglyceride inside a fat and protein matrix and needs no such allowance. Cooking method matters less than preparation: canning in oil and then draining removes omega-3, whereas canning in water and draining does not (see form caveat)."
+   },
+   {
+    "supplement": "Krill oil",
+    "availability": "RICH",
+    "availability_note": "The molecules krill oil delivers, EPA and DHA, are abundant in ordinary oily fish, and a 1-2 g/day krill oil dose is smaller than what a single tin of sardines provides. Krill itself is close to a non-food: Antarctic krill (Euphausia superba) is eaten as okiami in Japan and to a small extent in Russia and the Philippines, but the global catch is largely rendered into meal and oil, and the shell carries fluoride at roughly 4,260 mg F/kg fat-free dry matter in the carapace versus 570 mg/kg in raw muscle, so the exoskeleton has to be stripped before human consumption (Can J Fish Aquat Sci 1979, DOI 10.1139/f79-204; Tou 2007, PMID 17345959). Nobody reaches a krill oil dose by eating krill; they reach it by eating fish or by taking capsules. What is genuinely unavailable from food is the delivery form, EPA and DHA esterified to phospholipids rather than triglycerides, at 39.29-80.69% phospholipid in krill oil (Xie 2019, DOI 10.1111/1541-4337.12427), plus the astaxanthin that gives it its colour.",
+    "foods": [
+     {
+      "food": "Sardine, Atlantic, canned in oil, drained solids with bone",
+      "per_100g": "EPA 473 mg, DHA 509 mg (total 982 mg)",
+      "portion": "1 tin, drained (92 g)",
+      "per_portion": "EPA 435 mg, DHA 468 mg (total 903 mg)",
+      "pct_rda_or_dose": "129-320% of the EPA+DHA in a typical 2 g/day krill oil dose (280-700 mg)",
+      "source": "USDA FoodData Central FDC ID 175139 (SR Legacy); krill oil EPA+DHA range from PMID 39233519"
+     },
+     {
+      "food": "Anchovy, European, canned in oil, drained solids",
+      "per_100g": "EPA 763 mg, DHA 1,290 mg (total 2,053 mg)",
+      "portion": "1 tin, drained (45 g)",
+      "per_portion": "EPA 343 mg, DHA 580 mg (total 924 mg)",
+      "pct_rda_or_dose": "132-330% of a 2 g/day krill oil dose",
+      "source": "USDA FoodData Central FDC ID 174183 (SR Legacy)"
+     },
+     {
+      "food": "Mackerel, Atlantic, cooked, dry heat",
+      "per_100g": "EPA 504 mg, DHA 699 mg (total 1,203 mg)",
+      "portion": "1 fillet (88 g)",
+      "per_portion": "EPA 444 mg, DHA 615 mg (total 1,059 mg)",
+      "pct_rda_or_dose": "151-378% of a 2 g/day krill oil dose",
+      "source": "USDA FoodData Central FDC ID 175120 (SR Legacy)"
+     },
+     {
+      "food": "Herring, Atlantic, cooked, dry heat",
+      "per_100g": "EPA 909 mg, DHA 1,100 mg (total 2,009 mg)",
+      "portion": "1 fillet (143 g)",
+      "per_portion": "EPA 1,300 mg, DHA 1,573 mg (total 2,873 mg)",
+      "pct_rda_or_dose": "410-1,026% of a 2 g/day krill oil dose",
+      "source": "USDA FoodData Central FDC ID 175117 (SR Legacy)"
+     }
+    ],
+    "dose_gap": "There is effectively no gap, which is the useful finding. Measured EPA plus DHA in 20 commercial krill oils spanned 14.2-34.8% w/w of total fatty acids (Lee 2024, PMID 39233519, DOI 10.4014/jmb.2406.06026), so a 1 g capsule carries at most roughly 140-350 mg EPA+DHA and usually less once the phospholipid head groups are accounted for. Two capsules (2 g) therefore deliver about 280-700 mg, which is matched or beaten by one 92 g tin of sardines (903 mg), one 45 g tin of anchovies (924 mg) or one mackerel fillet (1,059 mg). Even at the top of the trial range, 4 g/day of krill oil supplies roughly 570-1,400 mg EPA+DHA, equal to 0.6-1.5 tins of sardines. Going the other way, matching a krill oil dose by eating krill is not a real option: the catch is not sold as food outside a small Japanese and Russian market, and the shell must be removed for fluoride reasons.",
+    "form_caveat": "Two things separate krill oil from both fish and fish oil. First, the phospholipid form, which is the actual product claim and cannot be obtained from fish, since fish store EPA and DHA mainly as triglycerides. Second, astaxanthin, which no oily fish portion supplies in comparable concentration. Neither has been shown to produce a clinical outcome that fish or fish oil does not. Against that, krill oil is the most expensive way to buy EPA and DHA per milligram, capsule doses are small enough that many products deliver less omega-3 than one tin of fish, it is a crustacean allergen, and whole krill or poorly processed krill meal carries the fluoride load of the exoskeleton. Sustainability is a genuine consideration given that Antarctic krill is the base of the Southern Ocean food web.",
+    "bioavailability": "The phospholipid form does appear to be absorbed at least as well as triglyceride and better than ethyl ester. In a crossover trial in 12 healthy men at a matched 1,680 mg EPA+DHA dose, incorporation into plasma phospholipids by area under the curve was 80.03% for krill oil, 59.78% for re-esterified triglyceride fish oil and 47.53% for ethyl ester fish oil, though with wide variance and no statistically significant difference for DHA or EPA+DHA combined (Schuchardt 2011, Lipids Health Dis, PMC3168413). The practical implication is modest: a krill capsule may deliver its contents somewhat more efficiently, but it contains so much less EPA and DHA than a portion of fish that absorption efficiency does not close the gap."
+   },
+   {
+    "supplement": "Cod liver oil",
+    "availability": "RICH",
+    "availability_note": "Cod liver oil is itself a traditional food-grade oil with a USDA composition entry, and everything it supplies is available from ordinary foods: EPA and DHA from oily fish, vitamin D from oily fish, vitamin A from any liver. What makes it distinctive is the concentration. One teaspoon (4.5 g) carries 806 mg EPA+DHA, 1,350 ug RAE of preformed vitamin A (4,500 IU) and 11.2 ug of vitamin D (450 IU). Cod liver is also eaten as a food in Nordic, Baltic and Russian cuisine (tinned cod liver), though a per-portion composition value from an authoritative table was not obtainable here, so no figure is given rather than an estimate.",
+    "foods": [
+     {
+      "food": "Fish oil, cod liver (the oil itself, taken by spoon as traditionally sold)",
+      "per_100g": "EPA 6,900 mg, DHA 11,000 mg (total 17,900 mg); vitamin A 30,000 ug RAE (100,000 IU); vitamin D 250 ug (10,000 IU)",
+      "portion": "1 teaspoon (4.5 g); 1 tablespoon = 13.6 g",
+      "per_portion": "1 tsp: EPA 310 mg, DHA 495 mg (total 806 mg), vitamin A 1,350 ug RAE, vitamin D 11.2 ug. 1 tbsp: EPA 938 mg, DHA 1,496 mg (total 2,434 mg), vitamin A 4,080 ug RAE, vitamin D 34 ug",
+      "pct_rda_or_dose": "1 tsp = 322% of one day's 250 mg EPA+DHA AI, 45% of the 3,000 ug/day vitamin A UL and 11% of the 100 ug/day vitamin D UL. 1 tbsp = 136% of the vitamin A UL on its own",
+      "source": "USDA FoodData Central FDC ID 173577 (SR Legacy); ULs: EFSA tolerable upper intake level summary (vitamin A, EFSA NDA Panel 2024; vitamin D, EFSA NDA Panel 2023)"
+     },
+     {
+      "food": "Herring, Atlantic, cooked, dry heat",
+      "per_100g": "EPA 909 mg, DHA 1,100 mg (total 2,009 mg)",
+      "portion": "1 fillet (143 g)",
+      "per_portion": "EPA 1,300 mg, DHA 1,573 mg (total 2,873 mg)",
+      "pct_rda_or_dose": "Equivalent to 3.6 teaspoons of cod liver oil for EPA+DHA, with none of the vitamin A load",
+      "source": "USDA FoodData Central FDC ID 175117 (SR Legacy)"
+     },
+     {
+      "food": "Sardine, Atlantic, canned in oil, drained solids with bone",
+      "per_100g": "EPA 473 mg, DHA 509 mg (total 982 mg)",
+      "portion": "1 tin, drained (92 g)",
+      "per_portion": "EPA 435 mg, DHA 468 mg (total 903 mg)",
+      "pct_rda_or_dose": "Equivalent to 1.1 teaspoons of cod liver oil for EPA+DHA",
+      "source": "USDA FoodData Central FDC ID 175139 (SR Legacy)"
+     }
+    ],
+    "dose_gap": "At physiological doses there is no gap and cod liver oil is efficient: 250-500 mg/day of EPA+DHA needs only 1.4-2.8 g of oil, about a third to two thirds of a teaspoon, carrying 419-838 ug RAE of vitamin A, comfortably inside the 3,000 ug/day UL. The gap opens at pharmacological doses, and it is a toxicity gap rather than a volume one. Reaching 4 g/day of EPA+DHA takes 22.3 g of cod liver oil, about 1.6 tablespoons, which delivers 6,704 ug RAE of preformed vitamin A, 2.2 times the EFSA adult UL, every day. Traditional cod liver oil therefore cannot be dose-escalated to the level used in triglyceride-lowering trials. That is what plain fish oil and purified concentrates exist for.",
+    "form_caveat": "This is the clearest case in this group where the concentrated product is hazardous in a way the food behaviour does not suggest. The vitamin A is preformed retinol, so it accumulates and is teratogenic. Anyone already taking a multivitamin, or pregnant, can exceed the 3,000 ug RAE/day UL on one tablespoon alone (4,080 ug). Doubling up cod liver oil with a separate vitamin D supplement is the other common stacking error. Note also that many modern products labelled cod liver oil are refined and have the vitamin A and D partly stripped and re-standardised, so the USDA generic entry above describes traditional oil and not necessarily what is in a given bottle: the label governs. Contaminants concentrate in liver, which is why the EU sets separate limits for fish liver and derived products (20.0 pg WHO-TEQ/g wet weight) alongside the 1.75 pg/g fat dioxin and 6.0 pg/g fat dioxin plus dioxin-like PCB limits for marine oils (Regulation (EU) 2023/915). Commercial cod liver oil is refined to meet those limits; home-rendered or artisanal liver oil is not.",
+    "bioavailability": "Cod liver oil is a natural triglyceride and was one of the natural-triglyceride comparators assigned the 100% reference index in the Dyerberg bioavailability comparison, against 124% for re-esterified triglyceride and 73% for ethyl ester at matched doses (PMID 20638827). Its fat-soluble vitamins come dissolved in the oil, which is the ideal vehicle, and that is precisely why the vitamin A is so efficiently absorbed and why overdose is easy. There is no absorption advantage over eating oily fish for the EPA and DHA."
+   },
+   {
+    "supplement": "ALA from flaxseed, chia or walnut oil",
+    "availability": "RICH",
+    "availability_note": "ALA is one of the easiest nutrients in this entire reference to obtain from food. EFSA sets the Adequate Intake at 0.5% of energy, about 1.1-1.4 g/day for a 2,000-2,500 kcal diet (EFSA DRVs summary 2017; DOI 10.2903/j.efsa.2010.1461). A single tablespoon of ground flaxseed exceeds it. The real question is not whether you can eat ALA but whether ALA becomes EPA and DHA in the body, and the answer is largely no for DHA.",
+    "foods": [
+     {
+      "food": "Oil, flaxseed, cold pressed",
+      "per_100g": "ALA 53.4 g",
+      "portion": "1 tablespoon (13.6 g)",
+      "per_portion": "ALA 7.26 g",
+      "pct_rda_or_dose": "660% of the 1.1 g/day ALA AI",
+      "source": "USDA FoodData Central FDC ID 167702 (SR Legacy)"
+     },
+     {
+      "food": "Seeds, chia seeds, dried",
+      "per_100g": "ALA 17.8 g",
+      "portion": "1 oz (28.35 g, roughly 2 tablespoons)",
+      "per_portion": "ALA 5.05 g",
+      "pct_rda_or_dose": "459% of the 1.1 g/day ALA AI",
+      "source": "USDA FoodData Central FDC ID 170554 (SR Legacy)"
+     },
+     {
+      "food": "Seeds, flaxseed, whole and ground",
+      "per_100g": "ALA 22.8 g",
+      "portion": "1 tablespoon whole (10.3 g) or 1 tablespoon ground (7.0 g)",
+      "per_portion": "Whole: ALA 2.35 g. Ground: ALA 1.60 g",
+      "pct_rda_or_dose": "213% (whole) or 145% (ground) of the 1.1 g/day ALA AI, though whole seeds pass through largely undigested, see bioavailability",
+      "source": "USDA FoodData Central FDC ID 169414 (SR Legacy)"
+     },
+     {
+      "food": "Nuts, walnuts, english, raw",
+      "per_100g": "ALA 9.08 g",
+      "portion": "1 oz (28.35 g, 14 halves)",
+      "per_portion": "ALA 2.57 g",
+      "pct_rda_or_dose": "234% of the 1.1 g/day ALA AI",
+      "source": "USDA FoodData Central FDC ID 170187 (SR Legacy)"
+     },
+     {
+      "food": "Oil, walnut",
+      "per_100g": "ALA 10.4 g",
+      "portion": "1 tablespoon (13.6 g)",
+      "per_portion": "ALA 1.41 g",
+      "pct_rda_or_dose": "129% of the 1.1 g/day ALA AI. Note walnut oil is a weak ALA source relative to flaxseed oil, about one fifth the concentration",
+      "source": "USDA FoodData Central FDC ID 171030 (SR Legacy)"
+     }
+    ],
+    "dose_gap": "For ALA itself, zero gap: one tablespoon of ground flaxseed (1.60 g), one ounce of walnuts (2.57 g) or one tablespoon of walnut oil (1.41 g) each exceed the 1.1-1.4 g/day AI, and one tablespoon of flaxseed oil supplies 7.26 g. The gap appears when ALA is sold as a substitute for EPA and DHA. Tracer studies bracket the conversion: in young women given 700 mg of labelled ALA, net fractional conversion was 21% to EPA, 6% to DPA and 9% to DHA (Burdge and Wootton 2002, PMID 12323090, DOI 10.1079/BJN2002689), while in young men roughly 33% of the dose was oxidised within 24 hours, EPA and DPA were the only meaningful products, and there was no detectable labelled DHA in plasma at any point over 21 days (Burdge, Jones and Wootton 2002, PMID 12323085, DOI 10.1079/bjn2002662). Whole-body estimates are lower still, commonly 0.1-0.5% for DHA. Working the arithmetic for a 250 mg/day target: at the optimistic 8-9% figure you need 2.8-3.1 g ALA/day, which is 1.2-1.3 tablespoons of whole flaxseed, so replacing EPA is plausible. At the 0.5% figure for DHA you need 50 g ALA/day, which is 219 g of flaxseed or roughly 100 mL of flaxseed oil daily, and at 0.1% you need 250 g ALA/day, over a kilogram of seed. No one eats that. State it plainly: flaxseed, chia and walnut oil can substitute for EPA at modest intakes and cannot supply DHA at any realistic intake. Feeding trials agree, with plasma DHA unchanged after a month of flaxseed in any form (Austria 2008, PMID 18689552).",
+    "form_caveat": "Form determines whether the ALA is absorbed at all, which is unusual among plant supplements. Over one month at matched ALA doses, flaxseed oil and milled flaxseed both raised plasma ALA significantly (oil higher than milled, P=0.004), while whole flaxseed produced no significant rise, and no group raised EPA or DHA (Austria 2008, PMID 18689552, DOI 10.1080/07315724.2008.10719693). Sprinkling whole seeds on food is close to decorative. Practical consequences: grind flaxseed, store it cold and use it quickly, because ALA at 53% of an oil is highly oxidisable and rancid flax oil is a pro-oxidant load rather than a benefit; flaxseed oil supplies ALA with none of the fibre or lignans of the seed; and conversion to EPA is suppressed by high dietary linoleic acid, so an ALA supplement taken alongside a diet heavy in sunflower or corn oil performs worse than the tracer figures suggest. Milled seed was also the best-tolerated form, with the oil and whole seed both causing gastrointestinal discomfort in that trial.",
+    "bioavailability": "Two sequential losses. First, absorption and delivery: oil beats milled seed beats whole seed, with whole seed showing no measurable plasma ALA response (Austria 2008). Second, metabolic conversion, where the same enzyme chain (delta-6 desaturase, elongase, delta-5 desaturase, then peroxisomal beta-oxidation for DHA) is shared with linoleic acid and is the real bottleneck: EPA yields of 8-21%, DPA 6-8%, and DHA anywhere from 9% down to undetectable, with women converting better than men, which is thought to reflect the demands of pregnancy and lactation. A third of an oral ALA dose is simply burned for energy within 24 hours."
+   },
+   {
+    "supplement": "Algal oil (vegan DHA and EPA)",
+    "availability": "TRACE",
+    "availability_note": "Classified TRACE because of who this supplement is for. Marine microalgae are the original producers of EPA and DHA in the ocean food web, and fish carry these fatty acids because they eat, directly or through zooplankton, the same organisms algal oil is grown from. Algal oil simply skips the fish. For an omnivore the compounds are RICH in food (see the Omega-3 entry: one herring fillet supplies 2,873 mg). For the vegan or vegetarian this product actually serves, no plant or fungal food supplies a meaningful amount. Raw laver (nori) has 80 mg EPA per 100 g and zero DHA, which is 2 mg of EPA per standard sheet. Dried spirulina, routinely marketed as an omega-3 food, contains 0.000 g of both EPA and DHA. The production organism itself is not a food: Schizochytrium sp. is a single-cell marine microalga cultured in fermenters and authorised in the EU as a novel food, with DHA at 40.5-46.3% of total fatty acids and EPA at only 0.5-0.6% in the strain assessed (EFSA Journal 2020;18(10):6242, DOI 10.2903/j.efsa.2020.6242).",
+    "foods": [
+     {
+      "food": "Seaweed, laver (nori), raw",
+      "per_100g": "EPA 80 mg, DHA 0 mg, ALA 1 mg",
+      "portion": "1 sheet (2.6 g; 10 sheets = 26 g)",
+      "per_portion": "EPA 2 mg, DHA 0 mg",
+      "pct_rda_or_dose": "0.8% of a 250 mg/day algal oil dose for EPA; 0% for DHA",
+      "source": "USDA FoodData Central FDC ID 168458 (SR Legacy)"
+     },
+     {
+      "food": "Seaweed, spirulina, dried",
+      "per_100g": "EPA 0 mg, DHA 0 mg",
+      "portion": "1 tablespoon (7 g)",
+      "per_portion": "EPA 0 mg, DHA 0 mg",
+      "pct_rda_or_dose": "0% of any algal oil dose. Included because spirulina and chlorella are frequently sold as vegan omega-3 sources and supply neither EPA nor DHA",
+      "source": "USDA FoodData Central FDC ID 170495 (SR Legacy)"
+     }
+    ],
+    "dose_gap": "For a vegan diet the gap is effectively infinite for DHA and absurd for EPA. Typical algal oil products and the EU authorised supplement conditions sit at 250 mg/day of DHA for the general adult population and 450 mg/day for pregnancy and lactation (EFSA Journal 2020;18(10):6242). Matching 250 mg of EPA from nori would take 312 g of raw laver, about 120 sheets a day. Matching any amount of DHA from nori is impossible, since the USDA value is 0.000 g, and spirulina supplies zero of both. There is no seaweed portion, no fermented food and no oilseed that closes this gap, which is why algal oil is one of the few supplements in this reference with a real and unavoidable role rather than an expensive alternative to a food. For an omnivore the same dose is one 45 g tin of anchovies (580 mg DHA, FDC 174183) or half a tin of sardines.",
+    "form_caveat": "The strain determines what you actually get. A DHA-dominant Schizochytrium oil at 40.5-46.3% DHA and 0.5-0.6% EPA is not an EPA supplement, so a product labelled vegan omega-3 may supply almost no EPA even though the label implies both, and buyers wanting EPA need a strain or blend selected for it. On the positive side, this is one case where the concentrated product is cleaner than the food: because the algae are grown in closed fermenters rather than harvested from the sea, algal oil avoids the methylmercury of predatory fish and the dioxin and PCB burden that makes fatty fish the leading dietary contributor to European dioxin exposure (EFSA Journal 2018;16(11):5333). The usual oxidation caveat applies, since a highly unsaturated oil in a clear bottle or an old capsule degrades, and the fishy aftertaste of an oxidised product is the tell. Do not substitute algae biomass powders (spirulina, chlorella) for algal oil, since they are different organisms with no DHA.",
+    "bioavailability": "Algal oil DHA is nutritionally equivalent to DHA from fish. A randomised trial comparing algal-oil capsules with cooked salmon found the two to be equivalent sources of DHA in terms of blood incorporation (Arterburn 2008, PMID 18589030, DOI 10.1016/j.jada.2008.04.020). Absorption follows the same rules as other marine oils, so the triglyceride forms behave like natural fish oil and take-with-a-meal advice applies. Some DHA retroconverts to EPA in the body, which partly offsets the very low EPA content of DHA-dominant algal oils, though not reliably enough to treat a DHA-only product as an EPA source."
+   }
+  ]
+ },
+ "verification_report": {
+  "group": "omega-3",
+  "number_checks": [
+   {
+    "claim": "Herring, Atlantic, cooked, dry heat: EPA 909 mg, DHA 1,100 mg (total 2,009 mg)/100 g; 1 fillet 143 g; portion 1,300/1,573/2,873 mg (FDC 175117)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 175117 'Fish, herring, Atlantic, cooked, dry heat': EPA 0.909 g, DHA 1.10 g, ALA 0.132 g per 100 g; 1 fillet = 143 g; 3 oz = 85 g",
+    "correction": "None. FDC ID, description, both fatty acids and the 143 g fillet all confirmed. Underlying SR Legacy DHA is 1.105 g, which FDC displays as 1.10; if the unrounded value is used the totals become 2,014 mg/100 g and 2,880 mg/fillet, so the submission is conservative by 7 mg.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/175117"
+   },
+   {
+    "claim": "Salmon, Atlantic, farmed, cooked: EPA 690 mg, DHA 1,457 mg (total 2,147 mg)/100 g; 130 g portion = 2,791 mg (FDC 175168)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 175168 'Fish, salmon, Atlantic, farmed, cooked, dry heat': EPA 0.690 g, DHA 1.46 g, ALA 0.113 g per 100 g; USDA portions are 3 oz = 85 g and 0.5 fillet = 178 g",
+    "correction": "None on composition. The 130 g portion is EFSA's oily-fish portion, not a USDA portion, and the submission correctly says so and correctly attributes it to Sprague 2016, whose text reads 'Based on a 130 g portion, as advised by EFSA'.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/175168; https://pmc.ncbi.nlm.nih.gov/articles/PMC4761991/"
+   },
+   {
+    "claim": "Salmon, Atlantic, wild, cooked: EPA 411 mg, DHA 1,430 mg (total 1,841 mg)/100 g; 130 g = 2,393 mg (FDC 171998)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 171998 'Fish, salmon, Atlantic, wild, cooked, dry heat': EPA 0.411 g, DHA 1.43 g, ALA 0.378 g per 100 g",
+    "correction": "None. 411 + 1,430 = 1,841; x1.3 = 534 + 1,859 = 2,393; 2,393/250 = 957%. All check.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/171998"
+   },
+   {
+    "claim": "Anchovy, European, canned in oil, drained: EPA 763 mg, DHA 1,290 mg (total 2,053 mg)/100 g; tin 45 g = 924 mg; 5 fillets 20 g = 411 mg (FDC 174183)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 174183 'Fish, anchovy, european, canned in oil, drained solids': EPA 0.763 g, DHA 1.29 g per 100 g; portions include 1 can (2 oz) = 45 g and 5 anchovies = 20 g; sodium 3,670 mg/100 g",
+    "correction": "None. Both the 45 g tin and the 20 g five-fillet measure are USDA's own portions. The submission's sodium aside in the dose_gap ('with the sodium load that implies') is well founded: 195 g/day of anchovies carries about 7.2 g sodium/day.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/174183"
+   },
+   {
+    "claim": "Mackerel, Atlantic, cooked: EPA 504 mg, DHA 699 mg (total 1,203 mg)/100 g; 1 fillet 88 g = 1,059 mg (FDC 175120)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 175120 'Fish, mackerel, Atlantic, cooked, dry heat': EPA 0.504 g, DHA 0.699 g, ALA 0.113 g per 100 g; 1 fillet = 88 g",
+    "correction": "None. 504x0.88 = 443.5, 699x0.88 = 615.1, total 1,058.6; stated 444/615/1,059 and 424% of 250 mg both correct.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/175120"
+   },
+   {
+    "claim": "Sardine, Atlantic, canned in oil, drained with bone: EPA 473 mg, DHA 509 mg (total 982 mg)/100 g; 1 tin 92 g = 903 mg (FDC 175139)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 175139 'Fish, sardine, Atlantic, canned in oil, drained solids with bone': EPA 0.473 g, DHA 0.509 g, ALA 0.498 g per 100 g; 1 can (3.75 oz) = 92 g",
+    "correction": "None. The 92 g tin is USDA's own portion.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/175139"
+   },
+   {
+    "claim": "Tuna, white (albacore), canned in water, drained: EPA 233 mg, DHA 629 mg (total 862 mg)/100 g; '1 small tin, drained (112 g)' = 965 mg = 386% of AI (FDC 175158)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "FDC 175158 'Fish, tuna, white, canned in water, drained solids': EPA 0.233 g, DHA 0.629 g per 100 g. USDA's own portions are 1 can = 172 g and 3 oz = 85 g. There is no 112 g measure in the record.",
+    "correction": "Per-100 g figures exact. The 112 g tin is the author's own assumption presented under a USDA citation. On USDA's 1 can = 172 g the tin gives 401 mg EPA + 1,082 mg DHA = 1,483 mg, i.e. 593% of the 250 mg AI and 37% of a 4 g dose, not 386% and 24%. Either state 112 g as a drained-weight assumption or use 85 g (733 mg, 293% of AI).",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/175158"
+   },
+   {
+    "claim": "Trout, rainbow, farmed, cooked: EPA 259 mg, DHA 616 mg (total 875 mg)/100 g; 1 fillet 71 g = 621 mg (FDC 173718)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 173718 'Fish, trout, rainbow, farmed, cooked, dry heat': EPA 0.259 g, DHA 0.616 g, ALA 0.080 g per 100 g; 1 fillet = 71 g",
+    "correction": "None. All three numbers and the fillet weight confirmed.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/173718"
+   },
+   {
+    "claim": "Tuna, light, canned in water, drained: EPA 28 mg, DHA 196 mg (total 224 mg)/100 g; '1 small tin (112 g)' = 251 mg = 100% of AI (FDC 173709)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "FDC 173709 'Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)': EPA 0.028 g, DHA 0.196 g per 100 g. USDA's own portions are 1 can = 165 g, 1 cup solid/chunks = 154 g, 1 can (12.5 oz) drained = 315 g, 3 oz = 85 g. No 112 g measure.",
+    "correction": "Per-100 g figures exact. The 112 g tin is not USDA's. On USDA's 165 g can the tin gives 46 mg EPA + 323 mg DHA = 370 mg, i.e. 148% of the AI, not 100%. The 'one ninth the content of herring per gram' comparison is sound (2,009/224 = 9.0).",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/173709"
+   },
+   {
+    "claim": "Fish oil, cod liver: EPA 6,900 mg, DHA 11,000 mg (17,900 total), vitamin A 30,000 ug RAE / 100,000 IU, vitamin D 250 ug / 10,000 IU per 100 g; 1 tsp 4.5 g, 1 tbsp 13.6 g (FDC 173577)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 173577 'Fish oil, cod liver': EPA 6.90 g, DHA 11.0 g, vitamin A RAE 30,000 ug, vitamin A 100,000 IU, vitamin D 250 ug / 10,000 IU per 100 g; portions 1 tsp = 4.5 g, 1 tbsp = 13.6 g, 1 cup = 218 g",
+    "correction": "None. Every figure in this row, including both household measures and both vitamin unit conversions (1,350 ug = 4,500 IU retinol; 11.25 ug = 450 IU), is exact.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/173577"
+   },
+   {
+    "claim": "Oil, flaxseed, cold pressed: ALA 53.4 g/100 g; 1 tbsp 13.6 g = 7.26 g (FDC 167702)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 167702 'Oil, flaxseed, cold pressed': ALA 53.4 g per 100 g; 1 tbsp = 13.6 g",
+    "correction": "None. 53.4 x 0.136 = 7.26 g; 7.26/1.1 = 660%.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/167702"
+   },
+   {
+    "claim": "Seeds, chia seeds, dried: ALA 17.8 g/100 g; 1 oz 28.35 g = 5.05 g (FDC 170554)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 170554 'Seeds, chia seeds, dried': ALA 17.8 g per 100 g; 1 oz = 28.35 g",
+    "correction": "None. 17.8 x 0.2835 = 5.05 g; 459% of 1.1 g.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/170554"
+   },
+   {
+    "claim": "Seeds, flaxseed: ALA 22.8 g/100 g; 1 tbsp whole 10.3 g = 2.35 g, 1 tbsp ground 7.0 g = 1.60 g (FDC 169414)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 169414 'Seeds, flaxseed': ALA 22.8 g per 100 g; portions 1 tbsp whole = 10.3 g, 1 tbsp ground = 7 g, 1 tsp whole = 3.4 g, 1 tsp ground = 2.5 g, 1 cup whole = 168 g",
+    "correction": "None. Both tablespoon weights are USDA's own, and 213%/145% are correct.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/169414"
+   },
+   {
+    "claim": "Nuts, walnuts, english, raw: ALA 9.08 g/100 g; 1 oz (14 halves) = 2.57 g (FDC 170187)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 170187 'Nuts, walnuts, english': ALA 9.08 g per 100 g; 1 oz (14 halves) = 28.35 g",
+    "correction": "None, including the '14 halves' descriptor, which is USDA's own.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/170187"
+   },
+   {
+    "claim": "Oil, walnut: ALA 10.4 g/100 g; 1 tbsp = 1.41 g; 'about one fifth the concentration' of flaxseed oil (FDC 171030)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 171030 'Oil, walnut': ALA 10.4 g per 100 g; 1 tbsp = 13.6 g",
+    "correction": "None. 10.4/53.4 = 0.195, so 'one fifth' is right, and 1.41 g = 129% of 1.1 g.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/171030"
+   },
+   {
+    "claim": "Seaweed, laver (nori), raw: EPA 80 mg, DHA 0 mg, ALA 1 mg per 100 g; 1 sheet 2.6 g = 2 mg EPA (FDC 168458)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 168458 'Seaweed, laver, raw': EPA 0.080 g, DHA 0.000 g, ALA 0.001 g per 100 g; 10 sheets = 26 g",
+    "correction": "None. The 2.6 g sheet is derived correctly from USDA's 10 sheets = 26 g, and 312 g / 120 sheets to reach 250 mg EPA is exact.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/168458"
+   },
+   {
+    "claim": "Seaweed, spirulina, dried: EPA 0 mg, DHA 0 mg; '0% of any algal oil dose' (FDC 170495)",
+    "verdict": "OK",
+    "authoritative_value": "FDC 170495 'Seaweed, spirulina, dried': EPA 0.000 g, DHA 0.000 g, ALA 0.823 g per 100 g; 1 tbsp = 7 g",
+    "correction": "EPA and DHA confirmed at zero, and the debunking point stands. One omission: the same record carries ALA 823 mg/100 g, i.e. 58 mg per 7 g tablespoon, so 'supply neither EPA nor DHA' is right but '0% of any algal oil dose' overshoots if read as 'no omega-3 at all'.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/170495"
+   },
+   {
+    "claim": "Canned white tuna in oil retains only about 66 mg EPA/100 g after draining versus 233 mg/100 g water-packed",
+    "verdict": "OK",
+    "authoritative_value": "FDC 175157 'Fish, tuna, white, canned in oil, drained solids': EPA 0.066 g, DHA 0.178 g per 100 g, versus FDC 175158 water-packed EPA 0.233 g, DHA 0.629 g",
+    "correction": "The EPA figures are exact. The submission understates its own case by quoting EPA only: DHA falls 629 to 178 mg as well, so total EPA+DHA drops from 862 to 244 mg/100 g, a 72% loss rather than the 72% EPA-only loss implied.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/175157"
+   },
+   {
+    "claim": "Cooked swordfish supplies 108 mg EPA per 85 g ('USDA SR Legacy abridged EPA table')",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Could not be confirmed. No FDC ID is given, and the SR Legacy swordfish record could not be located in this session (probes of 175149-175157 returned sturgeon, sucker, sunfish, trout wild, skipjack and the two canned white tunas).",
+    "correction": "Supply the FDC ID. Separately, the inference drawn from it is selective: SR Legacy swordfish is DHA-dominant, so an EPA-only figure makes swordfish look far weaker than its total EPA+DHA warrants, and 'the high-mercury predators are also mediocre omega-3 sources' is not established by a 108 mg EPA figure alone.",
+    "source": "https://fdc.nal.usda.gov/portal-data/external/175149 through /175157 (probe series)"
+   },
+   {
+    "claim": "Sprague 2016: EPA+DHA in Scottish farmed salmon fell from 2.74 g/100 g in 2006 to 1.36 g/100 g in 2015 in 3,000 fish (DOI 10.1038/srep21892)",
+    "verdict": "OK",
+    "authoritative_value": "Sprague, Dick & Tocher, Sci Rep 2016;6:21892, PMID 26899924, PMC4761991: 'decreasing on average from 2.74 g in 2006 to 1.36 g per 100 g wet weight (ww) serving in 2015'; abstract states 'over 3,000 Scottish Atlantic salmon farmed between 2006 and 2015' and 'requiring double portion sizes'",
+    "correction": "None. DOI, sample size, both values and the halving inference are all correct, and the paper independently confirms EFSA's 130 g oily-fish portion.",
+    "source": "https://api.crossref.org/works/10.1038/srep21892; https://pmc.ncbi.nlm.nih.gov/articles/PMC4761991/"
+   },
+   {
+    "claim": "Schizochytrium sp. oil: DHA 40.5-46.3% and EPA 0.5-0.6% of total fatty acids (EFSA Journal 2020;18(10):6242)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "EFSA Journal 2020;18(10):6242, PMC7569503: specification DHA >=32.0% of total fatty acids, with strain WZU477 batches at 40.5-46.3%; EPA approximately 0.56%, which the Panel explicitly contrasts with other authorised Schizochytrium strains at 1.3-6% EPA",
+    "correction": "The DHA range is exact. EPA is a single value (~0.56%) for one strain, not a 0.5-0.6% range, and the submission's generalisation in form_caveat ('a product labelled vegan omega-3 may supply almost no EPA') is contradicted by the source itself, which records 1.3-6% EPA in other authorised strains. Say 'this strain', not 'a DHA-dominant Schizochytrium oil'.",
+    "source": "https://api.crossref.org/works/10.2903/j.efsa.2020.6242; https://pmc.ncbi.nlm.nih.gov/articles/PMC7569503/"
+   },
+   {
+    "claim": "'The EU authorised supplement conditions sit at 250 mg/day of DHA for the general adult population and 450 mg/day for pregnancy and lactation (EFSA Journal 2020;18(10):6242)'",
+    "verdict": "WRONG",
+    "authoritative_value": "EFSA Journal 2020;18(10):6242 is 'Safety of Schizochytrium sp. oil as a novel food pursuant to Regulation (EU) 2015/2283' and assesses strain WZU477 for use in infant formula and follow-on formula only, at 20-50 mg DHA/100 kcal per Regulation (EU) 2016/127. PMC7569503 states 'no daily limits are specified for this application' and that the oil is 'an ingredient in IF and FOF only, not as a standalone supplement'.",
+    "correction": "The cited opinion contains neither the 250 mg/day nor the 450 mg/day figure and does not cover supplements. Those conditions of use belong to the Union list of novel foods (Regulation (EU) 2017/2470) entry for Schizochytrium oil, which should be cited instead. This is the one hard miscitation in the submission.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7569503/"
+   },
+   {
+    "claim": "Measured EPA+DHA in 20 commercial krill oils spanned 14.2-34.8% w/w of total fatty acids (Lee 2024, PMID 39233519, DOI 10.4014/jmb.2406.06026)",
+    "verdict": "OK",
+    "authoritative_value": "PMID 39233519, 'Analysis of Fatty Acid Compositions and Acid Values of Krill Oil Supplementary Products from the Korean Market', J Microbiol Biotechnol 2024, DOI 10.4014/jmb.2406.06026: EPA and DHA percentages spanned 14.2-34.8%",
+    "correction": "Range, PMID and DOI all confirmed. Add the sampling caveat the title carries: these are Korean-market products, so 'commercial krill oils' generalises from one national market.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39233519"
+   },
+   {
+    "claim": "Schuchardt 2011: 12 healthy men, matched 1,680 mg EPA+DHA, AUC incorporation 80.03% krill / 59.78% rTG / 47.53% EE, no significant difference for DHA or EPA+DHA (PMC3168413)",
+    "verdict": "OK",
+    "authoritative_value": "PMC3168413: 12 healthy males, mean age 31 +/- 5; matched 1,680 mg EPA+DHA; AUC 0-72 h 80.03 +/- 34.71 %*h krill oil, 59.78 +/- 36.75 %*h rTAG, 47.53 +/- 38.42 %*h EE; EPA p = 0.057 (trend only), DHA p = 0.246, EPA+DHA p = 0.119",
+    "correction": "All figures exact, including the honest 'wide variance and no statistically significant difference' caveat. Two refinements: the units are %*h, not %, and the paper notes 22% of the krill oil's EPA and 21% of its DHA were present as free fatty acids, which is a plausible alternative explanation for the krill result that the submission attributes to the phospholipid form.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3168413/"
+   },
+   {
+    "claim": "Dyerberg 2010: bioavailability index 124% rTG, 91% FFA, 73% EE against natural triglyceride at 3.1-3.6 g/day (PMID 20638827)",
+    "verdict": "OK",
+    "authoritative_value": "PMID 20638827, 'Bioavailability of marine n-3 fatty acid formulations', Prostaglandins Leukot Essent Fatty Acids 2010, DOI 10.1016/j.plefa.2010.06.007: re-esterified triglycerides 124% versus fish oil, ethyl esters 73%",
+    "correction": "PMID, DOI and the two load-bearing values (124%, 73%) confirmed. The 91% free-fatty-acid figure and the 3.1-3.6 g/day dose range were not independently confirmed in this session; both are consistent with the paper as usually cited.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20638827"
+   },
+   {
+    "claim": "VITAL: 25,871 adults, 1 g/day marine n-3, major CV events HR 0.92 (95% CI 0.80-1.06), no cancer reduction (Manson 2019, PMID 30415637)",
+    "verdict": "OK",
+    "authoritative_value": "PMID 30415637, NEJM 2019, DOI 10.1056/nejmoa1811403: 25,871 participants over 5.3 years, no reduction in major cardiovascular events (HR 0.92) or cancer incidence (HR 1.03)",
+    "correction": "Sample size, HR, CI and the null cancer result all confirmed. One precision point: the intervention was a 1 g capsule supplying 840 mg EPA+DHA (460 EPA / 380 DHA), so '1 g/day of marine n-3' overstates the delivered dose by about 20%.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30415637"
+   },
+   {
+    "claim": "Karimi 2012 grand means: 0.882 ppm shark, 0.883 ppm tilefish, 0.450 ppm tuna (PMID 22732656)",
+    "verdict": "OK",
+    "authoritative_value": "PMID 22732656, Environ Health Perspect 2012, DOI 10.1289/ehp.1205122, PMC3556626: shark 0.882 ppm (n=3,722), tilefish all 0.883 ppm (n=109), tuna fresh/frozen 0.450 ppm (n=3,780), yellowfin 0.270 ppm (n=1,183)",
+    "correction": "All three values exact to three decimals. Label the tuna figure precisely: 0.450 ppm is fresh/frozen tuna, not canned, which matters because the same paragraph quotes canned light tuna at 0.13 ppm.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3556626/"
+   },
+   {
+    "claim": "FDA/EPA mean mercury block: tilefish (Gulf of Mexico) 1.45, swordfish 1.00, shark 0.98, king mackerel 0.73, albacore 0.35, canned light tuna 0.13, sardine 0.01, salmon and anchovy 0.02, Atlantic mackerel 0.05, trout 0.07, herring 0.08 ppm; 0.46 ug/g 'avoid' and 0.15 ug/g 'Best Choices' cutoffs",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Not confirmable in this session. Four FDA/EPA URLs returned 404 and the surviving EPA page states 'specific mercury ppm thresholds are not stated on this page'. That page does confirm the qualitative placements: anchovies, Atlantic mackerel, sardines and trout are all 'Best Choices'.",
+    "correction": "Cite the specific FDA table with its title and date. The tilefish figure is the one to re-check: FDA's published mean for Gulf of Mexico tilefish is generally cited as 1.123 ppm, not 1.45 ppm, which would also make the submission's tilefish/Karimi comparison (1.45 vs 0.883) look like a larger discrepancy than it is. The dependent calculation (464 g albacore x 0.35 ppm = 162 ug methylmercury) is arithmetically right but inherits the unverified 0.35.",
+    "source": "https://www.epa.gov/choose-fish-and-shellfish-wisely/epa-fda-advice-about-eating-fish-and-shellfish"
+   },
+   {
+    "claim": "Krill fluoride 4,260 mg F/kg fat-free dry matter in carapace versus 570 mg/kg in raw muscle (Can J Fish Aquat Sci 1979, DOI 10.1139/f79-204; Tou 2007, PMID 17345959)",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Both citations exist. DOI 10.1139/f79-204 is Soevik & Braekkan, 'Fluoride in Antarctic Krill (Euphausia superba) and Atlantic Krill (Meganyctiphanes norvegica)', Journal of the Fisheries Research Board of Canada 1979;36(11):1414-1416. PMID 17345959 is Tou, 'Krill for human consumption: nutritional value and potential health benefits', Nutr Rev 2007. Neither full text was retrievable to check the two fluoride values.",
+    "correction": "The journal name is wrong: in 1979 it was the Journal of the Fisheries Research Board of Canada, renamed Canadian Journal of Fisheries and Aquatic Sciences in 1980. The 4,260 and 570 mg/kg values remain unverified, so attribute each to whichever of the two papers actually reports it.",
+    "source": "https://api.crossref.org/works/10.1139/f79-204; https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17345959"
+   },
+   {
+    "claim": "Krill oil is 39.29-80.69% phospholipid (Xie 2019, DOI 10.1111/1541-4337.12427)",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "DOI confirmed as Xie, Gong, Wei, Jin, Wang, Wang & Jin, 'Antarctic Krill (Euphausia superba) Oil: A Comprehensive Review of Chemical Composition, Extraction Technologies, Health Benefits, and Current Applications', Compr Rev Food Sci Food Saf 2019;18(2):514-534. The specific phospholipid range was not retrievable.",
+    "correction": "Citation is real and topically correct; the 39.29-80.69% range needs a page or table reference. The two-decimal precision on a review-tabulated range is worth softening.",
+    "source": "https://api.crossref.org/works/10.1111/1541-4337.12427"
+   },
+   {
+    "claim": "AHA Science Advisory citation for the 4 g/day pharmacological dose (Circulation 2019, DOI 10.1161/CIR.0000000000000709)",
+    "verdict": "OK",
+    "authoritative_value": "Skulas-Ray et al., 'Omega-3 Fatty Acids for the Management of Hypertriglyceridemia: A Science Advisory From the American Heart Association', Circulation 2019;140(12)",
+    "correction": "None. DOI, journal, year and volume all correct, and the advisory is the right source for a 4 g/day EPA+DHA prescription dose.",
+    "source": "https://api.crossref.org/works/10.1161/CIR.0000000000000709"
+   },
+   {
+    "claim": "EFSA DRV citations: AI 250 mg/day EPA+DHA and ALA AI 0.5% of energy (EFSA Journal 2010;8(3):1461, DOI 10.2903/j.efsa.2010.1461); dioxin TWI 2 pg TEQ/kg bw/week exceeded 5-15 fold (EFSA Journal 2018;16(11):5333, DOI 10.2903/j.efsa.2018.5333)",
+    "verdict": "OK",
+    "authoritative_value": "10.2903/j.efsa.2010.1461 = 'Scientific Opinion on Dietary Reference Values for fats, including saturated fatty acids, polyunsaturated fatty acids, monounsaturated fatty acids, trans fatty acids, and cholesterol', EFSA Journal 2010;8(3):1461. 10.2903/j.efsa.2018.5333 = 'Risk for animal and human health related to the presence of dioxins and dioxin-like PCBs in feed and food', EFSA Journal 2018;16(11):5333.",
+    "correction": "Both DOIs resolve to exactly the documents claimed, and the 0.5%-of-energy to 1.1-1.4 g/day conversion is arithmetically right (10 kcal/9 = 1.11 g; 12.5/9 = 1.39 g). The '5 to 15 fold' exceedance figure inside the 2018 opinion was not independently verified, nor were the Regulation (EU) 2023/915 limits (1.75 and 6.0 pg/g fat for marine oils, 20.0 pg/g wet weight for fish liver) or the EFSA vitamin A (3,000 ug RAE) and vitamin D (100 ug) ULs.",
+    "source": "https://api.crossref.org/works/10.2903/j.efsa.2010.1461; https://api.crossref.org/works/10.2903/j.efsa.2018.5333"
+   }
+  ],
+  "misclassifications": [
+   "Krill oil RICH: the verdict survives but two of the three factual claims holding it up are false, and one of them is false in the direction that would have strengthened the entry. 'The phospholipid form, which is the actual product claim and cannot be obtained from fish, since fish store EPA and DHA mainly as triglycerides' is wrong. Fish roe is exactly that food: USDA FDC 175132 'Fish, roe, mixed species, raw' gives EPA 983 mg + DHA 1,360 mg = 2,343 mg/100 g, and FDC 174188 'Fish, caviar, black and red, granular' gives EPA 2,740 + DHA 3,800 = 6,540 mg/100 g. Roe and caviar are membrane-lipid tissues in which a large share of the EPA and DHA is phospholipid-bound, and in lean white fish such as cod the majority of the (small) EPA+DHA pool sits in phospholipid rather than triglyceride. The triglyceride generalisation holds for fatty fish flesh only. A single tablespoon of caviar (16 g, 1,046 mg EPA+DHA) beats a 2 g krill oil dose on both quantity and form.",
+   "Krill oil RICH, second false unavailability claim: 'astaxanthin, which no oily fish portion supplies in comparable concentration'. Wild sockeye and other red-fleshed Pacific salmon carry astaxanthin in flesh at roughly 25-40 mg/kg, so a 130 g portion supplies about 3-5 mg, which meets or exceeds the astaxanthin in a typical 1-2 g krill oil dose (commonly 0.1-1.5 mg per gram of oil). I could not re-verify the sockeye concentration in this session, so treat this as a challenge to be checked rather than a settled correction, but the flat 'no oily fish portion' should not stand as written. Note the entry's own bioavailability section already concedes neither the phospholipid form nor astaxanthin has produced a clinical outcome fish or fish oil does not.",
+   "Algal oil TRACE: correct for vegans, overstated for the vegetarians the entry names in the same sentence. 'For the vegan or vegetarian this product actually serves, no plant or fungal food supplies a meaningful amount' is literally true only because eggs are neither plant nor fungal. USDA FDC 171287 'Egg, whole, raw, fresh' gives DHA 58 mg/100 g, so one large 50 g egg supplies 29 mg preformed DHA and two supply 58 mg, which is 23% of the 250 mg/day target; DHA-enriched eggs run several times higher. For a lacto-ovo vegetarian the honest classification is closer to LOW or PARTIAL than TRACE, and the foods list should carry an egg row. TRACE remains right for strict vegans, which the entry should say explicitly rather than eliding vegan and vegetarian.",
+   "Cod liver oil RICH: partly circular as constructed. The first and largest 'food' in the list is cod liver oil itself, so only two of the three entries (herring, sardines) are actually alternatives to the supplement. The classification is defensible because cod liver oil genuinely is a traditional food-grade oil with its own USDA record, but the entry should either drop the self-referential row or label it as the reference product. The entry also names 'vitamin A from any liver' and tinned cod liver in its note, then lists neither as a food.",
+   "Omega-3 (EPA and DHA) RICH and ALA RICH: both correct and well supported. No change. No item in this group is classified SYNTHETIC, so there is nothing to reclassify upward on that axis."
+  ],
+  "missing_foods": [
+   "Caviar, black and red, granular (USDA FDC 174188): EPA 2,740 mg + DHA 3,800 mg = 6,540 mg/100 g, the richest EPA+DHA food in SR Legacy, and 1 tablespoon (16 g) = 1,046 mg, more than one 92 g tin of sardines. Absent from all three EPA/DHA entries. Its omission is most costly in the krill oil entry, where it is the direct counterexample to the phospholipid claim.",
+   "Fish roe, mixed species, raw (USDA FDC 175132): EPA 983 mg + DHA 1,360 mg = 2,343 mg/100 g, above cooked Atlantic herring, with a USDA tablespoon measure of 14 g. Cod roe, herring roe and salmon roe are ordinary foods in exactly the Nordic, Baltic and Japanese cuisines the submission already invokes for cod liver and krill.",
+   "Herring, Atlantic, pickled (USDA FDC 175118): EPA 843 mg + DHA 546 mg = 1,389 mg/100 g. The entry gives only cooked fresh herring, but pickled and kippered herring is the form in which most herring is actually eaten in the UK and Northern Europe, and it sits between mackerel and salmon on omega-3 content.",
+   "Rapeseed (canola) oil: the single largest omission in the ALA entry, because in UK and Northern European diets it is the dominant dietary ALA source by a wide margin, ahead of flaxseed, chia and walnuts combined. USDA SR Legacy lists it at roughly 9 g ALA/100 g, i.e. about 1.2 g per tablespoon, which alone meets the 1.1 g/day AI. I could not re-verify the exact figure in this session (the FDC ID probes returned sunflower, safflower, corn, almond and avocado oil), so confirm the value before publishing. An ALA entry that lists only supplement-shaped foods and omits the cooking oil people already use misrepresents how easy the AI is to hit.",
+   "Perilla oil: the highest-ALA edible oil in common culinary use at roughly 54-64% ALA, above flaxseed oil, and a staple in Korean and Japanese cooking. Absent entirely, which leaves the entry's implicit claim that flaxseed oil is the ALA ceiling unchallenged.",
+   "Seeds, hemp seed, hulled (USDA FDC 170148): ALA 8.68 g/100 g, verified. Comparable to walnuts per 100 g and a better ALA-per-calorie buy than walnut oil, which the entry does include at 10.4 g/100 g.",
+   "Egg, whole (USDA FDC 171287): DHA 58 mg/100 g, 29 mg per large 50 g egg, verified. The only meaningful preformed-DHA food available to lacto-ovo vegetarians and the missing row in the algal oil entry. DHA-enriched eggs, sold specifically for this purpose, carry several times more.",
+   "Also absent from the EPA/DHA entries, in rough order of how much they would change the picture: sablefish/black cod and Pacific or jack mackerel (both above Atlantic mackerel); canned pink and red salmon, which is what most people actually buy and which the entry ignores in favour of fresh fillets (FDC 175138 raw pink salmon is EPA 182 + DHA 333 = 515 mg/100 g, so canned is a genuinely weaker choice worth saying so); oysters and mussels; and the fish body oils (menhaden, herring, salmon oil at roughly 10-20 g EPA+DHA/100 g), which would put cod liver oil's 17.9 g/100 g in context and show that the vitamin A problem is specific to liver oil rather than intrinsic to concentrated fish oil.",
+   "Coho salmon, wild, raw (USDA FDC 175136, EPA 429 + DHA 656 = 1,085 mg/100 g) is worth a mention only as a caution: the entry's Atlantic-salmon-only treatment implies all salmon are 1.8-2.1 g/100 g fish, and Pacific species are roughly half that."
+  ],
+  "dose_gap_errors": [
+   "Tinned light tuna, '100% of one day's 250 mg AI' and 'needs 7-14 tins/week': both rest on a 112 g drained tin that is not in the USDA record cited. FDC 173709's own portion is 1 can = 165 g. Corrected: 224 mg/100 g x 1.65 = 370 mg per tin, which is 148% of the 250 mg AI (not 100%) and 9% of a 4 g dose (not 6%), and the weekly requirement becomes 5 tins/week at 250 mg/day and 9 tins/week at 500 mg/day, not 7-14. The qualitative conclusion (light tuna is a poor route) survives but is weaker than stated.",
+   "Canned albacore, '386% of one day's AI; 24% of a 4 g/day dose': same 112 g problem. On USDA's 1 can = 172 g the tin gives 1,483 mg EPA+DHA = 593% of the AI and 37% of a 4 g dose. On USDA's 3 oz = 85 g it gives 733 mg = 293% and 18%. The 112 g figure sits between the two USDA measures with no stated basis.",
+   "ALA entry, 'at the optimistic 8-9% figure you need 2.8-3.1 g ALA/day ... so replacing EPA is plausible': the 8-9% band is the DHA (9%) and DPA (6%) conversion from Burdge & Wootton 2002, not the EPA figure, which the same paper puts at 21%. Sizing an EPA target with a DHA conversion rate inflates the requirement roughly 2.5-fold. Corrected on the paper's own EPA figure: 250 mg EPA/day needs 1.19 g ALA/day, which is about half a tablespoon of whole flaxseed or three quarters of a tablespoon ground. The stated division (250/0.09 = 2.78 g; 250/0.08 = 3.13 g) is arithmetically correct, so this is a wrong-input error rather than a wrong-sum error.",
+   "Same sentence, 'which is 1.2-1.3 tablespoons of whole flaxseed': internally contradicted by the entry's own form_caveat and bioavailability sections, which state on Austria 2008 that whole flaxseed produced no significant rise in plasma ALA and that 'sprinkling whole seeds on food is close to decorative'. The requirement should be expressed in milled seed at 1.60 g ALA/tbsp: 2.8-3.1 g ALA = 1.8-2.0 tablespoons ground, or on the corrected 21% EPA conversion, 0.7 tablespoons ground.",
+   "Krill oil, sardine row '129-320% of the EPA+DHA in a typical 2 g/day krill oil dose (280-700 mg)': the upper bound should be 323%, since 903/280 = 322.5%. The other three rows recompute exactly on the same 280-700 mg basis (anchovy 132-330%, mackerel 151-378%, herring 410-1,026%), so this is an isolated slip, not a systematic one.",
+   "Krill oil, '14.2-34.8% w/w of total fatty acids ... so a 1 g capsule carries at most roughly 140-350 mg EPA+DHA': this converts a percentage of total fatty acids into a percentage of capsule mass, which is not the same quantity, since total fatty acids are less than capsule mass once phospholipid head groups, free sterols, astaxanthin and excipients are counted. The entry hedges correctly ('usually less'), but then carries 280-700 mg, 570-1,400 mg and '0.6-1.5 tins of sardines' forward as point estimates. Every one of those is an upper bound, so the real gap runs further in favour of fish than the entry claims. Label them as ceilings.",
+   "Omega-3 availability_note, 'One 130 g portion of salmon or one herring fillet delivers 2.4-2.9 g EPA+DHA, about ten times a single day's ... 250 mg': the range excludes the very fish the same paragraph then tells you to assume. On the entry's own Sprague correction, a 130 g portion of current farmed salmon delivers 1.36 x 1.3 = 1.77 g, i.e. 7.1 times the AI, below the stated range. Sprague's own text gives 1.8 g for exactly this portion. State the range as 1.8-2.9 g and 'roughly seven to twelve times', or the headline contradicts the caveat two sentences later.",
+   "Everything else recomputes exactly. Verified as correct: all nine per-portion conversions and all nine percent-of-AI figures in the omega-3 foods table (herring 1,149%, farmed salmon 1,116%, wild salmon 957%, anchovy tin 370%, mackerel 424%, sardine 361%, trout 248%); the weekly averaging arithmetic (herring 410, farmed salmon 399, wild salmon 342, mackerel/sardine/anchovy pairs 258-302, trout 266 mg/day); the portions-per-week ranges (0.6-1.3 salmon, 0.6-1.2 herring, 1.7-3.3 mackerel, 1.9-3.9 sardine tins, 1.9-3.8 anchovy tins, 2.8-5.6 trout fillets); every 4 g/day figure (herring 199 g/day and 1.4 kg/week, farmed salmon 186 and 294 g/day and 1.3-2.1 kg/week, mackerel 333 g and 3.8 fillets, sardines 407 g and 4.4 tins, anchovies 195 g and 4.3 tins, albacore 464 g, methylmercury 162 ug); the entire cod liver oil block (1 tsp 806 mg / 1,350 ug RAE / 11.2 ug D; 1 tbsp 2,434 mg / 4,080 ug RAE / 34 ug D; 322% of AI, 45% and 136% of the vitamin A UL, 11% of the vitamin D UL; 1.4-2.8 g of oil for 250-500 mg carrying 419-838 ug RAE; 22.3 g for 4 g/day carrying 6,704 ug RAE = 2.2x UL; herring 3.6 tsp and sardines 1.1 tsp equivalence); every ALA per-portion and percent-of-AI figure; the ALA 0.5%-of-energy to 1.1-1.4 g/day conversion; the DHA-conversion extremes (50 g ALA/day at 0.5% = 219 g flaxseed or about 100 mL oil; 250 g ALA/day at 0.1% = over 1 kg of seed); and the nori figures (2 mg EPA/sheet, 0.8% of a 250 mg dose, 312 g or about 120 sheets to reach 250 mg)."
+  ],
+  "net_assessment": "Unusually strong on composition data and weak in a few specific, fixable places. Every one of the 19 USDA records I could pull matched the submission: 18 cited FDC IDs resolved to exactly the described food with the stated EPA, DHA and ALA values, plus the uncited tuna-in-oil comparison (FDC 175157, EPA 66 mg/100 g) which also checked out. All nine PMIDs and all six DOIs resolved to the papers claimed, and the load-bearing numbers inside Sprague 2016 (2.74 to 1.36 g/100 g, over 3,000 fish, EFSA's 130 g portion), Karimi 2012 (0.882 / 0.883 / 0.450 ppm), Schuchardt 2011 (12 men, 1,680 mg, 80.03 / 59.78 / 47.53, all non-significant) and VITAL (25,871, HR 0.92, 0.80-1.06) were confirmed verbatim. Roughly 60 dose-gap calculations recompute correctly. That is a better hit rate than these submissions usually manage.\n\nFive defects need fixing. One is a hard miscitation: EFSA Journal 2020;18(10):6242 is an infant-formula opinion for strain WZU477 at 20-50 mg DHA/100 kcal and contains neither the 250 mg/day nor the 450 mg/day supplement condition attributed to it (those belong to the Union list, Regulation (EU) 2017/2470); the same opinion also undercuts the entry's EPA generalisation by recording 1.3-6% EPA in other authorised strains. Two are invented portion weights: both tuna rows use a 112 g drained tin that is not in the USDA records cited, and because the light-tuna headline ('100% of one day's AI', '7-14 tins/week') is built on it, the corrected figures are 148% and 5-9 tins. One is a conversion-rate mismatch: the ALA entry sizes an EPA target with the 8-9% DHA conversion rate instead of Burdge & Wootton's 21% EPA rate, then expresses the answer in whole flaxseed, the one form its own bioavailability section says does not work. One is a pair of false unavailability claims in the krill oil entry: phospholipid-bound EPA and DHA are obtainable from food (fish roe 2,343 mg/100 g, caviar 6,540 mg/100 g), and wild red-fleshed salmon does supply astaxanthin at doses comparable to a krill capsule.\n\nThe FDA mercury block is the largest unverifiable region: four FDA and EPA URLs returned 404, so the eleven per-species means and the 0.15/0.46 ug/g band cutoffs are unconfirmed, and the Gulf of Mexico tilefish figure of 1.45 ppm should be re-checked against FDA's usually cited 1.123 ppm. The EPA page did confirm the qualitative placement of anchovies, Atlantic mackerel, sardines and trout in Best Choices. Also unverified: the two krill fluoride values (whose 1979 journal name is wrong), the Xie 2019 phospholipid range, the Regulation (EU) 2023/915 dioxin limits, the EFSA vitamin A and D ULs, and the uncited swordfish EPA figure.\n\nThe biggest content gap is caviar and fish roe. They are the richest EPA+DHA foods in the database, they are ordinary foods in the cuisines the submission already cites, and they are the direct refutation of the krill oil entry's central claim, so omitting them costs the submission twice. After that: rapeseed oil and perilla oil in the ALA entry, pickled herring in the omega-3 entry, and eggs in the algal oil entry. Availability calls are all defensible as verdicts; the krill oil and algal oil justifications need rewriting even though their labels stand."
+ }
+}

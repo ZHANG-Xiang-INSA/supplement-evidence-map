@@ -1,0 +1,714 @@
+{
+ "group": "longevity-compounds",
+ "items_assigned": [
+  "NMN",
+  "Nicotinamide riboside (NR)",
+  "Spermidine",
+  "Coenzyme Q10 / ubiquinol",
+  "Alpha-lipoic acid",
+  "MSM",
+  "Collagen peptides",
+  "Glucosamine and chondroitin"
+ ],
+ "submission": {
+  "items": [
+   {
+    "supplement": "NMN",
+    "availability": "TRACE",
+    "availability_note": "NMN is genuinely present in plant and animal foods, but at sub-milligram-per-100 g levels, roughly 100 to 1,000 times below a single capsule. The reference dataset (Mills et al. 2016, Cell Metab, PMID 28068222 / DOI 10.1016/j.cmet.2016.09.013) puts every food it measured between 0 and 1.88 mg/100 g. A 2025 HPLC-DAD/LC-MS-MS survey of plant foods (Alegre & Pastore, CyTA J Food, DOI 10.1080/19476337.2025.2458753) found NMN spanning 40 to 13,000 ug/100 g, richest in broccoli and green beans, which is the same order of magnitude. Cow milk is not a meaningful NMN source: its NAD+ precursor content is dominated by nicotinamide and nicotinamide riboside, not NMN (Trammell et al. 2016, PMID 27052539). Supplement NMN is not extracted from food, it is made by microbial fermentation or enzymatic/chemical synthesis.",
+    "foods": [
+     {
+      "food": "Edamame (green soybeans), shelled, cooked from frozen",
+      "per_100g": "0.47-1.88 mg NMN",
+      "portion": "1 cup shelled (155 g)",
+      "per_portion": "0.73-2.91 mg",
+      "pct_rda_or_dose": "0.3-1.2% of a 250 mg dose; 0.07-0.3% of a 1,000 mg dose",
+      "source": "Mills et al. 2016, Cell Metab 24(6):795-806, PMID 28068222, DOI 10.1016/j.cmet.2016.09.013 (food NMN table); food identity USDA FDC 168411 (Edamame, frozen, prepared)"
+     },
+     {
+      "food": "Avocado, raw, flesh only",
+      "per_100g": "0.36-1.60 mg NMN",
+      "portion": "1 medium avocado, flesh (150 g)",
+      "per_portion": "0.54-2.40 mg",
+      "pct_rda_or_dose": "0.2-1.0% of a 250 mg dose",
+      "source": "Mills et al. 2016, PMID 28068222; food identity USDA FDC 171705 (Avocados, raw, all commercial varieties)"
+     },
+     {
+      "food": "Broccoli, raw",
+      "per_100g": "0.25-1.12 mg NMN",
+      "portion": "1 cup chopped (91 g)",
+      "per_portion": "0.23-1.02 mg",
+      "pct_rda_or_dose": "0.09-0.4% of a 250 mg dose",
+      "source": "Mills et al. 2016, PMID 28068222; corroborated as a top plant source by Alegre & Pastore 2025, DOI 10.1080/19476337.2025.2458753; food identity USDA FDC 170379 (Broccoli, raw)"
+     },
+     {
+      "food": "Cucumber, peel (the peel specifically, not the flesh)",
+      "per_100g": "0.65 mg NMN in peel; 0.56 mg in seed",
+      "portion": "peel pared from 1 medium cucumber (~30 g of peel)",
+      "per_portion": "~0.20 mg",
+      "pct_rda_or_dose": "0.08% of a 250 mg dose",
+      "source": "Mills et al. 2016, PMID 28068222; food identity USDA FDC 168409 (Cucumber, with peel, raw)"
+     },
+     {
+      "food": "Tomato, raw",
+      "per_100g": "0.26-0.30 mg NMN",
+      "portion": "1 medium tomato (123 g)",
+      "per_portion": "0.32-0.37 mg",
+      "pct_rda_or_dose": "0.13-0.15% of a 250 mg dose",
+      "source": "Mills et al. 2016, PMID 28068222"
+     },
+     {
+      "food": "Beef, raw (muscle)",
+      "per_100g": "0.06-0.42 mg NMN",
+      "portion": "1 steak (150 g)",
+      "per_portion": "0.09-0.63 mg",
+      "pct_rda_or_dose": "0.04-0.25% of a 250 mg dose",
+      "source": "Mills et al. 2016, PMID 28068222"
+     },
+     {
+      "food": "Mushroom, raw",
+      "per_100g": "0-1.01 mg NMN (some samples below detection)",
+      "portion": "1 cup sliced (70 g)",
+      "per_portion": "0-0.71 mg",
+      "pct_rda_or_dose": "0-0.28% of a 250 mg dose",
+      "source": "Mills et al. 2016, PMID 28068222"
+     }
+    ],
+    "dose_gap": "Unbridgeable. Taking the richest food at its richest measured value (edamame, 1.88 mg/100 g), a 250 mg dose needs 13.3 kg of edamame a day, and at the low end of the same food's range (0.47 mg/100 g) it needs 53 kg. A 1,000 mg dose needs 53-213 kg. Broccoli: 250 mg requires 22-100 kg, about 245 to 1,100 cups. Avocado: 250 mg requires 104-463 whole avocados a day. Cucumber peel is the most quoted 'NMN food' and the least useful: you would have to pare the skin off roughly 1,250 cucumbers to reach 250 mg. There is no eating pattern that reaches a supplement dose, and no reason to think the trace dietary amounts do anything a supplement dose is claimed to do.",
+    "form_caveat": "Substantial. NMN is a phosphorylated nucleotide and is not absorbed intact in any large quantity: it is dephosphorylated in the gut to nicotinamide riboside and then to nicotinamide before or during absorption, so an oral NMN capsule is partly a nicotinamide delivery system. Food NMN arrives as a minor component of a mixed NAD+ vitamer pool (nicotinamide, nicotinic acid, NR, NAD+ itself) inside intact cells and is measured after extraction, not necessarily released by chewing and digestion. Supplement material is manufactured by fermentation or enzymatic synthesis, never extracted from broccoli or edamame despite the marketing imagery. Regulatory status also differs: the FDA has taken the position that NMN is precluded from being marketed as a US dietary supplement, while it is sold freely elsewhere, so 'food-derived' framing on a label carries no compositional meaning.",
+    "bioavailability": "Food NMN quantities are too small for bioavailability to matter. For the supplement form, human and mouse tracer work shows the oral route delivers NAD+ precursors largely after conversion to nicotinamide riboside and nicotinamide rather than as intact NMN (Trammell et al. 2016, Nat Commun 7:12948, DOI 10.1038/ncomms12948, for the NR side of the same pathway). Separately, ordinary diets already supply 15-20 mg/day of niacin equivalents feeding the same NAD+ pathway, which is thousands of times more molar precursor than the NMN in any vegetable portion, so the scarcity premise behind NMN supplementation is not a dietary-shortfall argument."
+   },
+   {
+    "supplement": "Nicotinamide riboside (NR)",
+    "availability": "TRACE",
+    "availability_note": "NR is a real dietary vitamer, best characterised in cow milk, where it is present at single-digit micromolar. Trammell et al. 2016 (J Nutr 146(5):957-963, PMID 27052539, DOI 10.3945/jn.116.230078) found cow milk carries about 12 umol/L of NAD+ precursor vitamins, 60% nicotinamide and 40% NR, and an enzyme-coupled milk assay measured NR at 4.3 +/- 2.6 uM (Ummarino et al. 2017, Food Chem 221:161-168, DOI 10.1016/j.foodchem.2016.10.032). That is about 1.1 mg per litre. Plant foods carry 62 to 1,600 ug per 100 g, highest in wild chicory, banana and orange (Alegre & Pastore 2025, CyTA J Food, DOI 10.1080/19476337.2025.2458753). Every one of these is three orders of magnitude below a 250-1,000 mg capsule. Commercial NR chloride is synthesised, not extracted from milk.",
+    "foods": [
+     {
+      "food": "Cow milk, whole, fresh (pasteurised)",
+      "per_100g": "~0.11 mg NR (4.3 uM = 1.1 mg/L; NR MW 255)",
+      "portion": "1 cup (244 g / 237 mL)",
+      "per_portion": "~0.26 mg",
+      "pct_rda_or_dose": "0.09% of a 300 mg dose; 0.03% of a 1,000 mg dose",
+      "source": "Trammell et al. 2016, J Nutr 146(5):957-963, PMID 27052539, DOI 10.3945/jn.116.230078; Ummarino et al. 2017, Food Chem 221:161-168, DOI 10.1016/j.foodchem.2016.10.032; food identity USDA FDC 171265 (Milk, whole, 3.25% milkfat)"
+     },
+     {
+      "food": "Banana, raw (named among the three richest plant NR sources)",
+      "per_100g": "upper bound ~1.6 mg (the survey reported 0.062-1.6 mg/100 g across all plant foods and named banana, wild chicory and orange as the highest; the exact banana figure sits at the top of that range)",
+      "portion": "1 medium banana (118 g)",
+      "per_portion": "up to ~1.9 mg",
+      "pct_rda_or_dose": "up to 0.6% of a 300 mg dose",
+      "source": "Alegre & Pastore 2025, CyTA - Journal of Food 23(1), DOI 10.1080/19476337.2025.2458753"
+     },
+     {
+      "food": "Orange, raw (also named among the richest plant NR sources)",
+      "per_100g": "within the reported 0.062-1.6 mg/100 g plant-food range, at the upper end",
+      "portion": "1 medium orange (131 g)",
+      "per_portion": "up to ~2 mg",
+      "pct_rda_or_dose": "up to 0.7% of a 300 mg dose",
+      "source": "Alegre & Pastore 2025, CyTA - Journal of Food 23(1), DOI 10.1080/19476337.2025.2458753"
+     }
+    ],
+    "dose_gap": "Not reachable. At 1.1 mg NR per litre of milk, a 300 mg dose is about 273 litres of milk a day, roughly 1,150 cups; a 1,000 mg dose is about 910 litres. From the richest plant food measured (1.6 mg/100 g) a 300 mg dose is about 19 kg a day. Put the other way, one 250 mg NR capsule contains as much NR as roughly 230 litres of milk. Milk is genuinely the best dietary source of NR and it is still useless as a route to a trial dose.",
+    "form_caveat": "Important. Commercial NR is nicotinamide riboside chloride, a synthesised salt; the free NR in milk is a fragile glycosidic nucleoside that degrades on storage and is reduced in milk from mastitic (S. aureus positive) cows, and Trammell et al. also found conventional milk carried more NR than organic. So even the food number is a moving target. More significant: the whole diet already supplies plenty of the pathway's dominant precursor, nicotinamide, at 15-20 mg/day of niacin equivalents, so NR supplementation is not correcting a dietary gap in NAD+ precursors; it is a pharmacological attempt at a different pharmacokinetic profile. Also note that high-dose nicotinamide-family precursors carry methyl-group and flushing/hepatic considerations at gram level that a glass of milk obviously does not.",
+    "bioavailability": "NR is absorbed orally and raises blood NAD+ in humans, which was the point of the original demonstration (Trammell et al. 2016, Nat Commun 7:12948, DOI 10.1038/ncomms12948). Absorption is not the constraint; the constraint is that food quantities are microgram-scale. There is also a route difference: much oral NR is cleaved to nicotinamide in the gut and liver, so a fraction of any dose acts as plain vitamin B3, which is abundant in food. In milk, NR is free in solution and not bound to milk proteins (NMR testing in Trammell et al. found no binding), so what little is there is available, it is simply trivial in amount."
+   },
+   {
+    "supplement": "Spermidine",
+    "availability": "RICH",
+    "availability_note": "This is the one entry on the list where ordinary food beats the supplement outright. Wheat germ, dried soybeans, mushrooms, green peas, fermented soy and some aged cheeses carry milligram-per-portion quantities. Measured mean dietary spermidine intake is 54.7 to 87 umol/day depending on population, that is 7.9 to 12.6 mg/day (Munoz-Esparza et al. 2019, Front Nutr 6:108, PMID 31355206, DOI 10.3389/fnut.2019.00108), and the Bruneck cohort recorded 9 to 11.5 mg/day (Kiechl et al. 2018, Am J Clin Nutr 108(2):371-380, PMID 29955838, DOI 10.1093/ajcn/nqy102). Trial capsules delivered 0.9 mg/day in the SmartAge trial and 1.2 mg/day in the earlier pilot. The diet supplies roughly ten times the capsule.",
+    "foods": [
+     {
+      "food": "Wheat germ, raw (industrially separated)",
+      "per_100g": "22-35 mg spermidine (2,437 nmol/g = 35.4 mg/100 g; independent LC-MS/MS: 221-337 mg/kg = 22.1-33.7 mg/100 g)",
+      "portion": "2 tbsp (14 g)",
+      "per_portion": "3.1-5.0 mg",
+      "pct_rda_or_dose": "310-500% of a 1 mg/day supplement capsule",
+      "source": "Munoz-Esparza et al. 2019, Front Nutr 6:108, PMID 31355206, DOI 10.3389/fnut.2019.00108; Mohajeri et al. 2023, Food Sci Nutr, PMID 37970387, DOI 10.1002/fsn3.3650"
+     },
+     {
+      "food": "Soybeans, dried, raw",
+      "per_100g": "20.7 mg spermidine (1,425 nmol/g)",
+      "portion": "1/4 cup dry (46 g)",
+      "per_portion": "9.5 mg",
+      "pct_rda_or_dose": "~950% of a 1 mg capsule; ~75-120% of a whole day's typical dietary spermidine",
+      "source": "Munoz-Esparza et al. 2019, Front Nutr 6:108, PMID 31355206, DOI 10.3389/fnut.2019.00108"
+     },
+     {
+      "food": "Mushrooms, raw (mean of cultivated varieties)",
+      "per_100g": "12.9 mg spermidine (128.5 mg/kg fresh; 1,658.9 mg/kg on a dry-matter basis)",
+      "portion": "1 cup sliced (70 g)",
+      "per_portion": "9.0 mg",
+      "pct_rda_or_dose": "~900% of a 1 mg capsule",
+      "source": "Munoz-Esparza et al. 2021, Foods 10(8):1752, PMID 34441529, DOI 10.3390/foods10081752"
+     },
+     {
+      "food": "Green peas, frozen, cooked",
+      "per_100g": "5.4 mg spermidine (54.4 mg/kg)",
+      "portion": "1 cup (160 g)",
+      "per_portion": "8.7 mg",
+      "pct_rda_or_dose": "~870% of a 1 mg capsule",
+      "source": "Munoz-Esparza et al. 2021, Foods 10(8):1752, PMID 34441529, DOI 10.3390/foods10081752; corroborated at 46.6 mg/kg by Atiya Ali et al. 2011, Food Nutr Res 55:5572, PMID 21249159, DOI 10.3402/fnr.v55i0.5572"
+     },
+     {
+      "food": "Natto and other fermented soy products",
+      "per_100g": "4.3-10.9 mg spermidine (43.0-108.9 mg/kg, the range reported for legumes and soy derivatives)",
+      "portion": "1 pack natto (50 g)",
+      "per_portion": "2.2-5.4 mg",
+      "pct_rda_or_dose": "220-540% of a 1 mg capsule",
+      "source": "Munoz-Esparza et al. 2021, Foods 10(8):1752, PMID 34441529, DOI 10.3390/foods10081752"
+     },
+     {
+      "food": "Cheddar, matured 12 months (aged hard cheese)",
+      "per_100g": "20.0 mg spermidine (199.5 mg/kg) in one Swedish survey; other surveys are far lower, most cheeses under 1 mg/100 g (<69 nmol/g) with one blue cheese at 3.8 mg/100 g (262 nmol/g)",
+      "portion": "1 slice (30 g)",
+      "per_portion": "6.0 mg by the high figure, 0.3-1.1 mg by the low figures",
+      "pct_rda_or_dose": "30-600% of a 1 mg capsule, depending which survey you believe",
+      "source": "Atiya Ali et al. 2011, Food Nutr Res 55:5572, PMID 21249159, DOI 10.3402/fnr.v55i0.5572 (matured cheddar 199.5 mg/kg); Munoz-Esparza et al. 2019, Front Nutr 6:108, PMID 31355206, DOI 10.3389/fnut.2019.00108 (most cheeses <69 nmol/g)"
+     }
+    ],
+    "dose_gap": "The gap runs backwards, which undercuts the supplement premise. Two tablespoons of wheat germ (14 g) supply 3.1-5.0 mg of spermidine, three to five times the 0.9 mg/day dose used in the 12-month SmartAge trial and still above the 3.3 mg/day used in its follow-up. A quarter-cup of dried soybeans or a cup of sliced mushrooms supplies about 9 mg, close to an entire ordinary day's intake. Measured habitual intakes are 7.9-12.6 mg/day, so a typical 1 mg capsule adds roughly 8-13% on top of what the person is already eating, which is well inside the day-to-day variation of a normal diet. To match a day's dietary spermidine from capsules you would need about ten of them. Anyone who wants more spermidine should buy wheat germ, which costs a fraction of the capsules and delivers several times the dose.",
+    "form_caveat": "Real, in both directions. Most 'spermidine' products are wheat germ extracts standardised to about 1 mg, not purified spermidine, so the label compound is the same molecule as in the food and there is no extraction advantage. Against that, aged cheese and natto also carry biogenic amines (histamine, tyramine, putrescine) which matter for people on MAO inhibitors or with histamine intolerance, so the richest fermented sources are not risk-free foods even though they are ordinary ones. Polyamines are also proliferative signalling molecules and concentrated long-term supplementation lacks the observational safety record that food-level intake has; the epidemiology (Bruneck) supports dietary intake, not high-dose extracts, and cannot be transferred to a capsule. Wheat germ also goes rancid quickly, so buy small and refrigerate.",
+    "bioavailability": "Dietary polyamines are absorbed readily in the upper small intestine, and gut bacteria synthesise more, so intake is not the only input and circulating levels are homeostatically buffered. An exploratory double-blind RCT giving older men 40 mg/day of spermidine, roughly forty times a typical capsule and four times a rich day's diet, reported minimal change in circulating polyamines, which suggests the pharmacokinetic ceiling is reached long before supplement dosing adds anything. Germination changes the picture too: commercially germinated wheat grain measured 19-24 mg/kg spermidine against 221-337 mg/kg for industrially separated wheat germ, an 85% drop, so the processing of the food matters more than any supplement choice."
+   },
+   {
+    "supplement": "Coenzyme Q10 / ubiquinol",
+    "availability": "RICH",
+    "availability_note": "Organ meats and oily fish are genuine, substantial sources. Beef heart contains 113 mg/kg, chicken heart 116-132 mg/kg, mackerel dark flesh 43-67 mg/kg (Pravst et al. 2010, Crit Rev Food Sci Nutr 50(4):269-280, DOI 10.1080/10408390902773037, table reproduced in Vaghari et al. 2016, Am J Biochem Biotechnol 12(4):214-219, DOI 10.3844/ajbbsp.2016.214.219). Total habitual dietary intake is 3.8-5.4 mg/day, higher in men than women (Mattila & Kumpulainen 2001, J Food Compost Anal 14:409-417, DOI 10.1006/jfca.2000.0983). So the food is real, and one portion of heart is two to three days of ordinary intake. The problem is that supplement doses are 100-300 mg, which is a different universe. Supplement CoQ10 is produced by microbial fermentation or chemical synthesis, not extracted from beef.",
+    "foods": [
+     {
+      "food": "Beef heart, trimmed, cooked",
+      "per_100g": "11.3 mg CoQ10 (113 mg/kg)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "11.3 mg",
+      "pct_rda_or_dose": "3.8% of a 300 mg dose; about 2-3 days' worth of total ordinary dietary CoQ10",
+      "source": "Pravst et al. 2010, Crit Rev Food Sci Nutr 50(4):269-280, DOI 10.1080/10408390902773037; table reproduced in Vaghari et al. 2016, DOI 10.3844/ajbbsp.2016.214.219"
+     },
+     {
+      "food": "Chicken hearts, cooked",
+      "per_100g": "11.6-13.2 mg CoQ10 (116.2-132.2 mg/kg)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "11.6-13.2 mg",
+      "pct_rda_or_dose": "3.9-4.4% of a 300 mg dose",
+      "source": "Pravst et al. 2010, DOI 10.1080/10408390902773037; independently, raw chicken hearts measured 107 ug/g fresh (383.25 ug/g lyophilised) by HPLC-DAD in Foods 2023;12(12):2296, PMID 37372507, DOI 10.3390/foods12122296"
+     },
+     {
+      "food": "Mackerel, dark (red) flesh",
+      "per_100g": "4.3-6.7 mg CoQ10 (43-67 mg/kg); white flesh only 1.1-1.6 mg/100 g",
+      "portion": "1 fillet (140 g)",
+      "per_portion": "1.5-9.4 mg depending on how much of the dark lateral muscle is eaten",
+      "pct_rda_or_dose": "0.5-3.1% of a 300 mg dose",
+      "source": "Pravst et al. 2010, DOI 10.1080/10408390902773037; reproduced in Vaghari et al. 2016, DOI 10.3844/ajbbsp.2016.214.219"
+     },
+     {
+      "food": "Sardines, canned in oil, drained, with bones",
+      "per_100g": "0.5-6.4 mg CoQ10 (5-64 mg/kg, a 13-fold spread between samples)",
+      "portion": "1 standard tin, drained (92 g)",
+      "per_portion": "0.46-5.9 mg",
+      "pct_rda_or_dose": "0.15-2.0% of a 300 mg dose",
+      "source": "Pravst et al. 2010, DOI 10.1080/10408390902773037; food identity and portion USDA FDC 175139 (Fish, sardine, Atlantic, canned in oil, drained solids with bone)"
+     },
+     {
+      "food": "Beef liver, pan-fried",
+      "per_100g": "3.9-5.0 mg CoQ10 (39-50 mg/kg)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "3.9-5.0 mg",
+      "pct_rda_or_dose": "1.3-1.7% of a 300 mg dose",
+      "source": "Pravst et al. 2010, DOI 10.1080/10408390902773037; food identity USDA FDC 168627 (Beef, variety meats and by-products, liver, cooked, pan-fried)"
+     },
+     {
+      "food": "Beef muscle (steak), cooked",
+      "per_100g": "2.6-4.0 mg CoQ10 (26-40 mg/kg)",
+      "portion": "1 steak (150 g)",
+      "per_portion": "3.9-6.0 mg",
+      "pct_rda_or_dose": "1.3-2.0% of a 300 mg dose",
+      "source": "Pravst et al. 2010, DOI 10.1080/10408390902773037"
+     },
+     {
+      "food": "Soybean oil",
+      "per_100g": "5.4-28 mg CoQ10 (54-280 mg/kg)",
+      "portion": "1 tbsp (13.6 g)",
+      "per_portion": "0.7-3.8 mg",
+      "pct_rda_or_dose": "0.24-1.3% of a 300 mg dose",
+      "source": "Pravst et al. 2010, DOI 10.1080/10408390902773037"
+     },
+     {
+      "food": "Broccoli, raw",
+      "per_100g": "0.6-0.9 mg CoQ10 (6-9 mg/kg)",
+      "portion": "1 cup chopped (91 g)",
+      "per_portion": "0.55-0.82 mg",
+      "pct_rda_or_dose": "0.18-0.27% of a 300 mg dose",
+      "source": "Pravst et al. 2010, DOI 10.1080/10408390902773037; food identity USDA FDC 170379"
+     },
+     {
+      "food": "Peanuts",
+      "per_100g": "2.7 mg CoQ10 (27 mg/kg)",
+      "portion": "1 small handful (30 g)",
+      "per_portion": "0.81 mg",
+      "pct_rda_or_dose": "0.27% of a 300 mg dose",
+      "source": "Pravst et al. 2010, DOI 10.1080/10408390902773037"
+     }
+    ],
+    "dose_gap": "Not reachable, though the food is respectable. A 300 mg/day dose requires about 2.7 kg of beef heart, 2.3-2.6 kg of chicken hearts, or 4.7 kg of the very richest sardines, which is about 51 tins a day, rising to over 60 kg if your tins sit at the low end of the measured range. The whole day's ordinary dietary CoQ10 is 3.8-5.4 mg, so a 300 mg capsule is roughly 55 to 80 days of eating compressed into one dose, and even a modest 100 mg capsule is about 20 to 26 days' worth. Anyone whose reason for taking CoQ10 is a claimed pharmacological effect at 100-300 mg cannot get there by eating. Anyone whose reason is simply 'my diet is low in CoQ10' can move the needle meaningfully with a weekly portion of heart, liver or oily fish.",
+    "form_caveat": "Significant. CoQ10 is a large lipophilic quinone (MW 863) and crystalline ubiquinone powder in a dry tablet absorbs very poorly; commercial products use oil suspensions, solubilisates or reduced-form ubiquinol precisely because the raw molecule does not dissolve. Absorption is saturable, so a 300 mg dose does not deliver proportionally more than a 100 mg dose. Food has one genuine advantage here: CoQ10 in meat and fish comes packaged with fat, and taking supplemental CoQ10 with a fatty meal materially improves absorption, so a capsule swallowed on an empty stomach may deliver less than the label implies. Cooking costs some of the food content, with reported losses of roughly 15-32% frying pork cutlets and about 15% grilling beef. Finally, most body CoQ10 is made endogenously and the biosynthetic pathway shares its early steps with cholesterol synthesis, which is the basis of the statin argument; neither food nor supplement changes that pathway.",
+    "bioavailability": "Low and formulation-dependent for the supplement, which is the honest headline. Ubiquinol (reduced) and solubilised formulations achieve higher plasma levels than plain crystalline ubiquinone, and all forms depend on dietary fat and bile for uptake. In the food matrix, CoQ10 sits in mitochondrial membranes and is co-ingested with fat, so uptake per milligram is probably as good or better than a dry capsule, but the milligram totals are 20 to 80 times too small. Note also that the reduced/oxidised split differs between foods: a Japanese survey of 70 food items found ubiquinol-10 above 20 ug/g in pork shoulder, bovine liver, chicken heart, horse mackerel, young yellowtail and soybean oil (Kubo et al. 2008, J Food Compost Anal 21:216-222, DOI 10.1016/j.jfca.2007.09.003), so 'ubiquinol' is not an exclusively supplemental form."
+   },
+   {
+    "supplement": "Alpha-lipoic acid",
+    "availability": "TRACE",
+    "availability_note": "Alpha-lipoic acid exists in food only as lipoyllysine, covalently attached to lysine residues in the E2 subunits of mitochondrial keto-acid dehydrogenases. Direct LC measurement of meats found 2.11-3.99 ug/g fresh weight in hearts, 0.71-1.40 ug/g in kidney and 0.56-1.17 ug/g in liver (Kaminska & Chwatko 2020, J Agric Food Chem, PMID 32886880, DOI 10.1021/acs.jafc.0c03778), i.e. 0.06-0.40 mg per 100 g. The classic vegetable figures, spinach 3.15 and broccoli 0.94 ug lipoyllysine per gram of DRY weight, work out to about 0.03 and 0.01 mg per 100 g of fresh vegetable. A 600 mg capsule is four to five orders of magnitude above any of these, and the food form is not free lipoic acid at all.",
+    "foods": [
+     {
+      "food": "Heart (beef, calf, pork or turkey), raw",
+      "per_100g": "0.21-0.40 mg lipoyllysine (2.11-3.99 ug/g fresh weight: turkey 3.99, pork 3.46, calf 3.32, cow 3.12, chicken 2.11)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "0.21-0.40 mg",
+      "pct_rda_or_dose": "0.04-0.07% of a 600 mg dose",
+      "source": "Kaminska A, Chwatko G 2020, J Agric Food Chem, PMID 32886880, DOI 10.1021/acs.jafc.0c03778"
+     },
+     {
+      "food": "Kidney (beef/pork), raw",
+      "per_100g": "0.07-0.14 mg lipoyllysine (0.71-1.40 ug/g fresh weight)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "0.07-0.14 mg",
+      "pct_rda_or_dose": "0.01-0.02% of a 600 mg dose",
+      "source": "Kaminska A, Chwatko G 2020, PMID 32886880, DOI 10.1021/acs.jafc.0c03778"
+     },
+     {
+      "food": "Liver (beef/pork), raw",
+      "per_100g": "0.06-0.12 mg lipoyllysine (0.56-1.17 ug/g fresh weight)",
+      "portion": "1 serving (100 g)",
+      "per_portion": "0.06-0.12 mg",
+      "pct_rda_or_dose": "0.01-0.02% of a 600 mg dose",
+      "source": "Kaminska A, Chwatko G 2020, PMID 32886880, DOI 10.1021/acs.jafc.0c03778"
+     },
+     {
+      "food": "Spinach, raw",
+      "per_100g": "~0.028 mg lipoyllysine (3.15 ug/g DRY weight; spinach is ~91% water, so ~28 ug per 100 g fresh)",
+      "portion": "1 cup raw leaves (30 g)",
+      "per_portion": "~0.0085 mg (8.5 micrograms)",
+      "pct_rda_or_dose": "0.0014% of a 600 mg dose",
+      "source": "Lodge JK et al. 1997, J Appl Nutr 49:3-11 (lipoyllysine by HPLC with electrochemical detection), as tabulated by the Linus Pauling Institute Micronutrient Information Center; fresh/dry conversion from USDA FDC 168462 (Spinach, raw)"
+     },
+     {
+      "food": "Broccoli, raw",
+      "per_100g": "~0.010 mg lipoyllysine (0.94 ug/g DRY weight; ~89% water)",
+      "portion": "1 cup chopped (91 g)",
+      "per_portion": "~0.0094 mg (9.4 micrograms)",
+      "pct_rda_or_dose": "0.0016% of a 600 mg dose",
+      "source": "Lodge JK et al. 1997, J Appl Nutr 49:3-11, as tabulated by the Linus Pauling Institute; fresh/dry conversion from USDA FDC 170379 (Broccoli, raw)"
+     },
+     {
+      "food": "Tomato, raw",
+      "per_100g": "~0.003 mg lipoyllysine (~0.56 ug/g DRY weight; ~94.5% water)",
+      "portion": "1 medium tomato (123 g)",
+      "per_portion": "~0.0038 mg (3.8 micrograms)",
+      "pct_rda_or_dose": "0.0006% of a 600 mg dose",
+      "source": "Lodge JK et al. 1997, J Appl Nutr 49:3-11, as tabulated by the Linus Pauling Institute"
+     }
+    ],
+    "dose_gap": "Absurd, and worse than the arithmetic suggests. Using the richest food at its richest value (turkey heart, 0.40 mg/100 g), a 600 mg dose is 150 kg of heart per day. Using spinach, the textbook answer, it is about 2,100 kg of raw leaves, roughly 71,000 cups, per day. Broccoli is similar. But the real point is qualitative: what food contains is not alpha-lipoic acid, it is lipoyllysine, lipoic acid amide-bonded to protein-bound lysine. Human lipoamidase activity releases very little free lipoic acid from that bond, so the free-ALA yield from eating spinach is not merely small, it is close to unmeasurable. A 600 mg fasting capsule produces micromolar plasma peaks of free racemic lipoic acid; no quantity of food produces a detectable free-ALA peak at all. This is the clearest food/supplement discontinuity on the list.",
+    "form_caveat": "Large, and it cuts against the supplement. Supplemental ALA is chemically synthesised as a 50:50 racemate of R- and S-lipoic acid; nature makes only the R enantiomer and only protein-bound. So the capsule contains a molecule (S-lipoic acid) that does not exist in food. Absorption also differs by design: capsules are dosed fasting because food reduces ALA absorption by roughly 20-30%, whereas the trace food form is unavoidably taken with food. On safety, the whole food is unremarkable and the concentrated free acid is not: high-dose free ALA has been linked to insulin autoimmune syndrome with severe hypoglycaemia in genetically susceptible people, and there is a paediatric accidental-overdose literature with seizures and death. Spinach has done none of that. If you want the 'antioxidant vegetables' benefit, eat the vegetables; if you want the 600 mg neuropathy dose from the ALADIN/SYDNEY trials, understand you are taking a synthetic drug-dose racemate with its own risk profile, not a vegetable extract.",
+    "bioavailability": "Free supplemental ALA is absorbed reasonably well but cleared very fast, with a plasma half-life on the order of half an hour, and the R enantiomer reaches higher plasma levels than S. Food lipoyllysine is a different question: it is not a bioavailable source of free lipoic acid, because the lipoyl group stays bound to the enzyme protein and is largely digested along with it rather than released as the free dithiol. The measurement literature reflects this, noting that free lipoic acid in tissues is low if present at all and that essentially all of it is protein-bound. Spinach also carries the usual oxalate caveat for other purposes, but oxalate is not the reason spinach fails as a lipoic acid source; the reason is that there is almost none there and what is there is chemically locked up."
+   },
+   {
+    "supplement": "MSM",
+    "availability": "TRACE",
+    "availability_note": "MSM (dimethyl sulfone) really does occur in food, and the numbers are tiny: cow's milk 3.30 mg/kg, coffee 1.60, tomato up to 0.86, alfalfa 0.77, tea 0.30, beer 0.18, Swiss chard up to 0.18, corn up to 0.11 mg/kg (Pearson, Dawson & Lackey 1981, J Agric Food Chem 29(5):1089-1091, DOI 10.1021/jf00107a049; values tabulated in the 2026 MSM review, PMC13071705). Milk, the richest of them, is 0.33 mg per 100 g. Supplement doses are 1.5-6 g/day. The bulk MSM sold as a supplement is not extracted from milk or vegetables: it is manufactured by oxidising dimethyl sulfoxide (DMSO) with hydrogen peroxide or nitrogen dioxide and then purified by distillation or crystallisation. Functionally this is a synthetic bulk chemical with a token natural presence.",
+    "foods": [
+     {
+      "food": "Cow's milk",
+      "per_100g": "0.33 mg MSM (3.30 mg/kg)",
+      "portion": "1 cup (244 g)",
+      "per_portion": "0.81 mg",
+      "pct_rda_or_dose": "0.027% of a 3,000 mg dose",
+      "source": "Pearson TW, Dawson HJ, Lackey HB 1981, J Agric Food Chem 29(5):1089-1091, DOI 10.1021/jf00107a049; tabulated in Biological functions of methylsulfonylmethane review, PMC13071705"
+     },
+     {
+      "food": "Coffee, brewed",
+      "per_100g": "0.16 mg MSM (1.60 mg/kg)",
+      "portion": "1 mug (240 g)",
+      "per_portion": "0.38 mg",
+      "pct_rda_or_dose": "0.013% of a 3,000 mg dose",
+      "source": "Pearson et al. 1981, DOI 10.1021/jf00107a049; via PMC13071705 Table 1"
+     },
+     {
+      "food": "Tomato (and tomato products)",
+      "per_100g": "up to 0.086 mg MSM (up to 0.86 mg/kg)",
+      "portion": "1 medium tomato (123 g)",
+      "per_portion": "up to 0.11 mg",
+      "pct_rda_or_dose": "0.004% of a 3,000 mg dose",
+      "source": "Pearson et al. 1981, DOI 10.1021/jf00107a049; via PMC13071705 Table 1"
+     },
+     {
+      "food": "Tea, brewed",
+      "per_100g": "0.030 mg MSM (0.30 mg/kg)",
+      "portion": "1 mug (240 g)",
+      "per_portion": "0.072 mg",
+      "pct_rda_or_dose": "0.0024% of a 3,000 mg dose",
+      "source": "Pearson et al. 1981, DOI 10.1021/jf00107a049; via PMC13071705 Table 1"
+     },
+     {
+      "food": "Beer",
+      "per_100g": "0.018 mg MSM (0.18 mg/kg)",
+      "portion": "1 pint (568 g)",
+      "per_portion": "0.10 mg",
+      "pct_rda_or_dose": "0.0034% of a 3,000 mg dose",
+      "source": "Pearson et al. 1981, DOI 10.1021/jf00107a049; via PMC13071705 Table 1"
+     },
+     {
+      "food": "Swiss chard",
+      "per_100g": "up to 0.018 mg MSM (up to 0.18 mg/kg)",
+      "portion": "1 cup cooked (175 g)",
+      "per_portion": "up to 0.032 mg",
+      "pct_rda_or_dose": "0.001% of a 3,000 mg dose",
+      "source": "Pearson et al. 1981, DOI 10.1021/jf00107a049; via PMC13071705 Table 1"
+     },
+     {
+      "food": "Sweetcorn",
+      "per_100g": "up to 0.011 mg MSM (up to 0.11 mg/kg)",
+      "portion": "1 cob (90 g)",
+      "per_portion": "~0.010 mg",
+      "pct_rda_or_dose": "0.0003% of a 3,000 mg dose",
+      "source": "Pearson et al. 1981, DOI 10.1021/jf00107a049; via PMC13071705 Table 1"
+     }
+    ],
+    "dose_gap": "One of the widest gaps here. A 3 g/day dose from milk, the richest listed food at 3.30 mg/kg, needs about 909 kg of milk a day, roughly 880 litres or 3,700 cups. From coffee it is about 1,875 litres, some 7,800 mugs. Even the low end of the osteoarthritis trial range, 1.5 g/day, needs 450 kg of milk. Adding up a plausible whole day of milk, coffee, tea, tomatoes and vegetables gives well under 1 milligram of MSM, so a single 3,000 mg dose is thousands of days of dietary MSM at once. There is no food-based route to a supplemental MSM dose, and it should be described as a synthetic sulfur compound taken at pharmacological dose, not as a nutrient you might be short of.",
+    "form_caveat": "Yes, and it is mostly about honesty in marketing. Commercial MSM is made by oxidising DMSO, so it is chemically identical to the trace natural molecule but industrially produced; purity grades differ (distilled versus crystallised) and residual DMSO or solvent is a real quality variable between brands. The common marketing move of pointing at garlic, onions and brassicas as 'natural MSM foods' is wrong: those foods are rich in allicin, thiosulfinates and glucosinolates, which are different sulfur chemistries and not MSM, and eating them does not deliver MSM. Sulfur adequacy in the diet comes from methionine and cysteine in protein, which is a separate question from MSM entirely. There is no case in which a whole food substitutes for an MSM capsule, and equally no evidence that anyone is MSM-deficient.",
+    "bioavailability": "Absorption is not the limiting factor. MSM is a small (94 Da), highly water-soluble, uncharged molecule and is absorbed close to completely after oral dosing, distributing widely including across the blood-brain barrier, which is why it is detectable in cerebrospinal fluid. Circulating MSM in people who take no supplements comes partly from these trace food amounts and partly from bacterial and endogenous metabolism of other sulfur compounds. Because uptake is near-complete for both, the food-versus-supplement comparison reduces entirely to the dose, and the dose ratio is roughly 1:4,000 per cup of milk."
+   },
+   {
+    "supplement": "Collagen peptides",
+    "availability": "RICH",
+    "availability_note": "This is the one supplement on the list whose trial dose is genuinely reachable by eating, because the supplement is simply hydrolysed collagen and several ordinary foods are almost pure collagen. Gelatine is thermally hydrolysed collagen: 85.7 g protein per 100 g with tryptophan recorded as 0.000 g (USDA FoodData Central SR Legacy, Gelatins, dry powder, unsweetened). Plain pork crackling is 61.3 g protein per 100 g with a collagen amino-acid signature (glycine 11.9 g, proline 7.3 g per 100 g). Trial doses are 2.5-15 g/day over 3-18 months (Paul, Leser & Oesser 2019, Nutrients 11(5):1079, PMID 31096622, DOI 10.3390/nu11051079). Bone broth, the popular food answer, is the unreliable one.",
+    "foods": [
+     {
+      "food": "Gelatine, dry powder, unsweetened (leaf or powdered gelatine)",
+      "per_100g": "85.7 g protein, effectively all collagen hydrolysate; tryptophan 0.000 g",
+      "portion": "1 sachet/envelope (7 g)",
+      "per_portion": "~6.0 g collagen protein",
+      "pct_rda_or_dose": "60% of a 10 g collagen-peptide dose; 240% of the 2.5 g low-end trial dose",
+      "source": "USDA FoodData Central, SR Legacy entry 'Gelatins, dry powder, unsweetened' (protein 85.7 g/100 g; tryptophan 0.000 g). Collagen identity: gelatine is partially hydrolysed collagen, see Paul et al. 2019, Nutrients 11(5):1079, PMID 31096622"
+     },
+     {
+      "food": "Pork skins, plain (pork scratchings / crackling / chicharron)",
+      "per_100g": "61.3 g protein, of which the amino-acid profile (glycine 11.9 g, proline 7.3 g per 100 g, i.e. glycine ~19% of protein mass against ~21% for pure collagen) indicates roughly 55-60 g is collagen-type protein; tryptophan only 0.12 g",
+      "portion": "1 oz bag (28 g)",
+      "per_portion": "~17 g protein, of which roughly 15-16 g is collagen-type protein",
+      "pct_rda_or_dose": "about 150% of a 10 g collagen dose; comparable to the 15 g top-end trial dose",
+      "source": "USDA FoodData Central, SR Legacy entry 'Snacks, pork skins, plain' (protein, glycine, proline, tryptophan per 100 g)"
+     }
+    ],
+    "dose_gap": "There is essentially no gap, which is the useful finding. One or two 7 g sachets of ordinary supermarket gelatine (6-12 g of collagen protein) sits squarely inside the 2.5-15 g/day range used in the collagen research, and a 28 g bag of plain pork crackling delivers about as much collagen protein as a 15 g sachet of branded collagen peptides at a fraction of the price. Chicken skin, pork trotters, tendon, oxtail and tinned fish eaten with skin and soft bones all add collagen, though I could not find per-100 g collagen quantifications for those in a citable composition source, so I have not given numbers for them. Bone broth is the one route that does not work reliably: measured amino acid content of broths made to a standardised recipe was significantly lower than a 20 g reference collagen dose for hydroxyproline, glycine and proline, and non-standardised recipes varied enormously, with cafe-prepared broths highest (Alcock, Shaw & Burke 2019, Int J Sport Nutr Exerc Metab 29(3):265-272, PMID 29893587, DOI 10.1123/ijsnem.2018-0139). If you want a defined collagen dose from food, use gelatine by weight, not broth.",
+    "form_caveat": "Moderate, and worth stating precisely. Collagen contains no tryptophan at all (USDA records gelatine tryptophan as 0.000 g/100 g), and is low in cysteine, methionine and histidine, so it is an incomplete protein with a PDCAAS effectively at zero and must not be counted as general protein intake; the modelling suggests up to about 36% of total daily protein can be collagen before indispensable amino acid balance suffers (Paul et al. 2019, PMID 31096622). Hydrolysis is a real difference: 'collagen peptides' are enzymatically cut to 2-5 kDa fragments that dissolve in cold liquid and are absorbed partly as di- and tripeptides, whereas gelatine gels and must be dissolved hot, and native collagen in skin and tendon must first be cooked and digested. Whether that changes the outcome is a separate argument, but it is a genuine processing difference rather than marketing. On the food side, pork crackling brings a large load of saturated fat and salt with its collagen, which a sachet of gelatine does not, so 'eat crackling instead of collagen powder' is a real trade-off, not a free win.",
+    "bioavailability": "Genuinely different by form, and here the supplement has a defensible argument. Hydrolysed collagen peptides are absorbed rapidly and hydroxyproline-containing dipeptides such as prolyl-hydroxyproline appear intact in plasma, which is the mechanistic basis of the collagen-peptide literature; a plasma amino acid comparison of dairy and collagen protein confirms the distinctive glycine/proline/hydroxyproline signature of collagen ingestion. Gelatine, being already partly hydrolysed, behaves similarly. Native collagen in skin, tendon and bone requires prolonged moist cooking to become digestible at all, which is exactly why bone broth quantities are unpredictable. Vitamin C is required for the hydroxylation step in endogenous collagen synthesis, so collagen intake without adequate vitamin C is pointless, and eating hydroxyproline does not bypass that requirement."
+   },
+   {
+    "supplement": "Glucosamine and chondroitin",
+    "availability": "SYNTHETIC",
+    "availability_note": "There is no meaningful natural food source for either compound, and I will not invent one. Glucosamine hydrochloride is manufactured: chitin-containing raw material, either crustacean shell or the biomass from an Aspergillus niger fermentation, is hydrolysed with food-grade concentrated hydrochloric acid at 100 C, which depolymerises and deacetylates the chitin to glucosamine hydrochloride, then filtered, evaporatively crystallised, centrifuged, washed and flash-dried (EFSA Panel on Dietetic Products, Nutrition and Allergies, EFSA Journal 2009;1099:1-19, opinion on glucosamine hydrochloride from Aspergillus niger; the opinion states explicitly that the fungal process is the same as the shellfish process except for the raw material). Chondroitin sulfate is extracted from cartilage, commercially mostly frozen bovine trachea, also porcine and shark cartilage. Shellfish shell, fungal mycelium and bovine trachea are not foods in any ordinary diet, neither compound appears in USDA FoodData Central, McCance and Widdowson or any national composition table I could reach, and I found no peer-reviewed per-portion quantification for any ordinary food. Cartilage-containing dishes and bone broth are the nearest food analogue and are not quantifiable: the same problem documented for collagen precursors in bone broth applies (Alcock et al. 2019, PMID 29893587, DOI 10.1123/ijsnem.2018-0139), and the one attempt to measure chondroitin sulfate in chicken broths had a limit of quantification of 8 mg per gram of dry material, which is coarse relative to a 1,200 mg daily dose.",
+    "foods": [],
+    "dose_gap": "There is no food quantity, because there is no food source, and the far more interesting number is endogenous. EFSA records human endogenous glucosamine production at 4 to 20 g/day, median about 14 g/day or 230 mg/kg body weight per day for a 60 kg adult (EFSA Journal 2009;1099:1-19). The standard GAIT-trial dose is 1,500 mg glucosamine plus 1,200 mg chondroitin daily, so the supplement adds roughly 10% on top of what the body already makes every day from fructose-6-phosphate and glutamine. That comparison, not a food comparison, is the honest framing: the question is not whether the diet supplies glucosamine (it does not, and does not need to) but whether adding about a tenth again to a large endogenous flux does anything. Prawn and crab shells are chitinous and are the industrial feedstock, but shell is indigestible and is not eaten, so eating prawns delivers no useful glucosamine. Cartilage in a pork knuckle, chicken foot or oxtail does contain glycosaminoglycans, so the intake is not literally zero, but there is no composition data allowing a portion to be quantified and no reason to expect a portion to approach 1.5 g.",
+    "form_caveat": "Several that matter. First, chemical form is not interchangeable in the trial literature: the European positive trials used a specific patented crystalline glucosamine SULFATE, while the large NIH GAIT trial used glucosamine HYDROCHLORIDE, and the results differ, so a shelf product labelled simply 'glucosamine' is not evidence-matched to any particular result. Second, 'vegetarian' or 'shellfish-free' glucosamine from Aspergillus niger fermentation is the same molecule made from fungal chitin rather than shell; it is not a food-derived alternative, it is the same manufactured compound from a different feedstock. Third, shellfish-derived glucosamine is a purified sugar rather than shellfish protein, so it is not the classic tropomyosin allergen route, but labels warn and cautious avoidance is reasonable. Fourth, chondroitin product content notoriously deviates from label claim because it is an extracted polydisperse polysaccharide, and its source is a bovine or shark by-product, which raises both quality-control and sourcing-ethics questions that no food equivalent has. Finally, beware the pet-food and 'joint broth' style reasoning that treats any cartilage-containing dish as therapeutically equivalent to a measured dose; it is not, and nobody has shown it can be.",
+    "bioavailability": "Poor and first-pass-limited for glucosamine: oral glucosamine is largely metabolised on first pass, plasma concentrations reach only low micromolar, far below the millimolar concentrations at which glucosamine affects chondrocytes in cell culture, which is the central pharmacological criticism of the whole category. Absorbed glucosamine is taken into cells by glucose transporters, a process facilitated by insulin, and is phosphorylated to glucosamine-6-phosphate, the same intermediate the body already makes at 4-20 g/day (EFSA Journal 2009;1099:1-19). Chondroitin sulfate is a large sulfated polysaccharide (tens of kDa) and is absorbed mainly after depolymerisation into smaller fragments and constituent sugars, so what reaches the circulation is not the intact molecule that was in the capsule. Any hypothetical food source would face both barriers plus the need to first liberate the glycosaminoglycan from a cooked cartilage matrix, which is why cartilage-rich cooking cannot be treated as a dose."
+   }
+  ]
+ },
+ "verification_report": {
+  "group": "longevity-compounds",
+  "number_checks": [
+   {
+    "claim": "NMN in edamame 0.47-1.88 mg/100 g (Mills et al. 2016)",
+    "verdict": "OK",
+    "authoritative_value": "Edamame 0.47-1.88 mg/100 g-Food",
+    "correction": "None. Mills et al. 2016 Table 1 ('NMN is present in various types of natural food') matches exactly, as do avocado 0.36-1.60, broccoli 0.25-1.12, cucumber seed 0.56, cucumber peel 0.65, tomato 0.26-0.30, mushroom 0.0-1.01 and raw beef 0.06-0.42. PMID 28068222 and DOI 10.1016/j.cmet.2016.09.013 both resolve to the correct paper (Cell Metab 24(6):795-806).",
+    "source": "Mills et al. 2016, Cell Metab, Table 1, full text at https://pmc.ncbi.nlm.nih.gov/articles/PMC5668137/"
+   },
+   {
+    "claim": "Mills Table 1 is fully represented by the seven foods listed",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Table 1 also contains cabbage 0.0-0.90 mg/100 g and shrimp 0.22 mg/100 g",
+    "correction": "Two rows of the primary source table were dropped without comment. Cabbage's upper bound (0.90) exceeds tomato and beef, both of which were included, so the selection is not 'richest first'.",
+    "source": "Mills et al. 2016, Cell Metab, Table 1"
+   },
+   {
+    "claim": "Alegre & Pastore 2025 found NMN 40-13,000 ug/100 g, 'which is the same order of magnitude' as Mills' 0-1.88 mg/100 g",
+    "verdict": "WRONG",
+    "authoritative_value": "NMN 40-13,000 ug/100 g fresh weight (i.e. up to 13 mg/100 g); NR 62-1,600 ug/100 g. Broccoli and green beans richest for NMN; wild chicory, banana and orange highest for NR",
+    "correction": "The reported values are correct but the comparison is not. 13 mg/100 g is roughly 7x Mills' highest single value (1.88 mg/100 g), i.e. an order of magnitude higher, not 'the same order of magnitude'. It also contradicts the availability_note's own claim that food NMN sits at 'sub-milligram-per-100 g levels, roughly 100 to 1,000 times below a single capsule' - at 13 mg/100 g a 250 mg dose is only ~19x one 100 g portion.",
+    "source": "Alegre GFS & Pastore GM 2025, CyTA J Food 23(1), art. 2458753, DOI 10.1080/19476337.2025.2458753 (abstract via Semantic Scholar; DOI and citation confirmed via Crossref)"
+   },
+   {
+    "claim": "Cow milk NR '4.3 +/- 2.6 uM (Ummarino et al. 2017, Food Chem)'",
+    "verdict": "WRONG",
+    "authoritative_value": "4.3 +/- 2.6 umol/L is Trammell et al. 2016's own measurement across 18 raw cow milk samples (5.1 +/- 2.6 umol/L excluding S. aureus-positive samples; nicotinamide 7.3 +/- 1.5 umol/L). Ummarino et al. 2017 reports no such figure in its abstract and its headline finding is that human milk is the richest NMN source",
+    "correction": "The number is right but attributed to the wrong paper. Cite Trammell et al. 2016 J Nutr 146(5):957-963 for 4.3 +/- 2.6 uM. Ummarino et al. 2017 is Food Chem 221:161-168, PMID 27979136 (the submission gives no PMID for it).",
+    "source": "Trammell et al. 2016 full text, https://pmc.ncbi.nlm.nih.gov/articles/PMC6879052/ ; Ummarino abstract, https://pubmed.ncbi.nlm.nih.gov/27979136/"
+   },
+   {
+    "claim": "Milk NR = 1.1 mg/L, so ~0.11 mg/100 g and ~0.26 mg per 244 g cup",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "4.3 uM x 255.25 g/mol = 1.10 mg/L; but the bacteria-free subset (5.1 uM) = 1.30 mg/L, and Trammell's headline '~12 umol/L precursors, 40% NR' = 4.8 uM = 1.23 mg/L",
+    "correction": "Arithmetic is correct for 4.3 uM. State the range 1.1-1.3 mg/L; the single lowest figure is used throughout and inflates every dose gap by ~15-20%.",
+    "source": "Trammell et al. 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC6879052/"
+   },
+   {
+    "claim": "'In milk, NR is free in solution and not bound to milk proteins (NMR testing in Trammell et al. found no binding)'",
+    "verdict": "WRONG",
+    "authoritative_value": "Trammell et al. 2016: NR 'exhibited an NMR spectrum consistent with association with a protein fraction in skim milk'; the four aromatic protons of the nicotinamide moiety 'produced positive WaterLOGSY signals consistent with protein binding', with stronger binding in conventional than organic milk",
+    "correction": "The finding is inverted. Trammell's WaterLOGSY NMR result indicates NR IS associated with a milk protein fraction. Delete the claim or reverse it.",
+    "source": "Trammell et al. 2016, abstract and Results, https://pmc.ncbi.nlm.nih.gov/articles/PMC6879052/"
+   },
+   {
+    "claim": "Banana NR 'upper bound ~1.6 mg/100 g'; orange 'at the upper end' of 0.062-1.6 mg/100 g",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Alegre & Pastore 2025 names wild chicory, banana and orange as the highest NR plant foods but the accessible abstract publishes only the whole-survey range 62-1,600 ug/100 g; no per-food banana or orange value is retrievable (Taylor & Francis full text returns 403)",
+    "correction": "Assigning the top of a whole-survey range to a specific food is fabricated precision. Either quote the paper's per-food table or present these as 'named among the highest, value not extractable'.",
+    "source": "Alegre & Pastore 2025 abstract, DOI 10.1080/19476337.2025.2458753"
+   },
+   {
+    "claim": "Wheat germ spermidine 2,437 nmol/g = 35.4 mg/100 g",
+    "verdict": "OK",
+    "authoritative_value": "2,437 nmol/g (Munoz-Esparza 2019, highest food in the review); 2437 x 145.25 = 354 ug/g = 35.4 mg/100 g",
+    "correction": "None. Conversion checks out.",
+    "source": "Munoz-Esparza et al. 2019, Front Nutr 6:108, PMID 31355206, DOI 10.3389/fnut.2019.00108, https://www.frontiersin.org/articles/10.3389/fnut.2019.00108/full"
+   },
+   {
+    "claim": "Independent LC-MS/MS wheat germ 221-337 mg/kg spermidine (Mohajeri 2023)",
+    "verdict": "OK",
+    "authoritative_value": "Industrially separated wheat germ powder: spermidine 220.65-337.2 ug/g. Germinated wheat grain: 19.22-24.25 ug/g. Manually separated germ from germinated grain: 36.45 ug/g",
+    "correction": "None. Importantly these ARE spermidine-specific values, not the total-polyamine figure (220-337 ug/g total) quoted in the abstract, so the submission read the paper correctly.",
+    "source": "Mohajeri et al. 2023, Food Sci Nutr 11(11), PMID 37970387, DOI 10.1002/fsn3.3650, https://pmc.ncbi.nlm.nih.gov/articles/PMC10630827/"
+   },
+   {
+    "claim": "Germination causes 'an 85% drop' in wheat spermidine",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "The paper states 85.52%, but its own ranges (220.65-337.2 vs 19.22-24.25 ug/g) imply a 89-94% drop (mean-to-mean ~92%)",
+    "correction": "The submission faithfully quotes the source, but the source's own percentage is inconsistent with its own data. Report ~92% (or flag the source discrepancy).",
+    "source": "Mohajeri et al. 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10630827/"
+   },
+   {
+    "claim": "Dried raw soybeans 20.7 mg spermidine/100 g (1,425 nmol/g), 9.5 mg per 46 g",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Munoz-Esparza 2019: 1,425 nmol/g = 20.7 mg/100 g (conversion correct). But Atiya Ali et al. 2011, the submission's own corroborating source elsewhere, reports dry soybean at 33.2-62.1 mg/kg = 3.3-6.2 mg/100 g, 3-6x lower",
+    "correction": "Present a range. Per 46 g quarter-cup the plausible span is 1.5-9.5 mg, not a flat 9.5 mg; the '~950% of a 1 mg capsule' and '~75-120% of a whole day's intake' claims are the optimistic end only.",
+    "source": "Munoz-Esparza et al. 2019, Front Nutr 6:108; Atiya Ali et al. 2011, Food Nutr Res 55:5572, https://pmc.ncbi.nlm.nih.gov/articles/PMC3022763/"
+   },
+   {
+    "claim": "Raw mushrooms 12.9 mg spermidine/100 g (128.5 mg/kg fresh; 1,658.9 mg/kg dry matter)",
+    "verdict": "WRONG",
+    "authoritative_value": "Munoz-Esparza 2021 reports raw mushroom spermidine as 1658.9 +/- 7.0 mg/kg on a DRY-MATTER basis, and states the fresh-weight spermidine range for mushrooms/legumes/peppers is 54-109 mg/kg. Atiya Ali 2011 measured mushroom at 88.6 mg/kg fresh",
+    "correction": "The dry-matter figure is right; the 128.5 mg/kg fresh figure is a back-calculation that lands above the paper's own stated fresh-weight ceiling of 109 mg/kg. Use ~8.9-10.9 mg/100 g, giving ~6.2-7.6 mg per 70 g cup (not 9.0 mg) and ~620-760% of a 1 mg capsule (not ~900%).",
+    "source": "Munoz-Esparza et al. 2021, Foods 10(8):1752, PMID 34441529, https://pmc.ncbi.nlm.nih.gov/articles/PMC8392025/ ; Atiya Ali et al. 2011"
+   },
+   {
+    "claim": "Green peas, frozen, cooked 5.4 mg/100 g (54.4 mg/kg); corroborated at 46.6 mg/kg by Atiya Ali 2011",
+    "verdict": "OK",
+    "authoritative_value": "Munoz-Esparza 2021: peas 54.4 mg/kg spermidine. Atiya Ali 2011: green peas frozen 46.6 mg/kg",
+    "correction": "None. Both figures confirmed, including the cross-check.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8392025/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC3022763/"
+   },
+   {
+    "claim": "Natto/fermented soy 43.0-108.9 mg/kg spermidine",
+    "verdict": "OK",
+    "authoritative_value": "Confirmed as the legume/soy-derivative spermidine range in Munoz-Esparza 2021 (the paper's abstract gives 54-109 mg/kg for the mushroom/legume/pepper group)",
+    "correction": "None, though the submission correctly flags that this is a group range applied to natto rather than a natto-specific measurement.",
+    "source": "Munoz-Esparza et al. 2021, https://pmc.ncbi.nlm.nih.gov/articles/PMC8392025/"
+   },
+   {
+    "claim": "Matured cheddar 199.5 mg/kg spermidine; most cheeses <69 nmol/g; one blue cheese 262 nmol/g",
+    "verdict": "OK",
+    "authoritative_value": "Atiya Ali 2011 Table 1: matured cheddar (1 year) 199.5 mg/kg. Munoz-Esparza 2019: most cheeses <10-69 nmol/g, highest a blue cheese at 262 nmol/g",
+    "correction": "None. All three figures confirmed, and the honest 'depending which survey you believe' framing is warranted.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3022763/ and https://www.frontiersin.org/articles/10.3389/fnut.2019.00108/full"
+   },
+   {
+    "claim": "Mean dietary spermidine intake is 54.7 to 87 umol/day = 7.9 to 12.6 mg/day",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Munoz-Esparza 2019 tabulates: USA 54.7, Turkey 33.1, Sweden adolescents 66, Sweden 70.0, Japan 74, Italy 83.6, EU average 87, UK 96.7, Spain 103.1 umol/day",
+    "correction": "87 umol/day is the EU average, not the top of the range. The measured span is 33.1-103.1 umol/day; for Western populations 54.7-103.1 umol/day = 7.9-15.0 mg/day. The mg conversion itself (x 145.25) is correct.",
+    "source": "Munoz-Esparza et al. 2019, Front Nutr 6:108"
+   },
+   {
+    "claim": "'the Bruneck cohort recorded 9 to 11.5 mg/day' (Kiechl 2018)",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Kiechl et al. 2018 Am J Clin Nutr 108(2):371-380, PMID 29955838, DOI 10.1093/ajcn/nqy102 confirmed; the abstract reports mortality by intake thirds (40.5 / 23.7 / 15.1 deaths per 1000 person-years) but publishes no mg/day or umol/day intake figures",
+    "correction": "9-11.5 mg/day (62-79 umol/day) is consistent with commonly quoted Bruneck tertile cut-points but is not retrievable from the paper's abstract; full text is paywalled. Attribute to a retrievable table or drop the precision.",
+    "source": "Europe PMC record for PMID 29955838"
+   },
+   {
+    "claim": "SmartAge trial delivered 0.9 mg spermidine/day over 12 months",
+    "verdict": "OK",
+    "authoritative_value": "0.9 mg spermidine/d from a wheat-germ-derived supplement vs microcrystalline cellulose placebo, 12 months, 89/100 completers, no effect on mnemonic discrimination (P = .47)",
+    "correction": "None.",
+    "source": "Schwarz C et al. 2022, JAMA Netw Open, PMID 35616942"
+   },
+   {
+    "claim": "'the 3.3 mg/day used in its follow-up' spermidine trial",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "No 3.3 mg/day spermidine trial could be located. The SmartAge report itself only calls for 'future validation at higher dosages'. The nearest recent candidate is a 2025 rice-germ-extract pilot (Bruno et al., PMID 40862848) whose dose is not stated in the abstract",
+    "correction": "Remove or replace with a citable dose. Note also the internal logic error: 2 tbsp of wheat germ delivers 3.1-5.0 mg, so its low end is BELOW 3.3 mg, not 'still above' it.",
+    "source": "Europe PMC search on spermidine + 3.3 mg; PMID 35616942"
+   },
+   {
+    "claim": "'An exploratory double-blind RCT giving older men 40 mg/day of spermidine ... reported minimal change in circulating polyamines'",
+    "verdict": "WRONG",
+    "authoritative_value": "Senekowitsch et al. 2023, Nutrients, PMID 37111071: 15 mg/day spermidine, 12 healthy volunteers (not specified as older men), randomised placebo-controlled triple-blind crossover, two 5-day phases. Result: plasma SPERMINE increased significantly; spermidine and putrescine did not change",
+    "correction": "Dose is 15 mg/day, not 40. Population is 12 healthy volunteers, not older men. And the result is not 'minimal change in circulating polyamines' - plasma spermine rose significantly, which the authors interpret as presystemic conversion of spermidine to spermine. Consequently '40 times a typical capsule and four times a rich day's diet' becomes ~15x a capsule and ~1.0-1.9x a rich day's diet.",
+    "source": "Europe PMC core record for PMID 37111071"
+   },
+   {
+    "claim": "Beef heart CoQ10 113 mg/kg = 11.3 mg/100 g",
+    "verdict": "OK",
+    "authoritative_value": "Beef heart 113 mg/kg (113.3 in some reproductions)",
+    "correction": "None.",
+    "source": "Pravst, Zmitek & Zmitek 2010, Crit Rev Food Sci Nutr 50:269-280, PMID 20301015, DOI 10.1080/10408390902773037 (table reproduced at https://en.wikipedia.org/wiki/Coenzyme_Q10)"
+   },
+   {
+    "claim": "Chicken hearts CoQ10 116.2-132.2 mg/kg (11.6-13.2 mg/100 g)",
+    "verdict": "WRONG",
+    "authoritative_value": "116.2-132.2 mg/kg is CHICKEN LIVER. Chicken HEART is 92.3-192 mg/kg. The Pravst-derived food table lists only chicken breast 8-17, thigh 24-25 and wing 11 mg/kg - it contains no chicken heart row at all",
+    "correction": "The value belongs to a different organ. Corrected chicken heart: 9.2-19.2 mg/100 g, i.e. 3.1-6.4% of a 300 mg dose (not 3.9-4.4%). The submission's own independent cross-check (107 ug/g fresh, derived from 383.25 ug/g lyophilised) sits inside the corrected range, which should have flagged the discrepancy.",
+    "source": "Pravst table via https://en.wikipedia.org/wiki/Coenzyme_Q10 ; chicken liver 116.2-132.2 mg/kg confirmed in multiple reviews (Bioactive Compounds in Meat 2014; Pathera et al. 2017); chicken heart 92.3-192 mg/kg (Vongsawasdi & Noomhorm 2014)"
+   },
+   {
+    "claim": "Chicken hearts independently measured 107 ug/g fresh, 383.25 ug/g lyophilised (Foods 2023;12:2296)",
+    "verdict": "OK",
+    "authoritative_value": "Lyophilised chicken hearts 383.25 ug/g CoQ10, the highest of all samples tested. PMID 37372507, DOI 10.3390/foods12122296 confirmed (Semeniuc et al., Foods 12(12))",
+    "correction": "None for the lyophilised figure; the 107 ug/g fresh value is a derived conversion (383.25 x ~28% dry matter) rather than a reported measurement and should be labelled as such.",
+    "source": "Europe PMC core record for PMID 37372507"
+   },
+   {
+    "claim": "Mackerel dark flesh 43-67 mg/kg, white flesh 11-16 mg/kg; sardine 5-64 mg/kg; beef liver 39-50; beef muscle 26-40; soybean oil 54-280; broccoli 6-9; peanuts 27 mg/kg",
+    "verdict": "OK",
+    "authoritative_value": "Pravst table: mackerel red flesh 43-67, white flesh 11-16, sardine 5-64, beef liver 39-50, beef muscle 26-40, soybean oil 54-280, broccoli 6-9, peanut 27 mg/kg",
+    "correction": "None. Every one of these seven matches, and all the per-portion conversions recompute correctly.",
+    "source": "Pravst et al. 2010 table via https://en.wikipedia.org/wiki/Coenzyme_Q10"
+   },
+   {
+    "claim": "Total habitual dietary CoQ10 intake 3.8-5.4 mg/day, higher in men than women (Mattila & Kumpulainen 2001)",
+    "verdict": "OK",
+    "authoritative_value": "Mattila & Kumpulainen 2001, J Food Compos Anal 14(4):409-417: 3.8 mg/day women, 5.4 mg/day men. Pravst 2010 independently states 3-6 mg/day",
+    "correction": "None. Citation details confirmed via Crossref (the submission's '14:409-417' is correct).",
+    "source": "Crossref record for DOI 10.1006/jfca.2000.0983; intake values quoted across citing literature"
+   },
+   {
+    "claim": "Kubo et al. 2008, J Food Compost Anal 21:216-222, DOI 10.1016/j.jfca.2007.09.003 (ubiquinol-10 in Japanese foods)",
+    "verdict": "WRONG",
+    "authoritative_value": "Kubo H, Fujii K, Kawabe T, Matsumoto S, Kishida H, Hosoe K. 'Food content of ubiquinol-10 and ubiquinone-10 in the Japanese diet.' J Food Compos Anal 2008;21(3):199-210, DOI 10.1016/j.jfca.2007.10.003",
+    "correction": "Both the page range and the DOI are wrong. The cited DOI 10.1016/j.jfca.2007.09.003 resolves to Geng, Jiang & Chen, 'Determination of acrylamide in starch-based foods by ion-exclusion liquid chromatography', J Food Compos Anal 21(2):178-182 - an unrelated paper. Fix to 21(3):199-210 / 10.1016/j.jfca.2007.10.003.",
+    "source": "Crossref lookups for both DOIs and for the Kubo title"
+   },
+   {
+    "claim": "Kaminska & Chwatko 2020 lipoyllysine values: hearts 2.11-3.99 ug/g fresh (turkey 3.99, pork 3.46, calf 3.32, cow 3.12, chicken 2.11); kidney 0.71-1.40; liver 0.56-1.17 ug/g",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Citation confirmed: Kaminska A & Chwatko G, 'Estimation of lipoyllysine content in meat and its antioxidative capacity', J Agric Food Chem 2020;68(39):10992-10999, PMID 32886880, DOI 10.1021/acs.jafc.0c03778. The abstract reports only method validation plus one worked example (turkey heart homogenate: LA 0.12 and LLys 0.88 umol/L); no per-tissue content table is retrievable (ACS full text paywalled)",
+    "correction": "Values are plausible in magnitude (0.88 umol/L in homogenate back-converts to roughly 3 ug/g tissue at typical dilutions) but cannot be confirmed. Also note the row is labelled 'Heart (beef, calf, pork or turkey)' yet the parenthetical includes chicken. Separately, the Lodge dataset ranks bovine KIDNEY above heart, the opposite of the ranking used here.",
+    "source": "PubMed and Europe PMC core records for PMID 32886880"
+   },
+   {
+    "claim": "Spinach 3.15 and broccoli 0.94 ug lipoyllysine per g dry weight (Lodge 1997 via Linus Pauling Institute)",
+    "verdict": "OK",
+    "authoritative_value": "Spinach 3.15 +/- 1.11 and broccoli 0.94 +/- 0.33 ug lipoyl-lysine per g dry weight, the highest plant values; attributed to Lodge et al. 1997 and reproduced by Moini et al. 2002",
+    "correction": "None. The dry-to-fresh conversions also check out: spinach at 8.6% dry matter gives 27 ug/100 g fresh (submission says ~28), broccoli at 11% gives 10.3 ug/100 g (submission says ~10). Tomato 0.56 ug/g dry is plausible but not directly confirmed.",
+    "source": "Lodge JK et al. 1997, J Appl Nutr 49:3-11, as quoted in Moini et al. 2002 and by the Linus Pauling Institute (LPI page returned 403 this session)"
+   },
+   {
+    "claim": "MSM food contents: cow's milk 3.30 mg/kg, coffee 1.60, tomato up to 0.86, alfalfa 0.77, tea 0.30, beer 0.18, Swiss chard up to 0.18, corn up to 0.11 mg/kg (Pearson, Dawson & Lackey 1981)",
+    "verdict": "WRONG",
+    "authoritative_value": "Pearson TW, Dawson HJ, Lackey HB 1981, J Agric Food Chem 29(5):1089-1091, DOI 10.1021/jf00107a049 is titled 'Naturally occurring levels of DIMETHYL SULFOXIDE in selected fruits, vegetables, grains, and beverages'. It measured DMSO, not MSM (dimethyl sulfone). The 2026 review reproduces those eight numbers under the heading 'The content of methylsulfonylmethane (MSM) in common feed and food (mg/kg)', citing exactly that paper as reference 28",
+    "correction": "The numeric values are faithfully copied but they are DMSO measurements relabelled as MSM by the secondary source. Do not cite Pearson 1981 as a primary MSM source. Every MSM per-100 g, per-portion and %-of-dose figure in this entry (and the 909 kg / 1,875 L dose gaps built on them) therefore rests on measurements of a different compound. The correct statement is that MSM content of ordinary foods is essentially unquantified in the accessible literature.",
+    "source": "Crossref record for DOI 10.1021/jf00107a049 (title verbatim); MSM review table and reference list at https://pmc.ncbi.nlm.nih.gov/articles/PMC13071705/"
+   },
+   {
+    "claim": "'the 2026 MSM review, PMC13071705'",
+    "verdict": "OK",
+    "authoritative_value": "'Biological functions of methylsulfonylmethane and its application in animal production: a review', J Anim Sci Technol, 2026; Table 1 as described, citing reference 28 = Pearson et al. 1981",
+    "correction": "None - the PMC ID is real and the table is as described. It is the review's own labelling that is at fault.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13071705/"
+   },
+   {
+    "claim": "Gelatine, dry powder, unsweetened: 85.7 g protein/100 g, tryptophan 0.000 g (USDA SR Legacy)",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "USDA SR Legacy 'Gelatins, dry powder, unsweetened': protein 85.6 g/100 g; glycine ~19.0 g/100 g (22.2% of protein); proline ~12.3 g/100 g",
+    "correction": "Protein is 85.6, not 85.7 g/100 g (immaterial to the 7 g sachet arithmetic, which still gives ~6.0 g). Separately, the claim that glycine is '~21% for pure collagen' understates USDA's own gelatine value of 22.2%.",
+    "source": "USDA SR Legacy data mirrored at https://www.nutritionvalue.org/Gelatins%2C_unsweetened%2C_dry_powder_nutritional_value.html (FDC API rate-limited this session)"
+   },
+   {
+    "claim": "Snacks, pork skins, plain: protein 61.3 g, glycine 11.9 g, proline 7.3 g, tryptophan 0.12 g per 100 g",
+    "verdict": "OK",
+    "authoritative_value": "USDA per 28.35 g: protein 17 g, glycine 3.378 g, proline 2.059 g, tryptophan 0.033 g, which scale to 60.0 (rounded display), 11.9, 7.3 and 0.116 g per 100 g",
+    "correction": "None. Glycine, proline and tryptophan match to the decimal; the 61.3 g protein figure is consistent with the rounded 17 g/oz display. The derived '~15-16 g collagen-type protein per 28 g bag' follows.",
+    "source": "USDA SR Legacy data mirrored at https://www.nutritionvalue.org/Snacks%2C_plain%2C_pork_skins_nutritional_value.html"
+   },
+   {
+    "claim": "Paul, Leser & Oesser 2019: collagen trial doses 2.5-15 g/day over 3-18 months; up to ~36% of daily protein can be collagen",
+    "verdict": "OK",
+    "authoritative_value": "Nutrients 11(5):1079, PMID 31096622, DOI 10.3390/nu11051079: supplementation range 2.5-15 g/day over 3-18 months; 'a level as high as 36% of collagen peptides may be used as protein substitution while maintaining the indispensable amino acid balance' (PDCAAS 1.0, standard American diet)",
+    "correction": "None.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6566836/"
+   },
+   {
+    "claim": "Alcock 2019: bone broth amino acids significantly lower than a 20 g reference collagen dose; 'cafe-prepared broths highest'",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Alcock RD, Shaw GC, Burke LM 2019, Int J Sport Nutr Exerc Metab 29(3):265-272, PMID 29893587, DOI 10.1123/ijsnem.2018-0139 confirmed. Standardised broths were significantly lower than the 20 g collagen reference for hydroxyproline, glycine and proline, with large variability in non-standardised preparations. The abstract states commercially available broths were LOWER than self-prepared ones",
+    "correction": "The citation, the 20 g reference dose and the main finding are all correct. The 'cafe-prepared broths highest' detail runs against the abstract's stated direction (commercial < self-prepared) and needs the full-text table to defend.",
+    "source": "Europe PMC core record for PMID 29893587"
+   },
+   {
+    "claim": "'EFSA records human endogenous glucosamine production at 4 to 20 g/day, median about 14 g/day' (EFSA Journal 2009;1099:1-19)",
+    "verdict": "WRONG",
+    "authoritative_value": "The 4-20 g/day range with a median of ~14 g/day comes from the EFSA ANS Panel opinion of 2013 on (6S)-5-methyltetrahydrofolic acid, glucosamine salt: 'the endogenous production of glucosamine is in the range of 4 - 20 g/day, with median values of ~ 14 g/day'. The same 4-20 g/day range is also given by Hrynets 2015",
+    "correction": "The figure is real but sourced to the wrong EFSA opinion. Cite the 2013 ANS opinion, not EFSA Journal 2009;1099 (the Aspergillus niger glucosamine hydrochloride opinion). The '230 mg/kg body weight per day for a 60 kg adult' is the submission's own back-calculation from 14 g (14,000/60 = 233), not a quoted EFSA value, and should be labelled as derived. The downstream '~10% on top of endogenous production' for 1,500 mg is arithmetically sound (1500/14000 = 10.7%).",
+    "source": "EFSA ANS Panel 2013 opinion, quoted verbatim in the literature; EFSA Journal 2009;1099 itself returned HTTP 402/403 this session"
+   },
+   {
+    "claim": "For chondroitin: 'I found no peer-reviewed per-portion quantification for any ordinary food' and cartilage dishes 'are not quantifiable'",
+    "verdict": "WRONG",
+    "authoritative_value": "Chondroitin sulfate in edible chicken keel cartilage has been quantified at 189 +/- 33 mg CS per g of cartilage (Br Poult Sci 2014). GAG content has also been quantified in chicken feet (J Food Sci 2020) and in traditionally stewed pig trotters (Foods 2022), both expressed as mg GAG per g total collagen",
+    "correction": "Peer-reviewed quantification of chondroitin sulfate in edible animal tissue does exist. At ~189 mg/g, roughly 6-7 g of chicken cartilage would carry a 1,200 mg chondroitin dose, and chicken cartilage (yakitori nankotsu), chicken feet and pig trotters are ordinary foods in several cuisines. The blanket 'no food source, not quantifiable' claim overstates the case.",
+    "source": "Br Poult Sci 2014 keel cartilage CS extraction; J Food Sci 2020 chicken feet GAG assay; Foods 2022 stewed pig trotters"
+   },
+   {
+    "claim": "USDA FDC IDs 168411, 171705, 170379, 168409, 171265, 175139, 168627, 168462",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Could not be confirmed this session: the FDC API rejected DEMO_KEY with HTTP 429 (retry-after ~45 min) and the FDC SPA and myfooddata mirror returned 404/403",
+    "correction": "All eight IDs are internally consistent with SR Legacy numbering and with the food names given, and none looked anomalous, but they remain unconfirmed rather than confirmed. Flagging per the default-to-skepticism rule.",
+    "source": "api.nal.usda.gov/fdc (429), fdc.nal.usda.gov/food-details (404), tools.myfooddata.com (403)"
+   }
+  ],
+  "misclassifications": [
+   "Glucosamine and chondroitin -> SYNTHETIC is wrong for chondroitin. The submission concedes in its own text that 'Chondroitin sulfate is extracted from cartilage, commercially mostly frozen bovine trachea, also porcine and shark cartilage' - an extract of animal tissue is not a synthetic compound. Edible chicken keel cartilage has been measured at 189 +/- 33 mg chondroitin sulfate per gram (Br Poult Sci 2014), and GAG content has been quantified in chicken feet (J Food Sci 2020) and stewed pig trotters (Foods 2022). Chicken cartilage, chicken feet, pig trotters and shark fin are ordinary foods in Chinese, Japanese and Korean cuisine, and at ~189 mg/g a 6-7 g portion of cartilage would carry a full 1,200 mg dose. Glucosamine alone is legitimately SYNTHETIC (no free glucosamine in food; chitin from shell or Aspergillus biomass is neither digestible nor eaten). The error is bundling two compounds with different availability profiles under one label and then asserting there is 'no food source' for both. Correct handling: split the entry, keep glucosamine SYNTHETIC, classify chondroitin as TRACE-to-RICH-in-niche-foods with the cartilage data cited.",
+   "Coenzyme Q10 -> RICH is inconsistent with the submission's own reasoning and partly rests on a mislabelled number. The RICH verdict is applied to a compound whose richest listed food supplies 3.8% of the stated 300 mg dose, while NR is graded TRACE on the strength of milk being 'genuinely the best dietary source' - the same structure of argument, opposite label. The submission's own dose_gap concludes 'not reachable'. Two of the four organ-meat figures that make CoQ10 look rich are also compromised: chicken heart's 116.2-132.2 mg/kg is actually chicken liver, and pork heart (118.1-282 mg/kg, the richest food source of all) is missing entirely. A MODERATE / PARTIAL grade is defensible (a 100 g portion of heart really is 2-3 days of ordinary intake), RICH in the same scheme that gives spermidine and collagen RICH is not, because for those two the food genuinely reaches or exceeds the trial dose.",
+   "MSM -> TRACE reaches the right label on void evidence. Every number in the entry traces to Pearson, Dawson & Lackey 1981, which measured dimethyl SULFOXIDE (DMSO), not dimethyl sulfone (MSM). The classification survives (nobody claims milk delivers grams of MSM), but the availability_note's confident 'MSM really does occur in food, and the numbers are tiny: cow's milk 3.30 mg/kg...' asserts a compositional fact the cited literature does not establish. The correct classification is TRACE / UNQUANTIFIED, with an explicit note that the widely circulated MSM food table is a mislabelled DMSO table.",
+   "NMN -> TRACE is the right label but the supporting note is self-contradicting. 'Sub-milligram-per-100 g levels, roughly 100 to 1,000 times below a single capsule' is refuted two sentences later by the submission's own citation of Alegre & Pastore 2025 at up to 13,000 ug/100 g (13 mg/100 g), which is ~19x below a 250 mg capsule per 100 g portion, not 100-1,000x, and is not sub-milligram. TRACE still holds against a 250-1,000 mg dose; the quantitative framing does not.",
+   "Correctly classified, challenged and upheld: Nicotinamide riboside TRACE (milk at 1.1-1.3 mg/L and plant foods at 62-1,600 ug/100 g are three orders below a capsule - confirmed); Alpha-lipoic acid TRACE (confirmed, and the qualitative point that food contains protein-bound lipoyllysine rather than free racemic ALA is the strongest single observation in the submission); Spermidine RICH (confirmed - habitual intake 7.9-15.0 mg/day genuinely exceeds the 0.9 mg trial capsule by ~10x); Collagen peptides RICH (confirmed - a 7 g gelatine sachet at 85.6% protein sits inside the 2.5-15 g/day trial range)."
+  ],
+  "missing_foods": [
+   "CoQ10 - PORK HEART, 118.1-282 mg/kg (11.8-28.2 mg/100 g). This is the richest CoQ10 food in the literature, roughly 2.5x beef heart at its top end, and it is absent. Its omission is what lets the dose_gap present beef heart at 2.7 kg as the floor; pork heart at 282 mg/kg brings a 300 mg dose down to 1.06 kg.",
+   "CoQ10 - CHICKEN LIVER, 116.2-132.2 mg/kg (11.6-13.2 mg/100 g). Ironically this is the food the submission's chicken-heart row actually quotes. It belongs in the table on its own merits, alongside the beef liver row that is already there.",
+   "CoQ10 - OLIVE OIL 40-160 mg/kg, RAPESEED/CANOLA OIL 64-73, GRAPESEED OIL 64-73. Soybean oil is the only oil listed, yet olive oil reaches 16 mg/100 g and canola's floor (64 mg/kg) is above soybean's (54 mg/kg). A tablespoon of olive oil supplies 0.5-2.2 mg, comparable to the soybean oil row that was included. Also omitted from the same table: parsley 8-26, sesame seed 18-23, pistachio 20, walnut 19, hazelnut 17, avocado 10 mg/kg.",
+   "NMN - GREEN BEANS. Named alongside broccoli as one of the two richest NMN plant foods in Alegre & Pastore 2025, the submission's own second source, yet given no row. Also missing from the primary Mills Table 1: cabbage 0.0-0.90 mg/100 g (upper bound above tomato and beef, both of which were included) and shrimp 0.22 mg/100 g.",
+   "NR - WILD CHICORY. Named first among the three richest plant NR sources in Alegre & Pastore 2025; banana and orange got rows, wild chicory did not. It is the one food that could legitimately carry the 1,600 ug/100 g upper bound the submission instead pinned on banana.",
+   "Spermidine - CHICKEN LIVER, CORN and SHELLFISH. Atiya Ali et al. 2011, cited in the submission for the cheddar figure, explicitly reports that 'spermidine content was high in dry soy bean, chicken liver, green peas, corn, shell fish, and blue cheese'. Three of those six named foods are missing, and chicken liver in particular is a cheap, concentrated, non-wheat source useful to anyone avoiding gluten. Dried shiitake mushrooms and wheat bran also belong here. (Green peppers do NOT: Munoz-Esparza 2021 shows 75-96% of pepper polyamines are putrescine, not spermidine.)",
+   "Alpha-lipoic acid - BOVINE/PORK KIDNEY as the top tissue, plus RICE BRAN, BRUSSELS SPROUTS, GARDEN PEAS and YEAST EXTRACT from the same Lodge 1997 dataset the vegetable rows come from. Nothing here is rich - the honest finding is that no rich source exists - but the submission's Kaminska-based ranking (heart > kidney > liver) inverts the Lodge ranking (kidney > heart > liver), and readers who check the LPI table will see the discrepancy unexplained.",
+   "Collagen - CHICKEN SKIN, BEEF TENDON, CHICKEN FEET and CANNED SARDINES/SALMON eaten with skin and soft bones. The submission names most of these and then declines to quantify them, which is defensible, but chicken feet and cartilage now have published GAG/collagen quantification (J Food Sci 2020; Br Poult Sci 2014) that would let at least one of them carry a number. Aspic and gelatine-set confectionery are also straightforwardly quantifiable from the gelatine row already present.",
+   "Glucosamine/chondroitin - CHICKEN CARTILAGE (keel/soft cartilage, yakitori nankotsu) at 189 +/- 33 mg chondroitin sulfate per g, CHICKEN FEET, PIG TROTTERS and SHARK FIN. The entry has an empty foods array on the stated basis that no quantification exists; it does exist for all four.",
+   "MSM - correctly nothing. No genuinely rich MSM food was omitted, because none has been demonstrated. Alfalfa (0.77 mg/kg in the table) was left out of the food rows, which is right - it is a forage, not a human food."
+  ],
+  "dose_gap_errors": [
+   "NMN, broccoli: 'Broccoli: 250 mg requires 22-100 kg, about 245 to 1,100 cups' uses only Mills' 0.25-1.12 mg/100 g while ignoring the submission's own second source. Alegre & Pastore 2025 reports plant NMN up to 13,000 ug/100 g (13 mg/100 g) and names broccoli a rich source. At 13 mg/100 g a 250 mg dose is 1.9 kg (about 21 cups), not 22-100 kg. The stated gap is overstated by up to ~11x at the high-value end. Corrected span across both sources: 1.9-100 kg.",
+   "Spermidine, wheat germ vs trial dose: '3.1-5.0 mg ... three to five times the 0.9 mg/day dose used in the 12-month SmartAge trial and still above the 3.3 mg/day used in its follow-up'. 3.1 is not above 3.3. Corrected: 2 tbsp of wheat germ brackets the 3.3 mg figure (3.1-5.0 mg, i.e. 0.94x to 1.5x), rather than exceeding it. The '3.3 mg/day follow-up' trial is itself unverifiable.",
+   "CoQ10, chicken hearts: '2.3-2.6 kg of chicken hearts' is computed from the mislabelled 116.2-132.2 mg/kg (chicken liver). Using the correct chicken heart value of 92.3-192 mg/kg, a 300 mg dose needs 1.6-3.3 kg. The corresponding per-portion percentage changes from 3.9-4.4% to 3.1-6.4% of a 300 mg dose.",
+   "CoQ10, the ceiling of the whole entry: '2.7 kg of beef heart' is presented as the best case, but pork heart at 118.1-282 mg/kg is the richest food source and was omitted. Corrected best case: 1.06 kg of pork heart for 300 mg (2.54 kg at pork heart's low end).",
+   "CoQ10, 100 mg framing: 'even a modest 100 mg capsule is about 20 to 26 days' worth' against a 3.8-5.4 mg/day intake. 100/5.4 = 18.5, so the corrected span is 18.5-26.3 days, i.e. about 19 to 26 days.",
+   "Spermidine, capsule-vs-diet share: 'a typical 1 mg capsule adds roughly 8-13% on top of what the person is already eating' rests on a truncated intake range (54.7-87 umol/day). Using the full tabulated Western span, 54.7-103.1 umol/day = 7.9-15.0 mg/day, the correct figure is 6.7-12.7%. Relatedly, 'to match a day's dietary spermidine from capsules you would need about ten of them' becomes 8 to 15.",
+   "Spermidine, mushrooms: '9.0 mg' per 70 g cup and '~900% of a 1 mg capsule' derive from a fresh-weight value (128.5 mg/kg) that exceeds the source paper's own stated fresh-weight ceiling for that food group (54-109 mg/kg) and sits well above Atiya Ali's independent 88.6 mg/kg. Corrected: about 6.2-7.6 mg per cup, ~620-760% of a 1 mg capsule.",
+   "Spermidine, dried soybeans: '9.5 mg' per 46 g and '~75-120% of a whole day's typical dietary spermidine' use a single source (20.7 mg/100 g) where a second cited source gives 3.3-6.2 mg/100 g. Corrected span per quarter-cup: 1.5-9.5 mg, i.e. roughly 10-120% of a day's intake.",
+   "NR, milk: '273 litres of milk a day' for 300 mg and 'as much NR as roughly 230 litres of milk' per 250 mg capsule both use the lowest defensible concentration (1.1 mg/L). At Trammell's bacteria-free subset value of 5.1 uM (1.30 mg/L) the figures are 231 L and 192 L; at the '~12 umol/L, 40% NR' headline (1.23 mg/L) they are 244 L and 203 L. Present a range rather than the single most favourable number.",
+   "NMN, cucumber peel: 'you would have to pare the skin off roughly 1,250 cucumbers' - at the submission's own 0.195 mg per cucumber's peel (0.65 mg/100 g x 30 g) the answer is 1,282 cucumbers. Minor, but it is rounded in the direction that flatters the argument.",
+   "MSM, per-cup ratio: 'the dose ratio is roughly 1:4,000 per cup of milk' - 3,000 mg / 0.81 mg = 3,704, so ~1:3,700. (This is moot given that the underlying 3.30 mg/kg is a DMSO measurement, but as stated the arithmetic is 8% off.)",
+   "Spermidine, germination: 'an 85% drop' is quoted accurately from Mohajeri 2023, but that paper's own ranges (220.65-337.2 ug/g industrial germ vs 19.22-24.25 ug/g germinated grain) imply an 89-94% drop, mean-to-mean ~92%. The submission inherits an arithmetic error from its source without flagging it."
+  ],
+  "net_assessment": "Unusually strong submission by the standards of this genre, and the arithmetic is the best part of it: I recomputed roughly sixty unit conversions, per-portion figures and percent-of-dose calculations and the overwhelming majority are correct to the stated precision, including every nmol/g-to-mg/100 g polyamine conversion, the NR micromolar-to-mg/L step, the spinach and broccoli dry-to-fresh water-content conversions, the sardine-tin and cucumber counts, and all seven Mills NMN food ranges (which match Table 1 of the source exactly). Nine of eleven cited PMIDs and every checkable DOI resolve to the paper claimed. The qualitative reasoning on lipoyllysine versus free racemic ALA, on gelatine as a defined collagen dose versus bone broth, and on endogenous glucosamine flux versus supplement dose is genuinely good and better sourced than most published consumer material.\n\nFive defects are serious enough to require correction before publication. First, the entire MSM food table is DMSO data: Pearson, Dawson & Lackey 1981 is titled 'Naturally occurring levels of dimethyl sulfoxide...' and the 2026 review the submission leans on silently relabels those eight numbers as MSM. Second, CoQ10 'chicken hearts 116.2-132.2 mg/kg' is chicken liver; chicken heart is 92.3-192 mg/kg, and the Pravst-derived table contains no chicken heart row at all. Third, the NR bioavailability claim that Trammell's NMR 'found no binding' inverts the source, which reports positive WaterLOGSY signals consistent with protein binding. Fourth, the spermidine pharmacokinetic argument misstates Senekowitsch 2023 as 40 mg/day in older men with minimal polyamine change, when it was 15 mg/day in 12 healthy volunteers with a significant rise in plasma spermine. Fifth, chondroitin is filed as SYNTHETIC despite the entry itself describing it as a cartilage extract, and despite published quantification of ~189 mg chondroitin sulfate per gram of edible chicken keel cartilage.\n\nThree further problems are citation hygiene rather than substance: the Kubo 2008 DOI resolves to an unrelated acrylamide paper (correct is 10.1016/j.jfca.2007.10.003, pages 199-210); the EFSA 4-20 g/day endogenous glucosamine figure belongs to the 2013 ANS opinion, not the 2009 Aspergillus niger opinion; and the milk NR value of 4.3 +/- 2.6 uM is Trammell's, not Ummarino's. Two per-food figures are quietly optimistic where a range exists (mushroom and soybean spermidine), one omission materially weakens a headline claim (pork heart is the richest CoQ10 food and is absent), and the NMN entry contradicts itself by citing a 13 mg/100 g source while asserting sub-milligram content and computing a 22-100 kg broccoli gap. The eight USDA FDC IDs could not be checked this session because the FDC API rate-limited DEMO_KEY, so they are marked unverified rather than confirmed. Verdict: publishable after the five substantive fixes and the three citation repairs; the classification scheme also needs stating explicitly, because as applied it grades CoQ10 RICH and NR TRACE on materially the same evidence."
+ }
+}

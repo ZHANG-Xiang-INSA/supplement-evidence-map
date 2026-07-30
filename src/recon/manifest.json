@@ -1,0 +1,62 @@
+[
+ {
+  "group": "fat-soluble-vitamins",
+  "path": "recon/in_fat-soluble-vitamins.json",
+  "items": 5,
+  "corrections_pending": 24
+ },
+ {
+  "group": "water-soluble-vitamins",
+  "path": "recon/in_water-soluble-vitamins.json",
+  "items": 4,
+  "corrections_pending": 9
+ },
+ {
+  "group": "minerals-a",
+  "path": "recon/in_minerals-a.json",
+  "items": 4,
+  "corrections_pending": 13
+ },
+ {
+  "group": "minerals-b",
+  "path": "recon/in_minerals-b.json",
+  "items": 3,
+  "corrections_pending": 9
+ },
+ {
+  "group": "omega-3",
+  "path": "recon/in_omega-3.json",
+  "items": 5,
+  "corrections_pending": 8
+ },
+ {
+  "group": "performance",
+  "path": "recon/in_performance.json",
+  "items": 7,
+  "corrections_pending": 5
+ },
+ {
+  "group": "gut-fibre",
+  "path": "recon/in_gut-fibre.json",
+  "items": 9,
+  "corrections_pending": 18
+ },
+ {
+  "group": "polyphenols",
+  "path": "recon/in_polyphenols.json",
+  "items": 6,
+  "corrections_pending": 19
+ },
+ {
+  "group": "longevity-compounds",
+  "path": "recon/in_longevity-compounds.json",
+  "items": 8,
+  "corrections_pending": 22
+ },
+ {
+  "group": "neuro-herbal",
+  "path": "recon/in_neuro-herbal.json",
+  "items": 10,
+  "corrections_pending": 12
+ }
+]

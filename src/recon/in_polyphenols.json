@@ -1,0 +1,578 @@
+{
+ "group": "polyphenols",
+ "items_assigned": [
+  "Curcumin / turmeric extract",
+  "Green tea extract (EGCG)",
+  "Resveratrol",
+  "Astaxanthin",
+  "Saffron, SAMe and other mood botanicals",
+  "Weight-loss, fat-burner and energy blends"
+ ],
+ "submission": {
+  "items": [
+   {
+    "supplement": "Curcumin / turmeric extract",
+    "availability": "TRACE",
+    "availability_note": "Turmeric is a genuine culinary food (the dried, ground rhizome of Curcuma longa, USDA FoodData Central FDC 172231), so the compound is present in ordinary diets. It is classified TRACE rather than RICH because the curcuminoid concentration is about 3% of the powder by weight, so realistic culinary portions deliver roughly 3 to 10 percent of a standard 1,000 mg curcuminoid supplement dose. Turmeric is also the only meaningful food source; curry powder is 5 to 60 times weaker again.",
+    "foods": [
+     {
+      "food": "Turmeric, ground (dried rhizome powder, as sold as a spice)",
+      "per_100g": "3.14 g curcumin per 100 g (3.14% w/w mean for pure turmeric powder; range across 28 US retail spice products 0.58 to 3.14%). Total curcuminoids run roughly 1.4 to 1.6 times higher than curcumin alone, since curcumin is only 60 to 70% of the curcuminoid fraction, so about 4.5 to 5 g/100 g",
+      "portion": "1 level teaspoon (3.0 g)",
+      "per_portion": "94 mg curcumin (about 140 mg total curcuminoids). 1 tablespoon (9.4 g) = 295 mg curcumin",
+      "pct_rda_or_dose": "9.4% of a 1,000 mg curcuminoid dose per teaspoon; 30% per tablespoon",
+      "source": "Tayyem RF et al., Curcumin content of turmeric and curry powders, Nutr Cancer 2006;55(2):126-31, PMID 17044766, DOI 10.1207/s15327914nc5502_2. Food entry and portion weights: USDA FoodData Central FDC 172231 (Spices, turmeric, ground; 1 tsp = 3.0 g, 1 tbsp = 9.4 g)"
+     },
+     {
+      "food": "Curry powder (commercial blend, containing turmeric)",
+      "per_100g": "0.05 to 0.58 g curcumin per 100 g (0.05 to 0.58% w/w)",
+      "portion": "1 tablespoon (about 6 g) used in a dish for two to four people",
+      "per_portion": "3 to 35 mg curcumin in the whole dish",
+      "pct_rda_or_dose": "0.3 to 3.5% of a 1,000 mg dose for the entire dish",
+      "source": "Tayyem RF et al., Nutr Cancer 2006;55(2):126-31, PMID 17044766, DOI 10.1207/s15327914nc5502_2 (tablespoon weight is a household approximation; the composition figure is the sourced number)"
+     }
+    ],
+    "dose_gap": "A 1,000 mg curcuminoid capsule equals about 21 to 32 g of turmeric powder every day: 32 g if you count curcumin only at 3.14% w/w, about 21 g if you count all three curcuminoids at roughly 4.7%. That is 7 to 11 level teaspoons, close to a third of a standard supermarket spice jar per day, and inedible in food. For scale, a generous curry portion carries 1 to 2 g of turmeric, or 30 to 60 mg of curcumin, and a South Asian diet at the commonly quoted 2 to 2.5 g turmeric per day yields only 63 to 79 mg of curcumin (arithmetic from the 3.14% figure). So the supplement dose is roughly 15 to 30 times a heavy dietary intake and cannot be reached by eating.",
+    "form_caveat": "This is the single most important form gap in the whole list. Culinary turmeric has no liver-injury signal; 95% curcuminoid extracts, especially those boosted with piperine or reformulated as phytosomes, micelles or nanoparticles, are now a leading identified botanical cause of drug-induced liver injury in US and Australian case series, with a reported HLA-B*35:01 association. The EFSA/JECFA acceptable daily intake for curcumin (E 100) is 3 mg/kg body weight per day, i.e. 210 mg for a 70 kg adult: one teaspoon of turmeric in food (94 mg curcumin) sits below it, while a single 1,000 mg curcuminoid capsule is about five times over it. Concentrated extracts also inhibit CYP3A4 and UGT enzymes and interact with anticoagulants, which food-level turmeric does not. Second caveat cutting the other way: scaling up culinary turmeric is not a safe workaround either, because turmeric powder in some supply chains has been adulterated with lead chromate for colour (well documented in Bangladeshi turmeric), and gram-level daily dosing of spice-grade powder magnifies that exposure.",
+    "bioavailability": "Curcumin is close to a worst case for oral absorption: poor solubility, extensive intestinal and hepatic glucuronidation and sulfation, and rapid biliary excretion leave systemic exposure at or below detection limits after dietary amounts. Co-administered piperine 20 mg raised curcumin bioavailability roughly 20-fold in humans (Shoba et al. 1998, PMID 9619120), and modern phytosome, micellar and nanoparticle formulations claim 10 to 185-fold increases over unformulated powder. The practical consequence is that milligram equivalence between spice and supplement is misleading in both directions: a formulated 500 mg extract can deliver more systemic curcumin than 30 g of raw powder, and the traditional practice of blooming turmeric in hot oil with black pepper is a crude version of the same trick."
+   },
+   {
+    "supplement": "Green tea extract (EGCG)",
+    "availability": "RICH",
+    "availability_note": "Green tea, matcha, white tea and oolong all deliver EGCG in tens to hundreds of milligrams per cup. This is the one group in this set where an ordinary beverage genuinely reaches the doses used in trials: EFSA's own exposure assessment puts the 95th percentile adult intake from green tea infusions at 866 mg EGCG/day, above the 800 mg threshold at which supplements raise transaminases.",
+    "foods": [
+     {
+      "food": "Green tea, brewed infusion (traditional preparation)",
+      "per_100g": "70.2 mg EGCG per 100 mL (mean of 100 brewed samples from 12 references; range 2.3 to 203 mg/100 mL)",
+      "portion": "1 cup (250 mL)",
+      "per_portion": "176 mg EGCG at the mean (range 6 to 508 mg depending on leaf quantity, water temperature and steeping time)",
+      "pct_rda_or_dose": "22% of an 800 mg extract dose per cup at the mean strength",
+      "source": "EFSA ANS Panel, Scientific opinion on the safety of green tea catechins, EFSA Journal 2018;16(4):5239, DOI 10.2903/j.efsa.2018.5239, Table 2 (PMC7009618)"
+     },
+     {
+      "food": "Green tea, dry leaf",
+      "per_100g": "7,116 mg EGCG per 100 g dry leaf (mean; range 1,600 to 20,320 mg/100 g)",
+      "portion": "2 g of leaf, the amount used for one cup",
+      "per_portion": "142 mg EGCG present in the leaf at the mean, of which brewing transfers a variable fraction",
+      "pct_rda_or_dose": "18% of an 800 mg dose",
+      "source": "EFSA ANS Panel, EFSA Journal 2018;16(4):5239, DOI 10.2903/j.efsa.2018.5239, Table 2"
+     },
+     {
+      "food": "Matcha powder (whisked, whole leaf consumed)",
+      "per_100g": "761 to 1,690 mg EGCG per 100 g powder (7.61 to 16.9 mg/g across matcha samples). Some quantitative NMR analyses report higher, 2,000 to 2,700 mg/100 g",
+      "portion": "1 bowl (2 g powder)",
+      "per_portion": "15 to 34 mg EGCG (up to about 54 mg using the higher NMR figures)",
+      "pct_rda_or_dose": "2 to 7% of an 800 mg dose per bowl",
+      "source": "Koláčková T et al., The effect of in vitro digestion on matcha tea active components and antioxidant activity, Antioxidants 2022;11(5):889, PMID 35624753, DOI 10.3390/antiox11050889. Higher range: Sci Pharm 2025;93(1):11 (qNMR of matcha functional compounds)"
+     },
+     {
+      "food": "White tea, dry leaf",
+      "per_100g": "5,230 to 9,490 mg EGCG per 100 g dry leaf (5.23 to 9.49 g/100 g), overlapping green tea at 4,400 to 9,600 mg/100 g",
+      "portion": "2 g of leaf, the amount used for one cup",
+      "per_portion": "105 to 190 mg EGCG present in the leaf; the infusion delivers part of it",
+      "pct_rda_or_dose": "13 to 24% of an 800 mg dose",
+      "source": "Abiri B et al., Tea's anti-obesity properties, cardiometabolic health-promoting potentials, bioactive compounds, and adverse effects: a review focusing on white and green teas, Food Sci Nutr 2023;11(10):5818-36, PMID 37823174, DOI 10.1002/fsn3.3595"
+     }
+    ],
+    "dose_gap": "800 mg EGCG, the dose at which supplements produce measurable liver enzyme rises, is about 4 to 5 cups of green tea at EFSA's mean brewed concentration of 70.2 mg/100 mL, or 10 to 16 cups of more typically brewed retail tea, or roughly 24 to 53 bowls of matcha at 2 g each. Unlike every other entry here, the gap is genuinely closable: EFSA's own 95th percentile adult tea drinker already takes in 866 mg EGCG/day from infusions, and mean adult intake is 90 to 300 mg/day. The difference that matters is not the milligrams but the vehicle: the tea drinker's 800 mg arrives spread over a day in two to three litres of water, usually with food, while the supplement delivers it as one fasted bolus.",
+    "form_caveat": "State this plainly: the beverage carries no meaningful liver signal, the extract does. EFSA concluded that intake at or above 800 mg EGCG/day taken as a food supplement causes a statistically significant increase in serum transaminases, while catechins from green tea infusion prepared in the traditional way, and reconstituted drinks of equivalent composition, are in general considered safe. Same molecule, different product. Risk concentrates in high-dose, single-bolus, fasted dosing of concentrated extracts, and Commission Regulation (EU) 2022/2340 now prohibits supplements delivering 800 mg or more EGCG per day in the EU. Green tea extract is also the ingredient behind a large share of liver injury cases attributed to weight-loss and fat-burner blends, which is a warning about the extract and not about tea.",
+    "bioavailability": "Systemic bioavailability of EGCG is low, on the order of 0.1 to 1% of an oral dose as the unchanged compound, with heavy glucuronidation, sulfation and methylation plus colonic degradation. The critical modifier is food: fasted dosing raises EGCG Cmax severalfold compared with the same dose taken with a meal, and fasted administration is both the way extracts are typically taken and the condition associated with hepatotoxicity. Milk and food proteins bind catechins and blunt peak levels, so tea with milk is pharmacologically not tea on an empty stomach. Brewing extracts only part of the leaf's EGCG whereas matcha delivers the whole leaf, but note that per gram of leaf, shade-grown matcha is not richer in EGCG than a good sencha, so the popular claim that matcha is a many-fold EGCG upgrade does not hold up in the measured data."
+   },
+   {
+    "supplement": "Resveratrol",
+    "availability": "TRACE",
+    "availability_note": "Present in red wine, grapes, peanuts and a few berries, but at concentrations three to five orders of magnitude below trial doses. Red wine averages 1.9 mg trans-resveratrol per litre, so the entire classic dietary source contains less resveratrol per litre than a single capsule. Supplement resveratrol is not extracted from grapes at all: it is made synthetically or extracted from Japanese knotweed root (Polygonum cuspidatum), which is not a food.",
+    "foods": [
+     {
+      "food": "Red wine",
+      "per_100g": "0.19 mg trans-resveratrol per 100 mL (1.9 ± 1.7 mg/L mean across a large review of red wines; range not detected to 14.3 mg/L, highest in Pinot Noir and St Laurent). Trans-piceid, the glucoside, averages about three times higher at up to 29.2 mg/L",
+      "portion": "1 standard glass (175 mL)",
+      "per_portion": "0.33 mg trans-resveratrol (range 0 to 2.5 mg)",
+      "pct_rda_or_dose": "0.2% of a 150 mg dose per glass",
+      "source": "Stervbo U, Vang O, Bonnesen C, A review of the content of the putative chemopreventive phytoalexin resveratrol in red wine, Food Chemistry 2007;101(2):449-57, DOI 10.1016/j.foodchem.2006.01.047. Corroborating single-vineyard measurements 0.32 to 3.26 mg/L: Geana EI et al., Food Technol Biotechnol 2015;53(1):73-80, PMID 27904334, DOI 10.17113/ftb.53.01.15.3762"
+     },
+     {
+      "food": "Table grapes, fresh (cv. Napoleon, mature, untreated)",
+      "per_100g": "about 0.5 mg resveratrol per 100 g of whole fruit",
+      "portion": "1 serving (200 g, roughly a large bunch)",
+      "per_portion": "about 1 mg resveratrol, which the authors note is in the range supplied by a glass of red wine",
+      "pct_rda_or_dose": "0.7% of a 150 mg dose per 200 g serving",
+      "source": "Cantos E, García-Viguera C, de Pascual-Teresa S, Tomás-Barberán FA, Effect of postharvest ultraviolet irradiation on resveratrol and other phenolics of cv. Napoleon table grapes, J Agric Food Chem 2000;48(10):4606-12, PMID 11052707, DOI 10.1021/jf0002948. Berry skin values 0.03 to 29.5 mg/kg of skin across five cultivars and two harvests: Geana EI et al. 2015, PMID 27904334"
+     },
+     {
+      "food": "Peanuts, boiled (the richest peanut form)",
+      "per_100g": "0.51 mg per 100 g (5.138 ± 2.849 µg/g)",
+      "portion": "1 cup boiled peanuts (100 g)",
+      "per_portion": "0.51 mg",
+      "pct_rda_or_dose": "0.3% of a 150 mg dose",
+      "source": "Sobolev VS, Cole RJ, trans-Resveratrol content in commercial peanuts and peanut products, J Agric Food Chem 1999;47(4):1435-9, DOI 10.1021/jf9809885"
+     },
+     {
+      "food": "Peanuts, roasted",
+      "per_100g": "0.0055 mg per 100 g (0.055 ± 0.023 µg/g). Independent survey of Virginia, runner and Spanish types across four locations: 0.03 to 0.14 µg/g",
+      "portion": "1 oz (28 g), about a small handful",
+      "per_portion": "0.0015 mg (1.5 µg)",
+      "pct_rda_or_dose": "0.001% of a 150 mg dose",
+      "source": "Sobolev VS, Cole RJ, J Agric Food Chem 1999;47(4):1435-9, DOI 10.1021/jf9809885; Sanders TH et al., Occurrence of resveratrol in edible peanuts, J Agric Food Chem 2000, DOI 10.1021/jf990737b"
+     },
+     {
+      "food": "Peanut butter",
+      "per_100g": "0.032 mg per 100 g (0.324 ± 0.129 µg/g)",
+      "portion": "2 tablespoons (32 g)",
+      "per_portion": "0.010 mg (10 µg)",
+      "pct_rda_or_dose": "0.007% of a 150 mg dose",
+      "source": "Sobolev VS, Cole RJ, J Agric Food Chem 1999;47(4):1435-9, DOI 10.1021/jf9809885"
+     }
+    ],
+    "dose_gap": "This is the textbook illustration and the numbers are brutal. A 150 mg resveratrol dose equals 79 litres of average red wine (150 mg ÷ 1.9 mg/L), which is about 105 standard 750 mL bottles, or roughly 450 glasses, every day. Even at the highest concentration ever reported in a red wine (14.3 mg/L) it is still 10.5 litres per day. From grapes: 30 kg of table grapes daily. From peanuts: 29 kg of boiled peanuts, or 2.7 tonnes of roasted peanuts. Trials commonly use 150 to 1,000 mg/day and the SRT501 cancer studies used up to 5 g/day, all of it manufactured. There is no dietary route to these doses, and no plausible diet gets past about 5 mg/day.",
+    "form_caveat": "Three separate mismatches. First, the supplement is not a food extract: commercial resveratrol is synthetic or comes from Polygonum cuspidatum root, a non-food plant, so the grape imagery on the label is marketing rather than sourcing. Second, wine's stilbenes are mostly the glucoside trans-piceid, at about three times the aglycone concentration, arriving inside a large mixed polyphenol and ethanol matrix, so wine is not a dilute resveratrol capsule. Third, and decisive: recommending wine as a resveratrol source is a bad recommendation regardless of dose, because ethanol is a Group 1 carcinogen and the alcohol harm arrives at one glass while the resveratrol dose would require a hundred bottles. Separately, high-dose resveratrol (2.5 to 5 g/day) causes diarrhoea and nausea and inhibits CYP3A4, CYP2C9 and sulfotransferases, giving it real interaction potential (warfarin, for example) that a glass of wine does not have.",
+    "bioavailability": "Oral resveratrol is well absorbed (about 70% of the dose crosses the enterocyte) but systemic bioavailability of the unchanged aglycone is under 1 to 2% because of near-immediate intestinal and hepatic glucuronidation and sulfation; plasma peaks from dietary quantities sit in the low nanomolar range, while in vitro activity is generally demonstrated at micromolar concentrations. Piceid, the form dominant in grapes and much of wine, must be deglycosylated before absorption, adding another step. Gram doses are needed to reach micromolar plasma levels, which is precisely why the food route is closed."
+   },
+   {
+    "supplement": "Astaxanthin",
+    "availability": "RICH",
+    "availability_note": "Genuinely present at milligram levels in ordinary seafood. Wild sockeye salmon carries 26 to 38 mg per kg of flesh, so a single fillet supplies several milligrams, which is the same order of magnitude as a supplement capsule. This is the strongest food case in this set, although matching a 12 mg daily dose from fish alone still means eating a large salmon portion every single day.",
+    "foods": [
+     {
+      "food": "Wild sockeye salmon (Oncorhynchus nerka), flesh",
+      "per_100g": "2.6 to 3.8 mg per 100 g (26 to 38 mg/kg flesh). A Raman study of retail fillets measured lower, 1.42 mg/100 g (14.2 mg/kg), showing real variability",
+      "portion": "1 fillet (140 g)",
+      "per_portion": "3.6 to 5.3 mg (2.0 mg using the lower retail measurement)",
+      "pct_rda_or_dose": "30 to 44% of a 12 mg clinical dose per fillet",
+      "source": "Ambati RR et al., Astaxanthin: sources, extraction, stability, biological activities and its commercial applications, Mar Drugs 2014;12(1):128-52, PMID 24402174, DOI 10.3390/md12010128, Figure 1 (the same review notes 165 g of salmon per day supplies 3.6 mg). Retail fillet measurement: Mar Biotechnol 2017, PMID 28378103, DOI 10.1007/s10126-017-9739-7"
+     },
+     {
+      "food": "Wild coho salmon, flesh",
+      "per_100g": "0.70 mg per 100 g (7.0 mg/kg, measured on retail fillet)",
+      "portion": "1 fillet (140 g)",
+      "per_portion": "0.98 mg",
+      "pct_rda_or_dose": "8% of a 12 mg dose",
+      "source": "On-site direct detection of astaxanthin from salmon fillet using Raman spectroscopy, Mar Biotechnol 2017, PMID 28378103, DOI 10.1007/s10126-017-9739-7"
+     },
+     {
+      "food": "Farmed Atlantic salmon, flesh",
+      "per_100g": "0.6 to 0.8 mg per 100 g (6 to 8 mg/kg flesh)",
+      "portion": "1 fillet (140 g)",
+      "per_portion": "0.84 to 1.12 mg",
+      "pct_rda_or_dose": "7 to 9% of a 12 mg dose",
+      "source": "Ambati RR et al., Mar Drugs 2014;12(1):128-52, PMID 24402174, DOI 10.3390/md12010128, Figure 1"
+     },
+     {
+      "food": "Shrimp / prawns (Pandalus borealis and shrimp products), wet weight",
+      "per_100g": "0.86 to 7.0 mg per 100 g (8.6 to 70 µg/g across body parts and products). Astaxanthin concentrates in shell and head, so peeled meat sits at the low end and shell-on preparations at the high end",
+      "portion": "100 g peeled cooked shrimp, about 12 large prawns",
+      "per_portion": "0.9 to 7 mg, realistically nearer 1 mg for peeled meat",
+      "pct_rda_or_dose": "7 to 58% of a 12 mg dose",
+      "source": "Northern shrimp (Pandalus borealis): a review on biology, catch, processing, quality changes, shelf-life and product safety, Crit Rev Food Sci Nutr 2025, DOI 10.1080/10408398.2025.2505241"
+     },
+     {
+      "food": "Antarctic krill (Euphausia superba), meal / frozen whole krill",
+      "per_100g": "about 3.7 mg per 100 g (37.4 mg/kg in properly dried krill meal; frozen krill reported at 30 to 40 mg/kg)",
+      "portion": "100 g",
+      "per_portion": "about 3.7 mg",
+      "pct_rda_or_dose": "31% of a 12 mg dose",
+      "source": "Prevention of the quality degradation of Antarctic krill (Euphausia superba) meal through two-stage drying, Foods 2024;13(11):1706, PMC11171497, DOI 10.3390/foods13111706"
+     },
+     {
+      "food": "Rainbow trout, large, flesh",
+      "per_100g": "0.6 mg per 100 g for European-market trout, 2.5 mg per 100 g for Japanese-market trout (6 and 25 mg/kg)",
+      "portion": "1 fillet (140 g)",
+      "per_portion": "0.84 to 3.5 mg",
+      "pct_rda_or_dose": "7 to 29% of a 12 mg dose",
+      "source": "Ambati RR et al., Mar Drugs 2014;12(1):128-52, PMID 24402174, DOI 10.3390/md12010128, Figure 1"
+     }
+    ],
+    "dose_gap": "A 12 mg daily dose, the most common dose in the clinical literature, equals 315 to 460 g of wild sockeye salmon every day at 26 to 38 mg/kg, or about 550 g using the review's own dietary anchor of 3.6 mg per 165 g portion. From farmed Atlantic salmon it is 1.5 to 2.0 kg per day. From shrimp, 170 g to 1.4 kg depending on preparation. From krill meal, about 320 g. So a single 140 g sockeye fillet already covers roughly a third of a 12 mg dose, and this is the only entry in this set where a normal portion and a capsule are the same order of magnitude. Sustaining 12 mg/day from fish is still unrealistic, and eating 350 to 500 g of oily fish daily would push past standard advice on methylmercury and persistent organic pollutants.",
+    "form_caveat": "Chemical form differs by source. Salmon astaxanthin is largely free or protein-bound; krill and Haematococcus astaxanthin is esterified with fatty acids; and much supplement and feed astaxanthin is synthetic astaxanthin dimethyldisuccinate, a different stereoisomer mixture from the natural 3S,3'S form. This matters for the safety arithmetic: EFSA's acceptable daily intake of 0.2 mg/kg body weight per day (14 mg for a 70 kg adult, replacing the earlier 0.034 mg/kg) was derived from a rat carcinogenicity study on the synthetic material and then applied to the algal form, so a 12 to 24 mg capsule sits at or above the ADI while a salmon fillet does not. A safety review of 87 human studies, including 35 at 12 mg/day or more, found no safety concerns with natural astaxanthin and argues the synthetic-derived ADI should not govern it (Brendler & Williamson, Phytother Res 2019, PMID 31788888, DOI 10.1002/ptr.6514). One honest twist: the astaxanthin in farmed salmon is itself an added feed pigment, so eating farmed salmon for astaxanthin means eating a supplemented animal.",
+    "bioavailability": "Astaxanthin is a lipophilic xanthophyll and absorption depends on fat and micelle formation: uptake from a lipid-based formulation or a fatty meal is severalfold higher than from a dry powder taken fasted, and esterified forms must first be hydrolysed by pancreatic lipase. Overall human bioavailability is low and highly variable (single-digit percentages), which cuts in favour of the food: salmon arrives pre-packaged with its own lipid and a food matrix, so the plasma difference between a 4 mg fillet and a 12 mg dry capsule is smaller than the milligram gap implies."
+   },
+   {
+    "supplement": "Saffron, SAMe and other mood botanicals",
+    "availability": "NOT_FOOD",
+    "availability_note": "This is a deliberately mixed group and the honest answer splits three ways. Saffron is the one true culinary member and is listed under foods below despite the NOT_FOOD label on the group, because its clinical dose is literally a cooking quantity and omitting it would hide the most useful finding here. SAMe is not a dietary component at all: it is synthesised continuously in the body from methionine and ATP by methionine adenosyltransferase, mostly in the liver, there is no meaningful preformed SAMe in food, and commercial SAMe is manufactured by Saccharomyces cerevisiae fermentation and then stabilised as the tosylate disulfate or 1,4-butanedisulfonate salt (so for SAMe alone the correct classification is SYNTHETIC). St John's wort (Hypericum perforatum aerial parts), rhodiola root, ashwagandha root and Griffonia simplicifolia seed, the source of 5-HTP, are plants nobody eats as food in any normal diet; they have no composition-table entry and no portion size because they are not eaten.",
+    "foods": [
+     {
+      "food": "Saffron, dried stigmas (Crocus sativus)",
+      "per_100g": "100 g of saffron is 3,333 clinical doses of 30 mg. The active apocarotenoids (crocins, picrocrocin, safranal, crocetin) make up as much as 8% of the dry weight; standardised extracts used in trials deliver roughly 3.4 mg of crocins per 30 mg dose",
+      "portion": "1 teaspoon (0.7 g)",
+      "per_portion": "700 mg of saffron, i.e. 23 times the 30 mg dose used in depression RCTs",
+      "pct_rda_or_dose": "2,300% of a 30 mg trial dose",
+      "source": "USDA FoodData Central FDC 170934 (Spices, saffron; 1 tbsp = 2.1 g, so 1 tsp = 0.7 g). Trial dose: Akhondzadeh S et al., Crocus sativus L. in the treatment of mild to moderate depression, PMID 15852492 (30 mg/day for 6 weeks, comparable to fluoxetine 20 mg/day on HAM-D)"
+     },
+     {
+      "food": "Saffron, culinary pinch as used to season a dish",
+      "per_100g": "as above",
+      "portion": "a generous pinch, about 0.1 g (roughly 20 to 30 threads), seasoning a dish for four. For reference the FDA reference amount customarily consumed for saffron is 0.125 g",
+      "per_portion": "about 25 mg of saffron per person from a dish for four; 125 mg for a single reference serving",
+      "pct_rda_or_dose": "83% of the 30 mg trial dose per serving of the dish; over 400% for one 0.125 g reference serving",
+      "source": "USDA FoodData Central FDC 170934 (spice entry and reference serving); trial dose PMID 15852492"
+     }
+    ],
+    "dose_gap": "For saffron the gap is essentially zero, which is the finding worth reporting: the 30 mg/day used in the depression RCTs is about 8 to 15 threads, less than a generous culinary pinch, and one teaspoon of saffron in a paella is over twenty doses. Saffron is the rare supplement whose trial dose is sub-culinary; the barrier is cost, not physiology. For SAMe there is no gap to compute because there is no food source: trials use 400 to 1,600 mg/day of a manufactured molecule, while the body's own SAMe turnover (on the order of grams per day) is fed by roughly 1 g/day of dietary methionine from protein foods, which is a different intervention from swallowing SAMe. For the remaining botanicals (St John's wort typically 300 mg three times daily of a 0.3% hypericin extract, rhodiola 200 to 600 mg, ashwagandha 300 to 600 mg root extract, 5-HTP 100 to 300 mg) the food gap is undefined because the source plants are not foods at any quantity.",
+    "form_caveat": "Saffron is the mildest food-versus-extract case in this whole set, since trials use either powdered stigma or a hydroalcoholic extract standardised to crocins and safranal, so kitchen saffron is close to the trial material. The caveat is at the top end: saffron is toxic at gram doses, with roughly 5 g reported as a toxic dose and 12 to 20 g as potentially lethal, and it is a traditional abortifacient, so scaling from a pinch to a spoonful is genuinely hazardous. Standardised extracts also concentrate crocins, so milligram-for-milligram an extract is not the spice. For the rest of the group the form gap is total: St John's wort is a potent CYP3A4 and P-glycoprotein inducer that has caused transplant rejection, contraceptive failure and serotonin syndrome with SSRIs; ashwagandha root extracts have accumulated a documented cluster of hepatotoxicity case reports, including in regulatory reviews, while traditional use was of small amounts of root powder in milk as medicine and never as a food; purified 5-HTP bypasses the rate-limiting tryptophan hydroxylase step that normally regulates serotonin synthesis, which is exactly why it carries serotonin syndrome risk with serotonergic drugs and why no food behaves like it.",
+    "bioavailability": "Saffron's crocins are poorly absorbed intact and are hydrolysed in the gut to crocetin, which is what appears in plasma; safranal is volatile and is partly lost in long simmering, so a slow-cooked dish delivers a different apocarotenoid profile than a capsule taken cold, and blooming saffron in warm liquid before adding it is the culinary analogue of extraction. SAMe is chemically unstable and is degraded in gastric acid unless enterically coated, and oral bioavailability is only about 1% because of extensive first-pass metabolism, which is why oral doses are 400 to 1,600 mg while parenteral doses are far smaller. The classic bad recommendation in this space is 'eat turkey or eggs for 5-HTP': food supplies tryptophan, not 5-HTP, and dietary tryptophan competes with the other large neutral amino acids in the same protein meal for LAT1 transport across the blood-brain barrier, so a high-protein meal can lower rather than raise brain tryptophan availability. Food is a poor delivery route for this entire group."
+   },
+   {
+    "supplement": "Weight-loss, fat-burner and energy blends",
+    "availability": "TRACE",
+    "availability_note": "Mixed category, classified TRACE because that is the dominant pattern, with important exceptions in both directions. Caffeine is the one component with a genuinely RICH food source (coffee, tea) and the only one with a consistent thermogenic effect. Raspberry ketone is present in raspberries at 0.001 to 4.3 mg/kg, thousands of times below the 100 to 1,400 mg/day sold, the archetypal TRACE case. Garcinia gummi-gutta rind (Malabar tamarind, kodampuli or kudam puli) is a real culinary souring agent in Kerala and parts of Southeast Asia, used in fish curry and asam laksa in place of tamarind or lime, so it does have a food identity, and at about 30% hydroxycitric acid it is the one fat-burner botanical whose culinary use actually delivers supplement-scale amounts of its active compound. Green coffee extract's chlorogenic acids come from unroasted beans, which nobody eats. Bitter orange peel (p-synephrine), yohimbe bark and Coleus forskohlii root are NOT_FOOD, and pure synthetic components such as higenamine or DMAA appear in these blends with no food origin at all.",
+    "foods": [
+     {
+      "food": "Raspberries, raw",
+      "per_100g": "0.0001 to 0.43 mg raspberry ketone per 100 g (0.001 to 4.3 mg/kg across wild genotypes and cultivars, in juices and pulps)",
+      "portion": "1 cup / small punnet (125 g)",
+      "per_portion": "up to 0.54 mg at the highest reported natural concentration, and typically far less",
+      "pct_rda_or_dose": "up to 0.5% of a 100 mg supplement dose",
+      "source": "Bredsdorff L et al., Raspberry ketone in food supplements: high intake, few toxicity data, a cause for safety concern?, Regul Toxicol Pharmacol 2015, PMID 26160596, DOI 10.1016/j.yrtph.2015.06.022"
+     },
+     {
+      "food": "Garcinia gummi-gutta dried fruit rind (kodampuli / Malabar tamarind), culinary souring agent",
+      "per_100g": "about 30 g hydroxycitric acid per 100 g of pericarp (approximately 30% w/w). Commercial extracts are standardised to 40% HCA or more",
+      "portion": "about 3 g of dried rind, a couple of pieces as used to sour a pot of fish curry",
+      "per_portion": "about 900 mg HCA in the pot",
+      "pct_rda_or_dose": "matches the top of the 72 to 900 mg HCA range delivered by supplements",
+      "source": "van Breemen RB, Roe AL, Akhtar N, Hepatotoxicity of dietary supplements containing Garcinia gummi-gutta (L.) N. Robson, Pharmaceutical Biology 2025;63(1):912-24, PMID 41262061, DOI 10.1080/13880209.2025.2591467 (HCA content, supplement doses of 72 to 2,800 mg extract per day containing 72 to 900 mg HCA)"
+     },
+     {
+      "food": "Coffee, brewed filter (Arabica, roasted)",
+      "per_100g": "30 mg caffeine per 100 mL. Chlorogenic acids in the roasted beans: 0.9 to 1.9 g per 100 g, against 5.4 g per 100 g in green (unroasted) beans, a roughly six-fold loss on roasting",
+      "portion": "1 cup (150 mL)",
+      "per_portion": "45 mg caffeine per cup; espresso gives 112 mg per 40 mL and instant coffee 54 mg per 150 mL",
+      "pct_rda_or_dose": "23% of a 200 mg pre-workout caffeine dose per cup",
+      "source": "Caffeine: Rocha PL et al., Development of a caffeine content table for foods, drinks, medications and supplements typically consumed by the Brazilian population, Nutrients 2022;14(20):4417, PMID 36297100, DOI 10.3390/nu14204417. Chlorogenic acid: Awwad S et al., Molecules 2021;26(24):7502, PMID 34946584, DOI 10.3390/molecules26247502"
+     },
+     {
+      "food": "Green tea, brewed (the EGCG and caffeine component of most fat-burner blends)",
+      "per_100g": "20 mg caffeine per 100 mL; for EGCG see the green tea extract entry (70.2 mg/100 mL brewed)",
+      "portion": "1 cup (200 mL)",
+      "per_portion": "40 mg caffeine, plus roughly 140 mg EGCG at EFSA's mean brewed concentration",
+      "pct_rda_or_dose": "20% of a 200 mg caffeine dose per cup",
+      "source": "Rocha PL et al., Nutrients 2022;14(20):4417, PMID 36297100, DOI 10.3390/nu14204417; EGCG from EFSA Journal 2018;16(4):5239, DOI 10.2903/j.efsa.2018.5239"
+     }
+    ],
+    "dose_gap": "Component by component. Raspberry ketone: 100 mg, the smallest common dose, is about 23 kg of fresh raspberries at the highest natural concentration of 4.3 mg/kg, and the 1,400 mg top dose is roughly 326 kg; the authors of the safety review note that even the lowest recommended supplement dose is about 56 times the threshold of toxicological concern for its structural class. Not reachable by eating, by three orders of magnitude. Green coffee: extracts standardised to 45 to 50% chlorogenic acids at 400 to 1,600 mg/day supply roughly 200 to 800 mg CGA, while roasted coffee holds only 0.9 to 1.9 g CGA per 100 g of grounds, so a few cups reach the low end and the concentrated dose exists only because green beans are inedible. Caffeine is the exception that is easy to reach: 200 mg is four to five cups of filter coffee or two espressos. Garcinia is the striking case: at 30% HCA, 3 g of dried rind carries about 900 mg HCA, equal to the top of the supplement range, so the culinary plant genuinely delivers the active compound.",
+    "form_caveat": "The governing pattern in this category is that the food is safe and the concentrate is not, and Garcinia is the cleanest illustration. Centuries of culinary use of the dried rind as a souring agent in South and Southeast Asian cooking carries no liver-injury signal, while concentrated HCA supplements have produced 34 published hepatotoxicity case reports including nine liver transplants and one death, plus more than 200 adverse events of liver injury and 93 international case reports reviewed by Health Canada. The injury looks idiosyncratic rather than dose-dependent, with a proposed HLA-B*35:01 association, so the traditional culinary use carrying none of the extract harm is not a claim that the dose is lower; it is that the concentrated extract product behaves differently from the pot of curry. The same shape repeats across the category: green tea extract in fat-burner blends versus drinking tea (see that entry), bitter orange p-synephrine stacked with caffeine and linked to cardiovascular events versus orange peel in marmalade, yohimbe bark extract versus nothing edible at all, and raspberry ketone at food flavouring levels of milligrams per kilogram versus 100 to 1,400 mg/day capsules with essentially no human toxicology. Add the labelling problem: proprietary blends routinely under-declare caffeine and stack multiple stimulants, so the food comparison is the only reliable one available, which is to count your caffeine in cups and treat the rest of the label as unquantified.",
+    "bioavailability": "Caffeine is the outlier and the reason these blends do anything: it is almost completely absorbed, peaks in 30 to 60 minutes, and behaves much the same from coffee as from a tablet, with coffee's chlorogenic acids only modestly slowing absorption. Chlorogenic acids themselves are poorly bioavailable, with roughly a third absorbed in the small intestine and the remainder extensively metabolised by colonic microbiota into hydroxycinnamic acid derivatives, so the milligrams of CGA printed on a green coffee label map badly onto systemic exposure. Raspberry ketone is rapidly conjugated and cleared, which is one reason the human evidence for it is close to non-existent. Hydroxycitric acid absorption from Garcinia is incomplete and depends on the salt form (calcium, potassium or magnesium salts differ in solubility), which helps explain why the pooled human weight-loss effect is at best around 0.9 kg over placebo despite doses that a bowl of Kerala fish curry could match."
+   }
+  ]
+ },
+ "verification_report": {
+  "group": "polyphenols",
+  "number_checks": [
+   {
+    "claim": "Turmeric, ground: 3.14 g curcumin per 100 g (3.14% w/w mean for pure turmeric powder)",
+    "verdict": "OK",
+    "authoritative_value": "\"Pure turmeric powder had the highest curcumin concentration, averaging 3.14% by weight\"",
+    "correction": "None. The headline figure is exactly right and correctly attributed.",
+    "source": "Tayyem RF, Heath DD, Al-Delaimy WK, Rock CL. Curcumin content of turmeric and curry powders. Nutr Cancer 2006;55(2):126-31, PMID 17044766 (abstract verified)"
+   },
+   {
+    "claim": "Turmeric curcumin \"range across 28 US retail spice products 0.58 to 3.14%\"",
+    "verdict": "WRONG",
+    "authoritative_value": "Tayyem analysed 28 spice products comprising BOTH turmeric and curry powders; 3.14% is the mean for pure turmeric and is described as the highest concentration measured.",
+    "correction": "3.14% cannot be simultaneously the mean for pure turmeric and the maximum of a range it summarises. Drop the pseudo-range, or report it as: mean 3.14% for pure turmeric powder, n=28 products spanning turmeric and curry powders. The paper's own turmeric-only range is not in the abstract.",
+    "source": "Tayyem 2006, PMID 17044766"
+   },
+   {
+    "claim": "Total curcuminoids 1.4-1.6x curcumin, i.e. about 4.5 to 5 g/100 g, curcumin being 60-70% of the curcuminoid fraction",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Tayyem measured curcumin only; no curcuminoid ratio is reported in the cited paper.",
+    "correction": "The 60-70% curcumin fraction is a standard textbook value but is not in the cited source. Cite it separately or drop the derived 4.5-5 g/100 g, which currently carries a source it did not come from.",
+    "source": "Tayyem 2006, PMID 17044766 (abstract contains no curcuminoid partition)"
+   },
+   {
+    "claim": "Turmeric portion weights: 1 tsp = 3.0 g, 1 tbsp = 9.4 g",
+    "verdict": "OK",
+    "authoritative_value": "1.0 tsp = 3.0 g; 1.0 tbsp = 9.4 g for Spices, turmeric, ground",
+    "correction": "None.",
+    "source": "USDA SR/FoodData Central portion weights for Spices, turmeric, ground (verified via USDA-derived composition mirror)"
+   },
+   {
+    "claim": "94 mg curcumin per level teaspoon (3.0 g); 295 mg per tablespoon (9.4 g)",
+    "verdict": "OK",
+    "authoritative_value": "3.0 g x 3.14% = 94.2 mg; 9.4 g x 3.14% = 295.2 mg",
+    "correction": "None. Both recomputed and correct, as are the 9.4% and 30% of a 1,000 mg dose.",
+    "source": "Arithmetic on Tayyem 2006 x USDA portion weights"
+   },
+   {
+    "claim": "Curry powder: 0.05 to 0.58 g curcumin per 100 g",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Tayyem reports only that curry powders \"with one exception, had relatively small amounts of curcumin present, and the variability in content was great\". No numeric range appears in the abstract.",
+    "correction": "The specific 0.05-0.58% bounds could not be confirmed. Everything downstream (3 to 35 mg per dish, 0.3-3.5% of dose, \"5 to 60 times weaker\") is internally consistent with those bounds but inherits their unverified status.",
+    "source": "Tayyem 2006, PMID 17044766"
+   },
+   {
+    "claim": "Curcumin ADI (E 100) 3 mg/kg bw/day = 210 mg for a 70 kg adult; 1,000 mg capsule about five times over",
+    "verdict": "OK",
+    "authoritative_value": "ADI of 3 mg/kg body weight per day (JECFA, carried into EFSA's 2010 re-evaluation)",
+    "correction": "None. 3 x 70 = 210 mg; 1,000/210 = 4.8x, so \"about five times over\" is right, and 94 mg/tsp sitting below the ADI is right (45% of it).",
+    "source": "EFSA, Refined exposure assessment for curcumin (E 100), EFSA Journal 2014 (verified)"
+   },
+   {
+    "claim": "Piperine 20 mg raised curcumin bioavailability roughly 20-fold in humans",
+    "verdict": "OK",
+    "authoritative_value": "Piperine 20 mg in humans; bioavailability increased 2000% in humans and 154% in rats",
+    "correction": "None. 2000% = 20-fold.",
+    "source": "Shoba G et al. Planta Med 1998;64(4):353-6, PMID 9619120 (abstract verified)"
+   },
+   {
+    "claim": "Green tea infusion: 70.2 mg EGCG per 100 mL, mean of 100 brewed samples from 12 references, range 2.3 to 203",
+    "verdict": "OK",
+    "authoritative_value": "Mean 70.2 mg/100 g brewed tea; range 2.3-203 mg/100 g; 100 brewed green tea samples from 12 references",
+    "correction": "None. Exact match, including the sample count. Downstream 176 mg per 250 mL cup and 22% of 800 mg both recompute correctly.",
+    "source": "EFSA ANS Panel, Scientific opinion on the safety of green tea catechins, EFSA Journal 2018;16(4):5239 (full text verified)"
+   },
+   {
+    "claim": "Green tea dry leaf: 7,116 mg EGCG per 100 g, range 1,600 to 20,320",
+    "verdict": "OK",
+    "authoritative_value": "Mean 7,116 mg/100 g dry leaves; range 1,600-20,320 mg/100 g; n=68",
+    "correction": "None. 2 g x 71.16 mg/g = 142 mg and 18% of 800 mg both check out.",
+    "source": "EFSA Journal 2018;16(4):5239 (verified)"
+   },
+   {
+    "claim": "EFSA mean adult EGCG intake 90 to 300 mg/day",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "Mean intake 85.98-321.21 mg/day",
+    "correction": "Report 86 to 321 mg/day. The rounding narrows EFSA's range at both ends.",
+    "source": "EFSA Journal 2018;16(4):5239 (verified)"
+   },
+   {
+    "claim": "EFSA's 95th percentile adult intake from green tea infusions is 866 mg EGCG/day",
+    "verdict": "IMPRECISE",
+    "authoritative_value": "95th percentile (high-level) exposure 308-866.25 mg/day across dietary surveys",
+    "correction": "866 mg/day is the highest P95 in any single survey, not \"the\" P95. Stating it as the P95 is cherry-picking the extreme and it is doing heavy work in the availability note and the dose gap. Report 308 to 866 mg/day.",
+    "source": "EFSA Journal 2018;16(4):5239 (verified)"
+   },
+   {
+    "claim": "Matcha powder: 761 to 1,690 mg EGCG per 100 g (7.61 to 16.9 mg/g), citing Kolackova et al. Antioxidants 2022;11(5):889",
+    "verdict": "WRONG",
+    "authoritative_value": "Culinary matcha 50.53 +/- 2.41 mg EGCG/g; ceremonial matcha 56.57 +/- 2.19 mg/g (individual ceremonial samples 49.03-69.73 mg/g), i.e. 5,053-5,657 mg/100 g. The cited Kolackova paper reports no EGCG mg/g figure at all: it gives chlorogenic acid 2,090-2,460 ug/g and catechin 10.2-23.1 ug/g.",
+    "correction": "Replace 761-1,690 with roughly 5,000 to 5,700 mg/100 g. The submitted figure is 3 to 7 times too low, and the citation does not contain it. Note also that \"catechin\" at 10.2-23.1 ug/g in the cited paper is a different compound from EGCG and is a thousandfold lower, which looks like the origin of the error.",
+    "source": "Catechin Composition of Commercially-Available Green Teas, Plant Foods Hum Nutr 2023;PMC10665233, PMID 37923855 (15 commercial products, HPLC); Kolackova T et al. Antioxidants 2022;11(5):889, PMID 35624753 (abstract verified, contains no EGCG value)"
+   },
+   {
+    "claim": "Matcha per 2 g bowl: 15 to 34 mg EGCG, 2 to 7% of an 800 mg dose",
+    "verdict": "WRONG",
+    "authoritative_value": "2 g x 50.53-56.57 mg/g = 101 to 113 mg EGCG per bowl",
+    "correction": "About 101 to 113 mg per 2 g bowl, i.e. 13 to 14% of an 800 mg dose. Also note the submission's own arithmetic fails internally: 15-34 mg is 1.9-4.2% of 800 mg, not \"2 to 7%\".",
+    "source": "Plant Foods Hum Nutr 2023, PMC10665233"
+   },
+   {
+    "claim": "\"Some quantitative NMR analyses report higher, 2,000 to 2,700 mg/100 g\", citing Sci Pharm 2025;93(1):11",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "The paper exists and is correctly identified (Hori K, Kurauchi Y, Kotani S, Devkota HP. Analysis of Functional Compounds in Matcha by Quantitative Nuclear Magnetic Resonance Spectroscopy. Sci Pharm 2025;93(1):11, DOI 10.3390/scipharm93010011), but the publisher blocked retrieval and it is not indexed in Europe PMC, so the 2,000-2,700 mg/100 g value could not be checked.",
+    "correction": "Even taken at face value this \"higher\" figure is still about half the independently measured HPLC value, so it should not be presented as the upper bound.",
+    "source": "CrossRef DOI 10.3390/scipharm93010011 (metadata verified); MDPI full text returned HTTP 403"
+   },
+   {
+    "claim": "White tea dry leaf: 5,230 to 9,490 mg EGCG per 100 g, overlapping green tea at 4,400 to 9,600",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Citation is genuine (Abiri B et al., Food Sci Nutr 2023;11(10):5818-36, PMID 37823174, DOI 10.1002/fsn3.3595) but the abstract carries no EGCG figures.",
+    "correction": "No correction to the magnitude: 52-95 mg/g is consistent with the independently measured 23.29-70.22 mg/g across commercial green teas, so the number is plausible. It just is not traceable to the cited abstract.",
+    "source": "Abiri B et al., PMID 37823174 (citation verified, values not in abstract); cross-check from Plant Foods Hum Nutr 2023, PMC10665233"
+   },
+   {
+    "claim": "Red wine: 0.19 mg trans-resveratrol per 100 mL (1.9 +/- 1.7 mg/L mean)",
+    "verdict": "OK",
+    "authoritative_value": "\"~1.9 +/- 1.7 mg trans-resveratrol/L\" average for red wine",
+    "correction": "None. Independently corroborated, and the Stervbo citation is exact (Food Chemistry 2007;101(2):449-457). Per-glass 0.33 mg and 0.2% of a 150 mg dose both recompute correctly.",
+    "source": "Weiskirchen S, Weiskirchen R. Resveratrol: How Much Wine Do You Have to Drink to Stay Healthy? Adv Nutr 2016, PMID 27422505, PMC4942868 (verified); CrossRef 10.1016/j.foodchem.2006.01.047 (Stervbo pagination verified)"
+   },
+   {
+    "claim": "Red wine range \"not detected to 14.3 mg/L, highest in Pinot Noir and St Laurent\"",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "The independent review reporting the same 1.9 mg/L mean quotes a sample spread of 0.361-1.972 mg/L. A 14.3 mg/L maximum could not be confirmed from any source reached.",
+    "correction": "The 14.3 mg/L figure carries the \"even at the highest concentration ever reported\" claim and the 10.5 L/day calculation, so it needs a page-level citation or removal. Note the varietal claim also drifts: the corroborating Geana study names Pinot Noir and Feteasca Neagra as highest, not St Laurent.",
+    "source": "Weiskirchen 2016, PMC4942868; Geana EI et al. Food Technol Biotechnol 2015;53(1):73-80, PMID 27904334 (citation verified, values not in abstract)"
+   },
+   {
+    "claim": "Table grapes cv. Napoleon: about 0.5 mg resveratrol per 100 g, about 1 mg per 200 g serving",
+    "verdict": "OK",
+    "authoritative_value": "\"A serving of mature Napoleon grapes (200 g) provides approximately 1 mg of resveratrol\" (untreated control; 2 mg after UVB, 3 mg after UVC)",
+    "correction": "None. 0.7% of a 150 mg dose is correct.",
+    "source": "Cantos E et al. J Agric Food Chem 2000;48(10):4606-12, PMID 11052707 (abstract verified)"
+   },
+   {
+    "claim": "Boiled peanuts 5.138 +/- 2.849 ug/g (0.51 mg/100 g); peanut butter 0.324 +/- 0.129 ug/g",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Citation verified exactly (Sobolev VS, Cole RJ. trans-Resveratrol Content in Commercial Peanuts and Peanut Products. J Agric Food Chem 1999;47(4):1435-1439) but the values sit behind a paywall and could not be read.",
+    "correction": "No correction proposed: these are the widely reproduced figures from that paper and the derived per-portion numbers (0.51 mg per 100 g boiled, 0.010 mg per 32 g peanut butter, 0.3% and 0.007% of 150 mg) all recompute correctly.",
+    "source": "CrossRef 10.1021/jf9809885 (metadata verified)"
+   },
+   {
+    "claim": "Roasted peanuts 0.055 ug/g; independent survey 0.03 to 0.14 ug/g",
+    "verdict": "OK",
+    "authoritative_value": "\"0.03-0.14 ug/g\" for peanuts without seed coats",
+    "correction": "None. The corroborating range is confirmed, and 1.5 ug per 28 g plus 0.001% of 150 mg both recompute correctly.",
+    "source": "Weiskirchen 2016, PMC4942868 (verified)"
+   },
+   {
+    "claim": "\"No plausible diet gets past about 5 mg/day\" resveratrol",
+    "verdict": "OK",
+    "authoritative_value": "Spanish population study: median 100 ug/day and mean 933 ug/day for total resveratrol plus piceid; French wine consumption yields ~0.2 mg/day",
+    "correction": "None. 5 mg/day is a generous ceiling, comfortably above the measured population intakes.",
+    "source": "Weiskirchen 2016, PMC4942868 (verified)"
+   },
+   {
+    "claim": "Wild sockeye salmon 26 to 38 mg/kg flesh (2.6-3.8 mg/100 g)",
+    "verdict": "OK",
+    "authoritative_value": "\"26-38 mg/kg flesh\"",
+    "correction": "None. 140 g fillet = 3.6-5.3 mg and 30-44% of 12 mg both recompute correctly.",
+    "source": "Ambati RR et al. Mar Drugs 2014;12(1):128-52, PMID 24402174, PMC3917265 (verified)"
+   },
+   {
+    "claim": "Retail sockeye 14.2 mg/kg; wild coho 7.0 mg/kg",
+    "verdict": "OK",
+    "authoritative_value": "Sockeye 14.2 mg/kg; coho 7.0 mg/kg",
+    "correction": "None. Citation is exact (Hikima J et al. On-site direct detection of astaxanthin from salmon fillet using Raman spectroscopy. Mar Biotechnol 2017;19(2):157-163, PMID 28378103) and 0.98 mg per 140 g coho fillet recomputes correctly.",
+    "source": "PMID 28378103 (abstract verified)"
+   },
+   {
+    "claim": "Farmed Atlantic salmon 6 to 8 mg/kg; rainbow trout 6 mg/kg (European) and 25 mg/kg (Japanese); 165 g salmon supplies 3.6 mg",
+    "verdict": "OK",
+    "authoritative_value": "Atlantic salmon \"6-8 mg/kg flesh\"; rainbow trout 6 mg/kg (European market) and 25 mg/kg (Japanese market); \"In order to get 3.6 mg of astaxanthin one can eat 165 grams of salmon per day\"",
+    "correction": "None. All four Ambati-sourced figures match exactly, and the per-fillet and percent-of-dose conversions all recompute correctly.",
+    "source": "Ambati RR et al. Mar Drugs 2014, PMC3917265 (verified)"
+   },
+   {
+    "claim": "Shrimp/prawns 0.86 to 7.0 mg per 100 g (8.6 to 70 ug/g)",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Citation is genuine (Jensen HA, Hansen LT, Boknaes N, Mejlholm O, Jacobsen C, Dalgaard P. Northern shrimp (Pandalus borealis) - a review on biology, catch, processing, quality changes, shelf-life and product safety. Crit Rev Food Sci Nutr 2025, DOI 10.1080/10408398.2025.2505241) but is paywalled, so the 8.6-70 ug/g range could not be read. Note the same range is attributed by Ambati's Table 1 to Pandalus borealis at 0.12% dry weight, which is about 1,200 mg/kg dry, an order of magnitude apart.",
+    "correction": "The 8-fold range is doing real work (7% to 58% of a 12 mg dose) and needs a page-level citation. Flag also that 8.6-70 ug/g mixes peeled meat with shell-and-head products, which are not the same food.",
+    "source": "CrossRef 10.1080/10408398.2025.2505241 (metadata verified); Ambati 2014, PMC3917265"
+   },
+   {
+    "claim": "Antarctic krill about 3.7 mg per 100 g (37.4 mg/kg in dried krill meal; frozen krill 30 to 40 mg/kg)",
+    "verdict": "WRONG",
+    "authoritative_value": "37.41 mg/kg is the astaxanthin content of DRIED krill meal (best of five two-stage drying treatments; the five ranged 33.99-39.00 mg/kg). The paper gives no value for raw or frozen krill.",
+    "correction": "This is a dry-weight figure applied to a 100 g wet food portion. Antarctic krill is roughly 78-80% water, so whole wet krill is on the order of 0.8-1.0 mg/100 g, making a 100 g portion about 7-8% of a 12 mg dose rather than 31%. The claim that frozen krill is also 30-40 mg/kg is unsourced and physically implausible, since removing water must concentrate the pigment per kg. Krill meal is also a feed ingredient, not a 100 g human food portion.",
+    "source": "Zheng Y et al. Prevention of the Quality Degradation of Antarctic Krill (Euphausia superba) Meal through Two-Stage Drying. Foods 2024;13(11):1706, PMC11171497 (full text verified)"
+   },
+   {
+    "claim": "EFSA astaxanthin ADI 0.2 mg/kg bw/day (14 mg for 70 kg), replacing the earlier 0.034 mg/kg",
+    "verdict": "OK",
+    "authoritative_value": "ADI of 0.2 mg astaxanthin/kg bw established by the EFSA FEEDAP Panel in 2019, replacing the prior 2014 value of 0.034 mg/kg bw",
+    "correction": "None on the ADI itself. See the dose-gap findings for the threshold error built on top of it.",
+    "source": "EFSA FEEDAP astaxanthin opinions (verified via Europe PMC EFSA Journal records)"
+   },
+   {
+    "claim": "Brendler & Williamson reviewed 87 human studies, 35 at 12 mg/day or more, no safety concerns, synthetic-derived ADI should not govern natural astaxanthin",
+    "verdict": "OK",
+    "authoritative_value": "\"We reviewed 87 human studies, none of which found safety concerns with natural AX supplementation, 35 with doses >=12 mg/day\"; authors argue results with synthetic AX should not be used to assess natural AX",
+    "correction": "None. Citation exact (Phytother Res 2019;33(12):3090-3111, PMID 31788888, DOI 10.1002/ptr.6514).",
+    "source": "PMID 31788888 (abstract verified)"
+   },
+   {
+    "claim": "Saffron portion weights: 1 tbsp = 2.1 g, so 1 tsp = 0.7 g; 100 g = 3,333 doses of 30 mg",
+    "verdict": "OK",
+    "authoritative_value": "1.0 tsp = 0.7 g; 1.0 tbsp = 2.1 g for Spices, saffron",
+    "correction": "None. 0.7 g = 700 mg = 23.3 x 30 mg, and 100,000/30 = 3,333 doses, both correct.",
+    "source": "USDA SR/FoodData Central portion weights for Spices, saffron (verified via USDA-derived composition mirror)"
+   },
+   {
+    "claim": "Saffron active apocarotenoids \"as much as 8% of the dry weight\"; standardised extracts deliver \"roughly 3.4 mg of crocins per 30 mg dose\"",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "Could not be confirmed. No source reached reports total apocarotenoids as a percentage of stigma dry weight; the saffron reviews and ISO 3632 papers checked report spectrophotometric colouring strength rather than absolute percentages.",
+    "correction": "The two figures also contradict each other inside one sentence: 3.4 mg crocins in a 30 mg dose is 11.3% crocins alone, which exceeds the stated 8% ceiling for all apocarotenoids combined. One of the two is wrong.",
+    "source": "Campos et al., Pharmaceuticals 2026, PMC13029429; Rocchi et al., Molecules 2024, PMC11547778; Tsimidou, Antioxidants 2023, PMC9951940 (all checked, none reports the figure)"
+   },
+   {
+    "claim": "PMID 15852492 = 30 mg/day for 6 weeks, \"comparable to fluoxetine 20 mg/day on HAM-D\"",
+    "verdict": "WRONG",
+    "authoritative_value": "Akhondzadeh S, Tahmacebi-Pour N, Noorbala AA, et al. Crocus sativus L. in the treatment of mild to moderate depression: a double-blind, randomized and placebo-controlled trial. Phytother Res 2005;19(2):148-51. The comparator was PLACEBO, not fluoxetine (40 outpatients, DSM-IV major depression, baseline HAM-D >=18, 6 weeks).",
+    "correction": "Drop the fluoxetine clause from this PMID, or cite the separate fluoxetine-comparator trial (Noorbala AA et al., J Ethnopharmacol 2005). The 30 mg/day dose and 6-week duration are right; the trial is dosed as 15 mg twice daily.",
+    "source": "PMID 15852492 (abstract verified)"
+   },
+   {
+    "claim": "Raspberries: raspberry ketone up to 4.3 mg/kg; supplements 100 to 1,400 mg/day; lowest dose about 56 times the TTC",
+    "verdict": "OK",
+    "authoritative_value": "Natural occurrence \"up to 4.3 mg/kg\"; \"the recommended intake is between 100 and 1400 mg per day\"; 100 mg is \"56 times the established threshold of toxicological concern (TTC) of 1800 ug/day for Class 1 substances\"",
+    "correction": "None. 4.3 mg/kg x 0.125 kg = 0.54 mg and 0.5% of 100 mg both recompute correctly, as do the 23 kg and 326 kg dose-gap figures.",
+    "source": "Bredsdorff L et al. Regul Toxicol Pharmacol 2015;73(1):196-200, PMID 26160596 (abstract verified)"
+   },
+   {
+    "claim": "Raspberry ketone lower bound 0.0001 mg/100 g (0.001 mg/kg)",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "The cited paper states only \"up to 4.3 mg/kg\". No lower bound of 0.001 mg/kg appears in it.",
+    "correction": "Drop the lower bound or source it. It widens the stated range by four orders of magnitude on the strength of a citation that does not contain it, and published values for raspberries generally cluster around 1-4 mg/kg.",
+    "source": "Bredsdorff L et al., PMID 26160596 (abstract verified)"
+   },
+   {
+    "claim": "Garcinia gummi-gutta rind: about 30 g hydroxycitric acid per 100 g pericarp (~30% w/w); supplements 72 to 2,800 mg extract containing 72 to 900 mg HCA",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "The cited review's abstract gives no HCA percentage for the rind and no dose range. 30% is the top of the commonly quoted 10-30% of dry weight.",
+    "correction": "Report 10-30% and use a mid-range value, or source the 30% at page level. Using the maximum as \"about 30%\" is what makes the culinary portion appear to reach the top supplement dose.",
+    "source": "van Breemen RB, Roe AL, Akhtar N. Hepatotoxicity of dietary supplements containing Garcinia gummi-gutta (L.) N. Robson. Pharm Biol 2025;63(1):912-924, PMID 41262061 (abstract verified); Garcinia gummi-gutta composition review"
+   },
+   {
+    "claim": "Garcinia: 34 published hepatotoxicity case reports, 9 liver transplants, 1 death, more than 200 adverse events, HLA-B*35:01 association",
+    "verdict": "OK",
+    "authoritative_value": "\"more than 200 adverse events of liver injury\"; \"34 case reports of Garcinia hepatotoxicity\"; 1 death, 9 liver transplants, 17 cases meeting CIOMS/RUCAM causality; HLA-B*35:01 allele proposed",
+    "correction": "None. Every figure and the citation match exactly.",
+    "source": "PMID 41262061 (abstract verified)"
+   },
+   {
+    "claim": "Coffee, brewed filter Arabica: 30 mg caffeine/100 mL, 45 mg per 150 mL cup; espresso 112 mg/40 mL; instant 54 mg/150 mL",
+    "verdict": "OK",
+    "authoritative_value": "BraCaffT: brewed Arabica coffee 30 mg/100 mL and 45 mg per 150 mL cup; espresso 279 mg/100 mL and 112 mg per 40 mL; instant diluted 36 mg/100 mL and 54 mg per 150 mL",
+    "correction": "None against the cited table. Caveat for a non-Brazilian audience: USDA FoodData Central puts brewed coffee nearer 40 mg/100 g, and a 240 mL US mug is roughly 95 mg, so \"200 mg = four to five cups\" holds only for the 150 mL cup used here and would be about two mugs on US/UK serving norms.",
+    "source": "Rocha PLA, Lima ALC, Saunders B, Reis CEG. Nutrients 2022;14(20):4417, PMID 36297100, PMC9608580 (table verified)"
+   },
+   {
+    "claim": "Green tea 20 mg caffeine/100 mL, 40 mg per 200 mL cup",
+    "verdict": "OK",
+    "authoritative_value": "Green tea, infused: 20 mg/100 mL and 40 mg per 200 mL cup",
+    "correction": "None. The paired 140 mg EGCG per 200 mL at EFSA's mean also recomputes correctly.",
+    "source": "Rocha PLA et al., PMC9608580 (table verified)"
+   },
+   {
+    "claim": "Chlorogenic acids: 0.9 to 1.9 g per 100 g in roasted beans vs 5.4 g per 100 g in green beans, citing Awwad et al. Molecules 2021",
+    "verdict": "WRONG",
+    "authoritative_value": "Awwad reports concentrations in coffee solution, not in beans: \"the highest content of chlorogenic acid content was found in the green coffee (543.23 mg/L)\" and \"the highest content of caffeine was found in the medium roasted coffee (203.63 mg/L)\". No g/100 g bean values appear.",
+    "correction": "The cited source cannot support these numbers. \"5.4 g/100 g\" appears to be 543.23 mg/L re-badged into a per-100 g unit. The magnitude happens to land inside the literature range for green Arabica (roughly 4-8% dry weight), so re-source it rather than restate it; the green coffee dose-gap paragraph rests entirely on this figure.",
+    "source": "Awwad S, Issa R, Alnsour L, Albals D, Al-Momani I. Molecules 2021;26(24):7502, PMID 34946584 (abstract verified)"
+   },
+   {
+    "claim": "FDC IDs 172231 (turmeric) and 170934 (saffron)",
+    "verdict": "UNVERIFIABLE",
+    "authoritative_value": "The FoodData Central API was rate-limited and the food-details page returned 404, so the ID-to-food mapping could not be confirmed. The portion weights attributed to both entries were independently confirmed correct.",
+    "correction": "None to the data, but the two FDC IDs themselves remain unconfirmed and should be re-checked against a live FDC lookup before publication.",
+    "source": "api.nal.usda.gov FDC v1 (HTTP 429); fdc.nal.usda.gov food-details (HTTP 404); portion weights confirmed via USDA-derived mirror"
+   }
+  ],
+  "misclassifications": [
+   "SAFFRON GROUP LABELLED NOT_FOOD - the clearest error in the submission. Saffron is a supermarket spice with USDA composition and portion entries, and the submission's own text concedes the clinical dose is \"literally a cooking quantity\" and lists it under foods anyway. A 0.1 g culinary pinch serving four delivers about 25 mg per person against a 30 mg trial dose, and one teaspoon is 23 doses. This is the only entry in the whole set with a dose gap at or below zero, and it is filed under the label that means the compound cannot be obtained from food. Correct classification for saffron is RICH. The group should be split: saffron RICH, SAMe SYNTHETIC, St John's wort / rhodiola root / ashwagandha / Griffonia NOT_FOOD.",
+   "BITTER ORANGE p-SYNEPHRINE CLASSIFIED NOT_FOOD - wrong, and it is the sharpest miss because the food source reaches the supplement dose. Citrus juices naturally carry \"up to 25-40 mg p-synephrine per quarter liter\", and Seville orange juice was measured at ~57 mcg/mL, about 13 mg per 8 oz serving. Supplement studies used 5.5-80 mg per dose, with 10-53 mg/day in the pooled overweight/obese subjects. So a single glass of citrus juice sits squarely inside the supplement dose range. The submission's own framing (\"bitter orange p-synephrine ... versus orange peel in marmalade\") treats the food source as trivial when it is dose-equivalent. Reclassify as RICH, or at minimum give it a food entry with numbers. Source: Stohs SJ et al., A review of the human clinical studies involving Citrus aurantium and p-synephrine, Int J Med Sci 2012, PMC3444973.",
+   "CURCUMIN CLASSIFIED TRACE - inconsistent with the submission's own numbers and with regulatory benchmarks. TRACE should mean the compound is barely present. A level teaspoon of turmeric carries 94 mg of curcumin, which is 45% of the JECFA/EFSA ADI of 210 mg for a 70 kg adult. A food that delivers nearly half a regulatory ADI in one teaspoon is not a trace source; it is a rich source measured against a supplement dose that itself sits about five times over the ADI. The submission has silently redefined TRACE as \"low relative to a 1,000 mg capsule\", which is a different axis from every other entry. Recommend RICH with the dose gap stated separately, or add an explicit intermediate tier.",
+   "WEIGHT-LOSS BLENDS CLASSIFIED TRACE - self-contradicted within the same record. The submission simultaneously states that caffeine has \"a genuinely RICH food source\", that Garcinia rind \"does have a food identity\" and \"genuinely delivers the active compound\" at supplement scale, and that other components are NOT_FOOD or purely synthetic. Four different availability classes are being flattened into one label chosen because TRACE is \"the dominant pattern\". Split the entry per component, or use a MIXED label; the current label makes caffeine, the one thing in the category that reliably works and is trivially available from food, invisible.",
+   "ANTARCTIC KRILL LISTED AS A FOOD ENTRY - krill meal is a dried feed and aquaculture ingredient, not a 100 g human portion, and the entry conflates it with \"frozen whole krill\" to reach 3.7 mg per 100 g. Either drop it or restate it on a wet-weight basis (roughly 0.8-1.0 mg/100 g) with a realistic food vehicle such as krill oil capsules or the whole-krill products actually sold for consumption.",
+   "JAPANESE KNOTWEED DESCRIBED AS \"NOT A FOOD\" - overstated. Polygonum cuspidatum young shoots are eaten as a spring vegetable in Japan (itadori) and are a commonly foraged edible in the UK and North America, and itadori tea is a traditional beverage made from the same plant. The submission's argument (that supplement resveratrol is not grape-derived) survives without this claim, so soften it to \"not a food in Western diets and not a composition-table food\" rather than \"not a food\".",
+   "SAMe CLASSIFIED SYNTHETIC - broadly correct and I would keep it, with one wording fix. There is no meaningful preformed dietary SAMe, no composition-table entry, and the submission is right that the body makes it from methionine and ATP. But commercial SAMe is produced by Saccharomyces cerevisiae fermentation, which the submission itself states, so it is biosynthetic rather than chemically synthetic. If SYNTHETIC in this schema means \"no dietary source\", the label holds; if it means \"chemically manufactured\", it does not fit a fermentation product."
+  ],
+  "missing_foods": [
+   "Peanut skins (redskin peanut testa) - the richest resveratrol fraction of the peanut by a wide margin and genuinely eaten on redskin, boiled and Spanish peanuts. The submission lists three peanut forms and omits the one part that concentrates the stilbene, which weakens the peanut dose-gap numbers: the roasted-kernel figure of 0.055 ug/g is explicitly for peanuts without seed coats.",
+   "Red and purple grape juice - the obvious non-alcoholic member of the resveratrol group. Its omission is conspicuous given the submission's (correct) argument that recommending wine as a resveratrol source is a bad recommendation because ethanol is a Group 1 carcinogen. Grape juice is the alternative that argument implies, and it is left out.",
+   "Muscadine grapes, bilberries, blueberries, cranberries, pistachios and cocoa - all documented dietary stilbene sources. The resveratrol entry mentions \"a few berries\" in the availability note but gives no berry a food row, so the \"about 5 mg/day\" dietary ceiling is asserted rather than built from entries.",
+   "Salmon roe (ikura/sujiko) - a well-known astaxanthin-dense food eaten in normal portions, absent from an entry list that otherwise covers six seafoods. Also missing: wild chinook/king, pink and chum salmon, Arctic char, and red sea bream (tai), all standard astaxanthin food sources in the same literature the entry already cites.",
+   "Shell-on crustaceans eaten whole - crayfish, small crab, and head-on/shell-on prawns. The entry notes that astaxanthin concentrates in shell and head and then prices the portion on peeled meat, without ever listing the preparation where the pigment actually is.",
+   "Fresh turmeric rhizome - the whole-food form of the only meaningful curcumin source, and increasingly sold in UK/US supermarkets. Given that the entry hinges on turmeric being \"a genuine culinary food\", omitting the unprocessed rhizome (and prepared mustard and turmeric-coloured pickles, where turmeric is the colourant) leaves the food case thinner than it needs to be.",
+   "Oolong tea and gunpowder green tea - the availability note explicitly claims oolong delivers EGCG \"in tens to hundreds of milligrams per cup\" but no oolong row exists. Gunpowder green tea was the highest-EGCG product measured in the independent commercial survey at 70.22 mg/g, above both matcha grades, and is missing. Bottled/RTD green tea is also absent, which matters because it is the commercially dominant form and is far weaker than any entry listed.",
+   "Seville orange juice and bitter orange marmalade - the food sources of p-synephrine, named dismissively in the form_caveat but given no entry or number, which is what allowed the NOT_FOOD classification to stand.",
+   "Guarana, yerba mate, cocoa and dark chocolate, and energy drinks - the caffeine dose-gap paragraph rests on coffee and green tea only, while guarana powder is itself an ingredient in the very blends under discussion and is in the same cited caffeine table."
+  ],
+  "dose_gap_errors": [
+   "CURCUMIN, supplement-to-diet multiple: \"the supplement dose is roughly 15 to 30 times a heavy dietary intake\" does not follow from the submission's own figures. A heavy South Asian intake is given as 2 to 2.5 g turmeric = 63 to 79 mg curcumin. 1,000/79 = 12.7 and 1,000/63 = 15.9. CORRECTED: about 13 to 16 times, not 15 to 30. The top of the claimed range is roughly double the truth. On a total-curcuminoid basis (2-2.5 g at ~4.7% = 94-118 mg) the multiple falls further, to about 8.5 to 11 times.",
+   "MATCHA, per-bowl EGCG and bowls-per-dose: both figures are wrong because the underlying concentration is 3 to 7 times too low. CORRECTED: a 2 g bowl supplies about 101 to 113 mg EGCG (at 50.53-56.57 mg/g measured by HPLC in 15 commercial products), which is 13 to 14% of an 800 mg dose, not 2 to 7%. And 800 mg is about 7 to 8 bowls of matcha, not \"roughly 24 to 53 bowls\". The qualitative conclusion in the bioavailability field (that matcha is not a many-fold EGCG upgrade on a good sencha) is actually supported by the corrected data, which found no statistically significant EGCG difference across tea types, so fixing the numbers strengthens rather than weakens the argument.",
+   "MATCHA, internal percentage mismatch: the stated 15 to 34 mg per bowl is 1.9 to 4.2% of 800 mg, but the pct field says \"2 to 7%\". The 7% is silently borrowed from the unverified higher NMR figure that appears only in a parenthesis. Even on its own numbers the row does not reconcile.",
+   "ASTAXANTHIN, ADI threshold: \"a 12 to 24 mg capsule sits at or above the ADI\" is arithmetically false at the low end. The EFSA ADI of 0.2 mg/kg bw/day gives 14 mg for a 70 kg adult. 12 mg is 86% of the ADI, i.e. below it. CORRECTED: only doses of about 14 mg and above exceed the ADI, so the 12 mg dose used in most of the clinical literature sits just under it while a 24 mg dose is about 1.7 times over. This matters because the 12 mg figure is the anchor for the entire entry.",
+   "ASTAXANTHIN, krill portion and dose gap: 3.7 mg per 100 g, \"31% of a 12 mg dose\" and \"from krill meal, about 320 g\" all apply a dried-meal dry-weight concentration (37.41 mg/kg) to a wet food portion. CORRECTED on a wet-weight basis (krill is roughly 78-80% water): about 0.8 to 1.0 mg per 100 g of whole krill, i.e. 7 to 8% of a 12 mg dose, with roughly 1.2 to 1.5 kg/day needed. The 320 g figure is arithmetically consistent with 37.4 mg/kg but describes 320 g of dried animal feed, not food.",
+   "GARCINIA, per-person HCA: \"about 900 mg HCA in the pot\" is then scored as matching \"the top of the 72 to 900 mg HCA range delivered by supplements\", comparing a whole-pot figure against a per-person dose. On the submission's own dish-for-four convention used in the saffron entry, CORRECTED: about 225 mg HCA per serving, the middle of the supplement range rather than the top. Two further reductions are ignored: HCA transfers only partially from rind into broth, and the rind is fished out and discarded rather than eaten. Using 30% (the maximum of the 10-30% literature range) compounds the overstatement. The claim that \"the culinary plant genuinely delivers the active compound\" is defensible in order of magnitude, but not at the top of the supplement range.",
+   "GREEN COFFEE, roasting loss: \"a roughly six-fold loss on roasting\" is only true at one corner of the stated numbers. 5.4 g/100 g green against 0.9-1.9 g/100 g roasted is a 2.8-fold to 6-fold loss. CORRECTED: about 3 to 6-fold. Both endpoints also rest on the misattributed Awwad figures, which report mg/L in solution rather than g/100 g of bean.",
+   "SAFFRON, thread count: \"the 30 mg/day used in the depression RCTs is about 8 to 15 threads\" implies 2 to 3.75 mg per thread, while the next entry's \"about 0.1 g (roughly 20 to 30 threads)\" implies 3.3 to 5 mg per thread. The two rows cannot both be right. CORRECTED on the submission's own 0.1 g / 20-30 thread basis: 30 mg is about 6 to 9 threads. (Published saffron thread weights of roughly 2 mg would instead give about 15 threads and imply 0.1 g is nearer 50 threads, so the 20-30 thread figure is the likelier error.)",
+   "SAFFRON, apocarotenoid fraction: \"as much as 8% of the dry weight\" and \"roughly 3.4 mg of crocins per 30 mg dose\" are mutually exclusive in the same sentence, since 3.4/30 = 11.3% crocins alone, above the stated 8% ceiling for all apocarotenoids combined. One figure must be corrected; neither could be verified against a source.",
+   "GREEN TEA, EFSA intake anchors: the dose-gap paragraph states mean adult intake as \"90 to 300 mg/day\" against EFSA's actual 85.98 to 321.21 mg/day, and treats 866 mg/day as the P95 when EFSA's P95 spans 308 to 866.25 mg/day across surveys. CORRECTED: mean 86 to 321 mg/day; P95 308 to 866 mg/day. The claim that \"EFSA's own 95th percentile adult tea drinker already takes in 866 mg/day\" is the strongest sentence in the entry and it uses the single highest survey value as if it were the general case.",
+   "TURMERIC, pseudo-range: the dose gap and the food row both lean on \"0.58 to 3.14%\", but 3.14% is a mean, not a maximum, so no range with 3.14% as its ceiling can be constructed from the cited paper. The 21-32 g/day and 7-11 teaspoon figures themselves recompute correctly from 3.14% and 4.7%, so the arithmetic survives; the range framing does not."
+  ],
+  "net_assessment": "Above average for this kind of submission, and unusually honest in prose, but it fails in a specific and repeated way: the qualitative arguments are mostly right while the numbers propping them up are sometimes borrowed from citations that do not contain them. Verification held up well in three places. Every EFSA green tea figure matched exactly (70.2 mg/100 mL from 100 samples in 12 references, 7,116 mg/100 g dry leaf, the 800 mg transaminase conclusion), every Ambati astaxanthin figure matched exactly (sockeye 26-38 mg/kg, Atlantic 6-8, trout 6 and 25, the 165 g/3.6 mg anchor), and the resveratrol entry is the strongest in the set, with the 1.9 +/- 1.7 mg/L wine mean independently corroborated and roughly a dozen unit conversions and dose-gap divisions all recomputing correctly. Tayyem's 3.14%, Bredsdorff's 4.3 mg/kg and 56x TTC, van Breemen's 34 cases and 9 transplants, Shoba's 20-fold, Brendler's 87 studies, the BraCaffT caffeine table and both USDA spice portion weights all check out to the digit. Three findings are serious. First, the matcha row is wrong by 3 to 7-fold and its citation does not contain an EGCG figure at all: Kolackova 2022 reports chlorogenic acid 2,090-2,460 ug/g and catechin 10.2-23.1 ug/g, and independent HPLC of 15 commercial products gives matcha 50.53-56.57 mg EGCG/g, so a bowl is about 101-113 mg and 800 mg is 7-8 bowls, not 24-53. Second, the chlorogenic acid comparison misattributes bean percentages to a paper that reports mg/L in solution, and the green coffee dose gap rests entirely on it. Third, the saffron trial citation is wrong about its own design: PMID 15852492 is placebo-controlled, and the fluoxetine comparison belongs to a different trial. On classification, two labels should not survive review. The saffron group is filed NOT_FOOD while the entry itself demonstrates a dose gap of zero, which is the single most useful finding in the submission and is contradicted by its own label. And bitter orange is called NOT_FOOD when citrus juice carries up to 25-40 mg p-synephrine per quarter litre against supplement doses of 10-53 mg/day, making it dose-equivalent to the capsule. Curcumin at 94 mg per teaspoon, 45% of the JECFA ADI, is also not a trace source on any normal reading, and the krill row applies a dried-feed dry weight to a wet food portion. Nine dose-gap calculations need correcting, most consequentially the curcumin supplement-to-diet multiple (13-16x, not 15-30x) and the astaxanthin ADI threshold (12 mg is below the 14 mg ADI, not at or above it). One framing point worth raising with the author: four of the six entries are not polyphenols. Astaxanthin is a carotenoid, saffron's crocins are apocarotenoids, SAMe is an activated amino acid derivative, and caffeine is an alkaloid, so the group label describes only curcumin, EGCG and resveratrol plus the phenolic raspberry ketone. Recommendation: reject and return for correction of the matcha row, the chlorogenic acid attribution, the saffron trial citation, the two classification errors, and the nine arithmetic items, with page-level citations required for the eleven figures marked UNVERIFIABLE. The structure, the form-versus-food caveats and the bioavailability sections are genuinely good and should be kept."
+ }
+}
