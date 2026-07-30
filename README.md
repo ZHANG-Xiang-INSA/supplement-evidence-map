@@ -1,81 +1,90 @@
-# Dietary Supplements: an Evidence Map
+# Supplement Register
 
-An evidence-graded reference on 66 supplement products: what each one does, the dose that was actually tested,
-its pros and cons listed separately, and the natural food sources with quantities.
+An evidence-graded reference on 66 dietary supplements. Each one carries a verdict, an evidence grade, the dose that
+was actually tested, its pros and cons listed separately, the foods that supply it with quantities, and whether your
+body already makes it.
 
-**[Read it here](https://ZHANG-Xiang-INSA.github.io/supplement-evidence-map/)** &nbsp;|&nbsp; EN / 中文 toggle at the
-top right, or press `L`.
+**[Open the register](https://ZHANG-Xiang-INSA.github.io/supplement-evidence-map/)** &nbsp;|&nbsp; EN / 中文 toggle at
+the top right, or press `L`. Press `/` to search.
 
 Compiled by ZHANG Xiang. Not medical advice.
 
 ---
 
-## What is in it
+## The five axes
+
+The landing page is an interactive register: search it, filter it, sort any column, click a row to open it. Every item
+carries a five-cell spec strip encoding the same five answers, in the same order, everywhere it appears.
+
+| Cell | Axis | Question it answers |
+|---|---|---|
+| 1 | Verdict | Should you take it? Always per group, never universal. |
+| 2 | Evidence grade | How sure is the literature? **This cell is deliberately uncoloured**, because a confident answer can be no. |
+| 3 | In food | Does the substance occur in ordinary food at all? |
+| 4 | Dose from food | Could eating reach the dose used in trials? |
+| 5 | Body makes it | Can you synthesise it yourself? |
+
+Axes 3, 4 and 5 answer different questions and frequently disagree. Vitamin E is **rich** in food, its 400 IU trial
+dose is **out of reach** by eating, and the body **cannot** make it. All three are true at once, and only reading them
+together tells you anything useful.
+
+## What the data says
 
 | | |
 |---|---|
 | Products with an explicit verdict | 66 |
+| Worth taking, for named groups | 10 |
+| Published evidence of harm | 14 |
 | Papers cited | 456 |
 | Citations independently re-verified | 428 |
 | Fabricated references found | **0** |
 | Sourced food composition rows | 517 |
-| Food figures corrected during verification | 486 |
+| Food figures corrected in verification | 486 |
+| Drug interaction pairs | 121 across 64 drug classes |
+| Substances the body **cannot** make | 32 |
+| Substances the body makes **fully** | 9 |
 
-## The four verdicts
-
-| Verdict | Count | Meaning |
-|---|---|---|
-| **TAKE** | 10 | Worth taking if you are in the group named. Evidence is strong for that group and that purpose only. |
-| **CONSIDER** | 12 | Defensible in one narrow situation. Outside it there is no case. |
-| **SKIP** | 30 | No good evidence for the marketed claim. A money problem rather than a safety one, except where noted. |
-| **AVOID** | 14 | Published evidence of harm from randomised trials, registries or national surveillance. |
-
-## Two things this document is built to stop you misreading
-
-**A high evidence grade does not mean it works.** It means the literature is confident about the answer, and the
-answer can be no. Selenium is Grade A here because Cochrane established with high certainty that it does *not*
-prevent cancer. Read the grade together with the verdict, never on its own.
-
-**Being rich in food does not mean the dose is reachable from food.** These are separate questions and they
-frequently disagree. Of 66 products, 43 have rich food sources, yet only 20 let you reach the supplement dose by
-eating and 28 do not. Vitamin E is abundant in food while a 400 IU dose is roughly 18 times the reference intake.
-Coenzyme Q10 is abundant in offal while the richest food supplies under 4% of the trial dose.
+Of 66 products, 44 have rich food sources but only 20 let you reach the supplement dose by eating. The nine substances
+the body makes in full are coenzyme Q10, melatonin, collagen, glucosamine and chondroitin, NMN, nicotinamide riboside,
+spermidine, alpha-lipoic acid and 5-HTP. Eight of those nine had already been placed in **Skip** on trial evidence
+alone, before the synthesis data existed, so the two independent lines of evidence agree.
 
 ## Files
 
 | File | What it is |
 |---|---|
-| [`index.html`](index.html) | The report. Bilingual, self-contained, works offline. Six inline SVG figures. |
+| [`index.html`](index.html) | The register. Bilingual, interactive, self-contained, works offline. |
 | [`supplement-evidence-map.md`](supplement-evidence-map.md) | English markdown, same content. |
 | [`supplement-evidence-map.zh.md`](supplement-evidence-map.zh.md) | 中文 markdown，内容相同。 |
 
 ## How it was built
 
-Two research passes, each fanned out across ten domains and each followed by an independent adversarial
-fact-checker instructed to default to *does not exist* when a source could not be confirmed.
+Three research passes, each fanned out across ten or more domains, each followed by an independent adversarial checker
+instructed to assume a source does not exist until it is found.
 
-1. **Evidence pass.** Cochrane reviews, meta-analyses and large named RCTs for every product. 428 citations
-   re-searched and re-checked; every dose re-checked against NIH ODS, EFSA and IOM/NASEM. Zero fabricated
-   references were found. The checkers did catch evidence grades set about half a grade too generously, five
-   materially wrong doses, and several cases of a flattering subgroup being quoted while the null overall result
-   was omitted. Those are corrected.
-2. **Food pass.** Composition data from USDA FoodData Central, McCance and Widdowson (UK Composition of Foods)
-   and peer-reviewed composition analyses, with per-100 g and per-portion figures, plus the quantity of food
-   needed to match the supplement dose. 486 figures were corrected during verification, including matcha EGCG
-   understated roughly 65-fold, krill astaxanthin quoted on a dry-weight basis against a fresh portion, chicken
-   liver CoQ10 labelled as chicken heart, and lion's mane composition measured on the wrong *Hericium* species.
+1. **Evidence.** Cochrane reviews, meta-analyses and large named trials behind every verdict. 428 citations
+   re-searched; every dose re-checked against NIH ODS, EFSA and IOM/NASEM. Zero fabricated references. The checkers
+   did catch evidence grades about half a grade too generous, five materially wrong doses, and several cases of a
+   flattering subgroup quoted while the null overall result was omitted.
+2. **Food.** 517 composition rows from USDA FoodData Central, McCance and Widdowson and peer-reviewed analyses, with
+   per-portion figures and the quantity of food needed to match each dose. 486 figures corrected, including matcha
+   EGCG understated roughly 65-fold, krill astaxanthin quoted dry-weight against a fresh portion, chicken liver CoQ10
+   labelled as chicken heart, and lion's mane composition measured on the wrong *Hericium* species.
+3. **Synthesis.** Whether the body makes each substance, with pathway, enzymes and daily amount. The first attempt
+   drifted because the category field was described rather than constrained, so it was re-run with a hard enumeration
+   and audited to 66 of 66.
 
-Rows the checkers could not trace back to a cited source are tagged **unconfirmed** in the report rather than
-quietly dropped or presented as sourced. Eight items carry a **Low** data-confidence badge for the same reason.
+Rows the checkers could not trace to a source are tagged **unconfirmed** rather than dropped or presented as sourced.
 
 ## Limitations
 
-- NIH ODS fact sheets return HTTP 403 to automated retrieval, so reference intakes come from the underlying
-  IOM/NASEM reports and EFSA opinions, which are the primary sources ODS itself cites.
+- NIH ODS fact sheets return HTTP 403 to automated retrieval, so reference intakes come from the underlying IOM/NASEM
+  reports and EFSA opinions, which are the primary sources ODS itself cites.
+- 86 food rows are tagged unconfirmed and eight items carry a Low data-confidence badge, because USDA FoodData Central
+  returned 404s and rate limits during part of the work and the UK CoFID dataset was not retrievable.
 - Several entries rest on a single unreplicated trial and say so in their Cons column.
-- Market-size figures are unaudited commercial estimates and should be read as orders of magnitude.
-- Food composition varies with cultivar, soil, season and preparation. Brazil nut selenium and UV-mushroom
-  vitamin D vary by more than an order of magnitude between samples.
+- Food composition varies by more than an order of magnitude between samples for Brazil nut selenium and UV-treated
+  mushroom vitamin D. Treat any single figure as a midpoint, not a specification.
 
 ## Licence
 
@@ -83,6 +92,6 @@ Text and data: [CC BY 4.0](LICENSE). Cited papers remain under their own terms.
 
 ---
 
-This is a research synthesis, not medical advice, and it cannot replace a clinician who knows your history,
-medication list and blood results. Several entries carry contraindications that matter: warfarin, SSRIs,
-levothyroxine, immunosuppressants, chemotherapy, kidney disease, pregnancy.
+This is a research synthesis, not medical advice, and it cannot replace a clinician who knows your history, medication
+list and blood results. Several entries carry contraindications that matter: warfarin, SSRIs, levothyroxine,
+immunosuppressants, chemotherapy, kidney disease, pregnancy.
