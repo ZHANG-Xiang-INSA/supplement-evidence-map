@@ -47,7 +47,7 @@ Two columns do independent work and must be read together. **Verdict** says what
 2. A grade attaches to one specific claim, not to the substance in general. Vitamin D3 is Grade A for correcting documented deficiency and Grade D for preventing cancer or cardiovascular disease. Those are the same molecule and two different questions.
 3. An official statement of insufficient evidence is not an endorsement. The USPSTF gives multivitamins an I statement. That means the trials could neither prove benefit nor rule out harm. The industry quotes it as vindication.
 4. No upper limit set means nobody has assessed it. It is a gap in the science, not a finding of safety. Most botanicals and every probiotic in this document fall into that gap.
-5. Risk ratios below 1 mean fewer events, above 1 mean more events. When the confidence interval crosses 1, no effect was demonstrated. That is the entire logic of Figure 4.
+5. Risk ratios below 1 mean fewer events, above 1 mean more events. When the confidence interval crosses 1, no effect was demonstrated. That is the entire logic of Figure 5.
 6. Relative reductions are not absolute reductions. REDUCE-IT is quoted everywhere as a 25% reduction. The absolute reduction was 4.8 percentage points over 4.9 years, meaning about 21 people take the drug for one to benefit.
 7. The number on a mineral label is usually the compound, not the mineral. Magnesium oxide is about 60% magnesium, magnesium citrate about 16%. A capsule labelled 500 mg magnesium citrate delivers roughly 80 mg of magnesium.
 8. The safety record of a food does not transfer to a concentrated extract of it. Drinking green tea is fine. Green tea extract has caused more than 100 published cases of liver injury, 8% of which went to transplant.
