@@ -1,0 +1,416 @@
+{
+ "group": "neuro-gut-products",
+ "target_names": [
+  "Melatonin",
+  "Berberine",
+  "Ashwagandha (Withania somnifera)",
+  "Rhodiola rosea",
+  "Valerian",
+  "Ginkgo biloba",
+  "Bacopa monnieri",
+  "Lion's mane (Hericium erinaceus)",
+  "St John's wort",
+  "5-HTP",
+  "Saffron, SAMe and other mood botanicals",
+  "Probiotics, named strain only",
+  "Generic multi-strain probiotic blends",
+  "B. infantis 35624 (single strain)",
+  "Lactase and pancreatic enzymes",
+  "Over-the-counter digestive enzyme blends",
+  "Probiotics in critical illness",
+  "Sexual-enhancement products",
+  "Weight-loss, fat-burner and energy blends",
+  "Bodybuilding and test-booster products"
+ ],
+ "dataset": {
+  "items": [
+   {
+    "supplement": "Melatonin",
+    "function_short": "A hormone the pineal gland releases after dark to tell the body clock that night has begun.",
+    "function_full": "Melatonin is synthesised from serotonin in the pineal gland on a schedule set by the suprachiasmatic nucleus, rising roughly two hours before habitual sleep onset and clearing by morning. It acts through MT1 and MT2 receptors on the clock itself, so it works as a timing signal rather than a sedative, which is why small evening doses shift sleep phase more reliably than large doses deepen sleep. There is no dietary requirement at all: the body makes every molecule it uses. Nocturnal peak concentrations do fall with age (pooled maxima around 49 pg/mL in study populations averaging 65 to 70 years and around 28 pg/mL in those 75 and over), and ordinary evening room light below 200 lux delays melatonin onset in 99% of people and shortens the nocturnal melatonin window by about 90 minutes, so the common problem is a mistimed or blunted signal rather than an absent nutrient.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 27302542 (Scholtens et al., J Psychosom Res 2016;86:20-27, physiological melatonin levels in healthy older people); PMID 21193540 (Gooley et al., J Clin Endocrinol Metab 2011;96:E463-72, evening room light suppresses melatonin onset)"
+   },
+   {
+    "supplement": "Berberine",
+    "function_short": "A plant alkaloid that lowers blood sugar and cholesterol; the body has no need for it.",
+    "function_full": "Berberine is an isoquinoline alkaloid extracted from Berberis, Coptis and Hydrastis species. Its metabolic effects are usually attributed to activation of AMP-activated protein kinase, although the upstream trigger appears to be mild inhibition of mitochondrial complex I that raises the cellular AMP to ATP ratio; downstream it suppresses hepatic gluconeogenesis and upregulates hepatic LDL receptor expression, giving it a mechanistic family resemblance to metformin. Oral absorption is very poor, with absolute bioavailability under 1% in rats, so a substantial share of any effect is probably exerted in the gut lumen and on the microbiota. It is a xenobiotic: no human tissue synthesises it and no physiological process depends on its presence.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "DOI 10.1371/journal.pone.0103702 (Yin et al., PLoS One 2014, berberine promotes glucose consumption independently of AMPK activation); DOI 10.1016/j.apsb.2012.06.003 (Acta Pharm Sin B 2012 review, effects and mechanisms of berberine in diabetes, oral bioavailability under 1%)"
+   },
+   {
+    "supplement": "Ashwagandha (Withania somnifera)",
+    "function_short": "A root extract taken for stress; it plays no part in normal human physiology.",
+    "function_full": "Withania somnifera root contains withanolides (principally withaferin A and withanolide A) together with sitoindosides, and commercial extracts are standardised to withanolide content. Randomised trials running 8 to 12 weeks report modest reductions in self-rated stress scales and in morning serum cortisol, while the proposed HPA axis and GABA-A receptor mechanisms rest largely on animal and in vitro work. Nothing in the human body synthesises withanolides and no metabolic pathway requires them, so this is a pharmacological exposure rather than a nutritional one. Cholestatic and mixed liver injury is a documented harm: a case series from Iceland and the US Drug-Induced Liver Injury Network described five patients who became jaundiced 2 to 12 weeks after starting ashwagandha, with itching and raised bilirubin persisting 5 to 20 weeks before liver tests normalised.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 31991029 (Bjornsson et al., Liver Int 2020;40:825-829, ashwagandha-induced liver injury case series); LiverTox monograph NBK548536"
+   },
+   {
+    "supplement": "Rhodiola rosea",
+    "function_short": "An Arctic root extract sold for fatigue; the body neither makes nor requires it.",
+    "function_full": "Rhodiola rosea rhizome supplies the rosavins (rosavin, rosin, rosarin) and salidroside, and the best studied preparation, SHR-5, is standardised to roughly 3% rosavins and 1% salidroside. Proposed actions include weak monoamine oxidase inhibition and blunting of stress-induced cortisol responses, neither well characterised in humans. A systematic review of 39 randomised trials across three Rhodiola species concluded that reporting and methodological quality were too poor to support firm efficacy conclusions, and that trials of different species are routinely conflated. These are plant secondary metabolites with no endogenous counterpart and no dietary requirement.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 21036578 (Hung, Perry & Ernst, Phytomedicine 2011;18:235-244, systematic review of 39 randomised trials)"
+   },
+   {
+    "supplement": "Valerian",
+    "function_short": "A sedative root preparation; nothing in the body is built from it or needs it.",
+    "function_full": "Valeriana officinalis root yields valerenic acid, valerenol and a variable mixture of valepotriates whose content differs widely between commercial products and degrades on storage. Valerenic acid binds a distinct site on GABA-A receptors that depends on the beta2 and beta3 subunits: the N265M point mutation in those subunits abolishes the drug response, and valerenic acid and valerenol are anxiolytic in mouse elevated plus-maze and light/dark tests. Human sleep trials are small, short and inconsistent, in part because extracts are not standardised to any single constituent. No human pathway synthesises or consumes these compounds, so there is no requirement for them.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 18602406 (Benke et al., Neuropharmacology 2009;56:174-181, GABA-A receptors as in vivo substrate for the anxiolytic action of valerenic acid)"
+   },
+   {
+    "supplement": "Ginkgo biloba",
+    "function_short": "A leaf extract sold for memory; it is not a nutrient and nothing requires it.",
+    "function_full": "Standardised extracts such as EGb 761 contain about 24% flavone glycosides and 6% terpene lactones, the latter comprising ginkgolides A, B and C plus bilobalide, with ginkgolide B acting as a platelet-activating factor antagonist. The largest prevention trial, the Ginkgo Evaluation of Memory study, randomised 3069 community volunteers aged 75 and over and followed them for a median 6.1 years, finding no reduction in all-cause dementia or Alzheimer disease. Ginkgolides and bilobalide are plant terpenoids absent from human metabolism, so no shortfall is possible from not taking them. The clinically relevant issue is the opposite direction: antiplatelet effect layered onto anticoagulants or aspirin.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 19017911 (DeKosky et al., JAMA 2008;300:2253-2262, Ginkgo biloba for prevention of dementia, GEM trial)"
+   },
+   {
+    "supplement": "Bacopa monnieri",
+    "function_short": "A herb used for memory; the body makes no use of its active compounds.",
+    "function_full": "Bacopa monnieri contains triterpenoid saponins known as bacosides, and extracts are standardised to bacoside content, typically 20 to 55%. A systematic review of randomised placebo-controlled trials, all of which ran for 12 weeks, found the most consistent signal in delayed word recall, with attention, working memory and other domains inconsistent across studies. Proposed mechanisms include cholinergic modulation, dendritic branching and antioxidant activity in hippocampus, drawn largely from rodent work. Bacosides are plant secondary metabolites: they are absent from human tissue, no enzyme system requires them, and gastrointestinal upset is the common practical limitation on dosing.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 22747190 (Pase et al., J Altern Complement Med 2012;18:647-652, systematic review of randomised controlled Bacopa trials)"
+   },
+   {
+    "supplement": "Lion's mane (Hericium erinaceus)",
+    "function_short": "An edible mushroom studied for nerve growth effects; no bodily process depends on it.",
+    "function_full": "Hericium erinaceus fruiting bodies contain hericenones and the mycelium contains erinacines, both of which stimulate nerve growth factor synthesis in cultured cells, with erinacine A shown to cross the blood-brain barrier in animals. The main human trial randomised 30 Japanese adults aged 50 to 80 with mild cognitive impairment to 3 g/day of dried powder or placebo for 16 weeks; cognitive scores improved on treatment and drifted back towards baseline during washout. As a culinary mushroom it contributes ordinary food nutrients such as beta-glucans, potassium and B vitamins, in the same way any mushroom does. The hericenones and erinacines themselves are not nutrients, are not made by human tissue, and no physiological process requires them.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 18844328 (Mori et al., Phytother Res 2009;23:367-372, double-blind placebo-controlled trial in mild cognitive impairment)"
+   },
+   {
+    "supplement": "St John's wort",
+    "function_short": "A herbal antidepressant that also speeds up how the liver destroys many prescription drugs.",
+    "function_full": "Hypericum perforatum extracts contain hypericin, pseudohypericin and hyperforin; hyperforin is the antidepressant-relevant constituent and inhibits reuptake of serotonin, noradrenaline and dopamine non-selectively. Hyperforin is also a potent ligand for the pregnane X receptor (Ki 27 nM), the nuclear receptor that drives transcription of CYP3A4 and P-glycoprotein, so the extract induces the clearance of a very wide range of co-administered drugs. Because CYP3A4 handles the oxidative metabolism of more than half of all medicines, this produces documented therapeutic failures with ciclosporin, tacrolimus, indinavir, warfarin and combined oral contraceptives, and serotonin toxicity when combined with SSRIs. Hypericin and hyperforin are plant products with no role in human physiology and no dietary requirement.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 10852961 (Moore et al., Proc Natl Acad Sci USA 2000;97:7500-7502, St John's wort induces hepatic drug metabolism through activation of the pregnane X receptor)"
+   },
+   {
+    "supplement": "5-HTP",
+    "function_short": "The chemical step between tryptophan and serotonin; the body makes its own supply.",
+    "function_full": "5-hydroxytryptophan is the intermediate between the essential amino acid tryptophan and serotonin: tryptophan hydroxylase produces it, and aromatic L-amino acid decarboxylase converts it onward to serotonin. Supplemental 5-HTP bypasses the rate-limiting hydroxylation step and escapes diversion into the kynurenine pathway, which is why it raises serotonin synthesis more directly than tryptophan does, including in peripheral tissues where that is not wanted. Ordinary food supplies essentially none of it; the dietary requirement is for tryptophan, and that is where any nutritional argument belongs. Impaired central serotonin synthesis in tetrahydrobiopterin disorders and in aromatic L-amino acid decarboxylase deficiency is an inborn error of metabolism, entirely separate from intake, and 5-HTP is prescribed or withheld in those conditions on genetic grounds.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 11869656 (Shaw, Turner & Del Mar, Cochrane Database Syst Rev 2002;(1):CD003198, tryptophan and 5-hydroxytryptophan for depression); PMID 10721089 (Klarskov et al. 2000, eosinophilia-myalgia syndrome case-associated peak X contaminants in commercial 5-HTP)"
+   },
+   {
+    "supplement": "Saffron, SAMe and other mood botanicals",
+    "function_short": "Mood supplements of different chemistry; none is a nutrient the body must obtain.",
+    "function_full": "Saffron supplies crocin, crocetin and safranal from Crocus sativus stigmas, and trials of about 30 mg/day over 6 to 8 weeks report antidepressant effects, though most are small, brief and concentrated in a narrow set of centres, which limits confidence. SAMe is chemically different in kind: the body synthesises it from methionine and ATP through methionine adenosyltransferase, and it serves as the universal methyl donor for DNA, phospholipid, catecholamine and creatine methylation. A Cochrane review of 8 trials and 934 participants found no clear difference between SAMe and imipramine or escitalopram used alone, and only low-quality evidence favouring SAMe added to an SSRI. Neither category is an essential nutrient: saffron constituents are plant secondary metabolites, and SAMe is made endogenously, with low tissue SAMe appearing only as a downstream consequence of folate or vitamin B12 deficiency or of the inborn error MAT1A deficiency.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 25384672 (Lopresti & Drummond, Hum Psychopharmacol 2014;29:517-527, saffron for depression systematic review); DOI 10.1002/14651858.CD011286.pub2 (Galizia et al., Cochrane Database Syst Rev 2016, SAMe for depression in adults)"
+   },
+   {
+    "supplement": "Probiotics, named strain only",
+    "function_short": "Live bacteria given in defined doses, where each named strain acts as its own drug.",
+    "function_full": "The accepted definition is live micro-organisms which, when administered in adequate amounts, confer a health benefit on the host, and the operative unit of evidence is the strain, written as genus, species and an alphanumeric designator (for example Lacticaseibacillus rhamnosus GG or Saccharomyces boulardii CNCM I-745). Strain-level genetics determine adhesion proteins, bacteriocin production, bile salt hydrolase activity and short-chain fatty acid output, so a trial result for one strain carries no information about a different strain of the same species. Most administered strains transit the gut without colonising, and the effect ceases when dosing stops. This is a therapeutic product class, not a nutrient class, so there is nothing a person can be short of.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "DOI 10.1038/nrgastro.2014.66 (Hill et al., Nat Rev Gastroenterol Hepatol 2014;11:506-514, ISAPP consensus statement on the scope and appropriate use of the term probiotic)"
+   },
+   {
+    "supplement": "Generic multi-strain probiotic blends",
+    "function_short": "Mixed bacteria sold without strain identification, so no trial evidence attaches to the contents.",
+    "function_full": "These products name only genus and species (Lactobacillus acidophilus, Bifidobacterium bifidum and similar) and omit the alphanumeric strain designation on which the entire clinical evidence base is built, so no published result can legitimately be attributed to what is in the capsule. Independent testing repeatedly finds discrepancies between labelled and actual colony-forming units, species misidentification, and organisms no longer viable at the end of shelf life. Adding more strains does not sum their individual effects; strains can antagonise one another through bacteriocins and niche competition, and mixtures are rarely tested as mixtures. Because this is a commercial product category rather than a nutrient, no requirement and no deficiency state exists.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "DOI 10.1038/nrgastro.2014.66 (Hill et al., Nat Rev Gastroenterol Hepatol 2014;11:506-514, strain specificity requirement); DOI 10.1080/03007995.2017.1322571 (Curr Med Res Opin 2017, strain specificity, symptoms and mechanisms in IBS probiotics)"
+   },
+   {
+    "supplement": "B. infantis 35624 (single strain)",
+    "function_short": "A single gut bacterium with its own trial evidence in irritable bowel syndrome.",
+    "function_full": "Bifidobacterium longum subsp. infantis 35624, still widely labelled Bifidobacterium infantis 35624, was isolated from healthy human gut mucosa and is one of the few probiotic strains tested at a defined dose in a trial large enough to matter. In 362 primary care women with irritable bowel syndrome of any bowel habit subtype, 1 x 10^8 cfu daily for 4 weeks was superior to placebo for abdominal pain and for a composite of bloating, bowel dysfunction, incomplete evacuation, straining and passage of gas, with global symptom improvement exceeding placebo by more than 20%; higher and lower doses did not work, which is itself informative about formulation. Proposed mechanisms include induction of regulatory T cells and reduction in circulating pro-inflammatory cytokines. It is a live organism administered as a therapy, so nobody is short of it and there is no deficiency state to describe.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 16863564 (Whorwell et al., Am J Gastroenterol 2006;101:1581-1590, encapsulated Bifidobacterium infantis 35624 in women with IBS)"
+   },
+   {
+    "supplement": "Lactase and pancreatic enzymes",
+    "function_short": "Gut enzymes that split milk sugar and break down fat, protein and starch.",
+    "function_full": "Lactase-phlorizin hydrolase sits in the small intestinal brush border and cleaves lactose into glucose and galactose; whatever escapes digestion reaches the colon, where bacteria ferment it into hydrogen, methane and short-chain fatty acids, producing the familiar symptoms. The exocrine pancreas secretes lipase and colipase, amylase, and the proteases trypsinogen and chymotrypsinogen, and lipase is the critical one because no other organ can substitute for it. The gland holds a large functional reserve: in the classic secretion studies, steatorrhoea did not appear until lipase output had fallen to 10% of normal or below, and creatorrhoea only below 10% of normal trypsin, which is why malabsorption in chronic pancreatitis declares itself late. The decline of intestinal lactase after weaning is the normal human developmental programme; retaining it into adulthood (lactase persistence) is the derived condition, driven chiefly by the LCT -13910C>T variant upstream of the lactase gene and selected for in dairying populations.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Exocrine pancreatic insufficiency is the genuine clinical deficiency in this pairing. Congenital lactase deficiency is a separate, rare autosomal recessive disorder presenting in the newborn. Adult lactase non-persistence is NOT a deficiency disease: it is the ancestral and worldwide-majority human phenotype.",
+    "deficiency_early": "Exocrine pancreatic insufficiency starts with bloating, flatulence, loose pale stools and unintended weight loss despite preserved appetite; a low faecal elastase-1 and falling fat-soluble vitamin levels (A, D, E, K) usually precede visible steatorrhoea by a long interval. Lactase non-persistence, being a physiological trait rather than a disease, shows only as dose-dependent bloating, cramps, audible bowel sounds and osmotic diarrhoea beginning 30 minutes to 2 hours after a lactose load, with most affected adults tolerating around 12 g of lactose (one glass of milk) without trouble.",
+    "deficiency_severe": "Untreated exocrine pancreatic insufficiency causes overt steatorrhoea, progressive weight loss and sarcopenia, fat-soluble vitamin deficiency with osteopenia and osteoporosis, and in cystic fibrosis, failure to thrive in infancy; excess mortality in chronic pancreatitis is concentrated in those with untreated malabsorption. Lactase non-persistence has no severe clinical endpoint whatsoever. The only downstream risk is a calcium and vitamin D shortfall in people who eliminate dairy entirely without substituting an alternative source.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "Pancreatic enzyme replacement restores fat and protein absorption, reverses weight loss and corrects fat-soluble vitamin levels while it is being taken, but destroyed acinar tissue does not regenerate, so treatment is lifelong and bone density already lost recovers only in part. Lactase non-persistence is permanent because it is the normal genetic programme rather than a lesion; symptoms resolve completely with lactose restriction, fermented dairy or exogenous lactase, and the underlying trait is not something to correct.",
+    "at_risk": "Exocrine pancreatic insufficiency: people with chronic pancreatitis (as many as 8 in 10 eventually), cystic fibrosis (the great majority, most within the first year of life), pancreatic cancer, and those after pancreatic resection or major gastric surgery. Lactase non-persistence: the global adult majority, with the highest frequencies in East and Southeast Asian, sub-Saharan African, Indigenous American and Middle Eastern populations, and the lowest in northern and northwestern Europeans and their descendants.",
+    "prevalence": "Roughly two-thirds of the world's adult population is lactase non-persistent, which is the normal phenotype rather than a disease prevalence (PMID 32899182). Exocrine pancreatic insufficiency prevalence is condition-dependent: up to about 80% of adults with chronic pancreatitis and close to 9 in 10 infants with cystic fibrosis within the first year.",
+    "source": "PMID 32899182 (Nutrients 2020;12:2689, genetics of lactose intolerance with interactive world maps of phenotype and genotype frequencies); PMID 11788828 (Enattah et al., Nat Genet 2002;30:233-237, LCT -13910C>T variant associated with adult-type hypolactasia); PMID 4693931, DOI 10.1056/NEJM197304192881603 (DiMagno, Go & Summerskill, N Engl J Med 1973;288:813-815, steatorrhoea below 10% of normal lipase output); StatPearls NBK555926 (exocrine pancreatic insufficiency)"
+   },
+   {
+    "supplement": "Over-the-counter digestive enzyme blends",
+    "function_short": "Mixed plant and fungal enzymes sold for bloating; prescription pancreatic enzymes are a different product.",
+    "function_full": "These blends typically combine fungal amylase and protease, cellulase, bromelain, papain and sometimes lipase, at doses and in formulations that are not designed to survive gastric acid or to be matched to a meal's fat content. Prescription pancrelipase is a different class of product: enteric-coated, dosed in thousands of lipase units per gram of dietary fat, and regulated in the US as a drug requiring an approved application since 2010. Two components have a defined use in people who need them, lactase for lactose intolerance and alpha-galactosidase for gas from raffinose-family oligosaccharides in legumes; the broad multi-enzyme blends have no established indication in anyone with a normal pancreas, since a healthy gland already secretes roughly ten times the lipase needed. This is a commercial product category rather than a nutrient, so no requirement and no deficiency state applies.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 4693931, DOI 10.1056/NEJM197304192881603 (DiMagno et al., N Engl J Med 1973, pancreatic secretory reserve); StatPearls NBK555926 (exocrine pancreatic insufficiency and pancreatic enzyme replacement therapy); US FDA requirement that exocrine pancreatic insufficiency drug products hold approved NDAs, enforced from April 2010"
+   },
+   {
+    "supplement": "Probiotics in critical illness",
+    "function_short": "Giving live bacteria to intensive care patients; large trials show no benefit and real harm.",
+    "function_full": "The rationale was that critical illness collapses gut microbial diversity and promotes translocation of pathogens across a compromised barrier, so restoring commensals might prevent ventilator-associated pneumonia and sepsis. PROSPECT randomised 2650 mechanically ventilated ICU patients across 44 units to Lacticaseibacillus rhamnosus GG or placebo and found ventilator-associated pneumonia in 21.9% versus 21.3% (hazard ratio 1.03, 95% CI 0.87 to 1.22), with no benefit on any secondary outcome. PROPATRIA, in 298 patients with predicted severe acute pancreatitis, found mortality of 16% on a multispecies probiotic against 6% on placebo (relative risk 2.53, 95% CI 1.22 to 5.25), with nine cases of bowel ischaemia in the probiotic arm and none on placebo, eight of them fatal. Probiotic bacteraemia and Saccharomyces fungaemia are separately documented in patients with central venous catheters or a breached gut barrier, which is why this is a setting where a live organism behaves as a hazard rather than a supplement.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 34546300 (Johnstone et al., JAMA 2021;326:1024-1033, PROSPECT trial); PMID 18279948 (Besselink et al., Lancet 2008;371:651-659, PROPATRIA trial)"
+   },
+   {
+    "supplement": "Sexual-enhancement products",
+    "function_short": "Pills sold for erections; a large share contain undeclared prescription erectile dysfunction drugs.",
+    "function_full": "Marketed as herbal or all-natural, these products routinely contain undeclared PDE5 inhibitors. Of 776 dietary supplements associated with US FDA warnings between 2007 and 2016, 353 (45.5%) were sexual enhancement products, and within that group sildenafil was identified in 47.0%, sildenafil analogues in 38.0%, tadalafil in 20.4% and the antidepressant dapoxetine in 4.0%. The botanicals actually named on the label (Panax ginseng, Tribulus terrestris, Epimedium, yohimbe, maca) have no established effect on erectile function at the quantities supplied, so any felt effect points to the hidden pharmaceutical. The concrete danger is a vasodilator taken unknowingly alongside nitrates or in the presence of cardiac disease, since the user believes the product is herbal and does not mention it to a clinician. As a product category there is no nutrient here and no deficiency state.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 30646238, DOI 10.1001/jamanetworkopen.2018.3337 (Tucker et al., JAMA Netw Open 2018;1:e183337, unapproved pharmaceutical ingredients in dietary supplements associated with FDA warnings)"
+   },
+   {
+    "supplement": "Weight-loss, fat-burner and energy blends",
+    "function_short": "Stimulant and herbal blends for fat loss; adulteration with withdrawn drugs is common.",
+    "function_full": "Typical declared ingredients are caffeine, green tea catechins, synephrine, yohimbine, garcinia and undisclosed stimulant analogues, often behind a proprietary blend label that conceals individual doses. Weight-loss products accounted for 317 of the 776 supplements associated with US FDA warnings from 2007 to 2016, and within them 84.9% contained sibutramine, an appetite suppressant withdrawn worldwide in 2010 for cardiovascular events, 23.7% contained the laxative phenolphthalein, 6.3% contained sibutramine analogues and 5.4% contained fluoxetine. Non-bodybuilding supplements of this kind carry the worst liver outcomes in the US Drug-Induced Liver Injury Network, with death or liver transplantation in 13% of cases against 3% for conventional medicines. This is a commercial product category built on stimulants and adulterants; there is no nutrient in it and nothing a person can be deficient in.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 30646238 (Tucker et al., JAMA Netw Open 2018;1:e183337); PMID 25043597 (Navarro et al., Hepatology 2014;60:1399-1408, liver injury from herbals and dietary supplements in the US DILIN)"
+   },
+   {
+    "supplement": "Bodybuilding and test-booster products",
+    "function_short": "Muscle and testosterone products; nearly nine in ten flagged ones contain hidden synthetic steroids.",
+    "function_full": "These products promise anabolic effect from Tribulus terrestris, D-aspartic acid, fenugreek, boron and similar botanicals, none of which raises serum testosterone in men with normal gonadal function at the doses supplied. Of 92 muscle-building supplements associated with US FDA warnings between 2007 and 2016, 89.1% contained synthetic steroids or steroid-like compounds that were not declared on the label. In the US Drug-Induced Liver Injury Network, 45 of 130 supplement-related liver injuries came from bodybuilding products, causing prolonged cholestatic jaundice in young men that lasted weeks to months, though without deaths or transplants in that series. Liver injury attributed to herbal and dietary supplements rose from 7% to 20% of all DILIN cases between 2004 and 2013, and this category is a substantial part of that rise. It is a product class with no nutritional content, so no deficiency state exists.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 30646238 (Tucker et al., JAMA Netw Open 2018;1:e183337); PMID 25043597 (Navarro et al., Hepatology 2014;60:1399-1408, DILIN herbal and dietary supplement hepatotoxicity)"
+   }
+  ]
+ },
+ "check_report": {
+  "group": "neuro-gut-products",
+  "errors": [
+   {
+    "supplement": "Rhodiola rosea",
+    "field": "function_full / source",
+    "verdict": "WRONG",
+    "correction": "The sentence describes a review that is not the one cited. PMID 21036578 (Hung, Perry & Ernst, Phytomedicine 2011;18:235-244) included ELEVEN placebo-controlled RCTs of Rhodiola rosea ONLY, judged that 'the methodological quality of most trials was moderate or good' (5 of 10 scored >3 on Jadad), said nothing about species conflation, and concluded R. rosea may benefit physical performance, mental performance and certain mental-health conditions, the stated limitation being lack of independent replication. That is close to the opposite of the quality verdict the entry attributes to it. The '39 randomised trials across three Rhodiola species / reporting quality too poor / species routinely conflated' description belongs to Li et al., 'Quality Evaluation of Randomized Controlled Trials of Rhodiola Species: A Systematic Review', Evid Based Complement Alternat Med 2021;2021:9989546 (39 RCTs: 23 R. rosea, 8 R. crenulata, 8 R. wallichiana, 1 R. sacra, the last excluded from quality assessment; no study met all CONSORT criteria). Fix: cite Li 2021 for this sentence, or keep Hung 2011 and report what it actually found.",
+    "source": "PubMed abstract PMID 21036578 and DARE record NBK80766; Li et al., DOI 10.1155/2021/9989546, PMC8266448"
+   },
+   {
+    "supplement": "Weight-loss, fat-burner and energy blends",
+    "field": "function_full",
+    "verdict": "IMPRECISE",
+    "correction": "The 13% death-or-transplant figure is Navarro's result for ALL 85 non-bodybuilding HDS cases in DILIN (a heterogeneous group covering weight loss plus energy, joint, immune and mixed products), not for weight-loss and fat-burner blends specifically, and it is an outcome among adjudicated cases already enrolled in a hepatology referral network rather than a risk of taking the products. Reword to 'non-bodybuilding herbal and dietary supplements as a class' and qualify with 'among DILIN-enrolled liver-injury cases'.",
+    "source": "PMID 25043597 (Navarro et al., Hepatology 2014;60:1399-1408): 130 HDS cases among 839 enrollees, 45 bodybuilding and 85 non-bodybuilding; death or transplantation 13% for non-bodybuilding HDS versus 3% for conventional medications"
+   },
+   {
+    "supplement": "Sexual-enhancement products",
+    "field": "function_short",
+    "verdict": "OVERSTATED",
+    "correction": "'a large share contain undeclared prescription erectile dysfunction drugs' drops the denominator. Tucker's 45.5% and 47.0% describe products that had ALREADY drawn an FDA warning, a deliberately adulteration-enriched sample, not the sexual-enhancement market. The function_full states the denominator correctly, so the short line reads as a stronger claim than the entry itself supports. Suggested wording: 'a large share of the products FDA has flagged contain undeclared PDE5 inhibitors'.",
+    "source": "PMID 30646238 (Tucker et al., JAMA Netw Open 2018;1:e183337): denominator is 776 supplements associated with FDA warnings 2007-2016, of which 353 (45.5%) were sexual enhancement"
+   },
+   {
+    "supplement": "Ashwagandha (Withania somnifera)",
+    "field": "function_full",
+    "verdict": "IMPRECISE",
+    "correction": "Bjornsson 2020 reports five patients (3 male, 2 female, mean age 43, range 21-62), latency 2-12 weeks, cholestatic or mixed injury (R ratios 1.4-3.3), hyperbilirubinaemia persisting 5-20 weeks, and liver tests normalising within 1-5 months in FOUR patients, the fifth lost to follow-up. 'raised bilirubin persisting 5 to 20 weeks before liver tests normalised' merges two separate intervals and implies all five recovered. The entry also omits the paper's own conclusion that no patient developed hepatic failure and there were no deaths or transplants, which matters when the series is presented as documented harm.",
+    "source": "PMID 31991029 (Bjornsson et al., Liver Int 2020;40:825-829)"
+   },
+   {
+    "supplement": "Berberine",
+    "field": "source / function_full",
+    "verdict": "IMPRECISE",
+    "correction": "The PLoS One 2014 paper is Xu M, Xiao Y, Yin J, Hou W, Yu X, Shen L, Liu F, Wei L, Jia W (PLoS One 2014;9:e103702), not 'Yin et al.' (Yin is first author on the separately cited Acta Pharm Sin B 2012 review). Its complex I finding does support the mechanism sentence, but its headline conclusion is that berberine promotes glucose consumption INDEPENDENTLY of AMPK activation, which sits awkwardly under a sentence framing AMPK as the pathway. Two further claims have no cited support: the rise in cellular AMP:ATP ratio is Turner et al., Diabetes 2008;57:1414-1418, and hepatic LDL-receptor upregulation is Kong et al., Nat Med 2004;10:1344-1351 (ERK-dependent mRNA stabilisation, not an AMPK effect).",
+    "source": "Europe PMC record for DOI 10.1371/journal.pone.0103702; Acta Pharm Sin B 2012;2:327-334 (Yin, Ye & Jia)"
+   },
+   {
+    "supplement": "5-HTP",
+    "field": "source",
+    "verdict": "IMPRECISE",
+    "correction": "PMID 10721089 is dated 1999, not 2000: Klarskov K, Johnson KL, Benson LM, Gleich GJ, Naylor S. 'Eosinophilia-myalgia syndrome case-associated contaminants in commercially available 5-hydroxytryptophan.' Adv Exp Med Biol 1999;467:461-468.",
+    "source": "Europe PMC bibliographic record for PMID 10721089"
+   }
+  ],
+  "misclassified": [
+   {
+    "supplement": "B. infantis 35624 (single strain)",
+    "field": "deficiency_state",
+    "given": "NA",
+    "should_be": "NONE",
+    "why": "This is the clearest break in the coding rule. A single named organism at a defined dose is as specific an entity as melatonin or berberine, both of which get NONE for exactly the same clinical fact, and the row's own text says 'nobody is short of it and there is no deficiency state to describe'. Its deficiency_name field already reads NONE, so the two fields contradict each other."
+   },
+   {
+    "supplement": "Probiotics, named strain only",
+    "field": "deficiency_state",
+    "given": "NA",
+    "should_be": "NONE",
+    "why": "function_full states 'there is nothing a person can be short of' and deficiency_name is NONE. NA reads as 'question not evaluated' rather than 'evaluated, no deficiency exists', which is the finding."
+   },
+   {
+    "supplement": "Generic multi-strain probiotic blends",
+    "field": "deficiency_state",
+    "given": "NA",
+    "should_be": "NONE",
+    "why": "function_full states 'no requirement and no deficiency state exists', the same assertion coded NONE on every botanical row."
+   },
+   {
+    "supplement": "Over-the-counter digestive enzyme blends",
+    "field": "deficiency_state",
+    "given": "NA",
+    "should_be": "NONE",
+    "why": "function_full states 'no requirement and no deficiency state applies'. Note the sister row 'Lactase and pancreatic enzymes' correctly uses CLINICAL, so the enzyme pair is coded coherently and only this row's NA is out of step with the NONE convention."
+   },
+   {
+    "supplement": "Probiotics in critical illness",
+    "field": "deficiency_state",
+    "given": "NA",
+    "should_be": "NONE",
+    "why": "No deficiency state exists for live organisms given as therapy; the row is coded NA while chemically comparable non-nutrient exposures (St John's wort, valerian) are coded NONE."
+   },
+   {
+    "supplement": "Sexual-enhancement products",
+    "field": "deficiency_state",
+    "given": "NA",
+    "should_be": "NONE",
+    "why": "function_full states 'there is no nutrient here and no deficiency state'. Being a commercial category is a reason the answer is NONE, not a reason to leave the field unevaluated."
+   },
+   {
+    "supplement": "Weight-loss, fat-burner and energy blends",
+    "field": "deficiency_state",
+    "given": "NA",
+    "should_be": "NONE",
+    "why": "function_full states 'there is no nutrient in it and nothing a person can be deficient in', which is the NONE case."
+   },
+   {
+    "supplement": "Bodybuilding and test-booster products",
+    "field": "deficiency_state",
+    "given": "NA",
+    "should_be": "NONE",
+    "why": "function_full states 'no nutritional content, so no deficiency state exists', which is the NONE case."
+   }
+  ],
+  "coverage": "CLEAN",
+  "net": "All 20 assigned names are present exactly once, and no extras.\n\nPriorities 1 to 3 are clean. There are no invented deficiencies: every botanical, plus berberine, melatonin and 5-HTP, is coded NONE, and the single CLINICAL row (lactase and pancreatic enzymes) rests on exocrine pancreatic insufficiency, a genuine recognised deficiency with correct early features, severe endpoints, at-risk groups and prevalence. That row also explicitly refuses to call adult lactase non-persistence a disease, calling it the ancestral and worldwide-majority phenotype. Reversibility is defensible throughout: the only non-NA value, PARTIAL, is right for EPI, since enzyme replacement corrects fat and protein absorption while it is taken and destroyed acinar tissue does not regenerate. The B12, iodine and scurvy checks named in the brief do not apply, since none of those items sits in this group. Genetic versus dietary separation is the strongest part of the group, handled correctly in four places: LCT -13910C>T lactase non-persistence as a normal developmental programme, congenital lactase deficiency named as a separate autosomal recessive disorder, BH4 disorders and AADC deficiency kept apart from intake in the 5-HTP row, and MAT1A deficiency flagged in the SAMe row.\n\nOne substantive error, the Rhodiola citation: the entry describes a 39-trial multi-species review with poor reporting quality but cites an 11-trial single-species review that reached a favourable quality verdict. The described review exists (Li 2021), so the fix is a citation swap, not a rewrite. Everything else I found is citation hygiene or denominator framing.\n\nVerified correct against source, no change needed: melatonin Cmax 49.3 and 27.8 pg/mL (Scholtens 2016) and Gooley's 99% delayed onset, roughly 90 minutes shortened window, under 200 lux; GEM 3069 volunteers aged 75 and over, median 6.1 years, null for dementia and Alzheimer disease; Pase six Bacopa trials all run over 12 weeks with the signal in memory free recall; Mori 30 Japanese adults aged 50 to 80, 3 g/day, 16 weeks, with washout drift; hyperforin PXR Ki 27 nM; Cochrane SAMe 8 trials and 934 participants; Whorwell 362 primary care women, 1 x 10^8 cfu, 4 weeks, global improvement exceeding placebo by more than 20% at p<0.02, with higher and lower doses failing; PROSPECT 2650 patients across 44 ICUs, 21.9% versus 21.3%, HR 1.03 (0.87 to 1.22); PROPATRIA 16% versus 6% mortality, RR 2.53 (1.22 to 5.25), nine bowel ischaemia cases with eight fatal and none on placebo; all nine Tucker adulteration percentages exact to the paper; Navarro 130 HDS cases with 45 from bodybuilding products and the 7% to 20% rise; DiMagno's 10% of normal lipase output threshold; Enattah LCT -13910C>T; roughly two-thirds global lactase non-persistence.\n\nTwo items to annotate rather than correct. PROPATRIA still carries The Lancet's March 2010 Expression of Concern (not a retraction) following the Dutch IGZ, CCMO and VWA report into the trial's design, approval and conduct; a reader acting on the mortality and bowel ischaemia signal should see that alongside the citation. And 'sibutramine, withdrawn worldwide in 2010' is loose: EU suspension January 2010, US withdrawal October 2010, with continued marketing in some countries.\n\nThe NA versus NONE split in deficiency_state carries no reader-facing clinical risk, since both resolve to 'nothing to be short of'. It is worth fixing anyway because it is not internally consistent: it does not track product category against single substance (B. infantis 35624 is a single defined organism coded NA, while the multi-item 'Saffron, SAMe and other mood botanicals' category is coded NONE), and each NA row's own deficiency_name field already reads NONE."
+ }
+}

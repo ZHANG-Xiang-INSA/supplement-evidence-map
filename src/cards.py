@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Item cards: pros, cons, food sources and the endogenous-synthesis block."""
 from site_base import (T, esc, slug, axes_for, spec_strip, norm_food,
-                       FOOD, SYN, FOOD_AXIS, DOSE_AXIS, SYN_AXIS, VERDICT_META)
+                       FOOD, SYN, FUNC, FOOD_AXIS, DOSE_AXIS, SYN_AXIS, VERDICT_META)
+from func_load import DEF_META, REV_META
 
 _UNC = ('INDICATIVE AND UNCONFIRMED', 'indicative and unconfirmed',
         'Indicative and unconfirmed', 'unconfirmed:', 'UNCONFIRMED:')
@@ -132,6 +133,49 @@ def food_block(name):
     return '\n'.join(o)
 
 
+def func_block(name):
+    fn = FUNC.get(name)
+    if not fn:
+        return ''
+    de = DEF_META.get(str(fn.get('deficiency_state') or 'NA').upper(), DEF_META['NA'])
+    rv = REV_META.get(str(fn.get('reversibility') or 'NA').upper(), REV_META['NA'])
+    o = ['<div class="food fnb"><h5>%s</h5>' % T('What it does, and what happens without it',
+                                                 '它有什么作用，缺了会怎样')]
+    o.append('<p class="fline lead">%s</p>'
+             % T(esc(fn.get('function_short', '')),
+                 esc(fn.get('function_short_zh') or fn.get('function_short', ''))))
+    o.append('<div class="fbadges">')
+    o.append('<span class="tag %s">%s</span>' % (de[2], T(esc(de[0]), esc(de[1]))))
+    if str(fn.get('reversibility', '')).upper() != 'NA':
+        o.append('<span class="tag %s">%s</span>' % (rv[2], T(esc(rv[0]), esc(rv[1]))))
+    o.append('</div>')
+    o.append('<p class="fline"><b>%s</b>%s</p>'
+             % (T('In detail', '详细'),
+                T(esc(fn.get('function_full', '')),
+                  esc(fn.get('function_full_zh') or fn.get('function_full', '')))))
+    if str(fn.get('deficiency_state', '')).upper() in ('CLINICAL', 'FUNCTIONAL'):
+        for a, b, k in [('Deficiency disease', '缺乏症', 'deficiency_name'),
+                        ('First signs', '早期表现', 'deficiency_early'),
+                        ('Untreated', '不治疗会怎样', 'deficiency_severe'),
+                        ('Does it reverse', '补回来能修复吗', 'reversibility_note'),
+                        ('Who becomes deficient', '谁会缺乏', 'at_risk'),
+                        ('How common', '有多常见', 'prevalence')]:
+            v = fn.get(k)
+            if not v or str(v).strip().upper() in ('NONE', 'NOT APPLICABLE', 'NA'):
+                continue
+            o.append('<p class="fline"><b>%s</b>%s</p>'
+                     % (T(a, b), T(esc(v), esc(fn.get(k + '_zh') or v))))
+    else:
+        o.append('<p class="fline nodef">%s</p>' % T(
+            'There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a '
+            'thing that can happen.',
+            '它不存在缺乏状态。它不是必需营养素，所以“缺了它”这件事本身并不成立。'))
+    if fn.get('source'):
+        o.append('<p class="fline"><b>%s</b>%s</p>' % (T('Source', '来源'), esc(fn['source'])))
+    o.append('</div>')
+    return chr(10).join(o)
+
+
 def item_card(it):
     v = it['verdict']
     name = it['en']
@@ -156,6 +200,7 @@ def item_card(it):
     for a, b in it['cons']:
         o.append('<li>%s</li>' % T(a, b))
     o.append('</ul></div></div>')
+    o.append(func_block(name))
     o.append(food_block(name))
     o.append('<div class="refs">%s %s</div>' % (T('Refs.', '文献'), esc(it['refs'])))
     o.append('</article>')

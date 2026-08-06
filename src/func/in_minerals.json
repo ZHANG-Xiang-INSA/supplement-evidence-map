@@ -1,0 +1,213 @@
+{
+ "group": "minerals",
+ "target_names": [
+  "Iron",
+  "Iodine",
+  "Zinc lozenges",
+  "Selenium at 200 µg/d",
+  "Magnesium",
+  "Calcium supplements on top of an adequate diet",
+  "Dietary nitrate / beetroot"
+ ],
+ "dataset": {
+  "items": [
+   {
+    "supplement": "Iron",
+    "function_short": "Carries oxygen in the blood and powers the enzymes that turn food into usable energy.",
+    "function_full": "Iron sits at the centre of the haem group in haemoglobin and myoglobin, where it binds and releases oxygen, and in the iron-sulfur clusters of mitochondrial complexes I to III, where it moves electrons during ATP synthesis. It is also the cofactor for ribonucleotide reductase, the rate-limiting enzyme of DNA synthesis, which is why dividing tissues (marrow, gut lining) fail first. In the developing brain it is required for tyrosine hydroxylase (dopamine synthesis), for oligodendrocyte myelination, and for hippocampal maturation, which is the mechanism behind the developmental findings in infants. Absorption is tightly regulated by hepcidin, so the body cannot simply take up more when stores are low.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Iron deficiency anaemia (microcytic, hypochromic anaemia). Iron deficiency without anaemia is a recognised earlier stage of the same process.",
+    "deficiency_early": "Serum ferritin falls long before haemoglobin does, so a blood test shows depleted stores while the full blood count is still normal. What a person notices at that stage: fatigue disproportionate to activity, breathlessness on stairs, cold hands, hair shedding, restless legs at night, and sometimes pica (craving ice or chalk). Ferritin is an acute-phase protein, so inflammation or infection can mask true depletion.",
+    "deficiency_severe": "Haemoglobin falls with small pale red cells, producing pallor, tachycardia, exertional dyspnoea, and in extreme cases high-output cardiac failure. In pregnancy it raises the risk of preterm delivery, low birth weight, and poor infant iron stores. In infancy it impairs motor and cognitive development. In adults over 50 a new iron deficiency is a red flag for occult gastrointestinal bleeding and needs investigation rather than a supplement.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "In adults, anaemia and its symptoms correct fully once iron is replaced and the cause is fixed; haemoglobin typically rises within 4 to 8 weeks and stores refill over 3 to 6 months. Iron deficiency during infancy is the exception. Children with severe chronic iron deficiency in infancy still scored worse on cognitive, motor and behavioural measures more than 10 years after full iron treatment, so the developmental window matters more than the correction.",
+    "at_risk": "Menstruating women, especially with heavy periods; pregnant women (requirement roughly doubles); infants 6 to 24 months, particularly preterm or low-birth-weight; frequent blood donors; endurance athletes; people with coeliac disease, inflammatory bowel disease, H. pylori gastritis or after bariatric surgery; vegetarian and vegan diets high in phytate; and anyone with chronic gastrointestinal blood loss.",
+    "prevalence": "Anaemia affects about 33.7% of women aged 15 to 49 worldwide (WHO Global Health Observatory / GBD 2021), with iron deficiency the single largest cause. In the US, estimates of iron deficiency in premenopausal women range from roughly 10% to 38% depending on the ferritin cut-off used (below 15 vs below 25 micrograms/L), which is why published figures disagree so widely.",
+    "source": "Lozoff B et al., Arch Pediatr Adolesc Med 2000;154:1108-1113, PMID 10742372 (persisting deficits 10 years after treatment); WHO Global Health Observatory, anaemia in women of reproductive age; Camaschella C, N Engl J Med 2015;372:1832-1843."
+   },
+   {
+    "supplement": "Iodine",
+    "function_short": "The raw material for thyroid hormone, which sets metabolic rate and builds the fetal brain.",
+    "function_full": "Iodine has exactly one job: it is the substrate thyroid peroxidase attaches to tyrosine residues on thyroglobulin to make thyroxine (T4) and triiodothyronine (T3). There is no alternative pathway and no substitute element. T3 acting on nuclear thyroid hormone receptors drives basal metabolic rate and thermogenesis in adults. In the fetus it governs neuronal migration, dendritic branching, synaptogenesis and myelination, on a fixed developmental timetable. The fetal thyroid does not begin producing hormone until roughly week 12 to 16, so first-trimester brain development runs entirely on maternal T4 crossing the placenta. Maternal requirement rises to about 250 micrograms per day in pregnancy and lactation.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Iodine deficiency disorders: endemic goitre and hypothyroidism in adults, and endemic cretinism as the severe congenital form.",
+    "deficiency_early": "The thyroid enlarges (goitre) as TSH rises to extract more iodine from a falling supply. On testing, a population median urinary iodine concentration below 100 micrograms/L (below 150 in pregnancy) and a raised serum thyroglobulin signal inadequacy before any clinical change. A pregnant woman with mild to moderate deficiency usually notices nothing at all, which is what makes this dangerous.",
+    "deficiency_severe": "Endemic cretinism: severe intellectual disability, deaf-mutism, spastic diplegia and stunted growth in a child whose mother was severely deficient during pregnancy. Adults develop overt hypothyroidism with cold intolerance, weight gain, bradycardia and, in extreme untreated cases, myxoedema. Even mild to moderate maternal deficiency is associated with lower verbal IQ and reading scores in the child, on the order of a few points, which is small individually and large across a population.",
+    "reversibility": "IRREVERSIBLE",
+    "reversibility_note": "Goitre, adult hypothyroidism and impaired thyroid function correct with iodine repletion. Brain damage sustained in utero and in the first two years of life does not. The first-trimester component of the damage is already fixed by the time a pregnancy is confirmed, so iodine given to an affected child undoes nothing; only iodine given to the mother before and during pregnancy prevents it. This is the strongest irreversibility case among common micronutrients, and the reason salt iodisation is a public health programme rather than an individual choice.",
+    "at_risk": "Pregnant and lactating women anywhere, since requirements rise sharply. Populations in iodine-poor soil regions (mountainous and flood-plain areas) without salt iodisation. People who avoid iodised salt while also avoiding dairy, eggs and seafood, including strict vegans without a deliberate iodine source. Users of non-iodised speciality salts (pink, sea, kosher), which supply essentially no iodine.",
+    "prevalence": "21 countries still had insufficient population iodine intake as of 2020-2021, down from 113 in 1993, thanks to salt iodisation (IGN Global Scorecard of Iodine Nutrition). Mild to moderate deficiency in pregnant women persists in countries whose general populations are replete, including the UK, Norway and Australia. Iodine deficiency remains the leading preventable cause of intellectual disability worldwide.",
+    "source": "Delange F et al., N Engl J Med 1994;331:1770-1771, doi:10.1056/NEJM199412293312610; Bath SC et al., Lancet 2013;382:331-337 (mild maternal deficiency and child IQ, ALSPAC); Iodine Global Network, Global Scorecard of Iodine Nutrition, ign.org/scorecard; Zimmermann MB, Lancet 2008;372:1251-1262."
+   },
+   {
+    "supplement": "Zinc lozenges",
+    "function_short": "Zinc runs hundreds of enzymes; the lozenge form targets cold symptoms in the throat.",
+    "function_full": "Zinc is a structural or catalytic component of more than 300 enzymes and of the roughly 2,000 zinc-finger transcription factors that bind DNA, so it is required for gene expression, DNA and RNA synthesis, and cell division. Tissues with fast turnover fail first: gut mucosa, skin, growth plate cartilage, and lymphocytes. Thymic function and T-cell development are zinc-dependent, which is the basis of the immune effects. The lozenge specifically is a different proposition from nutrition: it works (where it works) by releasing ionic zinc onto the oropharyngeal mucosa, where it appears to interfere with rhinovirus replication and ICAM-1 binding locally. That is a short-course pharmacological use in someone whose zinc status is usually normal. Lozenges are a poor way to correct systemic deficiency, and sustained high-dose zinc (above roughly 40 mg/day) induces intestinal metallothionein and causes copper deficiency with anaemia and myelopathy.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Nutritional zinc deficiency (growth failure, chronic diarrhoea, impaired immunity, characteristic dermatitis). Acrodermatitis enteropathica is the inherited form, caused by SLC39A4 mutations impairing zinc uptake, and is a genetic disorder rather than a consequence of diet.",
+    "deficiency_early": "Blunted taste and smell, poor appetite, slow wound healing, and infections that are more frequent and last longer. In children, growth velocity crosses centiles downward before any skin change appears. There is no good early biomarker: plasma zinc falls only late, drops during any inflammatory episode, and varies with time of day and recent meals, so a normal plasma zinc does not exclude deficiency.",
+    "deficiency_severe": "Stunting and delayed sexual maturation in children, persistent diarrhoea that worsens the deficiency in a loop, alopecia, and a distinctive bullous, crusted dermatitis around the mouth, eyes, genitals and on the hands and feet. Cell-mediated immunity is impaired, with thymic atrophy and reduced T-cell counts. In young children in low-income settings, zinc deficiency contributes measurably to deaths from diarrhoeal disease and pneumonia.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "Dermatitis, taste disturbance, diarrhoea and immune function recover within days to a few weeks of repletion, and the response is often dramatic. Linear growth is the part that does not fully catch up: height lost during a prolonged deficiency spanning a growth period is only partly recovered, and final adult stature can remain reduced.",
+    "at_risk": "People on cereal-based diets high in phytate with little animal protein, which is the dominant global pattern. Children in low-income settings. Malabsorption from Crohn's disease, coeliac disease or short bowel; bariatric surgery. Chronic alcohol use, which causes urinary zinc loss. Chronic diarrhoea, sickle cell disease, and older adults with restricted intake. High-dose supplemental iron taken at the same time competes for the same absorptive route.",
+    "prevalence": "An estimated 17.3% of the world's population is at risk of inadequate zinc intake, based on national food-supply zinc availability (Wessells and Brown, 2012). Clinically overt nutritional zinc deficiency in healthy adults in high-income countries is uncommon.",
+    "source": "Wessells KR, Brown KH. PLoS One 2012;7:e50568, PMID 23209782; King JC et al., J Nutr 2016;146:858S-885S (IZiNCG biomarkers); Hemila H, BMJ Open 2017;7:e013295 (zinc lozenges and cold duration); NIH Office of Dietary Supplements, Zinc Fact Sheet for Health Professionals."
+   },
+   {
+    "supplement": "Selenium at 200 µg/d",
+    "function_short": "Selenium builds the enzymes that mop up oxidative damage and switch on thyroid hormone.",
+    "function_full": "Selenium is incorporated as the amino acid selenocysteine into about 25 human selenoproteins. The glutathione peroxidases (GPX1 to GPX4) reduce hydrogen peroxide and lipid hydroperoxides, GPX4 specifically preventing ferroptotic membrane damage. Thioredoxin reductases maintain cellular redox state and support DNA synthesis. The iodothyronine deiodinases convert T4 to active T3, which links selenium status to thyroid function. Selenoprotein P is the plasma transport form and the best status marker. The dose in this entry matters: plasma glutathione peroxidase and selenoprotein P saturate at intakes of roughly 55 to 75 micrograms per day, so 200 micrograms per day supplies three to four times the adult RDA and produces no further enzyme activity in someone already replete, while sitting halfway to the tolerable upper limit of 400 micrograms per day. In the Nutritional Prevention of Cancer trial, 200 micrograms per day for a mean 7.7 years raised type 2 diabetes incidence (hazard ratio 1.55, 95% CI 1.03 to 2.33), concentrated in participants who started in the highest baseline selenium tertile (hazard ratio 2.70).",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Keshan disease, an endemic cardiomyopathy. Kashin-Beck disease, an endemic osteoarthropathy, occurs in the same low-selenium regions and is associated with, though not fully explained by, selenium deficiency.",
+    "deficiency_early": "Plasma selenium and glutathione peroxidase activity fall with no symptoms at all. In endemic areas, subclinical ECG abnormalities and reduced ejection fraction appear before overt illness, which is how latent Keshan disease is detected on screening. Isolated cases outside endemic areas typically surface as unexplained myopathy, muscle pain, or whitened nail beds.",
+    "deficiency_severe": "Keshan disease presents acutely with cardiogenic shock and arrhythmia, or chronically as congestive cardiomyopathy with cardiac enlargement and multifocal myocardial necrosis and fibrosis. It classically strikes children and women of childbearing age in low-soil-selenium areas and is fatal without treatment. A coxsackievirus co-factor is thought to trigger the acute form in a selenium-depleted host. Kashin-Beck disease destroys growth-plate and articular cartilage, producing shortened fingers, deformed ankles, knees, wrists and elbows, and permanently limited movement.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "Early Keshan disease responds well to selenium replacement, and heart failure can improve substantially or resolve if caught before the myocardium is remodelled. Once dilated cardiomyopathy with established fibrosis has developed, the myocardial damage does not fully reverse and outcomes are poor. Kashin-Beck cartilage necrosis and the resulting joint deformity are permanent. Prophylactic sodium selenite in endemic Chinese counties prevented new cases, which is the clearest evidence the causal direction is right.",
+    "at_risk": "Residents of low-selenium soil belts, chiefly the diagonal band across China from the northeast to the southwest, plus parts of Siberia. Long-term parenteral nutrition without added selenium. Severe malabsorption, short bowel, and cystic fibrosis. Dialysis patients. Dietary selenium deficiency is not a realistic concern for anyone eating a mixed diet in North America, where soil selenium is high; two Brazil nuts alone exceed the adult RDA.",
+    "prevalence": "NOT ESTABLISHED as a current global figure. Keshan disease was endemic across a defined low-selenium region of China and has been reduced to near-zero incidence since selenite supplementation and food-supply changes began in the 1970s. Dietary selenium deficiency is essentially absent in the United States, where median intake already exceeds the RDA from food alone.",
+    "source": "Stranges S et al., Ann Intern Med 2007;147:217-223, PMID 17620655 (200 µg/d and type 2 diabetes, NPC trial); Rayman MP, Lancet 2012;379:1256-1268; Keshan Disease, StatPearls, NCBI Bookshelf NBK603722; Institute of Medicine DRI for selenium (RDA 55 µg/d, UL 400 µg/d)."
+   },
+   {
+    "supplement": "Magnesium",
+    "function_short": "A cofactor in hundreds of reactions; every molecule of ATP works bound to magnesium.",
+    "function_full": "The biologically active form of ATP is Mg-ATP, so magnesium is an obligate participant in every kinase reaction, every ATPase and both DNA and RNA polymerases, more than 300 enzymes in total. It acts as a physiological calcium antagonist: it blocks the NMDA receptor channel at rest and dampens calcium entry in vascular smooth muscle and myocardium, which is why depletion raises neuromuscular excitability and arrhythmia risk. Magnesium is also required both for parathyroid hormone secretion and for end-organ response to it, so depletion produces a hypocalcaemia that will not correct until magnesium is replaced. About 60% of body magnesium is locked in bone and most of the rest is intracellular, leaving only about 1% in serum. Serum magnesium is therefore a poor guide to total body status and can be normal in a genuinely depleted person.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Symptomatic hypomagnesaemia (ICD-10 E83.4). There is no eponymous deficiency disease; the severe presentation is hypomagnesaemic tetany with refractory hypocalcaemia and hypokalaemia. Inherited renal magnesium wasting (Gitelman syndrome, familial hypomagnesaemia with hypercalciuria) is a genetic tubular disorder rather than a dietary deficiency.",
+    "deficiency_early": "Usually nothing at all. Low dietary intake shows up as intake below the estimated average requirement with a normal serum magnesium, because the kidney conserves aggressively. The first things a person notices are muscle cramps, eyelid or hand tremor, and irritability or poor sleep, all of which are non-specific. In practice a low serum magnesium is most often spotted incidentally on a metabolic panel run for unexplained hypokalaemia or hypocalcaemia.",
+    "deficiency_severe": "Tetany with positive Chvostek and Trousseau signs, paraesthesiae, seizures, and cardiac arrhythmias including atrial fibrillation and torsades de pointes. Accompanying hypokalaemia and hypocalcaemia resist correction until magnesium itself is replaced, which is the clinically important teaching point. Severe cases are almost always driven by drug or gastrointestinal or renal losses rather than by diet alone.",
+    "reversibility": "FULL",
+    "reversibility_note": "Repletion corrects the neuromuscular and cardiac features and allows the linked potassium and calcium abnormalities to correct, with no residual deficit once the underlying cause is addressed. The one caveat is timing rather than permanence: serum magnesium normalises before body stores do, so bone and intracellular pools take days to weeks to refill and stopping too early lets the deficit return.",
+    "at_risk": "Chronic alcohol use (the single most common cause). Chronic diarrhoea, malabsorption, short bowel and after bariatric surgery. Long-term proton pump inhibitor use, which can cause profound hypomagnesaemia. Loop and thiazide diuretics, cisplatin, amphotericin, and calcineurin inhibitors. Poorly controlled diabetes with osmotic diuresis. Refeeding syndrome. In someone with normal kidneys and a normal gut, diet alone rarely produces symptomatic deficiency.",
+    "prevalence": "About 48% of Americans of all ages consume less magnesium from food and beverages than their estimated average requirement (NHANES 2013-2016). Clinically significant hypomagnesaemia is far less common than that figure suggests: roughly 2% in the general population, rising to about 10% to 20% of hospitalised patients and higher in intensive care. The gap between the two numbers is the reason low intake is often overstated as widespread deficiency.",
+    "source": "NIH Office of Dietary Supplements, Magnesium Health Professional Fact Sheet, ods.od.nih.gov/factsheets/Magnesium-HealthProfessional (NHANES 2013-2016 intake data); Ayuk J, Gittoes NJL, Ann Clin Biochem 2014;51:179-188 (contemporary view of hypomagnesaemia); Gragossian A et al., Hypomagnesemia, StatPearls, NCBI Bookshelf NBK500003."
+   },
+   {
+    "supplement": "Calcium supplements on top of an adequate diet",
+    "function_short": "Builds bone mineral and carries the signals for muscle contraction, nerve firing and clotting.",
+    "function_full": "About 99% of body calcium is hydroxyapatite crystal in bone and teeth, serving a structural role. The remaining 1% is the cell's universal second messenger: it triggers excitation-contraction coupling in muscle, neurotransmitter release at synapses, and several steps of the coagulation cascade. Serum ionised calcium is defended within a very narrow range by parathyroid hormone, calcitriol and bone resorption, so a low dietary intake does not lower blood calcium. It is paid for out of the skeleton instead. That regulation is the key to this particular entry. Fractional absorption falls as intake rises, so in a person already meeting requirements from food, additional supplemental calcium contributes little to bone mineral and the surplus is largely excreted. What a supplement does add that food does not is a large absorptive bolus, and that is the context for the constipation, the increased kidney stone risk seen in the Women's Health Initiative, and the contested cardiovascular signal.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Calcium-deficiency rickets in children and osteomalacia in adults, with nutritional secondary hyperparathyroidism. This is a disease of genuinely low intake and has no bearing on whether someone eating an adequate diet adds a supplement.",
+    "deficiency_early": "Nothing a person notices. Biochemically, parathyroid hormone rises while serum calcium stays normal, urinary calcium falls, and bone turnover markers climb. The skeleton is being drawn on silently, which is why the early phase is only ever detected on testing done for another reason.",
+    "deficiency_severe": "In children, rickets with bowed legs, widened wrists and costochondral junctions, bone pain and delayed growth. In adults, osteomalacia with diffuse bone pain, proximal muscle weakness and pseudofractures, and over decades accelerated bone loss with increased fragility fracture risk. Symptomatic hypocalcaemia with tetany and paraesthesiae comes from parathyroid or vitamin D failure rather than from dietary shortfall alone, because the skeleton buffers intake so effectively.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "Rickets and osteomalacia heal with calcium repletion (plus vitamin D where that is also deficient), and bone mineral density largely restores. Two things do not fully recover: skeletal deformity already established in a growing child, along with the height lost to it, and peak bone mass never accrued during adolescence, which sets the lifetime baseline and cannot be rebuilt later by supplementing.",
+    "at_risk": "Children on low-calcium, high-phytate diets in parts of sub-Saharan Africa and South Asia, where dietary intakes around 200 mg/day have been documented. Adults with no dairy and no fortified alternatives. Malabsorption, post-gastrectomy states, long-term corticosteroid use, and untreated coeliac disease. The population this entry describes, someone whose diet already meets requirements, is not at risk by definition, which is the whole point.",
+    "prevalence": "NOT ESTABLISHED as a global figure for calcium-specific deficiency, because it is difficult to separate from vitamin D deficiency in survey data. Regionally it is well documented: mean dietary calcium intake in Nigerian children with nutritional rickets was 217 mg/day against a requirement of roughly 700 to 1,300 mg/day depending on age, and calcium alone outperformed vitamin D alone in treating them.",
+    "source": "Thacher TD et al., N Engl J Med 1999;341:563-568, PMID 10451461 (calcium vs vitamin D for nutritional rickets); Institute of Medicine, Dietary Reference Intakes for Calcium and Vitamin D, 2011, doi:10.17226/13050; Jackson RD et al., N Engl J Med 2006;354:669-683 (WHI: calcium plus vitamin D, fracture and renal stone outcomes)."
+   },
+   {
+    "supplement": "Dietary nitrate / beetroot",
+    "function_short": "Not a nutrient. Gut and mouth bacteria turn it into nitric oxide, which widens blood vessels.",
+    "function_full": "Inorganic nitrate from beetroot and leafy greens is absorbed in the proximal small intestine, and roughly a quarter of the circulating pool is actively concentrated by the salivary glands. Commensal bacteria on the posterior tongue reduce it to nitrite, and swallowed nitrite is further reduced to nitric oxide in the acidic stomach and in hypoxic tissue by deoxyhaemoglobin, deoxymyoglobin, xanthine oxidoreductase and other metalloproteins. This enterosalivary route is a supplementary supply line that runs in parallel with the body's own synthesis of nitric oxide from L-arginine by nitric oxide synthase, which is the primary and always-available pathway. That distinction is what makes nitrate a usable substrate rather than a required nutrient: NOS-derived nitric oxide continues normally on a nitrate-free diet. Measured effects are pharmacological and dose-dependent: vasodilation with a modest fall in blood pressure, and a reduced oxygen cost of submaximal exercise. Antibacterial mouthwash abolishes the effect entirely by killing the nitrate-reducing oral flora, which is the clearest demonstration that the mechanism is microbial rather than nutritional.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE. No one becomes deficient in dietary nitrate, because the body has no requirement for it and synthesises nitric oxide independently. A person eating no beetroot and no leafy greens has lower plasma nitrite and forgoes the blood pressure and exercise-economy effects, which is a missed pharmacological benefit rather than a deficiency state.",
+    "prevalence": "NOT APPLICABLE. Dietary nitrate is not an essential nutrient and has no deficiency state, so no prevalence figure exists and none should be quoted. For scale of the effect rather than of a deficiency, pooled trials report systolic blood pressure reductions of roughly 3 to 5 mmHg, largest in hypertensive participants.",
+    "source": "Lundberg JO, Weitzberg E, Gladwin MT. Nat Rev Drug Discov 2008;7:156-167, doi:10.1038/nrd2466 (nitrate-nitrite-nitric oxide pathway); Jackson JK et al., J Nutr 2018;148:1749-1762 (inorganic nitrate and beetroot juice, blood pressure meta-analysis); Govoni M et al., Nitric Oxide 2008;19:333-337 (antibacterial mouthwash abolishes the effect)."
+   }
+  ]
+ },
+ "check_report": {
+  "group": "minerals",
+  "errors": [
+   {
+    "supplement": "Iron",
+    "field": "function_full",
+    "verdict": "WRONG",
+    "correction": "The hepcidin sentence inverts the physiology. In iron deficiency hepcidin is suppressed, ferroportin survives on enterocytes and macrophages, and fractional absorption rises several-fold (roughly 10% to 20-30% of intake). The body does take up more when stores are low. The two true statements are that there is no regulated excretion route, and that absorption is capped in rate so a large deficit still takes months to refill, and that in inflammation hepcidin stays high so uptake fails despite empty stores. Rewrite as: hepcidin caps how fast stores can be refilled and blocks absorption during inflammation, which is why oral iron works slowly and why inflammatory anaemia does not respond to it.",
+    "source": "Camaschella C, N Engl J Med 2015;372:1832-1843 (the entry's own cited review); Ganz T, Nemeth E, hepcidin/ferroportin axis"
+   },
+   {
+    "supplement": "Iron",
+    "field": "source",
+    "verdict": "WRONG",
+    "correction": "PMID 10742372 is Lozoff B, Jimenez E, Hagen J, Mollen E, Wolf AW, 'Poorer behavioral and developmental outcome more than 10 years after treatment for iron deficiency in infancy', Pediatrics 2000;105(4):e51. It is not Arch Pediatr Adolesc Med 2000;154:1108-1113. The PMID and the journal locator in this entry point at different things. Replace the journal, volume and page fields with the Pediatrics citation.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/10742372/ and publications.aap.org/pediatrics/article-abstract/105/4/e51"
+   },
+   {
+    "supplement": "Iron",
+    "field": "prevalence",
+    "verdict": "IMPRECISE",
+    "correction": "33.7% is not a WHO Global Health Observatory figure. WHO's 2019 estimates give about 30% for non-pregnant and 36-37% for pregnant women aged 15-49, roughly 29.9% overall. The 33.7% comes from GBD 2021, where the age-standardised prevalence rate for women of reproductive age is 33,716.77 per 100,000. Attribute the number to GBD 2021 alone, or quote WHO's ~30% if WHO is the intended source.",
+    "source": "WHO anaemia fact sheet and GHO indicator (30% non-pregnant, 37% pregnant, 2019); GBD 2021 anemia analysis, PMC12338041 (33,716.77 per 100,000)"
+   },
+   {
+    "supplement": "Iron",
+    "field": "prevalence",
+    "verdict": "IMPRECISE",
+    "correction": "The 10% to 38% range for US premenopausal women mixes two different populations. The 38-39% figure at ferritin below 25 is from Weyand et al., JAMA 2023, in females aged 12 to 21 years. In a 62,685-woman US and Canadian sample (mean age 49.6) ferritin below 15 gave 7.43% and ferritin below 25 gave 15.33%; restricted to ages 25-54 the three definitions spanned 4.46% to 21.23%. State the age band each end of the range comes from, or narrow the claim to adolescents and young women.",
+    "source": "Weyand AC et al., JAMA 2023;329(24):2191-2193; 'Prevalence of Iron Deficiency Using 3 Definitions Among Women in the US and Canada', PMID 38848068"
+   },
+   {
+    "supplement": "Iodine",
+    "field": "reversibility_note",
+    "verdict": "WRONG",
+    "correction": "'The first-trimester component of the damage is already fixed by the time a pregnancy is confirmed' is contradicted by the trial the entry's own source set accompanies. Cao et al. found that iodine given in the first or second trimester left only 2% of infants with moderate or severe neurologic abnormality versus 9% when given in the third trimester or after birth, and concluded that treatment up to the end of the second trimester protects the fetal brain. The window closes around the end of the second trimester, not at pregnancy confirmation. This matters practically: it turns 'too late, do not bother' into 'start immediately'. The IRREVERSIBLE classification itself is correct and should stand.",
+    "source": "Cao XY et al., N Engl J Med 1994;331:1739-1744, PMID 7984194"
+   },
+   {
+    "supplement": "Iodine",
+    "field": "source",
+    "verdict": "WRONG",
+    "correction": "N Engl J Med 1994;331:1770-1771, doi:10.1056/NEJM199412293312610, is an editorial by B. S. Hetzel titled 'Iodine deficiency and fetal brain damage' (PMID 7984200), not a Delange paper. Either re-attribute to Hetzel BS or, better, cite the primary trial it comments on: Cao XY et al., N Engl J Med 1994;331:1739-1744, doi:10.1056/NEJM199412293312603.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/7984200/"
+   },
+   {
+    "supplement": "Zinc lozenges",
+    "field": "source",
+    "verdict": "WRONG",
+    "correction": "BMJ Open 2017;7:e013295 (doi 10.1136/bmjopen-2016-013295) is Mohn J et al., a pilot study of a group intervention for diabetes-related emotional distress in type 1 diabetes. It has nothing to do with zinc or colds. Hemila's zinc lozenge evidence is Hemila H et al., Br J Clin Pharmacol 2016;82:1393-1398 (individual patient data meta-analysis, zinc acetate lozenges) and Hemila H, JRSM Open 2017;8(5):2054270417694291 (zinc acetate vs gluconate and dose).",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/38852025/ and PMC5061795 (Br J Clin Pharmacol 2016 IPD meta-analysis)"
+   },
+   {
+    "supplement": "Zinc lozenges",
+    "field": "function_full",
+    "verdict": "OVERSTATED",
+    "correction": "'Above roughly 40 mg/day ... causes copper deficiency with anaemia and myelopathy' overstates the threshold. 40 mg/day is the tolerable upper intake level, derived from a marginal fall in erythrocyte superoxide dismutase at around 60 mg/day, which is a biochemical rather than a clinical endpoint. Frank copper-deficiency anaemia and myeloneuropathy are reported with sustained intakes in the region of 100-300 mg/day, typically from high-dose supplements or zinc-containing denture cream. Reword to: sustained intake above the 40 mg/day upper limit progressively impairs copper status, and prolonged intake several times higher than that can produce copper-deficiency anaemia and myeloneuropathy.",
+    "source": "NIH ODS Zinc Fact Sheet for Health Professionals (UL 40 mg/d, basis and copper interaction); published zinc-induced copper deficiency myeloneuropathy case series"
+   },
+   {
+    "supplement": "Selenium at 200 µg/d",
+    "field": "function_full",
+    "verdict": "IMPRECISE",
+    "correction": "'Plasma glutathione peroxidase and selenoprotein P saturate at roughly 55 to 75 micrograms per day' collapses two different plateaus and one unresolved literature. Plasma GPX3 plateaus near 55 micrograms per day, which is what the RDA is built on. Selenoprotein P plateau estimates diverge by baseline status: about 49 micrograms per day in selenium-deficient Chinese subjects, versus about 105 micrograms per day total intake in UK adults (a 50 microgram supplement on top of roughly 55 micrograms habitual). Quote roughly 50 to 105 micrograms per day depending on baseline status. The argument that 200 micrograms per day adds no enzyme activity in a replete person is unaffected.",
+    "source": "Hurst R et al., Am J Clin Nutr 2010, 'Establishing optimal selenium status', PMID 20181815; Xia Y et al., selenoprotein P optimisation in selenium-deficient Chinese subjects, PMC2921536"
+   },
+   {
+    "supplement": "Magnesium",
+    "field": "prevalence",
+    "verdict": "IMPRECISE",
+    "correction": "'Roughly 2% in the general population' is below what the cited source says. Ayuk and Gittoes, Ann Clin Biochem 2014, put the general-population prevalence of hypomagnesaemia at 2.5% to 15%. Quote 2.5% to 15%. The entry's rhetorical point, that low intake is not the same as clinical deficiency, survives the correction, though the gap it describes narrows.",
+    "source": "Ayuk J, Gittoes NJL, Ann Clin Biochem 2014;51:179-188, PMID 24402002 (2.5-15% general population)"
+   },
+   {
+    "supplement": "Magnesium",
+    "field": "at_risk",
+    "verdict": "OVERSTATED",
+    "correction": "'Chronic alcohol use (the single most common cause)' is a ranking claim that none of the cited sources supports. Alcohol use disorder is one of the common causes, but gastrointestinal and renal losses, loop and thiazide diuretics, and proton pump inhibitors account for a large share of clinically encountered hypomagnesaemia, and drug causes dominate in hospital populations. Drop 'the single most common' and list alcohol among the leading causes.",
+    "source": "Ayuk J, Gittoes NJL, Ann Clin Biochem 2014;51:179-188; Gragossian A et al., Hypomagnesemia, StatPearls NBK500003"
+   },
+   {
+    "supplement": "Calcium supplements on top of an adequate diet",
+    "field": "prevalence",
+    "verdict": "WRONG",
+    "correction": "The cited trial does not report 217 mg/day, and does not report a mean. Thacher et al. give a MEDIAN daily dietary calcium intake of 203 mg in the Nigerian children with rickets and 196 mg in controls (P=0.64). Change to 'median dietary calcium intake of about 203 mg/day'. The accompanying claim that calcium outperformed vitamin D is correct: 61% (calcium) and 58% (combination) versus 19% (vitamin D alone) reached the combined endpoint.",
+    "source": "Thacher TD et al., N Engl J Med 1999;341:563-568, PMID 10451461"
+   },
+   {
+    "supplement": "Dietary nitrate / beetroot",
+    "field": "source",
+    "verdict": "WRONG",
+    "correction": "'Jackson JK et al., J Nutr 2018;148:1749-1762' does not resolve. The Jackson JK meta-analysis is 'The role of inorganic nitrate and nitrite in cardiovascular disease risk factors: a systematic review and meta-analysis of human evidence', Nutr Rev 2018;76(5):348-371, doi 10.1093/nutrit/nuy005, PMID 29506204. If the intent was specifically the beetroot blood pressure pooled estimate behind the 3 to 5 mmHg figure, cite Siervo M et al., J Nutr 2013;143:818-826 (systolic reduction of 4.4 mmHg). The 3 to 5 mmHg number itself is well supported; only the locator is wrong.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/29506204/ (Nutr Rev 2018;76:348-371); Siervo M et al., J Nutr 2013;143:818-826, PMID 23596162"
+   }
+  ],
+  "misclassified": [],
+  "coverage": "CLEAN. All seven assigned names present exactly once: Iron, Iodine, Zinc lozenges, Selenium at 200 µg/d, Magnesium, Calcium supplements on top of an adequate diet, Dietary nitrate / beetroot. No duplicates, no unassigned extras.",
+  "net": "The classification layer holds up; the sourcing layer does not. Priority 1 is clean: every item here is an essential mineral except dietary nitrate, which is correctly NONE / NA, and its at_risk and prevalence fields explicitly refuse to manufacture a deficiency. Priority 2 is clean: iodine is IRREVERSIBLE as required, magnesium FULL is right, and the three PARTIAL calls (iron, zinc, selenium, calcium) each name a specific non-recovering component that the literature supports (Lozoff's persisting deficits at 10-14 years; incomplete catch-up in linear growth; established Keshan fibrosis and permanent Kashin-Beck cartilage destruction; unaccrued peak bone mass). Priority 3 is clean and unusually well handled: the zinc entry names acrodermatitis enteropathica as SLC39A4-mediated and genetic, and the magnesium entry does the same for Gitelman and familial hypomagnesaemia with hypercalciuria, in both cases inside the deficiency_name field where a reader would otherwise conflate them. The failures are concentrated in priorities 4 and 5. Four of seven entries carry a citation that points at the wrong paper or at a locator that does not exist: the iron PMID and journal name disagree, the iodine editorial is Hetzel not Delange, the zinc lozenge citation is a type 1 diabetes distress pilot study, and the nitrate citation gives a Journal of Nutrition volume and page that do not resolve to the Jackson meta-analysis. Verified as correct and left alone: the selenium NPC numbers (HR 1.55, 95% CI 1.03-2.33, mean 7.7 years, highest-tertile HR 2.70), the zinc 17.3% from Wessells and Brown, the magnesium 48% NHANES 2013-2016 figure, the IGN 21-countries-down-from-113 scorecard, and the Thacher finding that calcium beat vitamin D. Two substantive content errors matter more than the citation hygiene. The iron entry inverts hepcidin physiology, telling the reader the body cannot increase uptake when stores are low, when the opposite is true and the real constraints are rate and inflammation. The iodine reversibility note claims the first-trimester damage is already fixed once a pregnancy is confirmed, which the companion trial to its own cited editorial contradicts: iodine given up to the end of the second trimester still protected the fetal brain. That one is the most actionable error in the group, because it converts a reason to start supplementing immediately into a reason not to bother."
+ }
+}

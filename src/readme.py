@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 import os
-from site_base import ALL, FOOD, SYN, IX, ORDER, OUTDIR, TAKE, CONSIDER, SKIP, AVOID
+from collections import Counter
+from site_base import ALL, FOOD, SYN, FUNC, IX, ORDER, OUTDIR, TAKE, CONSIDER, SKIP, AVOID
 import build as B
+
+_DEFC = Counter(v['deficiency_state'] for v in FUNC.values())
+_REVC = Counter(v['reversibility'] for v in FUNC.values())
 
 R = '''# Supplement Register
 
@@ -16,10 +20,10 @@ Compiled by ZHANG Xiang. Not medical advice.
 
 ---
 
-## The five axes
+## The six axes
 
 The landing page is an interactive register: search it, filter it, sort any column, click a row to open it. Every item
-carries a five-cell spec strip encoding the same five answers, in the same order, everywhere it appears.
+carries a six-cell spec strip encoding the same five answers, in the same order, everywhere it appears.
 
 | Cell | Axis | Question it answers |
 |---|---|---|
@@ -28,6 +32,11 @@ carries a five-cell spec strip encoding the same five answers, in the same order
 | 3 | In food | Does the substance occur in ordinary food at all? |
 | 4 | Dose from food | Could eating reach the dose used in trials? |
 | 5 | Body makes it | Can you synthesise it yourself? |
+| 6 | If you lack it | Is there a deficiency state at all, and does the damage reverse? |
+
+Axis 6 is the one most likely to be misread, so it is worth stating plainly: **you cannot be deficient in something
+that is not an essential nutrient.** There is no curcumin deficiency, no resveratrol deficiency, no ashwagandha
+deficiency. %d of the %d items have no deficiency state at all, and only %d cause damage that does not fully reverse.
 
 Axes 3, 4 and 5 answer different questions and frequently disagree. Vitamin E is **rich** in food, its 400 IU trial
 dose is **out of reach** by eating, and the body **cannot** make it. All three are true at once, and only reading them
@@ -48,6 +57,9 @@ together tells you anything useful.
 | Drug interaction pairs | %d across %d drug classes |
 | Substances the body **cannot** make | %d |
 | Substances the body makes **fully** | %d |
+| Items with a named deficiency disease | %d |
+| Items with **no deficiency state at all** | %d |
+| Deficiencies causing **permanent** damage | %d |
 
 Of %d products, 44 have rich food sources but only %d let you reach the supplement dose by eating. The nine substances
 the body makes in full are coenzyme Q10, melatonin, collagen, glucosamine and chondroitin, NMN, nicotinamide riboside,
@@ -78,6 +90,12 @@ instructed to assume a source does not exist until it is found.
 3. **Synthesis.** Whether the body makes each substance, with pathway, enzymes and daily amount. The first attempt
    drifted because the category field was described rather than constrained, so it was re-run with a hard enumeration
    and audited to %d of %d.
+4. **Function and deficiency.** What each substance does in the body, and what happens when it is lacking, with
+   reversibility. Research and adversarial checking on Opus, translation on Sonnet. The checkers caught 46 errors and
+   17 misclassifications, including two cases where a genetic disorder had been filed as a dietary deficiency
+   (creatine transporter defects, primary CoQ10 deficiency), the hepcidin physiology written backwards, a zinc claim
+   citing a paper about diabetes-related emotional distress, and a fabricated newborn-screening prevalence figure.
+   150 corrections were applied.
 
 Rows the checkers could not trace to a source are tagged **unconfirmed** rather than dropped or presented as sourced.
 
@@ -103,6 +121,8 @@ immunosuppressants, chemotherapy, kidney disease, pregnancy.
 ''' % (len(ALL), len(ALL), B.COUNTS[TAKE], B.COUNTS[AVOID], B.N_ROWS,
        len(IX), len({r.get('drug_class') for r in IX}),
        B.SYN_C.get('NONE', 0), B.SYN_C.get('FULL', 0),
+       _DEFC.get('CLINICAL', 0), _DEFC.get('NONE', 0), _REVC.get('IRREVERSIBLE', 0),
+       _DEFC.get('NONE', 0), len(ALL), _REVC.get('IRREVERSIBLE', 0),
        len(ALL), B.N_YES, B.N_ROWS, len(SYN), len(ALL))
 
 if __name__ == '__main__':

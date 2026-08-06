@@ -1,0 +1,238 @@
+{
+ "group": "omega-protein",
+ "target_names": [
+  "Omega-3 (EPA and DHA)",
+  "ALA from flaxseed, chia or walnut oil",
+  "Algal oil (vegan DHA and EPA)",
+  "Krill oil",
+  "Protein powder",
+  "L-glutamine for gut repair",
+  "Collagen peptides",
+  "Psyllium husk (ispaghula)",
+  "Prebiotics: inulin, FOS, GOS",
+  "Wheat bran and insoluble fibre supplements for IBS"
+ ],
+ "dataset": {
+  "items": [
+   {
+    "supplement": "Omega-3 (EPA and DHA)",
+    "function_short": "Long-chain fats built into brain, retina and heart cell membranes; they also help resolve inflammation.",
+    "function_full": "EPA (20:5n-3) and DHA (22:6n-3) are the long-chain products of omega-3 metabolism. DHA is the dominant structural fatty acid of retinal photoreceptor outer segments and neuronal synaptic membranes, where it sets membrane fluidity and supports the function of embedded proteins such as rhodopsin. EPA is the substrate for series-3 prostaglandins and series-5 leukotrienes, and both are precursors of the resolvins and protectins that actively terminate inflammation. Because the body can make them from alpha-linolenic acid, they are classed as conditionally essential rather than strictly essential; the conversion is inefficient enough that tissue levels track intake of preformed EPA and DHA closely.",
+    "deficiency_state": "FUNCTIONAL",
+    "deficiency_name": "NONE. No named clinical deficiency disease exists for EPA and DHA specifically, because they can be synthesised from ALA.",
+    "deficiency_early": "Nothing a person would notice. The first measurable change is biochemical: a falling omega-3 index, meaning EPA plus DHA as a percentage of red cell fatty acids. Values at or below about 4% define the low band and 8% or above was the proposed target (Harris and von Schacky, PMID 15208005). Symptoms sometimes attributed to low omega-3 status, such as dry skin or low mood, are non-specific and have not been shown to track the index.",
+    "deficiency_severe": "There is no severe clinical syndrome attributable to low EPA and DHA alone in an adult who is otherwise fed. Frank neurological deficiency signs belong to total omega-3 deprivation, which is an ALA problem (see that entry). The clearest documented consequence of low long-chain omega-3 supply is developmental: preterm infants cut off from third-trimester placental DHA transfer accrete far less retinal and brain DHA, with fetal accretion roughly doubling in the last five weeks of gestation.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "In adults repletion is complete. Red cell EPA and DHA rise over roughly three to four months, approximately the erythrocyte lifespan, and normalise fully with sustained intake. The partial designation covers the perinatal window only: in rhesus monkeys deprived of n-3 before birth, brain phospholipids had normalised by three years but retinal DHA reached only 84% of controls, although visual acuity thresholds were normal.",
+    "at_risk": "People who eat no oily fish and take no supplement. Vegans and vegetarians, who have no direct dietary source of preformed EPA or DHA. Preterm infants. Carriers of FADS1/FADS2 minor alleles, who have lower desaturase activity and convert ALA less efficiently.",
+    "prevalence": "Not a disease rate. As a status distribution, omega-3 index values at or below 4% are typical across North America, Central and South America, Europe, the Middle East, Southeast Asia and Africa, while levels above 8% occur mainly around the Sea of Japan, in Scandinavia and in some indigenous coastal populations, based on 298 studies (Stark et al., PMID 27216485).",
+    "source": "PMID 15208005 (Harris WS, von Schacky C. Prev Med. 2004); PMID 27216485 (Stark KD et al. Prog Lipid Res. 2016)"
+   },
+   {
+    "supplement": "ALA from flaxseed, chia or walnut oil",
+    "function_short": "The one omega-3 fat the body cannot make; the raw material for EPA and DHA.",
+    "function_full": "Alpha-linolenic acid (18:3n-3) is a genuine essential nutrient. Humans lack the desaturase that places a double bond at the n-3 position of a fatty acid, so every omega-3 molecule in the body traces back to dietary ALA or to preformed EPA and DHA. ALA is incorporated into membrane phospholipids, is a substantial oxidative fuel (a large share of an ingested dose is simply burned), and is the substrate for the elongation and desaturation pathway producing EPA, DPA and DHA. Stable-isotope tracer work puts net conversion to EPA at about 8% in young men and 21% in young women, with DHA formation around 9% in women and undetectable in men (PMID 12323085, PMID 12323090). The US Adequate Intake is 1.6 g/day for men and 1.1 g/day for women.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Alpha-linolenic acid deficiency, the n-3 form of essential fatty acid deficiency (EFAD). It is a recognised clinical entity but carries no eponym comparable to scurvy or rickets.",
+    "deficiency_early": "Biochemically, a rising ratio of n-6 to n-3 fatty acids in plasma and red cell phospholipids with falling 22:6n-3, detectable before any symptom. Clinically, the first reported signs in humans were sensory: intermittent numbness and paraesthesia in the limbs, and blurring of vision.",
+    "deficiency_severe": "In the index case, a six-year-old girl maintained on parenteral nutrition rich in linoleate but nearly devoid of linolenate developed, after five months, episodes of numbness, paraesthesia, leg pain, weakness, inability to walk and blurred vision (Holman et al., PMID 6801965). Patients on long-term gastric-tube feeding with n-3-poor formulas developed scaly dermatitis and a haemorrhagic folliculitis (Bjerve et al.). Deficiency of this severity effectively arises only when the entire fat supply is medically controlled.",
+    "reversibility": "FULL",
+    "reversibility_note": "In every documented human case, neurological symptoms disappeared and skin lesions resolved once an n-3-containing lipid source was substituted, with plasma fatty acid profiles normalising alongside. No residual deficit was reported. The honest caveat is that all reported cases were identified within months; the consequences of much longer deprivation in humans are unknown.",
+    "at_risk": "Patients on long-term parenteral nutrition or tube feeding with lipid sources low in n-3, historically safflower-based emulsions. Essentially nobody eating ordinary food, since ALA is widespread in vegetable oils, nuts, seeds and green leaves. Extremely low-fat diets sustained for years are a theoretical risk with no case series behind it.",
+    "prevalence": "NOT ESTABLISHED. Clinical ALA deficiency exists only in case reports and small series of parenteral and tube-fed patients. No population prevalence figure exists because the condition does not occur in free-living people eating normal diets.",
+    "source": "PMID 6801965 (Holman RT, Johnson SB, Hatch TF. Am J Clin Nutr. 1982;35:617-23); PMID 12323085 and PMID 12323090 (Burdge GC et al. Br J Nutr. 2002); Institute of Medicine DRI for Macronutrients 2005, doi:10.17226/10490"
+   },
+   {
+    "supplement": "Algal oil (vegan DHA and EPA)",
+    "function_short": "Oil from marine microalgae that supplies ready-made DHA, and in some products EPA, without fish.",
+    "function_full": "Algal oil is extracted from cultured heterotrophic microalgae, chiefly Schizochytrium species and Crypthecodinium cohnii. These are the organisms at the base of the marine food chain that actually synthesise DHA; fish accumulate it by eating them. Crypthecodinium products supply DHA only, while Schizochytrium products supply DHA plus a smaller amount of EPA. Physiologically the oil does nothing that DHA and EPA do not do, so the mechanism sits in the Omega-3 (EPA and DHA) entry. Controlled feeding work found algal-oil capsules and cooked salmon to be nutritionally equivalent sources of DHA in terms of plasma incorporation (PMID 18589030), which is why algal DHA has been the standard source in infant formula for decades.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE. Algal oil is a manufactured delivery form, not a nutrient, and nobody becomes deficient in it. The status question that matters is DHA and EPA status, answered in the Omega-3 (EPA and DHA) entry.",
+    "deficiency_severe": "NOT APPLICABLE.",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE.",
+    "at_risk": "NOT APPLICABLE as a deficiency. As a practical supply point, algal oil is the only direct dietary source of preformed DHA for people who eat no fish, since ALA conversion yields little DHA in women and none detectable in men.",
+    "prevalence": "NOT APPLICABLE.",
+    "source": "PMID 18589030 (Arterburn LM et al. J Am Diet Assoc. 2008;108:1204-9)"
+   },
+   {
+    "supplement": "Krill oil",
+    "function_short": "Oil from Antarctic krill delivering EPA and DHA largely bound to phospholipids, plus some astaxanthin.",
+    "function_full": "Krill oil is extracted from Euphausia superba. Its distinguishing feature is chemical form: a large share of the EPA and DHA is esterified to phospholipid, mainly phosphatidylcholine, with some present as free fatty acid, whereas fish oil carries them as triglycerides or ethyl esters. This alters absorption kinetics. It also contains small amounts of astaxanthin, a carotenoid acting as an antioxidant within the oil. EPA plus DHA content per capsule is typically lower than in fish oil, so dose comparisons need to be made per milligram of omega-3. Acute crossover studies find equal or modestly higher plasma phospholipid incorporation from krill per unit EPA plus DHA (PMID 21854650), but a reanalysis of these studies concluded the acute differences have not translated reliably into different long-term omega-3 status (PMID 25156381).",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE. Krill oil is a manufactured product category, not an essential nutrient, and no deficiency state exists for it. The relevant physiology is EPA and DHA status, covered in the Omega-3 (EPA and DHA) entry.",
+    "deficiency_severe": "NOT APPLICABLE.",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE.",
+    "at_risk": "NOT APPLICABLE.",
+    "prevalence": "NOT APPLICABLE.",
+    "source": "PMID 21854650 (Schuchardt JP et al. Lipids Health Dis. 2011); PMID 25156381 (Salem N Jr, Kuratko CN. Lipids Health Dis. 2014)"
+   },
+   {
+    "supplement": "Protein powder",
+    "function_short": "Concentrated food protein supplying the amino acids used to build and repair muscle and every tissue.",
+    "function_full": "Protein powder is isolated food protein (whey, casein, soy, pea, rice, egg) dried and concentrated. It has no function of its own; the function is that of dietary protein, which supplies the nine indispensable amino acids plus nitrogen for synthesis of muscle, enzymes, albumin, immunoglobulins, haemoglobin, hormones and connective tissue. An adult turns over roughly 250 to 300 g of body protein daily, most of it recycled, with dietary intake covering obligatory oxidative losses. The US RDA is 0.8 g/kg/day. The PROT-AGE group recommends 1.0 to 1.2 g/kg/day for healthy older adults and 1.2 to 1.5 g/kg/day in acute or chronic illness, because the muscle protein synthetic response to a given protein dose is blunted with age (PMID 23867520).",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Kwashiorkor and marasmus, the two poles of severe acute malnutrition, with marasmic kwashiorkor in between. Protein-energy malnutrition is the umbrella term. Sarcopenia is the chronic age-related deficit state.",
+    "deficiency_early": "Unintentional weight loss, falling mid-upper arm circumference, loss of subcutaneous fat and muscle bulk, thinning brittle hair, delayed wound healing and more frequent infections. Serum albumin falls late and is heavily confounded by inflammation, so it is a poor early marker. In older adults, declining grip strength and slower gait speed usually appear before visible muscle loss.",
+    "deficiency_severe": "Marasmus is severe wasting: weight-for-height far below normal, visible loss of muscle and fat, an aged appearance in a young child. Kwashiorkor adds pitting oedema, an enlarged fatty liver, flaky-paint skin desquamation and hair depigmentation. Both carry high case fatality from hypoglycaemia, hypothermia, electrolyte disturbance and overwhelming infection; without structured refeeding the endpoint is death. In older adults, untreated sarcopenia ends in falls, fracture, loss of independence and raised mortality.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "Acute wasting reverses with careful staged refeeding, and weight-for-height recovers. What does not fully recover is linear growth and neurocognitive development when the episode falls within the first 1000 days: stunting established before age two is largely permanent, and the associated cognitive deficits persist into adulthood. Sarcopenia is partly reversible, since resistance training with adequate protein rebuilds strength and some mass, but muscle lost over decades is not fully regained.",
+    "at_risk": "Children in food-insecure settings, especially around weaning and following infection. Hospitalised, post-surgical and critically ill patients. Older adults with poor appetite, dental problems, dysphagia or social isolation. People with malabsorption, cirrhosis, or cachexia from cancer, advanced kidney or heart failure. Anorexia nervosa. Healthy adults in wealthy countries eating adequate calories almost never fall short of protein.",
+    "prevalence": "In 2024, 42.8 million children under five were wasted (6.6%) and 12.2 million severely wasted (1.9%); 150.2 million were stunted (UNICEF/WHO/World Bank Joint Malnutrition Estimates, 2025 edition). Sarcopenia prevalence in older adults ranges roughly 10% to 27% depending on diagnostic criteria, with the lower end corresponding to EWGSOP2.",
+    "source": "UNICEF/WHO/World Bank Joint Child Malnutrition Estimates 2025 (https://data.unicef.org/resources/jme/); PMID 23867520 (Bauer J et al. PROT-AGE. J Am Med Dir Assoc. 2013;14:542-59); doi:10.1007/s40520-021-01951-7 (sarcopenia prevalence under EWGSOP1 and EWGSOP2, Aging Clin Exp Res. 2021)"
+   },
+   {
+    "supplement": "L-glutamine for gut repair",
+    "function_short": "An amino acid the body makes itself; a preferred fuel for gut lining and immune cells.",
+    "function_full": "Glutamine is the most abundant free amino acid in plasma and skeletal muscle. Muscle synthesises and exports it continuously via glutamine synthetase, so supply is normally set by endogenous production rather than by diet. Enterocytes and rapidly dividing immune cells use it as a preferred respiratory fuel and as the nitrogen donor for purine, pyrimidine and glutathione synthesis, which is the biochemistry behind the gut-repair claim. It is classed as non-essential in health and conditionally essential in severe catabolic states, where muscle export cannot keep pace with consumption. Human trials of oral glutamine for intestinal permeability, IBS and inflammatory bowel disease have been small and inconsistent, and the strongest evidence is in specific clinical contexts rather than in healthy people.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE. There is no dietary requirement for glutamine and therefore no dietary deficiency to detect. Low plasma glutamine arises as a consequence of critical illness, major trauma or burns, not of what someone eats.",
+    "deficiency_severe": "NOT APPLICABLE. Plasma glutamine below roughly 420 micromol/L in ICU patients is associated with higher mortality, but it marks the severity of catabolism rather than a nutrient shortfall. Treating it as a deficiency to correct proved harmful: in the REDOXS trial of 1223 ventilated ICU patients with multi-organ failure, high-dose glutamine increased in-hospital and six-month mortality (PMID 23594003).",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE.",
+    "at_risk": "NOT APPLICABLE. Nobody becomes glutamine-deficient from diet. Low plasma concentrations occur in sepsis, major burns, major trauma and prolonged critical illness, and reflect the underlying illness.",
+    "prevalence": "NOT APPLICABLE.",
+    "source": "PMID 23594003 (Heyland D et al. N Engl J Med. 2013;368:1489-97)"
+   },
+   {
+    "supplement": "Collagen peptides",
+    "function_short": "Hydrolysed animal collagen eaten as protein; the body builds its own collagen from ordinary amino acids.",
+    "function_full": "Collagen is the most abundant protein in the body, roughly a third of total body protein, forming the tensile framework of skin, tendon, ligament, bone matrix, cartilage and vessel wall. The body synthesises it from ordinary amino acids as a repeating Gly-X-Y sequence rich in proline; the post-translational hydroxylation that stabilises the triple helix is carried out by prolyl and lysyl hydroxylases, which require vitamin C, iron and 2-oxoglutarate. Ingested collagen is digested like any other protein, though some di- and tripeptides such as prolyl-hydroxyproline do reach the bloodstream intact, which is the proposed mechanism for any effect beyond amino acid supply. As a protein source collagen is nutritionally incomplete: it contains no tryptophan and is low in several other indispensable amino acids.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE. Scurvy is sometimes described loosely as a collagen deficiency, which is a misreading: it is vitamin C deficiency, and the defective collagen is downstream of the missing enzyme cofactor.",
+    "deficiency_early": "NOT APPLICABLE. Collagen is not a dietary requirement and there is no dietary collagen deficiency. Real failures of collagen come from vitamin C deficiency (scurvy), from inherited defects in collagen genes (osteogenesis imperfecta, the Ehlers-Danlos syndromes), or from overall protein-energy malnutrition. None of these is corrected by eating collagen.",
+    "deficiency_severe": "NOT APPLICABLE.",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE.",
+    "at_risk": "NOT APPLICABLE. One theoretical argument deserves mention without overstatement: a stoichiometric analysis calculated that endogenous glycine synthesis plus typical dietary glycine falls roughly 10 g/day short of the amount required for maximal collagen turnover in a 70 kg adult (PMID 20093739). This remains a calculation. No glycine or collagen deficiency state has been demonstrated clinically.",
+    "prevalence": "NOT APPLICABLE.",
+    "source": "PMID 20093739 (Melendez-Hevia E et al. J Biosci. 2009;34:853-72); NCBI Bookshelf NBK507709 (Biochemistry, Collagen Synthesis, StatPearls)"
+   },
+   {
+    "supplement": "Psyllium husk (ispaghula)",
+    "function_short": "A gel-forming fibre that holds water in stool, making it softer, bulkier and easier to pass.",
+    "function_full": "Psyllium is the milled seed husk of Plantago ovata, largely a highly branched arabinoxylan that is gel-forming and, unusually among viscous fibres, poorly fermented by colonic bacteria. Because it survives intact to the rectum it retains its water there, producing bulky soft stool with far less gas than fermentable fibres. It normalises stool form in both directions, softening hard stool and firming loose stool. The same gel raises the viscosity of small intestinal contents, which slows glucose absorption and traps bile acids; the resulting loss of bile acids drives hepatic synthesis from cholesterol and lowers LDL. In IBS it is the fibre with actual trial support: ispaghula gave a relative risk of IBS not improving of 0.83 (95% CI 0.73 to 0.94), number needed to treat 7 (95% CI 4 to 25), and is the fibre recommended by the ACG guideline (PMID 33315591).",
+    "deficiency_state": "FUNCTIONAL",
+    "deficiency_name": "NONE",
+    "deficiency_early": "There is no psyllium deficiency; psyllium is one way to correct a shortfall in total dietary fibre. Low fibre intake shows up first as harder and less frequent stools, straining, longer whole-gut transit time and reduced stool weight.",
+    "deficiency_severe": "No deficiency disease follows from low fibre intake. What the evidence supports is a graded association: pooling 185 prospective studies and 58 trials, the highest fibre intake groups had 15% to 30% lower all-cause and cardiovascular mortality than the lowest, with lower incidence of coronary heart disease, stroke, type 2 diabetes and colorectal cancer. Benefit accrued across 25 to 29 g/day with more above 30 g/day (Reynolds et al., PMID 30638909). Untreated chronic constipation can itself progress to faecal impaction and, rarely, stercoral ulceration or perforation.",
+    "reversibility": "FULL",
+    "reversibility_note": "Stool form, frequency, transit time and the LDL and post-prandial glucose effects all correct within days to a few weeks of adequate intake, and revert when intake stops. The mortality and cancer associations relate to long-term dietary pattern rather than to short-term supplementation, and no trial has shown a fibre supplement reverses established colorectal neoplasia.",
+    "at_risk": "For low total fibre intake: most people eating a Western diet, particularly those eating mainly refined grains with few vegetables, pulses or fruit, and anyone on a prolonged low-residue or restrictive diet. Mean US adult intake is about 16 g/day against an Adequate Intake of 25 g/day for younger women and 38 g/day for younger men.",
+    "prevalence": "Roughly 5% of the US population meets the fibre Adequate Intake, and 7.4% of US adults meet 14 g per 1000 kcal, on NHANES data; mean intake is about 16 g/day. No figure exists for psyllium specifically because it is a supplement rather than a nutrient.",
+    "source": "PMID 30638909 (Reynolds A et al. Lancet. 2019;393:434-45); PMID 33315591 (Lacy BE et al. ACG Clinical Guideline: Management of IBS. Am J Gastroenterol. 2021;116:17-44); NHANES fiber intake data brief, NCBI Bookshelf NBK589559"
+   },
+   {
+    "supplement": "Prebiotics: inulin, FOS, GOS",
+    "function_short": "Fibres your gut bacteria feed on, boosting bifidobacteria and producing short-chain fatty acids in the colon.",
+    "function_full": "Inulin and fructo-oligosaccharides are fructose polymers from chicory root, Jerusalem artichoke, onion, garlic and wheat, differing mainly in chain length: FOS has a degree of polymerisation below about 9, inulin extends to 60. GOS are galactose oligomers produced enzymatically from lactose and are structural analogues of human milk oligosaccharides. All three resist human digestive enzymes, reach the colon intact and are selectively fermented, reproducibly raising Bifidobacterium abundance, which is the basis of the ISAPP definition of a prebiotic as a substrate selectively used by host microorganisms to confer a health benefit (PMID 28611480). Fermentation yields acetate, propionate and butyrate; butyrate is the primary respiratory fuel of the colonocyte, and the short-chain fatty acid pool lowers luminal pH and supports barrier function. That same fermentability produces the gas and bloating these compounds are known for, and is why they are classed as high-FODMAP.",
+    "deficiency_state": "FUNCTIONAL",
+    "deficiency_name": "NONE",
+    "deficiency_early": "No prebiotic-specific deficiency exists. Low intake of fermentable substrate lowers colonic short-chain fatty acid production, particularly butyrate, and reduces Bifidobacterium abundance. Both are measurable in stool and neither produces a symptom a person would notice.",
+    "deficiency_severe": "There is no severe deficiency syndrome in humans. The strongest mechanistic finding comes from mice: under chronic or intermittent fibre deprivation the microbiota switches to degrading host-secreted mucus glycoproteins, thinning the colonic mucus barrier and increasing susceptibility to an enteric pathogen (Desai et al., PMID 27863247). This has not been shown to produce disease in people, and the human outcomes attributed to low fibre intake are best assessed at the level of total fibre rather than prebiotics specifically.",
+    "reversibility": "FULL",
+    "reversibility_note": "Bifidobacterium abundance and short-chain fatty acid output respond within days to about a week of intake and return toward baseline over a similar period after stopping. The effect is intake-dependent throughout, and no durable change in microbiota composition persists once supplementation ends.",
+    "at_risk": "Anyone eating little onion, garlic, leek, chicory, wheat, banana or legume. People following a low-FODMAP diet for IBS restrict precisely these substrates and show measurable falls in Bifidobacterium, which is why the restriction phase is intended to be time-limited and followed by structured reintroduction. Infants on formulas without added GOS or FOS receive none.",
+    "prevalence": "NOT ESTABLISHED. No requirement has been set for prebiotics, so no adequacy figure exists. Habitual inulin-type fructan intake in Europe and the US is estimated at roughly 1 to 10 g/day.",
+    "source": "PMID 28611480 (Gibson GR et al. ISAPP consensus statement on prebiotics. Nat Rev Gastroenterol Hepatol. 2017;14:491-502); PMID 27863247 (Desai MS et al. Cell. 2016;167:1339-53)"
+   },
+   {
+    "supplement": "Wheat bran and insoluble fibre supplements for IBS",
+    "function_short": "Coarse insoluble fibre that adds stool bulk mechanically; in IBS it often makes symptoms worse.",
+    "function_full": "Wheat bran is the outer layer of the wheat kernel, composed mainly of insoluble arabinoxylan, cellulose and lignin. It acts through particle bulk and mechanical stimulation of the mucosa rather than by forming a gel: coarse particles increase stool mass and provoke secretion and peristalsis, whereas finely ground bran loses this effect and can slow transit. It holds far less water than psyllium and is partly fermented, generating gas. In IBS these properties work against the patient, since mechanical stimulation acts on a hypersensitive gut and bran also carries fructans, making it high-FODMAP. Meta-analysis found no significant benefit of bran for global IBS symptoms (relative risk of not improving 0.90, 95% CI 0.79 to 1.03), in contrast to ispaghula (NNT 7), and the ACG guideline recommends soluble fibre for IBS (PMID 33315591).",
+    "deficiency_state": "FUNCTIONAL",
+    "deficiency_name": "NONE",
+    "deficiency_early": "There is no wheat bran deficiency. The functional label applies to total dietary fibre, where low intake produces harder and less frequent stools, straining, reduced stool weight and slower whole-gut transit. Withdrawing bran from someone for whom it was the only fibre source reproduces these effects.",
+    "deficiency_severe": "Nothing severe follows from not taking a bran supplement. The general low-fibre associations apply: 15% to 30% lower all-cause and cardiovascular mortality in the highest versus lowest total fibre intake groups, with lower coronary heart disease, stroke, type 2 diabetes and colorectal cancer incidence (PMID 30638909). In IBS specifically the more common clinical problem runs the other way. Among 100 consecutive IBS referrals who had tried bran, 55% reported it made them worse and only 10% found it helpful, with bowel disturbance, distension and pain all exacerbated (Francis and Whorwell, PMID 7912305).",
+    "reversibility": "FULL",
+    "reversibility_note": "Stool bulk, frequency and transit time respond within days of changing insoluble fibre intake and revert on withdrawal. Bran-induced symptom flares in IBS settle once bran is stopped, and no lasting mucosal or functional damage has been described.",
+    "at_risk": "For low total fibre intake: people eating predominantly refined grains with few plant foods, with mean US adult intake around 16 g/day against an Adequate Intake of 25 to 38 g/day. For harm rather than shortfall: people with IBS, who are the population most likely to be given bran and most likely to be worsened by it.",
+    "prevalence": "About 5% of the US population meets the fibre Adequate Intake, mean intake around 16 g/day (NHANES). For bran intolerance in IBS, 55% of 100 consecutive IBS referrals reported symptom worsening on bran (PMID 7912305).",
+    "source": "PMID 7912305 (Francis CY, Whorwell PJ. Lancet. 1994;344:39-40); PMID 30638909 (Reynolds A et al. Lancet. 2019;393:434-45); PMID 33315591 (Lacy BE et al. Am J Gastroenterol. 2021;116:17-44)"
+   }
+  ]
+ },
+ "check_report": {
+  "group": "omega-protein",
+  "errors": [
+   {
+    "supplement": "Protein powder",
+    "field": "prevalence",
+    "verdict": "WRONG",
+    "correction": "The cited paper does not contain a 10-27% range and does not put EWGSOP2 at the lower end of one. Fernandes LV et al. (Aging Clin Exp Res. 2022;34:505-514, doi:10.1007/s40520-021-01951-7, online 2021, so the year given is also off) reports overall prevalence of 17.7% by EWGSOP1 and 11% by EWGSOP2, with study-level ranges of 6.2-35.3% (EWGSOP1) and 3.2-26.3% (EWGSOP2). The EWGSOP2 range starts at 3.2%, well below 10%, so 'lower end corresponding to EWGSOP2' is not supportable from this source. The 10-27% figure the entry is actually reproducing comes from a different paper, Petermann-Rocha F et al., Global prevalence of sarcopenia and severe sarcopenia, J Cachexia Sarcopenia Muscle. 2022;13:86-99. Either cite Petermann-Rocha for 10-27%, or restate as '17.7% under EWGSOP1 and 11% under EWGSOP2' and keep the current citation.",
+    "source": "Fernandes LV et al., Aging Clin Exp Res. 2022;34:505-514 (doi:10.1007/s40520-021-01951-7), abstract retrieved via publisher listing; Petermann-Rocha F et al., J Cachexia Sarcopenia Muscle. 2022;13:86-99"
+   },
+   {
+    "supplement": "Protein powder",
+    "field": "deficiency_name",
+    "verdict": "OVERSTATED",
+    "correction": "Naming kwashiorkor as a deficiency state of dietary protein reproduces an aetiology the field abandoned. Waterlow and Payne's reanalysis, and subsequent work, found that children with kwashiorkor often have protein intakes comparable to marasmic children, that some affected children are still breastfed, and that high-protein repletion does not preferentially resolve it; the current view is that kwashiorkor is a multifactorial complication of severe malnutrition involving infection, oxidative stress and other factors that remain unexplained. Marasmus, wasting and protein-energy malnutrition are defensible as the protein deficiency state; kwashiorkor should be described as a form of severe acute malnutrition of uncertain aetiology, not as what happens when you eat too little protein.",
+    "source": "Waterlow JC and Payne PR, the protein gap reappraisal; StatPearls Kwashiorkor (NBK507876); The Conversation summary of the protein-gap error, all consistent that kwashiorkor is not attributable to relative protein deficiency"
+   },
+   {
+    "supplement": "Protein powder",
+    "field": "deficiency_name",
+    "verdict": "OVERSTATED",
+    "correction": "Listing sarcopenia as 'the chronic age-related deficit state' for protein presents a multifactorial geriatric syndrome as a nutrient deficiency. EWGSOP2 defines sarcopenia as a muscle disease driven by ageing, inactivity, inflammation, anabolic resistance and comorbidity; low protein intake is one modifiable risk factor among several, and sarcopenia occurs in older adults meeting the RDA. Reword to 'low protein intake is one contributor to sarcopenia' rather than naming sarcopenia as the deficiency state. The PROT-AGE citation and its 1.0-1.2 and 1.2-1.5 g/kg/day figures are correct and can stay.",
+    "source": "PMID 23867520 (Bauer J et al., PROT-AGE, J Am Med Dir Assoc. 2013;14:542-59), which frames higher protein as one component of sarcopenia prevention alongside exercise; EWGSOP2 operational definition"
+   },
+   {
+    "supplement": "Omega-3 (EPA and DHA)",
+    "field": "reversibility_note",
+    "verdict": "IMPRECISE",
+    "correction": "The note reports the two findings from the rhesus study that look reassuring and omits the one that does not. Anderson GJ, Neuringer M, Lin DS, Connor WE (Pediatr Res. 2005;58:865-72) found retinal DHA incomplete at 84% of controls and brain phospholipids normal at 3 years, and behavioural visual acuity thresholds normal at 4, 8 and 12 weeks, all as stated. But the same animals also showed persistently lower cone and rod ERG a-wave amplitudes, which is why the paper answers its own title question in the negative. Add the ERG finding: the residual after prenatal deprivation is functional as well as biochemical. The PARTIAL rating itself is correct and should stand.",
+    "source": "Anderson GJ et al., Can prenatal n-3 fatty acid deficiency be completely reversed after birth? Pediatr Res. 2005;58:865-72, doi:10.1203/01.pdr.0000182188.31596.5a"
+   },
+   {
+    "supplement": "Psyllium husk (ispaghula)",
+    "field": "prevalence",
+    "verdict": "IMPRECISE",
+    "correction": "Both percentages are real but neither comes from the cited source. NCBI Bookshelf NBK589559 (FSRG Dietary Data Brief, WWEIA NHANES 2009-2010) supports the 16 g/day mean and nothing else; it explicitly does not report a percentage meeting the Adequate Intake. The 'roughly 5%' figure traces to Quagliani D and Felt-Gunderson P, Am J Lifestyle Med. 2017;11:80-85. The 7.4% figure traces to Miketinas DC et al., NHANES 2013-2018 usual fibre intake analysis. Cite those two directly. The same 5% and 16 g/day pairing is repeated in the Wheat bran entry's prevalence field with the same citation gap.",
+    "source": "NCBI Bookshelf NBK589559 (mean 16 g/day, no AI-attainment figure); Quagliani and Felt-Gunderson, Am J Lifestyle Med. 2017 (5%); Miketinas et al., NHANES 2013-2018 (7.4% meeting 14 g/1000 kcal)"
+   },
+   {
+    "supplement": "Psyllium husk (ispaghula)",
+    "field": "deficiency_severe",
+    "verdict": "OVERSTATED",
+    "correction": "'Benefit accrued across 25 to 29 g/day with more above 30 g/day' states as established what Reynolds et al. offered as suggestive. The Lancet paper found the greatest risk reduction at intakes between 25 g and 29 g/day and said dose-response curves 'suggested that higher intakes of dietary fibre could confer even greater benefit'. Change to 'with dose-response curves suggesting, but not demonstrating, further benefit above 30 g/day'. Everything else in this field checks out: 185 prospective studies and 58 trials, and the 15-30% reduction across all-cause and cardiovascular mortality and CHD, stroke, type 2 diabetes and colorectal cancer incidence.",
+    "source": "PMID 30638909 (Reynolds A et al., Lancet. 2019;393:434-45)"
+   },
+   {
+    "supplement": "L-glutamine for gut repair",
+    "field": "deficiency_severe",
+    "verdict": "IMPRECISE",
+    "correction": "The 420 micromol/L threshold is correct but uncited. The entry's only source is PMID 23594003 (REDOXS), which does not report that cut-off. It comes from Oudemans-van Straaten HM et al., Plasma glutamine depletion and patient outcome in acute ICU admissions, Intensive Care Med. 2001;27:84-90, PMID 11280678, which compared patients above and below 0.420 mmol/L in 80 non-elective ICU admissions. Add that citation. The REDOXS description is accurate as written: 1223 ventilated patients with multi-organ failure, higher in-hospital and 6-month mortality on glutamine.",
+    "source": "PMID 11280678 (Oudemans-van Straaten HM et al., Intensive Care Med. 2001;27:84-90); PMID 23594003 (Heyland D et al., N Engl J Med. 2013;368:1489-97)"
+   }
+  ],
+  "misclassified": [
+   {
+    "supplement": "Prebiotics: inulin, FOS, GOS",
+    "field": "deficiency_state",
+    "given": "FUNCTIONAL",
+    "should_be": "NONE",
+    "why": "The entry contradicts its own label three times: deficiency_name is NONE, deficiency_early opens with 'No prebiotic-specific deficiency exists', and prevalence states 'No requirement has been set for prebiotics, so no adequacy figure exists'. A substance with no established requirement, no human deficiency state, and whose only severe-consequence evidence is a mouse mucus-barrier experiment (PMID 27863247, which the entry itself flags as unshown in people) cannot carry a FUNCTIONAL classification. This is the clearest overreach of the three fibre entries. The measurable falls in Bifidobacterium and faecal butyrate are pharmacodynamic responses to an intake, not a deficiency state."
+   },
+   {
+    "supplement": "Wheat bran and insoluble fibre supplements for IBS",
+    "field": "deficiency_state",
+    "given": "FUNCTIONAL",
+    "should_be": "NONE",
+    "why": "The entry states outright that 'There is no wheat bran deficiency' and that 'The functional label applies to total dietary fibre', which concedes the label belongs to a different entity. Bran is a food fraction sold as a supplement, not a nutrient, and this is the one item in the group whose own cited trial evidence points to net harm in the named population (PMID 7912305: 55% of 100 consecutive IBS referrals worsened, 10% helped; PMID 33315591: bran RR 0.90, 95% CI 0.79-1.03, no benefit). Classifying it FUNCTIONAL implies a shortfall worth correcting with the product, which inverts the evidence."
+   },
+   {
+    "supplement": "Psyllium husk (ispaghula)",
+    "field": "deficiency_state",
+    "given": "FUNCTIONAL",
+    "should_be": "NONE",
+    "why": "Weakest of the three calls, but still inconsistent with how this dataset handles delivery forms. Algal oil and krill oil were correctly given NA/NONE on the reasoning that they are manufactured supply routes for a nutrient covered elsewhere. Psyllium is the same case for dietary fibre: the entry says 'There is no psyllium deficiency; psyllium is one way to correct a shortfall in total dietary fibre', and deficiency_name is NONE. The functional shortfall is real but belongs to total dietary fibre, which has no entry in this group. Either add a dietary fibre entry to carry the FUNCTIONAL label, or set all three fibre products to NONE and point them at it. Do not leave a FUNCTIONAL state paired with a NONE deficiency name."
+   }
+  ],
+  "coverage": "CLEAN. All 10 assigned names present exactly once, no extras, no duplicates.",
+  "net": "Strong dataset by the standard of this exercise. No invented deficiencies: all 16 PMIDs resolve to exactly the papers cited, and the entries that could have fabricated a deficiency state did not. L-glutamine and collagen peptides are correctly NONE, and the collagen entry pre-empts the classic error by naming scurvy as vitamin C deficiency and osteogenesis imperfecta and Ehlers-Danlos as genetic collagen defects that eating collagen does not touch. Priority 3 is clean throughout: no dietary deficiency is confused with a genetic disorder anywhere in the group, and the FADS1/FADS2 mention in the omega-3 entry is correctly framed as a conversion modifier, not a disorder. Reversibility, the field a reader acts on, survives checking in every case. ALA FULL is right (Holman's 6-year-old on Liposyn I resolved after linolenate was restored; Bjerve's tube-fed patients' dermatitis cleared within days of ethyl linolenate, and the growth-retarded case caught up). Protein PARTIAL is right, and correctly locates the irreversible part in first-1000-days stunting and cognition rather than in acute wasting. Omega-3 PARTIAL is right, though its note quietly drops the persistent ERG deficit from the very study it cites. The verified quantitative claims are unusually accurate: Burdge 8%/21%/9%/undetectable, ispaghula RR 0.83 with NNT 7 (95% CI 4-25) and bran RR 0.90 (0.79-1.03) from the ACG guideline, Francis and Whorwell 55% worse and 10% better in 100 referrals, JME 2025 at 42.8 million wasted (6.6%), 12.2 million severely wasted (1.9%) and 150.2 million stunted, Reynolds 185 studies and 58 trials, Stark 298 studies, and even the awkward 'DHA accretion roughly doubles in the last five weeks' claim, which is real. Real problems, in order: the sarcopenia prevalence range is attributed to a paper that reports different numbers (17.7% and 11%, ranges 6.2-35.3% and 3.2-26.3%) and does not support 'lower end corresponding to EWGSOP2'; kwashiorkor and sarcopenia are both named as protein deficiency states when neither is attributable to protein intake; three fibre products carry a FUNCTIONAL classification alongside a NONE deficiency name, inconsistent with how algal oil and krill oil were handled; and three correct numbers (5%, 7.4%, 420 micromol/L) sit under citations that do not carry them. Fix the sarcopenia prevalence line and the kwashiorkor naming first; those are the two a reader could repeat and be wrong about."
+ }
+}

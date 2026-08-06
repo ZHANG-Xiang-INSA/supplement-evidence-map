@@ -1,0 +1,350 @@
+{
+ "group": "performance-longevity",
+ "target_names": [
+  "Creatine monohydrate",
+  "Beta-alanine",
+  "Caffeine",
+  "HMB",
+  "Quercetin and taurine",
+  "NMN (nicotinamide mononucleotide)",
+  "Nicotinamide riboside (NR)",
+  "Resveratrol",
+  "Spermidine",
+  "Coenzyme Q10 / ubiquinol",
+  "Alpha-lipoic acid",
+  "MSM (methylsulfonylmethane)",
+  "Astaxanthin",
+  "Curcumin / turmeric extract",
+  "Green tea extract (EGCG)",
+  "Glucosamine and chondroitin",
+  "Antioxidants during chemotherapy"
+ ],
+ "dataset": {
+  "items": [
+   {
+    "supplement": "Creatine monohydrate",
+    "function_short": "Recycles ATP inside muscle and brain cells, buffering energy during short bursts of intense effort.",
+    "function_full": "Creatine is phosphorylated by creatine kinase to phosphocreatine, a rapid-turnover phosphate reservoir that regenerates ATP from ADP during high-intensity contraction and in neurons. Roughly half of the daily turnover (about 1 to 3 g) is synthesized endogenously from arginine, glycine and methionine by AGAT and GAMT in liver, kidney and pancreas; the remainder comes from meat and fish. There is no dietary requirement. Vegetarians carry intramuscular creatine about 20 to 30 percent below omnivores and remain healthy, they simply respond more strongly to supplementation.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Cerebral creatine deficiency syndromes: GAMT deficiency, AGAT deficiency and X-linked creatine transporter (SLC6A8) deficiency. These are inborn errors of metabolism. They are not caused by eating too little creatine, and no dietary pattern produces them.",
+    "deficiency_early": "In the genetic disorders, onset is in infancy or early childhood: global developmental delay, expressive speech delay out of proportion to other skills, hypotonia, and in GAMT deficiency early epilepsy and a movement disorder. Brain magnetic resonance spectroscopy showing an absent or near-absent creatine peak is the diagnostic finding. In healthy people on low-meat diets the only detectable change is lower muscle and blood creatine, with no symptoms.",
+    "deficiency_severe": "Untreated GAMT deficiency causes intractable seizures, autistic features, extrapyramidal movement disorder and severe intellectual disability, with accumulated guanidinoacetate contributing to the neurotoxicity. Creatine transporter deficiency causes lifelong moderate to severe intellectual disability and seizures in affected males.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "AGAT and GAMT deficiency respond to oral creatine (with arginine restriction and ornithine in GAMT). Children treated from birth after newborn screening can develop normally, which makes early detection the whole game; those treated after symptoms appear regain some function but retain a permanent deficit. Creatine transporter deficiency does not respond to oral creatine at all, because the transporter that would carry it into the brain is the broken protein.",
+    "at_risk": "People with biallelic GATM or GAMT variants, or hemizygous SLC6A8 variants (males, X-linked). Nobody becomes creatine deficient from diet.",
+    "prevalence": "GAMT deficiency approximately 1 in 250,000 newborns on Dutch newborn-screening pilot data, with published estimates ranging widely (roughly 1:115,000 to 1:2,600,000). Creatine transporter deficiency is found in about 0.4 to 2.6 percent of males with intellectual disability of unknown cause. Dietary creatine deficiency: no prevalence, because the state does not exist.",
+    "source": "GeneReviews, Creatine Deficiency Disorders, NCBI Bookshelf NBK3794; PMID 29569535 (Blancquaert et al., Br J Nutr 2018, vegetarian diet and body creatine pool)"
+   },
+   {
+    "supplement": "Beta-alanine",
+    "function_short": "The raw material for carnosine, which buffers acid build-up in muscle during hard efforts.",
+    "function_full": "Beta-alanine is the rate-limiting substrate for carnosine synthase, which joins it to histidine to form carnosine in skeletal muscle. Carnosine acts as an intracellular pH buffer across the physiological range and also chelates metals and scavenges reactive carbonyls. Several weeks of supplementation raise muscle carnosine by roughly 40 to 80 percent and produce a small performance gain in efforts lasting about 30 seconds to 10 minutes. The body forms beta-alanine from uracil degradation in the liver and also obtains it from meat-derived carnosine and anserine. It is a non-essential amino acid with no recommended intake.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 26175657 (International Society of Sports Nutrition position stand: beta-alanine, J Int Soc Sports Nutr 2015)"
+   },
+   {
+    "supplement": "Caffeine",
+    "function_short": "Blocks the brain's sleepiness signal, so you feel more alert and effort feels easier.",
+    "function_full": "Caffeine is an adenosine receptor antagonist, principally at A1 and A2A receptors. Blocking A1 lifts the inhibitory brake that accumulating adenosine places on arousal circuits, and blocking striatal A2A disinhibits dopaminergic signalling, which produces the alertness and the reduced perception of effort. It is a plant alkaloid and a xenobiotic. No human enzyme, receptor or pathway requires it, and there is no intake below which anything fails. Caffeine withdrawal is not a deficiency state: habitual intake upregulates adenosine receptors, so abrupt cessation unmasks adenosine signalling and produces headache, fatigue and low mood for roughly 2 to 9 days, with headache in about half of regular users. That is physical dependence on a drug, and it resolves completely without resuming the drug.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 15448977 (Juliano & Griffiths, critical review of caffeine withdrawal, Psychopharmacology 2004); EFSA Scientific Opinion on the safety of caffeine, EFSA Journal 2015;13(5):4102"
+   },
+   {
+    "supplement": "HMB",
+    "function_short": "A leucine metabolite that slows muscle protein loss during illness, bed rest or ageing.",
+    "function_full": "Beta-hydroxy-beta-methylbutyrate is a downstream metabolite of the amino acid leucine. About 5 percent of leucine catabolism proceeds through ketoisocaproate to HMB, so an ordinary diet supplies only a few hundred milligrams a day and the body generates the rest internally. Its main described action is suppression of muscle proteolysis through the ubiquitin-proteasome pathway, with a weaker effect on mTOR-mediated protein synthesis than leucine itself. Clinical interest sits in muscle-wasting settings such as bed rest, older adults and cancer cachexia. It is a metabolite of an essential amino acid, not an essential nutrient in its own right.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 23374455 (International Society of Sports Nutrition position stand: beta-hydroxy-beta-methylbutyrate, J Int Soc Sports Nutr 2013)"
+   },
+   {
+    "supplement": "Quercetin and taurine",
+    "function_short": "Quercetin is a plant pigment with no bodily role; taurine supports bile, heart and retina.",
+    "function_full": "These are two unrelated molecules sold together for convenience. Quercetin is a plant flavonol from onions, capers, apples and tea; it is heavily glucuronidated and sulfated on first pass, so free aglycone concentrations in plasma stay in the nanomolar range and most antioxidant actions demonstrated in cell culture cannot occur at achievable oral doses. Taurine is a sulfur-containing beta-amino acid, the most abundant free amino acid in heart, retina and leukocytes. It conjugates bile acids, stabilises membranes, modulates calcium handling and cell volume, and is required for the mitochondrial tRNA modification that supports respiratory chain protein synthesis. Adults synthesize taurine from cysteine via cysteine sulfinic acid decarboxylase and obtain roughly 40 to 400 mg a day from meat and seafood.",
+    "deficiency_state": "FUNCTIONAL",
+    "deficiency_name": "NONE. There is no named deficiency disease for either compound, and quercetin has no deficiency state of any kind. Taurine is classified as conditionally essential, and documented human depletion is confined to patients fed on taurine-free parenteral nutrition.",
+    "deficiency_early": "Applies to taurine only, and only in people fed exclusively by taurine-free intravenous nutrition. The earliest change is a fall in plasma taurine (about 26 versus 57 micromol/L in affected children) followed by delayed rod and cone implicit times on electroretinography, detectable before the patient notices any visual problem.",
+    "deficiency_severe": "In children on prolonged taurine-free parenteral nutrition, all eight studied had abnormal electroretinograms indicating retinal dysfunction. Taurine depletion also contributes to parenteral-nutrition-associated cholestasis in infants. Nothing comparable has been described in anyone eating ordinary food, and no severe state exists for quercetin.",
+    "reversibility": "FULL",
+    "reversibility_note": "Adding taurine to the intravenous solution restored plasma taurine in four children studied and normalised the electroretinogram in three of those four, so the retinal dysfunction is largely correctable. The evidence base is a small case series, and paediatric parenteral amino acid solutions now routinely contain taurine, which prevents the problem in the first place.",
+    "at_risk": "Patients on long-term parenteral nutrition without added taurine, particularly preterm infants and children with intestinal failure. Nobody becomes quercetin deficient, and nobody eating food becomes taurine deficient.",
+    "prevalence": "NOT ESTABLISHED as a population figure. Taurine depletion is restricted to the parenteral nutrition population and is largely eliminated by current formulations. For quercetin there is no figure because there is no deficiency.",
+    "source": "PMID 3917547 (Geggel et al., nutritional requirement for taurine in long-term parenteral nutrition, N Engl J Med 1985); PMID 2122712 (visual function in patients on long-term total parenteral nutrition)"
+   },
+   {
+    "supplement": "NMN (nicotinamide mononucleotide)",
+    "function_short": "A building block cells use to make NAD+, the coenzyme that keeps energy metabolism running.",
+    "function_full": "Nicotinamide mononucleotide is an intermediate in the NAD+ salvage pathway, formed when nicotinamide phosphoribosyltransferase attaches nicotinamide to phosphoribosyl pyrophosphate, then converted to NAD+ by NMN adenylyltransferases. NAD+ is the electron carrier for hundreds of dehydrogenases and the consumed substrate for sirtuins, PARPs and CD38. Oral NMN is largely dephosphorylated to nicotinamide riboside in the gut before absorption in humans, so it raises NAD+ by the same route as other precursors. NMN itself is not an essential nutrient and has no recommended intake. The essential nutrient in this pathway is niacin (vitamin B3), whose deficiency causes pellagra, a real and severe disease that has nothing to do with NMN intake.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 29514064 (Rajman, Chwalek & Sinclair, Cell Metab 2018); NIH Office of Dietary Supplements, Niacin Fact Sheet for Health Professionals (pellagra)"
+   },
+   {
+    "supplement": "Nicotinamide riboside (NR)",
+    "function_short": "A form of vitamin B3 that cells convert into NAD+, the energy metabolism coenzyme.",
+    "function_full": "Nicotinamide riboside is the riboside of nicotinamide, phosphorylated by nicotinamide riboside kinases to NMN and then to NAD+, bypassing the NAMPT step. It occurs naturally in trace amounts in milk. Single oral doses raise whole-blood NAD+ dose-dependently in humans, which is the basis for marketing it as an NAD+ booster; whether raising NAD+ produces clinical benefit in healthy people remains unsettled. NR is a minor chemical form of vitamin B3 rather than a separate essential nutrient. Vitamin B3 deficiency does exist and is called pellagra (dermatitis, diarrhoea, dementia), but it results from lack of dietary niacin and tryptophan and is treated with nicotinamide or nicotinic acid, not with NR.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 27721479 (Trammell et al., Nat Commun 2016, oral bioavailability of nicotinamide riboside); NIH Office of Dietary Supplements, Niacin Fact Sheet for Health Professionals"
+   },
+   {
+    "supplement": "Resveratrol",
+    "function_short": "A stress compound made by grapevines. It has no established job in human physiology.",
+    "function_full": "Resveratrol is a stilbene phytoalexin produced by grapevines, Japanese knotweed and peanuts in response to injury and fungal attack. In cell and yeast systems it appears to activate SIRT1, an effect later shown to depend substantially on the fluorophore-tagged assay substrate rather than on the enzyme, and it activates AMPK at high concentrations. In humans absorption is good but bioavailability is very low: it is almost completely converted to sulfate and glucuronide conjugates on first pass, leaving free plasma resveratrol far below the concentrations used in cell experiments. It is a plant secondary metabolite. No human transporter, receptor or enzyme requires it, and nothing in the body fails in its absence.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 15333514 (Walle et al., high absorption but very low bioavailability of oral resveratrol in humans, Drug Metab Dispos 2004); Linus Pauling Institute Micronutrient Information Center, Resveratrol"
+   },
+   {
+    "supplement": "Spermidine",
+    "function_short": "A polyamine your own cells make, needed to activate a key protein-building factor.",
+    "function_full": "Spermidine is a polyamine synthesized from putrescine by spermidine synthase using decarboxylated S-adenosylmethionine. Its one indispensable and unique function is donating the aminobutyl group for hypusination of eukaryotic translation initiation factor 5A, a modification required to translate polyproline-containing proteins. It also stabilises nucleic acids and induces autophagy in model organisms, which is the basis of the longevity marketing. Humans get it from three simultaneous sources: de novo synthesis in essentially every cell, gut bacterial production, and food such as wheat germ, aged cheese, soy and mushrooms. Because synthesis is ubiquitous and tightly regulated, dietary intake is never limiting and no deficiency state exists.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "DOI 10.1126/science.aan2788 (Madeo, Eisenberg, Pietrocola & Kroemer, Spermidine in health and disease, Science 2018)"
+   },
+   {
+    "supplement": "Coenzyme Q10 / ubiquinol",
+    "function_short": "Carries electrons in the mitochondrial energy chain and protects cell membranes from oxidation.",
+    "function_full": "Coenzyme Q10 is a lipid-soluble benzoquinone with a ten-unit isoprenoid tail. In the inner mitochondrial membrane it shuttles electrons from complexes I and II to complex III, and it is also the electron acceptor for dihydroorotate dehydrogenase in pyrimidine synthesis and for fatty acid beta-oxidation through ETF-QO. Its reduced form, ubiquinol, is the main lipid-phase antioxidant of membranes and regenerates vitamin E. Humans synthesize it through the mevalonate pathway, the same pathway statins inhibit, and food contributes only a few milligrams a day. It is not a vitamin and there is no dietary requirement.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Primary coenzyme Q10 deficiency (COQ10D1 to COQ10D10), an autosomal recessive inborn error of CoQ10 biosynthesis caused by variants in PDSS1, PDSS2, COQ2, COQ4, COQ5, COQ6, COQ7, COQ8A, COQ8B or COQ9. This is a genetic disorder of synthesis, not a consequence of low dietary intake.",
+    "deficiency_early": "In the genetic disorder, presentation spans the neonatal period to the seventh decade: steroid-resistant nephrotic syndrome with proteinuria, cerebellar ataxia, exercise intolerance and muscle weakness, or encephalopathy with seizures. Diagnosis rests on CoQ10 measurement in muscle or fibroblasts plus genetic testing. Separately and far more commonly, statins lower circulating CoQ10 by roughly 16 to 54 percent, which is a laboratory change rather than this disease.",
+    "deficiency_severe": "Severe neonatal-onset forms cause fatal multisystem disease with encephalopathy, hypertrophic cardiomyopathy and renal failure. Later-onset forms progress to cerebellar atrophy with disabling ataxia, or to end-stage kidney disease from steroid-resistant nephrotic syndrome.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "High-dose oral CoQ10 can block progression of the kidney disease and improve some myopathic and encephalopathic features, and works best when started before damage is established. Established severe neurological or renal damage does not reverse, and neonatal-onset disease responds poorly, partly because CoQ10 penetrates the blood-brain barrier badly.",
+    "at_risk": "People with biallelic pathogenic variants in a COQ pathway gene. Secondary reduction of blood CoQ10 occurs with statin therapy and with ageing, but that is a biochemical finding and does not produce this clinical picture; trials of CoQ10 for statin-associated muscle symptoms have given conflicting results.",
+    "prevalence": "NOT ESTABLISHED. Primary CoQ10 deficiency is ultra-rare, with GeneReviews noting that prevalence data are limited by the small number of affected individuals reported, ranging from 2 to just over 10 families per causative gene. Statin-associated reduction in circulating CoQ10 of 16 to 54 percent is common but is a different thing entirely.",
+    "source": "GeneReviews, Primary Coenzyme Q10 Deficiency Overview, NCBI Bookshelf NBK410087; Banach et al., effect of statin treatment on circulating coenzyme Q10 concentrations, meta-analysis, PMC6230224"
+   },
+   {
+    "supplement": "Alpha-lipoic acid",
+    "function_short": "A cofactor mitochondria build and clip onto the enzymes that burn carbohydrate and amino acids.",
+    "function_full": "Lipoic acid functions as a covalently bound prosthetic group (lipoamide) on the E2 subunits of pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain ketoacid dehydrogenase and the glycine cleavage system, where its dithiolane ring carries acyl groups and reducing equivalents. Humans make it de novo inside mitochondria via lipoic acid synthase and attach it enzymatically to apoproteins; free lipoate from food or capsules is never used for this. Rare biallelic LIAS, LIPT1 or LIPT2 variants cause a severe neonatal encephalopathy with lactic acidosis and hyperglycinaemia, and oral lipoic acid does not rescue the lipoylation defect in patients or in patient fibroblasts, which is precisely why that genetic disorder is not a deficiency of the supplement molecule. Supplemental alpha-lipoic acid therefore acts only as a free redox-active compound, unrelated to the cofactor role, and its best evidence is symptomatic relief in diabetic polyneuropathy.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "DOI 10.1007/s10545-014-9705-8 (Mayr et al., Lipoic acid biosynthesis defects, J Inherit Metab Dis 2014); PMID 17065669 (Ziegler et al., SYDNEY 2 trial, Diabetes Care 2006)"
+   },
+   {
+    "supplement": "MSM (methylsulfonylmethane)",
+    "function_short": "A small sulfur molecule sold for joint pain; no body process is known to need it.",
+    "function_full": "Methylsulfonylmethane is dimethyl sulfone, the oxidised metabolite of dimethyl sulfoxide, present in trace amounts in some foods and in the marine sulfur cycle. It is well absorbed and distributes widely, including into cerebrospinal fluid, and a fraction of its sulfur can enter the methionine and cysteine pools. That contribution is trivial next to dietary protein, which supplies all the sulfur amino acid a person needs. Proposed anti-inflammatory effects via NF-kB inhibition come from cell and animal work, and human osteoarthritis trials are small and short. Sulfur as an element is essential; MSM as a molecule is not, and no human enzyme or structure uses it.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 28300758 (Butawan, Benjamin & Bloomer, Methylsulfonylmethane: applications and safety of a novel dietary supplement, Nutrients 2017, DOI 10.3390/nu9030290)"
+   },
+   {
+    "supplement": "Astaxanthin",
+    "function_short": "A red algal pigment that sits inside cell membranes. Humans have no requirement for it.",
+    "function_full": "Astaxanthin is a xanthophyll carotenoid produced by the microalga Haematococcus pluvialis and concentrated up the food chain into salmon, trout, shrimp and flamingo feathers. Polar keto and hydroxyl groups on both ionone rings let the molecule span the lipid bilayer, which underlies claims that it quenches singlet oxygen and lipid radicals more efficiently than beta-carotene. Unlike beta-carotene it has no provitamin A activity in humans: it is not cleaved to retinal and cannot contribute to vitamin A status. Humans cannot synthesize it and have no need to, since no metabolic process requires it and no intake recommendation exists.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 7562082 (Jyonouchi et al., astaxanthin, a carotenoid without vitamin A activity, Nutr Cancer 1995); EFSA Panel opinion on the safety of astaxanthin, EFSA Journal 2019"
+   },
+   {
+    "supplement": "Curcumin / turmeric extract",
+    "function_short": "The yellow pigment of turmeric. A spice compound, with no role in human physiology.",
+    "function_full": "Curcumin is a diarylheptanoid pigment making up roughly 2 to 5 percent of turmeric rhizome. It binds and weakly inhibits a very large number of unrelated proteins in vitro, which is why it appears in thousands of papers; medicinal chemists classify it as a pan-assay interference compound, since its chemical reactivity, aggregation and fluorescence generate false positives across screening assays. Unformulated curcumin is poorly absorbed, rapidly glucuronidated and sulfated, and essentially undetectable as the free compound in plasma even after gram doses, though piperine, phospholipid and nanoparticle formulations raise exposure. It is a plant secondary metabolite with no physiological role in humans and no requirement.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 28074653 (Nelson et al., The Essential Medicinal Chemistry of Curcumin, J Med Chem 2017)"
+   },
+   {
+    "supplement": "Green tea extract (EGCG)",
+    "function_short": "A tea polyphenol the body does not need; concentrated extracts can injure the liver.",
+    "function_full": "Epigallocatechin-3-gallate is the dominant catechin of green tea. It is poorly absorbed, extensively methylated, glucuronidated and sulfated, and degraded by gut microbiota, leaving free plasma EGCG in the sub-micromolar range. Proposed actions include inhibition of catechol-O-methyltransferase, modest effects on fat oxidation and binding to the 67 kDa laminin receptor, none of which establish any physiological requirement. The important safety fact runs the other way: concentrated extracts, especially taken while fasting, cause idiosyncratic hepatocellular injury, with published cases spanning intakes of roughly 140 to 1000 mg EGCG per day and a strong association with the HLA-B*35:01 allele. Brewed tea as a beverage is not implicated at these concentrations.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "Oketch-Rabah et al., United States Pharmacopeia comprehensive review of the hepatotoxicity of green tea extracts, Toxicol Rep 2020;7:386-402; NIH LiverTox, Green Tea, NCBI Bookshelf NBK547925"
+   },
+   {
+    "supplement": "Glucosamine and chondroitin",
+    "function_short": "Cartilage building blocks your own cells make from glucose, so eating them is not required.",
+    "function_full": "Glucosamine is an amino sugar produced in every cell from fructose-6-phosphate by glutamine-fructose-6-phosphate amidotransferase, the entry step of the hexosamine biosynthetic pathway that supplies UDP-N-acetylglucosamine for glycosaminoglycans, proteoglycans and O-GlcNAc signalling. Chondroitin sulfate is a sulfated glycosaminoglycan chain assembled on proteoglycan core proteins in the Golgi. Both are made on demand from glucose and glutamine, so neither is a required dietary component and neither has a recommended intake. Orally administered chondroitin is a large polysaccharide with low and variable absorption, and oral glucosamine does not raise synovial fluid concentrations anywhere near those used in cartilage cell experiments. The real question is efficacy rather than nutritional need: the NIH GAIT trial found no significant benefit over placebo for knee osteoarthritis pain in the overall study population.",
+    "deficiency_state": "NONE",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 16495392 (Clegg et al., Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis, N Engl J Med 2006)"
+   },
+   {
+    "supplement": "Antioxidants during chemotherapy",
+    "function_short": "Not a nutrient. This is the practice of taking antioxidant pills while on chemotherapy.",
+    "function_full": "This entry is a clinical scenario rather than a substance, and there is no antioxidant deficiency to correct. Anthracyclines, platinum agents, alkylating agents and radiotherapy kill tumour cells partly through reactive oxygen species and oxidative DNA damage, so high-dose antioxidants taken concurrently could in principle shield the tumour along with normal tissue, and tumour cells themselves often depend on antioxidant defences to survive. In the largest prospective dataset, 1,134 women in the SWOG S0221 adjuvant breast cancer trial, self-reported use of any antioxidant supplement (vitamin A, C or E, carotenoids or coenzyme Q10) both before and during chemotherapy was associated with a borderline increase in recurrence (adjusted hazard ratio 1.41, 95% CI 0.98 to 2.04, P = .06) and in death (adjusted hazard ratio 1.40, 95% CI 0.90 to 2.18, P = .14), with separately significant signals for vitamin B12 and for iron. These associations are observational within a randomised trial cohort and both antioxidant confidence intervals cross 1, so this is a well-founded caution rather than proof of harm, and it underpins oncology advice to avoid supplements other than a standard multivitamin during treatment unless a specific deficiency has been diagnosed.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE",
+    "deficiency_severe": "NOT APPLICABLE",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE",
+    "at_risk": "NOT APPLICABLE",
+    "prevalence": "NOT APPLICABLE",
+    "source": "PMID 31855498, DOI 10.1200/JCO.19.01203 (Ambrosone et al., Dietary Supplement Use During Chemotherapy and Survival Outcomes, SWOG S0221, J Clin Oncol 2020;38:804-814)"
+   }
+  ]
+ },
+ "check_report": {
+  "group": "performance-longevity",
+  "errors": [
+   {
+    "supplement": "Coenzyme Q10 / ubiquinol",
+    "field": "prevalence (and the same claim repeated in deficiency_early)",
+    "verdict": "WRONG",
+    "correction": "Two compounding faults in one claim. (a) Misattributed source: PMC6230224 is Qu H, Meng Y, Chai H, et al., 'The effect of statin treatment on circulating coenzyme Q10 concentrations: an updated meta-analysis of randomized controlled trials', Eur J Med Res 2018 — not Banach et al. (b) Neither meta-analysis reports percentages at all: Qu 2018 gives SMD -2.12 (95% CI -3.40 to -0.84, p=0.001), and the real Banach meta-analysis (Pharmacol Res 2015, PMID 26192349) gives WMD -0.44 micromol/L (95% CI -0.52 to -0.37). The '16 to 54 percent' range actually originates in Marcoff & Thompson, JACC 2007;49:2231-2237, a narrative systematic review summarising 9 observational studies and 6 RCTs. Either re-cite Marcoff & Thompson for the percentage range, or restate the effect as the meta-analytic WMD of -0.44 micromol/L. The largest single trial in Marcoff & Thompson (n=1,049) found 38% and 27% reductions with atorvastatin and lovastatin respectively.",
+    "source": "Qu et al., Eur J Med Res 2018, PMC6230224; Banach et al., Pharmacol Res 2015, PMID 26192349; Marcoff & Thompson, J Am Coll Cardiol 2007;49:2231-2237"
+   },
+   {
+    "supplement": "HMB",
+    "field": "function_full",
+    "verdict": "WRONG",
+    "correction": "The sentence inverts endogenous and dietary contributions. It reads 'an ordinary diet supplies only a few hundred milligrams a day and the body generates the rest internally.' In fact the few hundred milligrams IS the endogenous figure: at ordinary protein intakes the body produces roughly 0.2 to 0.4 g HMB per day from the ~5 percent of dietary leucine that flows through ketoisocaproate. Preformed HMB in food (grapefruit, catfish, alfalfa, corn silage) is present only in milligram quantities and contributes essentially nothing. The cited ISSN stand makes the point the other way round: 'an individual would need to consume over 600 g of high quality protein to obtain the amount of leucine (60 grams) necessary to produce the typical 3 g daily dosage of HMB.' Suggested rewrite: 'the body produces only about 0.2 to 0.4 g a day from dietary leucine, and preformed HMB in food is negligible.' The 5 percent conversion figure and the NONE classification are both correct and unaffected.",
+    "source": "Wilson et al., ISSN Position Stand: beta-hydroxy-beta-methylbutyrate, J Int Soc Sports Nutr 2013, PMID 23374455, PMC3568064"
+   },
+   {
+    "supplement": "Creatine monohydrate",
+    "field": "prevalence",
+    "verdict": "WRONG",
+    "correction": "'approximately 1 in 250,000 newborns on Dutch newborn-screening pilot data' is not supported. There is no Dutch GAMT newborn-screening pilot in the evidence base; the AAP/Pediatrics 2023 evidence review that underpins GAMT screening recommendations does not mention one. The 1:250,000 figure is the UPPER BOUND of an estimated range (~0.038 to 0.4 per 100,000 live births, i.e. 1:2,600,000 to 1:250,000) derived from pathogenic-allele frequencies in deidentified dried blood spots, not a point estimate from any screening pilot. Actual prospective newborn screening in Utah and New York detected 1:405,655. The stated lower bound of '1:115,000' is the single weakest estimate in the literature: it comes from 5 patients referred to one treatment centre between 2001 and 2011 and should be labelled as such rather than presented as a symmetric bound. Suggested rewrite: 'GeneReviews gives an estimated incidence of 1:2,640,000 to 1:250,000; prospective newborn screening in Utah and New York found 1:405,655; a single-centre referral series of 5 patients produced a much higher outlier estimate of 1:114,000.'",
+    "source": "GeneReviews, Creatine Deficiency Disorders, NBK3794; Pediatrics 2023;152(2):e2023062100, PMC10527896, PMID 37465909"
+   },
+   {
+    "supplement": "Creatine monohydrate",
+    "field": "function_full",
+    "verdict": "OVERSTATED",
+    "correction": "'Vegetarians carry intramuscular creatine about 20 to 30 percent below omnivores' exceeds what the cited source shows. Blancquaert et al. 2018 is an intervention trial in 40 omnivorous women, not a cross-sectional vegetarian-versus-omnivore comparison, and it found vastus lateralis total creatine fell 15 percent over 3 months in the vegetarian-plus-placebo arm (against +9.7 percent vegetarian-plus-creatine and +6.8 percent omnivorous control). Cross-sectional comparisons of habitual vegetarians report a smaller gap, around 10 percent (Burke et al.). The 20 to 30 percent figure circulates mainly in supplement marketing, derived from a loose ~100 versus ~120 mmol/kg dry mass contrast that is itself only about 17 percent. Suggested correction: 'roughly 10 to 15 percent below omnivores.' The downstream inference (vegetarians remain healthy and respond more strongly to supplementation) survives the correction intact.",
+    "source": "Blancquaert et al., Br J Nutr 2018;119(7):759-770, PMID 29569535; Burke et al., Med Sci Sports Exerc 2003"
+   },
+   {
+    "supplement": "Creatine monohydrate",
+    "field": "prevalence",
+    "verdict": "IMPRECISE",
+    "correction": "'Creatine transporter deficiency is found in about 0.4 to 2.6 percent of males with intellectual disability of unknown cause' welds together two different denominators under one label. GeneReviews reports 0.4 to 1.4 percent across cohorts of males with intellectual disability; the 2.64 percent figure comes from a separate, more recent cohort of individuals with neurodevelopmental disorders, which is neither male-restricted nor restricted to intellectual disability of unknown cause. Presenting 2.6 percent as the top of a range explicitly labelled 'males with intellectual disability of unknown cause' inflates the ceiling for that population by roughly twofold. Report the two figures separately with their populations attached.",
+    "source": "GeneReviews, Creatine Deficiency Disorders, NBK3794"
+   },
+   {
+    "supplement": "Beta-alanine",
+    "field": "function_full",
+    "verdict": "IMPRECISE",
+    "correction": "The science is right but the cited source does not contain it. The ISSN 2015 position stand's Statement 4 says benefit is 'more pronounced in open end-point tasks/time trials lasting 1 to 4 min in duration', not 'about 30 seconds to 10 minutes'. The 0.5 to 10 minute window is the finding of Saunders et al., Br J Sports Med 2017;51:658-669 (40 studies, 1,461 subjects), which found the greatest effect at 0.5 to 10 min, no benefit below 30 s, and a non-significant moderate effect beyond 10 min. Same problem with the carnosine figure: the ISSN stand reports increases of up to 64 percent at 4 weeks and up to 80 percent at 10 weeks, so the 80 percent ceiling is supported but the 40 percent floor is not in the cited document. Add the Saunders 2017 citation alongside the ISSN stand.",
+    "source": "Trexler et al., ISSN Position Stand: beta-alanine, J Int Soc Sports Nutr 2015, PMID 26175657, PMC4501114; Saunders et al., Br J Sports Med 2017;51:658-669"
+   },
+   {
+    "supplement": "NMN (nicotinamide mononucleotide)",
+    "field": "function_full",
+    "verdict": "OVERSTATED",
+    "correction": "'Oral NMN is largely dephosphorylated to nicotinamide riboside in the gut before absorption in humans' asserts as settled a mechanism for which there is no human evidence. Direct intestinal NMN uptake via Slc12a8 was reported in MOUSE small intestine (Grozio et al., Nat Metab 2019) and was then disputed on methodological grounds (Shats et al., 'Absence of evidence that Slc12a8 encodes a nicotinamide mononucleotide transporter', Nat Metab 2020). The competing CD73 dephosphorylation route is an inference from extracellular NMN handling, and no human transporter has been demonstrated in either direction. The cited Rajman/Sinclair Cell Metab 2018 review predates both papers and cannot support the claim. Strike 'in humans' or rewrite as: 'NMN is thought to be dephosphorylated to nicotinamide riboside before cellular uptake, though the human intestinal route is not established and the proposed direct NMN transporter is contested.' The NONE classification is unaffected.",
+    "source": "Grozio et al., Nat Metab 2019;1:47-57; Shats et al., Nat Metab 2020;2:1200-1203; Rajman, Chwalek & Sinclair, Cell Metab 2018, PMID 29514064"
+   },
+   {
+    "supplement": "Astaxanthin",
+    "field": "source",
+    "verdict": "WRONG",
+    "correction": "PMID 7562082 is Jyonouchi H, Sun S, Tomita Y, Gross MD, 'Astaxanthin, a carotenoid without vitamin A activity, augments antibody responses in cultures including T-helper cell clones and suboptimal doses of antigen', J Nutr 1995;125(10):2483-92. The dataset cites the journal as 'Nutr Cancer 1995'. The PMID, authors and title are right; the journal is wrong. Change to J Nutr 1995. The no-provitamin-A-activity claim it is cited for is genuinely supported by that paper.",
+    "source": "PubMed record for PMID 7562082 (J Nutr 1995;125(10):2483-92)"
+   }
+  ],
+  "misclassified": [
+   {
+    "supplement": "Creatine monohydrate",
+    "field": "deficiency_state",
+    "given": "CLINICAL",
+    "should_be": "NONE (with reversibility to NA)",
+    "why": "Priority-3 failure: a genetic disorder is occupying the dietary-deficiency slot. Creatine is not an essential nutrient, and the entry itself says so twice ('There is no dietary requirement', 'Nobody becomes creatine deficient from diet'). Everything the CLINICAL label rests on is a set of inborn errors of metabolism in GATM, GAMT and SLC6A8. The dataset's own alpha-lipoic acid entry handles the structurally identical situation correctly: LIAS/LIPT1/LIPT2 defects are described in function_full, deficiency_state is set to NONE, and the entry states outright that the genetic disorder 'is not a deficiency of the supplement molecule'. Creatine should follow that template. The prose here is honest, so this is a labelling failure rather than a content failure, but the label is what a reader filters and sorts on, and CLINICAL on a creatine row reads as an endorsement of supplementation for a deficiency that no diet can produce. Keep the entire genetic narrative in function_full and the deficiency_name field where it is informative."
+   },
+   {
+    "supplement": "Coenzyme Q10 / ubiquinol",
+    "field": "deficiency_state",
+    "given": "CLINICAL",
+    "should_be": "NONE (with reversibility to NA)",
+    "why": "Same priority-3 failure as creatine, and the same internal inconsistency with alpha-lipoic acid. CoQ10 is not a vitamin, food supplies only a few milligrams a day, and the entry states plainly 'there is no dietary requirement' and that primary CoQ10 deficiency 'is a genetic disorder of synthesis, not a consequence of low dietary intake'. Primary CoQ10 deficiency is a defect in ten biosynthesis genes. There is no dietary CoQ10 deficiency state at all. The risk is sharper here than for creatine because the entry also carries a genuinely common finding, the statin-associated fall in circulating CoQ10, and a CLINICAL label sitting above that pairing invites exactly the inference the entry elsewhere works hard to block, that statin users have a deficiency needing correction. The entry's own hedging ('that is a biochemical finding and does not produce this clinical picture') is undercut by its own top-level label."
+   },
+   {
+    "supplement": "Quercetin and taurine",
+    "field": "deficiency_state",
+    "given": "FUNCTIONAL",
+    "should_be": "NONE, or split the row into two entries",
+    "why": "Priority-1 violation: quercetin is on the must-be-NONE list and this row tags it FUNCTIONAL. The row is also self-contradicting, since deficiency_name opens with the word 'NONE' while deficiency_state says FUNCTIONAL. Bundling a plant flavonol with no deficiency state of any kind together with a conditionally essential amino acid, then applying one label to the pair, means a reader scanning the field sees quercetin carrying a functional deficiency. The taurine evidence is real and I verified it exactly (Geggel 1985: plasma taurine 26 +/- 13 versus 57 +/- 16 micromol/L, abnormal ERG in all 8 children tested, plasma normalised in 4 supplemented children with ERG normalised in 3 of those 4), but it is iatrogenic depletion in taurine-free parenteral nutrition, not a dietary deficiency in anyone eating food, and the entry concedes modern paediatric formulations have largely eliminated it. Splitting the row is the better fix: quercetin NONE / reversibility NA, taurine FUNCTIONAL restricted to the parenteral-nutrition population. If the row must stay merged, NONE is the safer label. Note also that the FULL reversibility rests on 3 of 4 children in a 1985 case series, with plasma taurine relapsing in 2 of 3 a year after intravenous taurine was stopped; PARTIAL would be the more defensible grade if the taurine row survives as FUNCTIONAL."
+   }
+  ],
+  "coverage": "CLEAN. All 17 assigned names present exactly once, no duplicates, no extras. Item count matches the assigned list exactly.",
+  "net": "Structurally the strongest group I would expect from this axis, undermined by three label decisions and one bad citation chain. Priority 1 is mostly clean: curcumin, resveratrol, astaxanthin, EGCG, MSM and spermidine are all correctly NONE, and their prose is genuinely good adversarial writing (curcumin flagged as PAINS, resveratrol's SIRT1 activation traced to the fluorophore artifact, spermidine's ubiquitous synthesis explained as the reason no deficiency can exist, MSM's sulfur contribution correctly dismissed as trivial next to dietary protein). Quercetin is the single Priority-1 breach, and it happens through row-bundling rather than through a substantive claim.\n\nPriority 3 is where the group leaks. Creatine and CoQ10 both carry CLINICAL labels built entirely on inborn errors of metabolism. Both entries are textually honest about this, which makes the mislabelling more frustrating, since the dataset already contains the correct pattern in its own alpha-lipoic acid entry, which describes LIAS/LIPT1/LIPT2 disease in full and still returns NONE with an explicit statement of why. Applying that same rule to creatine and CoQ10 costs nothing and removes the only two CLINICAL labels in the group that a reader could act on wrongly.\n\nPriority 2 is quiet here for a structural reason worth stating: no essential nutrient appears in this group, so once the three mislabels are corrected almost every reversibility field becomes NA and the field carries little actionable weight. The named test cases (B12 subacute combined degeneration, iodine in fetal development, scurvy) do not fall in this group. Of the three non-NA reversibility grades, CoQ10 PARTIAL is accurate against GeneReviews, creatine PARTIAL correctly captures that AGAT and GAMT respond while SLC6A8 does not, and taurine FULL is the one soft grade, resting on 3 of 4 children in a 1985 case series with relapse after withdrawal.\n\nPriority 4 produced eight findings, two of them serious. The HMB sentence is a straight inversion of endogenous versus dietary supply. The CoQ10 statin figure is the worst citation in the group: a percentage range that appears in neither the meta-analysis cited nor the one whose authors are named, attached to a PMC ID belonging to a different paper by different authors. Both the creatine prevalence attribution (a Dutch screening pilot that does not exist) and the beta-alanine duration window (correct science, wrong source) are the same species of fault, a real number bolted to a source that does not contain it.\n\nSubstantial verification came back clean and deserves recording. Exact matches to primary sources: the Geggel taurine numbers down to the standard deviations and the 3-of-4 ERG normalisation; SWOG S0221 at n=1,134 with HR 1.41 (0.98-2.04, P=.06) for recurrence and 1.40 (0.90-2.18) for death; the USP green tea range of 140 to ~1000 mg EGCG per day plus the fasting-bioavailability mechanism; Juliano and Griffiths at 50 percent headache incidence and 2 to 9 days duration; GeneReviews CoQ10 families-per-gene at 2 to >10; and eight of nine spot-checked PMIDs correct in title, author, journal and year. The GAIT characterisation is properly hedged to the overall study population rather than the moderate-to-severe subgroup, which is the honest reading. The creatine early-treatment claim, which I initially suspected of optimism, is in fact supported: 7 of 8 infants treated before 6 months had normal developmental outcomes.\n\nFix order: the three deficiency_state labels first (they are one-word edits with the largest effect on how a reader acts), then the HMB inversion and the CoQ10 statin citation, then the four remaining source-attribution corrections.\""
+ }
+}

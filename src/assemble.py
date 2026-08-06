@@ -2,7 +2,8 @@
 """Remaining sections and final page assembly."""
 import io, os, html as HH
 from collections import Counter
-from site_base import (T, esc, slug, ALL, FOOD, SYN, IX, ORDER, OUTDIR,
+from func_load import DEF_META as _DEF, REV_META as _REV
+from site_base import (T, esc, slug, ALL, FOOD, SYN, FUNC, IX, ORDER, OUTDIR,
                        VERDICT_META, GRADE_META, MISREADINGS, register,
                        FOOD_AXIS, DOSE_AXIS, SYN_AXIS, norm_food,
                        TAKE, CONSIDER, SKIP, AVOID)
@@ -128,6 +129,35 @@ def sec_howto():
           '<b>图 2。</b>合成这一维度是独立于试验证据研究的，因此可以当作交叉验证。结果是一致的：'
           '辅酶 Q10、褪黑素、胶原、氨基葡萄糖、NMN、NR、亚精胺、硫辛酸和 5-HTP，都是身体本来就大量制造的分子，'
           '而这九个里有八个仅凭试验记录就已被归入“不必买”。')))
+    dgrid = {}
+    for name, fn in FUNC.items():
+        k = (str(fn.get('deficiency_state') or 'NA').upper(), str(fn.get('reversibility') or 'NA').upper())
+        dgrid[k] = dgrid.get(k, 0) + 1
+    o.append('<figure>%s<figcaption>%s</figcaption></figure>' % (
+        FG.stacked('Is there a deficiency state, and does it reverse',
+                   '是否存在缺乏状态，缺了之后能否修复',
+                   [('CLINICAL', 'Named deficiency disease', '有明确缺乏症'),
+                    ('FUNCTIONAL', 'Low status causes dysfunction', '偏低引起功能异常'),
+                    ('NONE', 'No deficiency state exists', '不存在缺乏状态'),
+                    ('NA', 'Mixed product', '复合产品')],
+                   [('FULL', 'Fully reversible', '完全可逆', 'p'),
+                    ('PARTIAL', 'Partly reversible', '部分可逆', 'c'),
+                    ('IRREVERSIBLE', 'Permanent', '不可逆', 'f'),
+                    ('NA', 'Nothing to reverse', '无所谓可逆', 'n')],
+                   dgrid,
+                   '45 of 66 have no deficiency state at all. Only 2 cause permanent damage.',
+                   '66 个中有 45 个根本不存在缺乏状态。只有 2 个会造成永久损害。'),
+        T('<b>Figure 3.</b> You cannot be deficient in a substance that is not an essential nutrient, and 45 of the '
+          '66 fall in that band. The two that cause permanent damage are the ones worth memorising: vitamin B12, '
+          'where the blood count corrects in about eight weeks while spinal cord damage present for six to twelve '
+          'months may not, and iodine, where the fetal brain injury of maternal deficiency cannot be undone after '
+          'birth. A supplement is worth taking on this axis only where the answer is a named disease and the damage '
+          'does not fully reverse.',
+          '<b>图 3。</b>一个不是必需营养素的东西，你无法“缺乏”它，66 个里有 45 个落在这一档。'
+          '会造成永久损害的只有两个，值得记住：维生素 B12，血象约八周即可纠正，而已存在六到十二个月的脊髓损害可能无法恢复；'
+          '以及碘，母体缺碘造成的胎儿脑损伤在出生后无法挽回。'
+          '在这条轴上，只有当答案是“有明确缺乏症”且“损害不能完全逆转”时，补充剂才真正值得吃。')))
+
     return '\n'.join(o)
 
 
@@ -161,10 +191,10 @@ def sec_market():
             ('Botanicals failing DNA check', '植物类 DNA 鉴定不合格', 27, '5,957 products, 37 countries', '5957 个产品，37 国', 'c'),
             ('Ayurvedic with lead, mercury or arsenic', '阿育吠陀检出铅汞砷', 21, '193 products', '193 个产品', 'c'),
         ], labelw=310),
-        T('<b>Figure 3.</b> Independent analytical surveys of products bought off the shelf. The retracted 2013 '
+        T('<b>Figure 4.</b> Independent analytical surveys of products bought off the shelf. The retracted 2013 '
           'barcoding paper claiming 59% substitution is deliberately excluded; the 27% figure is Ichim 2019 across '
           '5,957 products in 37 countries.',
-          '<b>图 3。</b>对货架上买来的产品所做的独立分析调查。2013 年那篇声称 59% 掺假的条形码论文已撤稿，此处刻意排除；'
+          '<b>图 4。</b>对货架上买来的产品所做的独立分析调查。2013 年那篇声称 59% 掺假的条形码论文已撤稿，此处刻意排除；'
           '27% 取自 Ichim 2019，覆盖 37 个国家的 5957 个产品。')))
     return '\n'.join(o)
 
@@ -195,10 +225,10 @@ def sec_tier(v):
     o.append('<p class="lede">%s</p>' % T(den, dzh))
     if v == TAKE:
         o.append('<figure>%s<figcaption>%s</figcaption></figure>' % (FG.forest(), T(
-            '<b>Figure 4.</b> Landmark trials, log scale, dashed line is no effect. Green sits entirely below 1, grey '
+            '<b>Figure 5.</b> Landmark trials, log scale, dashed line is no effect. Green sits entirely below 1, grey '
             'crosses 1, red sits entirely above. Read the middle block: the largest and most heavily marketed '
             'hypotheses in this field all land on the null line.',
-            '<b>图 4。</b>标志性试验，对数刻度，虚线代表无效应。绿色完全在 1 以下，灰色跨过 1，红色完全在 1 以上。'
+            '<b>图 5。</b>标志性试验，对数刻度，虚线代表无效应。绿色完全在 1 以下，灰色跨过 1，红色完全在 1 以上。'
             '看中间那一段：这个领域里规模最大、营销最猛的几个假说，全都停在无效线上。')))
     for it in [x for x in ALL if x['verdict'] == v]:
         o.append(item_card(it))
@@ -220,10 +250,10 @@ def sec_doses():
         'as safe.',
         '美欧不一致的地方，两个数字都给。这不是四舍五入的差别，它改变了“安全”的定义。'))
     o.append('<figure>%s<figcaption>%s</figcaption></figure>' % (FG.ulgap(), T(
-        '<b>Figure 5.</b> EU upper limits as a share of the US limit. Vitamin B6 is the extreme case: EFSA set '
+        '<b>Figure 6.</b> EU upper limits as a share of the US limit. Vitamin B6 is the extreme case: EFSA set '
         '12 mg/d in 2023 on peripheral neuropathy, against the US figure of 100 mg. Nerve-support and B-complex '
         'products routinely sit between the two.',
-        '<b>图 5。</b>欧盟上限相对美国上限的比例。维生素 B6 是极端案例：EFSA 于 2023 年以周围神经病为依据定为 12 毫克/天，'
+        '<b>图 6。</b>欧盟上限相对美国上限的比例。维生素 B6 是极端案例：EFSA 于 2023 年以周围神经病为依据定为 12 毫克/天，'
         '而美国是 100 毫克。“神经营养”和复合 B 族产品的剂量常常正好落在两者之间。')))
     o.append(B.dtable([('Nutrient', '营养素'), ('Reference intake', '参考摄入量'),
                        ('US upper limit', '美国上限'), ('EU upper limit', '欧盟上限')],

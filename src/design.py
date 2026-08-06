@@ -151,10 +151,10 @@ html[data-lang="zh"] .legend h4{letter-spacing:.04em;text-transform:none;font-si
   color:var(--ref);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
 
 .tablewrap{border:1px solid var(--rule);border-radius:var(--r);background:var(--panel);overflow-x:auto}
-table.reg-t{border-collapse:collapse;width:100%;font-size:14px;min-width:1000px;table-layout:fixed}
-table.reg-t col.c-nm{width:19%}table.reg-t col.c-sp{width:126px}table.reg-t col.c-vd{width:10%}
-table.reg-t col.c-fd{width:9.5%}table.reg-t col.c-ds{width:12%}table.reg-t col.c-sy{width:11%}
-table.reg-t col.c-wh{width:26%}
+table.reg-t{border-collapse:collapse;width:100%;font-size:14px;min-width:1180px;table-layout:fixed}
+table.reg-t col.c-nm{width:21%}table.reg-t col.c-sp{width:150px}table.reg-t col.c-vd{width:8.5%}
+table.reg-t col.c-fd{width:8%}table.reg-t col.c-ds{width:10%}table.reg-t col.c-sy{width:9.5%}
+table.reg-t col.c-df{width:12%}table.reg-t col.c-wh{width:18%}
 table.reg-t th,table.reg-t td{text-align:left;padding:8px 11px;border-bottom:1px solid var(--rule-2);
   vertical-align:middle;overflow-wrap:break-word}
 table.reg-t thead th{position:sticky;top:49px;z-index:20;background:var(--panel-2);
@@ -174,6 +174,7 @@ td.nm .sub{display:block;font-size:11.5px;color:var(--muted);font-weight:400;mar
 td.who{color:var(--ink-2);font-size:12.5px;line-height:1.45;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 td.nm .sub{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+td.nm .sub.fnc{-webkit-line-clamp:2;color:var(--muted);font-size:11.5px;line-height:1.38;margin-top:2px}
 td.tier{font-family:var(--data);font-size:10.5px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase}
 tr.detail{display:none}
 tr.detail.show{display:table-row}
@@ -286,6 +287,12 @@ html[data-lang="zh"] .fline b{letter-spacing:.02em;text-transform:none;font-size
 .fnone{font-size:13.5px;color:var(--muted);font-style:italic}
 .refs{padding:9px 17px;font-family:var(--data);font-size:10.5px;color:var(--faint);
   border-top:1px solid var(--rule-2);word-break:break-word}
+
+.food.fnb{background:var(--panel)}
+.food.fnb .lead{font-family:var(--display);font-size:16.5px;line-height:1.42;color:var(--ink);
+  margin:0 0 10px;max-width:64ch}
+html[data-lang="zh"] .food.fnb .lead{font-family:var(--body);font-size:16px}
+.food.fnb .nodef{color:var(--muted);font-style:italic;border-left:2px solid var(--rule);padding-left:11px}
 
 /* ============================================================ footer */
 footer{margin-top:64px;border-top:1px solid var(--rule);background:var(--panel)}

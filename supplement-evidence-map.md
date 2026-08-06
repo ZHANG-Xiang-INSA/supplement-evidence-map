@@ -23,6 +23,7 @@ Sixty-six products, each with a verdict, an evidence grade, the dose that was ac
 | **3 In food** | Does the substance occur in ordinary food? |
 | **4 Dose from food** | Could eating reach the tested dose? |
 | **5 Body makes it** | Can you synthesise it yourself? |
+| **6 If you lack it** | Is there a deficiency state at all, and does the damage reverse? |
 
 > **Worked example.** Vitamin E is rich in food, so axis 3 reads Rich. But the harm-trial dose of 400 IU is 268 mg of alpha-tocopherol, about 18 times the reference intake, so axis 4 reads Out of reach. And the body cannot make tocopherol at all, so axis 5 reads Cannot. All three are true at once.
 
@@ -40,74 +41,74 @@ Sixty-six products, each with a verdict, an evidence grade, the dose that was ac
 
 ## 2. The register
 
-| Item | Verdict | Grade | In food | Dose from food | Body makes it |
-|---|---|---|---|---|---|
-| Folic acid | **Take it** | A | None | Partly | Cannot |
-| Vitamin D3 (cholecalciferol) | **Take it** | A | Rich | Partly | Partly |
-| Vitamin B12 (cobalamin) | **Take it** | B | Rich | Out of reach | Cannot |
-| Iron | **Take it** | A | Rich | Partly | Cannot |
-| Iodine | **Take it** | A | Rich | Reachable | Cannot |
-| Creatine monohydrate | **Take it** | A | Rich | Out of reach | Partly |
-| Protein powder | **Take it** | A | Rich | Reachable | Partly |
-| Psyllium husk (ispaghula) | **Take it** | B | Rich | Reachable | Cannot |
-| Caffeine | **Take it** | A | Rich | Reachable | Cannot |
-| Omega-3 (EPA and DHA) | **Take it** | B | Rich | Partly | Partly |
-| Magnesium | **Consider** | B | Rich | Reachable | Cannot |
-| Zinc lozenges | **Consider** | B | Rich | Out of reach | Cannot |
-| Melatonin | **Consider** | B | Trace | Out of reach | Body makes it |
-| Probiotics, named strain only | **Consider** | B | None | Out of reach | n/a |
-| Berberine | **Consider** | B | Not food | Out of reach | Cannot |
-| Vitamin C | **Consider** | C | Rich | Reachable | Cannot |
-| Coenzyme Q10 / ubiquinol | **Consider** | B | Rich | Out of reach | Body makes it |
-| Alpha-lipoic acid | **Consider** | B | Trace | Out of reach | Body makes it |
-| Beta-alanine | **Consider** | C | Rich | Out of reach | Partly |
-| Dietary nitrate / beetroot | **Consider** | C | Rich | Reachable | Partly |
-| St John's wort | **Consider** | B | Not food | Out of reach | Cannot |
-| Lactase and pancreatic enzymes | **Consider** | C | None | Out of reach | Usually |
-| Multivitamin / multimineral | **Skip it** | A | Rich | Partly | n/a |
-| Collagen peptides | **Skip it** | B | Rich | Reachable | Body makes it |
-| Glucosamine and chondroitin | **Skip it** | B | Mixed | Partly | Body makes it |
-| NMN (nicotinamide mononucleotide) | **Skip it** | D | Trace | Out of reach | Body makes it |
-| Nicotinamide riboside (NR) | **Skip it** | C | Trace | Out of reach | Body makes it |
-| Resveratrol | **Skip it** | D | Trace | Out of reach | Cannot |
-| Spermidine | **Skip it** | D | Rich | Reachable | Body makes it |
-| Curcumin / turmeric extract | **Skip it** | C | Rich | Out of reach | Cannot |
-| MSM (methylsulfonylmethane) | **Skip it** | D | Trace | Out of reach | Partly |
-| Astaxanthin | **Skip it** | D | Rich | Partly | Cannot |
-| HMB | **Skip it** | D | None | Out of reach | Partly |
-| Ginkgo biloba | **Skip it** | A | Not food | Out of reach | Cannot |
-| Valerian | **Skip it** | D | Not food | Out of reach | Cannot |
-| Rhodiola rosea | **Skip it** | D | Not food | Out of reach | Cannot |
-| Lion's mane (Hericium erinaceus) | **Skip it** | C | Rich | Reachable | Cannot |
-| Bacopa monnieri | **Skip it** | C | Rich | Partly | Cannot |
-| 5-HTP | **Skip it** | C | None | Out of reach | Body makes it |
-| Vitamin K2 (MK-7 and MK-4) | **Skip it** | C | Mixed | Partly | Partly |
-| Generic multi-strain probiotic blends | **Skip it** | B | Rich | Reachable | n/a |
-| B. infantis 35624 (single strain) | **Skip it** | D | None | Out of reach | n/a |
-| Krill oil | **Skip it** | C | Rich | Reachable | Partly |
-| Cod liver oil | **Skip it** | D | Rich | Reachable | Partly |
-| ALA from flaxseed, chia or walnut oil | **Skip it** | C | Rich | Reachable | Cannot |
-| Algal oil (vegan DHA and EPA) | **Skip it** | C | Trace | Out of reach | Partly |
-| Wheat bran and insoluble fibre supplements for IBS | **Skip it** | D | Rich | Reachable | Cannot |
-| Over-the-counter digestive enzyme blends | **Skip it** | D | Trace | Out of reach | n/a |
-| L-glutamine for gut repair | **Skip it** | C | Rich | Partly | Usually |
-| Prebiotics: inulin, FOS, GOS | **Skip it** | C | Rich | Partly | Cannot |
-| Saffron, SAMe and other mood botanicals | **Skip it** | C | Rich | Reachable | Partly |
-| Quercetin and taurine | **Skip it** | C | Rich | Out of reach | Partly |
-| Beta-carotene supplements | **Avoid** | A | Rich | Partly | Cannot |
-| Vitamin E at or above 400 IU/d | **Avoid** | A | Rich | Out of reach | Cannot |
-| Selenium at 200 µg/d | **Avoid** | A | Rich | Reachable | Cannot |
-| Preformed vitamin A at or above 10,000 IU | **Avoid** | D | Rich | Reachable | Cannot |
-| High-dose vitamin B6 | **Avoid** | B | Rich | Out of reach | Cannot |
-| Green tea extract (EGCG) | **Avoid** | B | Rich | Reachable | Cannot |
-| Ashwagandha (Withania somnifera) | **Avoid** | C | Not food | Out of reach | Cannot |
-| Weight-loss, fat-burner and energy blends | **Avoid** | D | Rich | Partly | n/a |
-| Bodybuilding and test-booster products | **Avoid** | D | None | No dose | n/a |
-| Sexual-enhancement products | **Avoid** | A | None | No dose | Cannot |
-| High-dose folic acid plus B12 for cardiovascular prevention | **Avoid** | D | Rich | No dose | Cannot |
-| Antioxidants during chemotherapy | **Avoid** | D | Rich | No dose | Partly |
-| Probiotics in critical illness | **Avoid** | B | Rich | No dose | n/a |
-| Calcium supplements on top of an adequate diet | **Avoid** | B | Rich | Reachable | Cannot |
+| Item | Verdict | Grade | In food | Dose from food | Body makes it | If you lack it |
+|---|---|---|---|---|---|---|
+| Folic acid | **Take it** | A | None | Partly | Cannot | Named deficiency disease (Partly reversible) |
+| Vitamin D3 (cholecalciferol) | **Take it** | A | Rich | Partly | Partly | Named deficiency disease (Partly reversible) |
+| Vitamin B12 (cobalamin) | **Take it** | B | Rich | Out of reach | Cannot | Named deficiency disease (Permanent damage) |
+| Iron | **Take it** | A | Rich | Partly | Cannot | Named deficiency disease (Partly reversible) |
+| Iodine | **Take it** | A | Rich | Reachable | Cannot | Named deficiency disease (Permanent damage) |
+| Creatine monohydrate | **Take it** | A | Rich | Out of reach | Partly | No deficiency state exists |
+| Protein powder | **Take it** | A | Rich | Reachable | Partly | Named deficiency disease (Partly reversible) |
+| Psyllium husk (ispaghula) | **Take it** | B | Rich | Reachable | Cannot | No deficiency state exists |
+| Caffeine | **Take it** | A | Rich | Reachable | Cannot | No deficiency state exists |
+| Omega-3 (EPA and DHA) | **Take it** | B | Rich | Partly | Partly | Low status causes dysfunction (Partly reversible) |
+| Magnesium | **Consider** | B | Rich | Reachable | Cannot | Named deficiency disease |
+| Zinc lozenges | **Consider** | B | Rich | Out of reach | Cannot | Named deficiency disease (Partly reversible) |
+| Melatonin | **Consider** | B | Trace | Out of reach | Body makes it | No deficiency state exists |
+| Probiotics, named strain only | **Consider** | B | None | Out of reach | n/a | No deficiency state exists |
+| Berberine | **Consider** | B | Not food | Out of reach | Cannot | No deficiency state exists |
+| Vitamin C | **Consider** | C | Rich | Reachable | Cannot | Named deficiency disease |
+| Coenzyme Q10 / ubiquinol | **Consider** | B | Rich | Out of reach | Body makes it | No deficiency state exists |
+| Alpha-lipoic acid | **Consider** | B | Trace | Out of reach | Body makes it | No deficiency state exists |
+| Beta-alanine | **Consider** | C | Rich | Out of reach | Partly | No deficiency state exists |
+| Dietary nitrate / beetroot | **Consider** | C | Rich | Reachable | Partly | No deficiency state exists |
+| St John's wort | **Consider** | B | Not food | Out of reach | Cannot | No deficiency state exists |
+| Lactase and pancreatic enzymes | **Consider** | C | None | Out of reach | Usually | Named deficiency disease (Partly reversible) |
+| Multivitamin / multimineral | **Skip it** | A | Rich | Partly | n/a | Mixed product |
+| Collagen peptides | **Skip it** | B | Rich | Reachable | Body makes it | No deficiency state exists |
+| Glucosamine and chondroitin | **Skip it** | B | Mixed | Partly | Body makes it | No deficiency state exists |
+| NMN (nicotinamide mononucleotide) | **Skip it** | D | Trace | Out of reach | Body makes it | No deficiency state exists |
+| Nicotinamide riboside (NR) | **Skip it** | C | Trace | Out of reach | Body makes it | No deficiency state exists |
+| Resveratrol | **Skip it** | D | Trace | Out of reach | Cannot | No deficiency state exists |
+| Spermidine | **Skip it** | D | Rich | Reachable | Body makes it | No deficiency state exists |
+| Curcumin / turmeric extract | **Skip it** | C | Rich | Out of reach | Cannot | No deficiency state exists |
+| MSM (methylsulfonylmethane) | **Skip it** | D | Trace | Out of reach | Partly | No deficiency state exists |
+| Astaxanthin | **Skip it** | D | Rich | Partly | Cannot | No deficiency state exists |
+| HMB | **Skip it** | D | None | Out of reach | Partly | No deficiency state exists |
+| Ginkgo biloba | **Skip it** | A | Not food | Out of reach | Cannot | No deficiency state exists |
+| Valerian | **Skip it** | D | Not food | Out of reach | Cannot | No deficiency state exists |
+| Rhodiola rosea | **Skip it** | D | Not food | Out of reach | Cannot | No deficiency state exists |
+| Lion's mane (Hericium erinaceus) | **Skip it** | C | Rich | Reachable | Cannot | No deficiency state exists |
+| Bacopa monnieri | **Skip it** | C | Rich | Partly | Cannot | No deficiency state exists |
+| 5-HTP | **Skip it** | C | None | Out of reach | Body makes it | No deficiency state exists |
+| Vitamin K2 (MK-7 and MK-4) | **Skip it** | C | Mixed | Partly | Partly | Named deficiency disease (Partly reversible) |
+| Generic multi-strain probiotic blends | **Skip it** | B | Rich | Reachable | n/a | No deficiency state exists |
+| B. infantis 35624 (single strain) | **Skip it** | D | None | Out of reach | n/a | No deficiency state exists |
+| Krill oil | **Skip it** | C | Rich | Reachable | Partly | No deficiency state exists |
+| Cod liver oil | **Skip it** | D | Rich | Reachable | Partly | Mixed product |
+| ALA from flaxseed, chia or walnut oil | **Skip it** | C | Rich | Reachable | Cannot | Named deficiency disease |
+| Algal oil (vegan DHA and EPA) | **Skip it** | C | Trace | Out of reach | Partly | No deficiency state exists |
+| Wheat bran and insoluble fibre supplements for IBS | **Skip it** | D | Rich | Reachable | Cannot | No deficiency state exists |
+| Over-the-counter digestive enzyme blends | **Skip it** | D | Trace | Out of reach | n/a | No deficiency state exists |
+| L-glutamine for gut repair | **Skip it** | C | Rich | Partly | Usually | No deficiency state exists |
+| Prebiotics: inulin, FOS, GOS | **Skip it** | C | Rich | Partly | Cannot | No deficiency state exists |
+| Saffron, SAMe and other mood botanicals | **Skip it** | C | Rich | Reachable | Partly | No deficiency state exists |
+| Quercetin and taurine | **Skip it** | C | Rich | Out of reach | Partly | No deficiency state exists |
+| Beta-carotene supplements | **Avoid** | A | Rich | Partly | Cannot | No deficiency state exists |
+| Vitamin E at or above 400 IU/d | **Avoid** | A | Rich | Out of reach | Cannot | Named deficiency disease (Partly reversible) |
+| Selenium at 200 µg/d | **Avoid** | A | Rich | Reachable | Cannot | Named deficiency disease (Partly reversible) |
+| Preformed vitamin A at or above 10,000 IU | **Avoid** | D | Rich | Reachable | Cannot | Named deficiency disease (Partly reversible) |
+| High-dose vitamin B6 | **Avoid** | B | Rich | Out of reach | Cannot | Named deficiency disease |
+| Green tea extract (EGCG) | **Avoid** | B | Rich | Reachable | Cannot | No deficiency state exists |
+| Ashwagandha (Withania somnifera) | **Avoid** | C | Not food | Out of reach | Cannot | No deficiency state exists |
+| Weight-loss, fat-burner and energy blends | **Avoid** | D | Rich | Partly | n/a | No deficiency state exists |
+| Bodybuilding and test-booster products | **Avoid** | D | None | No dose | n/a | No deficiency state exists |
+| Sexual-enhancement products | **Avoid** | A | None | No dose | Cannot | No deficiency state exists |
+| High-dose folic acid plus B12 for cardiovascular prevention | **Avoid** | D | Rich | No dose | Cannot | Mixed product |
+| Antioxidants during chemotherapy | **Avoid** | D | Rich | No dose | Partly | No deficiency state exists |
+| Probiotics in critical illness | **Avoid** | B | Rich | No dose | n/a | No deficiency state exists |
+| Calcium supplements on top of an adequate diet | **Avoid** | B | Rich | Reachable | Cannot | Named deficiency disease (Partly reversible) |
 
 ## 3. Take it
 
@@ -132,6 +133,20 @@ Strong evidence, but only for the group named under Who. None of these is for ev
 - Never take it alone when B12 status is unknown. Folic acid corrects the anaemia of B12 deficiency while the neurological damage silently progresses. This is the stated basis of the upper limit.
 - High-dose folic acid plus B12 taken for cardiovascular reasons raised cancer incidence (HR 1.21) and cancer mortality (HR 1.38) in pooled Norwegian trials. That is a different product at a different dose for a different purpose, and it should not be confused with the 400 µg periconceptional dose.
 - Upper limit 1,000 µg/d of synthetic folate, which applies to supplements and fortified food but not to folate from whole food.
+
+**What it does, and what happens without it**
+
+Supplies the one-carbon units cells need to build DNA and divide.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** Folate is reduced to tetrahydrofolate, which carries one-carbon groups for thymidylate and purine synthesis and for the remethylation of homocysteine to methionine by methionine synthase (a B12-dependent enzyme). Tissues that divide fastest depend on it most: bone marrow, gut mucosa, and the closing neural tube of an early embryo. Folic acid is the synthetic, fully oxidised form; it must be reduced by dihydrofolate reductase, whose capacity in humans is limited, so unmetabolised folic acid appears in plasma at intakes above roughly 200 to 400 micrograms in one dose. The natural circulating form is 5-methyltetrahydrofolate.
+- **Deficiency disease:** Megaloblastic (macrocytic) anaemia. In early pregnancy, low folate status raises the risk of neural tube defects (anencephaly, spina bifida, encephalocele); periconceptional folic acid prevents a large proportion but not all of them.
+- **First signs:** Serum folate falls first, then red cell folate. Raised mean corpuscular volume appears before anaemia, with hypersegmented neutrophils on the film. Symptoms are non-specific: tiredness, breathlessness on exertion, sore tongue, mouth ulcers, mild diarrhoea. In pregnancy there are no maternal warning signs at all; the first evidence of a neural tube defect is usually the anomaly scan.
+- **Untreated:** Marrow failure with pancytopenia, severe anaemia, mucosal ulceration and malabsorptive diarrhoea. In pregnancy the severe endpoint is structural: anencephaly is incompatible with life, and open spina bifida causes lifelong paralysis below the lesion, hydrocephalus, and bowel and bladder impairment.
+- **Does it reverse:** The haematological and mucosal effects reverse completely: reticulocytosis begins within a week and the blood count normalises in about two months, with no residual deficit. A neural tube defect that has already formed is permanent and cannot be reversed by any later intake. The neural tube closes 26 to 28 days after conception, so supplementation started after a positive pregnancy test is too late for that specific endpoint, which is the whole argument for taking it before conception.
+- **Who becomes deficient:** Women who could become pregnant, particularly with an unplanned pregnancy. Coeliac disease and other malabsorption. Heavy alcohol use. Drugs that block folate handling: methotrexate, sulfasalazine, trimethoprim, phenytoin and other anticonvulsants. High-turnover states such as chronic haemolysis and exfoliative skin disease. Dialysis.
+- **How common:** In the fortified United States, 18.6% of women aged 12 to 49 had red cell folate below the threshold associated with elevated neural tube defect risk (748 nmol/L) in 2011 to 2016, down from 23.2% in 2007 to 2010 (PMID 31504109). Frank folate-deficiency anaemia is now uncommon where fortification is mandatory and is seen more often where it is not.
 
 **Food and the body**
 
@@ -180,6 +195,20 @@ Folic acid (pteroylmonoglutamic acid) is manufactured by chemical synthesis, a W
 - More is actively worse, and this is the least-marketed finding in the field. Annual 500,000 IU increased falls (IRR 1.15) and fractures (IRR 1.26). Monthly 60,000 IU raised the proportion of people falling from 47.9% to 66.9%. Three years at 4,000 or 10,000 IU/d caused dose-dependent LOSS of radial bone density versus 400 IU/d.
 - The 30 ng/mL threshold that drives most deficiency marketing came from the Endocrine Society, and that society walked it back in 2024. Its current guideline suggests against routine testing in healthy adults and against empiric supplementation above the reference intake in healthy under-75s.
 - Contraindicated in hypercalcaemia, primary hyperparathyroidism and granulomatous disease such as sarcoidosis or tuberculosis. Upper limit 4,000 IU/d.
+
+**What it does, and what happens without it**
+
+Lets the gut absorb calcium and phosphate so that bone can mineralise properly.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** Cholecalciferol is hydroxylated in the liver to 25-hydroxyvitamin D, the circulating storage form measured on a blood test, and then in the kidney to 1,25-dihydroxyvitamin D (calcitriol), a steroid hormone acting through the nuclear vitamin D receptor. Calcitriol drives active intestinal absorption of calcium and phosphate, suppresses parathyroid hormone, and maintains the calcium-phosphate product that osteoblasts need to mineralise newly laid osteoid. Vitamin D receptors are present in immune cells, muscle and many other tissues, but the only role with an established human requirement is the calcium and bone axis. Skin synthesis from UVB normally supplies most of it, which is why dietary requirement figures depend heavily on latitude, season and sun exposure.
+- **Deficiency disease:** Rickets in growing children, osteomalacia in adults. Severe infant deficiency also causes hypocalcaemic seizures and dilated cardiomyopathy.
+- **First signs:** Serum 25(OH)D falls first, then parathyroid hormone rises (secondary hyperparathyroidism) while serum calcium is still normal or low-normal. At this stage a person notices little or nothing: vague aching in the hips, ribs and shins, and proximal muscle weakness showing up as difficulty rising from a low chair or climbing stairs. A blood test shows low 25(OH)D, raised PTH and often raised alkaline phosphatase before any X-ray change.
+- **Untreated:** In children, growth plates fail to mineralise: bowed legs or knock knees, widened wrists and ankles, the rachitic rosary at the costochondral junctions, delayed walking, poor growth and fractures. Infants can present first with hypocalcaemic tetany, seizures or dilated cardiomyopathy, which can be fatal. In adults, unmineralised osteoid accumulates as osteomalacia, giving bone pain, proximal myopathy with a waddling gait, and Looser zones (pseudofractures) that progress to complete fractures of the pubic rami, femoral neck or ribs.
+- **Does it reverse:** Biochemistry, bone pain, myopathy, hypocalcaemic seizures and the radiological signs of active rickets correct completely with vitamin D plus adequate calcium, usually over weeks to a few months. Skeletal deformity already established in long-standing rickets often persists, and marked bowing, rachitic dwarfism or pelvic deformity may need surgical correction.
+- **Who becomes deficient:** People with little effective sun exposure: housebound or institutionalised older adults, those who cover the skin fully, and anyone living at high latitude through winter. Darker skin at high latitude (more melanin means less UVB synthesis). Exclusively breastfed infants not given a supplement, since breast milk is low in vitamin D. Obesity (sequestration in adipose tissue). Fat malabsorption from coeliac disease, cystic fibrosis, cholestasis or bariatric surgery. Chronic kidney or liver disease, and long-term anticonvulsant or glucocorticoid therapy.
+- **How common:** NHANES 2011-2014: 5.0% of the US population aged 1 year and over had serum 25(OH)D below 30 nmol/L (at risk of deficiency) and 18.3% fell between 30 and 49.9 nmol/L; the below-30 figure was 17.5% in non-Hispanic Black participants against 2.1% in non-Hispanic White participants (PMID 31076739). Clinical nutritional rickets is uncommon in high-income countries but has not disappeared, and remains common in parts of the Middle East, Africa and South Asia (PMID 26741135).
 
 **Food and the body**
 
@@ -239,6 +268,20 @@ Oily fish, egg yolk and UV-treated mushrooms supply measurable vitamin D, and fo
 - Cyanocobalamin should be avoided in Leber hereditary optic neuropathy and in renal failure. Use hydroxocobalamin instead.
 - High-dose biotin in the same B-complex product interferes with immunoassays including troponin, which can mimic or mask a heart attack on a blood test.
 
+**What it does, and what happens without it**
+
+Needed by two enzymes: one for making new blood cells, one for nerve insulation.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Permanent damage
+- **In detail:** Cobalamin is the cofactor for exactly two human enzymes. Methionine synthase remethylates homocysteine to methionine using 5-methyltetrahydrofolate, which both regenerates usable folate and supplies S-adenosylmethionine for the methylation reactions that maintain myelin. Methylmalonyl-CoA mutase converts methylmalonyl-CoA to succinyl-CoA in the mitochondrion during breakdown of odd-chain fatty acids and branched-chain amino acids. Absorption is elaborate: gastric acid and pepsin release B12 from food protein, intrinsic factor from parietal cells carries it, and receptors in the terminal ileum take it up. Outside vegan diets the usual cause of deficiency is failure somewhere along that route rather than low intake.
+- **Deficiency disease:** Pernicious anaemia (autoimmune intrinsic factor failure) and subacute combined degeneration of the spinal cord; megaloblastic anaemia is the haematological presentation.
+- **First signs:** Methylmalonic acid and homocysteine rise before serum B12 drops into the clearly deficient range, which is why borderline results are often followed with those metabolites. Symmetrical tingling and numbness in the feet and hands, loss of vibration sense and joint position sense, unsteadiness that is worse in the dark. Macrocytosis with hypersegmented neutrophils, sore smooth tongue, fatigue, mild cognitive slowing and low mood. Neurological signs can be present with a completely normal full blood count.
+- **Untreated:** Subacute combined degeneration: demyelination of the dorsal columns and lateral corticospinal tracts producing sensory ataxia, spasticity, extensor plantar responses, and bladder and bowel disturbance, progressing untreated to spastic paraparesis and loss of independent walking. Optic atrophy occurs in a minority, as do dementia and psychosis. Severe megaloblastic anaemia with pancytopenia can occur, but it is the neurology that disables.
+- **Does it reverse:** The blood corrects fully (reticulocytosis within a week, counts normal in roughly eight weeks) while the neurology may not. In the largest series, 153 episodes in 143 patients, 47.1% had complete resolution of neurological abnormalities on treatment and 6.3% were left with moderate-to-severe residual disability; so most treated patients recover fully or nearly so and a minority are left disabled. What survives treatment is inversely related to how severe the deficits were and how long they had run before treatment started. Recovery is fastest in the first two months and continues to about six months. This is exactly why folate must not be given blind for an unexplained macrocytic anaemia: folic acid repairs the blood picture and removes the visible signal while the cord damage carries on.
+- **Who becomes deficient:** Adults over 60 with atrophic gastritis and food-bound B12 malabsorption. Autoimmune pernicious anaemia. Gastrectomy or gastric bypass, ileal resection, Crohn's disease. Long-term metformin. Long-term proton pump inhibitors or H2 blockers. Strict vegans and, importantly, their exclusively breastfed infants. Repeated nitrous oxide exposure, recreational or occupational, which inactivates methionine synthase directly.
+- **How common:** About 6% of people aged 60 and over in large US and UK surveys have plasma B12 below 148 pmol/L, and close to 20% are in the marginal range of 148 to 221 pmol/L; prevalence rises with age and is considerably higher in low-income countries across the whole life span (PMID 19116323).
+
 **Food and the body**
 
 - **In food:** Rich
@@ -292,6 +335,20 @@ Rich in animal foods and effectively absent from plant foods, because cobalamin 
 - Contraindicated in hereditary haemochromatosis (HFE C282Y homozygotes) and in transfusion-dependent anaemias such as thalassaemia and myelodysplastic syndrome.
 - Acute iron overdose was historically a leading cause of fatal poisoning in children under six, which is why unit-dose packaging exists. Keep it locked away.
 - Gastrointestinal side effects are the main reason people stop. Upper limit 45 mg/d (US); EFSA sets no limit but a safe level of 40 mg/d.
+
+**What it does, and what happens without it**
+
+Carries oxygen in the blood and powers the enzymes that turn food into usable energy.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** Iron sits at the centre of the haem group in haemoglobin and myoglobin, where it binds and releases oxygen, and in the iron-sulfur clusters of mitochondrial complexes I to III, where it moves electrons during ATP synthesis. It is also the cofactor for ribonucleotide reductase, the rate-limiting enzyme of DNA synthesis, which is why dividing tissues (marrow, gut lining) fail first. In the developing brain it is required for tyrosine hydroxylase (dopamine synthesis), for oligodendrocyte myelination, and for hippocampal maturation, which is the mechanism behind the developmental findings in infants. Absorption is governed by hepcidin, and the direction runs opposite to what is often assumed: when stores are low hepcidin is suppressed, ferroportin survives on enterocytes and macrophages, and fractional absorption rises several-fold, from roughly 10% of intake to 20 to 30%. What hepcidin sets is the ceiling on rate, and there is no regulated route for excreting iron, so a large deficit still takes months to refill and oral iron works slowly. During inflammation hepcidin stays high and blocks absorption despite empty stores, which is why the anaemia of inflammation does not respond to oral iron.
+- **Deficiency disease:** Iron deficiency anaemia (microcytic, hypochromic anaemia). Iron deficiency without anaemia is a recognised earlier stage of the same process.
+- **First signs:** Serum ferritin falls long before haemoglobin does, so a blood test shows depleted stores while the full blood count is still normal. What a person notices at that stage: fatigue disproportionate to activity, breathlessness on stairs, cold hands, hair shedding, restless legs at night, and sometimes pica (craving ice or chalk). Ferritin is an acute-phase protein, so inflammation or infection can mask true depletion.
+- **Untreated:** Haemoglobin falls with small pale red cells, producing pallor, tachycardia, exertional dyspnoea, and in extreme cases high-output cardiac failure. In pregnancy it raises the risk of preterm delivery, low birth weight, and poor infant iron stores. In infancy it impairs motor and cognitive development. In adults over 50 a new iron deficiency is a red flag for occult gastrointestinal bleeding and needs investigation rather than a supplement.
+- **Does it reverse:** In adults, anaemia and its symptoms correct fully once iron is replaced and the cause is fixed; haemoglobin typically rises within 4 to 8 weeks and stores refill over 3 to 6 months. Iron deficiency during infancy is the exception. Children with severe chronic iron deficiency in infancy still scored worse on cognitive, motor and behavioural measures more than 10 years after full iron treatment, so the developmental window matters more than the correction.
+- **Who becomes deficient:** Menstruating women, especially with heavy periods; pregnant women (requirement roughly doubles); infants 6 to 24 months, particularly preterm or low-birth-weight; frequent blood donors; endurance athletes; people with coeliac disease, inflammatory bowel disease, H. pylori gastritis or after bariatric surgery; vegetarian and vegan diets high in phytate; and anyone with chronic gastrointestinal blood loss.
+- **How common:** Anaemia affects about 33.7% of women aged 15 to 49 worldwide on GBD 2021 figures (age-standardised prevalence 33,716.77 per 100,000); WHO's 2019 estimates are lower, near 30% in non-pregnant women and 36 to 37% in pregnant women of that age band, about 29.9% overall. Iron deficiency is the single largest cause. In the US, the reported prevalence of iron deficiency in women depends on both the age band and the ferritin cut-off, which is why published figures disagree so widely: in females aged 12 to 21, ferritin below 25 micrograms/L gives about 38 to 39% (Weyand et al., JAMA 2023), while in a 62,685-woman US and Canadian sample of mean age 49.6 the same cut-off gives 15.33% and ferritin below 15 gives 7.43%; restricted to ages 25 to 54, three definitions span 4.46% to 21.23%.
 
 **Food and the body**
 
@@ -359,6 +416,20 @@ Iron is genuinely abundant in ordinary food, in two chemically distinct forms th
 - An iodine load can precipitate iodine-induced hyperthyroidism in autonomous thyroid nodules or multinodular goitre, and can cause hypothyroidism in autoimmune thyroid disease. Anyone with a thyroid history needs medical advice first.
 - Upper limit 1,100 µg/d (US) but only 600 µg/d (EFSA).
 
+**What it does, and what happens without it**
+
+The raw material for thyroid hormone, which sets metabolic rate and builds the fetal brain.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Permanent damage
+- **In detail:** Iodine has exactly one job: it is the substrate thyroid peroxidase attaches to tyrosine residues on thyroglobulin to make thyroxine (T4) and triiodothyronine (T3). There is no alternative pathway and no substitute element. T3 acting on nuclear thyroid hormone receptors drives basal metabolic rate and thermogenesis in adults. In the fetus it governs neuronal migration, dendritic branching, synaptogenesis and myelination, on a fixed developmental timetable. The fetal thyroid does not begin producing hormone until roughly week 12 to 16, so first-trimester brain development runs entirely on maternal T4 crossing the placenta. Maternal requirement rises to about 250 micrograms per day in pregnancy and lactation.
+- **Deficiency disease:** Iodine deficiency disorders: endemic goitre and hypothyroidism in adults, and endemic cretinism as the severe congenital form.
+- **First signs:** The thyroid enlarges (goitre) as TSH rises to extract more iodine from a falling supply. On testing, a population median urinary iodine concentration below 100 micrograms/L (below 150 in pregnancy) and a raised serum thyroglobulin signal inadequacy before any clinical change. A pregnant woman with mild to moderate deficiency usually notices nothing at all, which is what makes this dangerous.
+- **Untreated:** Endemic cretinism: severe intellectual disability, deaf-mutism, spastic diplegia and stunted growth in a child whose mother was severely deficient during pregnancy. Adults develop overt hypothyroidism with cold intolerance, weight gain, bradycardia and, in extreme untreated cases, myxoedema. Even mild to moderate maternal deficiency is associated with lower verbal IQ and reading scores in the child, on the order of a few points, which is small individually and large across a population.
+- **Does it reverse:** Goitre, adult hypothyroidism and impaired thyroid function correct with iodine repletion. Brain damage sustained in utero and in the first two years of life does not. The window is narrower than the whole pregnancy but far wider than the moment a pregnancy is confirmed: in Cao's trial, iodine given in the first or second trimester left 2% of infants with moderate or severe neurologic abnormality, against 9% when it was given in the third trimester or after birth, so treatment up to the end of the second trimester still protects the fetal brain. Beyond that window iodine given to an affected child undoes nothing; only iodine reaching the mother in time prevents the damage. The practical reading is to start immediately, not to conclude it is too late. This is the strongest irreversibility case among common micronutrients, and the reason salt iodisation is a public health programme rather than an individual choice.
+- **Who becomes deficient:** Pregnant and lactating women anywhere, since requirements rise sharply. Populations in iodine-poor soil regions (mountainous and flood-plain areas) without salt iodisation. People who avoid iodised salt while also avoiding dairy, eggs and seafood, including strict vegans without a deliberate iodine source. Users of non-iodised speciality salts (pink, sea, kosher), which supply essentially no iodine.
+- **How common:** 21 countries still had insufficient population iodine intake as of 2020-2021, down from 113 in 1993, thanks to salt iodisation (IGN Global Scorecard of Iodine Nutrition). Mild to moderate deficiency in pregnant women persists in countries whose general populations are replete, including the UK, Norway and Australia. Iodine deficiency remains the leading preventable cause of intellectual disability worldwide.
+
 **Food and the body**
 
 - **In food:** Rich
@@ -417,6 +488,14 @@ Iodine occurs in ordinary food, and the answer rests on a narrow set of foods: d
 - Expect 1-2 kg of water weight in the first weeks. That is intracellular water, not fat, but it matters if you compete in a weight class.
 - No official upper limit exists. The commonly quoted safety envelope comes from an industry-affiliated position stand, and the actual sentence is absence of evidence of harm rather than demonstrated safety.
 
+**What it does, and what happens without it**
+
+Recycles ATP inside muscle and brain cells, buffering energy during short bursts of intense effort.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Creatine is phosphorylated by creatine kinase to phosphocreatine, a rapid-turnover phosphate reservoir that regenerates ATP from ADP during high-intensity contraction and in neurons. Roughly half of the daily turnover (about 1 to 3 g) is synthesized endogenously from arginine, glycine and methionine by AGAT and GAMT in liver, kidney and pancreas; the remainder comes from meat and fish. There is no dietary requirement. Vegetarians carry intramuscular creatine roughly 10 to 15 percent below omnivores and remain healthy, they simply respond more strongly to supplementation. That range comes from two different designs: Blancquaert et al. 2018 is an intervention trial in 40 omnivorous women in which vastus lateralis total creatine fell 15 percent over 3 months in the vegetarian-plus-placebo arm (against +9.7 percent vegetarian-plus-creatine and +6.8 percent omnivorous control), while cross-sectional comparisons of habitual vegetarians report a smaller gap of around 10 percent. Separately from anything to do with intake, three inborn errors of metabolism produce the cerebral creatine deficiency syndromes: GAMT deficiency, AGAT deficiency and X-linked creatine transporter (SLC6A8) deficiency. These are genetic defects of synthesis or transport, not consequences of eating too little creatine, and no dietary pattern produces them. Onset is in infancy or early childhood with global developmental delay, expressive speech delay out of proportion to other skills and hypotonia, plus early epilepsy and a movement disorder in GAMT deficiency; brain magnetic resonance spectroscopy showing an absent or near-absent creatine peak is the diagnostic finding. Untreated GAMT deficiency causes intractable seizures, autistic features, extrapyramidal movement disorder and severe intellectual disability, with accumulated guanidinoacetate contributing to the neurotoxicity, and creatine transporter deficiency causes lifelong moderate to severe intellectual disability and seizures in affected males. AGAT and GAMT deficiency respond to oral creatine (with arginine restriction and ornithine in GAMT), and 7 of 8 infants treated before 6 months of age had normal developmental outcomes, which is what makes early detection decisive; creatine transporter deficiency does not respond to oral creatine at all, because the transporter that would carry it into the brain is the broken protein. On frequency, GeneReviews gives an estimated GAMT incidence of 1:2,640,000 to 1:250,000; prospective newborn screening in Utah and New York found 1:405,655; a single-centre referral series of 5 patients seen between 2001 and 2011 produced a much higher outlier estimate of 1:114,000. Creatine transporter deficiency is reported in 0.4 to 1.4 percent of cohorts of males with intellectual disability, and separately in 2.64 percent of a more recent cohort of individuals with neurodevelopmental disorders that was neither male-restricted nor restricted to intellectual disability of unknown cause.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -468,6 +547,20 @@ Creatine is a genuine dietary constituent, confined to the skeletal muscle of an
 - Branched-chain amino acids sold alongside are redundant and mechanistically incoherent. No human study has ever quantified muscle protein synthesis from oral BCAAs alone, and both intravenous studies found BCAAs DECREASED it. A 25 g whey serving already contains 5-6 g of BCAAs plus the six essential amino acids BCAAs lack.
 - Heavy-metal loading is a genuine issue in plant and organic powders, which carry more cadmium and lead than whey. Third-party testing matters here more than in most categories.
 - Chronic kidney disease stage 3 or above requires a renal dietitian to set the protein prescription.
+
+**What it does, and what happens without it**
+
+Concentrated food protein supplying the amino acids used to build and repair muscle and every tissue.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** Protein powder is isolated food protein (whey, casein, soy, pea, rice, egg) dried and concentrated. It has no function of its own; the function is that of dietary protein, which supplies the nine indispensable amino acids plus nitrogen for synthesis of muscle, enzymes, albumin, immunoglobulins, haemoglobin, hormones and connective tissue. An adult turns over roughly 250 to 300 g of body protein daily, most of it recycled, with dietary intake covering obligatory oxidative losses. The US RDA is 0.8 g/kg/day. The PROT-AGE group recommends 1.0 to 1.2 g/kg/day for healthy older adults and 1.2 to 1.5 g/kg/day in acute or chronic illness, because the muscle protein synthetic response to a given protein dose is blunted with age (PMID 23867520).
+- **Deficiency disease:** Protein-energy malnutrition, presenting as marasmus and as wasting. Two conditions often listed here do not belong to dietary protein. Kwashiorkor is a form of severe acute malnutrition of uncertain aetiology, not the consequence of eating too little protein: affected children often have protein intakes comparable to marasmic children, some are still breastfed, and high-protein repletion does not preferentially resolve it. Sarcopenia is a muscle disease of ageing, inactivity, inflammation, anabolic resistance and comorbidity under the EWGSOP2 definition, and it occurs in older adults meeting the RDA; low protein intake is one modifiable contributor to it, not the deficiency state itself.
+- **First signs:** Unintentional weight loss, falling mid-upper arm circumference, loss of subcutaneous fat and muscle bulk, thinning brittle hair, delayed wound healing and more frequent infections. Serum albumin falls late and is heavily confounded by inflammation, so it is a poor early marker. In older adults, declining grip strength and slower gait speed usually appear before visible muscle loss.
+- **Untreated:** Marasmus is severe wasting: weight-for-height far below normal, visible loss of muscle and fat, an aged appearance in a young child. Kwashiorkor adds pitting oedema, an enlarged fatty liver, flaky-paint skin desquamation and hair depigmentation. Both carry high case fatality from hypoglycaemia, hypothermia, electrolyte disturbance and overwhelming infection; without structured refeeding the endpoint is death. In older adults, untreated sarcopenia ends in falls, fracture, loss of independence and raised mortality.
+- **Does it reverse:** Acute wasting reverses with careful staged refeeding, and weight-for-height recovers. What does not fully recover is linear growth and neurocognitive development when the episode falls within the first 1000 days: stunting established before age two is largely permanent, and the associated cognitive deficits persist into adulthood. Sarcopenia is partly reversible, since resistance training with adequate protein rebuilds strength and some mass, but muscle lost over decades is not fully regained.
+- **Who becomes deficient:** Children in food-insecure settings, especially around weaning and following infection. Hospitalised, post-surgical and critically ill patients. Older adults with poor appetite, dental problems, dysphagia or social isolation. People with malabsorption, cirrhosis, or cachexia from cancer, advanced kidney or heart failure. Anorexia nervosa. Healthy adults in wealthy countries eating adequate calories almost never fall short of protein.
+- **How common:** In 2024, 42.8 million children under five were wasted (6.6%) and 12.2 million severely wasted (1.9%); 150.2 million were stunted (UNICEF/WHO/World Bank Joint Malnutrition Estimates, 2025 edition). Pooled sarcopenia prevalence in older adults is 17.7% under EWGSOP1 and 11% under EWGSOP2, with study-level ranges of 6.2% to 35.3% and 3.2% to 26.3% respectively (Fernandes LV et al., Aging Clin Exp Res. 2022;34:505-514).
 
 **Food and the body**
 
@@ -531,6 +624,14 @@ Protein powder is itself a food fraction, so there is no molecule here that food
 - It delays absorption of other oral drugs taken at the same time, which matters for narrow-therapeutic-index medicines.
 - Wheat bran, sold beside it under identical digestive-health signage, is a different product and is null in IBS (RR 0.90) and often makes it worse. Do not substitute.
 
+**What it does, and what happens without it**
+
+A gel-forming fibre that holds water in stool, making it softer, bulkier and easier to pass.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Psyllium is the milled seed husk of Plantago ovata, largely a highly branched arabinoxylan that is gel-forming and, unusually among viscous fibres, poorly fermented by colonic bacteria. Because it survives intact to the rectum it retains its water there, producing bulky soft stool with far less gas than fermentable fibres. It normalises stool form in both directions, softening hard stool and firming loose stool. The same gel raises the viscosity of small intestinal contents, which slows glucose absorption and traps bile acids; the resulting loss of bile acids drives hepatic synthesis from cholesterol and lowers LDL. In IBS it is the fibre with actual trial support: ispaghula gave a relative risk of IBS not improving of 0.83 (95% CI 0.73 to 0.94), number needed to treat 7 (95% CI 4 to 25), and is the fibre recommended by the ACG guideline (PMID 33315591).
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -580,6 +681,14 @@ Psyllium husk is itself a food ingredient, the milled seed coat of Plantago ovat
 - The fat-burner claim is the oversold part of the category. Thermogenesis is real and trivial.
 - Contraindicated or needing care in uncontrolled hypertension, arrhythmia, anxiety and panic disorder. EFSA caps pregnancy at 200 mg/d, and derives no safe intake for children.
 - Fluvoxamine is a potent CYP1A2 inhibitor and can raise caffeine exposure severalfold. Taken late, it damages the sleep that training depends on.
+
+**What it does, and what happens without it**
+
+Blocks the brain's sleepiness signal, so you feel more alert and effort feels easier.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Caffeine is an adenosine receptor antagonist, principally at A1 and A2A receptors. Blocking A1 lifts the inhibitory brake that accumulating adenosine places on arousal circuits, and blocking striatal A2A disinhibits dopaminergic signalling, which produces the alertness and the reduced perception of effort. It is a plant alkaloid and a xenobiotic. No human enzyme, receptor or pathway requires it, and there is no intake below which anything fails. Caffeine withdrawal is not a deficiency state: habitual intake upregulates adenosine receptors, so abrupt cessation unmasks adenosine signalling and produces headache, fatigue and low mood for roughly 2 to 9 days, with headache in about half of regular users. That is physical dependence on a drug, and it resolves completely without resuming the drug.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -636,6 +745,20 @@ Caffeine in ordinary drinks sits at the same scale as the supplement dose: USDA 
 - Bleeding risk on warfarin, direct oral anticoagulants, aspirin and clopidogrel. REDUCE-IT showed serious bleeding 2.7% versus 2.1%.
 - Product quality is poor. Half of North American products exceeded voluntary oxidation limits, and 38% of Australian products exceeded primary oxidation limits, with premium pricing giving no advantage. Buy encapsulated, unflavoured and in date.
 - Pregnancy is not straightforward either: ORIP (n=5,486, 900 mg/d) was null and showed excess very-large-for-gestational-age infants. Benefit concentrates in women with low baseline DHA.
+
+**What it does, and what happens without it**
+
+Long-chain fats built into brain, retina and heart cell membranes; they also help resolve inflammation.
+
+- **If you lack it:** Low status causes dysfunction
+- **Reversible:** Partly reversible
+- **In detail:** EPA (20:5n-3) and DHA (22:6n-3) are the long-chain products of omega-3 metabolism. DHA is the dominant structural fatty acid of retinal photoreceptor outer segments and neuronal synaptic membranes, where it sets membrane fluidity and supports the function of embedded proteins such as rhodopsin. EPA is the substrate for series-3 prostaglandins and series-5 leukotrienes, and both are precursors of the resolvins and protectins that actively terminate inflammation. Because the body can make them from alpha-linolenic acid, they are classed as conditionally essential rather than strictly essential; the conversion is inefficient enough that tissue levels track intake of preformed EPA and DHA closely.
+- **Deficiency disease:** NONE. No named clinical deficiency disease exists for EPA and DHA specifically, because they can be synthesised from ALA.
+- **First signs:** Nothing a person would notice. The first measurable change is biochemical: a falling omega-3 index, meaning EPA plus DHA as a percentage of red cell fatty acids. Values at or below about 4% define the low band and 8% or above was the proposed target (Harris and von Schacky, PMID 15208005). Symptoms sometimes attributed to low omega-3 status, such as dry skin or low mood, are non-specific and have not been shown to track the index.
+- **Untreated:** There is no severe clinical syndrome attributable to low EPA and DHA alone in an adult who is otherwise fed. Frank neurological deficiency signs belong to total omega-3 deprivation, which is an ALA problem (see that entry). The clearest documented consequence of low long-chain omega-3 supply is developmental: preterm infants cut off from third-trimester placental DHA transfer accrete far less retinal and brain DHA, with fetal accretion roughly doubling in the last five weeks of gestation.
+- **Does it reverse:** In adults repletion is complete. Red cell EPA and DHA rise over roughly three to four months, approximately the erythrocyte lifespan, and normalise fully with sustained intake. The partial designation covers the perinatal window only: in rhesus monkeys deprived of n-3 before birth, brain phospholipids had normalised by three years but retinal DHA reached only 84% of controls. Behavioural visual acuity thresholds were normal at 4, 8 and 12 weeks, but cone and rod ERG a-wave amplitudes stayed persistently reduced, so the residue after prenatal deprivation is functional as well as biochemical, and the study answers its own title question in the negative (Anderson GJ et al., Pediatr Res. 2005;58:865-72).
+- **Who becomes deficient:** People who eat no oily fish and take no supplement. Vegans and vegetarians, who have no direct dietary source of preformed EPA or DHA. Preterm infants. Carriers of FADS1/FADS2 minor alleles, who have lower desaturase activity and convert ALA less efficiently.
+- **How common:** Not a disease rate. As a status distribution, omega-3 index values at or below 4% are typical across North America, Central and South America, Europe, the Middle East, Southeast Asia and Africa, while levels above 8% occur mainly around the Sea of Japan, in Scandinavia and in some indigenous coastal populations, based on 298 studies (Stark et al., PMID 27216485).
 
 **Food and the body**
 
@@ -695,6 +818,20 @@ Defensible in one specific situation. Outside it there is no case.
 - The 600 mg/d migraine dose exceeds the US supplemental upper limit of 350 mg and is 2.4 times the EFSA limit of 250 mg. Diarrhoea is the dose-limiting effect.
 - Contraindicated without supervision in chronic kidney disease stage 4-5 and dialysis, where hypermagnesaemia causes bradycardia, hypotension and respiratory depression. Also in myasthenia gravis.
 - Chelates tetracyclines, fluoroquinolones and bisphosphonates. Separate by 2-4 hours.
+
+**What it does, and what happens without it**
+
+A cofactor in hundreds of reactions; every molecule of ATP works bound to magnesium.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Fully reversible
+- **In detail:** The biologically active form of ATP is Mg-ATP, so magnesium is an obligate participant in every kinase reaction, every ATPase and both DNA and RNA polymerases, more than 300 enzymes in total. It acts as a physiological calcium antagonist: it blocks the NMDA receptor channel at rest and dampens calcium entry in vascular smooth muscle and myocardium, which is why depletion raises neuromuscular excitability and arrhythmia risk. Magnesium is also required both for parathyroid hormone secretion and for end-organ response to it, so depletion produces a hypocalcaemia that will not correct until magnesium is replaced. About 60% of body magnesium is locked in bone and most of the rest is intracellular, leaving only about 1% in serum. Serum magnesium is therefore a poor guide to total body status and can be normal in a genuinely depleted person.
+- **Deficiency disease:** Symptomatic hypomagnesaemia (ICD-10 E83.4). There is no eponymous deficiency disease; the severe presentation is hypomagnesaemic tetany with refractory hypocalcaemia and hypokalaemia. Inherited renal magnesium wasting (Gitelman syndrome, familial hypomagnesaemia with hypercalciuria) is a genetic tubular disorder rather than a dietary deficiency.
+- **First signs:** Usually nothing at all. Low dietary intake shows up as intake below the estimated average requirement with a normal serum magnesium, because the kidney conserves aggressively. The first things a person notices are muscle cramps, eyelid or hand tremor, and irritability or poor sleep, all of which are non-specific. In practice a low serum magnesium is most often spotted incidentally on a metabolic panel run for unexplained hypokalaemia or hypocalcaemia.
+- **Untreated:** Tetany with positive Chvostek and Trousseau signs, paraesthesiae, seizures, and cardiac arrhythmias including atrial fibrillation and torsades de pointes. Accompanying hypokalaemia and hypocalcaemia resist correction until magnesium itself is replaced, which is the clinically important teaching point. Severe cases are almost always driven by drug or gastrointestinal or renal losses rather than by diet alone.
+- **Does it reverse:** Repletion corrects the neuromuscular and cardiac features and allows the linked potassium and calcium abnormalities to correct, with no residual deficit once the underlying cause is addressed. The one caveat is timing rather than permanence: serum magnesium normalises before body stores do, so bone and intracellular pools take days to weeks to refill and stopping too early lets the deficit return.
+- **Who becomes deficient:** Chronic alcohol use, one of the leading causes. Gastrointestinal losses from chronic diarrhoea, malabsorption, short bowel and after bariatric surgery, together with renal losses, account for a large share of clinically encountered hypomagnesaemia. Long-term proton pump inhibitor use, which can cause profound hypomagnesaemia. Loop and thiazide diuretics, cisplatin, amphotericin, and calcineurin inhibitors; drug causes dominate in hospital populations. Poorly controlled diabetes with osmotic diuresis. Refeeding syndrome. In someone with normal kidneys and a normal gut, diet alone rarely produces symptomatic deficiency.
+- **How common:** About 48% of Americans of all ages consume less magnesium from food and beverages than their estimated average requirement (NHANES 2013-2016). Clinically significant hypomagnesaemia is less common than that figure suggests: roughly 2.5% to 15% in the general population, rising to about 10% to 20% of hospitalised patients and higher in intensive care. The gap between the intake figure and the clinical one is why low intake is often overstated as widespread deficiency.
 
 **Food and the body**
 
@@ -759,6 +896,20 @@ Magnesium sits in the chlorophyll molecule and in the outer layers of seeds and 
 - Formulation matters and most retail lozenges are wrong. Citric acid and sorbitol bind zinc and stop it being released.
 - Chelates fluoroquinolones and tetracyclines. Nasal zinc caused permanent anosmia and should never be used.
 
+**What it does, and what happens without it**
+
+Zinc runs hundreds of enzymes; the lozenge form targets cold symptoms in the throat.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** Zinc is a structural or catalytic component of more than 300 enzymes and of the roughly 2,000 zinc-finger transcription factors that bind DNA, so it is required for gene expression, DNA and RNA synthesis, and cell division. Tissues with fast turnover fail first: gut mucosa, skin, growth plate cartilage, and lymphocytes. Thymic function and T-cell development are zinc-dependent, which is the basis of the immune effects. The lozenge specifically is a different proposition from nutrition: it works (where it works) by releasing ionic zinc onto the oropharyngeal mucosa, where it appears to interfere with rhinovirus replication and ICAM-1 binding locally. That is a short-course pharmacological use in someone whose zinc status is usually normal. Lozenges are a poor way to correct systemic deficiency. On the toxicity side, sustained intake above the 40 mg/day tolerable upper limit induces intestinal metallothionein and progressively impairs copper status; the upper limit itself rests on a marginal fall in erythrocyte superoxide dismutase at around 60 mg/day, a biochemical rather than a clinical endpoint. Frank copper-deficiency anaemia and myeloneuropathy are reported at prolonged intakes several times higher, in the region of 100 to 300 mg/day, typically from high-dose supplements or zinc-containing denture cream.
+- **Deficiency disease:** Nutritional zinc deficiency (growth failure, chronic diarrhoea, impaired immunity, characteristic dermatitis). Acrodermatitis enteropathica is the inherited form, caused by SLC39A4 mutations impairing zinc uptake, and is a genetic disorder rather than a consequence of diet.
+- **First signs:** Blunted taste and smell, poor appetite, slow wound healing, and infections that are more frequent and last longer. In children, growth velocity crosses centiles downward before any skin change appears. There is no good early biomarker: plasma zinc falls only late, drops during any inflammatory episode, and varies with time of day and recent meals, so a normal plasma zinc does not exclude deficiency.
+- **Untreated:** Stunting and delayed sexual maturation in children, persistent diarrhoea that worsens the deficiency in a loop, alopecia, and a distinctive bullous, crusted dermatitis around the mouth, eyes, genitals and on the hands and feet. Cell-mediated immunity is impaired, with thymic atrophy and reduced T-cell counts. In young children in low-income settings, zinc deficiency contributes measurably to deaths from diarrhoeal disease and pneumonia.
+- **Does it reverse:** Dermatitis, taste disturbance, diarrhoea and immune function recover within days to a few weeks of repletion, and the response is often dramatic. Linear growth is the part that does not fully catch up: height lost during a prolonged deficiency spanning a growth period is only partly recovered, and final adult stature can remain reduced.
+- **Who becomes deficient:** People on cereal-based diets high in phytate with little animal protein, which is the dominant global pattern. Children in low-income settings. Malabsorption from Crohn's disease, coeliac disease or short bowel; bariatric surgery. Chronic alcohol use, which causes urinary zinc loss. Chronic diarrhoea, sickle cell disease, and older adults with restricted intake. High-dose supplemental iron taken at the same time competes for the same absorptive route.
+- **How common:** An estimated 17.3% of the world's population is at risk of inadequate zinc intake, based on national food-supply zinc availability (Wessells and Brown, 2012). Clinically overt nutritional zinc deficiency in healthy adults in high-income countries is uncommon.
+
 **Food and the body**
 
 - **In food:** Rich
@@ -818,6 +969,14 @@ Two separate questions share a mineral name here, and they get different answers
 - Not for children. The gummy format plus up to 347% overdosing plus palatability is a bad combination.
 - Retail doses of 5-10 mg are far above what the pharmacology needs and can shift the clock the wrong way if taken at the wrong time.
 - Cochrane specifically flagged caution in people on warfarin and people with epilepsy. Fluvoxamine markedly raises melatonin exposure via CYP1A2 inhibition.
+
+**What it does, and what happens without it**
+
+A hormone the pineal gland releases after dark to tell the body clock that night has begun.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Melatonin is synthesised from serotonin in the pineal gland on a schedule set by the suprachiasmatic nucleus, rising roughly two hours before habitual sleep onset and clearing by morning. It acts through MT1 and MT2 receptors on the clock itself, so it works as a timing signal rather than a sedative, which is why small evening doses shift sleep phase more reliably than large doses deepen sleep. There is no dietary requirement at all: the body makes every molecule it uses. Nocturnal peak concentrations do fall with age (pooled maxima around 49 pg/mL in study populations averaging 65 to 70 years and around 28 pg/mL in those 75 and over), and ordinary evening room light below 200 lux delays melatonin onset in 99% of people and shortens the nocturnal melatonin window by about 90 minutes, so the common problem is a mistimed or blunted signal rather than an absent nutrient.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -881,6 +1040,14 @@ Melatonin is genuinely present across a wide range of plant and animal foods, an
 - There is a real harm signal in the critically ill. In predicted severe acute pancreatitis, mortality was 16% versus 6% (RR 2.53) with 9 cases of bowel ischaemia, 8 fatal, versus zero on placebo. The FDA also warned providers after a preterm infant died of probiotic-associated sepsis.
 - Absolute contraindications: central venous catheter, neutropenia, severe immunocompromise, critical illness, and preterm infants outside a supervised protocol.
 
+**What it does, and what happens without it**
+
+Live bacteria given in defined doses, where each named strain acts as its own drug.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** The accepted definition is live micro-organisms which, when administered in adequate amounts, confer a health benefit on the host, and the operative unit of evidence is the strain, written as genus, species and an alphanumeric designator (for example Lacticaseibacillus rhamnosus GG or Saccharomyces boulardii CNCM I-745). Strain-level genetics determine adhesion proteins, bacteriocin production, bile salt hydrolase activity and short-chain fatty acid output, so a trial result for one strain carries no information about a different strain of the same species. Most administered strains transit the gut without colonising, and the effect ceases when dosing stops. This is a therapeutic product class, not a nutrient class, so there is nothing a person can be short of.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** None
@@ -919,6 +1086,14 @@ SYNTHETIC here means no dietary source, not an artificial molecule: a named prob
 - Berberine alone showed no statistical advantage over lifestyle change. The benefit appears as an add-on to an existing oral hypoglycaemic.
 - The trial base is dominated by small Chinese trials that meta-analysts repeatedly describe as having low methodological quality.
 - No upper limit exists. Toxicology review reports dose-dependent gastrointestinal ulceration, immunotoxicity, phototoxicity, neurotoxicity and cardiotoxicity. Contraindicated in pregnancy and in neonates (kernicterus risk).
+
+**What it does, and what happens without it**
+
+A plant alkaloid that lowers blood sugar and cholesterol; the body has no need for it.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Berberine is an isoquinoline alkaloid extracted from Berberis, Coptis and Hydrastis species. Its metabolic effects are usually attributed to activation of AMP-activated protein kinase, and the upstream trigger appears to be mild inhibition of mitochondrial complex I that raises the cellular AMP to ATP ratio (Turner et al., Diabetes 2008;57:1414-1418), giving it a mechanistic family resemblance to metformin. AMPK is not the whole account: Xu et al. confirmed the complex I effect but concluded that berberine promotes glucose consumption independently of AMPK activation. Downstream it suppresses hepatic gluconeogenesis, and it upregulates hepatic LDL receptor expression through ERK-dependent stabilisation of LDL receptor mRNA rather than through AMPK (Kong et al., Nat Med 2004;10:1344-1351). Oral absorption is very poor, with absolute bioavailability under 1% in rats, so a substantial share of any effect is probably exerted in the gut lumen and on the microbiota. It is a xenobiotic: no human tissue synthesises it and no physiological process depends on its presence.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -959,6 +1134,20 @@ Berberine is an isoquinoline alkaloid from the roots, rhizomes and stem bark of 
 - Intravenous vitamin C in sepsis is HARMFUL. The LOVIT trial (n=863) found more death or persistent organ dysfunction in the treatment arm.
 - Avoid with a history of calcium oxalate kidney stones or hyperoxaluria, and in renal impairment, because ascorbate is metabolised to oxalate.
 - Upper limit 2,000 mg/d, set on osmotic diarrhoea.
+
+**What it does, and what happens without it**
+
+Keeps collagen strong and wounds healing; without it blood vessels and gums break down.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Fully reversible
+- **In detail:** Ascorbate is the reducing cofactor that keeps the iron atom in a family of dioxygenases in its active state. The best known are prolyl-4-hydroxylase and lysyl hydroxylase, which hydroxylate collagen so the triple helix is stable and can be cross-linked; without them the collagen laid down is defective, which explains bleeding, poor wound healing and the reopening of old scars. The same chemistry serves dopamine beta-hydroxylase (noradrenaline synthesis), peptidylglycine alpha-amidating monooxygenase (peptide hormone amidation), two carnitine biosynthesis enzymes, and the HIF prolyl hydroxylases and TET and JmjC demethylases in gene regulation. Ascorbate also reduces dietary non-haem iron to the absorbable ferrous form. Humans cannot synthesise it because the gulonolactone oxidase gene is inactive.
+- **Deficiency disease:** Scurvy
+- **First signs:** After roughly one to three months of intake below about 10 mg/day, plasma ascorbate falls and body stores drop under about 300 mg. The first phase is fatigue, irritability and diffuse aching in the legs, with nothing visible. Then come the specific skin signs: perifollicular hyperkeratosis with corkscrew-shaped body hairs on the thighs and shins, perifollicular haemorrhage, easy bruising, and swollen, spongy, bleeding gums in anyone who still has teeth.
+- **Untreated:** Bleeding into skin, muscle and joints, haemarthrosis, and subperiosteal haemorrhage, which in children causes severe limb pain and refusal to move (pseudoparalysis). Old wounds and scars break down, teeth loosen and are lost, anaemia and oedema develop. Untreated scurvy is fatal, usually from haemorrhage or cardiac failure, though it very rarely reaches that stage in current practice because treatment is trivially available.
+- **Does it reverse:** Complete and unusually fast. Fatigue and pain begin improving within 24 to 48 hours of treatment, bleeding gums and bruising settle over one to two weeks, and full recovery takes around three months on 100 to 300 mg/day. No permanent deficit remains. The only exception is teeth already lost, which do not grow back.
+- **Who becomes deficient:** People whose diets contain almost no fruit or vegetables: highly restrictive or selective eaters including some autistic children, people living alone with severe mental illness or dementia, alcohol and drug dependence, homelessness and food insecurity. Also smokers (requirement about 35 mg/day higher), people on dialysis, malabsorption, and some patients after bariatric surgery. Scurvy is a disease of dietary pattern, not of insufficient supplementation; roughly 10 mg/day prevents it and a single orange comfortably exceeds that.
+- **How common:** 7.1% (SE 0.9) of the US population aged 6 and over had serum ascorbate below 11.4 micromol/L in NHANES 2003 to 2004, down from about 13% in NHANES III, with the highest rates in smokers and low-income groups (PMID 19675106).
 
 **Food and the body**
 
@@ -1012,6 +1201,14 @@ Genuinely rich and cheap in ordinary food, and the verification pass challenged 
 - For statin-associated muscle symptoms, which is where most retail CoQ10 is actually sold, it does nothing: weighted mean difference -0.42 (-1.47 to 0.62) and adherence RR 0.99 across 7 trials.
 - Warfarin interaction: CoQ10 is structurally similar to vitamin K, and one cross-sectional analysis of patients presenting with anticoagulant overdose found an association with bleeding.
 - Expensive relative to everything else in this document, and the 1,200 mg observed safe level comes from a risk assessment whose authors were affiliated with an industry trade body.
+
+**What it does, and what happens without it**
+
+Carries electrons in the mitochondrial energy chain and protects cell membranes from oxidation.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Coenzyme Q10 is a lipid-soluble benzoquinone with a ten-unit isoprenoid tail. In the inner mitochondrial membrane it shuttles electrons from complexes I and II to complex III, and it is also the electron acceptor for dihydroorotate dehydrogenase in pyrimidine synthesis and for fatty acid beta-oxidation through ETF-QO. Its reduced form, ubiquinol, is the main lipid-phase antioxidant of membranes and regenerates vitamin E. Humans synthesize it through the mevalonate pathway, the same pathway statins inhibit, and food contributes only a few milligrams a day. It is not a vitamin, there is no dietary requirement, and no dietary CoQ10 deficiency state exists. What does exist is primary coenzyme Q10 deficiency (COQ10D1 to COQ10D10), an autosomal recessive inborn error of CoQ10 biosynthesis caused by variants in PDSS1, PDSS2, COQ2, COQ4, COQ5, COQ6, COQ7, COQ8A, COQ8B or COQ9. That is a genetic disorder of synthesis, not a consequence of low dietary intake, and it is ultra-rare: GeneReviews notes that prevalence data are limited by the small number of affected individuals reported, ranging from 2 to just over 10 families per causative gene. Presentation spans the neonatal period to the seventh decade: steroid-resistant nephrotic syndrome with proteinuria, cerebellar ataxia, exercise intolerance and muscle weakness, or encephalopathy with seizures, and diagnosis rests on CoQ10 measurement in muscle or fibroblasts plus genetic testing. Severe neonatal-onset forms cause fatal multisystem disease with encephalopathy, hypertrophic cardiomyopathy and renal failure, while later-onset forms progress to cerebellar atrophy with disabling ataxia or to end-stage kidney disease. High-dose oral CoQ10 can block progression of the kidney disease and improve some myopathic and encephalopathic features, and works best when started before damage is established; established severe neurological or renal damage does not reverse, and neonatal-onset disease responds poorly, partly because CoQ10 penetrates the blood-brain barrier badly. Separately and far more commonly, statins lower circulating CoQ10. Marcoff and Thompson's narrative systematic review of 9 observational studies and 6 randomised trials reports reductions of 16 to 54 percent, with the largest single trial (n=1,049) finding 38 percent with atorvastatin and 27 percent with lovastatin; pooled meta-analysis puts the effect at a weighted mean difference of -0.44 micromol/L (95% CI -0.52 to -0.37). That is a change in a blood concentration, not the disease described above, and trials of CoQ10 for statin-associated muscle symptoms have given conflicting results.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -1071,6 +1268,14 @@ Organ meats and oily fish are genuine, substantial sources, so the substance que
 - It is a leading trigger of insulin autoimmune syndrome (Hirata disease) in people carrying HLA-DRB1*04 alleles, producing anti-insulin antibodies and severe hypoglycaemia in non-diabetics. Almost nobody knows their HLA status.
 - No upper limit has been set by any authority.
 
+**What it does, and what happens without it**
+
+A cofactor mitochondria build and clip onto the enzymes that burn carbohydrate and amino acids.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Lipoic acid functions as a covalently bound prosthetic group (lipoamide) on the E2 subunits of pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain ketoacid dehydrogenase and the glycine cleavage system, where its dithiolane ring carries acyl groups and reducing equivalents. Humans make it de novo inside mitochondria via lipoic acid synthase and attach it enzymatically to apoproteins; free lipoate from food or capsules is never used for this. Rare biallelic LIAS, LIPT1 or LIPT2 variants cause a severe neonatal encephalopathy with lactic acidosis and hyperglycinaemia, and oral lipoic acid does not rescue the lipoylation defect in patients or in patient fibroblasts, which is precisely why that genetic disorder is not a deficiency of the supplement molecule. Supplemental alpha-lipoic acid therefore acts only as a free redox-active compound, unrelated to the cofactor role, and its best evidence is symptomatic relief in diabetic polyneuropathy.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Trace
@@ -1119,6 +1324,14 @@ TRACE was challenged and upheld, and the qualitative point matters more than the
 - The meta-analysis is routinely quoted for the flattering subgroup and never for the null one.
 - No long-term safety data beyond a few months, and no upper limit set by any authority.
 
+**What it does, and what happens without it**
+
+The raw material for carnosine, which buffers acid build-up in muscle during hard efforts.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Beta-alanine is the rate-limiting substrate for carnosine synthase, which joins it to histidine to form carnosine in skeletal muscle. Carnosine acts as an intracellular pH buffer across the physiological range and also chelates metals and scavenges reactive carbonyls. Supplementation raises muscle carnosine by up to 64 percent at 4 weeks and up to 80 percent at 10 weeks, and produces a small performance gain concentrated in efforts of roughly 0.5 to 10 minutes, with no benefit below 30 seconds and only a non-significant moderate effect beyond 10 minutes (Saunders et al. 2017, 40 studies, 1,461 subjects); the ISSN position stand places the most pronounced benefit in open end-point tasks and time trials lasting 1 to 4 minutes. The body forms beta-alanine from uracil degradation in the liver and also obtains it from meat-derived carnosine and anserine. It is a non-essential amino acid with no recommended intake.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -1165,6 +1378,14 @@ Free beta-alanine, the molecule in the tub, is manufactured and no food supplies
 - Antibacterial mouthwash abolishes the effect entirely, because the pathway depends on commensal bacteria on the tongue.
 - Ergogenic doses of 6-8 mmol exceed the EFSA and JECFA acceptable daily intake for nitrate of 3.7 mg/kg body weight per day in a single serving. That is a real regulatory tension, not a technicality.
 - Additive hypotension with organic nitrates such as glyceryl trinitrate and isosorbide mononitrate, and with PDE5 inhibitors such as sildenafil and tadalafil. Care with any antihypertensive.
+
+**What it does, and what happens without it**
+
+Not a nutrient. Gut and mouth bacteria turn it into nitric oxide, which widens blood vessels.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Inorganic nitrate from beetroot and leafy greens is absorbed in the proximal small intestine, and roughly a quarter of the circulating pool is actively concentrated by the salivary glands. Commensal bacteria on the posterior tongue reduce it to nitrite, and swallowed nitrite is further reduced to nitric oxide in the acidic stomach and in hypoxic tissue by deoxyhaemoglobin, deoxymyoglobin, xanthine oxidoreductase and other metalloproteins. This enterosalivary route is a supplementary supply line that runs in parallel with the body's own synthesis of nitric oxide from L-arginine by nitric oxide synthase, which is the primary and always-available pathway. That distinction is what makes nitrate a usable substrate rather than a required nutrient: NOS-derived nitric oxide continues normally on a nitrate-free diet. Measured effects are pharmacological and dose-dependent: vasodilation with a modest fall in blood pressure, and a reduced oxygen cost of submaximal exercise. Antibacterial mouthwash abolishes the effect entirely by killing the nitrate-reducing oral flora, which is the clearest demonstration that the mechanism is microbial rather than nutritional.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -1230,6 +1451,14 @@ Vegetables are the dietary source and several reach supplement-level concentrati
 - Photosensitivity, and it should be stopped before elective surgery.
 - Practically speaking this is suitable for almost nobody, because almost everyone is on something.
 
+**What it does, and what happens without it**
+
+A herbal antidepressant that also speeds up how the liver destroys many prescription drugs.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Hypericum perforatum extracts contain hypericin, pseudohypericin and hyperforin; hyperforin is the antidepressant-relevant constituent and inhibits reuptake of serotonin, noradrenaline and dopamine non-selectively. Hyperforin is also a potent ligand for the pregnane X receptor (Ki 27 nM), the nuclear receptor that drives transcription of CYP3A4 and P-glycoprotein, so the extract induces the clearance of a very wide range of co-administered drugs. Because CYP3A4 handles the oxidative metabolism of more than half of all medicines, this produces documented therapeutic failures with ciclosporin, tacrolimus, indinavir, warfarin and combined oral contraceptives, and serotonin toxicity when combined with SSRIs. Hypericin and hyperforin are plant products with no role in human physiology and no dietary requirement.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Not food
@@ -1268,6 +1497,20 @@ St John's wort is the dried flowering aerial parts of Hypericum perforatum, a Eu
 - Using enzyme blends to self-treat undiagnosed persistent gut symptoms delays the diagnosis of coeliac disease, inflammatory bowel disease, pancreatic disease and colorectal cancer. That is the main harm.
 - Consumer enzyme products are dosed in non-comparable proprietary activity units by design, so cross-product comparison is impossible.
 - Pancrelipase is porcine-derived, which matters for observant Muslim and Jewish patients and for vegetarians, and cystic fibrosis patients must not exceed the weight-based ceiling because of fibrosing colonopathy risk.
+
+**What it does, and what happens without it**
+
+Gut enzymes that split milk sugar and break down fat, protein and starch.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** Lactase-phlorizin hydrolase sits in the small intestinal brush border and cleaves lactose into glucose and galactose; whatever escapes digestion reaches the colon, where bacteria ferment it into hydrogen, methane and short-chain fatty acids, producing the familiar symptoms. The exocrine pancreas secretes lipase and colipase, amylase, and the proteases trypsinogen and chymotrypsinogen, and lipase is the critical one because no other organ can substitute for it. The gland holds a large functional reserve: in the classic secretion studies, steatorrhoea did not appear until lipase output had fallen to 10% of normal or below, and creatorrhoea only below 10% of normal trypsin, which is why malabsorption in chronic pancreatitis declares itself late. The decline of intestinal lactase after weaning is the normal human developmental programme; retaining it into adulthood (lactase persistence) is the derived condition, driven chiefly by the LCT -13910C>T variant upstream of the lactase gene and selected for in dairying populations.
+- **Deficiency disease:** Exocrine pancreatic insufficiency is the genuine clinical deficiency in this pairing. Congenital lactase deficiency is a separate, rare autosomal recessive disorder presenting in the newborn. Adult lactase non-persistence is NOT a deficiency disease: it is the ancestral and worldwide-majority human phenotype.
+- **First signs:** Exocrine pancreatic insufficiency starts with bloating, flatulence, loose pale stools and unintended weight loss despite preserved appetite; a low faecal elastase-1 and falling fat-soluble vitamin levels (A, D, E, K) usually precede visible steatorrhoea by a long interval. Lactase non-persistence, being a physiological trait rather than a disease, shows only as dose-dependent bloating, cramps, audible bowel sounds and osmotic diarrhoea beginning 30 minutes to 2 hours after a lactose load, with most affected adults tolerating around 12 g of lactose (one glass of milk) without trouble.
+- **Untreated:** Untreated exocrine pancreatic insufficiency causes overt steatorrhoea, progressive weight loss and sarcopenia, fat-soluble vitamin deficiency with osteopenia and osteoporosis, and in cystic fibrosis, failure to thrive in infancy; excess mortality in chronic pancreatitis is concentrated in those with untreated malabsorption. Lactase non-persistence has no severe clinical endpoint whatsoever. The only downstream risk is a calcium and vitamin D shortfall in people who eliminate dairy entirely without substituting an alternative source.
+- **Does it reverse:** Pancreatic enzyme replacement restores fat and protein absorption, reverses weight loss and corrects fat-soluble vitamin levels while it is being taken, but destroyed acinar tissue does not regenerate, so treatment is lifelong and bone density already lost recovers only in part. Lactase non-persistence is permanent because it is the normal genetic programme rather than a lesion; symptoms resolve completely with lactose restriction, fermented dairy or exogenous lactase, and the underlying trait is not something to correct.
+- **Who becomes deficient:** Exocrine pancreatic insufficiency: people with chronic pancreatitis (as many as 8 in 10 eventually), cystic fibrosis (the great majority, most within the first year of life), pancreatic cancer, and those after pancreatic resection or major gastric surgery. Lactase non-persistence: the global adult majority, with the highest frequencies in East and Southeast Asian, sub-Saharan African, Indigenous American and Middle Eastern populations, and the lowest in northern and northwestern Europeans and their descendants.
+- **How common:** Roughly two-thirds of the world's adult population is lactase non-persistent, which is the normal phenotype rather than a disease prevalence (PMID 32899182). Exocrine pancreatic insufficiency prevalence is condition-dependent: up to about 80% of adults with chronic pancreatitis and close to 9 in 10 infants with cystic fibrosis within the first year.
 
 **Food and the body**
 
@@ -1313,6 +1556,14 @@ No good evidence for the marketed claim. Where a genuine narrow signal exists it
 - The nutrient-gap argument has never converted into a clinical outcome in a healthy replete adult, and this is a roughly 8 billion US dollar per year category resting on it.
 - Vitamin K content antagonises warfarin, so switching brands or starting and stopping the product shifts INR. Treat it as a dosing variable.
 - Risk comes from stacking. A multivitamin plus a separate high-dose single nutrient is how people cross an upper limit without noticing.
+
+**What it does, and what happens without it**
+
+A mixed low-dose top-up of many nutrients at once; it has no function of its own.
+
+- **If you lack it:** Mixed product
+- **In detail:** A multivitamin/multimineral is a product category rather than a substance: a fixed combination typically supplying somewhere around the RDA for ten to thirty vitamins and minerals in a single daily dose. It has no physiology of its own, and whatever it does in the body is simply the sum of the individual nutrients, each acting through its own pathway. Formulations differ enormously in which nutrients are included, in what chemical form (iron as sulphate or bisglycinate, folate as folic acid or 5-MTHF, vitamin D as D2 or D3), and at what fraction or multiple of the RDA, so trial evidence about one product transfers poorly to another. Its coherent use is as insurance against gaps in an inadequate diet. A diagnosed deficiency is treated with the specific nutrient at a therapeutic dose, which a multivitamin does not supply.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -1375,6 +1626,14 @@ This is a product category rather than a molecule, and almost every nutrient ins
 - Collagen is a poor-quality protein. It lacks tryptophan and is a poor source of essential amino acids, so it displaces better protein in the diet.
 - Marine collagen in fish allergy; bovine sourcing matters for religious dietary restriction and BSE-region concerns.
 
+**What it does, and what happens without it**
+
+Hydrolysed animal collagen eaten as protein; the body builds its own collagen from ordinary amino acids.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Collagen is the most abundant protein in the body, roughly a third of total body protein, forming the tensile framework of skin, tendon, ligament, bone matrix, cartilage and vessel wall. The body synthesises it from ordinary amino acids as a repeating Gly-X-Y sequence rich in proline; the post-translational hydroxylation that stabilises the triple helix is carried out by prolyl and lysyl hydroxylases, which require vitamin C, iron and 2-oxoglutarate. Ingested collagen is digested like any other protein, though some di- and tripeptides such as prolyl-hydroxyproline do reach the bloodstream intact, which is the proposed mechanism for any effect beyond amino acid supply. As a protein source collagen is nutritionally incomplete: it contains no tryptophan and is low in several other indispensable amino acids.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -1421,6 +1680,14 @@ RICH was challenged and upheld, and this is the one entry whose trial dose is ge
 - This is the best-documented supplement-anticoagulant interaction in this document: 20 FDA MedWatch reports linking glucosamine plus chondroitin to raised INR, bruising and bleeding on warfarin, plus 21 WHO database reports of raised INR.
 - Shellfish-derived glucosamine matters in shellfish allergy.
 
+**What it does, and what happens without it**
+
+Cartilage building blocks your own cells make from glucose, so eating them is not required.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Glucosamine is an amino sugar produced in every cell from fructose-6-phosphate by glutamine-fructose-6-phosphate amidotransferase, the entry step of the hexosamine biosynthetic pathway that supplies UDP-N-acetylglucosamine for glycosaminoglycans, proteoglycans and O-GlcNAc signalling. Chondroitin sulfate is a sulfated glycosaminoglycan chain assembled on proteoglycan core proteins in the Golgi. Both are made on demand from glucose and glutamine, so neither is a required dietary component and neither has a recommended intake. Orally administered chondroitin is a large polysaccharide with low and variable absorption, and oral glucosamine does not raise synovial fluid concentrations anywhere near those used in cartilage cell experiments. The real question is efficacy rather than nutritional need: the NIH GAIT trial found no significant benefit over placebo for knee osteoarthritis pain in the overall study population.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Mixed
@@ -1463,6 +1730,14 @@ The two compounds have different answers and must not share one label. Glucosami
 - A systematic review of 10 trials in 437 people found grip strength 29.9 kg before and 30.5 kg after, with skeletal muscle mass index unchanged. Non-significant.
 - No contraindications are characterised because no adequately powered safety population exists. No upper limit has been set and EFSA has not authorised it as a novel food.
 - Avoid in pregnancy, lactation and active malignancy. NAD+ is a substrate for tumour metabolism and no oncology safety data exist.
+
+**What it does, and what happens without it**
+
+A building block cells use to make NAD+, the coenzyme that keeps energy metabolism running.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Nicotinamide mononucleotide is an intermediate in the NAD+ salvage pathway, formed when nicotinamide phosphoribosyltransferase attaches nicotinamide to phosphoribosyl pyrophosphate, then converted to NAD+ by NMN adenylyltransferases. NAD+ is the electron carrier for hundreds of dehydrogenases and the consumed substrate for sirtuins, PARPs and CD38. NMN is thought to be dephosphorylated to nicotinamide riboside before cellular uptake, though the human intestinal route is not established and the proposed direct NMN transporter is contested: Slc12a8-mediated uptake was reported in mouse small intestine (Grozio et al. 2019) and then disputed on methodological grounds (Shats et al. 2020), and no human transporter has been demonstrated in either direction. NMN itself is not an essential nutrient and has no recommended intake. The essential nutrient in this pathway is niacin (vitamin B3), whose deficiency causes pellagra, a real and severe disease that has nothing to do with NMN intake.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -1516,6 +1791,14 @@ NMN really is present in ordinary plant and animal foods. Mills et al. 2016 Tabl
 - Mild cognitive impairment trials at 1,000 mg/d were null.
 - EFSA caps pregnancy and lactation at 230 mg/d. Sum total nicotinamide exposure if also taking prescription niacin. As with NMN, no oncology safety data exist.
 
+**What it does, and what happens without it**
+
+A form of vitamin B3 that cells convert into NAD+, the energy metabolism coenzyme.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Nicotinamide riboside is the riboside of nicotinamide, phosphorylated by nicotinamide riboside kinases to NMN and then to NAD+, bypassing the NAMPT step. It occurs naturally in trace amounts in milk. Single oral doses raise whole-blood NAD+ dose-dependently in humans, which is the basis for marketing it as an NAD+ booster; whether raising NAD+ produces clinical benefit in healthy people remains unsettled. NR is a minor chemical form of vitamin B3 rather than a separate essential nutrient. Vitamin B3 deficiency does exist and is called pellagra (dermatitis, diarrhoea, dementia), but it results from lack of dietary niacin and tryptophan and is treated with nicotinamide or nicotinic acid, not with NR.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Trace
@@ -1559,6 +1842,14 @@ TRACE was challenged and upheld. NR is a real dietary vitamer, best characterise
 - The best-designed human trial was null: 150 mg/d for 6 months in overweight adults, no effect on insulin sensitivity (adjusted Matsuda index 5.18 versus 5.50 on placebo).
 - It can make exercise worse. In aged men undergoing training, resveratrol BLUNTED the training-induced cardiovascular improvements, the opposite of the marketed exercise-mimetic claim.
 - Antiplatelet activity, so care with warfarin and antiplatelets. Oestrogen-sensitive conditions warrant caution. Gram doses cause gastrointestinal intolerance, and the oncology programme saw renal adverse events.
+
+**What it does, and what happens without it**
+
+A stress compound made by grapevines. It has no established job in human physiology.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Resveratrol is a stilbene phytoalexin produced by grapevines, Japanese knotweed and peanuts in response to injury and fungal attack. In cell and yeast systems it appears to activate SIRT1, an effect later shown to depend substantially on the fluorophore-tagged assay substrate rather than on the enzyme, and it activates AMPK at high concentrations. In humans absorption is good but bioavailability is very low: it is almost completely converted to sulfate and glucuronide conjugates on first pass, leaving free plasma resveratrol far below the concentrations used in cell experiments. It is a plant secondary metabolite. No human transporter, receptor or enzyme requires it, and nothing in the body fails in its absence.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -1604,6 +1895,14 @@ Resveratrol occurs in red wine, grapes, peanuts and some berries, at concentrati
 - The observational case rests on dietary intake epidemiology, and spermidine-rich foods are wheat germ, legumes, mushrooms and aged cheese. That is a dietary pattern, not a molecule.
 - Dietary intake from food is typically several-fold higher than most supplements provide, which by itself undermines the supplement premise.
 - Wheat-germ-derived products are unsuitable in coeliac disease and wheat allergy. Polyamines are growth-supporting and elevated in many tumours, and polyamine depletion is an active oncology strategy, so avoid during active malignancy.
+
+**What it does, and what happens without it**
+
+A polyamine your own cells make, needed to activate a key protein-building factor.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Spermidine is a polyamine synthesized from putrescine by spermidine synthase using decarboxylated S-adenosylmethionine. Its one indispensable and unique function is donating the aminobutyl group for hypusination of eukaryotic translation initiation factor 5A, a modification required to translate polyproline-containing proteins. It also stabilises nucleic acids and induces autophagy in model organisms, which is the basis of the longevity marketing. Humans get it from three simultaneous sources: de novo synthesis in essentially every cell, gut bacterial production, and food such as wheat germ, aged cheese, soy and mushrooms. Because synthesis is ubiquitous and tightly regulated, dietary intake is never limiting and no deficiency state exists.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -1653,6 +1952,14 @@ RICH was challenged and upheld. This is the one entry where ordinary food beats 
 - Turmeric is the most commonly used of the six botanicals linked to liver injury in US survey data (236 of 9,685 respondents), and 10 DILIN cases published in 2023 included five hospitalisations and one death from acute liver failure. Seven of ten carried HLA-B*35:01.
 - Antiplatelet activity raises bleeding risk with warfarin and antiplatelets. Piperine inhibits CYP3A4 broadly, so herb-drug interaction risk with cytotoxics and targeted agents is real.
 
+**What it does, and what happens without it**
+
+The yellow pigment of turmeric. A spice compound, with no role in human physiology.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Curcumin is a diarylheptanoid pigment making up roughly 2 to 5 percent of turmeric rhizome. It binds and weakly inhibits a very large number of unrelated proteins in vitro, which is why it appears in thousands of papers; medicinal chemists classify it as a pan-assay interference compound, since its chemical reactivity, aggregation and fluorescence generate false positives across screening assays. Unformulated curcumin is poorly absorbed, rapidly glucuronidated and sulfated, and essentially undetectable as the free compound in plasma even after gram doses, though piperine, phospholipid and nanoparticle formulations raise exposure. It is a plant secondary metabolite with no physiological role in humans and no requirement.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -1696,6 +2003,14 @@ Turmeric is an ordinary culinary spice, the dried ground rhizome of Curcuma long
 - It is present in a large share of joint supplements, which inflates the price of combination products for no measured benefit.
 - No characterised drug interactions, largely because almost nobody has looked. No pregnancy or lactation data.
 
+**What it does, and what happens without it**
+
+A small sulfur molecule sold for joint pain; no body process is known to need it.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Methylsulfonylmethane is dimethyl sulfone, the oxidised metabolite of dimethyl sulfoxide, present in trace amounts in some foods and in the marine sulfur cycle. It is well absorbed and distributes widely, including into cerebrospinal fluid, and a fraction of its sulfur can enter the methionine and cysteine pools. That contribution is trivial next to dietary protein, which supplies all the sulfur amino acid a person needs. Proposed anti-inflammatory effects via NF-kB inhibition come from cell and animal work, and human osteoarthritis trials are small and short. Sulfur as an element is essential; MSM as a molecule is not, and no human enzyme or structure uses it.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Trace
@@ -1734,6 +2049,14 @@ TRACE survives as a label, since nobody claims food delivers grams of MSM, but t
 - In exercise trials MDA, TBARS, superoxide dismutase, sulfhydryls, creatine kinase and IL-6 were all non-significant, directly contradicting the antioxidant marketing.
 - EFSA noted that children exceed the acceptable daily intake with 8 mg/d supplements, so the common commercial 12 mg dose exceeds the safe intake for a 40 kg adolescent.
 - Krill-derived astaxanthin in shellfish allergy. Reported 5-alpha-reductase inhibition is poorly characterised and matters in hormone-sensitive conditions.
+
+**What it does, and what happens without it**
+
+A red algal pigment that sits inside cell membranes. Humans have no requirement for it.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Astaxanthin is a xanthophyll carotenoid produced by the microalga Haematococcus pluvialis and concentrated up the food chain into salmon, trout, shrimp and flamingo feathers. Polar keto and hydroxyl groups on both ionone rings let the molecule span the lipid bilayer, which underlies claims that it quenches singlet oxygen and lipid radicals more efficiently than beta-carotene. Unlike beta-carotene it has no provitamin A activity in humans: it is not cleaved to retinal and cannot contribute to vitamin A status. Humans cannot synthesize it and have no need to, since no metabolic process requires it and no intake recommendation exists.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -1782,6 +2105,14 @@ Astaxanthin is genuinely present at milligram levels in ordinary seafood, so thi
 - Its reputation was built on a handful of early trials from a small number of affiliated laboratories and never replicated independently in trained athletes.
 - One of the more expensive ingredients per gram, so it displaces spend from protein and creatine, which work.
 
+**What it does, and what happens without it**
+
+A leucine metabolite that slows muscle protein loss during illness, bed rest or ageing.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Beta-hydroxy-beta-methylbutyrate is a downstream metabolite of the amino acid leucine. About 5 percent of leucine catabolism proceeds through ketoisocaproate to HMB, so at ordinary protein intakes the body produces only about 0.2 to 0.4 g a day from dietary leucine, and preformed HMB in food (grapefruit, catfish, alfalfa, corn silage) is present in milligram quantities and contributes essentially nothing. The scale is easier to see from the other direction: obtaining a typical 3 g supplemental dose from food would require the 60 g of leucine contained in over 600 g of high quality protein. Its main described action is suppression of muscle proteolysis through the ubiquitin-proteasome pathway, with a weaker effect on mTOR-mediated protein synthesis than leucine itself. Clinical interest sits in muscle-wasting settings such as bed rest, older adults and cancer cachexia. It is a metabolite of an essential amino acid, not an essential nutrient in its own right.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** None
@@ -1819,6 +2150,14 @@ HMB (beta-hydroxy-beta-methylbutyrate) is manufactured, by halogenation of diace
 - GuidAge replicated the null in 2,854 adults over 5 years.
 - The bleeding question is genuinely contested rather than settled. A meta-analysis of 18 trials in 1,985 adults found no significant effect on platelet aggregation or coagulation parameters, but case reports of bleeding exist and stopping before elective surgery is prudent.
 - Only standardised extracts have any data behind them. Unstandardised leaf products have none.
+
+**What it does, and what happens without it**
+
+A leaf extract sold for memory; it is not a nutrient and nothing requires it.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Standardised extracts such as EGb 761 contain about 24% flavone glycosides and 6% terpene lactones, the latter comprising ginkgolides A, B and C plus bilobalide, with ginkgolide B acting as a platelet-activating factor antagonist. The largest prevention trial, the Ginkgo Evaluation of Memory study, randomised 3069 community volunteers aged 75 and over and followed them for a median 6.1 years, finding no reduction in all-cause dementia or Alzheimer disease. Ginkgolides and bilobalide are plant terpenoids absent from human metabolism, so no shortfall is possible from not taking them. The clinically relevant issue is the opposite direction: antiplatelet effect layered onto anticoagulants or aspirin.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -1858,6 +2197,14 @@ The supplement is a concentrated leaf extract, and ginkgo leaf is not a food: it
 - The AASM guideline suggests clinicians NOT use valerian for sleep-onset or sleep-maintenance insomnia.
 - Additive sedation with benzodiazepines, Z-drugs, barbiturates, opioids, antihistamines and alcohol. Case reports of hepatotoxicity exist, mostly with multi-herb combination products.
 
+**What it does, and what happens without it**
+
+A sedative root preparation; nothing in the body is built from it or needs it.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Valeriana officinalis root yields valerenic acid, valerenol and a variable mixture of valepotriates whose content differs widely between commercial products and degrades on storage. Valerenic acid binds a distinct site on GABA-A receptors that depends on the beta2 and beta3 subunits: the N265M point mutation in those subunits abolishes the drug response, and valerenic acid and valerenol are anxiolytic in mouse elevated plus-maze and light/dark tests. Human sleep trials are small, short and inconsistent, in part because extracts are not standardised to any single constituent. No human pathway synthesises or consumes these compounds, so there is no requirement for them.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Not food
@@ -1894,6 +2241,14 @@ Valerian is the root and rhizome of Valeriana officinalis, a European perennial.
 - Only 2 of 6 physical-fatigue trials were positive.
 - The premium adaptogen positioning has essentially no regulatory-grade support. EFSA has authorised no health claim.
 - No upper limit can be stated because dose-ranging and toxicity data do not exist. Theoretical additive serotonergic effects with SSRIs, SNRIs and MAOIs, and activation risk in bipolar disorder.
+
+**What it does, and what happens without it**
+
+An Arctic root extract sold for fatigue; the body neither makes nor requires it.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Rhodiola rosea rhizome supplies the rosavins (rosavin, rosin, rosarin) and salidroside, and the best studied preparation, SHR-5, is standardised to roughly 3% rosavins and 1% salidroside. Proposed actions include weak monoamine oxidase inhibition and blunting of stress-induced cortisol responses, neither well characterised in humans. A 2021 systematic review of 39 randomised trials spanning four Rhodiola species (23 of R. rosea, 8 of R. crenulata, 8 of R. wallichiana and 1 of R. sacra, the last excluded from quality assessment) found that no study met all CONSORT criteria, so reporting quality is too poor to support firm efficacy conclusions and trials of different species are routinely conflated. An earlier review restricted to 11 placebo-controlled trials of R. rosea alone judged methodological quality moderate or good (5 of 10 scored above 3 on Jadad) and concluded the species may benefit physical performance, mental performance and certain mental-health conditions, its stated limitation being the absence of independent replication. These are plant secondary metabolites with no endogenous counterpart and no dietary requirement.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -1933,6 +2288,14 @@ The supplement is the rhizome and root of Rhodiola rosea (roseroot), an arctic-a
 - This is one of the largest gaps between marketing volume and evidence volume in the entire document. The neurogenesis claim rests on in-vitro nerve growth factor stimulation.
 - Most retail products do not disclose whether they contain fruiting body or mycelium, so you cannot match the product to the trial.
 - Mushroom allergy is a real contraindication. Theoretical antiplatelet effects are uncharacterised in humans.
+
+**What it does, and what happens without it**
+
+An edible mushroom studied for nerve growth effects; no bodily process depends on it.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Hericium erinaceus fruiting bodies contain hericenones and the mycelium contains erinacines, both of which stimulate nerve growth factor synthesis in cultured cells, with erinacine A shown to cross the blood-brain barrier in animals. The main human trial randomised 30 Japanese adults aged 50 to 80 with mild cognitive impairment to 3 g/day of dried powder or placebo for 16 weeks; cognitive scores improved on treatment and drifted back towards baseline during washout. As a culinary mushroom it contributes ordinary food nutrients such as beta-glucans, potassium and B vitamins, in the same way any mushroom does. The hericenones and erinacines themselves are not nutrients, are not made by human tissue, and no physiological process requires them.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -1976,6 +2339,14 @@ This is the one entry whose supplement organism is an ordinary culinary food. He
 - Nothing supports a memory or dementia effect.
 - Gastrointestinal adverse effects (nausea, cramping, increased stool frequency) are the commonest problem. Cholinergic activity means caution with donepezil, rivastigmine and galantamine, and with anticholinergics. Animal work suggests thyroid hormone effects, so care with levothyroxine.
 
+**What it does, and what happens without it**
+
+A herb used for memory; the body makes no use of its active compounds.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Bacopa monnieri contains triterpenoid saponins known as bacosides, and extracts are standardised to bacoside content, typically 20 to 55%. A systematic review of randomised placebo-controlled trials, all of which ran for 12 weeks, found the most consistent signal in delayed word recall, with attention, working memory and other domains inconsistent across studies. Proposed mechanisms include cholinergic modulation, dendritic branching and antioxidant activity in hippocampus, drawn largely from rodent work. Bacosides are plant secondary metabolites: they are absent from human tissue, no enzyme system requires them, and gastrointestinal upset is the common practical limitation on dosing.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -2015,6 +2386,14 @@ Bacopa monnieri (brahmi, water hyssop) is a real leafy vegetable in parts of Ind
 - That number comes from 64 patients in 2 trials out of 108 located. Cochrane located 108 trials and could use two. The confidence interval spans a tenfold range and the authors refused to stand behind it, concluding that because effective and safe alternative antidepressants exist, the clinical usefulness of 5-HTP and tryptophan is limited at present.
 - The eosinophilia-myalgia syndrome question is unresolved. The 1989 outbreak was linked to contaminated L-tryptophan and Cochrane flagged that the possibility of a similar contaminant in 5-HTP products has not been excluded.
 - Serotonin syndrome risk with SSRIs, SNRIs, MAOIs including the irreversible ones, tricyclics, tramadol, triptans, linezolid, lithium and dextromethorphan. This is a direct serotonin precursor, so the risk is mechanistic rather than theoretical.
+
+**What it does, and what happens without it**
+
+The chemical step between tryptophan and serotonin; the body makes its own supply.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** 5-hydroxytryptophan is the intermediate between the essential amino acid tryptophan and serotonin: tryptophan hydroxylase produces it, and aromatic L-amino acid decarboxylase converts it onward to serotonin. Supplemental 5-HTP bypasses the rate-limiting hydroxylation step and escapes diversion into the kynurenine pathway, which is why it raises serotonin synthesis more directly than tryptophan does, including in peripheral tissues where that is not wanted. Ordinary food supplies essentially none of it; the dietary requirement is for tryptophan, and that is where any nutritional argument belongs. Impaired central serotonin synthesis in tetrahydrobiopterin disorders and in aromatic L-amino acid decarboxylase deficiency is an inborn error of metabolism, entirely separate from intake, and 5-HTP is prescribed or withheld in those conditions on genetic grounds.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -2064,6 +2443,20 @@ Bacopa monnieri (brahmi, water hyssop) is a real leafy vegetable in parts of Ind
 - MK-4 is worse. The impressive vertebral-fracture odds ratios in K2 marketing trace to small Japanese menatetrenone trials, and when the hypothesis was tested properly the OF study (n=4,378, 45 mg/d, 36-48 months) was NULL on new vertebral fractures. One frequently cited supporting paper has been RETRACTED for research misconduct.
 - MK-4 has essentially no oral bioavailability at supplement doses. A single 420 µg dose of MK-4 was not detectable in the serum of any subject at any time point, while the same dose of MK-7 peaked at 6 hours and stayed detectable for 48 hours.
 - Absolute practical contraindication with warfarin and other vitamin K antagonists. MK-7 has a long half-life, so even modest doses destabilise INR for days to weeks.
+
+**What it does, and what happens without it**
+
+Activates proteins that clot blood and that steer calcium into bone rather than artery walls.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** Every form of vitamin K works as the cofactor for gamma-glutamyl carboxylase, the enzyme that converts specific glutamate residues into gamma-carboxyglutamate (Gla), giving those proteins the ability to bind calcium and function. In the liver this activates clotting factors II, VII, IX and X together with the anticoagulant proteins C, S and Z, which is the function the dietary requirement is set on. Outside the liver the same reaction activates osteocalcin in bone and matrix Gla protein in vascular smooth muscle, matrix Gla protein being a local inhibitor of arterial calcification. MK-7 differs from phylloquinone (K1) mainly in pharmacokinetics: a long isoprenoid side chain gives it a circulating half-life of days rather than hours, so it reaches extrahepatic tissue more consistently. MK-4 is the form tissues synthesise for themselves from K1 or menadione via UBIAD1, and as a supplement it clears within hours. Whether raising menaquinone intake above the amount that maintains normal carboxylation changes bone or vascular outcomes is a question about supplementation, separate from the vitamin's essential role.
+- **Deficiency disease:** Vitamin K deficiency bleeding (VKDB), historically called haemorrhagic disease of the newborn. No deficiency disease is attributed to menaquinones specifically: intake recommendations are set for total vitamin K and are based on phylloquinone, and no separate K2 requirement has been established.
+- **First signs:** A rising PIVKA-II (undercarboxylated prothrombin) is the earliest coagulation marker, followed by a prolonged prothrombin time and raised INR. Clinically, easy bruising, oozing from puncture or venepuncture sites, nosebleeds, bleeding gums or heavy menstrual loss. Undercarboxylated osteocalcin rises before any of the clotting markers, but on its own it is a biochemical finding whose clinical significance is unsettled.
+- **Untreated:** In newborns, classic VKDB appears in the first week as bleeding from the umbilical stump, gastrointestinal tract, circumcision site or puncture wounds. Late VKDB appears at 2 to 12 weeks and is the dangerous form: roughly half of cases present with intracranial haemorrhage, causing death or lasting neurological injury. In adults with severe malabsorption, cholestasis or prolonged broad-spectrum antibiotics plus poor intake, deficiency produces spontaneous gastrointestinal, retroperitoneal or intracranial bleeding.
+- **Does it reverse:** The coagulopathy itself corrects completely and quickly: parenteral vitamin K restores clotting factor activity within hours, and prothrombin complex concentrate acts immediately. What does not reverse is the injury from a bleed that has already happened, and intracranial haemorrhage in late VKDB leaves permanent neurological deficit or death in a substantial proportion of affected infants. This is why prophylaxis at birth matters more than treatment.
+- **Who becomes deficient:** Newborns above all, who are born with low stores, receive little vitamin K in breast milk and have an immature gut flora. Intramuscular vitamin K at birth prevents this, and declining or omitting that injection is the main cause of late VKDB in high-income countries today. Beyond infancy: fat malabsorption, cholestasis and biliary obstruction, cystic fibrosis, extensive small bowel resection, and people on vitamin K antagonists such as warfarin, in whom the deficiency is induced on purpose. Dietary vitamin K deficiency in a healthy adult is rare, because phylloquinone is abundant in green vegetables and the liver recycles it efficiently.
+- **How common:** Without prophylaxis, classic VKDB affects an estimated 0.25% to 1.7% of newborns and late VKDB occurs at roughly 4.4 to 7.2 per 100,000 births, the figures used by CDC and the AAP (PMID 24226627). Shearer's surveillance review gives 4 to 7 cases per 100,000 births for Europe and separately reports substantially higher rates from Southeast Asia (PMID 18804903). No population prevalence figure is established for clinical vitamin K deficiency in healthy adults, where it is rare. Undercarboxylated osteocalcin and inactive matrix Gla protein are detectable in a large share of adults, but that is a biomarker observation with no defined clinical deficiency threshold.
 
 **Food and the body**
 
@@ -2118,6 +2511,14 @@ The two menaquinones need separate answers, because one merged label buries the 
 - Raw CFU counts are close to meaningless divorced from strain. The infant colic strain works at 100 million CFU/d, which is 100 to 1,000 times LOWER than the counts marketed on adult tubs.
 - The same contraindications apply as for any live organism: central venous catheter, neutropenia, severe immunocompromise, critical illness, preterm infants.
 
+**What it does, and what happens without it**
+
+Mixed bacteria sold without strain identification, so no trial evidence attaches to the contents.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** These products name only genus and species (Lactobacillus acidophilus, Bifidobacterium bifidum and similar) and omit the alphanumeric strain designation on which the entire clinical evidence base is built, so no published result can legitimately be attributed to what is in the capsule. Independent testing repeatedly finds discrepancies between labelled and actual colony-forming units, species misidentification, and organisms no longer viable at the end of shelf life. Adding more strains does not sum their individual effects; strains can antagonise one another through bacteriocins and niche competition, and mixtures are rarely tested as mixtures. Because this is a commercial product category rather than a nutrient, no requirement and no deficiency state exists.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -2165,6 +2566,14 @@ RICH applies to one endpoint only, and it is a redefined one: live lactic acid b
 - The AGA recommends against probiotics for irritable bowel syndrome outside clinical trials, which is this product primary market.
 - Bifidobacterium species specifically have caused whole-genome-sequencing-confirmed bacteraemia in preterm infants.
 
+**What it does, and what happens without it**
+
+A single gut bacterium with its own trial evidence in irritable bowel syndrome.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Bifidobacterium longum subsp. infantis 35624, still widely labelled Bifidobacterium infantis 35624, was isolated from healthy human gut mucosa and is one of the few probiotic strains tested at a defined dose in a trial large enough to matter. In 362 primary care women with irritable bowel syndrome of any bowel habit subtype, 1 x 10^8 cfu daily for 4 weeks was superior to placebo for abdominal pain and for a composite of bloating, bowel dysfunction, incomplete evacuation, straining and passage of gas, with global symptom improvement exceeding placebo by more than 20%; higher and lower doses did not work, which is itself informative about formulation. Proposed mechanisms include induction of regulatory T cells and reduction in circulating pro-inflammatory cytokines. It is a live organism administered as a therapy, so nobody is short of it and there is no deficiency state to describe.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** None
@@ -2202,6 +2611,14 @@ SYNTHETIC here means no dietary source, not an artificial molecule. The strain i
 - It is priced as a premium product on the strength of a biomarker advantage, and delivers far less EPA and DHA per capsule than a concentrate.
 - Crustacean and shellfish allergy is a genuine and under-warned contraindication.
 - Same anticoagulant, antiplatelet and atrial fibrillation cautions as any omega-3 source once dose rises.
+
+**What it does, and what happens without it**
+
+Oil from Antarctic krill delivering EPA and DHA largely bound to phospholipids, plus some astaxanthin.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Krill oil is extracted from Euphausia superba. Its distinguishing feature is chemical form: a large share of the EPA and DHA is esterified to phospholipid, mainly phosphatidylcholine, with some present as free fatty acid, whereas fish oil carries them as triglycerides or ethyl esters. This alters absorption kinetics. It also contains small amounts of astaxanthin, a carotenoid acting as an antioxidant within the oil. EPA plus DHA content per capsule is typically lower than in fish oil, so dose comparisons need to be made per milligram of omega-3. Acute crossover studies find equal or modestly higher plasma phospholipid incorporation from krill per unit EPA plus DHA (PMID 21854650), but a reanalysis of these studies concluded the acute differences have not translated reliably into different long-term omega-3 status (PMID 25156381).
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -2250,6 +2667,14 @@ The molecules krill oil delivers, EPA and DHA, are abundant in ordinary oily fis
 - Standard obstetric advice in several countries is to avoid liver and liver-oil supplements in pregnancy.
 - Typically sold as a bulk, often flavoured liquid, which is the format that performed worst in oxidation surveys. Fermented cod liver oil has no quality advantage.
 
+**What it does, and what happens without it**
+
+A fish-liver oil supplying vitamin D, preformed vitamin A and omega-3 fats together.
+
+- **If you lack it:** Mixed product
+- **In detail:** Cod liver oil is a food product, oil rendered from the livers of Gadus species, carrying three active constituents in one dose: vitamin D3, preformed vitamin A as retinyl esters, and the long-chain omega-3 fatty acids EPA and DHA. Each has its own physiology (see the vitamin D3 and preformed vitamin A entries; EPA and DHA are incorporated into membrane phospholipids and serve as precursors to eicosanoids and specialised pro-resolving mediators, with DHA concentrated in retinal photoreceptor and neuronal membranes). It has historical standing because it was the agent that treated and then largely eliminated rickets in the polluted industrial cities of the early twentieth century, before vitamin D itself had been identified. Modern products vary widely in content depending on whether the natural vitamins were stripped during refining and re-added, so the label matters. The practical constraint on dosing is the preformed retinol: an amount large enough to deliver a meaningful EPA and DHA intake can push vitamin A toward or past the tolerable upper limit, and the vitamin A here is retinol, not beta-carotene.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -2294,6 +2719,20 @@ Everything cod liver oil supplies is available from ordinary food: EPA and DHA f
 - Cochrane found increased ALA probably makes little or no difference to all-cause mortality, RR 1.01 (0.84-1.20).
 - Anyone relying on it to achieve DHA status is making a mistake, and that includes pregnant women and vegans wanting fetal DHA supply. Algal DHA is the correct product there.
 - Note the arrhythmia finding for ALA points the opposite way to the atrial fibrillation excess seen with marine omega-3 (HR 1.25), so the two should not be treated as interchangeable in either direction.
+
+**What it does, and what happens without it**
+
+The one omega-3 fat the body cannot make; the raw material for EPA and DHA.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Fully reversible
+- **In detail:** Alpha-linolenic acid (18:3n-3) is a genuine essential nutrient. Humans lack the desaturase that places a double bond at the n-3 position of a fatty acid, so every omega-3 molecule in the body traces back to dietary ALA or to preformed EPA and DHA. ALA is incorporated into membrane phospholipids, is a substantial oxidative fuel (a large share of an ingested dose is simply burned), and is the substrate for the elongation and desaturation pathway producing EPA, DPA and DHA. Stable-isotope tracer work puts net conversion to EPA at about 8% in young men and 21% in young women, with DHA formation around 9% in women and undetectable in men (PMID 12323085, PMID 12323090). The US Adequate Intake is 1.6 g/day for men and 1.1 g/day for women.
+- **Deficiency disease:** Alpha-linolenic acid deficiency, the n-3 form of essential fatty acid deficiency (EFAD). It is a recognised clinical entity but carries no eponym comparable to scurvy or rickets.
+- **First signs:** Biochemically, a rising ratio of n-6 to n-3 fatty acids in plasma and red cell phospholipids with falling 22:6n-3, detectable before any symptom. Clinically, the first reported signs in humans were sensory: intermittent numbness and paraesthesia in the limbs, and blurring of vision.
+- **Untreated:** In the index case, a six-year-old girl maintained on parenteral nutrition rich in linoleate but nearly devoid of linolenate developed, after five months, episodes of numbness, paraesthesia, leg pain, weakness, inability to walk and blurred vision (Holman et al., PMID 6801965). Patients on long-term gastric-tube feeding with n-3-poor formulas developed scaly dermatitis and a haemorrhagic folliculitis (Bjerve et al.). Deficiency of this severity effectively arises only when the entire fat supply is medically controlled.
+- **Does it reverse:** In every documented human case, neurological symptoms disappeared and skin lesions resolved once an n-3-containing lipid source was substituted, with plasma fatty acid profiles normalising alongside. No residual deficit was reported. The honest caveat is that all reported cases were identified within months; the consequences of much longer deprivation in humans are unknown.
+- **Who becomes deficient:** Patients on long-term parenteral nutrition or tube feeding with lipid sources low in n-3, historically safflower-based emulsions. Essentially nobody eating ordinary food, since ALA is widespread in vegetable oils, nuts, seeds and green leaves. Extremely low-fat diets sustained for years are a theoretical risk with no case series behind it.
+- **How common:** NOT ESTABLISHED. Clinical ALA deficiency exists only in case reports and small series of parenteral and tube-fed patients. No population prevalence figure exists because the condition does not occur in free-living people eating normal diets.
 
 **Food and the body**
 
@@ -2345,6 +2784,14 @@ ALA is one of the easiest nutrients in this reference to obtain from food. EFSA 
 - Cost per milligram of DHA is usually higher than fish oil.
 - Products are DHA-dominant, and DHA raises LDL more than EPA does (+6.9% versus +2.2% in a head-to-head crossover), which matters if LDL is your limiting problem.
 
+**What it does, and what happens without it**
+
+Oil from marine microalgae that supplies ready-made DHA, and in some products EPA, without fish.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Algal oil is extracted from cultured heterotrophic microalgae, chiefly Schizochytrium species and Crypthecodinium cohnii. These are the organisms at the base of the marine food chain that actually synthesise DHA; fish accumulate it by eating them. Crypthecodinium products supply DHA only, while Schizochytrium products supply DHA plus a smaller amount of EPA. Physiologically the oil does nothing that DHA and EPA do not do, so the mechanism sits in the Omega-3 (EPA and DHA) entry. Controlled feeding work found algal-oil capsules and cooked salmon to be nutritionally equivalent sources of DHA in terms of plasma incorporation (PMID 18589030), which is why algal DHA has been the standard source in infant formula for decades.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Trace
@@ -2387,6 +2834,14 @@ The classification depends entirely on who is eating, so it has to be stated by 
 - In the three-arm primary care trial, bran at 10 g/d for 12 weeks did not beat placebo on symptom severity at 3 months (-58 versus -49 points, P=0.61) while psyllium did (-90 points, P=0.03). Bran also had the lowest completion rate of the three arms at 56%.
 - Bran is the fibre most consistently reported to WORSEN abdominal pain and distension.
 - Contraindicated with strictures, adhesions or a history of obstruction, and unsuitable in coeliac disease and non-coeliac gluten sensitivity.
+
+**What it does, and what happens without it**
+
+Coarse insoluble fibre that adds stool bulk mechanically; in IBS it often makes symptoms worse.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Wheat bran is the outer layer of the wheat kernel, composed mainly of insoluble arabinoxylan, cellulose and lignin. It acts through particle bulk and mechanical stimulation of the mucosa rather than by forming a gel: coarse particles increase stool mass and provoke secretion and peristalsis, whereas finely ground bran loses this effect and can slow transit. It holds far less water than psyllium and is partly fermented, generating gas. In IBS these properties work against the patient, since mechanical stimulation acts on a hypersensitive gut and bran also carries fructans, making it high-FODMAP. Meta-analysis found no significant benefit of bran for global IBS symptoms (relative risk of not improving 0.90, 95% CI 0.79 to 1.03), in contrast to ispaghula (NNT 7), and the ACG guideline recommends soluble fibre for IBS (PMID 33315591).
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -2435,6 +2890,14 @@ Wheat bran is a food, sold as a plain milled cereal fraction, and at 42.8 g tota
 - The main harm is diagnostic delay. Self-treating undiagnosed persistent gut symptoms delays diagnosis of coeliac disease, inflammatory bowel disease, pancreatic disease and colorectal cancer.
 - A properly controlled trial in autism (43 children, double-blind crossover) found no clinically significant improvement, in a population where these products were heavily promoted.
 
+**What it does, and what happens without it**
+
+Mixed plant and fungal enzymes sold for bloating; prescription pancreatic enzymes are a different product.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** These blends typically combine fungal amylase and protease, cellulase, bromelain, papain and sometimes lipase, at doses and in formulations that are not designed to survive gastric acid or to be matched to a meal's fat content. Prescription pancrelipase is a different class of product: enteric-coated, dosed in thousands of lipase units per gram of dietary fat, and regulated in the US as a drug requiring an approved application since 2010. Two components have a defined use in people who need them, lactase for lactose intolerance and alpha-galactosidase for gas from raffinose-family oligosaccharides in legumes; the broad multi-enzyme blends have no established indication in anyone with a normal pancreas, since a healthy gland already secretes roughly ten times the lipase needed. This is a commercial product category rather than a nutrient, so no requirement and no deficiency state applies.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Trace
@@ -2477,6 +2940,14 @@ Reclassified from NOT_FOOD, which was too strong and was contradicted by this en
 - There is a mortality signal in the critically ill. In the REDOXS trial, high-dose glutamine given to 1,223 critically ill adults with multi-organ failure raised 28-day mortality to 32.4% versus 27.2%, adjusted OR 1.28.
 - Contraindicated in hepatic impairment, cirrhosis and any history of hepatic encephalopathy, because glutamine is metabolised to glutamate and ammonia.
 - It is the chemical anchor of the entire leaky gut supplement economy, and the gap between that market and the evidence is enormous.
+
+**What it does, and what happens without it**
+
+An amino acid the body makes itself; a preferred fuel for gut lining and immune cells.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Glutamine is the most abundant free amino acid in plasma and skeletal muscle. Muscle synthesises and exports it continuously via glutamine synthetase, so supply is normally set by endogenous production rather than by diet. Enterocytes and rapidly dividing immune cells use it as a preferred respiratory fuel and as the nitrogen donor for purine, pyrimidine and glutathione synthesis, which is the biochemistry behind the gut-repair claim. It is classed as non-essential in health and conditionally essential in severe catabolic states, where muscle export cannot keep pace with consumption. Human trials of oral glutamine for intestinal permeability, IBS and inflammatory bowel disease have been small and inconsistent, and the strongest evidence is in specific clinical contexts rather than in healthy people.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -2531,6 +3002,14 @@ Glutamine is one of the most abundant amino acids in ordinary dietary protein, s
 - The inulin meta-analysis states explicitly that pain and bloating do NOT improve. The largest systematic review of prebiotics in IBS found the data sparse and insufficient to establish efficacy.
 - Self-defeating for IBS patients on or considering a low-FODMAP diet, because inulin, FOS and GOS ARE the fermentable oligosaccharides that diet removes. Anyone whose dominant symptom is bloating or flatulence should not take these.
 
+**What it does, and what happens without it**
+
+Fibres your gut bacteria feed on, boosting bifidobacteria and producing short-chain fatty acids in the colon.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Inulin and fructo-oligosaccharides are fructose polymers from chicory root, Jerusalem artichoke, onion, garlic and wheat, differing mainly in chain length: FOS has a degree of polymerisation below about 9, inulin extends to 60. GOS are galactose oligomers produced enzymatically from lactose and are structural analogues of human milk oligosaccharides. All three resist human digestive enzymes, reach the colon intact and are selectively fermented, reproducibly raising Bifidobacterium abundance, which is the basis of the ISAPP definition of a prebiotic as a substrate selectively used by host microorganisms to confer a health benefit (PMID 28611480). Fermentation yields acetate, propionate and butyrate; butyrate is the primary respiratory fuel of the colonocyte, and the short-chain fatty acid pool lowers luminal pH and supports barrier function. That same fermentability produces the gas and bloating these compounds are known for, and is why they are classed as high-FODMAP.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -2584,6 +3063,14 @@ This item bundles three substances with two different answers. Inulin and fructo
 - SAMe is associated with switching into mania or hypomania in bipolar disorder, and homocysteine can rise on it. Both saffron and SAMe carry serotonin syndrome risk with serotonergic medication. Saffron should be avoided in pregnancy on the basis of traditional emmenagogue use.
 - Depression is a condition where delaying effective treatment carries real risk. Neither of these should displace a clinical assessment.
 
+**What it does, and what happens without it**
+
+Mood supplements of different chemistry; none is a nutrient the body must obtain.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Saffron supplies crocin, crocetin and safranal from Crocus sativus stigmas, and trials of about 30 mg/day over 6 to 8 weeks report antidepressant effects, though most are small, brief and concentrated in a narrow set of centres, which limits confidence. SAMe is chemically different in kind: the body synthesises it from methionine and ATP through methionine adenosyltransferase, and it serves as the universal methyl donor for DNA, phospholipid, catecholamine and creatine methylation. A Cochrane review of 8 trials and 934 participants found no clear difference between SAMe and imipramine or escitalopram used alone, and only low-quality evidence favouring SAMe added to an SSRI. Neither category is an essential nutrient: saffron constituents are plant secondary metabolites, and SAMe is made endogenously, with low tissue SAMe appearing only as a downstream consequence of folate or vitamin B12 deficiency or of the inborn error MAT1A deficiency.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -2627,6 +3114,14 @@ This item bundles three different answers, so each gets its own sentence. Saffro
 - A 2 to 4 mmHg systolic reduction is small next to any antihypertensive drug or to sodium reduction.
 - Quercetin inhibits CYP3A4 and P-glycoprotein, so treat it as an interaction risk with ciclosporin, tacrolimus, CYP3A4-metabolised statins, warfarin and many chemotherapeutics. It is also a topoisomerase inhibitor in vitro, which is a specific reason not to combine it with chemotherapy.
 - Taurine effects are additive with antihypertensives, insulin and sulfonylureas.
+
+**What it does, and what happens without it**
+
+Quercetin is a plant pigment with no bodily role; taurine supports bile, heart and retina.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** These are two unrelated molecules sold together for convenience. Quercetin is a plant flavonol from onions, capers, apples and tea; it is heavily glucuronidated and sulfated on first pass, so free aglycone concentrations in plasma stay in the nanomolar range and most antioxidant actions demonstrated in cell culture cannot occur at achievable oral doses. It has no physiological role in humans and no deficiency state of any kind. Taurine is a sulfur-containing beta-amino acid, the most abundant free amino acid in heart, retina and leukocytes. It conjugates bile acids, stabilises membranes, modulates calcium handling and cell volume, and is required for the mitochondrial tRNA modification that supports respiratory chain protein synthesis. Adults synthesize taurine from cysteine via cysteine sulfinic acid decarboxylase and obtain roughly 40 to 400 mg a day from meat and seafood, so nobody eating ordinary food becomes taurine depleted. Taurine is classified as conditionally essential, and the one documented human depletion is iatrogenic rather than dietary: in children fed long-term on taurine-free parenteral nutrition, plasma taurine ran about 26 plus or minus 13 versus 57 plus or minus 16 micromol/L in controls, and all 8 children tested had abnormal electroretinograms with delayed rod and cone implicit times, detectable before any visual problem was noticed. Taurine depletion also contributes to parenteral-nutrition-associated cholestasis in infants. Adding taurine to the intravenous solution restored plasma taurine in 4 supplemented children and normalised the electroretinogram in 3 of those 4, though plasma taurine relapsed in 2 of those 3 within a year of intravenous taurine being stopped, and the whole evidence base is a small 1985 case series. Paediatric parenteral amino acid solutions now routinely contain taurine, which prevents the problem at source.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -2701,6 +3196,14 @@ Published evidence of harm from randomised trials, registries or national survei
 - This is the canonical case where the industry own logic failed in public. The observational data were strong, the mechanism was plausible, the trials were large and well conducted, and the answer was that the pill killed people.
 - Absolute avoidance in current smokers, former smokers and anyone with asbestos exposure. USPSTF grade D recommendation.
 
+**What it does, and what happens without it**
+
+A plant pigment the body can turn into vitamin A; nothing in the body needs it directly.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Beta-carotene is a provitamin A carotenoid, the orange pigment of carrots, sweet potato, pumpkin and dark green leaves. In the intestinal mucosa, beta-carotene 15,15'-oxygenase (BCO1) cleaves it to retinal, which is reduced to retinol and esterified for storage. The conversion is feedback-regulated and inefficient: the Institute of Medicine assigns 12 micrograms of dietary beta-carotene the vitamin A activity of 1 microgram of retinol. Purified beta-carotene in an oil matrix, the form in a capsule, bypasses the food-matrix release step and carries a separate and much more favourable ratio of 2 micrograms per 1 microgram retinol activity equivalent, so a supplement delivers roughly six times the retinol activity of the same weight eaten in food. Common BCO1 variants reduce conversion markedly in a substantial minority of people. Uncleaved beta-carotene acts as a lipid-phase antioxidant and singlet oxygen quencher in laboratory systems, but no human physiological process depends on the intact molecule, and every requirement it can meet is a vitamin A requirement that preformed retinol meets directly.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -2757,6 +3260,20 @@ Carrots, carrot juice, sweet potato, squash and dark leafy greens are dense, ord
 - Haemorrhagic stroke RR 1.22 (1.00-1.48) across 9 trials and 118,765 participants, which is one additional haemorrhagic stroke per 1,250 people treated.
 - Contraindicated with warfarin, direct oral anticoagulants, aspirin, clopidogrel and other antiplatelets, because impaired coagulation is the endpoint EFSA used to set its limit.
 - USPSTF grade D. Note the limits diverge sharply: 1,000 mg/d supplemental alpha-tocopherol in the US, but 300 mg/d from ALL sources in the EU.
+
+**What it does, and what happens without it**
+
+The body's main fat-soluble antioxidant, protecting cell membranes and nerves from oxidative damage.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** Alpha-tocopherol is the only form of vitamin E the body retains. After absorption, hepatic alpha-tocopherol transfer protein (TTPA) selectively loads alpha-tocopherol onto VLDL for export to tissues, while the other tocopherols and the tocotrienols are metabolised and excreted. Its established function is to break the chain reaction of lipid peroxidation in the polyunsaturated fatty acids of cell membranes and lipoproteins, donating a hydrogen atom to lipid peroxyl radicals and then being regenerated by ascorbate. The tissues that suffer first without it are peripheral nerve axons, the posterior columns and cerebellum, the retina, and the erythrocyte membrane. Converting the dose properly (1 mg alpha-tocopherol = 1.49 IU natural-source RRR, 2.22 IU synthetic all-rac), 400 IU is 268 mg of natural-source or 180 mg of synthetic alpha-tocopherol, roughly 12 to 18 times the adult RDA of 15 mg/d depending on which form the product uses, so at that level it is being used pharmacologically rather than to correct any dietary shortfall.
+- **Deficiency disease:** No classic single-name disease. The recognised syndrome is vitamin E deficiency ataxia, a spinocerebellar degeneration with peripheral neuropathy and pigmentary retinopathy; in preterm infants it presents as haemolytic anaemia of prematurity. Ataxia with isolated vitamin E deficiency (AVED) produces the same clinical picture but is an inherited TTPA gene defect, not a dietary deficiency.
+- **First signs:** Plasma alpha-tocopherol below roughly 12 micromol/L, or a low tocopherol-to-total-lipid ratio, precedes symptoms by months to years and is the practical marker. The first clinical signs are loss of ankle reflexes and reduced vibration and joint position sense in the feet, sometimes with unsteady walking in the dark. In preterm infants, a haemolytic anaemia with raised reticulocytes.
+- **Untreated:** Untreated, it progresses to a combined spinocerebellar and sensory picture: ataxia from posterior column degeneration, dysarthria, ophthalmoplegia, head titubation, proximal weakness, and pigmentary retinopathy with declining visual acuity. The endpoint is a person who can no longer walk unaided, with fixed sensory ataxia and neuropathy.
+- **Does it reverse:** High-dose repletion reliably halts progression, and when started early (within roughly a year of symptom onset, or before symptoms in a child with known malabsorption) much of the neuropathy recovers. Long-standing posterior column and cerebellar degeneration and established retinopathy usually do not fully resolve, so treatment prevents more than it restores.
+- **Who becomes deficient:** Almost exclusively people who cannot absorb fat: cystic fibrosis, cholestatic liver disease and biliary atresia, short bowel syndrome, chronic pancreatitis, abetalipoproteinaemia and homozygous hypobetalipoproteinaemia. Preterm and very low birth weight infants. Separately, people with the inherited TTPA defect (AVED), which is a genetic transport disorder rather than a consequence of diet. In an adult with normal fat absorption, eating too little vitamin E essentially does not produce clinical deficiency. At the 400 IU/d dose this entry names, the established direction of effect is harm rather than repletion: in SELECT, 400 IU/d of alpha-tocopherol raised prostate cancer incidence in healthy men (HR 1.17, 99% CI 1.004-1.36; PMID 21990298).
+- **How common:** NOT ESTABLISHED for frank clinical deficiency, which is rare enough in the general population that no meaningful prevalence figure exists. The widely quoted claim that over 90% of Americans fail to meet the estimated average requirement for alpha-tocopherol is an intake statistic, not a deficiency rate, and no corresponding burden of neurological disease accompanies it (doi:10.3945/an.114.006254). Biochemical deficiency is common in untreated cystic fibrosis and cholestatic liver disease.
 
 **Food and the body**
 
@@ -2816,6 +3333,20 @@ Alpha-tocopherol is abundant in ordinary foods: seed and nut oils, sunflower see
 - Incident type 2 diabetes hazard ratio 1.55 (1.03-2.33) over a mean 7.7 years at 200 µg/d, with excess risk concentrated in those already in the highest tertile of baseline plasma selenium. This harm appears at HALF the US upper limit.
 - The therapeutic window is narrow. EFSA lowered its upper limit to 255 µg/d in 2023 with alopecia as the critical endpoint, and derived its lowest-observed-adverse-effect level of 330 µg/d from the SELECT trial itself.
 - Stacking is how people get there: a 200 µg tablet on top of a multivitamin containing 55-70 µg plus dietary intake.
+
+**What it does, and what happens without it**
+
+Selenium builds the enzymes that mop up oxidative damage and switch on thyroid hormone.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** Selenium is incorporated as the amino acid selenocysteine into about 25 human selenoproteins. The glutathione peroxidases (GPX1 to GPX4) reduce hydrogen peroxide and lipid hydroperoxides, GPX4 specifically preventing ferroptotic membrane damage. Thioredoxin reductases maintain cellular redox state and support DNA synthesis. The iodothyronine deiodinases convert T4 to active T3, which links selenium status to thyroid function. Selenoprotein P is the plasma transport form and the best status marker. The dose in this entry matters. Plasma glutathione peroxidase (GPX3) plateaus near 55 micrograms per day, which is what the RDA is built on. Selenoprotein P plateaus somewhere in the range of roughly 50 to 105 micrograms per day depending on baseline status: about 49 micrograms per day in selenium-deficient Chinese subjects, against about 105 micrograms per day of total intake in UK adults (a 50 microgram supplement on top of roughly 55 micrograms habitual). Either way, 200 micrograms per day supplies three to four times the adult RDA and produces no further enzyme activity in someone already replete, while sitting halfway to the tolerable upper limit of 400 micrograms per day. In the Nutritional Prevention of Cancer trial, 200 micrograms per day for a mean 7.7 years raised type 2 diabetes incidence (hazard ratio 1.55, 95% CI 1.03 to 2.33), concentrated in participants who started in the highest baseline selenium tertile (hazard ratio 2.70).
+- **Deficiency disease:** Keshan disease, an endemic cardiomyopathy. Kashin-Beck disease, an endemic osteoarthropathy, occurs in the same low-selenium regions and is associated with, though not fully explained by, selenium deficiency.
+- **First signs:** Plasma selenium and glutathione peroxidase activity fall with no symptoms at all. In endemic areas, subclinical ECG abnormalities and reduced ejection fraction appear before overt illness, which is how latent Keshan disease is detected on screening. Isolated cases outside endemic areas typically surface as unexplained myopathy, muscle pain, or whitened nail beds.
+- **Untreated:** Keshan disease presents acutely with cardiogenic shock and arrhythmia, or chronically as congestive cardiomyopathy with cardiac enlargement and multifocal myocardial necrosis and fibrosis. It classically strikes children and women of childbearing age in low-soil-selenium areas and is fatal without treatment. A coxsackievirus co-factor is thought to trigger the acute form in a selenium-depleted host. Kashin-Beck disease destroys growth-plate and articular cartilage, producing shortened fingers, deformed ankles, knees, wrists and elbows, and permanently limited movement.
+- **Does it reverse:** Early Keshan disease responds well to selenium replacement, and heart failure can improve substantially or resolve if caught before the myocardium is remodelled. Once dilated cardiomyopathy with established fibrosis has developed, the myocardial damage does not fully reverse and outcomes are poor. Kashin-Beck cartilage necrosis and the resulting joint deformity are permanent. Prophylactic sodium selenite in endemic Chinese counties prevented new cases, which is the clearest evidence the causal direction is right.
+- **Who becomes deficient:** Residents of low-selenium soil belts, chiefly the diagonal band across China from the northeast to the southwest, plus parts of Siberia. Long-term parenteral nutrition without added selenium. Severe malabsorption, short bowel, and cystic fibrosis. Dialysis patients. Dietary selenium deficiency is not a realistic concern for anyone eating a mixed diet in North America, where soil selenium is high; two Brazil nuts alone exceed the adult RDA.
+- **How common:** NOT ESTABLISHED as a current global figure. Keshan disease was endemic across a defined low-selenium region of China and has been reduced to near-zero incidence since selenite supplementation and food-supply changes began in the 1970s. Dietary selenium deficiency is essentially absent in the United States, where median intake already exceeds the RDA from food alone.
 
 **Food and the body**
 
@@ -2877,6 +3408,20 @@ Selenium is genuinely abundant in ordinary food, and offal and marine fish carry
 - Unlike beta-carotene, preformed vitamin A is not subject to feedback regulation on absorption, so chronic excess accumulates and causes hepatotoxicity, intracranial hypertension and bone loss.
 - Contraindicated in liver disease of any kind, since retinol is stored in and toxic to the liver.
 
+**What it does, and what happens without it**
+
+Makes the eye's dim-light pigment and keeps skin, gut and airway linings healthy.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** Retinol is oxidised to 11-cis-retinal, which binds opsin to form rhodopsin, the photopigment of the rod cells that makes vision in dim light possible. By a separate route it is oxidised to all-trans and 9-cis retinoic acid, ligands for the nuclear RAR and RXR receptors, which regulate transcription of genes controlling epithelial differentiation (goblet cells and mucin production in the conjunctiva, cornea, respiratory tract and gut), embryonic patterning, haematopoiesis, and both innate and adaptive immunity including gut-homing of T lymphocytes. Preformed retinol from liver, dairy, eggs and supplements is absorbed efficiently and stored in hepatic stellate cells, which buffer plasma concentrations for months. 10,000 IU is about 3,000 micrograms retinol activity equivalents, roughly four times the adult RDA and at the tolerable upper intake level, so at this dose the clinically relevant question is excess rather than shortfall.
+- **Deficiency disease:** Xerophthalmia, the spectrum running from night blindness (nyctalopia) through conjunctival and corneal xerosis to keratomalacia.
+- **First signs:** Impaired dark adaptation, then frank night blindness: trouble seeing after dusk or in a dimly lit room, which in a small child shows as reluctance to move about after dark. Conjunctival xerosis and Bitot spots, foamy grey triangular patches of keratinised conjunctiva, follow. Increased severity and duration of measles, diarrhoea and respiratory infection often precede any eye sign. Serum retinol below 0.70 micromol/L is the biochemical marker, though it falls only once liver stores are largely gone.
+- **Untreated:** Corneal xerosis progresses to punctate keratopathy, then corneal ulceration, then keratomalacia, in which the corneal stroma liquefies over a few days and frequently perforates. The eye is structurally destroyed and blindness is permanent. Deficiency also substantially raises child mortality from measles, diarrhoeal disease and respiratory infection, and roughly half of the children who go blind from it die within twelve months.
+- **Does it reverse:** Night blindness, conjunctival xerosis and Bitot spots reverse within days to weeks of high-dose retinol. Once the cornea ulcerates or melts, the loss is structural and permanent, and vitamin A deficiency remains a leading cause of preventable childhood blindness worldwide. The window between the fully reversible and the irreversible stage can be only a few days in a sick, depleted child, which is why treatment is given on clinical suspicion without waiting for a retinol assay.
+- **Who becomes deficient:** Preschool children and pregnant and lactating women in low-income settings whose diets contain little animal-source food or provitamin A vegetables, particularly where measles and diarrhoeal disease are common. In high-income countries deficiency is rare and almost always secondary to disease: cystic fibrosis, cholestatic liver disease, short bowel syndrome, pancreatic insufficiency and bariatric surgery. It also occurs with extremely restricted eating, including the food selectivity seen in some autistic children, where xerophthalmia has been reported.
+- **How common:** WHO estimated that for 1995-2005, 190 million preschool-age children (33.3% of that age group in at-risk populations) and 19.1 million pregnant women had serum retinol below 0.70 micromol/L, with about 5.2 million preschool children affected by night blindness (WHO, Global prevalence of vitamin A deficiency in populations at risk 1995-2005, Geneva 2009). Deficiency in high-income populations is rare and disease-related rather than dietary; no useful population prevalence figure exists for those settings.
+
 **Food and the body**
 
 - **In food:** Rich
@@ -2930,6 +3475,20 @@ Liver is far more concentrated in preformed retinol than the supplement: 10,000 
 - Audit your total intake. Anyone on a B-complex, a fortified energy drink and a nerve or stress formula can easily stack past 100 mg without noticing.
 - An observational safety signal exists: in men, a 10-year average intake above 20 mg/d from individual supplements gave lung cancer HR 1.82 (1.25-2.65). Confounding by smoking is possible, but the direction is not reassuring.
 
+**What it does, and what happens without it**
+
+Vitamin B6 powers amino acid enzymes; at high doses it damages sensory nerves.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Fully reversible
+- **In detail:** The active form, pyridoxal 5'-phosphate, is the cofactor for well over 100 enzymes, most of them in amino acid metabolism: transaminases, the decarboxylases that make serotonin, dopamine, GABA and histamine, the first committed step of haem synthesis (ALA synthase), glycogen phosphorylase, and cystathionine beta-synthase and gamma-lyase, which dispose of homocysteine by transsulphuration. Requirement rises with protein intake. Above the point where these enzymes are saturated, extra B6 adds no function. High-dose products (typically 50 to 500 mg/day, sold for premenstrual symptoms, carpal tunnel syndrome, nausea in pregnancy, or hidden inside B-complex and energy formulations) instead produce a dose-dependent and duration-dependent sensory neuropathy, with the dorsal root ganglion as the target. On toxicity, which is a separate question from the deficiency rated below: because the injury is to the sensory nerve cell bodies in the dorsal root ganglion rather than to the axon alone, recovery after stopping the supplement is often incomplete. Numbness and impaired position sense usually improve over several months, sometimes substantially, but residual deficit persists in some people (Schaumburg 1983). Time to onset is inversely related to dose, so grams per day can do it in weeks while tens of milligrams may take years, which is why EFSA applied an uncertainty factor of 4 to a 50 mg/day reference point when setting the 12 mg/day adult upper level in 2023.
+- **Deficiency disease:** Pyridoxine deficiency: seborrhoeic dermatitis with cheilosis and glossitis, hypochromic microcytic anaemia, and seizures in infants; nearly always secondary to isoniazid, cycloserine, hydralazine or penicillamine, alcohol dependence, dialysis or malabsorption.
+- **First signs:** Plasma pyridoxal 5'-phosphate below about 20 nmol/L, usually with no symptoms at all. When symptoms appear they are mucocutaneous and non-specific: angular cheilitis, glossitis, seborrhoeic dermatitis around the eyes, nose and mouth, plus irritability and low mood. Homocysteine may be mildly raised.
+- **Untreated:** Hypochromic microcytic anaemia from impaired haem synthesis (distinct from X-linked ALAS2 pyridoxine-responsive sideroblastic anaemia, which is genetic, not dietary), and a peripheral sensory neuropathy. In infants, deficiency causes seizures through failure of GABA synthesis. Isolated severe deficiency is rare and is nearly always secondary: isoniazid, cycloserine, hydralazine or penicillamine treatment, alcohol dependence, dialysis, or malabsorption. Note that both deficiency and excess of B6 produce peripheral neuropathy, so neuropathy in a supplement user is at least as likely to be caused by the supplement as corrected by it.
+- **Does it reverse:** This field rates recovery from the deficiency, and B6 deficiency corrects fully within weeks on modest repletion, with no residual deficit: the mucocutaneous signs clear, the anaemia resolves, and pyridoxine-responsive infantile seizures stop once the vitamin is given. Recovery from high-dose B6 neuropathy is a different question with a different answer (often incomplete) and is set out in the function description above, not here.
+- **Who becomes deficient:** For deficiency: people taking isoniazid, cycloserine, hydralazine or penicillamine; alcohol dependence; dialysis; malabsorption. Lower plasma PLP is also seen in older adults, smokers, and current or former oral contraceptive users. For toxicity: anyone taking a high-dose B6 or B-complex product for months to years, often without realising the dose, since a single tablet can exceed the European upper level several-fold.
+- **How common:** Around 23 to 27% of US adults not taking supplements had plasma PLP below 20 nmol/L in NHANES 2003 to 2004, mostly biochemical rather than symptomatic (PMID 18469270). On the toxicity side, EFSA set the adult tolerable upper intake at 12 mg/day in 2023, derived from a 50 mg/day reference point for peripheral neuropathy with an uncertainty factor of 4 (doi:10.2903/j.efsa.2023.8006).
+
 **Food and the body**
 
 - **In food:** Rich
@@ -2981,6 +3540,14 @@ Vitamin B6 itself is abundant and widely distributed, with fish, organ meat, pou
 - The weight-loss claim, which is why most of it is sold, has clinically trivial effect sizes where measurable.
 - It was the second most used of six hepatotoxic botanicals in US national survey data. Avoid entirely with pre-existing liver disease, raised transaminases, or another hepatotoxic agent such as methotrexate, isoniazid, high-dose paracetamol or alcohol.
 
+**What it does, and what happens without it**
+
+A tea polyphenol the body does not need; concentrated extracts can injure the liver.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Epigallocatechin-3-gallate is the dominant catechin of green tea. It is poorly absorbed, extensively methylated, glucuronidated and sulfated, and degraded by gut microbiota, leaving free plasma EGCG in the sub-micromolar range. Proposed actions include inhibition of catechol-O-methyltransferase, modest effects on fat oxidation and binding to the 67 kDa laminin receptor, none of which establish any physiological requirement. The important safety fact runs the other way: concentrated extracts, especially taken while fasting, cause idiosyncratic hepatocellular injury, with published cases spanning intakes of roughly 140 to 1000 mg EGCG per day and a strong association with the HLA-B*35:01 allele. Brewed tea as a beverage is not implicated at these concentrations.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -3029,6 +3596,14 @@ Green tea, matcha, white tea and gunpowder green tea all deliver EGCG at tens to
 - Avoid in pregnancy (traditional abortifacient use), in autoimmune disease and in transplant recipients (immunostimulant effects), and with sedatives (additive).
 - The trials are small, short, mostly single-centre and frequently manufacturer-sponsored, with subjective questionnaire endpoints and no hard endpoint anywhere in the literature.
 
+**What it does, and what happens without it**
+
+A root extract taken for stress; it plays no part in normal human physiology.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Withania somnifera root contains withanolides (principally withaferin A and withanolide A) together with sitoindosides, and commercial extracts are standardised to withanolide content. Randomised trials running 8 to 12 weeks report modest reductions in self-rated stress scales and in morning serum cortisol, while the proposed HPA axis and GABA-A receptor mechanisms rest largely on animal and in vitro work. Nothing in the human body synthesises withanolides and no metabolic pathway requires them, so this is a pharmacological exposure rather than a nutritional one. Liver injury is a documented harm: a case series from Iceland and the US Drug-Induced Liver Injury Network described five patients (3 male, 2 female, mean age 43, range 21 to 62) who became jaundiced 2 to 12 weeks after starting ashwagandha, with cholestatic or mixed injury (R ratios 1.4 to 3.3) and hyperbilirubinaemia persisting 5 to 20 weeks. Liver tests normalised within 1 to 5 months in four of the five and the fifth was lost to follow-up; no patient developed hepatic failure and there were no deaths or transplants in the series.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Not food
@@ -3066,6 +3641,14 @@ Ashwagandha is the root, sometimes root plus leaf, of Withania somnifera, a smal
 - The FDA acted against Hydroxycut in 2009 after hepatotoxicity reports including a death. NIH LiverTox maintains a dedicated monograph for Garcinia cambogia acute liver injury including fulminant hepatic failure.
 - These are proprietary blends, and 40.9% of all adulterated supplements in the FDA database are weight-loss products. Undeclared sibutramine, withdrawn from all major markets in 2010, and prohibited stimulants such as DMAA, deterenol, octodrine, oxilofrine and phenpromethamine are repeatedly found.
 - Serotonin syndrome has been reported with garcinia in combination with SSRIs, SNRIs and MAOIs. Contraindicated in liver disease, arrhythmia and hypertension.
+
+**What it does, and what happens without it**
+
+Stimulant and herbal blends for fat loss; adulteration with withdrawn drugs is common.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Typical declared ingredients are caffeine, green tea catechins, synephrine, yohimbine, garcinia and undisclosed stimulant analogues, often behind a proprietary blend label that conceals individual doses. Weight-loss products accounted for 317 of the 776 supplements associated with US FDA warnings from 2007 to 2016, and within them 84.9% contained sibutramine, an appetite suppressant suspended in the EU in January 2010 and withdrawn in the US in October 2010 over cardiovascular events, though it remained on the market in some countries afterwards; 23.7% contained the laxative phenolphthalein, 6.3% contained sibutramine analogues and 5.4% contained fluoxetine. Non-bodybuilding herbal and dietary supplements as a class carry the worst liver outcomes in the US Drug-Induced Liver Injury Network: among DILIN-enrolled liver-injury cases, death or liver transplantation occurred in 13% of the 85 non-bodybuilding supplement cases against 3% for conventional medications. That group is heterogeneous, covering weight-loss along with energy, joint, immune and mixed products, and the figure describes outcomes among adjudicated cases already in a hepatology referral network rather than the risk of taking such a product. This is a commercial product category built on stimulants and adulterants; there is no nutrient in it and nothing a person can be deficient in.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -3113,6 +3696,14 @@ This category holds four different answers and the earlier single TRACE label hi
 - Muscle building accounted for 11.9% of adulterated products in the FDA database, and bodybuilding products caused 45 of 130 herbal and dietary supplement liver injury cases in the DILIN cohort.
 - ABCB11 gene variants were over-represented in cases versus ethnically matched controls, so some individuals are genetically far more vulnerable and have no way to know.
 
+**What it does, and what happens without it**
+
+Muscle and testosterone products; nearly nine in ten flagged ones contain hidden synthetic steroids.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** These products promise anabolic effect from Tribulus terrestris, D-aspartic acid, fenugreek, boron and similar botanicals, none of which raises serum testosterone in men with normal gonadal function at the doses supplied. Of 92 muscle-building supplements associated with US FDA warnings between 2007 and 2016, 89.1% contained synthetic steroids or steroid-like compounds that were not declared on the label. In the US Drug-Induced Liver Injury Network, 45 of 130 supplement-related liver injuries came from bodybuilding products, causing prolonged cholestatic jaundice in young men that lasted weeks to months, though without deaths or transplants in that series. Liver injury attributed to herbal and dietary supplements rose from 7% to 20% of all DILIN cases between 2004 and 2013, and this category is a substantial part of that rise. It is a product class with no nutritional content, so no deficiency state exists.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** None
@@ -3149,6 +3740,14 @@ There is no food source, because the active ingredients are undeclared anabolic 
 - The adulterants are PDE5 inhibitors, chiefly sildenafil and structural analogues designed to evade detection. Undeclared sildenafil taken by someone on nitrates for angina is a route to catastrophic hypotension in a patient who does not know they took a PDE5 inhibitor.
 - Enforcement does not work on this category. Of 27 FDA-recalled supplements still purchasable and re-analysed a mean 34.3 months after recall, 18 (66.7%) still contained banned drugs and 63% contained the same adulterant the FDA had already ordered removed.
 - Tucker found 157 products (20.2%) contained more than one unapproved ingredient, and on resampling 19 of 28 repeatedly flagged products (67.9%) had merely switched to a different adulterant.
+
+**What it does, and what happens without it**
+
+Pills sold for erections; a large share of the products FDA has flagged contain undeclared PDE5 inhibitors.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** Marketed as herbal or all-natural, these products routinely contain undeclared PDE5 inhibitors. Of 776 dietary supplements associated with US FDA warnings between 2007 and 2016, 353 (45.5%) were sexual enhancement products, and within that group sildenafil was identified in 47.0%, sildenafil analogues in 38.0%, tadalafil in 20.4% and the antidepressant dapoxetine in 4.0%. The botanicals actually named on the label (Panax ginseng, Tribulus terrestris, Epimedium, yohimbe, maca) have no established effect on erectile function at the quantities supplied, so any felt effect points to the hidden pharmaceutical. The concrete danger is a vasodilator taken unknowingly alongside nitrates or in the presence of cardiac disease, since the user believes the product is herbal and does not mention it to a clinician. As a product category there is no nutrient here and no deficiency state.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -3188,6 +3787,14 @@ There is no food source. The active ingredients are undeclared PDE5 inhibitors, 
 - Vitamin B12 use before and during chemotherapy was associated with worse disease-free survival (HR 1.83, 1.15-2.92) and worse overall survival (HR 2.04, 1.22-3.40) in a prospective study nested in a phase 3 trial.
 - The upper limit for synthetic folic acid is 1,000 µg/d, and it was set to prevent masking of B12 deficiency neuropathy.
 
+**What it does, and what happens without it**
+
+Lowers homocysteine in the blood, which turns out not to prevent heart attacks.
+
+- **If you lack it:** Mixed product
+- **In detail:** Folic acid with B12, often with B6 added, reliably lowers plasma total homocysteine by roughly a quarter, because both vitamins feed the methionine synthase step that converts homocysteine back to methionine. The rationale was observational: raised homocysteine tracks with vascular disease and stroke. Randomised trials separated the biomarker from the disease. The Cochrane review included 15 trials and 71,422 participants in total, with each outcome pooled from a subset of those trials: no effect on myocardial infarction (7.1% versus 6.0%, RR 1.02, 95% CI 0.95 to 1.10; 12 trials, 46,699 participants) and none on death from any cause (11.7% versus 12.3%, RR 1.01, 95% CI 0.96 to 1.06; 11 trials, 44,817 participants), with a small reduction in stroke (4.3% versus 5.1%, RR 0.90, 95% CI 0.82 to 0.99; 10 trials, 44,224 participants) driven largely by trials in populations without folic acid fortification and with low baseline folate. One safety point carries over from the components: high-dose folic acid given without first checking B12 status can normalise the anaemia of B12 deficiency while the spinal cord damage continues undetected, so B12 status should be established before folate is given at these doses.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -3225,6 +3832,14 @@ Both nutrients are abundant in ordinary food, so see the folic acid and vitamin 
 - In the same study, vitamin B12 taken before and during chemotherapy gave disease-free survival HR 1.83 (1.15-2.92) and overall survival HR 2.04 (1.22-3.40). Iron was also associated with worse outcomes.
 - SELECT establishes in a randomised setting that high-dose antioxidant supplementation can INCREASE cancer incidence: vitamin E 400 IU/d raised prostate cancer HR 1.17 in 34,887 men.
 - Honest caveat: SWOG S0221 is observational within a randomised trial, and the headline antioxidant hazard ratio crossed 1 with P=0.06. Nobody should overstate it. But cancer patients are the most aggressively targeted and least protected supplement consumers, and support your body through chemo is sold with no evidence and a plausible mechanism of harm.
+
+**What it does, and what happens without it**
+
+Not a nutrient. This is the practice of taking antioxidant pills while on chemotherapy.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** This entry is a clinical scenario rather than a substance, and there is no antioxidant deficiency to correct. Anthracyclines, platinum agents, alkylating agents and radiotherapy kill tumour cells partly through reactive oxygen species and oxidative DNA damage, so high-dose antioxidants taken concurrently could in principle shield the tumour along with normal tissue, and tumour cells themselves often depend on antioxidant defences to survive. In the largest prospective dataset, 1,134 women in the SWOG S0221 adjuvant breast cancer trial, self-reported use of any antioxidant supplement (vitamin A, C or E, carotenoids or coenzyme Q10) both before and during chemotherapy was associated with a borderline increase in recurrence (adjusted hazard ratio 1.41, 95% CI 0.98 to 2.04, P = .06) and in death (adjusted hazard ratio 1.40, 95% CI 0.90 to 2.18, P = .14), with separately significant signals for vitamin B12 and for iron. These associations are observational within a randomised trial cohort and both antioxidant confidence intervals cross 1, so this is a well-founded caution rather than proof of harm, and it underpins oncology advice to avoid supplements other than a standard multivitamin during treatment unless a specific deficiency has been diagnosed.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
 
 **Food and the body**
 
@@ -3264,6 +3879,14 @@ Vitamins A, C and E, carotenoids and CoQ10 are all present in ordinary food, and
 - Saccharomyces boulardii fungaemia is documented in ICU patients with central venous catheters, which is the dominant risk factor.
 - Absolute contraindications: predicted severe acute pancreatitis, multi-organ failure, central venous catheter, neutropenia, severe immunocompromise, and preterm infants outside a supervised NICU protocol.
 
+**What it does, and what happens without it**
+
+Giving live bacteria to intensive care patients; large trials show no benefit and real harm.
+
+- **If you lack it:** No deficiency state exists
+- **In detail:** The rationale was that critical illness collapses gut microbial diversity and promotes translocation of pathogens across a compromised barrier, so restoring commensals might prevent ventilator-associated pneumonia and sepsis. PROSPECT randomised 2650 mechanically ventilated ICU patients across 44 units to Lacticaseibacillus rhamnosus GG or placebo and found ventilator-associated pneumonia in 21.9% versus 21.3% (hazard ratio 1.03, 95% CI 0.87 to 1.22), with no benefit on any secondary outcome. PROPATRIA, in 298 patients with predicted severe acute pancreatitis, found mortality of 16% on a multispecies probiotic against 6% on placebo (relative risk 2.53, 95% CI 1.22 to 5.25), with nine cases of bowel ischaemia in the probiotic arm and none on placebo, eight of them fatal; that trial has carried an Expression of Concern from The Lancet since March 2010, issued after a Dutch investigation by the IGZ, CCMO and VWA into its design, approval and conduct, and it has not been retracted. Probiotic bacteraemia and Saccharomyces fungaemia are separately documented in patients with central venous catheters or a breached gut barrier, which is why this is a setting where a live organism behaves as a hazard rather than a supplement.
+- *There is no deficiency state for this. It is not an essential nutrient, so being short of it is not a thing that can happen.*
+
 **Food and the body**
 
 - **In food:** Rich
@@ -3302,6 +3925,20 @@ Live microorganisms are abundant in fermented foods, and the counts are given in
 - Kidney stones increased significantly in WHI, HR 1.17 (1.02-1.34). This is the clearest confirmed harm in that trial.
 - Supplementing on top of adequate dietary intake gets you the possible cardiovascular downside and no bone upside. Supplement the shortfall only.
 - Absorption falls above about 500 mg per dose, so split doses. Chelates levothyroxine, bisphosphonates, tetracyclines and fluoroquinolones. Avoid in hypercalcaemia, primary hyperparathyroidism, sarcoidosis and a history of calcium-containing stones.
+
+**What it does, and what happens without it**
+
+Builds bone mineral and carries the signals for muscle contraction, nerve firing and clotting.
+
+- **If you lack it:** Named deficiency disease
+- **Reversible:** Partly reversible
+- **In detail:** About 99% of body calcium is hydroxyapatite crystal in bone and teeth, serving a structural role. The remaining 1% is the cell's universal second messenger: it triggers excitation-contraction coupling in muscle, neurotransmitter release at synapses, and several steps of the coagulation cascade. Serum ionised calcium is defended within a very narrow range by parathyroid hormone, calcitriol and bone resorption, so a low dietary intake does not lower blood calcium. It is paid for out of the skeleton instead. That regulation is the key to this particular entry. Fractional absorption falls as intake rises, so in a person already meeting requirements from food, additional supplemental calcium contributes little to bone mineral and the surplus is largely excreted. What a supplement does add that food does not is a large absorptive bolus, and that is the context for the constipation, the increased kidney stone risk seen in the Women's Health Initiative, and the contested cardiovascular signal.
+- **Deficiency disease:** Calcium-deficiency rickets in children and osteomalacia in adults, with nutritional secondary hyperparathyroidism. This is a disease of genuinely low intake and has no bearing on whether someone eating an adequate diet adds a supplement.
+- **First signs:** Nothing a person notices. Biochemically, parathyroid hormone rises while serum calcium stays normal, urinary calcium falls, and bone turnover markers climb. The skeleton is being drawn on silently, which is why the early phase is only ever detected on testing done for another reason.
+- **Untreated:** In children, rickets with bowed legs, widened wrists and costochondral junctions, bone pain and delayed growth. In adults, osteomalacia with diffuse bone pain, proximal muscle weakness and pseudofractures, and over decades accelerated bone loss with increased fragility fracture risk. Symptomatic hypocalcaemia with tetany and paraesthesiae comes from parathyroid or vitamin D failure rather than from dietary shortfall alone, because the skeleton buffers intake so effectively.
+- **Does it reverse:** Rickets and osteomalacia heal with calcium repletion (plus vitamin D where that is also deficient), and bone mineral density largely restores. Two things do not fully recover: skeletal deformity already established in a growing child, along with the height lost to it, and peak bone mass never accrued during adolescence, which sets the lifetime baseline and cannot be rebuilt later by supplementing.
+- **Who becomes deficient:** Children on low-calcium, high-phytate diets in parts of sub-Saharan Africa and South Asia, where dietary intakes around 200 mg/day have been documented. Adults with no dairy and no fortified alternatives. Malabsorption, post-gastrectomy states, long-term corticosteroid use, and untreated coeliac disease. The population this entry describes, someone whose diet already meets requirements, is not at risk by definition, which is the whole point.
+- **How common:** NOT ESTABLISHED as a global figure for calcium-specific deficiency, because it is difficult to separate from vitamin D deficiency in survey data. Regionally it is well documented: median dietary calcium intake in Nigerian children with nutritional rickets was about 203 mg/day, against 196 mg/day in controls (P=0.64), on a requirement of roughly 700 to 1,300 mg/day depending on age. Calcium alone outperformed vitamin D alone in treating them, with 61% on calcium and 58% on the combination reaching the combined endpoint against 19% on vitamin D alone.
 
 **Food and the body**
 

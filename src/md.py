@@ -6,6 +6,8 @@ from site_base import (ALL, FOOD, SYN, IX, ORDER, OUTDIR, VERDICT_META, GRADE_ME
                        axes_for, TAKE, CONSIDER, SKIP, AVOID)
 from syn_load import DIRECTION_META, SEVERITY_META
 from cards import split_source, conf_bits, conf_reason
+from site_base import FUNC
+from func_load import DEF_META as _DEF, REV_META as _REV
 import build as B
 from assemble import DOSE_ROWS, TIER_HEAD
 
@@ -56,6 +58,9 @@ def render(en):
         ('3 In food', '3 食物中', 'Does the substance occur in ordinary food?', '这种物质在普通食物中究竟有没有？'),
         ('4 Dose from food', '4 靠吃达到剂量', 'Could eating reach the tested dose?', '靠吃能达到试验剂量吗？'),
         ('5 Body makes it', '5 身体自产', 'Can you synthesise it yourself?', '你自己能合成吗？'),
+        ('6 If you lack it', '6 缺乏后果',
+         'Is there a deficiency state at all, and does the damage reverse?',
+         '究竟存不存在缺乏状态？造成的损害能不能修复？'),
     ]:
         w('| **%s** | %s |\n' % (t(a, b), t(c, d)))
     w('\n> %s\n\n' % t(
@@ -71,18 +76,24 @@ def render(en):
 
     # ---- register
     w('## %s\n\n' % t('2. The register', '二、总表'))
-    w('| %s | %s | %s | %s | %s | %s |\n|---|---|---|---|---|---|\n'
+    w('| %s | %s | %s | %s | %s | %s | %s |\n|---|---|---|---|---|---|---|\n'
       % (t('Item', '项目'), t('Verdict', '结论'), t('Grade', '分级'),
-         t('In food', '食物中'), t('Dose from food', '靠吃达到剂量'), t('Body makes it', '身体自产')))
+         t('In food', '食物中'), t('Dose from food', '靠吃达到剂量'), t('Body makes it', '身体自产'),
+         t('If you lack it', '缺乏后果')))
     for v in ORDER:
         for it in [x for x in ALL if x['verdict'] == v]:
             ax = axes_for(it['en'], v, it['grade'])
             fa = FOOD_AXIS.get(ax['food'], FOOD_AXIS['SPLIT'])
             da = DOSE_AXIS.get(ax['dose'], DOSE_AXIS['NA'])
             sa = SYN_AXIS.get(ax['syn'], SYN_AXIS['NA'])
-            w('| %s | **%s** | %s | %s | %s | %s |\n'
+            de = _DEF.get(ax.get('defi', 'NA'), _DEF['NA'])
+            rv = _REV.get(ax.get('rev', 'NA'), _REV['NA'])
+            dcell = t(de[0], de[1])
+            if ax.get('rev') in ('IRREVERSIBLE', 'PARTIAL'):
+                dcell += ' (%s)' % t(rv[0], rv[1])
+            w('| %s | **%s** | %s | %s | %s | %s | %s |\n'
               % (t(it['en'], it['zh']), t(VERDICT_META[v][0], VERDICT_META[v][1]), ax['grade'],
-                 t(fa[0], fa[1]), t(da[0], da[1]), t(sa[0], sa[1])))
+                 t(fa[0], fa[1]), t(da[0], da[1]), t(sa[0], sa[1]), dcell))
     w('\n')
 
     # ---- tiers
@@ -104,6 +115,35 @@ def render(en):
             for a, b in it['cons']:
                 w('- %s\n' % t(a, b))
             w('\n')
+
+            fn = FUNC.get(name)
+            if fn:
+                de = _DEF.get(str(fn.get('deficiency_state') or 'NA').upper(), _DEF['NA'])
+                rv = _REV.get(str(fn.get('reversibility') or 'NA').upper(), _REV['NA'])
+                w('**%s**\n\n' % t('What it does, and what happens without it',
+                                       '它有什么作用，缺了会怎样'))
+                w('%s\n\n' % t(fn.get('function_short', ''), fn.get('function_short_zh')))
+                w('- **%s** %s\n' % (t('If you lack it:', '缺乏后果：'), t(de[0], de[1])))
+                if str(fn.get('reversibility', '')).upper() != 'NA':
+                    w('- **%s** %s\n' % (t('Reversible:', '是否可逆：'), t(rv[0], rv[1])))
+                w('- **%s** %s\n' % (t('In detail:', '详细：'),
+                                     t(fn.get('function_full', ''), fn.get('function_full_zh'))))
+                if str(fn.get('deficiency_state', '')).upper() in ('CLINICAL', 'FUNCTIONAL'):
+                    for a, b, k in [('Deficiency disease:', '缺乏症：', 'deficiency_name'),
+                                    ('First signs:', '早期表现：', 'deficiency_early'),
+                                    ('Untreated:', '不治疗会怎样：', 'deficiency_severe'),
+                                    ('Does it reverse:', '补回来能修复吗：', 'reversibility_note'),
+                                    ('Who becomes deficient:', '谁会缺乏：', 'at_risk'),
+                                    ('How common:', '有多常见：', 'prevalence')]:
+                        val = fn.get(k)
+                        if not val or str(val).strip().upper() in ('NONE', 'NOT APPLICABLE', 'NA'):
+                            continue
+                        w('- **%s** %s\n' % (t(a, b), t(val, fn.get(k + '_zh'))))
+                else:
+                    w('- *%s*\n' % t('There is no deficiency state for this. It is not an essential '
+                                      'nutrient, so being short of it is not a thing that can happen.',
+                                      '它不存在缺乏状态。它不是必需营养素，所以“缺了它”这件事本身并不成立。'))
+                w('\n')
 
             f = FOOD.get(name)
             s = SYN.get(name)

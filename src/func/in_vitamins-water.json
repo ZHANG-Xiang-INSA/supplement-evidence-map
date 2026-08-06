@@ -1,0 +1,149 @@
+{
+ "group": "vitamins-water",
+ "target_names": [
+  "Folic acid",
+  "Vitamin B12 (cobalamin)",
+  "High-dose vitamin B6",
+  "Vitamin C",
+  "High-dose folic acid plus B12 for cardiovascular prevention"
+ ],
+ "dataset": {
+  "items": [
+   {
+    "supplement": "Folic acid",
+    "function_short": "Supplies the one-carbon units cells need to build DNA and divide.",
+    "function_full": "Folate is reduced to tetrahydrofolate, which carries one-carbon groups for thymidylate and purine synthesis and for the remethylation of homocysteine to methionine by methionine synthase (a B12-dependent enzyme). Tissues that divide fastest depend on it most: bone marrow, gut mucosa, and the closing neural tube of an early embryo. Folic acid is the synthetic, fully oxidised form; it must be reduced by dihydrofolate reductase, whose capacity in humans is limited, so unmetabolised folic acid appears in plasma at intakes above roughly 200 to 400 micrograms in one dose. The natural circulating form is 5-methyltetrahydrofolate.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Megaloblastic (macrocytic) anaemia. In early pregnancy, folate deficiency causes neural tube defects: anencephaly, spina bifida, encephalocele.",
+    "deficiency_early": "Serum folate falls first, then red cell folate. Raised mean corpuscular volume appears before anaemia, with hypersegmented neutrophils on the film. Symptoms are non-specific: tiredness, breathlessness on exertion, sore tongue, mouth ulcers, mild diarrhoea. In pregnancy there are no maternal warning signs at all; the first evidence of a neural tube defect is usually the anomaly scan.",
+    "deficiency_severe": "Marrow failure with pancytopenia, severe anaemia, mucosal ulceration and malabsorptive diarrhoea. In pregnancy the severe endpoint is structural: anencephaly is incompatible with life, and open spina bifida causes lifelong paralysis below the lesion, hydrocephalus, and bowel and bladder impairment.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "The haematological and mucosal effects reverse completely: reticulocytosis begins within a week and the blood count normalises in about two months, with no residual deficit. A neural tube defect that has already formed is permanent and cannot be reversed by any later intake. The neural tube closes 26 to 28 days after conception, so supplementation started after a positive pregnancy test is too late for that specific endpoint, which is the whole argument for taking it before conception.",
+    "at_risk": "Women who could become pregnant, particularly with an unplanned pregnancy. Coeliac disease and other malabsorption. Heavy alcohol use. Drugs that block folate handling: methotrexate, sulfasalazine, trimethoprim, phenytoin and other anticonvulsants. High-turnover states such as chronic haemolysis and exfoliative skin disease. Dialysis.",
+    "prevalence": "In the fortified United States, 18.6% of women aged 12 to 49 had red cell folate below the threshold associated with elevated neural tube defect risk (748 nmol/L) in 2011 to 2016, down from 23.2% in 2007 to 2010 (PMID 31504109). Frank folate-deficiency anaemia is now uncommon where fortification is mandatory and remains common where it is not.",
+    "source": "PMID 31504109 (Pfeiffer et al., Am J Clin Nutr 2019, US folate status 20 years after fortification); PMID 1677062 (MRC Vitamin Study, Lancet 1991: 4 mg/day periconceptional folic acid cut neural tube defect recurrence by 72%, RR 0.28, 95% CI 0.12 to 0.71)"
+   },
+   {
+    "supplement": "Vitamin B12 (cobalamin)",
+    "function_short": "Needed by two enzymes: one for making new blood cells, one for nerve insulation.",
+    "function_full": "Cobalamin is the cofactor for exactly two human enzymes. Methionine synthase remethylates homocysteine to methionine using 5-methyltetrahydrofolate, which both regenerates usable folate and supplies S-adenosylmethionine for the methylation reactions that maintain myelin. Methylmalonyl-CoA mutase converts methylmalonyl-CoA to succinyl-CoA in the mitochondrion during breakdown of odd-chain fatty acids and branched-chain amino acids. Absorption is elaborate: gastric acid and pepsin release B12 from food protein, intrinsic factor from parietal cells carries it, and receptors in the terminal ileum take it up. Outside vegan diets the usual cause of deficiency is failure somewhere along that route rather than low intake.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Pernicious anaemia (autoimmune intrinsic factor failure) and subacute combined degeneration of the spinal cord; megaloblastic anaemia is the haematological presentation.",
+    "deficiency_early": "Methylmalonic acid and homocysteine rise before serum B12 drops into the clearly deficient range, which is why borderline results are often followed with those metabolites. Symmetrical tingling and numbness in the feet and hands, loss of vibration sense and joint position sense, unsteadiness that is worse in the dark. Macrocytosis with hypersegmented neutrophils, sore smooth tongue, fatigue, mild cognitive slowing and low mood. Neurological signs can be present with a completely normal full blood count.",
+    "deficiency_severe": "Subacute combined degeneration: demyelination of the dorsal columns and lateral corticospinal tracts producing sensory ataxia, spasticity, extensor plantar responses, and bladder and bowel disturbance, progressing untreated to spastic paraparesis and loss of independent walking. Optic atrophy occurs in a minority, as do dementia and psychosis. Severe megaloblastic anaemia with pancytopenia can occur, but it is the neurology that disables.",
+    "reversibility": "IRREVERSIBLE",
+    "reversibility_note": "The blood corrects fully (reticulocytosis within a week, counts normal in roughly eight weeks) while the neurology may not. Recovery is fastest in the first two months and continues to about six months; deficits that have been present for six to twelve months or more often leave permanent sensory ataxia, spasticity or bladder impairment, and the degree of disability before treatment predicts what remains after it. This split is exactly why folate must not be given blind for an unexplained macrocytic anaemia: folic acid repairs the blood picture and removes the visible signal while the cord damage carries on.",
+    "at_risk": "Adults over 60 with atrophic gastritis and food-bound B12 malabsorption. Autoimmune pernicious anaemia. Gastrectomy or gastric bypass, ileal resection, Crohn's disease. Long-term metformin. Long-term proton pump inhibitors or H2 blockers. Strict vegans and, importantly, their exclusively breastfed infants. Repeated nitrous oxide exposure, recreational or occupational, which inactivates methionine synthase directly.",
+    "prevalence": "About 6% of people aged 60 and over in large US and UK surveys have plasma B12 below 148 pmol/L, and close to 20% are in the marginal range of 148 to 221 pmol/L; prevalence rises with age and is considerably higher in low-income countries across the whole life span (PMID 19116323).",
+    "source": "PMID 19116323 (Allen, Am J Clin Nutr 2009, How common is vitamin B-12 deficiency?); PMID 1648656 (Healton et al., Medicine 1991, 153 episodes of neurological cobalamin deficiency; residual deficit predicted by severity and duration before treatment)"
+   },
+   {
+    "supplement": "High-dose vitamin B6",
+    "function_short": "Vitamin B6 powers amino acid enzymes; at high doses it damages sensory nerves.",
+    "function_full": "The active form, pyridoxal 5'-phosphate, is the cofactor for well over 100 enzymes, most of them in amino acid metabolism: transaminases, the decarboxylases that make serotonin, dopamine, GABA and histamine, the first committed step of haem synthesis (ALA synthase), glycogen phosphorylase, and cystathionine beta-synthase and gamma-lyase, which dispose of homocysteine by transsulphuration. Requirement rises with protein intake. Above the point where these enzymes are saturated, extra B6 adds no function. High-dose products (typically 50 to 500 mg/day, sold for premenstrual symptoms, carpal tunnel syndrome, nausea in pregnancy, or hidden inside B-complex and energy formulations) instead produce a dose-dependent and duration-dependent sensory neuropathy, with the dorsal root ganglion as the target.",
+    "deficiency_state": "FUNCTIONAL",
+    "deficiency_name": "NONE",
+    "deficiency_early": "Plasma pyridoxal 5'-phosphate below about 20 nmol/L, usually with no symptoms at all. When symptoms appear they are mucocutaneous and non-specific: angular cheilitis, glossitis, seborrhoeic dermatitis around the eyes, nose and mouth, plus irritability and low mood. Homocysteine may be mildly raised.",
+    "deficiency_severe": "Microcytic sideroblastic anaemia from impaired haem synthesis, and a peripheral sensory neuropathy. In infants, deficiency causes seizures through failure of GABA synthesis. Isolated severe deficiency is rare and is nearly always secondary: isoniazid, cycloserine, hydralazine or penicillamine treatment, alcohol dependence, dialysis, or malabsorption. Note that both deficiency and excess of B6 produce peripheral neuropathy, so neuropathy in a supplement user is at least as likely to be caused by the supplement as corrected by it.",
+    "reversibility": "PARTIAL",
+    "reversibility_note": "Deficiency itself corrects fully within weeks on modest repletion. The partial rating belongs to the excess: the sensory neuropathy caused by high-dose B6 usually improves over several months after the supplement is stopped, sometimes substantially, but residual numbness and impaired position sense persist in some people because the injury is to the sensory nerve cell bodies in the dorsal root ganglion rather than to the axon alone. Onset is inversely related to dose, so grams per day can do it in weeks while tens of milligrams may take years.",
+    "at_risk": "For deficiency: people taking isoniazid, cycloserine, hydralazine or penicillamine; alcohol dependence; dialysis; malabsorption. Lower plasma PLP is also seen in older adults, smokers, and current or former oral contraceptive users. For toxicity: anyone taking a high-dose B6 or B-complex product for months to years, often without realising the dose, since a single tablet can exceed the European upper level several-fold.",
+    "prevalence": "Around 23 to 27% of US adults not taking supplements had plasma PLP below 20 nmol/L in NHANES 2003 to 2004, mostly biochemical rather than symptomatic (PMID 18469270). On the toxicity side, EFSA set the adult tolerable upper intake at 12 mg/day in 2023, derived from a 50 mg/day reference point for peripheral neuropathy with an uncertainty factor of 4 (doi:10.2903/j.efsa.2023.8006).",
+    "source": "PMID 18469270 (Morris et al., Am J Clin Nutr 2008, plasma PLP in NHANES 2003 to 2004); PMID 6308447 (Schaumburg et al., N Engl J Med 1983, sensory neuropathy from pyridoxine abuse); doi:10.2903/j.efsa.2023.8006 (EFSA 2023, tolerable upper intake level for vitamin B6)"
+   },
+   {
+    "supplement": "Vitamin C",
+    "function_short": "Keeps collagen strong and wounds healing; without it blood vessels and gums break down.",
+    "function_full": "Ascorbate is the reducing cofactor that keeps the iron atom in a family of dioxygenases in its active state. The best known are prolyl-4-hydroxylase and lysyl hydroxylase, which hydroxylate collagen so the triple helix is stable and can be cross-linked; without them the collagen laid down is defective, which explains bleeding, poor wound healing and the reopening of old scars. The same chemistry serves dopamine beta-hydroxylase (noradrenaline synthesis), peptidylglycine alpha-amidating monooxygenase (peptide hormone amidation), two carnitine biosynthesis enzymes, and the HIF prolyl hydroxylases and TET and JmjC demethylases in gene regulation. Ascorbate also reduces dietary non-haem iron to the absorbable ferrous form. Humans cannot synthesise it because the gulonolactone oxidase gene is inactive.",
+    "deficiency_state": "CLINICAL",
+    "deficiency_name": "Scurvy",
+    "deficiency_early": "After roughly one to three months of intake below about 10 mg/day, plasma ascorbate falls and body stores drop under about 300 mg. The first phase is fatigue, irritability and diffuse aching in the legs, with nothing visible. Then come the specific skin signs: perifollicular hyperkeratosis with corkscrew-shaped body hairs on the thighs and shins, perifollicular haemorrhage, easy bruising, and swollen, spongy, bleeding gums in anyone who still has teeth.",
+    "deficiency_severe": "Bleeding into skin, muscle and joints, haemarthrosis, and subperiosteal haemorrhage, which in children causes severe limb pain and refusal to move (pseudoparalysis). Old wounds and scars break down, teeth loosen and are lost, anaemia and oedema develop. Untreated scurvy is fatal, usually from haemorrhage or cardiac failure, though it very rarely reaches that stage in current practice because treatment is trivially available.",
+    "reversibility": "FULL",
+    "reversibility_note": "Complete and unusually fast. Fatigue and pain begin improving within 24 to 48 hours of treatment, bleeding gums and bruising settle over one to two weeks, and full recovery takes around three months on 100 to 300 mg/day. No permanent deficit remains. The only exception is teeth already lost, which do not grow back.",
+    "at_risk": "People whose diets contain almost no fruit or vegetables: highly restrictive or selective eaters including some autistic children, people living alone with severe mental illness or dementia, alcohol and drug dependence, homelessness and food insecurity. Also smokers (requirement about 35 mg/day higher), people on dialysis, malabsorption, and some patients after bariatric surgery. Scurvy is a disease of dietary pattern, not of insufficient supplementation; roughly 10 mg/day prevents it and a single orange comfortably exceeds that.",
+    "prevalence": "7.1% (SE 0.9) of the US population aged 6 and over had serum ascorbate below 11.4 micromol/L in NHANES 2003 to 2004, down from about 13% in NHANES III, with the highest rates in smokers and low-income groups (PMID 19675106).",
+    "source": "PMID 19675106 (Schleicher et al., Am J Clin Nutr 2009, serum vitamin C and prevalence of deficiency in the United States, NHANES 2003 to 2004)"
+   },
+   {
+    "supplement": "High-dose folic acid plus B12 for cardiovascular prevention",
+    "function_short": "Lowers homocysteine in the blood, which turns out not to prevent heart attacks.",
+    "function_full": "Folic acid with B12, often with B6 added, reliably lowers plasma total homocysteine by roughly a quarter, because both vitamins feed the methionine synthase step that converts homocysteine back to methionine. The rationale was observational: raised homocysteine tracks with vascular disease and stroke. Randomised trials separated the biomarker from the disease. Pooling 15 trials and 71,422 participants, homocysteine lowering had no effect on myocardial infarction (7.1% versus 6.0%, RR 1.02, 95% CI 0.95 to 1.10) or death from any cause (RR 1.01, 95% CI 0.96 to 1.06), with a small reduction in stroke (4.3% versus 5.1%, RR 0.90, 95% CI 0.82 to 0.99) driven largely by trials in populations without folic acid fortification and with low baseline folate. One safety point carries over from the components: high-dose folic acid given without first checking B12 status can normalise the anaemia of B12 deficiency while the spinal cord damage continues undetected, so B12 status should be established before folate is given at these doses.",
+    "deficiency_state": "NA",
+    "deficiency_name": "NONE",
+    "deficiency_early": "NOT APPLICABLE. This is a therapeutic regimen tested for cardiovascular prevention, not a nutrient. The deficiency states of the two components are covered in their own entries.",
+    "deficiency_severe": "NOT APPLICABLE. There is no deficiency of a combination product.",
+    "reversibility": "NA",
+    "reversibility_note": "NOT APPLICABLE. No deficiency state exists for an intervention category.",
+    "at_risk": "NOT APPLICABLE. No deficiency state exists for an intervention category.",
+    "prevalence": "NOT APPLICABLE. For scale of effect rather than deficiency: the Cochrane estimate is that roughly 143 people would need treating for 5.4 years to prevent one stroke, in the trial setting where the stroke signal appeared (PMID 28816346).",
+    "source": "PMID 28816346 (Marti-Carvajal et al., Cochrane Database Syst Rev 2017, homocysteine-lowering interventions for preventing cardiovascular events, 15 trials, 71,422 participants)"
+   }
+  ]
+ },
+ "check_report": {
+  "group": "vitamins-water",
+  "errors": [
+   {
+    "supplement": "Folic acid",
+    "field": "deficiency_name",
+    "verdict": "OVERSTATED",
+    "correction": "\"In early pregnancy, folate deficiency causes neural tube defects\" states a deterministic cause for what is a probabilistic risk factor. Low maternal folate raises NTD risk along a continuous dose-response curve, and periconceptional folic acid prevents a large share of NTDs (72% recurrence reduction, MRC 1991), but most NTD pregnancies occur in women who are not frankly folate deficient, and a residual fraction of NTDs is not folate-responsive at all. Rewrite as: \"low folate status raises the risk of neural tube defects (anencephaly, spina bifida, encephalocele); periconceptional folic acid prevents a large proportion but not all of them.\" The rest of the entry already handles this correctly, so this is a wording defect in the one field a reader scans first.",
+    "source": "PMID 1677062 (MRC Vitamin Study 1991, RR 0.28, 95% CI 0.12 to 0.71, verified verbatim); Daly et al. JAMA 1995 continuous RBC-folate/NTD dose-response; USPSTF folic acid evidence review (NBK593617), which notes prevention occurs even in women with normal folate concentrations"
+   },
+   {
+    "supplement": "High-dose folic acid plus B12 for cardiovascular prevention",
+    "field": "function_full (trial counts attached to outcome estimates)",
+    "verdict": "IMPRECISE",
+    "correction": "\"Pooling 15 trials and 71,422 participants, homocysteine lowering had no effect on myocardial infarction...\" attaches the whole-review denominator to each outcome. In the Cochrane review, 15 trials / 71,422 participants is the total included; the MI estimate (7.1% vs 6.0%, RR 1.02, 95% CI 0.95 to 1.10) comes from 12 trials / 46,699 participants, stroke (4.3% vs 5.1%, RR 0.90, 95% CI 0.82 to 0.99) from 10 trials / 44,224, and all-cause death (11.7% vs 12.3%, RR 1.01, 95% CI 0.96 to 1.06) from 11 trials / 44,817. Every effect estimate and percentage in the entry is correct; only the denominator attribution is not. Also add the all-cause-death percentages, which are currently dropped while MI and stroke keep theirs.",
+    "source": "PMID 28816346 (Marti-Carvajal et al., Cochrane 2017), abstract verified verbatim"
+   },
+   {
+    "supplement": "Vitamin B12 (cobalamin)",
+    "field": "reversibility_note",
+    "verdict": "OVERSTATED",
+    "correction": "\"Deficits that have been present for six to twelve months or more often leave permanent sensory ataxia, spasticity or bladder impairment\" runs ahead of the cited source. Healton 1991 (153 episodes in 143 patients) reported complete resolution of neurologic abnormalities in 47.1% and residual moderate-to-severe disability in only 6.3%; what the paper establishes is that the extent of residual deficit is inversely related to pre-treatment severity and symptom duration. The IRREVERSIBLE classification is correct and should stand, but the note should carry the numbers: most treated patients recover fully or nearly so, a minority are left disabled, and the risk of residual deficit rises with how long the deficiency ran untreated.",
+    "source": "PMID 1648656 (Healton et al., Medicine 1991), abstract verified: 47.1% complete recovery, 6.3% residual moderate-to-severe disability"
+   },
+   {
+    "supplement": "High-dose folic acid plus B12 for cardiovascular prevention",
+    "field": "prevalence (NNTB)",
+    "verdict": "IMPRECISE",
+    "correction": "\"The Cochrane estimate is that roughly 143 people would need treating for 5.4 years to prevent one stroke\" omits both the confidence interval and the specific comparison it belongs to. Cochrane derives NNTB 143 (95% CI 85 to 428) over 5.4 years from the folic acid plus enalapril comparison (the CSPPT trial in an unfortified Chinese hypertensive population), not from the pooled 10-trial stroke estimate. The entry's hedge \"in the trial setting where the stroke signal appeared\" gestures at this but does not name it. State it: \"NNTB 143 (95% CI 85 to 428) over 5.4 years, from the folic acid plus enalapril comparison in an unfortified population.\"",
+    "source": "PMID 28816346 (Marti-Carvajal et al., Cochrane 2017), abstract verified verbatim"
+   },
+   {
+    "supplement": "High-dose vitamin B6",
+    "field": "deficiency_severe",
+    "verdict": "IMPRECISE",
+    "correction": "\"Microcytic sideroblastic anaemia from impaired haem synthesis\" blurs a nutritional state into a genetic one. Nutritional or drug-induced B6 deficiency produces a hypochromic microcytic anaemia; the classic pyridoxine-responsive sideroblastic anaemia with ring sideroblasts is usually the X-linked ALAS2 disorder, a genetic condition in which pharmacological pyridoxine is treatment rather than repletion. The entry's own drug list (isoniazid, cycloserine, penicillamine) covers the acquired route, so the fix is one clause: \"hypochromic microcytic anaemia from impaired haem synthesis (distinct from X-linked ALAS2 pyridoxine-responsive sideroblastic anaemia, which is genetic, not dietary).\"",
+    "source": "NIH ODS Vitamin B6 Health Professional fact sheet (lists microcytic anaemia as the deficiency sign); standard haematology classification of X-linked sideroblastic anaemia (ALAS2) as pyridoxine-responsive"
+   },
+   {
+    "supplement": "Folic acid",
+    "field": "prevalence",
+    "verdict": "UNVERIFIABLE",
+    "correction": "\"Frank folate-deficiency anaemia is now uncommon where fortification is mandatory and remains common where it is not\" carries no source or number, and the entry's only prevalence citation (PMID 31504109) is a US fortified-population survey that cannot support the unfortified-country half of the sentence. Either cite a figure for an unfortified setting or soften to \"and is seen more often where it is not.\" The fortified-US numbers in the same field are exact and check out.",
+    "source": "PMID 31504109 (Pfeiffer et al. 2019), abstract verified verbatim: folate insufficiency (RBC folate <748 nmol/L) in women fell from 23.2% (2007 to 2010) to 18.6% (2011 to 2016); the paper contains no unfortified-country comparison"
+   }
+  ],
+  "misclassified": [
+   {
+    "supplement": "High-dose vitamin B6",
+    "field": "reversibility",
+    "given": "PARTIAL",
+    "should_be": "FULL",
+    "why": "The reversibility column silently changes meaning on this one row. Every other entry uses it for the deficiency state; here the note openly concedes the switch: \"Deficiency itself corrects fully within weeks on modest repletion. The partial rating belongs to the excess.\" A reader scanning the column, which is the field they would act on, reads \"B6 deficiency is only partly reversible\", which the entry itself says is false. Set reversibility to FULL for the deficiency and record the high-dose sensory neuronopathy's incomplete recovery in a separate toxicity field. The clinical content about the dorsal root ganglion is accurate and worth keeping (Schaumburg 1983; EFSA 2023 applies an uncertainty factor of 4 to a 50 mg/day reference point precisely because time to onset falls as dose rises), it is just filed under the wrong label. Leaving PARTIAL here also breaks any cross-row comparison: it is the only row whose reversibility describes a harm from taking the supplement rather than a harm from lacking it."
+   },
+   {
+    "supplement": "High-dose vitamin B6",
+    "field": "deficiency_state",
+    "given": "FUNCTIONAL",
+    "should_be": "CLINICAL",
+    "why": "FUNCTIONAL paired with deficiency_name \"NONE\" is internally contradictory, and it contradicts the row's own text. FUNCTIONAL should mean biochemical change without a named clinical syndrome, yet deficiency_severe describes hypochromic microcytic anaemia, peripheral sensory neuropathy, and infantile seizures from failed GABA synthesis, which is a named clinical deficiency syndrome. B6 is an essential nutrient with a recognised deficiency state, so FUNCTIONAL understates it. Two consistent repairs exist: either set deficiency_state to CLINICAL and fill deficiency_name (\"pyridoxine deficiency: seborrhoeic dermatitis with cheilosis and glossitis, hypochromic microcytic anaemia, and seizures in infants; nearly always secondary to isoniazid, cycloserine, hydralazine or penicillamine, alcohol dependence, dialysis or malabsorption\"), or treat the row strictly as a dose-defined excess entry and use NA / NONE with the deficiency fields marked NOT APPLICABLE, the convention this dataset already applies to the folic-acid-plus-B12 intervention row. CLINICAL is the better fit because the row does document the deficiency in detail and the sibling naming convention (\"Vitamin E at or above 400 IU/d\", \"Preformed vitamin A at or above 10,000 IU\") shows these high-dose rows still cover the parent nutrient."
+   }
+  ],
+  "coverage": "CLEAN. All five assigned names present exactly once: Folic acid; Vitamin B12 (cobalamin); High-dose vitamin B6; Vitamin C; High-dose folic acid plus B12 for cardiovascular prevention. No duplicates, no extras, no unassigned items.",
+  "net": "No invented deficiencies in this group. Every item is an essential water-soluble vitamin or a correctly labelled intervention category; the folic-acid-plus-B12 row is properly NA / NONE with all deficiency fields marked NOT APPLICABLE. Nothing here needed downgrading to NONE.\n\nReversibility is right on the mandated cases: B12 subacute combined degeneration IRREVERSIBLE, scurvy FULL, folate PARTIAL with the split correctly explained (haematology reverses completely, a formed neural tube defect never does, closure at day 26 to 28). Iodine is not in this group. The one reversibility defect is High-dose vitamin B6, and it matters more than a mislabel usually would: the field switches from meaning deficiency-reversibility to toxicity-reversibility on that single row, so a reader comparing rows gets the opposite of what the entry's own note says. That plus its self-contradictory FUNCTIONAL / \"NONE\" pairing are the two findings worth acting on first.\n\nI verified every quantitative claim against the cited source abstracts, and the numbers themselves are unusually clean. Confirmed verbatim: folate insufficiency 23.2% to 18.6% with the correct downward direction and the 748 nmol/L cutoff (PMID 31504109); MRC 4 mg periconceptional folic acid, 72% protective effect, RR 0.28, 95% CI 0.12 to 0.71 (PMID 1677062); B12 about 6% below 148 pmol/L at 60+ in US and UK surveys with close to 20% marginal at 148 to 221 pmol/L (PMID 19116323); Healton 153 episodes in 143 patients with residual deficit predicted by pre-treatment severity and duration (PMID 1648656); plasma PLP below 20 nmol/L in 23 to 27% of US adult supplement non-users (PMID 18469270); EFSA 2023 UL 12 mg/day from a 50 mg/day reference point with an uncertainty factor of 4 (doi:10.2903/j.efsa.2023.8006, which yields 12.5 rounded to 12); vitamin C deficiency 7.1% +/- 0.9 SE at ages 6 and over, down from about 13% in NHANES III (PMID 19675106); and all three Cochrane effect estimates with their event percentages (PMID 28816346). Unmetabolised folic acid appearing above roughly 200 to 400 micrograms per dose also checks out. Every PMID resolves to the paper the entry names.\n\nDietary-versus-genetic confusion is close to clean. Pernicious anaemia is correctly called autoimmune rather than inherited, and the inactive gulonolactone oxidase gene is correctly presented as a species-wide trait rather than a disorder. The single soft spot is \"microcytic sideroblastic anaemia\" in the B6 row, where the ring-sideroblast phenotype belongs mostly to X-linked ALAS2 disease; one clause fixes it.\n\nRemaining findings are wording rather than fact: the folate row asserts causation for neural tube defects where the literature supports elevated risk plus large-but-partial preventability, the B12 note says \"often leave permanent\" deficits where the cited paper reports 47.1% complete recovery and 6.3% moderate-to-severe residual disability, and the Cochrane row attaches the 15-trial / 71,422 denominator to outcome estimates that pooled 10 to 12 trials while dropping the NNTB confidence interval and the CSPPT-specific provenance. Fix the two B6 classifications and the four wording items and this group is sound."
+ }
+}

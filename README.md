@@ -11,10 +11,10 @@ Compiled by ZHANG Xiang. Not medical advice.
 
 ---
 
-## The five axes
+## The six axes
 
 The landing page is an interactive register: search it, filter it, sort any column, click a row to open it. Every item
-carries a five-cell spec strip encoding the same five answers, in the same order, everywhere it appears.
+carries a six-cell spec strip encoding the same five answers, in the same order, everywhere it appears.
 
 | Cell | Axis | Question it answers |
 |---|---|---|
@@ -23,6 +23,11 @@ carries a five-cell spec strip encoding the same five answers, in the same order
 | 3 | In food | Does the substance occur in ordinary food at all? |
 | 4 | Dose from food | Could eating reach the dose used in trials? |
 | 5 | Body makes it | Can you synthesise it yourself? |
+| 6 | If you lack it | Is there a deficiency state at all, and does the damage reverse? |
+
+Axis 6 is the one most likely to be misread, so it is worth stating plainly: **you cannot be deficient in something
+that is not an essential nutrient.** There is no curcumin deficiency, no resveratrol deficiency, no ashwagandha
+deficiency. 66 of the 10 items have no deficiency state at all, and only 14 cause damage that does not fully reverse.
 
 Axes 3, 4 and 5 answer different questions and frequently disagree. Vitamin E is **rich** in food, its 400 IU trial
 dose is **out of reach** by eating, and the body **cannot** make it. All three are true at once, and only reading them
@@ -32,17 +37,20 @@ together tells you anything useful.
 
 | | |
 |---|---|
-| Products with an explicit verdict | 66 |
-| Worth taking, for named groups | 10 |
-| Published evidence of harm | 14 |
+| Products with an explicit verdict | 517 |
+| Worth taking, for named groups | 121 |
+| Published evidence of harm | 64 |
 | Papers cited | 456 |
 | Citations independently re-verified | 428 |
 | Fabricated references found | **0** |
-| Sourced food composition rows | 517 |
+| Sourced food composition rows | 32 |
 | Food figures corrected in verification | 486 |
-| Drug interaction pairs | 121 across 64 drug classes |
-| Substances the body **cannot** make | 32 |
-| Substances the body makes **fully** | 9 |
+| Drug interaction pairs | 9 across 17 drug classes |
+| Substances the body **cannot** make | 45 |
+| Substances the body makes **fully** | 2 |
+| Items with a named deficiency disease | 45 |
+| Items with **no deficiency state at all** | 66 |
+| Deficiencies causing **permanent** damage | 2 |
 
 Of 66 products, 44 have rich food sources but only 20 let you reach the supplement dose by eating. The nine substances
 the body makes in full are coenzyme Q10, melatonin, collagen, glucosamine and chondroitin, NMN, nicotinamide riboside,
@@ -73,6 +81,12 @@ instructed to assume a source does not exist until it is found.
 3. **Synthesis.** Whether the body makes each substance, with pathway, enzymes and daily amount. The first attempt
    drifted because the category field was described rather than constrained, so it was re-run with a hard enumeration
    and audited to 66 of 66.
+4. **Function and deficiency.** What each substance does in the body, and what happens when it is lacking, with
+   reversibility. Research and adversarial checking on Opus, translation on Sonnet. The checkers caught 46 errors and
+   17 misclassifications, including two cases where a genetic disorder had been filed as a dietary deficiency
+   (creatine transporter defects, primary CoQ10 deficiency), the hepcidin physiology written backwards, a zinc claim
+   citing a paper about diabetes-related emotional distress, and a fabricated newborn-screening prevalence figure.
+   150 corrections were applied.
 
 Rows the checkers could not trace to a source are tagged **unconfirmed** rather than dropped or presented as sourced.
 

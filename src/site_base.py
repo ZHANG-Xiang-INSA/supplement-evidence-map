@@ -12,10 +12,13 @@ from food_load import load as load_food
 from design import CSS, JS
 import figures as FG
 import syn_load
+import func_load
+from func_load import DEF_META as _DEF, REV_META as _REV
 
 ALL = ITEMS + ITEMS2
 FOOD, _ = load_food()
 SYN = syn_load.synthesis()
+FUNC, _FUNC_WARN = func_load.load()
 IX = syn_load.interactions()
 ORDER = [TAKE, CONSIDER, SKIP, AVOID]
 # repo root, resolved from this file so the folder can be moved freely
@@ -75,12 +78,15 @@ def norm_food(v):
 def axes_for(name, verdict, grade):
     f = FOOD.get(name) or {}
     s = SYN.get(name) or {}
+    fn = FUNC.get(name) or {}
     return {
         'verdict': verdict,
         'grade': (grade or '?')[0],
         'food': norm_food(f.get('food_status')),
         'dose': str(f.get('dose_from_food') or 'NA').upper(),
         'syn': str(s.get('endogenous') or 'NA').upper(),
+        'defi': str(fn.get('deficiency_state') or 'NA').upper(),
+        'rev': str(fn.get('reversibility') or 'NA').upper(),
     }
 
 
@@ -90,6 +96,9 @@ def spec_strip(ax, big=False):
     fa = FOOD_AXIS.get(ax['food'], FOOD_AXIS['SPLIT'])
     da = DOSE_AXIS.get(ax['dose'], DOSE_AXIS['NA'])
     sa = SYN_AXIS.get(ax['syn'], SYN_AXIS['NA'])
+    from func_load import DEF_META, REV_META
+    de = DEF_META.get(ax.get('defi', 'NA'), DEF_META['NA'])
+    rv = REV_META.get(ax.get('rev', 'NA'), REV_META['NA'])
     cells = [
         (vl, vc, 'Verdict: %s' % ax['verdict'], '结论：%s' % ax['verdict']),
         (ax['grade'], 'o', 'Evidence grade %s (confidence, not quality)' % ax['grade'],
@@ -97,6 +106,7 @@ def spec_strip(ax, big=False):
         ('F', fa[2], 'In food: %s. %s' % (fa[0], fa[3]), '食物中：%s。%s' % (fa[1], fa[4])),
         ('D', da[2], 'Dose from food: %s. %s' % (da[0], da[3]), '靠吃达到剂量：%s。%s' % (da[1], da[4])),
         ('B', sa[2], 'Body makes it: %s. %s' % (sa[0], sa[3]), '身体自产：%s。%s' % (sa[1], sa[4])),
+        ('X', de[2], 'If you lack it: %s. %s' % (de[0], de[3]), '缺乏后果：%s。%s' % (de[1], de[4])),
     ]
     o = ['<span class="spec%s">' % (' lg' if big else '')]
     for letter, cls, ten, tzh in cells:
@@ -135,6 +145,10 @@ def register():
          [(k, DOSE_AXIS[k][0], DOSE_AXIS[k][1], DOSE_AXIS[k][2]) for k in ('YES', 'PARTIAL', 'NO', 'NA')]),
         ('syn', T('Body makes it', '身体自产'),
          [(k, SYN_AXIS[k][0], SYN_AXIS[k][1], SYN_AXIS[k][2]) for k in ('FULL', 'PARTIAL', 'CONDITIONAL', 'NONE')]),
+        ('defi', T('If you lack it', '缺乏后果'),
+         [(k, _DEF[k][0], _DEF[k][1], _DEF[k][2]) for k in ('CLINICAL', 'FUNCTIONAL', 'NONE')]),
+        ('rev', T('Reversible', '是否可逆'),
+         [(k, _REV[k][0], _REV[k][1], _REV[k][2]) for k in ('IRREVERSIBLE', 'PARTIAL', 'FULL')]),
         ('food', T('In food', '食物中'),
          [(k, FOOD_AXIS[k][0], FOOD_AXIS[k][1], FOOD_AXIS[k][2]) for k in ('RICH', 'TRACE', 'SYNTHETIC', 'NOT_FOOD')]),
     ]
@@ -154,7 +168,7 @@ def register():
     # table
     o.append('<div class="tablewrap"><table class="reg-t">'
              '<colgroup><col class="c-nm"><col class="c-sp"><col class="c-vd">'
-             '<col class="c-fd"><col class="c-ds"><col class="c-sy"><col class="c-wh"></colgroup>'
+             '<col class="c-fd"><col class="c-ds"><col class="c-sy"><col class="c-df"><col class="c-wh"></colgroup>'
              '<thead><tr>')
     heads = [
         ('', T('Item', '项目'), 'name'),
@@ -163,6 +177,7 @@ def register():
         ('food', T('In food', '食物中'), 'food'),
         ('dose', T('Dose from food', '靠吃达到剂量'), 'dose'),
         ('syn', T('Body makes it', '身体自产'), 'syn'),
+        ('defi', T('If you lack it', '缺乏后果'), 'defi'),
         ('', T('Who it is for', '适用人群'), None),
     ]
     for key, lab, sortk in heads:
@@ -189,10 +204,13 @@ def register():
             ]).lower()
             o.append('<tr class="row" tabindex="0" role="button" aria-expanded="false" '
                      'data-name="%s" data-verdict="%s" data-grade="%s" data-food="%s" data-dose="%s" data-syn="%s" '
-                     'data-search="%s">'
-                     % (esc(name), v, ax['grade'], ax['food'], ax['dose'], ax['syn'], esc(searchtext)))
-            o.append('<td class="nm">%s<span class="sub">%s</span></td>'
-                     % (T(esc(name), esc(it['zh'])), T(esc(it['zh']), esc(name))))
+                     'data-defi="%s" data-rev="%s" data-search="%s">'
+                     % (esc(name), v, ax['grade'], ax['food'], ax['dose'], ax['syn'],
+                        ax['defi'], ax['rev'], esc(searchtext)))
+            fn = FUNC.get(name) or {}
+            o.append('<td class="nm">%s<span class="sub fnc">%s</span></td>'
+                     % (T(esc(name), esc(it['zh'])),
+                        T(esc(fn.get('function_short', '')), esc(fn.get('function_short_zh') or fn.get('function_short', '')))))
             o.append('<td>%s</td>' % spec_strip(ax))
             o.append('<td><span class="tag %s">%s</span></td>'
                      % (VERDICT_CELL[v][1].replace('n', 'n'),
@@ -200,11 +218,17 @@ def register():
             o.append('<td><span class="tag %s">%s</span></td>' % (fa[2], T(esc(fa[0]), esc(fa[1]))))
             o.append('<td><span class="tag %s">%s</span></td>' % (da[2], T(esc(da[0]), esc(da[1]))))
             o.append('<td><span class="tag %s">%s</span></td>' % (sa[2], T(esc(sa[0]), esc(sa[1]))))
+            de = _DEF.get(ax['defi'], _DEF['NA'])
+            rv = _REV.get(ax['rev'], _REV['NA'])
+            cell = '<span class="tag %s">%s</span>' % (de[2], T(esc(de[0]), esc(de[1])))
+            if ax['rev'] in ('IRREVERSIBLE', 'PARTIAL'):
+                cell += '<br><span class="tag %s" style="margin-top:3px">%s</span>' % (rv[2], T(esc(rv[0]), esc(rv[1])))
+            o.append('<td>%s</td>' % cell)
             o.append('<td class="who">%s</td>' % T(esc(it.get('who_en', '')), esc(it.get('who_zh', ''))))
             o.append('</tr>')
 
             # detail row
-            o.append('<tr class="detail"><td colspan="7"><div class="detail-in">')
+            o.append('<tr class="detail"><td colspan="8"><div class="detail-in">')
             o.append('<section><h5>%s</h5><p>%s</p></section>'
                      % (T('Who it is for', '适用人群'), T(esc(it.get('who_en', '')), esc(it.get('who_zh', '')))))
             o.append('<section><h5>%s</h5><p>%s</p></section>'
@@ -217,6 +241,20 @@ def register():
                 o.append('<section><h5>%s</h5><p>%s</p></section>'
                          % (T('Does the body make it', '身体是否自产'),
                             T(esc(s['endogenous_note']), esc(s.get('endogenous_note_zh') or s['endogenous_note']))))
+            if fn.get('function_full'):
+                o.append('<section><h5>%s</h5><p>%s</p></section>'
+                         % (T('What it does', '它有什么作用'),
+                            T(esc(fn['function_full']), esc(fn.get('function_full_zh') or fn['function_full']))))
+            if str(fn.get('deficiency_state', '')).upper() in ('CLINICAL', 'FUNCTIONAL'):
+                o.append('<section><h5>%s</h5><p>%s</p></section>'
+                         % (T('If you lack it', '缺乏会怎样'),
+                            T(esc(fn.get('deficiency_severe', '')),
+                              esc(fn.get('deficiency_severe_zh') or fn.get('deficiency_severe', '')))))
+                if fn.get('reversibility_note'):
+                    o.append('<section><h5>%s</h5><p>%s</p></section>'
+                             % (T('Does it reverse', '补回来能修复吗'),
+                                T(esc(fn['reversibility_note']),
+                                  esc(fn.get('reversibility_note_zh') or fn['reversibility_note']))))
             o.append('<div class="go"><a href="#%s">%s</a></div>' % (slug(name), T('Full entry &#8594;', '完整条目 &#8594;')))
             o.append('</div></td></tr>')
 
@@ -247,6 +285,7 @@ def register():
         ('3', 'In food', '食物中', FOOD_AXIS, ('RICH', 'TRACE', 'SYNTHETIC', 'NOT_FOOD'), 'F'),
         ('4', 'Dose from food', '靠吃达到剂量', DOSE_AXIS, ('YES', 'PARTIAL', 'NO', 'NA'), 'D'),
         ('5', 'Body makes it', '身体自产', SYN_AXIS, ('FULL', 'PARTIAL', 'CONDITIONAL', 'NONE'), 'B'),
+        ('6', 'If you lack it', '缺乏后果', _DEF, ('CLINICAL', 'FUNCTIONAL', 'NONE'), 'X'),
     ]:
         o.append('<section><h4>%s</h4><ul>' % T('%s &nbsp;%s' % (num, ten), '%s &nbsp;%s' % (num, tzh)))
         for k in keys:
